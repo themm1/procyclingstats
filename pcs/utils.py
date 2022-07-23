@@ -1,9 +1,4 @@
-import os
-import csv
-import json
 import datetime
-import warnings
-from pprint import pprint
 from typing import Dict, Any, Literal
 from requests_html import HTMLSession, HTML
 
@@ -32,31 +27,46 @@ class RequestWrapper:
         "https://www.procyclingstats.com/"
     def __init__(self, url: str, print_request_url: bool=True) -> None:
         # .html and .url are going to be overridden by subclasses
-        self.url: str = url
+        self.url: str = self._format_url(url)
         self.print_request_url: bool = print_request_url
-        self.html: HTML = HTML(html="<HTML>")
+        self.html: HTML = self._request_html()
         self.content: Dict[str, Any] = {}
 
     def __repr__(self) -> str:
-        """:returns: relative `self.url` (without `self.base_url`)"""
-        if "https" in self.url:
-            return self.url.split("/")[1:]
+        """:returns: `self.url`"""
         return self.url
     
-    def _request_html(self, url: str) -> HTML:
+    def _format_url(self, url: str) -> str:
         """
-        Makes request to given url and returns it's HTML, if given url isn't\
-            valid raises ValueError
-        :param url: URL to get HTML from base_url
-        :returns: HTML obtained from given URL
+        Makes full URL from given url (adds `self.base_url` to URL if needed)
+        
+        :param url: URL to format
+        :returns: full URL
+        """
+        if "https" not in url:
+            if url[-1] == "/":
+                url = self.base_url + url[:-1]
+            else:
+                url = self.base_url + url
+        return url
+    
+    def _cut_base_url(self) -> str:
+        """Returns `self.url` without `self.base_url`"""
+        return "/".join(self.url.split("/")[3:])
+    
+    def _request_html(self) -> HTML:
+        """
+        Makes request to `self.url` and returns it's HTML
+
+        :returns: HTML obtained from `self.url`
+        :raises: `ValueError` if URL isn't valid (after making request)
         """
         session = HTMLSession()
-        url = self.base_url + url if "https://" not in url else url
         if self.print_request_url:
-            print(url)
-        html = session.get(url).html
+            print(self.url)
+        html = session.get(self.url).html
         if html.find(".page-title > .main > h1")[0].text == "Page not found":
-            raise ValueError(f"Invalid URL: {url}")
+            raise ValueError(f"Invalid URL: {self.url}")
         return html
 
     def update_html(self) -> None:
@@ -64,7 +74,7 @@ class RequestWrapper:
         Calls request to `url` using `RequestWrapper._request_html` and
         updates `self.html` to returned HTML
         """
-        self.html = self._request_html(self.url)
+        self.html = self._request_html()
         
     def parse_html(self) -> None:
         """Empty method that is going to be overridden by subclasses"""
@@ -73,6 +83,7 @@ class RequestWrapper:
     def build(self) -> Dict[str, Any]:
         """
         Calls `self.update_html` and `self.parse_html`
+
         :returns: `self.content` dict with all parsable info from page
         """
         self.update_html()

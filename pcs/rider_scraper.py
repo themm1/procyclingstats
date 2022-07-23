@@ -10,7 +10,6 @@ def test():
     # rider = Rider("rider/david-canada")
     # rider = Rider("rider/peter-sagan")
     rider = Rider("rider/cesare-benedetti")
-    rider.update_html()
     rider_response = rider.parse_html()
     pprint(rider_response)
 
@@ -20,21 +19,19 @@ class Rider(RequestWrapper):
     Parses information about rider from given `rider_url`
 
     Attributes:
-        url: URL of the race, e.g. `race/tour-de-france/2021`
+        url: rider's URL, e.g. `rider/tadej-pogacar`
         print_request_url: whether to print URL of request when making request
-        html: HTML from the URL, empty on default, call `self.update_html` to\
-            update
+        html: HTML from the URL
         content: dict with parsed information, call `self.parse_html` to update
 
     Args:
-        rider_url: rider's URL, e.g. `rider/peter-sagan`
+        rider_url: rider's URL, e.g. `rider/tadej-pogacar`
         print_request_url: whether to print URL of request when making request
 
     see base class for other inhereted attributes
     """
     def __init__(self, rider_url: str, print_request_url: bool=True) -> None:
-        super().__init__(print_request_url)
-        self.url = rider_url
+        super().__init__(rider_url, print_request_url)
         self.content = {}
 
     def parse_html(self) -> Dict[str, Any]:

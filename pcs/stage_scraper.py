@@ -9,7 +9,6 @@ from race_scraper import Race
 
 def test():
     s = Stage("race/tour-de-france/2022/stage-v")
-    s.update_html()
     s.parse_html()
     # pprint(s.content['info'])
     print(tabulate(s.results()))
@@ -27,7 +26,7 @@ class Stage(RequestWrapper):
     Attributes:
         url: stage's URL
         print_request_url: whether to print URL of request when making request
-        html: HTML from URL, `None` on default
+        html: HTML from URL
         content: dict with parsed information, call `self.parse_html` to update
     Args:
         stage_url: stage's URL, e.g. `race/tour-de-france/2015/stage-18`
@@ -49,7 +48,7 @@ class Stage(RequestWrapper):
         
     def parse_html(self) -> Dict[str, Any]:
         """
-        Store all parsable info to `self.content` dict
+        Stores all parsable info to `self.content` dict
         :returns: `self.content` dict
         """
         self.content['info'] = {
@@ -80,13 +79,13 @@ class Stage(RequestWrapper):
         """
         :returns: race season id parsed from URL e.g. `tour-de-france/2021`
         """
-        return "/".join(self.url.split("/")[1:3])
+        return "/".join(self._cut_base_url().split("/")[1:3])
     
     def stage_id(self) -> str:
         """
         :returns: stage id parsed from URL e.g. `tour-de-france/2021/stage-9`
         """
-        url_elements = self.url.split("/")[1:]
+        url_elements = self._cut_base_url().split("/")[1:]
         stage_id = [element for element in url_elements if element != "result"]
         return "/".join(stage_id)
 

@@ -9,20 +9,17 @@ from utils import RequestWrapper
 def test():
     # RaceOverview()
     url = "race/tour-de-france/2022"
-    race = RaceOverview(url)
-    race.update_html()
+    race = RaceOverview(url + "/overview")
     race.parse_html()
     pprint(race.content)
 
     # stages = RaceStages(url)
-    # stages.update_html()
     # stages.parse_html()
     # pprint(stages.content)
 
-    # startlist = RaceStartlist(url)
-    # startlist.update_html()
+    # startlist = RaceStartlist(url + "/startlist")
     # startlist.parse_html()
-    # pprint(startlist.teams())
+    # print(tabulate(startlist.startlist()))
 
 
 class Race(RequestWrapper):
@@ -32,8 +29,7 @@ class Race(RequestWrapper):
     Attributes:
         url: URL of the race, e.g. `race/tour-de-france/2021`
         print_request_url: whether to print URL of request when making request
-        html: HTML from the URL, empty on default, call `self.update_html` to\
-            update
+        html: HTML from the URL call `self.update_html` to update
         content: dict with parsed information, call `self.parse_html` to update
 
     Args:
@@ -45,23 +41,29 @@ class Race(RequestWrapper):
     def __init__(self, race_url: str, print_request_url: bool=True) -> None:
         super().__init__(race_url, print_request_url)
         
-    @staticmethod
-    def _validate_url(url: str, original_url: str, extra: \
-        Literal["", "overview", "startlist"]="", stage: bool=False) -> None:
+    def _validate_url(self, url: str, extra:\
+            Literal["", "overview", "startlist"]="", stage: bool=False) -> None:
         """
-        Checks whether given URL is valid, is used by `Stage` class too
+        Checks whether given URL is valid before making request, is used by\
+            `Stage` class too
+        
         :param url: race URL to be validate e.g. `race/tour-de-france/2021`
-        :param original_url: unformatted URL that was given while constructing\
-            race object
         :param extra: string that should URL contain after regular race URL\
             e.g. `overview`
         :param stage: whether given URL is stage URL
         :raises: `ValueError` when URL is invalid
         """
-        url_to_check = [element for element in url.split("/") if element != ""]
+        url_to_check = url.split("/")
+        # remove empty strings from URL end (race/tour-de-france/2022/stage-19/)
+        for element in reversed(url_to_check):
+            if element != "":
+                break
+            url_to_check.pop()
         try:
             # remove self.base_url from URL if needed
             if "https" in url:
+                if self.base_url != "/".join(url_to_check[:3]) + "/":
+                    raise IndexError()
                 url_to_check = url_to_check[3:] 
             length = 4 if extra or stage else 3
             # check criteria of valid URL
@@ -72,36 +74,22 @@ class Race(RequestWrapper):
             if extra and valid:
                 valid = url_to_check[3] == extra
             if not valid:
-                raise ValueError(f"Invalid URL: {original_url}")
+                raise ValueError(f"Invalid URL: {url}")
         # if criteria couldn't been checked URL is invalid
         except IndexError:
-            raise ValueError(f"Invalid URL: {original_url}")
-
-    @staticmethod
-    def _format_url(url: str, extra: str) -> str:
-        """
-        :param url: URL to format
-        :param extra: extra part to add to URL
-        :returns: formatted URL and extra part added together
-        """
-        formatted_url = url
-        if extra not in url and url[-1] == "/":
-            formatted_url += extra
-        elif extra not in url:
-            formatted_url += "/" + extra
-        return formatted_url
+            raise ValueError(f"Invalid URL: {url}")
 
     def race_id(self) -> str:
         """:returns: race id parsed from URL e.g. `tour-de-france`"""
-        return self.url.split("/")[1]
+        return self._cut_base_url().split("/")[1]
     
     def year(self) -> int:
         """:returns: year when the race occurred parsed from URL"""
-        return int(self.url.split("/")[2])
+        return int(self._cut_base_url().split("/")[2])
     
     def race_season_id(self) -> str:
         """:returns: race seson id parsed from URL e.g. `tour-de-france/2021`"""
-        return self.url.split("/")[1:3]
+        return self._cut_base_url().split("/")[1:3]
 
 
 class RaceOverview(Race):
@@ -109,21 +97,18 @@ class RaceOverview(Race):
     Parses overview from race overview page
     
     Attributes:
-        url: URL of the race, e.g. `race/tour-de-france/2021`
+        url: URL of the race, e.g. `race/tour-de-france/2021/overview`
         print_request_url: whether to print URL of request when making request
-        html: HTML from the URL, empty on default, call `self.update_html` to\
-            update
+        html: HTML from the URL
         content: dict with parsed information, call `self.parse_html` to update
     Args:
-        race_url: URL of race, e.g. `race/tour-de-france/2021`, `/overview` can
-            be omitted
+        race_url: URL of race, e.g. `race/tour-de-france/2021/overview`
         print_request_url: whether to print URL of request when making request
     see base class for more inhereted attributes
     """
     def __init__(self, race_url: str, print_request_url: bool=True) -> None:
-        formatted_url = self._format_url(race_url, "overview")
-        self._validate_url(formatted_url, race_url, "overview")
-        super().__init__(formatted_url, print_request_url)
+        self._validate_url(race_url, "overview")
+        super().__init__(race_url, print_request_url)
         
     def parse_html(self) -> Dict[str, Any]:
         """
@@ -186,13 +171,12 @@ class RaceOverview(Race):
 
 class RaceStages(Race):
     """
-    Parses stages of a race
+    Parses stages from a race
 
     Attributes:
         url: URL of the race, e.g. `race/tour-de-france/2021`
         print_request_url: whether to print URL of request when making request
-        html: HTML from the URL, empty on default, call `self.update_html` to\
-            update
+        html: HTML from the URL
         content: dict with parsed information, call `self.parse_html` to update
     Args:
         race_url: URL of race, e.g. `race/tour-de-france/2021`
@@ -200,7 +184,7 @@ class RaceStages(Race):
     see base class for more inhereted attributes
     """
     def __init__(self, race_url: str, print_request_url: bool=True) -> None:
-        self._validate_url(race_url, race_url)
+        self._validate_url(race_url)
         super().__init__(race_url, print_request_url)
 
     def parse_html(self) -> Dict[str, List[str]]:
@@ -234,21 +218,18 @@ class RaceStartlist(Race):
     Parses riders and teams from the startlist of a race
 
     Attributes:
-        url: URL of the race, e.g. `race/tour-de-france/2021`
+        url: URL of the race, e.g. `race/tour-de-france/2021/startlist`
         print_request_url: whether to print URL of request when making request
-        html: HTML from the URL, empty on default, call `self.update_html` to\
-            update
+        html: HTML from the URL
         content: dict with parsed information, call `self.parse_html` to update
     Args:
-        race_url: URL of race, e.g. `race/tour-de-france/2021`, `/startlist`
-            can be omitted
+        race_url: URL of race, e.g. `race/tour-de-france/2021/startlist`
         print_request_url: whether to print URL of request when making request
     see base class for more inhereted attributes
     """
     def __init__(self, race_url: str, print_request_url: bool=True) -> None:
-        formatted_url = self._format_url(race_url, "startlist")
-        self._validate_url(formatted_url, race_url, "startlist")
-        super().__init__(formatted_url, print_request_url)
+        self._validate_url(race_url, "startlist")
+        super().__init__(race_url, print_request_url)
 
     def parse_html(self) -> Dict[str, List]:
         """
