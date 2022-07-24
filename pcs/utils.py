@@ -2,10 +2,12 @@ import datetime
 from typing import Dict, Any, Literal
 from requests_html import HTMLSession, HTML
 
+
 class RequestWrapper:
     base_url: Literal["https://www.procyclingstats.com/"] = \
         "https://www.procyclingstats.com/"
-    def __init__(self, url: str, print_request_url: bool=False) -> None:
+
+    def __init__(self, url: str, print_request_url: bool = False) -> None:
         """
         Used as base class for scraping classes
 
@@ -22,11 +24,11 @@ class RequestWrapper:
     def __repr__(self) -> str:
         """:return: `self.url`"""
         return self.url
-    
+
     def _format_url(self, url: str) -> str:
         """
         Makes full URL from given url (adds `self.base_url` to URL if needed)
-        
+
         :param url: URL to format
         :return: full URL
         """
@@ -36,11 +38,11 @@ class RequestWrapper:
             else:
                 url = self.base_url + url
         return url
-    
+
     def _cut_base_url(self) -> str:
         """Returns `self.url` without `self.base_url`"""
         return "/".join(self.url.split("/")[3:])
-    
+
     def _request_html(self) -> HTML:
         """
         Makes request to `self.url` and returns it's HTML
@@ -70,19 +72,22 @@ def convert_date(date: str) -> str:
     month = f"0{month}" if month < 10 else str(month)
     return "-".join([year, month, day])
 
+
 def format_time(time: str):
     time_length = len(time.split(":"))
     for _ in range(3-time_length):
         time = "".join(["00:", time])
     return time
 
+
 def add_time(time1: str, time2: str) -> str:
     [t1hours, t1minutes, t1seconds] = format_time(time1).split(":")
     [t2hours, t2minutes, t2seconds] = format_time(time2).split(":")
     time_a = datetime.timedelta(hours=int(t1hours), minutes=int(t1minutes),
-        seconds=int(t1seconds))
+                                seconds=int(t1seconds))
     time_b = time_a + datetime.timedelta(hours=int(t2hours),
-        minutes=int(t2minutes), seconds=int(t2seconds))
+                                         minutes=int(t2minutes),
+                                         seconds=int(t2seconds))
     if " day, " in str(time_b):
         [days, time] = str(time_b).split(" day, ")
     elif " days, " in str(time_b):

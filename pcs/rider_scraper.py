@@ -15,7 +15,7 @@ def test():
 
 
 class Rider(RequestWrapper):
-    def __init__(self, rider_url: str, print_request_url: bool=False) -> None:
+    def __init__(self, rider_url: str, print_request_url: bool = False) -> None:
         """
         Creates rider object ready for HTML parsing
 
@@ -92,12 +92,12 @@ class Rider(RequestWrapper):
         """
         # normal layout
         try:
-            return int(self.html.find(".rdr-info-cont > span") \
-                [1].text.split(" ")[1])
+            return int(self.html.find(".rdr-info-cont > span")
+                       [1].text.split(" ")[1])
         # special layout
         except IndexError:
-            return int(self.html.find(".rdr-info-cont > span > span") \
-                [1].text.split(" ")[1])
+            return int(self.html.find(".rdr-info-cont > span > span")
+                       [1].text.split(" ")[1])
 
     def height(self) -> float:
         """
@@ -115,7 +115,6 @@ class Rider(RequestWrapper):
                 ".rdr-info-cont > span > span > span")[0]
             return float(height_html.text.split(" ")[1])
 
-
     def nationality(self) -> str:
         """
         Parses rider's nationality from HTML
@@ -129,13 +128,14 @@ class Rider(RequestWrapper):
             return nationality_html.attrs['class'][1].upper()
         # special layout
         except KeyError:
-            nationality_html = self.html.find(".rdr-info-cont > span > span")[0]
+            nationality_html = self.html.find(
+                ".rdr-info-cont > span > span")[0]
             return nationality_html.attrs['class'][1].upper()
 
     def seasons_teams(self) -> List[dict]:
         """
         Parses rider's team history with the exact date of joining from HTML
-        
+
         :return: table with columns `team_season_id`, `since` represented as\
             list of dicts
         """
@@ -146,23 +146,23 @@ class Rider(RequestWrapper):
         current_year = datetime.datetime.now().year
 
         # extract information from html elements
-        years = [int(element.text) 
-            for element in years_html if int(element.text) <= current_year]
+        years = [int(element.text)
+                 for element in years_html if int(element.text) <= current_year]
         seasons_count = len(years_html)
         teams = [element.attrs['href'].split("/")[1]
-            for element in teams_html[-seasons_count+1:]]
+                 for element in teams_html[-seasons_count+1:]]
         dates = [element.text for element in dates_html[-seasons_count+1:]]
 
         seasons = []
         for i, team in enumerate(teams):
             year = years[i]
             date = dates[i]
-            
+
             # rider transfered during the year
             if "as from" in date:
                 transfer = date.split(" ")
                 date = [t_date
-                    for t_date in transfer if t_date[0].isnumeric()][0]
+                        for t_date in transfer if t_date[0].isnumeric()][0]
                 [day, month] = date.split("/")
                 since = "-".join([str(year), month, day])
             # rider has been in the team since the beginning of the year

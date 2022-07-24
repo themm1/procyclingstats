@@ -23,7 +23,8 @@ def test():
 
 
 class Race(RequestWrapper):
-    def __init__(self, race_url: str, print_request_url: bool=False) -> None:
+
+    def __init__(self, race_url: str, print_request_url: bool = False) -> None:
         """
         General Race class
 
@@ -32,13 +33,14 @@ class Race(RequestWrapper):
             making request, defaults to False
         """
         super().__init__(race_url, print_request_url)
-        
-    def _validate_url(self, url: str, extra:\
-            Literal["", "overview", "startlist"]="", stage: bool=False) -> None:
+
+    def _validate_url(
+            self, url: str, extra: Literal["", "overview", "startlist"] = "",
+            stage: bool = False) -> None:
         """
         Checks whether given URL is valid before making request, is used by\
             `Stage` class too
-        
+
         :param url: race URL to be validate e.g. `race/tour-de-france/2021`
         :param extra: string that should URL contain after regular race URL\
             e.g. `overview`
@@ -56,7 +58,7 @@ class Race(RequestWrapper):
             if "https" in url:
                 if self.base_url != "/".join(url_to_check[:3]) + "/":
                     raise IndexError()
-                url_to_check = url_to_check[3:] 
+                url_to_check = url_to_check[3:]
             length = 4 if extra or stage else 3
             # check criteria of valid URL
             valid = len(url_to_check) == length and \
@@ -78,7 +80,7 @@ class Race(RequestWrapper):
         :return: race id e.g. `tour-de-france`
         """
         return self._cut_base_url().split("/")[1]
-    
+
     def year(self) -> int:
         """
         Parses year when the race occured from URL
@@ -86,7 +88,7 @@ class Race(RequestWrapper):
         :return: year as int
         """
         return int(self._cut_base_url().split("/")[2])
-    
+
     def race_season_id(self) -> str:
         """
         Parses race seson id from URL 
@@ -97,7 +99,7 @@ class Race(RequestWrapper):
 
 
 class RaceOverview(Race):
-    def __init__(self, race_url: str, print_request_url: bool=False) -> None:
+    def __init__(self, race_url: str, print_request_url: bool = False) -> None:
         """
         Creates RaceOverview object ready for HTML parsing
 
@@ -108,7 +110,7 @@ class RaceOverview(Race):
         """
         self._validate_url(race_url, "overview")
         super().__init__(race_url, print_request_url)
-        
+
     def parse_html(self) -> Dict[str, Any]:
         """
         Store all parsable info to `self.content` dict, when method fails,\
@@ -191,7 +193,7 @@ class RaceOverview(Race):
     def uci_tour(self) -> str:
         """
         Parses UCI Tour of the race from HTML
-        
+
         :return: UCI Tour of the race e.g. `UCI Worldtour`
         """
         uci_tour_html = self.html.find(".infolist > li > div:nth-child(2)")[3]
@@ -199,7 +201,7 @@ class RaceOverview(Race):
 
 
 class RaceStages(Race):
-    def __init__(self, race_url: str, print_request_url: bool=False) -> None:
+    def __init__(self, race_url: str, print_request_url: bool = False) -> None:
         """
         Creates RaceStages object ready for HTML parsing
 
@@ -223,14 +225,14 @@ class RaceStages(Race):
     def stages(self) -> List[str]:
         """
         Parses race stages from HTML, 
-        
+
         :return: race stages URLs, when race is one day race returns list with\
             one URL
         """
         stages_html = self.html.find(f"div > .pageSelectNav > div > form > \
             select > option")
         stages = [element.attrs['value']
-            for element in stages_html if "-" in element.text]
+                  for element in stages_html if "-" in element.text]
         # remove /result from all stages URLs
         stages = ["/".join(stage.split("/")[:4]) for stage in stages]
         if not stages:
@@ -243,7 +245,7 @@ class RaceStages(Race):
 
 
 class RaceStartlist(Race):
-    def __init__(self, race_url: str, print_request_url: bool=True) -> None:
+    def __init__(self, race_url: str, print_request_url: bool = True) -> None:
         """
         Creates RaceStartlist object ready for HTML parsing
 
@@ -266,7 +268,7 @@ class RaceStartlist(Race):
             "startlist": self.startlist()
         }
         return self.content
-    
+
     def teams(self) -> List[str]:
         """
         Parses teams ids from HTML
@@ -304,7 +306,7 @@ class RaceStartlist(Race):
                     "team_id": team_id,
                     "rider_number": rider_number
                 })
-        return startlist 
+        return startlist
 
 
 if __name__ == "__main__":
