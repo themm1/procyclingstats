@@ -23,22 +23,14 @@ def test():
 
 
 class Race(RequestWrapper):
-    """
-    General Race class
+    def __init__(self, race_url: str, print_request_url: bool=False) -> None:
+        """
+        General Race class
 
-    Attributes:
-        url: URL of the race, e.g. `race/tour-de-france/2021`
-        print_request_url: whether to print URL of request when making request
-        html: HTML from the URL call `self.update_html` to update
-        content: dict with parsed information, call `self.parse_html` to update
-
-    Args:
-        race_url: URL of the race, e.g. `race/tour-de-france/2021`
-        print_request_url: whether to print URL of request when making request
-
-    see base class for other inhereted attributes
-    """
-    def __init__(self, race_url: str, print_request_url: bool=True) -> None:
+        :param race_url: URL of the race, e.g. `race/tour-de-france/2021`
+        :param print_request_url: whether to print URL of request when\
+            making request, defaults to False
+        """
         super().__init__(race_url, print_request_url)
         
     def _validate_url(self, url: str, extra:\
@@ -51,7 +43,7 @@ class Race(RequestWrapper):
         :param extra: string that should URL contain after regular race URL\
             e.g. `overview`
         :param stage: whether given URL is stage URL
-        :raises: `ValueError` when URL is invalid
+        :raises ValueError: when URL is invalid
         """
         url_to_check = url.split("/")
         # remove empty strings from URL end (race/tour-de-france/2022/stage-19/)
@@ -80,33 +72,40 @@ class Race(RequestWrapper):
             raise ValueError(f"Invalid URL: {url}")
 
     def race_id(self) -> str:
-        """:returns: race id parsed from URL e.g. `tour-de-france`"""
+        """
+        Parses race id from URL
+
+        :return: race id e.g. `tour-de-france`
+        """
         return self._cut_base_url().split("/")[1]
     
     def year(self) -> int:
-        """:returns: year when the race occurred parsed from URL"""
+        """
+        Parses year when the race occured from URL
+
+        :return: year as int
+        """
         return int(self._cut_base_url().split("/")[2])
     
     def race_season_id(self) -> str:
-        """:returns: race seson id parsed from URL e.g. `tour-de-france/2021`"""
+        """
+        Parses race seson id from URL 
+
+        :return: race season id e.g. `tour-de-france/2021`
+        """
         return self._cut_base_url().split("/")[1:3]
 
 
 class RaceOverview(Race):
-    """
-    Parses overview from race overview page
-    
-    Attributes:
-        url: URL of the race, e.g. `race/tour-de-france/2021/overview`
-        print_request_url: whether to print URL of request when making request
-        html: HTML from the URL
-        content: dict with parsed information, call `self.parse_html` to update
-    Args:
-        race_url: URL of race, e.g. `race/tour-de-france/2021/overview`
-        print_request_url: whether to print URL of request when making request
-    see base class for more inhereted attributes
-    """
-    def __init__(self, race_url: str, print_request_url: bool=True) -> None:
+    def __init__(self, race_url: str, print_request_url: bool=False) -> None:
+        """
+        Creates RaceOverview object ready for HTML parsing
+
+        :param race_url: URL of race overview either full or relative, e.g.\
+            `race/tour-de-france/2021/overview`
+        :param print_request_url: whether to print URL when making request,\
+            defaults to False
+        """
         self._validate_url(race_url, "overview")
         super().__init__(race_url, print_request_url)
         
@@ -114,7 +113,9 @@ class RaceOverview(Race):
         """
         Store all parsable info to `self.content` dict, when method fails,\
             warning is raised
-        :returns: `self.content` dict
+
+        :raises Warning: when race doesn't have an overview
+        :return: `self.content` dict
         """
         try:
             race_year = self.race_year()
@@ -134,70 +135,98 @@ class RaceOverview(Race):
         return self.content
 
     def display_name(self) -> str:
-        """:returns: race display name"""
+        """
+        Parses display name from HTML
+
+        :return: display name e.g. `Tour de France`
+        """
         display_name_html = self.html.find(".page-title > .main > h1")[0]
         return display_name_html.text
 
     def nationality(self) -> str:
-        """:returns: race nationality as 2 chars long code in uppercase"""
+        """
+        Parses race nationality from HTML
+
+        :return: 2 chars long country code
+        """
         nationality_html = self.html.find(".page-title > .main > span")[0]
         return nationality_html.attrs['class'][1].upper()
 
     def race_year(self) -> int:
-        """:returns: ridden season of the race"""
+        """
+        Parses race ridden year from HTML
+
+        :return: race ridden year
+        """
         race_year_html = self.html.find(".page-title > .main > font")[0]
         return int(race_year_html.text[:-2])
 
     def startdate(self) -> str:
-        """:returns: date when the race starts as `yyyy-mm-dd`"""
+        """
+        Parses race startdate from HTML
+
+        :return: startdate in `dd-mm-yyyy` format
+        """
         startdate_html = self.html.find(".infolist > li > div:nth-child(2)")[0]
         return startdate_html.text
 
     def enddate(self) -> str:
-        """:returns: date when the race ends as `yyyy-mm-dd`"""
+        """
+        Parses race enddate from HTML
+
+        :return: enddate in `dd-mm-yyyy` format
+        """
         enddate_html = self.html.find(".infolist > li > div:nth-child(2)")[1]
         return enddate_html.text
 
     def category(self) -> str:
-        """:returns: race category e.g. `Men Elite`"""
+        """
+        Parses race category from HTML
+
+        :return: race category e.g. `Men Elite`
+        """
         category_html = self.html.find(".infolist > li > div:nth-child(2)")[2]
         return category_html.text
 
     def uci_tour(self) -> str:
-        """:returns: UCI Tour of the race e.g. `UCI Worldtour`"""
+        """
+        Parses UCI Tour of the race from HTML
+        
+        :return: UCI Tour of the race e.g. `UCI Worldtour`
+        """
         uci_tour_html = self.html.find(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text
 
 
 class RaceStages(Race):
-    """
-    Parses stages from a race
+    def __init__(self, race_url: str, print_request_url: bool=False) -> None:
+        """
+        Creates RaceStages object ready for HTML parsing
 
-    Attributes:
-        url: URL of the race, e.g. `race/tour-de-france/2021`
-        print_request_url: whether to print URL of request when making request
-        html: HTML from the URL
-        content: dict with parsed information, call `self.parse_html` to update
-    Args:
-        race_url: URL of race, e.g. `race/tour-de-france/2021`
-        print_request_url: whether to print URL of request when making request
-    see base class for more inhereted attributes
-    """
-    def __init__(self, race_url: str, print_request_url: bool=True) -> None:
+        :param race_url: URL of race either full or relative, e.g.\
+            `race/tour-de-france/2021`
+        :param print_request_url: whether to print URL when making request,\
+            defaults to False
+        """
         self._validate_url(race_url)
         super().__init__(race_url, print_request_url)
 
     def parse_html(self) -> Dict[str, List[str]]:
         """
         Store all parsable info to `self.content` dict
-        :returns: `self.content` dict
+
+        :return: `self.content` dict
         """
         self.content['stages'] = self.stages()
         return self.content
 
     def stages(self) -> List[str]:
-        """:returns: race stages urls, if one day race returns list with one\
-            stage"""
+        """
+        Parses race stages from HTML, 
+        
+        :return: race stages URLs, when race is one day race returns list with\
+            one URL
+        """
         stages_html = self.html.find(f"div > .pageSelectNav > div > form > \
             select > option")
         stages = [element.attrs['value']
@@ -214,27 +243,23 @@ class RaceStages(Race):
 
 
 class RaceStartlist(Race):
-    """
-    Parses riders and teams from the startlist of a race
-
-    Attributes:
-        url: URL of the race, e.g. `race/tour-de-france/2021/startlist`
-        print_request_url: whether to print URL of request when making request
-        html: HTML from the URL
-        content: dict with parsed information, call `self.parse_html` to update
-    Args:
-        race_url: URL of race, e.g. `race/tour-de-france/2021/startlist`
-        print_request_url: whether to print URL of request when making request
-    see base class for more inhereted attributes
-    """
     def __init__(self, race_url: str, print_request_url: bool=True) -> None:
+        """
+        Creates RaceStartlist object ready for HTML parsing
+
+        :param race_url: URL of race overview either full or relative, e.g.\
+            `race/tour-de-france/2021/startlist`
+        :param print_request_url: whether to print URL when making request,\
+            defaults to True
+        """
         self._validate_url(race_url, "startlist")
         super().__init__(race_url, print_request_url)
 
     def parse_html(self) -> Dict[str, List]:
         """
         Store all parsable info to `self.content` dict
-        :returns: `self.content` dict
+
+        :return: `self.content` dict
         """
         self.content = {
             "teams": self.teams(),
@@ -243,14 +268,19 @@ class RaceStartlist(Race):
         return self.content
     
     def teams(self) -> List[str]:
-        """:returns: list with ids of teams from startlist"""
+        """
+        Parses teams ids from HTML
+
+        :return: list with team ids
+        """
         teams_html = self.html.find("ul > li.team > b > a")
         return [team.attrs['href'].split("/")[1] for team in teams_html]
 
     def startlist(self) -> List[dict]:
         """
-        Parses startlist to list of dicts 
-        :returns: table with columns `rider_id`, `rider_number`, `team_id`\
+        Parses startlist from HTML
+
+        :return: table with columns `rider_id`, `rider_number`, `team_id`\
             represented as list of dicts
         """
         startlist = []

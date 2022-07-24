@@ -15,29 +15,23 @@ def test():
 
 
 class Rider(RequestWrapper):
-    """
-    Parses information about rider from given `rider_url`
+    def __init__(self, rider_url: str, print_request_url: bool=False) -> None:
+        """
+        Creates rider object ready for HTML parsing
 
-    Attributes:
-        url: rider's URL, e.g. `rider/tadej-pogacar`
-        print_request_url: whether to print URL of request when making request
-        html: HTML from the URL
-        content: dict with parsed information, call `self.parse_html` to update
-
-    Args:
-        rider_url: rider's URL, e.g. `rider/tadej-pogacar`
-        print_request_url: whether to print URL of request when making request
-
-    see base class for other inhereted attributes
-    """
-    def __init__(self, rider_url: str, print_request_url: bool=True) -> None:
+        :param rider_url: rider's URL either full or relative, e.g.\
+            `rider/tadej-pogacar`
+        :param print_request_url: whether to print URL when making\
+            request, defaults to False
+        """
         super().__init__(rider_url, print_request_url)
         self.content = {}
 
     def parse_html(self) -> Dict[str, Any]:
         """
-        Store all parsable info to `self.content` dict
-        :returns: `self.content` dict
+        Stores all parsable info to `self.content` dict
+
+        :return: `self.content` dict
         """
         self.content['info'] = {
             "rider_id": self.url.split("/")[-1],
@@ -53,7 +47,11 @@ class Rider(RequestWrapper):
         return self.content
 
     def birthdate(self) -> str:
-        """:returns: birthday of the rider in `yyyy-mm-dd` format"""
+        """
+        Parses rider's birthdate from HTML
+
+        :return: birthday of the rider in `yyyy-mm-dd` format
+        """
         general_info = self.html.find(".rdr-info-cont")[0].text.split("\n")
         birth_string = general_info[0].split(": ")[1]
         [date, month, year] = birth_string.split(" ")[:3]
@@ -62,7 +60,11 @@ class Rider(RequestWrapper):
         return "-".join([str(year), str(month), date])
 
     def place_of_birth(self) -> str:
-        """:returns: rider's place of birth (town only)"""
+        """
+        Parses rider's place of birth from HTML
+
+        :return: rider's place of birth (town only)
+        """
         # normal layout
         try:
             place_of_birth_html = self.html.find(
@@ -75,11 +77,19 @@ class Rider(RequestWrapper):
             return place_of_birth_html.text
 
     def name(self) -> str:
-        """:returns: rider's name"""
+        """
+        Parses rider's name from HTML
+
+        :return: rider's name
+        """
         return self.html.find(".page-title > .main > h1")[0].text
 
     def weight(self) -> int:
-        """:returns: rider's weigth"""
+        """
+        Parses rider's current weight from HTML
+
+        :return: rider's weigth
+        """
         # normal layout
         try:
             return int(self.html.find(".rdr-info-cont > span") \
@@ -90,7 +100,11 @@ class Rider(RequestWrapper):
                 [1].text.split(" ")[1])
 
     def height(self) -> float:
-        """:returns: rider's height"""
+        """
+        Parses rider's height from HTML
+
+        :return: rider's height
+        """
         # normal layout
         try:
             height_html = self.html.find(".rdr-info-cont > span > span")[0]
@@ -103,8 +117,12 @@ class Rider(RequestWrapper):
 
 
     def nationality(self) -> str:
-        """:returns: rider's current nationality as 2 chars long \
-            code in uppercase"""
+        """
+        Parses rider's nationality from HTML
+
+        :return: rider's current nationality as 2 chars long country\
+            code in uppercase
+        """
         # normal layout
         try:
             nationality_html = self.html.find(".rdr-info-cont > span")[0]
@@ -116,9 +134,10 @@ class Rider(RequestWrapper):
 
     def seasons_teams(self) -> List[dict]:
         """
-        Parses rider's team history with the exact date of joining
-        :returns: table with columns `team_season_id`, `since` represented \
-            as list of dicts
+        Parses rider's team history with the exact date of joining from HTML
+        
+        :return: table with columns `team_season_id`, `since` represented as\
+            list of dicts
         """
         teams_html = self.html.find(".rdr-teams > li > .name > a")
         years_html = self.html.find(".rdr-teams > li > .season")
@@ -158,8 +177,9 @@ class Rider(RequestWrapper):
 
     def seasons_points(self) -> List[dict]:
         """
-        Parses rider's PCS ranking points and position in each season
-        :returns: table with columns `season`, `points`, `position` represented\
+        Parses rider's PCS ranking points and position in each season from HTML
+
+        :return: table with columns `season`, `points`, `position` represented\
             as list of dicts
         """
         seasons_html = self.html.find(

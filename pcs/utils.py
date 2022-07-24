@@ -3,29 +3,16 @@ from typing import Dict, Any, Literal
 from requests_html import HTMLSession, HTML
 
 class RequestWrapper:
-    """
-    Base class used for making requests to `https://www.procyclingstats.com/`
-
-    Usage of subclasses:
-        Use `self.update_html` to make request to `self.url` and update\
-            `self.html`, `self.parse_html` parses all information from site and\
-            updates `self.content`. Other methods are used by `self.parse_html`\
-            and are used to get concrete information e.g. from Rider class\
-            `birthdate` method returns rider's birthdate
-
-    Attributes:
-        base_url: `https://www.procyclingstats.com/`, URL to be omitted when
-            passing url parameter
-        html: HTML to be parsed from, empty requests_html.HTML object on default
-        url: URL to get HTML from using `update_html`
-        print_request_url: whether to print URL of request when making request
-
-    Args:
-        print_request_url: whether to print URL of request when making request
-    """
     base_url: Literal["https://www.procyclingstats.com/"] = \
         "https://www.procyclingstats.com/"
-    def __init__(self, url: str, print_request_url: bool=True) -> None:
+    def __init__(self, url: str, print_request_url: bool=False) -> None:
+        """
+        Used as base class for scraping classes
+
+        :param url: URL to be parsed from
+        :param print_request_url: whether to print URL when making request,\
+            defaults to True
+        """
         # .html and .url are going to be overridden by subclasses
         self.url: str = self._format_url(url)
         self.print_request_url: bool = print_request_url
@@ -33,7 +20,7 @@ class RequestWrapper:
         self.content: Dict[str, Any] = {}
 
     def __repr__(self) -> str:
-        """:returns: `self.url`"""
+        """:return: `self.url`"""
         return self.url
     
     def _format_url(self, url: str) -> str:
@@ -41,7 +28,7 @@ class RequestWrapper:
         Makes full URL from given url (adds `self.base_url` to URL if needed)
         
         :param url: URL to format
-        :returns: full URL
+        :return: full URL
         """
         if "https" not in url:
             if url[-1] == "/":
@@ -58,8 +45,8 @@ class RequestWrapper:
         """
         Makes request to `self.url` and returns it's HTML
 
-        :returns: HTML obtained from `self.url`
-        :raises: `ValueError` if URL isn't valid (after making request)
+        :raises ValueError: if URL isn't valid (after making request)
+        :return: HTML obtained from `self.url`
         """
         session = HTMLSession()
         if self.print_request_url:
@@ -71,23 +58,10 @@ class RequestWrapper:
 
     def update_html(self) -> None:
         """
-        Calls request to `url` using `RequestWrapper._request_html` and
+        Calls request to `self.url` using `RequestWrapper._request_html` and
         updates `self.html` to returned HTML
         """
         self.html = self._request_html()
-        
-    def parse_html(self) -> None:
-        """Empty method that is going to be overridden by subclasses"""
-        pass
-
-    def build(self) -> Dict[str, Any]:
-        """
-        Calls `self.update_html` and `self.parse_html`
-
-        :returns: `self.content` dict with all parsable info from page
-        """
-        self.update_html()
-        return self.parse_html()
 
 
 def convert_date(date: str) -> str:

@@ -20,19 +20,6 @@ def test():
 
 
 class Stage(RequestWrapper):
-    """
-    Parses information about stage from given `stage_url`
-    
-    Attributes:
-        url: stage's URL
-        print_request_url: whether to print URL of request when making request
-        html: HTML from URL
-        content: dict with parsed information, call `self.parse_html` to update
-    Args:
-        stage_url: stage's URL, e.g. `race/tour-de-france/2015/stage-18`
-        print_request_url: whether to print URL of request when making request
-    see base class for other inhereted attributes
-    """
     _course_translator = {
             "p0": (None, None),
             "p1": ("flat", 0),
@@ -42,14 +29,23 @@ class Stage(RequestWrapper):
             "p5": ("mountain", 1),
     }
     _tables_path = ".result-cont > table > tbody"
-    def __init__(self, stage_url: str, print_request_url: bool=True) -> None:
+    def __init__(self, stage_url: str, print_request_url: bool=False) -> None:
+        """
+        Creates Stage object ready for HTML parsing
+
+        :param race_url: URL of race overview either full or relative, e.g.\
+            `race/tour-de-france/2021/stage-8`
+        :param print_request_url: whether to print URL when making request,\
+            defaults to False
+        """
         Race._validate_url(stage_url, stage_url, stage=True)
         super().__init__(stage_url, print_request_url)
         
     def parse_html(self) -> Dict[str, Any]:
         """
         Stores all parsable info to `self.content` dict
-        :returns: `self.content` dict
+
+        :return: `self.content` dict
         """
         self.content['info'] = {
                 "stage_id": self.stage_id(),
@@ -77,45 +73,69 @@ class Stage(RequestWrapper):
     
     def race_season_id(self) -> str:
         """
-        :returns: race season id parsed from URL e.g. `tour-de-france/2021`
+        Parses race season id from URL
+
+        :return: race season id e.g. `tour-de-france/2021`
         """
         return "/".join(self._cut_base_url().split("/")[1:3])
     
     def stage_id(self) -> str:
         """
-        :returns: stage id parsed from URL e.g. `tour-de-france/2021/stage-9`
+        Parses stage id from URL
+
+        :returns: stage id e.g. `tour-de-france/2021/stage-9`
         """
         url_elements = self._cut_base_url().split("/")[1:]
         stage_id = [element for element in url_elements if element != "result"]
         return "/".join(stage_id)
 
     def is_stage_race(self) -> bool:
-        """:returns: whether the race is a stage race"""
+        """
+        Parses whether race is a stage race from HTML
+
+        :return: whether the race is a stage race
+        """
         # If there are elements with .restabs class (Stage/GC... menu), the race
         # is a stage race
         return len(self.html.find(".restabs")) > 0
 
     def distance(self) -> float:
-        """:returns: distance of the stage"""
+        """
+        Parses stage distance from HTML
+
+        :return: stage distance in kms
+        """
         distance_html = self.html.find(".infolist > li:nth-child(5) > div")
         return float(distance_html[1].text.split(" km")[0])
     
     def mtf(self) -> bool:
-        """:returns: bool whether the stage has mountain finnish"""
+        """
+        Parses whether stage has mountain finnish
+
+        :return: whether stage has mtf
+        """
         profile_html = self.html.find(".infolist > li:nth-child(7) > \
             div:nth-child(2) > span")       
         profile = profile_html[0].attrs['class'][2] 
         return bool(self._course_translator[profile][1])
     
     def course_type(self) -> Union[Literal["flat", "hilly", "mountain"], None]:
-        """:returns: course type"""
+        """
+        Parses course type from HTML
+
+        :return: course type
+        """
         profile_html = self.html.find(".infolist > li:nth-child(7) > \
             div:nth-child(2) > span")       
         profile = profile_html[0].attrs['class'][2] 
         return self._course_translator[profile][0]
     
     def stage_type(self) -> Literal["itt", "ttt", "rr"]:
-        """:returns: type of stage"""
+        """
+        Parses stage type from HTML
+
+        :return: stage type
+        """
         stage_name_html = self.html.find(".sub > .blue")
         stage_name = stage_name_html[0].text
         if "(ITT)" in stage_name:
@@ -127,9 +147,11 @@ class Stage(RequestWrapper):
         
     def winning_attack_length(self, when_none_or_unknown: float=0.0) -> float:
         """
+        Parses length of winning attack from HTML
+
         :param when_none_or_unknown: value to return when there is no info \
-            about winning attack
-        :returns: length of winning attack"""
+            about winning attack, defaults to 0.0
+        :return: length of winning attack"""
         won_how_html = self.html.find(".infolist > li:nth-child(12) > div")
         won_how = won_how_html[1].text
         if " km solo" in won_how:
@@ -138,32 +160,49 @@ class Stage(RequestWrapper):
             return when_none_or_unknown
         
     def vertical_meters(self) -> int:
-        """:returns: vertical meters gained throughout the stage"""
+        """
+        Parses vertical meters gained throughout the stage from HTML
+        
+        :return: vertical meters
+        """
         vertical_meters_html = self.html.find(".infolist > li:nth-child(9) \
             > div")
         vertical_meters = vertical_meters_html[1].text
         return int(vertical_meters) if vertical_meters else None
     
     def date(self) -> str:
-        """:returns: date when stage took place `yyyy-mm-dd"""
+        """
+        Parses date when stage took place from HTML
+
+        :return: date when stage took place `yyyy-mm-dd`
+        """
         date_html = self.html.find(f".infolist > li > div")
         date = date_html[1].text.split(", ")[0]
         return convert_date(date)
     
     def departure(self) -> str:
-        """:returns: departure of the stage"""
+        """
+        Parses departure of the stage from HTML
+
+        :return: departure of the stage
+        """
         departure_html = self.html.find(".infolist > li:nth-child(10) > div")
         return departure_html[1].text
         
     def arrival(self) -> str:
-        """:returns: arrival of the stage"""
+        """
+        Parses arrival of the stage from HTML
+
+        :return: arrival of the stage
+        """
         arrival_html = self.html.find(".infolist > li:nth-child(11) > div")
         return arrival_html[1].text
 
     def results(self) -> List[dict]:
         """
-        Parses main results table to list of dict
-        :returns: table with columns `rider_id`, `team_id`, `rank`, \
+        Parses main results table from HTML
+
+        :return: table with columns `rider_id`, `team_id`, `rank`, \
             `status`, `bonus_seconds` represented as list of dicts
         """
         # remove other result tables from html
@@ -179,8 +218,9 @@ class Stage(RequestWrapper):
     
     def gc(self) -> List[dict]:
         """
-        Parses GC results table to list of dict
-        :returns: table with columns `rider_id`, `team_id`, `rank`, \
+        Parses GC results table from HTML
+
+        :return: table with columns `rider_id`, `team_id`, `rank`, \
             `bonus_seconds` represented as list of dicts, empty when not found 
         """
         # remove other result tables from html
@@ -194,8 +234,9 @@ class Stage(RequestWrapper):
     
     def points(self) -> List[dict]:
         """
-        Parses points classification table to list of dict
-        :returns: table with columns `rider_id`, `team_id`, `rank`, `points`, \
+        Parses points classification from HTML
+
+        :return: table with columns `rider_id`, `team_id`, `rank`, `points`, \
             `delta_points` represented as list of dicts, empty when not found
         """
         points_table_index = self._table_index("points") 
@@ -210,8 +251,9 @@ class Stage(RequestWrapper):
 
     def kom(self) -> List[dict]:
         """
-        Parses kom classification table to list of dict
-        :returns: table with columns `rider_id`, `team_id`, `rank`, `points`, \
+        Parses kom classification table from HTML
+
+        :return: table with columns `rider_id`, `team_id`, `rank`, `points`, \
             `delta_points` represented as list of dicts, empty when not found
         """
         kom_table_index = self._table_index("kom") 
@@ -227,8 +269,9 @@ class Stage(RequestWrapper):
     
     def youth(self) -> List[dict]:
         """
-        Parses youth classification table to list of dict
-        :returns: table with columns `rider_id`, `team_id`, `rank`,`time` \
+        Parses youth classification table from HTML
+
+        :return: table with columns `rider_id`, `team_id`, `rank`,`time` \
             represented as list of dicts, empty list when not found
         """
         youth_table_index = self._table_index("youth")
@@ -243,8 +286,9 @@ class Stage(RequestWrapper):
 
     def teams(self) -> List[dict]:
         """
-        Parses team time classification table to list of dict
-        :returns: table with columns `team_id`, `rank`, `time` represented as \
+        Parses team time classification from HTML
+
+        :return: table with columns `team_id`, `rank`, `time` represented as \
             list of dicts, empty list when not found
         """
         teams_table_index = self._table_index("teams")
@@ -261,8 +305,9 @@ class Stage(RequestWrapper):
             "youth", "teams"]) -> Union[int, None]:
         """
         Get index of HTML .result-cont table with results based on `table` param
+
         :param table: keyword of wanted table that occures in .restabs menu
-        :returns: index of wanted HTML table, None when not found
+        :return: index of wanted HTML table, None when not found
         """
         table_index = None
         for i, element in enumerate(self.html.find("ul.restabs > li > a")):
@@ -273,8 +318,9 @@ class Stage(RequestWrapper):
     def _points_index(self, html: requests_html.HTML) -> Union[int, None]:
         """
         Get index of column with points from HTML table
+
         :param html: HTML table to be parsed from
-        :returns: index of columns with points, None when not found
+        :return: index of columns with points, None when not found
         """
         points_index = None
         elements = html.find("tbody > tr:first-child > td")
@@ -288,10 +334,11 @@ class Stage(RequestWrapper):
             gc: bool=False) -> List[dict]:
         """
         Parse results HTML table with times and bonuses (stage/gc)
+
         :param html: HTML table to be parsed from
         :param gc: whether the HTML table is table with GC results (whether to \
             include status value to parsed table)
-        :returns: parsed table represented as list of dicts
+        :return: parsed table represented as list of dicts
         """
         first_time_html = html.find("td.time.ar")[0]
         ranks_html = html.find("td:first-child")
@@ -363,10 +410,11 @@ class Stage(RequestWrapper):
         """
         Parse results HTML table with times and without bonuses (teams/youth/\
             one day races)
+
         :param html: HTML table to be parsed from
         :param teams: whether the HTML table is table with team time results (\
             whether to include rider_id value to parsed table)
-        :returns: parsed table represented as list of dicts
+        :return: parsed table represented as list of dicts
         """
         if teams:
             ids_html = html.find("td:nth-child(4) > a")
@@ -407,8 +455,9 @@ class Stage(RequestWrapper):
     def _parse_points_table(self, html: requests_html.HTML) -> List[dict]:
         """
         Parse results HTML table with points (points/kom classifications)
+
         :param html: HTML table to be parsed from
-        :returns: parsed table represented as list of dicts
+        :return: parsed table represented as list of dicts
         """
         points_index = self._points_index(html)
         # return if points index wasn't found
@@ -451,8 +500,9 @@ class Stage(RequestWrapper):
     def _parse_ttt_results_table(self, html: requests_html.HTML) -> List[dict]:
         """
         Parse results HTML table from team time trial
+
         :param html: HTML table to be parsed from
-        :returns: parsed table represented as list of dicts
+        :return: parsed table represented as list of dicts
         """
         # Info about current table row
         current_position = 0
