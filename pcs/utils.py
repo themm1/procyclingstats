@@ -40,7 +40,11 @@ class RequestWrapper:
         return url
 
     def _cut_base_url(self) -> str:
-        """Returns `self.url` without `self.base_url`"""
+        """
+        Makes relative URL from absolute url (cuts `self.base_url` from URL)
+
+        :return: relative URL
+        """
         return "/".join(self.url.split("/")[3:])
 
     def _request_html(self) -> HTML:
