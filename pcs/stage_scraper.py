@@ -1,14 +1,17 @@
-from typing import Literal, Union, List, Dict, Any
 from pprint import pprint
+from typing import Any, Dict, List, Literal, Union
+
 import requests_html
-from tabulate import tabulate
 from requests_html import HTML
-from utils import RequestWrapper, convert_date, add_time
+from tabulate import tabulate
+
 from race_scraper import Race
+from scraper import Scraper
+from utils import add_time, convert_date
 
 
 def test():
-    s = Stage("race/tour-de-france/2022/stage-v")
+    s = Stage("race/tour-de-france/2022/stage-16")
     s.parse_html()
     # pprint(s.content['info'])
     print(tabulate(s.results()))
@@ -19,7 +22,7 @@ def test():
     # print(tabulate(s.teams()))
 
 
-class Stage(RequestWrapper):
+class Stage(Scraper):
     _course_translator = {
         "p0": (None, None),
         "p1": ("flat", 0),

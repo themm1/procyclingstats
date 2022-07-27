@@ -1,8 +1,9 @@
 from pprint import pprint
-from tabulate import tabulate
-from typing import List, Tuple, Dict
+from typing import Dict, List, Tuple
 
-from utils import RequestWrapper
+from tabulate import tabulate
+
+from scraper import Scraper
 
 
 def test():
@@ -19,7 +20,7 @@ def test():
     # print(tabulate(t.riders()))
 
 
-class Team(RequestWrapper):
+class Team(Scraper):
     def __init__(self, team_url: str, print_request_url: bool = False) -> None:
         """
         Creates Team object ready for HTML parsing

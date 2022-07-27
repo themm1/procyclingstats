@@ -1,9 +1,9 @@
 import calendar
 import datetime
 from pprint import pprint
-from typing import Dict, List, Any
+from typing import Any, Dict, List
 
-from utils import RequestWrapper
+from scraper import Scraper
 
 
 def test():
@@ -14,7 +14,7 @@ def test():
     pprint(rider_response)
 
 
-class Rider(RequestWrapper):
+class Rider(Scraper):
     def __init__(self, rider_url: str, print_request_url: bool = False) -> None:
         """
         Creates rider object ready for HTML parsing

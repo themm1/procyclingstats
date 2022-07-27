@@ -1,9 +1,10 @@
 from pprint import pprint
-from typing import List, Dict, Any, Literal
+from typing import Any, Dict, List, Literal
+
 from requests_html import HTML
 from tabulate import tabulate
 
-from utils import RequestWrapper
+from scraper import Scraper
 
 
 def test():
@@ -22,7 +23,7 @@ def test():
     # print(tabulate(startlist.startlist()))
 
 
-class Race(RequestWrapper):
+class Race(Scraper):
 
     def __init__(self, race_url: str, print_request_url: bool = False) -> None:
         """
