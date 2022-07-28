@@ -38,6 +38,9 @@ class TableParser:
             - nationality
             - time
             - bonus
+            - points
+            - pcs_points
+            - uci_points
         """
         for tr_html in self.html_table.find("tr"):
             tr = TableRowParser(tr_html)
@@ -60,14 +63,86 @@ class TableParser:
             tr = TableRowParser(tr_html)
             self.table[i][field_name] = func(tr.get_other(index))
 
+        # if extra_table:
+
     def make_times_absolute(self) -> None:
         """
         Sums all times from table with first time from table. Time fields are\
             required to be called `time` and table has to have at least 2 rows.
         """
         first_time = self.table[0]['time']
+        self.table[0]['time'] = add_time(first_time, "00:00:00")
         for row in self.table[1:]:
-            row['time'] = add_time(first_time, row['time'])
+            if row['time']:
+                row['time'] = add_time(first_time, row['time'])
+
+
+def parse_ttt_table(html_table: HTML, fields: List[str],
+                    extra_table: Union[HTML, None] = None) -> List[dict]:
+    """
+    Special function for parsing TTT results
+
+    :param html_table: TTT results HTML table to be parsed from
+    :param fields: wanted fields (public `TableParser` methods are current\
+        options)
+    :param extra_table: extra HTML table from which fields like age or\
+        nationality will be parsed, defaults to None
+    :return: table with wanted fields represented as list of dicts
+    """
+    ttt_table = {}
+
+    for tr in html_table:
+        trp = TableRowParser(tr)
+        if "team" in tr.attrs['class']:
+            current_rank = trp.rank()
+            # gets third td element, which is time
+            current_team_time = trp.get_other(2)
+            current_team_name = trp.team_name()
+            current_team_url = trp.team_url()
+        else:
+            rider_name = trp.rider_name()
+            rider_url = trp.rider_url()
+            extra_time = tr.find("span.blue")
+            pcs_points = tr.find(".ac")[0]
+            pcs_points = 0 if not pcs_points else int(pcs_points)
+            uci_points = tr.find(".ac.blue")[0]
+            uci_points = 0 if not uci_points else float(uci_points)
+            if extra_time:
+                rider_time = add_time(extra_time[0].text, current_team_time)
+            else:
+                rider_time = current_team_name
+            ttt_table[rider_url] = {
+                "rank": current_rank,
+                "time": rider_time,
+                "rider_name": rider_name,
+                "rider_url": rider_url,
+                "team_name": current_team_name,
+                "team_url": current_team_url,
+                "pcs_points": pcs_points,
+                "uci_points": uci_points,
+                "status": "DF"
+            }
+            # drop unwanted fields
+            for field in fields:
+                if field in ttt_table[rider_url].keys():
+                    ttt_table[rider_url].pop(field)
+    # add more fields to table if needed and extra table is available
+    if extra_table:
+        ttt_fields = [
+            "rank", "time", "rider_name", "rider_url", "team_name", "team_url",
+            "pcs_points", "uci_points", "pcs_points", "status"
+        ]
+        tp = TableParser(extra_table)
+        # remove fields that are already set
+        fields = [field for field in fields if field not in ttt_fields]
+        tp.parse(fields.append("rider_url"))
+        new_table = []
+        for row in tp.table:
+            ttt_table_row = ttt_table[row['rider_url']]
+            # merge tables together
+            new_table.append({**row, **ttt_table_row})
+        return new_table
+    return ttt_table
 
 
 class TableRowParser:
@@ -80,7 +155,7 @@ class TableRowParser:
         self.tr = tr
 
     def _get_a(self, to_find: Literal["rider", "team"],
-               url: bool = False) -> Tuple[str]:
+               url: bool = False) -> str:
         """
         Gets `a` element and returns it's text or URL
 
@@ -196,6 +271,8 @@ class TableRowParser:
             time = hidden_time_list[0].text
         else:
             time = self.tr.find(".time")[0].text.split("\n")[0]
+        if time == "-":
+            time = None
         return time
 
     def bonus(self) -> int:
@@ -204,11 +281,64 @@ class TableRowParser:
 
         :return: bonus seconds as int, 0 if not found
         """
-        bonus_html = self.tr.find(".bonis")[0]
-        bonus = bonus_html.text.replace("″", "")
+        bonus_html_list = self.tr.find(".bonis")
+        if not bonus_html_list:
+            return 0
+        bonus = bonus_html_list[0].text.replace("″", "")
         if not bonus:
             return 0
         return int(bonus)
+
+    def points(self) -> int:
+        """
+        Parses points (last `td` element from row that is not .delta_pnt)
+
+        :return: points
+        """
+        points_html = self.tr.find("td:not(.delta_pnt)")[-1]
+        return int(points_html.text)
+
+    def pcs_points(self) -> int:
+        """
+        Parses PCS points
+
+        :return: PCS points, when not found returns 0
+        """
+        tds = self.tr.find("td")
+        count = 0
+        # get PCS points by getting eigth column that is not of class fs10
+        for td in tds:
+            if "class" not in td.attrs.keys() or\
+                    "fs10" not in td.attrs['class'] and\
+                    "gc" not in td.attrs['class']:
+                count += 1
+            if count == 8:
+                pcs_points = td.text
+                if pcs_points.isnumeric():
+                    return int(pcs_points)
+                else:
+                    return 0
+
+    def uci_points(self) -> float:
+        """
+        Parses UCI points
+
+        :return: UCI points, when not found returns 0
+        """
+        tds = self.tr.find("td")
+        # get UCI points by getting seventh column that is not of class fs10
+        count = 0
+        for td in tds:
+            if "class" not in td.attrs.keys() or\
+                    "fs10" not in td.attrs['class'] and\
+                    "gc" not in td.attrs['class']:
+                count += 1
+            if count == 7:
+                uci_points = td.text
+                if uci_points.isnumeric():
+                    return float(uci_points)
+                else:
+                    return 0
 
     def get_other(self, index: int) -> str:
         """
