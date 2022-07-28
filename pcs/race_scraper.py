@@ -36,8 +36,8 @@ class Race(Scraper):
         super().__init__(race_url, print_request_url)
 
     def _validate_url(
-            self, url: str, extra: Literal["", "overview", "startlist"] = "",
-            stage: bool = False) -> None:
+        self, url: str, extra: Literal["", "overview", "startlist"] = ""
+    ) -> None:
         """
         Checks whether given URL is valid before making request, is used by\
             `Stage` class too
@@ -60,14 +60,16 @@ class Race(Scraper):
                 if self.base_url != "/".join(url_to_check[:3]) + "/":
                     raise IndexError()
                 url_to_check = url_to_check[3:]
-            length = 4 if extra or stage else 3
+            length = 4 if extra else 3
             # check criteria of valid URL
-            valid = len(url_to_check) == length and \
-                url_to_check[0] == "race" and \
-                url_to_check[2].isnumeric() and \
-                len(url_to_check[2]) == 4
+            valid = len(url_to_check) >= 2 and \
+                len(url_to_check) <= 4 and \
+                url_to_check[0] == "race"
+            if valid and len(url_to_check) > 2:
+                valid = url_to_check[2].isnumeric() and \
+                    len(url_to_check[2]) == 4
             if extra and valid:
-                valid = url_to_check[3] == extra
+                valid = url_to_check[-1] == extra
             if not valid:
                 raise ValueError(f"Invalid URL: {url}")
         # if criteria couldn't been checked URL is invalid
