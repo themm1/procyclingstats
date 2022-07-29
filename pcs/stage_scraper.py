@@ -201,7 +201,7 @@ class Stage(Scraper):
         arrival_html = self.html.find(".infolist > li:nth-child(11) > div")
         return arrival_html[1].text
 
-    def results(self, *args: str, fields: tuple = (
+    def results(self, *args: str, available_fields: tuple = (
                 "rider_name", "rider_url", "team_name", "team_url", "rank",
                 "status", "age", "nationality", "time", "bonus", "pcs_points",
                 "uci_points")) -> List[dict]:
@@ -210,11 +210,11 @@ class Stage(Scraper):
 
         :param *args: fields that should be contained in results table,\
             available options are a all included in `fields` default value
-        :param fields: default fields, all available options
+        :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: results table represented as list of dicts
         """
-        fields = parse_table_fields_args(args, fields)
+        fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
         categories = self.html.find(self._tables_path)
@@ -228,7 +228,7 @@ class Stage(Scraper):
             tp.make_times_absolute()
             return tp.table
 
-    def gc(self, *args: str, fields: tuple = (
+    def gc(self, *args: str, available_fields: tuple = (
         "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
         "age", "nationality", "time", "bonus", "pcs_points", "uci_points"
     )) -> List[dict]:
@@ -238,11 +238,11 @@ class Stage(Scraper):
 
         :param *args: fields that should be contained in results table,\
             available options are a all included in `fields` default value
-        :param fields: default fields, all available options
+        :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: GC results table represented as list of dicts
         """
-        fields = parse_table_fields_args(args, fields)
+        fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         gc_table_html = self._table_html("gc")
         tp = TableParser(gc_table_html)
@@ -250,7 +250,7 @@ class Stage(Scraper):
         tp.make_times_absolute()
         return tp.table
 
-    def points(self, *args: str, fields: tuple = (
+    def points(self, *args: str, available_fields: tuple = (
         "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
         "points", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
@@ -260,19 +260,19 @@ class Stage(Scraper):
 
         :param *args: fields that should be contained in results table,\
             available options are a all included in `fields` default value
-        :param fields: default fields, all available options
+        :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: points classification results table represented as list of\
             dicts
         """
-        fields = parse_table_fields_args(args, fields)
+        fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         points_table_html = self._table_html("points")
         tp = TableParser(points_table_html)
         tp.parse(fields)
         return tp.table
 
-    def kom(self, *args: str, fields: tuple = (
+    def kom(self, *args: str, available_fields: tuple = (
         "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
         "points", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
@@ -282,18 +282,18 @@ class Stage(Scraper):
 
         :param *args: fields that should be contained in results table,\
             available options are a all included in `fields` default value
-        :param fields: default fields, all available options
+        :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: KOM classification results table represented as list of dicts
         """
-        fields = parse_table_fields_args(args, fields)
+        fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         kom_table_html = self._table_html("kom")
         tp = TableParser(kom_table_html)
         tp.parse(fields)
         return tp.table
 
-    def youth(self, *args: str, fields: tuple = (
+    def youth(self, *args: str, available_fields: tuple = (
         "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
         "time", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
@@ -303,18 +303,18 @@ class Stage(Scraper):
 
         :param *args: fields that should be contained in results table,\
             available options are a all included in `fields` default value
-        :param fields: default fields, all available options
+        :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: youth classification results table represented as list of dicts
         """
-        fields = parse_table_fields_args(args, fields)
+        fields = parse_table_fields_args(args, available_fields)
         youth_table_html = self._table_html("youth")
         tp = TableParser(youth_table_html)
         tp.parse(fields)
         tp.make_times_absolute()
         return tp.table
 
-    def teams(self, *args: str, fields: tuple = (
+    def teams(self, *args: str, available_fields: tuple = (
         "team_name", "team_url", "rank", "prev_rank", "time", "nationality",
             "pcs_points", "uci_points")) -> List[dict]:
         """
@@ -323,11 +323,11 @@ class Stage(Scraper):
 
         :param *args: fields that should be contained in results table,\
             available options are a all included in `fields` default value
-        :param fields: default fields, all available options
+        :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: youth classification results table represented as list of dicts
         """
-        fields = parse_table_fields_args(args, fields)
+        fields = parse_table_fields_args(args, available_fields)
         teams_table_html = self._table_html("teams")
         tp = TableParser(teams_table_html)
         tp.parse(fields)
