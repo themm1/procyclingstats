@@ -236,8 +236,7 @@ class Stage(Scraper):
         Parses results from GC results table from HTML, available only on stage\
             races
 
-        :param *args: fields that should be contained in results table,\
-            available options are a all included in `fields` default value
+        :param *args: fields that should be contained in results table\
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: GC results table represented as list of dicts
@@ -258,8 +257,7 @@ class Stage(Scraper):
         Parses results from points classification results table from HTML,\
             available only on stage races
 
-        :param *args: fields that should be contained in results table,\
-            available options are a all included in `fields` default value
+        :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: points classification results table represented as list of\
@@ -280,8 +278,7 @@ class Stage(Scraper):
         Parses results from KOM classification results table from HTML,\
             available only on stage races
 
-        :param *args: fields that should be contained in results table,\
-            available options are a all included in `fields` default value
+        :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: KOM classification results table represented as list of dicts
@@ -301,8 +298,7 @@ class Stage(Scraper):
         Parses results from youth classification results table from HTML,\
             available only on stage races
 
-        :param *args: fields that should be contained in results table,\
-            available options are a all included in `fields` default value
+        :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: youth classification results table represented as list of dicts
@@ -321,8 +317,7 @@ class Stage(Scraper):
         Parses results from teams classification results table from HTML,\
             available only on stage races
 
-        :param *args: fields that should be contained in results table,\
-            available options are a all included in `fields` default value
+        :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: youth classification results table represented as list of dicts
