@@ -154,15 +154,15 @@ class TableRowParser:
         """
         self.tr = tr
 
-    def _get_a(self, to_find: Literal["rider", "team", "race"],
+    def _get_a(self, to_find: Literal["rider", "team", "race", "nation"],
                url: bool = False) -> str:
         """
         Gets `a` element and returns it's text or URL
 
-        :param to_find: whether to find team, rider or race `a` element
+        :param to_find: based on what keyword should be `a` element found
         :param url: whether to return URL, when False returns text, defaults to\
             False
-        :return: URL or name of team, rider or race
+        :return: text of the element, if url is True href of the element
         """
         for a in self.tr.find("a"):
             if a.attrs['href'].split("/")[0] == to_find:
@@ -341,10 +341,36 @@ class TableRowParser:
                     return 0
 
     def race_name(self) -> str:
+        """
+        Parses race name
+
+        :return: race name e.g `Tour de France`
+        """
         return self._get_a("race", False)
 
     def race_url(self) -> str:
+        """
+        Parses race URL from `a` element href
+
+        :return: race's URL e.g. `race/tour-de-france`
+        """
         return self._get_a("race", True)
+
+    def nation_name(self) -> str:
+        """
+        Parses nation name
+
+        :return: nation name e.g. `Belgium`
+        """
+        return self._get_a("nation", False)
+
+    def nation_url(self) -> str:
+        """
+        Parses nation URL from `a` element href
+
+        :return: nation url e.g. `nation/belgium`
+        """
+        return self._get_a("nation", True)
 
     def get_other(self, index: int) -> str:
         """
