@@ -8,7 +8,7 @@ from tabulate import tabulate
 from parsers import TableParser, TableRowParser, parse_ttt_table
 from race_scraper import Race
 from scraper import Scraper
-from utils import convert_date
+from utils import convert_date, parse_table_fields_args
 
 
 def test():
@@ -214,9 +214,7 @@ class Stage(Scraper):
         :raises ValueError: when one of args is invalid
         :return: results table represented as list of dicts
         """
-        self._check_args(args, fields)
-        if args:
-            fields = [arg for arg in args]
+        fields = parse_table_fields_args(args, fields)
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
         categories = self.html.find(self._tables_path)
@@ -244,9 +242,7 @@ class Stage(Scraper):
         :raises ValueError: when one of args is invalid
         :return: GC results table represented as list of dicts
         """
-        self._check_args(args, fields)
-        if args:
-            fields = [arg for arg in args]
+        fields = parse_table_fields_args(args, fields)
         # remove other result tables from html
         gc_table_html = self._table_html("gc")
         tp = TableParser(gc_table_html)
@@ -269,9 +265,7 @@ class Stage(Scraper):
         :return: points classification results table represented as list of\
             dicts
         """
-        self._check_args(args, fields)
-        if args:
-            fields = [arg for arg in args]
+        fields = parse_table_fields_args(args, fields)
         # remove other result tables from html
         points_table_html = self._table_html("points")
         tp = TableParser(points_table_html)
@@ -292,9 +286,7 @@ class Stage(Scraper):
         :raises ValueError: when one of args is invalid
         :return: KOM classification results table represented as list of dicts
         """
-        self._check_args(args, fields)
-        if args:
-            fields = [arg for arg in args]
+        fields = parse_table_fields_args(args, fields)
         # remove other result tables from html
         kom_table_html = self._table_html("kom")
         tp = TableParser(kom_table_html)
@@ -315,9 +307,7 @@ class Stage(Scraper):
         :raises ValueError: when one of args is invalid
         :return: youth classification results table represented as list of dicts
         """
-        self._check_args(args, fields)
-        if args:
-            fields = [arg for arg in args]
+        fields = parse_table_fields_args(args, fields)
         youth_table_html = self._table_html("youth")
         tp = TableParser(youth_table_html)
         tp.parse(fields)
@@ -337,9 +327,7 @@ class Stage(Scraper):
         :raises ValueError: when one of args is invalid
         :return: youth classification results table represented as list of dicts
         """
-        self._check_args(args, fields)
-        if args:
-            fields = [arg for arg in args]
+        fields = parse_table_fields_args(args, fields)
         teams_table_html = self._table_html("teams")
         tp = TableParser(teams_table_html)
         tp.parse(fields)
@@ -373,19 +361,6 @@ class Stage(Scraper):
                 points_index = len(elements) - i
                 break
         return points_index
-
-    @staticmethod
-    def _check_args(args: tuple, options: tuple):
-        """
-        Check whether given args are valid
-
-        :param args: given args
-        :param options: possible arg values
-        :raises ValueError: when arg is invalid
-        """
-        for arg in args:
-            if arg not in options:
-                raise ValueError("Invalid field argument")
 
 
 if __name__ == "__main__":

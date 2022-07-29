@@ -1,6 +1,25 @@
 import datetime
 
 
+def parse_table_fields_args(args: tuple, available_fields: tuple) -> tuple:
+    """
+    Check whether given args are valid and get table fields
+
+    :param args: args to be validated
+    :param available_fields: args that would be valid
+    :raises ValueError: when one of args is not valid
+    :return: table fields, args if any were given, otherwise all available\
+        fields
+    """
+    for arg in args:
+        if arg not in available_fields:
+            raise ValueError("Invalid field argument")
+    if args:
+        return args
+    else:
+        return available_fields
+
+
 def convert_date(date: str) -> str:
     [day, month, year] = date.split(" ")
     month = datetime.datetime.strptime(month, "%B").month
