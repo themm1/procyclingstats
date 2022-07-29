@@ -12,8 +12,8 @@ class Scraper:
         Used as base class for scraping classes
 
         :param url: URL to be parsed from
-        :param print_request_url: whether to print URL when making request,\
-            defaults to True
+        :param print_request_url: whether to print URL when making request, 
+        defaults to True
         """
         # .html and .url are going to be overridden by subclasses
         self.url: str = self._format_url(url)

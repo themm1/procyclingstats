@@ -37,10 +37,10 @@ class Stage(Scraper):
         """
         Creates Stage object ready for HTML parsing
 
-        :param race_url: URL of race overview either full or relative, e.g.\
-            `race/tour-de-france/2021/stage-8`
-        :param print_request_url: whether to print URL when making request,\
-            defaults to False
+        :param race_url: URL of race overview either full or relative, e.g.
+        `race/tour-de-france/2021/stage-8`
+        :param print_request_url: whether to print URL when making request,
+        defaults to False
         """
         Race._validate_url(stage_url, stage_url)
         super().__init__(stage_url, print_request_url)
@@ -117,8 +117,8 @@ class Stage(Scraper):
 
         :return: whether stage has mtf
         """
-        profile_html = self.html.find(".infolist > li:nth-child(7) > \
-            div:nth-child(2) > span")
+        profile_html = self.html.find(".infolist > li:nth-child(7) > "
+                                      "div:nth-child(2) > span")
         profile = profile_html[0].attrs['class'][2]
         return bool(self._course_translator[profile][1])
 
@@ -128,8 +128,8 @@ class Stage(Scraper):
 
         :return: course type
         """
-        profile_html = self.html.find(".infolist > li:nth-child(7) > \
-            div:nth-child(2) > span")
+        profile_html = self.html.find(".infolist > li:nth-child(7) > "
+                                      "div:nth-child(2) > span")
         profile = profile_html[0].attrs['class'][2]
         return self._course_translator[profile][0]
 
@@ -152,8 +152,8 @@ class Stage(Scraper):
         """
         Parses length of winning attack from HTML
 
-        :param when_none_or_unknown: value to return when there is no info \
-            about winning attack, defaults to 0.0
+        :param when_none_or_unknown: value to return when there is no info 
+        about winning attack, defaults to 0.0
         :return: length of winning attack"""
         won_how_html = self.html.find(".infolist > li:nth-child(12) > div")
         won_how = won_how_html[1].text
@@ -168,8 +168,8 @@ class Stage(Scraper):
 
         :return: vertical meters
         """
-        vertical_meters_html = self.html.find(".infolist > li:nth-child(9) \
-            > div")
+        vertical_meters_html = self.html.find(".infolist > li:nth-child(9) "
+                                              " > div")
         vertical_meters = vertical_meters_html[1].text
         return int(vertical_meters) if vertical_meters else None
 
@@ -208,8 +208,8 @@ class Stage(Scraper):
         """
         Parses main results table from HTML
 
-        :param *args: fields that should be contained in results table,\
-            available options are a all included in `fields` default value
+        :param *args: fields that should be contained in results table,
+        available options are a all included in `fields` default value
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: results table represented as list of dicts
@@ -233,10 +233,10 @@ class Stage(Scraper):
         "age", "nationality", "time", "bonus", "pcs_points", "uci_points"
     )) -> List[dict]:
         """
-        Parses results from GC results table from HTML, available only on stage\
-            races
+        Parses results from GC results table from HTML, available only on stage
+        races
 
-        :param *args: fields that should be contained in results table\
+        :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
         :return: GC results table represented as list of dicts
@@ -254,14 +254,14 @@ class Stage(Scraper):
         "points", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
         """
-        Parses results from points classification results table from HTML,\
-            available only on stage races
+        Parses results from points classification results table from HTML, 
+        available only on stage races
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
-        :return: points classification results table represented as list of\
-            dicts
+        :return: points classification results table represented as list of 
+        dicts
         """
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
@@ -275,8 +275,8 @@ class Stage(Scraper):
         "points", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
         """
-        Parses results from KOM classification results table from HTML,\
-            available only on stage races
+        Parses results from KOM classification results table from HTML,
+        available only on stage races
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
@@ -295,8 +295,8 @@ class Stage(Scraper):
         "time", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
         """
-        Parses results from youth classification results table from HTML,\
-            available only on stage races
+        Parses results from youth classification results table from HTML,
+        available only on stage races
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
@@ -314,8 +314,8 @@ class Stage(Scraper):
         "team_name", "team_url", "rank", "prev_rank", "time", "nationality",
             "pcs_points", "uci_points")) -> List[dict]:
         """
-        Parses results from teams classification results table from HTML,\
-            available only on stage races
+        Parses results from teams classification results table from HTML,
+        available only on stage races
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options

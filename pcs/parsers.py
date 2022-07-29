@@ -8,12 +8,12 @@ from utils import add_time
 class TableParser:
     def __init__(self, html_table: HTML, table: Union[list, None] = None):
         """
-        Parsed content is stored in `self.table`, which is represented as list\
-            of dicts
+        Parsed content is stored in `self.table`, which is represented as list
+        of dicts
 
         :param html_table: HTML table to be parsed from
-        :param table: table to be parsed to, if None new one is created,\
-            defaults to None
+        :param table: table to be parsed to, if None new one is created, 
+        defaults to None
         """
         self.html_table: HTML = html_table
         self.table: List[dict] = []
@@ -22,9 +22,9 @@ class TableParser:
 
     def parse(self, fields: List[str]) -> None:
         """
-        Parses HTML table to `self.table` (list of dicts) by calling given \
-            `TableRowParses` methods. Every parsed table row is dictionary with\
-            `fields` keys
+        Parses HTML table to `self.table` (list of dicts) by calling given
+        `TableRowParses` methods. Every parsed table row is dictionary with
+        `fields` keys
 
         :param fields: `TableRowParser` methods to be called, current options:
             - rider_name
@@ -51,8 +51,8 @@ class TableParser:
 
     def extend_table(self, field_name: str, index: int, func: callable) -> None:
         """
-        Extends table by adding text of index-th `td` element from each row\
-            from HTML table
+        Extends table by adding text of index-th `td` element from each row from
+        HTML table
 
         :param field_name: key that will represent parsed value in table row\
             dict
@@ -67,8 +67,8 @@ class TableParser:
 
     def make_times_absolute(self) -> None:
         """
-        Sums all times from table with first time from table. Time fields are\
-            required to be called `time` and table has to have at least 2 rows.
+        Sums all times from table with first time from table. Time fields are
+        required to be called `time` and table has to have at least 2 rows.
         """
         first_time = self.table[0]['time']
         self.table[0]['time'] = add_time(first_time, "00:00:00")
@@ -160,8 +160,8 @@ class TableRowParser:
         Gets `a` element and returns it's text or URL
 
         :param to_find: based on what keyword should be `a` element found
-        :param url: whether to return URL, when False returns text, defaults to\
-            False
+        :param url: whether to return URL, when False returns text, defaults to
+        False
         :return: text of the element, if url is True href of the element
         """
         for a in self.tr.find("a"):
@@ -221,8 +221,8 @@ class TableRowParser:
         """
         Parses status (same element as rank)
 
-        :return: if rank is numeric returns `DF` otherwise returns rank text\
-            value, e.g. `DNF`
+        :return: if rank is numeric returns `DF` otherwise returns rank text 
+        value, e.g. `DNF`
         """
         status_html = self.tr.find("td")[0]
         if status_html.text.isnumeric():
@@ -374,9 +374,8 @@ class TableRowParser:
 
     def get_other(self, index: int) -> str:
         """
-        Parses `td` elementh that is index-th child of current row HTML, used\
-            for elements that can't be accessed always by same path e.g. UCI\
-            points
+        Parses `td` elementh that is index-th child of current row HTML, used
+        for elements that can't be accessed always by same path e.g. UCI points
 
         :param index: index of wanted `td` element
         :return: text attribute of wanted element

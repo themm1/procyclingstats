@@ -19,10 +19,10 @@ class Rider(Scraper):
         """
         Creates rider object ready for HTML parsing
 
-        :param rider_url: rider's URL either full or relative, e.g.\
-            `rider/tadej-pogacar`
-        :param print_request_url: whether to print URL when making\
-            request, defaults to False
+        :param rider_url: rider's URL either full or relative, e.g.
+        `rider/tadej-pogacar`
+        :param print_request_url: whether to print URL when making request,
+        defaults to False
         """
         super().__init__(rider_url, print_request_url)
         self.content = {}
@@ -119,8 +119,8 @@ class Rider(Scraper):
         """
         Parses rider's nationality from HTML
 
-        :return: rider's current nationality as 2 chars long country\
-            code in uppercase
+        :return: rider's current nationality as 2 chars long country code in
+        uppercase
         """
         # normal layout
         try:
@@ -136,8 +136,8 @@ class Rider(Scraper):
         """
         Parses rider's team history with the exact date of joining from HTML
 
-        :return: table with columns `team_season_id`, `since` represented as\
-            list of dicts
+        :return: table with columns `team_season_id`, `since` represented as
+        list of dicts
         """
         teams_html = self.html.find(".rdr-teams > li > .name > a")
         years_html = self.html.find(".rdr-teams > li > .season")
@@ -179,8 +179,8 @@ class Rider(Scraper):
         """
         Parses rider's PCS ranking points and position in each season from HTML
 
-        :return: table with columns `season`, `points`, `position` represented\
-            as list of dicts
+        :return: table with columns `season`, `points`, `position` represented 
+        as list of dicts
         """
         seasons_html = self.html.find(
             ".rdr-season-stats > tbody > tr > td.season")

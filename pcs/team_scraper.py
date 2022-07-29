@@ -25,10 +25,10 @@ class Team(Scraper):
         """
         Creates Team object ready for HTML parsing
 
-        :param team_url: team URL, either full or relative, e.g.\
-            `team/bora-hansgrohe-2022`
-        :param print_request_url: whether to print URL when making request,\
-            defaults to False
+        :param team_url: team URL, either full or relative, e.g. 
+        `team/bora-hansgrohe-2022`
+        :param print_request_url: whether to print URL when making request,
+        defaults to False
         """
         super().__init__(team_url, print_request_url)
         self.content = {}
@@ -89,12 +89,12 @@ class Team(Scraper):
 
     def _add_career_points_to_table(self, table: Dict[str, dict]) -> None:
         """
-        Parses career points of each rider from HTML and adds points to given\
-            table, note that career points are rider's current career points,\
-            not career points in corresponding season
+        Parses career points of each rider from HTML and adds points to given
+        table, note that career points are rider's current career points,
+        not career points in corresponding season
 
-        :param table: table to be extended represented as dict of dicts where\
-            key should be rider id
+        :param table: table to be extended represented as dict of dicts where
+        key should be rider id
         """
         riders_ids_htmls = self.html.find(
             ".taba > ul > li > div:nth-child(2) > a")
@@ -109,11 +109,11 @@ class Team(Scraper):
 
     def _add_ages_to_table(self, table: Dict[str, dict]) -> None:
         """
-        Parses age of each rider from HTML and adds age to given\
-            table, in historical seasons age is taken from July 1st
+        Parses age of each rider from HTML and adds age to given table, in
+        historical seasons age is taken from July 1st
 
-        :param table: table to be extended represented as dict of dicts where\
-            key should be rider id
+        :param table: table to be extended represented as dict of dicts where
+        key should be rider id
         """
         riders_ids_htmls = self.html.find(
             ".tabc > ul > li > div:nth-child(2) > a")
@@ -132,10 +132,10 @@ class Team(Scraper):
         Gets day and month from string containing day/month or day-month
 
         :param str_with_date: string with day and month separated by - or /
-        :raises ValueError: if string doesn't contain day and month in wanted\
-            format
-        :return: tuple in (day, month) format where day and month are numeric\
-            strings
+        :raises ValueError: if string doesn't contain day and month in wanted
+        format
+        :return: tuple in (day, month) format where day and month are numeric
+        strings
         """
         day, month = "", ""
         # loop through string and check whether next 5 characters are in wanted
@@ -196,8 +196,8 @@ class Team(Scraper):
         """
         Parses team status from HTML
 
-        :return: team status as 2 chars long code in uppercase e.g. `WT` (World\
-            Tour)
+        :return: team status as 2 chars long code in uppercase e.g. `WT` (World
+        Tour)
         """
         team_status_html = self.html.find(
             "div > ul.infolist > li:nth-child(1) > div")[1]
@@ -207,8 +207,8 @@ class Team(Scraper):
         """
         Parses team abbreviation from HTML
 
-        :return: team abbreviation as 3 chars long code in uppercase e.g. `BOH`\
-            (BORA - hansgrohe)
+        :return: team abbreviation as 3 chars long code in uppercase e.g. `BOH`
+        (BORA - hansgrohe)
         """
         abbreviation_html = self.html.find(
             "div > ul.infolist > li:nth-child(2) > div")[1]

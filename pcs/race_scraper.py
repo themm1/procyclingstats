@@ -30,8 +30,8 @@ class Race(Scraper):
         General Race class
 
         :param race_url: URL of the race, e.g. `race/tour-de-france/2021`
-        :param print_request_url: whether to print URL of request when\
-            making request, defaults to False
+        :param print_request_url: whether to print URL of request when
+        making request, defaults to False
         """
         super().__init__(race_url, print_request_url)
 
@@ -39,12 +39,12 @@ class Race(Scraper):
         self, url: str, extra: Literal["", "overview", "startlist"] = ""
     ) -> None:
         """
-        Checks whether given URL is valid before making request, is used by\
-            `Stage` class too
+        Checks whether given URL is valid before making request, is used by
+        `Stage` class too
 
         :param url: race URL to be validate e.g. `race/tour-de-france/2021`
-        :param extra: string that should URL contain after regular race URL\
-            e.g. `overview`
+        :param extra: string that should URL contain after regular race URL e.g.
+        `overview`
         :param stage: whether given URL is stage URL
         :raises ValueError: when URL is invalid
         """
@@ -106,18 +106,18 @@ class RaceOverview(Race):
         """
         Creates RaceOverview object ready for HTML parsing
 
-        :param race_url: URL of race overview either full or relative, e.g.\
-            `race/tour-de-france/2021/overview`
-        :param print_request_url: whether to print URL when making request,\
-            defaults to False
+        :param race_url: URL of race overview either full or relative, e.g.
+        `race/tour-de-france/2021/overview`
+        :param print_request_url: whether to print URL when making request, 
+        defaults to False
         """
         self._validate_url(race_url, "overview")
         super().__init__(race_url, print_request_url)
 
     def parse_html(self) -> Dict[str, Any]:
         """
-        Store all parsable info to `self.content` dict, when method fails,\
-            warning is raised
+        Store all parsable info to `self.content` dict, when method fails, 
+        warning is raised
 
         :raises Warning: when race doesn't have an overview
         :return: `self.content` dict
@@ -208,10 +208,10 @@ class RaceStages(Race):
         """
         Creates RaceStages object ready for HTML parsing
 
-        :param race_url: URL of race either full or relative, e.g.\
-            `race/tour-de-france/2021`
-        :param print_request_url: whether to print URL when making request,\
-            defaults to False
+        :param race_url: URL of race either full or relative, e.g. 
+        `race/tour-de-france/2021`
+        :param print_request_url: whether to print URL when making request, 
+        defaults to False
         """
         self._validate_url(race_url)
         super().__init__(race_url, print_request_url)
@@ -252,10 +252,10 @@ class RaceStartlist(Race):
         """
         Creates RaceStartlist object ready for HTML parsing
 
-        :param race_url: URL of race overview either full or relative, e.g.\
-            `race/tour-de-france/2021/startlist`
-        :param print_request_url: whether to print URL when making request,\
-            defaults to True
+        :param race_url: URL of race overview either full or relative, e.g.
+        `race/tour-de-france/2021/startlist`
+        :param print_request_url: whether to print URL when making request,
+        defaults to True
         """
         self._validate_url(race_url, "startlist")
         super().__init__(race_url, print_request_url)
@@ -285,8 +285,8 @@ class RaceStartlist(Race):
         """
         Parses startlist from HTML
 
-        :return: table with columns `rider_id`, `rider_number`, `team_id`\
-            represented as list of dicts
+        :return: table with columns `rider_id`, `rider_number`, `team_id` 
+        represented as list of dicts
         """
         startlist = []
         teams_html = self.html.find("ul > li.team")

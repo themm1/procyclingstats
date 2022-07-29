@@ -1,7 +1,7 @@
 import datetime
 
 
-def parse_table_fields_args(args: tuple, available_fields: tuple) -> tuple:
+def parse_table_fields_args(args: tuple, available_fields: tuple) -> list:
     """
     Check whether given args are valid and get table fields
 
@@ -15,9 +15,9 @@ def parse_table_fields_args(args: tuple, available_fields: tuple) -> tuple:
         if arg not in available_fields:
             raise ValueError("Invalid field argument")
     if args:
-        return args
+        return list(args)
     else:
-        return available_fields
+        return list(available_fields)
 
 
 def convert_date(date: str) -> str:
