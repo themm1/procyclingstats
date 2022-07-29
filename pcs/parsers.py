@@ -154,15 +154,15 @@ class TableRowParser:
         """
         self.tr = tr
 
-    def _get_a(self, to_find: Literal["rider", "team"],
+    def _get_a(self, to_find: Literal["rider", "team", "race"],
                url: bool = False) -> str:
         """
         Gets `a` element and returns it's text or URL
 
-        :param to_find: whether to find team or rider `a` element
+        :param to_find: whether to find team, rider or race `a` element
         :param url: whether to return URL, when False returns text, defaults to\
             False
-        :return: URL or name of team or rider
+        :return: URL or name of team, rider or race
         """
         for a in self.tr.find("a"):
             if a.attrs['href'].split("/")[0] == to_find:
@@ -289,14 +289,14 @@ class TableRowParser:
             return 0
         return int(bonus)
 
-    def points(self) -> int:
+    def points(self) -> float:
         """
         Parses points (last `td` element from row that is not .delta_pnt)
 
         :return: points
         """
         points_html = self.tr.find("td:not(.delta_pnt)")[-1]
-        return int(points_html.text)
+        return float(points_html.text)
 
     def pcs_points(self) -> int:
         """
@@ -339,6 +339,12 @@ class TableRowParser:
                     return float(uci_points)
                 else:
                     return 0
+
+    def race_name(self) -> str:
+        return self._get_a("race", False)
+
+    def race_url(self) -> str:
+        return self._get_a("race", True)
 
     def get_other(self, index: int) -> str:
         """
