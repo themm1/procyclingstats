@@ -323,6 +323,11 @@ class TableParser:
         "ul": "li"
     }
     """Finds out what is the table children tag"""
+    ttt_fields: List[str] = [
+        "rank", "time", "rider_name", "rider_url", "team_name", "team_url",
+        "pcs_points", "uci_points", "pcs_points", "status"
+    ]
+    """Fields that are available in TTT results table"""
 
     def __init__(
             self, html_table: HTML,
@@ -385,6 +390,51 @@ class TableParser:
                           for field in fields}
             self.table.append(parsed_row)
 
+    def parse_ttt_table(self, fields: List[str]) -> None:
+        """
+        Special method for parsing TTT results
+
+        :param fields: wanted fields (public `TableParser` methods are current\
+            options)
+        :return: table with wanted fields represented as list of dicts
+        """
+        for tr in self.html_table.find(self.table_child_tag):
+            trp = TableRowParser(tr)
+            if "team" in tr.attrs['class']:
+                current_rank = trp.rank()
+                # gets third td element, which is time
+                current_team_time = trp.get_other(2)
+                current_team_name = trp.team_name()
+                current_team_url = trp.team_url()
+            else:
+                rider_name = trp.rider_name()
+                rider_url = trp.rider_url()
+                extra_time = tr.find("span.blue")
+                pcs_points = tr.find(".ac")[0].text
+                pcs_points = 0 if not pcs_points else int(pcs_points)
+                uci_points = tr.find(".ac.blue")[0].text
+                uci_points = 0 if not uci_points else float(uci_points)
+                if extra_time:
+                    rider_time = add_time(extra_time[0].text, current_team_time)
+                else:
+                    rider_time = add_time(current_team_time, "00:00:00")
+                full_dict = {
+                    "rank": current_rank,
+                    "time": rider_time,
+                    "rider_name": rider_name,
+                    "rider_url": rider_url,
+                    "team_name": current_team_name,
+                    "team_url": current_team_url,
+                    "pcs_points": pcs_points,
+                    "uci_points": uci_points,
+                    "status": "DF"
+                }
+                self.table.append({})
+                # drop unwanted fields
+                for field in full_dict.keys():
+                    if field in fields:
+                        self.table[-1][field] = full_dict[field]
+
     def extend_table(self, field_name: str, index: int, func: callable) -> None:
         """
         Extends table by adding text of index-th `td` element from each row from
@@ -427,74 +477,6 @@ class TableParser:
         for row in self.table:
             if row[date_field]:
                 row[date_field] = f"{row[date_field]}-{str(year)}"
-
-
-def parse_ttt_table(html_table: HTML, fields: List[str],
-                    extra_table: Union[HTML, None] = None) -> List[dict]:
-    """
-    Special function for parsing TTT results
-
-    :param html_table: TTT results HTML table to be parsed from
-    :param fields: wanted fields (public `TableParser` methods are current\
-        options)
-    :param extra_table: extra HTML table from which fields like age or\
-        nationality will be parsed, defaults to None
-    :return: table with wanted fields represented as list of dicts
-    """
-    ttt_table = {}
-
-    for tr in html_table:
-        trp = TableRowParser(tr)
-        if "team" in tr.attrs['class']:
-            current_rank = trp.rank()
-            # gets third td element, which is time
-            current_team_time = trp.get_other(2)
-            current_team_name = trp.team_name()
-            current_team_url = trp.team_url()
-        else:
-            rider_name = trp.rider_name()
-            rider_url = trp.rider_url()
-            extra_time = tr.find("span.blue")
-            pcs_points = tr.find(".ac")[0]
-            pcs_points = 0 if not pcs_points else int(pcs_points)
-            uci_points = tr.find(".ac.blue")[0]
-            uci_points = 0 if not uci_points else float(uci_points)
-            if extra_time:
-                rider_time = add_time(extra_time[0].text, current_team_time)
-            else:
-                rider_time = current_team_name
-            ttt_table[rider_url] = {
-                "rank": current_rank,
-                "time": rider_time,
-                "rider_name": rider_name,
-                "rider_url": rider_url,
-                "team_name": current_team_name,
-                "team_url": current_team_url,
-                "pcs_points": pcs_points,
-                "uci_points": uci_points,
-                "status": "DF"
-            }
-            # drop unwanted fields
-            for field in fields:
-                if field in ttt_table[rider_url].keys():
-                    ttt_table[rider_url].pop(field)
-    # add more fields to table if needed and extra table is available
-    if extra_table:
-        ttt_fields = [
-            "rank", "time", "rider_name", "rider_url", "team_name", "team_url",
-            "pcs_points", "uci_points", "pcs_points", "status"
-        ]
-        tp = TableParser(extra_table)
-        # remove fields that are already set
-        fields = [field for field in fields if field not in ttt_fields]
-        tp.parse(fields.append("rider_url"))
-        new_table = []
-        for row in tp.table:
-            ttt_table_row = ttt_table[row['rider_url']]
-            # merge tables together
-            new_table.append({**row, **ttt_table_row})
-        return new_table
-    return ttt_table
 
 
 if __name__ == "__main__":

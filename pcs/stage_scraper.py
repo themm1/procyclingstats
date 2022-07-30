@@ -5,15 +5,15 @@ import requests_html
 from requests_html import HTML
 from tabulate import tabulate
 
-from parsers import TableParser, TableRowParser, parse_ttt_table
+from parsers import TableParser
 from race_scraper import Race
 from scraper import Scraper
 from utils import convert_date, course_translator, parse_table_fields_args
 
 
 def test():
-    s = Stage("race/milano-sanremo")
-    s.parse_html()
+    # s = Stage("race/world-championship-ttt/2017")
+    s = Stage("race/tour-de-france/2019/stage-2")
     print(tabulate(s.results()))
     # print(tabulate(s.gc()))
     # print(tabulate(s.points()))
@@ -85,15 +85,15 @@ class Stage(Scraper):
         stage_id = [element for element in url_elements if element != "result"]
         return "/".join(stage_id)
 
-    def is_stage_race(self) -> bool:
+    def is_one_day_race(self) -> bool:
         """
-        Parses whether race is a stage race from HTML
+        Parses whether race is an one day race from HTML
 
-        :return: whether the race is a stage race
+        :return: whether the race is an one day race
         """
         # If there are elements with .restabs class (Stage/GC... menu), the race
         # is a stage race
-        return len(self.html.find(".restabs")) > 0
+        return len(self.html.find(".restabs")) == 0
 
     def distance(self) -> float:
         """
@@ -126,20 +126,22 @@ class Stage(Scraper):
         profile = profile_html[0].attrs['class'][2]
         return self._course_translator[profile][0]
 
-    def stage_type(self) -> Literal["itt", "ttt", "rr"]:
+    def stage_type(self) -> Literal["ITT", "TTT", "RR"]:
         """
         Parses stage type from HTML
 
         :return: stage type
         """
         stage_name_html = self.html.find(".sub > .blue")
+        stage_name2_html = self.html.find("div.main > h1")[0]
         stage_name = stage_name_html[0].text
-        if "(ITT)" in stage_name:
-            return "itt"
-        elif "(TTT)" in stage_name:
-            return "ttt"
+        stage_name2 = stage_name2_html.text
+        if "ITT" in stage_name or "ITT" in stage_name2:
+            return "ITT"
+        elif "TTT" in stage_name or "TTT" in stage_name2:
+            return "TTT"
         else:
-            return "rr"
+            return "RR"
 
     def winning_attack_length(self, when_none_or_unknown: float = 0.0) -> float:
         """
@@ -199,12 +201,14 @@ class Stage(Scraper):
                 "status", "age", "nationality", "time", "bonus", "pcs_points",
                 "uci_points")) -> List[dict]:
         """
-        Parses main results table from HTML
+        Parses main results table from HTML, if results table is TTT one day
+        race, fields `age`, `nationality` and `bonus` are not available
 
-        :param *args: fields that should be contained in results table,
-        available options are a all included in `fields` default value
+        :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
+        :raises Exception: when one day race TTT results table had invalid
+        fields
         :return: results table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
@@ -212,9 +216,45 @@ class Stage(Scraper):
         # because of one day races self._table_index isn't used here
         categories = self.html.find(self._tables_path)
         results_table_html = HTML(html=categories[0].html)
-        if self.stage_type() == "ttt":
-            gc_table_html = self._table_html("gc")
-            return parse_ttt_table(results_table_html, fields, gc_table_html)
+        # parse TTT table
+        if self.stage_type() == "TTT":
+            tp = TableParser(results_table_html)
+            wanted_ttt_fields = [field for field in fields if field in
+                                 tp.ttt_fields]
+            # add rider_url for easier parsing
+            rider_url_added = False
+            if "rider_url" not in wanted_ttt_fields:
+                wanted_ttt_fields.append("rider_url")
+                rider_url_added = True
+
+            tp.parse_ttt_table(wanted_ttt_fields)
+            rider_url_key_table = {row['rider_url']: row for row in tp.table}
+            # remove rider_url from table
+            if rider_url_added:
+                for rider_url in rider_url_key_table.keys():
+                    rider_url_key_table[rider_url].pop("rider_url")
+
+            wanted_extra_fields = [field for field in fields if field not in
+                                   tp.ttt_fields]
+            if wanted_extra_fields and self.is_one_day_race():
+                raise Exception(
+                    "Can't parse nationality or age of TTT results "
+                    "table participant, when race is an one day race.")
+            elif wanted_extra_fields and not self.is_one_day_race():
+                gc_table_html = self._table_html("gc")
+                extra_tp = TableParser(gc_table_html)
+                wanted_extra_fields.append("rider_url")
+                extra_tp.parse(wanted_extra_fields)
+                # merge tp.table and extra_tp.table by rider_url and remove
+                # rider_url from extra_tp.table
+                table = []
+                for row in extra_tp.table:
+                    row2 = rider_url_key_table[row['rider_url']]
+                    row.pop("rider_url")
+                    table.append({**row, **row2})
+                return table
+            else:
+                return tp.table
         else:
             tp = TableParser(results_table_html)
             tp.parse(fields)
