@@ -1,18 +1,23 @@
 from pprint import pprint
-from typing import Any, Dict, List, Literal
+from typing import Any, Dict, List, Literal, Tuple
 
 from requests_html import HTML
 from tabulate import tabulate
 
+from parsers import TableParser
 from scraper import Scraper
+from utils import course_translator, parse_table_fields_args
 
 
 def test():
     # RaceOverview()
-    url = "race/tour-de-france/2022"
+    url = "race/tour-de-france/2021"
     race = RaceOverview(url + "/overview")
-    race.parse_html()
-    pprint(race.content)
+    print(tabulate(race.stages()))
+    # print(race.startdate())
+    # pprint(race.stages())
+    # race.parse_html()
+    # pprint(race.content)
 
     # stages = RaceStages(url)
     # stages.parse_html()
@@ -24,7 +29,6 @@ def test():
 
 
 class Race(Scraper):
-
     def __init__(self, race_url: str, print_request_url: bool = False) -> None:
         """
         General Race class
@@ -102,6 +106,8 @@ class Race(Scraper):
 
 
 class RaceOverview(Race):
+    _course_translator: dict = course_translator
+
     def __init__(self, race_url: str, print_request_url: bool = False) -> None:
         """
         Creates RaceOverview object ready for HTML parsing
@@ -137,6 +143,8 @@ class RaceOverview(Race):
             "category": self.category(),
             "uci_tour": self.uci_tour(),
         }
+        if not self.is_one_day_race():
+            self.content['stages'] = self.stages()
         return self.content
 
     def display_name(self) -> str:
@@ -147,6 +155,15 @@ class RaceOverview(Race):
         """
         display_name_html = self.html.find(".page-title > .main > h1")[0]
         return display_name_html.text
+
+    def is_one_day_race(self) -> bool:
+        """
+        Parses whether race is one day race from HTML
+
+        :return: whether given race is one day race
+        """
+        one_day_race_html = self.html.find("div.sub > span.blue")[0]
+        return "stage" not in one_day_race_html.text.lower()
 
     def nationality(self) -> str:
         """
@@ -202,49 +219,26 @@ class RaceOverview(Race):
         uci_tour_html = self.html.find(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text
 
-
-class RaceStages(Race):
-    def __init__(self, race_url: str, print_request_url: bool = False) -> None:
+    def stages(self, *args: str, available_fields: Tuple[str] = (
+        "date", "mtf", "course_type", "stage_name", "stage_url", "distance"
+    )) -> List[str]:
         """
-        Creates RaceStages object ready for HTML parsing
+        Parses race stages from HTML (available only on stage races) 
 
-        :param race_url: URL of race either full or relative, e.g. 
-        `race/tour-de-france/2021`
-        :param print_request_url: whether to print URL when making request, 
-        defaults to False
+        :param *args: fields that should be contained in results table,
+        available options are a all included in `fields` default value
+        :param available_fields: default fields, all available options
+        :raises Exception: when race is one day race
+        :return: table with wanted fields represented as list of dicts
         """
-        self._validate_url(race_url)
-        super().__init__(race_url, print_request_url)
-
-    def parse_html(self) -> Dict[str, List[str]]:
-        """
-        Store all parsable info to `self.content` dict
-
-        :return: `self.content` dict
-        """
-        self.content['stages'] = self.stages()
-        return self.content
-
-    def stages(self) -> List[str]:
-        """
-        Parses race stages from HTML, 
-
-        :return: race stages URLs, when race is one day race returns list with\
-            one URL
-        """
-        stages_html = self.html.find(f"div > .pageSelectNav > div > form > \
-            select > option")
-        stages = [element.attrs['value']
-                  for element in stages_html if "-" in element.text]
-        # remove /result from all stages URLs
-        stages = ["/".join(stage.split("/")[:4]) for stage in stages]
-        if not stages:
-            # is one day race
-            stages = [self.url]
-        else:
-            # remove duplicates
-            stages = list(dict.fromkeys(stages))
-        return stages
+        if self.is_one_day_race():
+            raise Exception("This method is available only on stage races")
+        fields = parse_table_fields_args(args, available_fields)
+        stages_table_html = self.html.find("div:nth-child(3) > ul.list")[0]
+        tp = TableParser(stages_table_html, "ul")
+        tp.parse(fields, lambda x: True if "Restday" in x.text else False)
+        tp.add_year_to_dates(self.year())
+        return tp.table
 
 
 class RaceStartlist(Race):

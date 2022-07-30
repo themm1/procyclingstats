@@ -8,7 +8,7 @@ from tabulate import tabulate
 from parsers import TableParser, TableRowParser, parse_ttt_table
 from race_scraper import Race
 from scraper import Scraper
-from utils import convert_date, parse_table_fields_args
+from utils import convert_date, course_translator, parse_table_fields_args
 
 
 def test():
@@ -23,15 +23,8 @@ def test():
 
 
 class Stage(Scraper):
-    _course_translator = {
-        "p0": (None, None),
-        "p1": ("flat", 0),
-        "p2": ("hilly", 0),
-        "p3": ("hilly", 1),
-        "p4": ("mountain", 0),
-        "p5": ("mountain", 1),
-    }
-    _tables_path = ".result-cont > table > tbody"
+    _course_translator: dict = course_translator
+    _tables_path: str = ".result-cont > table > tbody"
 
     def __init__(self, stage_url: str, print_request_url: bool = False) -> None:
         """

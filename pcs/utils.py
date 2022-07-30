@@ -1,7 +1,9 @@
 import datetime
+from typing import List, Tuple
 
 
-def parse_table_fields_args(args: tuple, available_fields: tuple) -> list:
+def parse_table_fields_args(args: Tuple[str],
+                            available_fields: Tuple[str]) -> List[str]:
     """
     Check whether given args are valid and get table fields
 
@@ -50,3 +52,13 @@ def add_time(time1: str, time2: str) -> str:
         days = 0
         time = str(time_b)
     return f"{days} {time}"
+
+
+course_translator = {
+    "p0": (None, None),
+    "p1": ("flat", 0),
+    "p2": ("hilly", 0),
+    "p3": ("hilly", 1),
+    "p4": ("mountain", 0),
+    "p5": ("mountain", 1),
+}
