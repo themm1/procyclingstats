@@ -6,7 +6,7 @@ from tabulate import tabulate
 
 from parsers import TableParser
 from scraper import Scraper
-from utils import parse_table_fields_args
+from utils import parse_select_menu, parse_table_fields_args
 
 
 def test():
@@ -206,7 +206,7 @@ class Ranking(Scraper):
         to filter by date that is in `text`
         """
         select_menu_html = self._select_menu_by_label("Date")
-        return self._parse_select_menu(select_menu_html)
+        return parse_select_menu(select_menu_html)
 
     def nations_select(self) -> List[dict]:
         """
@@ -216,7 +216,7 @@ class Ranking(Scraper):
         to filter by nation that is in `text`
         """
         select_menu_html = self._select_menu_by_label("Nation")
-        return self._parse_select_menu(select_menu_html)
+        return parse_select_menu(select_menu_html)
 
     def teams_select(self) -> List[dict]:
         """
@@ -226,7 +226,7 @@ class Ranking(Scraper):
         to filter by team that is in `text`
         """
         select_menu_html = self._select_menu_by_label("Team")
-        return self._parse_select_menu(select_menu_html)
+        return parse_select_menu(select_menu_html)
 
     def pages_select(self) -> List[dict]:
         """
@@ -236,7 +236,7 @@ class Ranking(Scraper):
         to filter by page that is in `text`
         """
         select_menu_html = self._select_menu_by_label("Page")
-        return self._parse_select_menu(select_menu_html)
+        return parse_select_menu(select_menu_html)
 
     def teamlevels_select(self) -> List[dict]:
         """
@@ -246,7 +246,7 @@ class Ranking(Scraper):
         to filter by teamlevel that is in `text`
         """
         select_menu_html = self._select_menu_by_label("Teamlevel")
-        return self._parse_select_menu(select_menu_html)
+        return parse_select_menu(select_menu_html)
 
     def _ranking_type(self) -> Literal["individual", "nations", "teams",
                                        "races", "distance", "racedays",
@@ -320,22 +320,6 @@ class Ranking(Scraper):
         if index == -1:
             raise ValueError(f"Invalid label: {label}")
         return self.html.find("li > div > select")[index]
-
-    def _parse_select_menu(self, select_html: HTML) -> List[dict]:
-        """
-        Parses given HTML select menu
-
-        :param select_html: HTML select menu to be parsed
-        :return: list of dicts where `value` is value of item from select menu
-        and `text` is text of the item from select menu
-        """
-        parsed_select = []
-        for option in select_html.find("option"):
-            parsed_select.append({
-                "value": option.attrs['value'],
-                "text": option.text
-            })
-        return parsed_select
 
     @staticmethod
     def _extend_table_to_podiums(tp: TableParser,

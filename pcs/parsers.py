@@ -1,4 +1,5 @@
 from datetime import date
+from re import T
 from typing import Any, Dict, List, Literal, Tuple, Union
 
 from requests_html import HTML
@@ -460,7 +461,12 @@ class TableParser:
                 self.html_table.find(self.table_child_tag)):
             row_parser = TableRowParser(child_html,
                                         table_child_tag=self.table_child_tag)
-            self.table[i][field_name] = func(row_parser.get_other(index))
+            if i >= len(self.table):
+                self.table.append(
+                    {field_name: func(row_parser.get_other(index))}
+                )
+            else:
+                self.table[i][field_name] = func(row_parser.get_other(index))
 
     def make_times_absolute(self, time_field: str = "time") -> None:
         """
@@ -488,6 +494,21 @@ class TableParser:
         for row in self.table:
             if row[date_field]:
                 row[date_field] = f"{row[date_field]}-{str(year)}"
+
+    def table_to_dict(self, key_field: str) -> Dict[str, dict]:
+        """
+        Converts table to dictionary with given key
+
+        :param key_field: table row field which value is unique for each row
+        e.g. `rider_url`, key has to be in every table row
+        :raises ValueError: when `key_field` is not in table row
+        :return: dictionary where given table field values are keys and rows of
+        original table are values
+        """
+        try:
+            return {row[key_field]: row for row in self.table}
+        except KeyError:
+            raise ValueError(f"Invalid key_field argument: {key_field}")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,8 @@
 import datetime
 from typing import List, Tuple
 
+from requests_html import HTML
+
 
 def get_day_month(str_with_date: str) -> Tuple[str]:
     """
@@ -48,6 +50,23 @@ def parse_table_fields_args(args: Tuple[str],
         return list(args)
     else:
         return list(available_fields)
+
+
+def parse_select_menu(select_html: HTML) -> List[dict]:
+    """
+    Parses given HTML select menu
+
+    :param select_html: HTML select menu to be parsed
+    :return: list of dicts where `value` is value of item from select menu
+    and `text` is text of the item from select menu
+    """
+    parsed_select = []
+    for option in select_html.find("option"):
+        parsed_select.append({
+            "value": option.attrs['value'],
+            "text": option.text
+        })
+    return parsed_select
 
 
 def convert_date(date: str) -> str:

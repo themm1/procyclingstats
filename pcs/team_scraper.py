@@ -1,32 +1,38 @@
 from pprint import pprint
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Union
 
 from tabulate import tabulate
 
+from parsers import TableParser
 from scraper import Scraper
-from utils import get_day_month
+from utils import parse_select_menu, parse_table_fields_args
 
 
 def test():
-    t = Team("team/quickstep-innergetic-2010")
-    print(t.abbreviation())
-    print(t.bike())
-    print(t.display_name())
-    print(t.team_id())
-    print(t.season())
-    print(t.team_status())
-    print(t.team_ranking_position())
-    print(t.wins_count())
-    pprint(t.urls())
+    t = Team("team/bora-hansgrohe-2022")
+    # print(tabulate(t.riders()))
+    print(tabulate(t.teams_seasons_select()))
+    # print(t.abbreviation())
+    # print(t.bike())
+    # print(t.display_name())
+    # print(t.team_id())
+    # print(t.season())
+    # print(t.team_status())
+    # print(t.team_ranking_position())
+    # print(t.wins_count())
+    # pprint(t.urls())
     # print(tabulate(t.riders()))
 
 
 class Team(Scraper):
+    _career_points_table_fields: List[str] = ("nationality", "rider_name",
+                                              "rider_url", "points")
+
     def __init__(self, team_url: str, print_request_url: bool = False) -> None:
         """
         Creates Team object ready for HTML parsing
 
-        :param team_url: team URL, either full or relative, e.g. 
+        :param team_url: team URL, either full or relative, e.g.
         `team/bora-hansgrohe-2022`
         :param print_request_url: whether to print URL when making request,
         defaults to False
@@ -34,98 +40,53 @@ class Team(Scraper):
         super().__init__(team_url, print_request_url)
         self.content = {}
 
-    def urls(self) -> List[str]:
+    def teams_seasons_select(self) -> List[dict]:
         """
-        Parses URLs of the team from past and future seasons
+        Parses teams seasons select menu from HTML
 
-        :return: list with realtive team URLs
+        :return: table with fields `text`, `value` represented as list of dicts
         """
-        team_seasons_elements = self.html.find("form > select > option")
-        urls = []
-        for element in team_seasons_elements:
-            url = element.attrs['value']
-            # remove /overview/ if needed
-            if "overview" in url:
-                urls.append("/".join(url.split("/")[:-2]))
-        return urls
+        team_seasons_select_html = self.html.find("form > select")[0]
+        return parse_select_menu(team_seasons_select_html)
 
-    def riders(self) -> List[dict]:
+    def riders(self, *args: str, available_fields: tuple = (
+        "nationality", "rider_name", "rider_url", "points", "age", "since",
+            "until", "ranking_points", "ranking_position")) -> List[dict]:
         """
-        Parses riders from team during season from HTML
+        Parses team riders from HTML
 
-        :return: table with columns `rider_id`, `nationality, `since`, `until`,
-            `career_points`, `age` represented as list of dicts
+        :param *args: fields that should be contained in table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :return: table with riders represented as list of dicts
         """
-        year = self.season()
-        path = ".ttabs.tabb:not(.hide) > ul > li"
-        nationalities_elements = self.html.find(
-            f"{path} > div:nth-child(2) > span")
-        rider_ids_elemetns = self.html.find(f"{path} > div:nth-child(2) > a")
-        since_elements = self.html.find(f"{path} > div:nth-child(3)")
+        fields = parse_table_fields_args(args, available_fields)
+        career_points_table_html = self.html.find("div.taba > ul.list")[0]
+        tp = TableParser(career_points_table_html, "ul")
+        casual_fields = [field for field in fields
+                         if field in self._career_points_table_fields]
+        if "rider_url" not in casual_fields:
+            casual_fields.append("rider_url")
+        tp.parse(casual_fields)
+        table_rider_url_dict = tp.table_to_dict("rider_url")
 
-        # dict is used because of extending table with age or career points
-        # afterwards
-        season_riders = {}
-        for i, rider_element in enumerate(rider_ids_elemetns):
-            since_until_str = since_elements[i].text
+        ages_table = self._ages_table("age" in fields, True)
+        ranking_table = self._ranking_table("ranking_points" in fields,
+                                            "ranking_position" in fields)
+        # merge created tables to one, if age, ranking_points or ranking-
+        # postition isn't in fields empty tables will be merged so nothing
+        # will happen
+        merged_tables = []
+        for row in ranking_table:
+            dict1 = {**row, **table_rider_url_dict[row['rider_url']]}
+            merged_tables.append({**dict1, **ages_table[row['rider_url']]})
 
-            since_day, since_month = "01", "01"
-            if "as from" in since_until_str:
-                since_day, since_month = get_day_month(since_until_str)
-            until_day, until_month = "31", "12"
-            if "until" in since_until_str:
-                until_day, until_month = get_day_month(since_until_str)
-
-            rider_id = rider_element.attrs['href'].split("/")[1]
-            nationality = nationalities_elements[i].attrs['class'][1].upper()
-            season_riders[rider_id] = {
-                "rider_id": rider_id,
-                "nationality": nationality,
-                "since": f"{since_day}-{since_month}-{year}",
-                "until": f"{until_day}-{until_month}-{year}",
-            }
-        self._add_career_points_to_table(season_riders)
-        self._add_ages_to_table(season_riders)
-        return list(season_riders.values())
-
-    def _add_career_points_to_table(self, table: Dict[str, dict]) -> None:
-        """
-        Parses career points of each rider from HTML and adds points to given
-        table, note that career points are rider's current career points,
-        not career points in corresponding season
-
-        :param table: table to be extended represented as dict of dicts where
-        key should be rider id
-        """
-        riders_ids_htmls = self.html.find(
-            ".taba > ul > li > div:nth-child(2) > a")
-        career_points_htmls = self.html.find(
-            ".taba > ul > li > div:nth-child(3)")
-
-        zipped_htmls = zip(riders_ids_htmls, career_points_htmls)
-        for rider_id_html, career_points_html in zipped_htmls:
-            rider_id = rider_id_html.attrs['href'].split("/")[1]
-            career_points = int(career_points_html.text)
-            table[rider_id]['career_points'] = career_points
-
-    def _add_ages_to_table(self, table: Dict[str, dict]) -> None:
-        """
-        Parses age of each rider from HTML and adds age to given table, in
-        historical seasons age is taken from July 1st
-
-        :param table: table to be extended represented as dict of dicts where
-        key should be rider id
-        """
-        riders_ids_htmls = self.html.find(
-            ".tabc > ul > li > div:nth-child(2) > a")
-        age_htmls = self.html.find(
-            ".tabc > ul > li > div:nth-child(3)")
-
-        zipped_htmls = zip(riders_ids_htmls, age_htmls)
-        for rider_id_html, age_html in zipped_htmls:
-            rider_id = rider_id_html.attrs['href'].split("/")[1]
-            age = int(age_html.text)
-            table[rider_id]['age'] = age
+        # remove rider_id from table rows when it isn't in fields
+        if "rider_id" not in fields:
+            for row in merged_tables:
+                if "rider_id" in row.keys():
+                    row.pop("rider_id")
+        return merged_tables
 
     def team_id(self) -> str:
         """
@@ -216,6 +177,53 @@ class Team(Scraper):
         team_ranking_html = self.html.find(
             ".teamkpi > li:nth-child(2) > div:nth-child(2)")[0]
         return int(team_ranking_html.text)
+
+    def _ranking_table(
+            self, points: bool, position: bool, as_dict: bool = False) -> Union[
+            Dict[str, dict], List[dict]]:
+        """
+        Parses ranking table with team riders from HTML
+
+        :param points: whether to include ranking points to the table
+        :param position: whetehr to include ranking position to the table
+        :param as_dict: whether to return table as dict where rider_url is used
+        as a key to each row, defaults to False
+        :return: table with fields rider_url and optionaly `ranking_points` and
+        `ranking` position, represented either as list of dicts or dict of dicts
+        """
+        ranking_table_html = self.html.find("div.tabe > ul.list")[0]
+        tp = TableParser(ranking_table_html, "ul")
+        tp.parse(("rider_url",))
+        if points:
+            tp.extend_table("ranking_points", -3,
+                            lambda x: int(x.replace("(", "").replace(")", "")))
+        if position:
+            tp.extend_table("ranking_position", -2, lambda x: int(x))
+        if as_dict:
+            return tp.table_to_dict("rider_url")
+        else:
+            return tp.table
+
+    def _ages_table(self, age: bool, as_dict: bool = False
+                    ) -> Union[List[dict], Dict[str, dict]]:
+        """
+        Parses ranking table with team riders from HTML
+
+        :param age: whether to include riders ages to the table
+        :param as_dict: whether to return table as dict where rider_url is used
+        as a key to each row, defaults to False
+        :return: table with fields rider_url and optionaly `ranking_points` and
+        `ranking` position, represented either as list of dicts or dict of dicts
+        """
+        ages_html_table = self.html.find("div.tabc > ul.list")[0]
+        tp = TableParser(ages_html_table, "ul")
+        tp.parse(("rider_url",))
+        if age:
+            tp.extend_table("age", -2, int)
+        if as_dict:
+            return tp.table_to_dict("rider_url")
+        else:
+            return tp.pable
 
 
 if __name__ == "__main__":

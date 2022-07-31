@@ -136,7 +136,7 @@ class Rider(Scraper):
                 ".rdr-info-cont > span > span")[0]
             return nationality_html.attrs['class'][1].upper()
 
-    def seasons_teams(self, *args: str, fields: tuple = (
+    def seasons_teams(self, *args: str, available_fields: tuple = (
         "season", "since", "until", "team_name", "team_url", "class"
     )) -> List[dict]:
         """
@@ -147,7 +147,7 @@ class Rider(Scraper):
         :raises ValueError: when one of args is invalid
         :return: table represented as list of dicts
         """
-        fields = parse_table_fields_args(args, fields)
+        fields = parse_table_fields_args(args, available_fields)
         seasons_html_table = self.html.find("ul.list.rdr-teams")[0]
         tp = TableParser(seasons_html_table, "ul")
         casual_fields = [field for field in fields if field == "team_name" or
@@ -183,7 +183,7 @@ class Rider(Scraper):
                 row.pop("since_until")
         return tp.table
 
-    def seasons_points(self, *args: str, fields: tuple = (
+    def seasons_points(self, *args: str, available_fields: tuple = (
             "season", "points", "position")) -> List[dict]:
         """
         Parses rider's points per season from HTML
@@ -193,7 +193,7 @@ class Rider(Scraper):
         :raises ValueError: when one of args is invalid
         :return: table represented as list of dicts
         """
-        fields = parse_table_fields_args(args, fields)
+        fields = parse_table_fields_args(args, available_fields)
         points_table_html = self.html.find(".rdr-season-stats > tbody")[0]
         tp = TableParser(points_table_html)
 
