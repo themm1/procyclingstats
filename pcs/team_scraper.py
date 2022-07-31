@@ -4,6 +4,7 @@ from typing import Dict, List, Tuple
 from tabulate import tabulate
 
 from scraper import Scraper
+from utils import get_day_month
 
 
 def test():
@@ -70,10 +71,10 @@ class Team(Scraper):
 
             since_day, since_month = "01", "01"
             if "as from" in since_until_str:
-                since_day, since_month = self._get_day_month(since_until_str)
+                since_day, since_month = get_day_month(since_until_str)
             until_day, until_month = "31", "12"
             if "until" in since_until_str:
-                until_day, until_month = self._get_day_month(since_until_str)
+                until_day, until_month = get_day_month(since_until_str)
 
             rider_id = rider_element.attrs['href'].split("/")[1]
             nationality = nationalities_elements[i].attrs['class'][1].upper()
@@ -125,34 +126,6 @@ class Team(Scraper):
             rider_id = rider_id_html.attrs['href'].split("/")[1]
             age = int(age_html.text)
             table[rider_id]['age'] = age
-
-    @staticmethod
-    def _get_day_month(str_with_date: str) -> Tuple[str]:
-        """
-        Gets day and month from string containing day/month or day-month
-
-        :param str_with_date: string with day and month separated by - or /
-        :raises ValueError: if string doesn't contain day and month in wanted
-        format
-        :return: tuple in (day, month) format where day and month are numeric
-        strings
-        """
-        day, month = "", ""
-        # loop through string and check whether next 5 characters are in wanted
-        # date format `day/month` or `day-month`
-        for i, char in enumerate(str_with_date[:-4]):
-            if str_with_date[i:i+2].isnumeric() and \
-                    str_with_date[i+3:i+5].isnumeric():
-                if str_with_date[i+2] == "/":
-                    [day, month] = str_with_date[i:i+5].split("/")
-                elif str_with_date[i+2] == "-":
-                    [day, month] = str_with_date[i:i+5].split("-")
-        if day.isnumeric() and month.isnumeric():
-            return day, month
-        # day or month weren't numeric so given string doesn't contain date in
-        # wanted format
-        raise ValueError(
-            "Given string doesn't contain day and month in wanted format")
 
     def team_id(self) -> str:
         """

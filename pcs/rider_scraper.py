@@ -1,17 +1,21 @@
 import calendar
-import datetime
 from pprint import pprint
 from typing import Any, Dict, List
 
+from tabulate import tabulate
+
+from parsers import TableParser
 from scraper import Scraper
+from utils import get_day_month, parse_table_fields_args
 
 
 def test():
     # rider = Rider("rider/david-canada")
-    # rider = Rider("rider/peter-sagan")
-    rider = Rider("rider/cesare-benedetti")
-    rider_response = rider.parse_html()
-    pprint(rider_response)
+    rider = Rider("rider/peter-sagan")
+    # rider = Rider("rider/cesare-benedetti")
+    # rider = Rider("rider/carlos-verona")
+    table = rider.seasons_points("position")
+    print(tabulate(table))
 
 
 class Rider(Scraper):
@@ -132,73 +136,76 @@ class Rider(Scraper):
                 ".rdr-info-cont > span > span")[0]
             return nationality_html.attrs['class'][1].upper()
 
-    def seasons_teams(self) -> List[dict]:
+    def seasons_teams(self, *args: str, fields: tuple = (
+        "season", "since", "until", "team_name", "team_url", "class"
+    )) -> List[dict]:
         """
-        Parses rider's team history with the exact date of joining from HTML
+        Parses rider's teams per season from HTML
 
-        :return: table with columns `team_season_id`, `since` represented as
-        list of dicts
+        :param *args: fields that should be contained in table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :return: table represented as list of dicts
         """
-        teams_html = self.html.find(".rdr-teams > li > .name > a")
-        years_html = self.html.find(".rdr-teams > li > .season")
-        dates_html = self.html.find(".rdr-teams > li > .fs10")
+        fields = parse_table_fields_args(args, fields)
+        seasons_html_table = self.html.find("ul.list.rdr-teams")[0]
+        tp = TableParser(seasons_html_table, "ul")
+        casual_fields = [field for field in fields if field == "team_name" or
+                         field == "team_url"]
+        if "since" in fields or "until" in fields or "season" in fields:
+            casual_fields.append("season")
+        tp.parse(casual_fields)
+        # add class and convert it from `(WT)` to `WT`
+        if "class" in fields:
+            tp.extend_table("class", -3,
+                            lambda x: x.replace("(", "").replace(")", ""))
+        # add since and until dates to the table
+        if "since" in fields or "until" in fields:
+            tp.extend_table("since_until", -2, str)
+            for row in tp.table:
+                if "since" in fields:
+                    # add as from to since date
+                    if "as from" in row['since_until']:
+                        day, month = get_day_month(row['since_until'])
+                        row['since'] = f"{day}-{month}-{row['season']}"
+                    else:
+                        row['since'] = f"01-01-{row['season']}"
+                if "until" in fields:
+                    # add until to until date
+                    if "until" in row['since_until']:
+                        day, month = get_day_month(row['since_until'])
+                        row['until'] = f"{day}-{month}-{row['season']}"
+                    else:
+                        row['until'] = f"31-12-{row['season']}"
+                # remove unnecessary fields
+                if "season" not in fields:
+                    row.pop("season")
+                row.pop("since_until")
+        return tp.table
 
-        current_year = datetime.datetime.now().year
-
-        # extract information from html elements
-        years = [int(element.text)
-                 for element in years_html if int(element.text) <= current_year]
-        seasons_count = len(years_html)
-        teams = [element.attrs['href'].split("/")[1]
-                 for element in teams_html[-seasons_count+1:]]
-        dates = [element.text for element in dates_html[-seasons_count+1:]]
-
-        seasons = []
-        for i, team in enumerate(teams):
-            year = years[i]
-            date = dates[i]
-
-            # rider transfered during the year
-            if "as from" in date:
-                transfer = date.split(" ")
-                date = [t_date
-                        for t_date in transfer if t_date[0].isnumeric()][0]
-                [day, month] = date.split("/")
-                since = "-".join([str(year), month, day])
-            # rider has been in the team since the beginning of the year
-            else:
-                since = f"{year}-01-01"
-
-            seasons.append({
-                "team_season_id": team,
-                "since": since,
-            })
-        return seasons
-
-    def seasons_points(self) -> List[dict]:
+    def seasons_points(self, *args: str, fields: tuple = (
+            "season", "points", "position")) -> List[dict]:
         """
-        Parses rider's PCS ranking points and position in each season from HTML
+        Parses rider's points per season from HTML
 
-        :return: table with columns `season`, `points`, `position` represented 
-        as list of dicts
+        :param *args: fields that should be contained in table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :return: table represented as list of dicts
         """
-        seasons_html = self.html.find(
-            ".rdr-season-stats > tbody > tr > td.season")
-        points_html = self.html.find(
-            ".rdr-season-stats > tbody > tr > td > div > span")
-        positions_html = self.html.find(
-            ".rdr-season-stats > tbody > tr > td:nth-child(3)")
+        fields = parse_table_fields_args(args, fields)
+        points_table_html = self.html.find(".rdr-season-stats > tbody")[0]
+        tp = TableParser(points_table_html)
 
-        zipped_htmls = zip(seasons_html, points_html, positions_html)
-        # convert list of tuples to list of dicts
-        seasons_points = []
-        for season, points, pos in zipped_htmls:
-            seasons_points.append({
-                "season": int(season.text),
-                "points": int(points.text),
-                "position": int(pos.text)
-            })
-        return seasons_points
+        tp.parse(["season"])
+        if "points" in fields:
+            tp.extend_table("points", -2, int)
+        if "position" in fields:
+            tp.extend_table("position", -1, int)
+        if "season" not in fields:
+            for row in tp.table:
+                row.pop("season")
+        return tp.table
 
 
 if __name__ == "__main__":

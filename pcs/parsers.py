@@ -306,12 +306,20 @@ class TableRowParser:
         # convert distance in `(12.2k)` format to 12.2 format
         return float(distance_raw.replace("k", "")[1:-1])
 
+    def season(self) -> int:
+        """
+        Parses season (used for parsing tables from rider page)
+
+        :return: season
+        """
+        return int(self.tr.find(f"{self.row_child_tag}.season")[0].text)
+
     def get_other(self, index: int) -> str:
         """
         Parses `td` elementh that is index-th child of current row HTML, used
         for elements that can't be accessed always by same path e.g. UCI points
 
-        :param index: index of wanted `td` element
+        :param index: index of wanted `td` element, negative indexing works too
         :return: text attribute of wanted element
         """
         return self.tr.find(self.row_child_tag)[index].text
@@ -351,9 +359,11 @@ class TableParser:
         `TableRowParses` methods. Every parsed table row is dictionary with
         `fields` keys
 
+        :param fields: `TableRowParser` public methods with no parameters to be
+        called
         :param skip_when: function to call on every table row HTML, when returns
         True parser skips the row, always returns False by default
-        :param fields: `TableRowParser` methods to be called, current options:
+        :current fields options:
             - rider_name
             - rider_url
             - team_name
@@ -378,6 +388,7 @@ class TableParser:
             - stage_name
             - stage_url
             - distance
+            - season
         """
         for child_html in self.html_table.find(self.table_child_tag):
             if skip_when(child_html):
@@ -440,13 +451,13 @@ class TableParser:
         Extends table by adding text of index-th `td` element from each row from
         HTML table
 
-        :param field_name: key that will represent parsed value in table row\
-            dict
+        :param field_name: key that will represent parsed value in table row
+        dict
         :param index: index of `tr` child element that will be parsed
         :param func: function to be called on parsed string
         """
         for i, child_html in enumerate(
-                self.html_table.find(self.table_element)):
+                self.html_table.find(self.table_child_tag)):
             row_parser = TableRowParser(child_html,
                                         table_child_tag=self.table_child_tag)
             self.table[i][field_name] = func(row_parser.get_other(index))

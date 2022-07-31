@@ -2,6 +2,34 @@ import datetime
 from typing import List, Tuple
 
 
+def get_day_month(str_with_date: str) -> Tuple[str]:
+    """
+    Gets day and month from string containing day/month or day-month
+
+    :param str_with_date: string with day and month separated by - or /
+    :raises ValueError: if string doesn't contain day and month in wanted
+    format
+    :return: tuple in (day, month) format where day and month are numeric
+    strings
+    """
+    day, month = "", ""
+    # loop through string and check whether next 5 characters are in wanted
+    # date format `day/month` or `day-month`
+    for i, char in enumerate(str_with_date[:-4]):
+        if str_with_date[i:i+2].isnumeric() and \
+                str_with_date[i+3:i+5].isnumeric():
+            if str_with_date[i+2] == "/":
+                [day, month] = str_with_date[i:i+5].split("/")
+            elif str_with_date[i+2] == "-":
+                [day, month] = str_with_date[i:i+5].split("-")
+    if day.isnumeric() and month.isnumeric():
+        return day, month
+    # day or month weren't numeric so given string doesn't contain date in
+    # wanted format
+    raise ValueError(
+        "Given string doesn't contain day and month in wanted format")
+
+
 def parse_table_fields_args(args: Tuple[str],
                             available_fields: Tuple[str]) -> List[str]:
     """
