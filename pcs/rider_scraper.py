@@ -1,6 +1,6 @@
 import calendar
 from pprint import pprint
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
 
 from tabulate import tabulate
 
@@ -136,7 +136,7 @@ class Rider(Scraper):
                 ".rdr-info-cont > span > span")[0]
             return nationality_html.attrs['class'][1].upper()
 
-    def seasons_teams(self, *args: str, available_fields: tuple = (
+    def seasons_teams(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "season", "since", "until", "team_name", "team_url", "class"
     )) -> List[dict]:
         """
@@ -183,7 +183,7 @@ class Rider(Scraper):
                 row.pop("since_until")
         return tp.table
 
-    def seasons_points(self, *args: str, available_fields: tuple = (
+    def seasons_points(self, *args: Tuple[str], available_fields: Tuple[str] = (
             "season", "points", "position")) -> List[dict]:
         """
         Parses rider's points per season from HTML

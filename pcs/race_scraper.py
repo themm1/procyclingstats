@@ -219,7 +219,7 @@ class RaceOverview(Race):
         uci_tour_html = self.html.find(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text
 
-    def stages(self, *args: str, available_fields: Tuple[str] = (
+    def stages(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "date", "mtf", "course_type", "stage_name", "stage_url", "distance"
     )) -> List[str]:
         """

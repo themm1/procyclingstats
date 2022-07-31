@@ -10,8 +10,8 @@ from utils import parse_select_menu, parse_table_fields_args
 
 def test():
     t = Team("team/bora-hansgrohe-2022")
-    # print(tabulate(t.riders()))
-    print(tabulate(t.teams_seasons_select()))
+    print(tabulate(t.riders("rider_url")))
+    # print(tabulate(t.teams_seasons_select()))
     # print(t.abbreviation())
     # print(t.bike())
     # print(t.display_name())
@@ -49,7 +49,7 @@ class Team(Scraper):
         team_seasons_select_html = self.html.find("form > select")[0]
         return parse_select_menu(team_seasons_select_html)
 
-    def riders(self, *args: str, available_fields: tuple = (
+    def riders(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "nationality", "rider_name", "rider_url", "points", "age", "since",
             "until", "ranking_points", "ranking_position")) -> List[dict]:
         """

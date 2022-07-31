@@ -1,5 +1,5 @@
 from pprint import pprint
-from typing import Any, Dict, List, Literal, Union
+from typing import Any, Dict, List, Literal, Tuple, Union
 
 import requests_html
 from requests_html import HTML
@@ -196,7 +196,7 @@ class Stage(Scraper):
         arrival_html = self.html.find(".infolist > li:nth-child(11) > div")
         return arrival_html[1].text
 
-    def results(self, *args: str, available_fields: tuple = (
+    def results(self, *args: Tuple[str], available_fields: Tuple[str] = (
                 "rider_name", "rider_url", "team_name", "team_url", "rank",
                 "status", "age", "nationality", "time", "bonus", "pcs_points",
                 "uci_points")) -> List[dict]:
@@ -261,7 +261,7 @@ class Stage(Scraper):
             tp.make_times_absolute()
             return tp.table
 
-    def gc(self, *args: str, available_fields: tuple = (
+    def gc(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
         "age", "nationality", "time", "bonus", "pcs_points", "uci_points"
     )) -> List[dict]:
@@ -282,7 +282,7 @@ class Stage(Scraper):
         tp.make_times_absolute()
         return tp.table
 
-    def points(self, *args: str, available_fields: tuple = (
+    def points(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
         "points", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
@@ -303,7 +303,7 @@ class Stage(Scraper):
         tp.parse(fields)
         return tp.table
 
-    def kom(self, *args: str, available_fields: tuple = (
+    def kom(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
         "points", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
@@ -323,7 +323,7 @@ class Stage(Scraper):
         tp.parse(fields)
         return tp.table
 
-    def youth(self, *args: str, available_fields: tuple = (
+    def youth(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
         "time", "age", "nationality", "pcs_points", "uci_points"
     )) -> List[dict]:
@@ -343,7 +343,7 @@ class Stage(Scraper):
         tp.make_times_absolute()
         return tp.table
 
-    def teams(self, *args: str, available_fields: tuple = (
+    def teams(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "team_name", "team_url", "rank", "prev_rank", "time", "nationality",
             "pcs_points", "uci_points")) -> List[dict]:
         """

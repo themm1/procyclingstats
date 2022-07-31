@@ -1,5 +1,5 @@
 from cgitb import html
-from typing import List, Literal
+from typing import List, Literal, Tuple
 
 from requests_html import HTML
 from tabulate import tabulate
@@ -20,7 +20,8 @@ class Ranking(Scraper):
         self._validate_url(url)
         super().__init__(url, print_request_url)
 
-    def individual_ranking(self, *args: str, available_fields: tuple = (
+    def individual_ranking(self, *args: Tuple[str],
+                           available_fields: Tuple[str] = (
         "rank", "prev_rank", "rider_name", "rider_url", "team_name", "team_url",
             "nationality", "points")) -> List[dict]:
         """
@@ -42,7 +43,7 @@ class Ranking(Scraper):
         tp.parse(fields)
         return tp.table
 
-    def team_ranking(self, *args: str, available_fields: tuple = (
+    def team_ranking(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "rank", "prev_rank", "team_name", "team_url", "nationality", "class",
             "points")) -> List[dict]:
         """
@@ -67,7 +68,8 @@ class Ranking(Scraper):
             tp.extend_table("class", -2, str)
         return tp.table
 
-    def nations_ranking(self, *args: str, available_fields: tuple = (
+    def nations_ranking(self, *args: Tuple[str],
+                        available_fields: Tuple[str] = (
         "rank", "prev_rank", "nation_name", "nation_url", "nationality",
             "points")) -> List[dict]:
         """
@@ -89,7 +91,7 @@ class Ranking(Scraper):
         tp.parse(fields)
         return tp.table
 
-    def races_ranking(self, *args: str, available_fields: tuple = (
+    def races_ranking(self, *args: Tuple[str], available_fields: Tuple[str] = (
         "rank", "prev_rank", "race_name", "race_url", "nationality", "class",
             "points")) -> List[dict]:
         """
@@ -114,7 +116,8 @@ class Ranking(Scraper):
             tp.extend_table("class", -2, str)
         return tp.table
 
-    def individual_wins_ranking(self, *args: str, available_fields: tuple = (
+    def individual_wins_ranking(self, *args: Tuple[str],
+                                available_fields: Tuple[str] = (
         "rank", "prev_rank", "rider_name", "rider_url", "team_name", "team_url",
                 "nationality", "first_places", "second_places", "third_places"
     )) -> List[dict]:
@@ -142,7 +145,8 @@ class Ranking(Scraper):
         self._extend_table_to_podiums(tp, fields)
         return tp.table
 
-    def teams_wins_ranking(self, *args: str, available_fields: tuple = (
+    def teams_wins_ranking(self, *args: Tuple[str],
+                           available_fields: Tuple[str] = (
         "rank", "prev_rank", "team_name", "team_url", "nationality", "class",
             "first_places", "second_places", "third_places")) -> List[dict]:
         """
@@ -171,7 +175,8 @@ class Ranking(Scraper):
         self._extend_table_to_podiums(tp, fields, [-3, -2, -1])
         return tp.table
 
-    def nations_wins_ranking(self, *args: str, available_fields: tuple = (
+    def nations_wins_ranking(self, *args: Tuple[str],
+                             available_fields: Tuple[str] = (
         "rank", "prev_rank", "nation_name", "nation_url", "nationality",
             "first_places", "second_places", "third_places")) -> List[dict]:
         """
