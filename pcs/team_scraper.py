@@ -3,8 +3,8 @@ from typing import Dict, List, Tuple, Union
 
 from tabulate import tabulate
 
-from parsers import TableParser
 from scraper import Scraper
+from table_parser import TableParser
 from utils import parse_select_menu, parse_table_fields_args
 
 

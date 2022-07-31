@@ -4,8 +4,8 @@ from typing import Any, Dict, List, Literal, Tuple
 from requests_html import HTML
 from tabulate import tabulate
 
-from parsers import TableParser
 from scraper import Scraper
+from table_parser import TableParser
 from utils import course_translator, parse_table_fields_args
 
 

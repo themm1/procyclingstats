@@ -5,9 +5,9 @@ import requests_html
 from requests_html import HTML
 from tabulate import tabulate
 
-from parsers import TableParser
 from race_scraper import Race
 from scraper import Scraper
+from table_parser import TableParser
 from utils import convert_date, course_translator, parse_table_fields_args
 
 
