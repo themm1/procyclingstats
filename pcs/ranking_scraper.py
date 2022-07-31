@@ -5,13 +5,14 @@ from requests_html import HTML
 from tabulate import tabulate
 
 from scraper import Scraper
+from select_parser import SelectParser
 from table_parser import TableParser
-from utils import parse_select_menu, parse_table_fields_args
+from utils import parse_table_fields_args
 
 
 def test():
-    r = Ranking("rankings/me/wins-nations")
-    d = r.nations_wins_ranking()
+    r = Ranking("rankings/me")
+    d = r.nations_select()
     print(tabulate(d))
 
 
@@ -29,6 +30,7 @@ class Ranking(Scraper):
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
         :raises Exception: when object doesn't have individual ranking URL
         :return: table represented as list of dicts
         """
@@ -51,6 +53,7 @@ class Ranking(Scraper):
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
         :raises Exception: when object doesn't have teams ranking URL
         :return: table represented as list of dicts
         """
@@ -77,6 +80,7 @@ class Ranking(Scraper):
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
         :raises Exception: when object doesn't have nations ranking URL
         :return: table represented as list of dicts
         """
@@ -99,6 +103,7 @@ class Ranking(Scraper):
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
         :raises Exception: when object doesn't have races ranking URL
         :return: table represented as list of dicts
         """
@@ -126,6 +131,7 @@ class Ranking(Scraper):
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
         :raises Exception: when object doesn't have individual wins ranking URL
         :return: table represented as list of dicts
         """
@@ -154,6 +160,7 @@ class Ranking(Scraper):
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
         :raises Exception: when object doesn't have teams wins ranking URL
         :return: table represented as list of dicts
         """
@@ -203,55 +210,86 @@ class Ranking(Scraper):
         self._extend_table_to_podiums(tp, fields)
         return tp.table
 
-    def dates_select(self) -> List[dict]:
+    def dates_select(self, *args: Tuple[str], avialable_fields: Tuple[str] = (
+            "text", "value")) -> List[dict]:
         """
         Parses dates select menu from HTML
 
-        :return: list of dicts where `value` represents value to put to the URL
-        to filter by date that is in `text`
+        :param *args: fields that should be contained in results table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :raises Exception: when dates select menu is missing
+        :return: table represented as list of dicts, `value` is value to be
+        put into the URL to filter by that date and `text` is the date
         """
+        fields = parse_table_fields_args(args, avialable_fields)
         select_menu_html = self._select_menu_by_label("Date")
-        return parse_select_menu(select_menu_html)
+        return self._parse_select(select_menu_html, fields)
 
-    def nations_select(self) -> List[dict]:
+    def nations_select(self, *args: Tuple[str], avialable_fields: Tuple[str] = (
+            "text", "value")) -> List[dict]:
         """
         Parses nations select menu from HTML
 
-        :return: list of dicts where `value` represents value to put to the URL
-        to filter by nation that is in `text`
+        :param *args: fields that should be contained in results table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :raises Exception: when nations select menu is missing
+        :return: table represented as list of dicts, `value` is value to be
+        put into the URL to filter by that nation and `text` is the nation name
         """
+        fields = parse_table_fields_args(args, avialable_fields)
         select_menu_html = self._select_menu_by_label("Nation")
-        return parse_select_menu(select_menu_html)
+        return self._parse_select(select_menu_html, fields)
 
-    def teams_select(self) -> List[dict]:
+    def teams_select(self, *args: Tuple[str], avialable_fields: Tuple[str] = (
+            "text", "value")) -> List[dict]:
         """
         Parses teams select menu from HTML
 
-        :return: list of dicts where `value` represents value to put to the URL
-        to filter by team that is in `text`
+        :param *args: fields that should be contained in results table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :raises Exception: when teams select menu is missing
+        :return: table represented as list of dicts, `value` is value to be
+        put into the URL to filter by that team and `text` is team name
         """
+        fields = parse_table_fields_args(args, avialable_fields)
         select_menu_html = self._select_menu_by_label("Team")
-        return parse_select_menu(select_menu_html)
+        return self._parse_select(select_menu_html, fields)
 
-    def pages_select(self) -> List[dict]:
+    def pages_select(self, *args: Tuple[str], avialable_fields: Tuple[str] = (
+            "text", "value")) -> List[dict]:
         """
         Parses pages select menu from HTML
 
-        :return: list of dicts where `value` represents value to put to the URL
-        to filter by page that is in `text`
+        :param *args: fields that should be contained in results table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :raises Exception: when page select menu is missing
+        :return: table represented as list of dicts, `value` is value to be
+        put into the URL to filter that page and `text` is the page name
         """
+        fields = parse_table_fields_args(args, avialable_fields)
         select_menu_html = self._select_menu_by_label("Page")
-        return parse_select_menu(select_menu_html)
+        return self._parse_select(select_menu_html, fields)
 
-    def teamlevels_select(self) -> List[dict]:
+    def teamlevels_select(
+            self, *args: Tuple[str],
+            avialable_fields: Tuple[str] = ("text", "value")) -> List[dict]:
         """
-        Parses teamlevels select menu from HTML
+        Parses team levels select menu from HTML
 
-        :return: list of dicts where `value` represents value to put to the URL
-        to filter by teamlevel that is in `text`
+        :param *args: fields that should be contained in results table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :raises Exception: when team levels select menu is missing
+        :return: table represented as list of dicts, `value` is value to be
+        put into the URL to filter that team level and `text` is the team level
         """
+        fields = parse_table_fields_args(args, avialable_fields)
         select_menu_html = self._select_menu_by_label("Teamlevel")
-        return parse_select_menu(select_menu_html)
+        return self._parse_select(select_menu_html, fields)
 
     def _ranking_type(self) -> Literal["individual", "nations", "teams",
                                        "races", "distance", "racedays",
@@ -314,7 +352,7 @@ class Ranking(Scraper):
         Finds select menu with given label
 
         :param label: wanted select menu label
-        :raises ValueError: when select menu with that label wasn't found
+        :raises Exception: when select menu with that label wasn't found
         :return: HTML of wanted select menu
         """
         labels = self.html.find("ul.filter > li > .label")
@@ -323,7 +361,7 @@ class Ranking(Scraper):
             if label_html.text == label:
                 index = i
         if index == -1:
-            raise ValueError(f"Invalid label: {label}")
+            raise Exception(f"Invalid label: {label}")
         return self.html.find("li > div > select")[index]
 
     @staticmethod
@@ -348,6 +386,19 @@ class Ranking(Scraper):
         if "third_places" in fields:
             tp.extend_table("third_places", podium_indexes[2],
                             lambda x: int(x) if x != "-" else 0)
+
+    @staticmethod
+    def _parse_select(select_menu_html: HTML, fields: List[str]) -> List[dict]:
+        """
+        Uses `SelectParser` and gets parsed table
+
+        :param select_menu_html: select menu HTML to be parsed from
+        :param fields: wanted fields
+        :return: table represented as list of dicts
+        """
+        sp = SelectParser(select_menu_html)
+        sp.parse(fields)
+        return sp.table
 
 
 if __name__ == "__main__":
