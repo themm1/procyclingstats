@@ -17,9 +17,20 @@ def test():
 
 
 class Ranking(Scraper):
-    def __init__(self, url: str, print_request_url: bool = False) -> None:
+    def __init__(self, url: str, update_html: bool = False) -> None:
+        """
+        Creates Ranking object ready for HTML parsing
+
+        :param url: URL of ranking to be parsed from, either full or relative,
+        e.g. `rankings/me/season-individual` or 'rankings.php?date=2021-12-31&
+        nation=&age=&zage=&page=smallerorequal&team=&offset=0&filter=Filter&p=me
+        &s=season-individual'
+        :param update_html: whether to make request to given URL and update
+        `self.html`, when False `self.update_html` method has to be called
+        manually to make object ready for parsing, defaults to True
+        """
         self._validate_url(url)
-        super().__init__(url, print_request_url)
+        super().__init__(url, update_html)
 
     def individual_ranking(self, *args: str,
                            available_fields: Tuple[str, ...] = (
@@ -350,7 +361,7 @@ class Ranking(Scraper):
 
         :return: ranking type
         """
-        relative_url = self._cut_base_url()
+        relative_url = self.relative_url()
         if len(relative_url.split("/")) < 3:
             return "individual"
         elif "races" in relative_url:

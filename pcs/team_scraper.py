@@ -31,16 +31,17 @@ class Team(Scraper):
         "rider_url",
         "points")
 
-    def __init__(self, team_url: str, print_request_url: bool = False) -> None:
+    def __init__(self, url: str, update_html: bool = True) -> None:
         """
         Creates Team object ready for HTML parsing
 
-        :param team_url: team URL, either full or relative, e.g.
+        :param url: team URL, either full or relative, e.g.
         `team/bora-hansgrohe-2022`
-        :param print_request_url: whether to print URL when making request,
-        defaults to False
+        :param update_html: whether to make request to given URL and update
+        `self.html`, when False `self.update_html` method has to be called
+        manually to make object ready for parsing, defaults to True
         """
-        super().__init__(team_url, print_request_url)
+        super().__init__(url, update_html)
         self.content = {}
 
     def teams_seasons_select(self) -> List[dict]:
@@ -104,7 +105,7 @@ class Team(Scraper):
 
         :return: team id e.g. `bora-hansgrohe-2022`
         """
-        return self._cut_base_url().split("/")[1]
+        return self.relative_url().split("/")[1]
 
     def season(self) -> int:
         """
@@ -112,7 +113,7 @@ class Team(Scraper):
 
         :return: season
         """
-        team_id = self._cut_base_url().split("/")[1]
+        team_id = self.relative_url().split("/")[1]
         season_part = team_id.split("-")[-1]
         # only first 4 characters are used because some teams might have fifth
         # character, which isn't part of season e.g. movistar-team-20152

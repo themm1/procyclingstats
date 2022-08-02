@@ -13,7 +13,7 @@ from utils import convert_date, course_translator, parse_table_fields_args
 
 def test():
     # s = Stage("race/world-championship-ttt/2017")
-    s = Stage("race/tour-de-france/2019/stage-2")
+    s = Stage("race/tour-de-france/2019/stage-2", True)
     print(tabulate(s.results()))
     # print(tabulate(s.gc()))
     # print(tabulate(s.points()))
@@ -26,17 +26,18 @@ class Stage(Scraper):
     _course_translator: dict = course_translator
     _tables_path: str = ".result-cont > table > tbody"
 
-    def __init__(self, stage_url: str, print_request_url: bool = False) -> None:
+    def __init__(self, url: str, update_html: bool = True) -> None:
         """
         Creates Stage object ready for HTML parsing
 
-        :param race_url: URL of race overview either full or relative, e.g.
+        :param url: URL of race overview either full or relative, e.g.
         `race/tour-de-france/2021/stage-8`
-        :param print_request_url: whether to print URL when making request,
-        defaults to False
+        :param update_html: whether to make request to given URL and update
+        `self.html`, when False `self.update_html` method has to be called
+        manually to make object ready for parsing, defaults to True
         """
-        Race._validate_url(stage_url, stage_url)
-        super().__init__(stage_url, print_request_url)
+        Race._validate_url(url, url)
+        super().__init__(url, update_html)
 
     def parse_html(self) -> Dict[str, Any]:
         """
@@ -73,7 +74,7 @@ class Stage(Scraper):
 
         :return: race season id e.g. `tour-de-france/2021`
         """
-        return "/".join(self._cut_base_url().split("/")[1:3])
+        return "/".join(self.relative_url().split("/")[1:3])
 
     def stage_id(self) -> str:
         """
@@ -81,7 +82,7 @@ class Stage(Scraper):
 
         :returns: stage id e.g. `tour-de-france/2021/stage-9`
         """
-        url_elements = self._cut_base_url().split("/")[1:]
+        url_elements = self.relative_url().split("/")[1:]
         stage_id = [element for element in url_elements if element != "result"]
         return "/".join(stage_id)
 

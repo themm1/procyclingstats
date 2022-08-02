@@ -19,16 +19,17 @@ def test():
 
 
 class Rider(Scraper):
-    def __init__(self, rider_url: str, print_request_url: bool = False) -> None:
+    def __init__(self, url: str, update_html: bool = True) -> None:
         """
         Creates rider object ready for HTML parsing
 
-        :param rider_url: rider's URL either full or relative, e.g.
+        :param url: rider's URL either full or relative, e.g.
         `rider/tadej-pogacar`
-        :param print_request_url: whether to print URL when making request,
-        defaults to False
+        :param update_html: whether to make request to given URL and update
+        `self.html`, when False `self.update_html` method has to be called
+        manually to make object ready for parsing, defaults to True
         """
-        super().__init__(rider_url, print_request_url)
+        super().__init__(url, update_html)
         self.content = {}
 
     def parse_html(self) -> Dict[str, Any]:
