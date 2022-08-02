@@ -39,35 +39,6 @@ class Stage(Scraper):
         Race._validate_url(url, url)
         super().__init__(url, update_html)
 
-    def parse_html(self) -> Dict[str, Any]:
-        """
-        Stores all parsable info to `self.content` dict
-
-        :return: `self.content` dict
-        """
-        self.content['info'] = {
-            "stage_id": self.stage_id(),
-            "race_season_id": self.race_season_id(),
-            "distance": self.distance(),
-            "mtf": self.mtf(),
-            "course_type": self.course_type(),
-            "race_type": self.stage_type(),
-            "winning_attack_length": self.winning_attack_length(),
-            "vertical_meters": self.vertical_meters(),
-            "date": self.date(),
-            "departure": self.departure(),
-            "arrival": self.arrival()
-        }
-        self.content['results'] = self.results()
-        # When the race is stage race, add classifications
-        if self.is_stage_race():
-            self.content['gc'] = self.gc()
-            self.content['points'] = self.points()
-            self.content['kom'] = self.kom()
-            self.content['youth'] = self.youth()
-            self.content['teams'] = self.teams()
-        return self.content
-
     def race_season_id(self) -> str:
         """
         Parses race season id from URL

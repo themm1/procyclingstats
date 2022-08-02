@@ -16,15 +16,10 @@ def test():
     print(tabulate(race.stages()))
     # print(race.startdate())
     # pprint(race.stages())
-    # race.parse_html()
-    # pprint(race.content)
 
     # stages = RaceStages(url)
-    # stages.parse_html()
-    # pprint(stages.content)
 
     # startlist = RaceStartlist(url + "/startlist")
-    # startlist.parse_html()
     # print(tabulate(startlist.startlist()))
 
 
@@ -121,33 +116,6 @@ class RaceOverview(Race):
         """
         self._validate_url(url, "overview")
         super().__init__(url, update_html)
-
-    def parse_html(self) -> Dict[str, Any]:
-        """
-        Store all parsable info to `self.content` dict, when method fails,
-        warning is raised
-
-        :raises Warning: when race doesn't have an overview
-        :return: `self.content` dict
-        """
-        try:
-            race_year = self.race_year()
-        except Exception:
-            raise Warning("Couldn't find overview of the race")
-
-        self.content = {
-            "race_id": self.race_id(),
-            "display_name": self.display_name(),
-            "nationality": self.nationality(),
-            "race_year": self.race_year(),
-            "startdate": self.startdate(),
-            "enddate": self.enddate(),
-            "category": self.category(),
-            "uci_tour": self.uci_tour(),
-        }
-        if not self.is_one_day_race():
-            self.content['stages'] = self.stages()
-        return self.content
 
     def display_name(self) -> str:
         """
@@ -260,18 +228,6 @@ class RaceStartlist(Race):
         """
         self._validate_url(url, "startlist")
         super().__init__(url, update_html)
-
-    def parse_html(self) -> Dict[str, List]:
-        """
-        Store all parsable info to `self.content` dict
-
-        :return: `self.content` dict
-        """
-        self.content = {
-            "teams": self.teams(),
-            "startlist": self.startlist()
-        }
-        return self.content
 
     def teams(self) -> List[str]:
         """

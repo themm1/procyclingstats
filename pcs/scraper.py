@@ -21,7 +21,6 @@ class Scraper:
         self.html: Union[HTML, None] = None
         if update_html:
             self.html = self._request_html()
-        self.content: Dict[str, Any] = {}
 
     def __repr__(self) -> str:
         """:return: `self.url`"""

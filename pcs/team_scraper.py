@@ -42,7 +42,6 @@ class Team(Scraper):
         manually to make object ready for parsing, defaults to True
         """
         super().__init__(url, update_html)
-        self.content = {}
 
     def teams_seasons_select(self) -> List[dict]:
         """

@@ -30,26 +30,6 @@ class Rider(Scraper):
         manually to make object ready for parsing, defaults to True
         """
         super().__init__(url, update_html)
-        self.content = {}
-
-    def parse_html(self) -> Dict[str, Any]:
-        """
-        Stores all parsable info to `self.content` dict
-
-        :return: `self.content` dict
-        """
-        self.content['info'] = {
-            "rider_id": self.url.split("/")[-1],
-            "name": self.name(),
-            "weight": self.weight(),
-            "height": self.height(),
-            "birthdate": self.birthdate(),
-            "nationality": self.nationality(),
-            "place_of_birth": self.place_of_birth(),
-        }
-        self.content['teams_seasons'] = self.seasons_teams()
-        self.content['points_season'] = self.seasons_points()
-        return self.content
 
     def birthdate(self) -> str:
         """
