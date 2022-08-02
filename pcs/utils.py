@@ -4,7 +4,7 @@ from typing import List, Tuple
 from requests_html import HTML
 
 
-def get_day_month(str_with_date: str) -> Tuple[str]:
+def get_day_month(str_with_date: str) -> Tuple[str, str]:
     """
     Gets day and month from string containing day/month or day-month
 
@@ -18,12 +18,12 @@ def get_day_month(str_with_date: str) -> Tuple[str]:
     # loop through string and check whether next 5 characters are in wanted
     # date format `day/month` or `day-month`
     for i, char in enumerate(str_with_date[:-4]):
-        if str_with_date[i:i+2].isnumeric() and \
-                str_with_date[i+3:i+5].isnumeric():
-            if str_with_date[i+2] == "/":
-                [day, month] = str_with_date[i:i+5].split("/")
-            elif str_with_date[i+2] == "-":
-                [day, month] = str_with_date[i:i+5].split("-")
+        if str_with_date[i:i + 2].isnumeric() and \
+                str_with_date[i + 3:i + 5].isnumeric():
+            if str_with_date[i + 2] == "/":
+                [day, month] = str_with_date[i:i + 5].split("/")
+            elif str_with_date[i + 2] == "-":
+                [day, month] = str_with_date[i:i + 5].split("-")
     if day.isnumeric() and month.isnumeric():
         return day, month
     # day or month weren't numeric so given string doesn't contain date in
@@ -78,7 +78,7 @@ def convert_date(date: str) -> str:
 
 def format_time(time: str):
     time_length = len(time.split(":"))
-    for _ in range(3-time_length):
+    for _ in range(3 - time_length):
         time = "".join(["00:", time])
     return time
 

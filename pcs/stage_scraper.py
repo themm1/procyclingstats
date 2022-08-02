@@ -147,7 +147,7 @@ class Stage(Scraper):
         """
         Parses length of winning attack from HTML
 
-        :param when_none_or_unknown: value to return when there is no info 
+        :param when_none_or_unknown: value to return when there is no info
         about winning attack, defaults to 0.0
         :return: length of winning attack"""
         won_how_html = self.html.find(".infolist > li:nth-child(12) > div")
@@ -196,10 +196,19 @@ class Stage(Scraper):
         arrival_html = self.html.find(".infolist > li:nth-child(11) > div")
         return arrival_html[1].text
 
-    def results(self, *args: Tuple[str], available_fields: Tuple[str] = (
-                "rider_name", "rider_url", "team_name", "team_url", "rank",
-                "status", "age", "nationality", "time", "bonus", "pcs_points",
-                "uci_points")) -> List[dict]:
+    def results(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "rank",
+            "status",
+            "age",
+            "nationality",
+            "time",
+            "bonus",
+            "pcs_points",
+            "uci_points")) -> List[dict]:
         """
         Parses main results table from HTML, if results table is TTT one day
         race, fields `age`, `nationality` and `bonus` are not available
@@ -261,10 +270,19 @@ class Stage(Scraper):
             tp.make_times_absolute()
             return tp.table
 
-    def gc(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
-        "age", "nationality", "time", "bonus", "pcs_points", "uci_points"
-    )) -> List[dict]:
+    def gc(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "rank",
+            "prev_rank",
+            "age",
+            "nationality",
+            "time",
+            "bonus",
+            "pcs_points",
+            "uci_points")) -> List[dict]:
         """
         Parses results from GC results table from HTML, available only on stage
         races
@@ -282,18 +300,26 @@ class Stage(Scraper):
         tp.make_times_absolute()
         return tp.table
 
-    def points(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
-        "points", "age", "nationality", "pcs_points", "uci_points"
-    )) -> List[dict]:
+    def points(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "rank",
+            "prev_rank",
+            "points",
+            "age",
+            "nationality",
+            "pcs_points",
+            "uci_points")) -> List[dict]:
         """
-        Parses results from points classification results table from HTML, 
+        Parses results from points classification results table from HTML,
         available only on stage races
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
-        :return: points classification results table represented as list of 
+        :return: points classification results table represented as list of
         dicts
         """
         fields = parse_table_fields_args(args, available_fields)
@@ -303,10 +329,18 @@ class Stage(Scraper):
         tp.parse(fields)
         return tp.table
 
-    def kom(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
-        "points", "age", "nationality", "pcs_points", "uci_points"
-    )) -> List[dict]:
+    def kom(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "rank",
+            "prev_rank",
+            "points",
+            "age",
+            "nationality",
+            "pcs_points",
+            "uci_points")) -> List[dict]:
         """
         Parses results from KOM classification results table from HTML,
         available only on stage races
@@ -323,10 +357,18 @@ class Stage(Scraper):
         tp.parse(fields)
         return tp.table
 
-    def youth(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "rider_name", "rider_url", "team_name", "team_url", "rank", "prev_rank",
-        "time", "age", "nationality", "pcs_points", "uci_points"
-    )) -> List[dict]:
+    def youth(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "rank",
+            "prev_rank",
+            "time",
+            "age",
+            "nationality",
+            "pcs_points",
+            "uci_points")) -> List[dict]:
         """
         Parses results from youth classification results table from HTML,
         available only on stage races
@@ -343,9 +385,15 @@ class Stage(Scraper):
         tp.make_times_absolute()
         return tp.table
 
-    def teams(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "team_name", "team_url", "rank", "prev_rank", "time", "nationality",
-            "pcs_points", "uci_points")) -> List[dict]:
+    def teams(self, *args: str, available_fields: Tuple[str, ...] = (
+            "team_name",
+            "team_url",
+            "rank",
+            "prev_rank",
+            "time",
+            "nationality",
+            "pcs_points",
+            "uci_points")) -> List[dict]:
         """
         Parses results from teams classification results table from HTML,
         available only on stage races
@@ -362,8 +410,13 @@ class Stage(Scraper):
         tp.make_times_absolute()
         return tp.table
 
-    def _table_html(self, table: Literal["stage", "gc", "points", "kom",
-                    "youth", "teams"]) -> Union[HTML, None]:
+    def _table_html(self, table: Literal[
+            "stage",
+            "gc",
+            "points",
+            "kom",
+            "youth",
+            "teams"]) -> Union[HTML, None]:
         """
         Get HTML of a .result-cont table with results based on `table` param
 

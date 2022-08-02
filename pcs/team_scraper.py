@@ -25,8 +25,11 @@ def test():
 
 
 class Team(Scraper):
-    _career_points_table_fields: List[str] = ("nationality", "rider_name",
-                                              "rider_url", "points")
+    _career_points_table_fields: Tuple[str, ...] = (
+        "nationality",
+        "rider_name",
+        "rider_url",
+        "points")
 
     def __init__(self, team_url: str, print_request_url: bool = False) -> None:
         """
@@ -49,9 +52,16 @@ class Team(Scraper):
         team_seasons_select_html = self.html.find("form > select")[0]
         return parse_select_menu(team_seasons_select_html)
 
-    def riders(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "nationality", "rider_name", "rider_url", "points", "age", "since",
-            "until", "ranking_points", "ranking_position")) -> List[dict]:
+    def riders(self, *args: str, available_fields: Tuple[str, ...] = (
+            "nationality",
+            "rider_name",
+            "rider_url",
+            "points",
+            "age",
+            "since",
+            "until",
+            "ranking_points",
+            "ranking_position")) -> List[dict]:
         """
         Parses team riders from HTML
 
@@ -179,8 +189,8 @@ class Team(Scraper):
         return int(team_ranking_html.text)
 
     def _ranking_table(
-            self, points: bool, position: bool, as_dict: bool = False) -> Union[
-            Dict[str, dict], List[dict]]:
+        self, points: bool, position: bool, as_dict: bool = False
+    ) -> Union[Dict[str, dict], List[dict]]:
         """
         Parses ranking table with team riders from HTML
 
@@ -204,8 +214,9 @@ class Team(Scraper):
         else:
             return tp.table
 
-    def _ages_table(self, age: bool, as_dict: bool = False
-                    ) -> Union[List[dict], Dict[str, dict]]:
+    def _ages_table(
+        self, age: bool, as_dict: bool = False
+    ) -> Union[List[dict], Dict[str, dict]]:
         """
         Parses ranking table with team riders from HTML
 

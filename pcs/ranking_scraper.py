@@ -21,10 +21,16 @@ class Ranking(Scraper):
         self._validate_url(url)
         super().__init__(url, print_request_url)
 
-    def individual_ranking(self, *args: Tuple[str],
-                           available_fields: Tuple[str] = (
-        "rank", "prev_rank", "rider_name", "rider_url", "team_name", "team_url",
-            "nationality", "points")) -> List[dict]:
+    def individual_ranking(self, *args: str,
+                           available_fields: Tuple[str, ...] = (
+                               "rank",
+                               "prev_rank",
+                               "rider_name",
+                               "rider_url",
+                               "team_name",
+                               "team_url",
+                               "nationality",
+                               "points")) -> List[dict]:
         """
         Parses individual ranking from HTML
 
@@ -45,8 +51,13 @@ class Ranking(Scraper):
         tp.parse(fields)
         return tp.table
 
-    def team_ranking(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "rank", "prev_rank", "team_name", "team_url", "nationality", "class",
+    def team_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rank",
+            "prev_rank",
+            "team_name",
+            "team_url",
+            "nationality",
+            "class",
             "points")) -> List[dict]:
         """
         Parses team ranking from HTML
@@ -71,9 +82,12 @@ class Ranking(Scraper):
             tp.extend_table("class", -2, str)
         return tp.table
 
-    def nations_ranking(self, *args: Tuple[str],
-                        available_fields: Tuple[str] = (
-        "rank", "prev_rank", "nation_name", "nation_url", "nationality",
+    def nations_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rank",
+            "prev_rank",
+            "nation_name",
+            "nation_url",
+            "nationality",
             "points")) -> List[dict]:
         """
         Parses nations ranking from HTML
@@ -95,8 +109,13 @@ class Ranking(Scraper):
         tp.parse(fields)
         return tp.table
 
-    def races_ranking(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "rank", "prev_rank", "race_name", "race_url", "nationality", "class",
+    def races_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rank",
+            "prev_rank",
+            "race_name",
+            "race_url",
+            "nationality",
+            "class",
             "points")) -> List[dict]:
         """
         Parses races ranking from HTML
@@ -121,11 +140,19 @@ class Ranking(Scraper):
             tp.extend_table("class", -2, str)
         return tp.table
 
-    def individual_wins_ranking(self, *args: Tuple[str],
-                                available_fields: Tuple[str] = (
-        "rank", "prev_rank", "rider_name", "rider_url", "team_name", "team_url",
-                "nationality", "first_places", "second_places", "third_places"
-    )) -> List[dict]:
+    def individual_wins_ranking(self, *args: str,
+                                available_fields: Tuple[str, ...] = (
+                                    "rank",
+                                    "prev_rank",
+                                    "rider_name",
+                                    "rider_url",
+                                    "team_name",
+                                    "team_url",
+                                    "nationality",
+                                    "first_places",
+                                    "second_places",
+                                    "third_places"
+                                )) -> List[dict]:
         """
         Parses individual wins ranking from HTML
 
@@ -151,10 +178,17 @@ class Ranking(Scraper):
         self._extend_table_to_podiums(tp, fields)
         return tp.table
 
-    def teams_wins_ranking(self, *args: Tuple[str],
-                           available_fields: Tuple[str] = (
-        "rank", "prev_rank", "team_name", "team_url", "nationality", "class",
-            "first_places", "second_places", "third_places")) -> List[dict]:
+    def teams_wins_ranking(self, *args: str,
+                           available_fields: Tuple[str, ...] = (
+                               "rank",
+                               "prev_rank",
+                               "team_name",
+                               "team_url",
+                               "nationality",
+                               "class",
+                               "first_places",
+                               "second_places",
+                               "third_places")) -> List[dict]:
         """
         Parses teams wins ranking from HTML
 
@@ -182,10 +216,16 @@ class Ranking(Scraper):
         self._extend_table_to_podiums(tp, fields, [-3, -2, -1])
         return tp.table
 
-    def nations_wins_ranking(self, *args: Tuple[str],
-                             available_fields: Tuple[str] = (
-        "rank", "prev_rank", "nation_name", "nation_url", "nationality",
-            "first_places", "second_places", "third_places")) -> List[dict]:
+    def nations_wins_ranking(self, *args: str,
+                             available_fields: Tuple[str, ...] = (
+                                 "rank",
+                                 "prev_rank",
+                                 "nation_name",
+                                 "nation_url",
+                                 "nationality",
+                                 "first_places",
+                                 "second_places",
+                                 "third_places")) -> List[dict]:
         """
         Parses nations wins ranking from HTML
 
@@ -210,8 +250,9 @@ class Ranking(Scraper):
         self._extend_table_to_podiums(tp, fields)
         return tp.table
 
-    def dates_select(self, *args: Tuple[str], avialable_fields: Tuple[str] = (
-            "text", "value")) -> List[dict]:
+    def dates_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
+            "text",
+            "value")) -> List[dict]:
         """
         Parses dates select menu from HTML
 
@@ -226,8 +267,9 @@ class Ranking(Scraper):
         select_menu_html = self._select_menu_by_label("Date")
         return self._parse_select(select_menu_html, fields)
 
-    def nations_select(self, *args: Tuple[str], avialable_fields: Tuple[str] = (
-            "text", "value")) -> List[dict]:
+    def nations_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
+            "text",
+            "value")) -> List[dict]:
         """
         Parses nations select menu from HTML
 
@@ -242,8 +284,9 @@ class Ranking(Scraper):
         select_menu_html = self._select_menu_by_label("Nation")
         return self._parse_select(select_menu_html, fields)
 
-    def teams_select(self, *args: Tuple[str], avialable_fields: Tuple[str] = (
-            "text", "value")) -> List[dict]:
+    def teams_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
+            "text",
+            "value")) -> List[dict]:
         """
         Parses teams select menu from HTML
 
@@ -258,8 +301,9 @@ class Ranking(Scraper):
         select_menu_html = self._select_menu_by_label("Team")
         return self._parse_select(select_menu_html, fields)
 
-    def pages_select(self, *args: Tuple[str], avialable_fields: Tuple[str] = (
-            "text", "value")) -> List[dict]:
+    def pages_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
+            "text",
+            "value")) -> List[dict]:
         """
         Parses pages select menu from HTML
 
@@ -274,9 +318,10 @@ class Ranking(Scraper):
         select_menu_html = self._select_menu_by_label("Page")
         return self._parse_select(select_menu_html, fields)
 
-    def teamlevels_select(
-            self, *args: Tuple[str],
-            avialable_fields: Tuple[str] = ("text", "value")) -> List[dict]:
+    def teamlevels_select(self, *args: str,
+                          avialable_fields: Tuple[str, ...] = (
+                              "text",
+                              "value")) -> List[dict]:
         """
         Parses team levels select menu from HTML
 
@@ -291,9 +336,14 @@ class Ranking(Scraper):
         select_menu_html = self._select_menu_by_label("Teamlevel")
         return self._parse_select(select_menu_html, fields)
 
-    def _ranking_type(self) -> Literal["individual", "nations", "teams",
-                                       "races", "distance", "racedays",
-                                       "individual_wins", "team_wins",
+    def _ranking_type(self) -> Literal["individual",
+                                       "nations",
+                                       "teams",
+                                       "races",
+                                       "distance",
+                                       "racedays",
+                                       "individual_wins",
+                                       "team_wins",
                                        "nation_wins"]:
         """
         Finds out what is the ranking type of the object based on URL
@@ -365,8 +415,7 @@ class Ranking(Scraper):
         return self.html.find("li > div > select")[index]
 
     @staticmethod
-    def _extend_table_to_podiums(tp: TableParser,
-                                 fields: List[str],
+    def _extend_table_to_podiums(tp: TableParser, fields: List[str],
                                  podium_indexes: List[int] = [-4, -3, -2]
                                  ) -> None:
         """
@@ -387,7 +436,7 @@ class Ranking(Scraper):
             tp.extend_table("third_places", podium_indexes[2],
                             lambda x: int(x) if x != "-" else 0)
 
-    @staticmethod
+    @ staticmethod
     def _parse_select(select_menu_html: HTML, fields: List[str]) -> List[dict]:
         """
         Uses `SelectParser` and gets parsed table

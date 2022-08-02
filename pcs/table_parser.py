@@ -102,7 +102,7 @@ class TableRowParser:
         """
         Parses status (same element as rank)
 
-        :return: if rank is numeric returns `DF` otherwise returns rank text 
+        :return: if rank is numeric returns `DF` otherwise returns rank text
         value, e.g. `DNF`
         """
         status_html = self.tr.find(self.row_child_tag)[0]
@@ -333,8 +333,16 @@ class TableParser:
     }
     """Finds out what is the table children tag"""
     ttt_fields: List[str] = [
-        "rank", "time", "rider_name", "rider_url", "team_name", "team_url",
-        "pcs_points", "uci_points", "pcs_points", "status"
+        "rank",
+        "time",
+        "rider_name",
+        "rider_url",
+        "team_name",
+        "team_url",
+        "pcs_points",
+        "uci_points",
+        "pcs_points",
+        "status"
     ]
     """Fields that are available in TTT results table"""
 
@@ -353,7 +361,7 @@ class TableParser:
         self.table_child_tag = self.child_tag_dict[table_tag]
         self.table: List[dict] = []
 
-    def parse(self, fields: List[str],
+    def parse(self, fields: Union[List[str], Tuple[str, ...]],
               skip_when: callable = lambda x: False) -> None:
         """
         Parses HTML table to `self.table` (list of dicts) by calling given

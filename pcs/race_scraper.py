@@ -98,11 +98,11 @@ class Race(Scraper):
 
     def race_season_id(self) -> str:
         """
-        Parses race seson id from URL 
+        Parses race seson id from URL
 
         :return: race season id e.g. `tour-de-france/2021`
         """
-        return self._cut_base_url().split("/")[1:3]
+        return "/".join(self._cut_base_url().split("/")[1:3])
 
 
 class RaceOverview(Race):
@@ -114,7 +114,7 @@ class RaceOverview(Race):
 
         :param race_url: URL of race overview either full or relative, e.g.
         `race/tour-de-france/2021/overview`
-        :param print_request_url: whether to print URL when making request, 
+        :param print_request_url: whether to print URL when making request,
         defaults to False
         """
         self._validate_url(race_url, "overview")
@@ -122,7 +122,7 @@ class RaceOverview(Race):
 
     def parse_html(self) -> Dict[str, Any]:
         """
-        Store all parsable info to `self.content` dict, when method fails, 
+        Store all parsable info to `self.content` dict, when method fails,
         warning is raised
 
         :raises Warning: when race doesn't have an overview
@@ -219,11 +219,15 @@ class RaceOverview(Race):
         uci_tour_html = self.html.find(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text
 
-    def stages(self, *args: Tuple[str], available_fields: Tuple[str] = (
-        "date", "mtf", "course_type", "stage_name", "stage_url", "distance"
-    )) -> List[str]:
+    def stages(self, *args: str, available_fields: Tuple[str, ...] = (
+            "date",
+            "mtf",
+            "course_type",
+            "stage_name",
+            "stage_url",
+            "distance")) -> List[dict]:
         """
-        Parses race stages from HTML (available only on stage races) 
+        Parses race stages from HTML (available only on stage races)
 
         :param *args: fields that should be contained in results table,
         available options are a all included in `fields` default value
@@ -279,7 +283,7 @@ class RaceStartlist(Race):
         """
         Parses startlist from HTML
 
-        :return: table with columns `rider_id`, `rider_number`, `team_id` 
+        :return: table with columns `rider_id`, `rider_number`, `team_id`
         represented as list of dicts
         """
         startlist = []
