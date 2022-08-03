@@ -25,6 +25,15 @@ def test():
 
 
 class Team(Scraper):
+    """
+    Scraper for HTML team page.
+
+    :param url: team URL, either absolute or relative, e.g.
+    `team/bora-hansgrohe-2022`
+    :param update_html: whether to make request to given URL and update
+    `self.html`, when False `self.update_html` method has to be called
+    manually to make object ready for parsing, defaults to True
+    """
     _career_points_table_fields: Tuple[str, ...] = (
         "nationality",
         "rider_name",
@@ -32,15 +41,6 @@ class Team(Scraper):
         "points")
 
     def __init__(self, url: str, update_html: bool = True) -> None:
-        """
-        Creates Team object ready for HTML parsing
-
-        :param url: team URL, either full or relative, e.g.
-        `team/bora-hansgrohe-2022`
-        :param update_html: whether to make request to given URL and update
-        `self.html`, when False `self.update_html` method has to be called
-        manually to make object ready for parsing, defaults to True
-        """
         super().__init__(url, update_html)
 
     def teams_seasons_select(self) -> List[dict]:

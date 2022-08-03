@@ -23,18 +23,19 @@ def test():
 
 
 class Stage(Scraper):
+    """
+    Scraper for HTML stage page. On one day races methods for parsing
+    classifications (e.g. `self.gc` or `self.points`) aren't available.
+
+    :param url: URL of race overview either full or relative, e.g.
+    `race/tour-de-france/2021/stage-8`
+    :param update_html: whether to make request to given URL and update
+    `self.html`, when False `self.update_html` method has to be called
+    manually to make object ready for parsing, defaults to True
+    """
     _tables_path: str = ".result-cont > table > tbody"
 
     def __init__(self, url: str, update_html: bool = True) -> None:
-        """
-        Creates Stage object ready for HTML parsing
-
-        :param url: URL of race overview either full or relative, e.g.
-        `race/tour-de-france/2021/stage-8`
-        :param update_html: whether to make request to given URL and update
-        `self.html`, when False `self.update_html` method has to be called
-        manually to make object ready for parsing, defaults to True
-        """
         super().__init__(url, update_html)
 
     def race_season_id(self) -> str:

@@ -4,18 +4,18 @@ from requests_html import HTML, HTMLSession
 
 
 class Scraper:
+    """
+    Used as base class for scraping classes
+
+    :param url: URL to be parsed from
+    :param update_html: whether to make request to given URL and update
+    object's HTML, when False `self.update_html` method has to be called
+    manually to make object ready for parsing
+    """
     base_url: Literal["https://www.procyclingstats.com/"] = \
         "https://www.procyclingstats.com/"
 
     def __init__(self, url: str, update_html: bool) -> None:
-        """
-        Used as base class for scraping classes
-
-        :param url: URL to be parsed from
-        :param update_html: whether to make request to given URL and update
-        object's HTML, when False `self.update_html` method has to be called
-        manually to make object ready for parsing
-        """
         # .html and .url are going to be overridden by subclasses
         self.url: str = self._format_url(url)
         self.html: Union[HTML, None] = None

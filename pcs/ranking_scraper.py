@@ -17,18 +17,21 @@ def test():
 
 
 class Ranking(Scraper):
-    def __init__(self, url: str, update_html: bool = False) -> None:
-        """
-        Creates Ranking object ready for HTML parsing
+    """
+    Scraper for HTML ranking page. Always only one method for ranking
+    parsing is available (based on ranking type). e.g. `self.individual_ranking`
+    for `rankings/me/season-individual` ranking
 
-        :param url: URL of ranking to be parsed from, either full or relative,
-        e.g. `rankings/me/season-individual` or 'rankings.php?date=2021-12-31&
-        nation=&age=&zage=&page=smallerorequal&team=&offset=0&filter=Filter&p=me
-        &s=season-individual'
-        :param update_html: whether to make request to given URL and update
-        `self.html`, when False `self.update_html` method has to be called
-        manually to make object ready for parsing, defaults to True
-        """
+    :param url: URL of ranking to be parsed from, either full or relative,
+    e.g. `rankings/me/season-individual` or 'rankings.php?date=2021-12-31&
+    nation=&age=&zage=&page=smallerorequal&team=&offset=0&filter=Filter&p=me
+    &s=season-individual'
+    :param update_html: whether to make request to given URL and update
+    `self.html`, when False `self.update_html` method has to be called
+    manually to make object ready for parsing, defaults to True
+    """
+
+    def __init__(self, url: str, update_html: bool = False) -> None:
         self._validate_url(url)
         super().__init__(url, update_html)
 

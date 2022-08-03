@@ -24,16 +24,17 @@ def test():
 
 
 class RaceOverview(Scraper):
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        """
-        Creates RaceOverview object ready for HTML parsing
+    """
+    Scraper for race overview page.
 
-        :param url: URL of race overview either full or relative, e.g.
-        `race/tour-de-france/2021/overview`
-        :param update_html: whether to make request to given URL and update
-        `self.html`, when False `self.update_html` method has to be called
-        manually to make object ready for parsing, defaults to True
-        """
+    :param url: URL of race overview either full or relative, e.g.
+    `race/tour-de-france/2021/overview`
+    :param update_html: whether to make request to given URL and update
+    `self.html`, when False `self.update_html` method has to be called
+    manually to make object ready for parsing, defaults to True
+    """
+
+    def __init__(self, url: str, update_html: bool = True) -> None:
         super().__init__(url, update_html)
 
     def race_id(self) -> str:
@@ -150,16 +151,17 @@ class RaceOverview(Scraper):
 
 
 class RaceStartlist(Scraper):
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        """
-        Creates RaceStartlist object ready for HTML parsing
+    """
+    Scraper for race startlist HTML page.
 
-        :param url: URL of race overview either full or relative, e.g.
-        `race/tour-de-france/2021/startlist`
-        :param update_html: whether to make request to given URL and update
-        `self.html`, when False `self.update_html` method has to be called
-        manually to make object ready for parsing, defaults to True
-        """
+    :param url: URL of race overview either full or relative, e.g.
+    `race/tour-de-france/2021/startlist`
+    :param update_html: whether to make request to given URL and update
+    `self.html`, when False `self.update_html` method has to be called
+    manually to make object ready for parsing, defaults to True
+    """
+
+    def __init__(self, url: str, update_html: bool = True) -> None:
         super().__init__(url, update_html)
 
     def race_id(self) -> str:

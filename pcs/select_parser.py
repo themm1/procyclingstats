@@ -4,6 +4,13 @@ from requests_html import HTML
 
 
 class SelectParser:
+    """
+    Parser for select menu, parsed data are stored in `self.table`, which
+    is represented as list of dicts
+
+    :param html_select_menu: HTML select menu to be parsed from
+    """
+
     def __init__(self, html_select_menu: HTML) -> None:
         self.html_select_menu: HTML = html_select_menu
         self.table: List[dict] = []

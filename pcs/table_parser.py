@@ -17,23 +17,22 @@ def test():
 
 
 class TableRowParser:
+    """
+    Parser for HTML table row, public methods parse data and return it
+
+    :param row: table row (`tr` or `li` element currently) to be parsed from
+    :param row_tag: what HTML tag table row has (`tr`, `li`) 
+    """
     row_child_tag_dict: Dict[str, str] = {
         "tr": "td",
         "li": "div"
     }
     """Finds out what is the row child tag based on table child tag"""
 
-    def __init__(self, tr: HTML,
-                 table_child_tag: Literal["tr", "li"] = "tr") -> None:
-        """
-        Parses row of a table
-
-        :param tr: table row (`tr` element) to be parsed from
-        :param child_element_tag: what type of element (td, div) are children of
-        given row
-        """
-        self.tr = tr
-        self.row_child_tag = self.row_child_tag_dict[table_child_tag]
+    def __init__(self, row: HTML,
+                 row_tag: Literal["tr", "li"] = "tr") -> None:
+        self.row = row
+        self.row_child_tag = self.row_child_tag_dict[row_tag]
 
     def _get_a(self, to_find: Literal["rider", "team", "race", "nation"],
                url: bool = False) -> str:
@@ -45,7 +44,7 @@ class TableRowParser:
         False
         :return: text of the element, if url is True href of the element
         """
-        for a in self.tr.find("a"):
+        for a in self.row.find("a"):
             if a.attrs['href'].split("/")[0] == to_find:
                 # return url of rider or team
                 if url:
@@ -92,7 +91,7 @@ class TableRowParser:
 
         :return: rank as int if found, otherwise None
         """
-        rank_html = self.tr.find(self.row_child_tag)[0]
+        rank_html = self.row.find(self.row_child_tag)[0]
         if not rank_html.text.isnumeric():
             return None
         else:
@@ -105,7 +104,7 @@ class TableRowParser:
         :return: if rank is numeric returns `DF` otherwise returns rank text
         value, e.g. `DNF`
         """
-        status_html = self.tr.find(self.row_child_tag)[0]
+        status_html = self.row.find(self.row_child_tag)[0]
         if status_html.text.isnumeric():
             return "DF"
         else:
@@ -117,7 +116,7 @@ class TableRowParser:
 
         :return: previous rank as int if found, otherwise None
         """
-        rank_html = self.tr.find(self.row_child_tag)[1]
+        rank_html = self.row.find(self.row_child_tag)[1]
         if rank_html.text:
             return int(rank_html.text)
         else:
@@ -129,7 +128,7 @@ class TableRowParser:
 
         :return: age
         """
-        age_html = self.tr.find(self.row_child_tag)[0]
+        age_html = self.row.find(self.row_child_tag)[0]
         return int(age_html.text)
 
     def nationality(self) -> str:
@@ -138,7 +137,7 @@ class TableRowParser:
 
         :return: nationality as 2 chars long country code in uppercase
         """
-        nationality_html = self.tr.find(".flag")[0]
+        nationality_html = self.row.find(".flag")[0]
         return nationality_html.attrs['class'][1].upper()
 
     def time(self) -> str:
@@ -147,11 +146,11 @@ class TableRowParser:
 
         :return: time, when first row is parsed absolute, otherwise relative
         """
-        hidden_time_list = self.tr.find(".time > .hide")
+        hidden_time_list = self.row.find(".time > .hide")
         if hidden_time_list:
             time = hidden_time_list[0].text
         else:
-            time = self.tr.find(".time")[0].text.split("\n")[0]
+            time = self.row.find(".time")[0].text.split("\n")[0]
         if time == "-":
             time = None
         return time
@@ -162,7 +161,7 @@ class TableRowParser:
 
         :return: bonus seconds as int, 0 if not found
         """
-        bonus_html_list = self.tr.find(".bonis")
+        bonus_html_list = self.row.find(".bonis")
         if not bonus_html_list:
             return 0
         bonus = bonus_html_list[0].text.replace("″", "")
@@ -176,8 +175,8 @@ class TableRowParser:
 
         :return: points
         """
-        points_html = self.tr.find(f"{self.row_child_tag}:not(.delta_pnt)"
-                                   ":not(.clear)")[-1]
+        points_html = self.row.find(f"{self.row_child_tag}:not(.delta_pnt)"
+                                    ":not(.clear)")[-1]
         return float(points_html.text)
 
     def pcs_points(self) -> int:
@@ -186,7 +185,7 @@ class TableRowParser:
 
         :return: PCS points, when not found returns 0
         """
-        tds = self.tr.find(self.row_child_tag)
+        tds = self.row.find(self.row_child_tag)
         count = 0
         # get PCS points by getting eigth column that is not of class fs10
         for td in tds:
@@ -207,7 +206,7 @@ class TableRowParser:
 
         :return: UCI points, when not found returns 0
         """
-        tds = self.tr.find(self.row_child_tag)
+        tds = self.row.find(self.row_child_tag)
         # get UCI points by getting seventh column that is not of class fs10
         count = 0
         for td in tds:
@@ -260,7 +259,7 @@ class TableRowParser:
 
         :return: day and month separated by `-` e.g. `30-7`
         """
-        raw_date = self.tr.find(self.row_child_tag)[0].text
+        raw_date = self.row.find(self.row_child_tag)[0].text
         return raw_date.replace("/", "-")
 
     def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
@@ -270,7 +269,7 @@ class TableRowParser:
         :return: profile icon e.g. `p4`, the higher the number is the more
         difficult the profile is
         """
-        return self.tr.find(".icon.profile")[0].attrs['class'][-1]
+        return self.row.find(".icon.profile")[0].attrs['class'][-1]
 
     def stage_name(self) -> str:
         """
@@ -294,7 +293,7 @@ class TableRowParser:
 
         :return: distance in kms
         """
-        distance_raw = self.tr.find(self.row_child_tag)[-2].text
+        distance_raw = self.row.find(self.row_child_tag)[-2].text
         # convert distance in `(12.2k)` format to 12.2 format
         return float(distance_raw.replace("k", "")[1:-1])
 
@@ -304,7 +303,7 @@ class TableRowParser:
 
         :return: season
         """
-        return int(self.tr.find(f"{self.row_child_tag}.season")[0].text)
+        return int(self.row.find(f"{self.row_child_tag}.season")[0].text)
 
     def get_other(self, index: int) -> str:
         """
@@ -314,10 +313,19 @@ class TableRowParser:
         :param index: index of wanted `td` element, negative indexing works too
         :return: text attribute of wanted element
         """
-        return self.tr.find(self.row_child_tag)[index].text
+        return self.row.find(self.row_child_tag)[index].text
 
 
 class TableParser:
+    """
+    Parser for HTML tables, parsed content is stored in `self.table`, which is
+    represented as list of dicts
+
+    :param html_table: HTML table to be parsed from
+    :param table_tag: HTML tag of table, currently supported are
+    `tbody` and `ul`, defaults to `tbody`
+    """
+
     child_tag_dict: Dict[str, Any] = {
         "tbody": "tr",
         "ul": "li"
@@ -340,20 +348,12 @@ class TableParser:
     def __init__(
             self, html_table: HTML,
             table_tag: Literal["tbody", "ul"] = "tbody") -> None:
-        """
-        Parsed content is stored in `self.table`, which is represented as list
-        of dicts
-
-        :param html_table: HTML table to be parsed from
-        :param table_tag: HTML tag of table, currently supported are
-        `tbody` and `ul`, defaults to `tbody`
-        """
         self.html_table: HTML = html_table
         self.table_child_tag = self.child_tag_dict[table_tag]
         self.table: List[dict] = []
 
     def parse(self, fields: Union[List[str], Tuple[str, ...]],
-              skip_when: callable = lambda x: False) -> None:
+              skip_when: callable = lambda _: False) -> None:
         """
         Parses HTML table to `self.table` (list of dicts) by calling given
         `TableRowParses` methods. Every parsed table row is dictionary with
@@ -393,7 +393,7 @@ class TableParser:
             if skip_when(child_html):
                 continue
             row_parser = TableRowParser(child_html,
-                                        table_child_tag=self.table_child_tag)
+                                        row_tag=self.table_child_tag)
             # add to every wanted property to parsed table row by calling
             # corresponding method
             parsed_row = {field: getattr(row_parser, field)()
@@ -458,7 +458,7 @@ class TableParser:
         for i, child_html in enumerate(
                 self.html_table.find(self.table_child_tag)):
             row_parser = TableRowParser(child_html,
-                                        table_child_tag=self.table_child_tag)
+                                        row_tag=self.table_child_tag)
             if i >= len(self.table):
                 self.table.append(
                     {field_name: func(row_parser.get_other(index))}
