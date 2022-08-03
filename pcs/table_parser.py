@@ -5,7 +5,7 @@ from typing import Any, Dict, List, Literal, Tuple, Union
 from requests_html import HTML
 
 from scraper import Scraper
-from utils import add_time, course_translator
+from utils import add_time
 
 
 def test():
@@ -263,23 +263,14 @@ class TableRowParser:
         raw_date = self.tr.find(self.row_child_tag)[0].text
         return raw_date.replace("/", "-")
 
-    def mtf(self) -> bool:
+    def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
         """
-        Parses profile icon and based on that get whether stage has mtf
+        Parses profile icon
 
-        :return: whether stage has mtf
+        :return: profile icon e.g. `p4`, the higher the number is the more
+        difficult the profile is
         """
-        course_type_code = self.tr.find(".icon.profile")[0].attrs['class'][-1]
-        return course_translator[course_type_code][1]
-
-    def course_type(self) -> Literal[None, "flat", "hilly", "mountain"]:
-        """
-        Parses profile icon and based on that gets its course type
-
-        :return: course type
-        """
-        course_type_code = self.tr.find(".icon.profile")[0].attrs['class'][2]
-        return course_translator[course_type_code][0]
+        return self.tr.find(".icon.profile")[0].attrs['class'][-1]
 
     def stage_name(self) -> str:
         """
@@ -392,8 +383,7 @@ class TableParser:
             - nation_name
             - nation_url
             - date
-            - mtf
-            - course_type
+            - profile_icon
             - stage_name
             - stage_url
             - distance

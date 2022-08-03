@@ -5,16 +5,16 @@ import requests_html
 from requests_html import HTML
 from tabulate import tabulate
 
-from race_scraper import Race
 from scraper import Scraper
 from table_parser import TableParser
-from utils import convert_date, course_translator, parse_table_fields_args
+from utils import convert_date, parse_table_fields_args
 
 
 def test():
     # s = Stage("race/world-championship-ttt/2017")
-    s = Stage("race/tour-de-france/2019/stage-2", True)
-    print(tabulate(s.results()))
+    s = Stage("race/tour-de-france/2022/stage-3", True)
+    # print(tabulate(s.results()))
+    print(s.profile_icon())
     # print(tabulate(s.gc()))
     # print(tabulate(s.points()))
     # print(tabulate(s.kom()))
@@ -23,7 +23,6 @@ def test():
 
 
 class Stage(Scraper):
-    _course_translator: dict = course_translator
     _tables_path: str = ".result-cont > table > tbody"
 
     def __init__(self, url: str, update_html: bool = True) -> None:
@@ -36,7 +35,6 @@ class Stage(Scraper):
         `self.html`, when False `self.update_html` method has to be called
         manually to make object ready for parsing, defaults to True
         """
-        Race._validate_url(url, url)
         super().__init__(url, update_html)
 
     def race_season_id(self) -> str:
@@ -76,27 +74,16 @@ class Stage(Scraper):
         distance_html = self.html.find(".infolist > li:nth-child(5) > div")
         return float(distance_html[1].text.split(" km")[0])
 
-    def mtf(self) -> bool:
+    def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
         """
-        Parses whether stage has mountain finnish
+        Parses profile icon from HTML
 
-        :return: whether stage has mtf
+        :return: profile icon e.g. `p4`, the higher the number is the more
+        difficult the profile is
         """
         profile_html = self.html.find(".infolist > li:nth-child(7) > "
                                       "div:nth-child(2) > span")
-        profile = profile_html[0].attrs['class'][2]
-        return bool(self._course_translator[profile][1])
-
-    def course_type(self) -> Union[Literal["flat", "hilly", "mountain"], None]:
-        """
-        Parses course type from HTML
-
-        :return: course type
-        """
-        profile_html = self.html.find(".infolist > li:nth-child(7) > "
-                                      "div:nth-child(2) > span")
-        profile = profile_html[0].attrs['class'][2]
-        return self._course_translator[profile][0]
+        return profile_html[0].attrs['class'][2]
 
     def stage_type(self) -> Literal["ITT", "TTT", "RR"]:
         """

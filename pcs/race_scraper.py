@@ -6,7 +6,7 @@ from tabulate import tabulate
 
 from scraper import Scraper
 from table_parser import TableParser
-from utils import course_translator, parse_table_fields_args
+from utils import parse_table_fields_args
 
 
 def test():
@@ -24,8 +24,6 @@ def test():
 
 
 class RaceOverview(Scraper):
-    _course_translator: dict = course_translator
-
     def __init__(self, url: str, update_html: bool = True) -> None:
         """
         Creates RaceOverview object ready for HTML parsing
@@ -128,8 +126,7 @@ class RaceOverview(Scraper):
 
     def stages(self, *args: str, available_fields: Tuple[str, ...] = (
             "date",
-            "mtf",
-            "course_type",
+            "profile_icon",
             "stage_name",
             "stage_url",
             "distance")) -> List[dict]:

@@ -99,13 +99,3 @@ def add_time(time1: str, time2: str) -> str:
         days = 0
         time = str(time_b)
     return f"{days} {time}"
-
-
-course_translator = {
-    "p0": (None, None),
-    "p1": ("flat", 0),
-    "p2": ("hilly", 0),
-    "p3": ("hilly", 1),
-    "p4": ("mountain", 0),
-    "p5": ("mountain", 1),
-}
