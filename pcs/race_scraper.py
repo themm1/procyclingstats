@@ -23,58 +23,20 @@ def test():
     # print(tabulate(startlist.startlist()))
 
 
-class Race(Scraper):
-    def __init__(self, race_url: str, update_html: bool = True) -> None:
-        """
-        General Race class
+class RaceOverview(Scraper):
+    _course_translator: dict = course_translator
 
-        :param race_url: URL of the race, e.g. `race/tour-de-france/2021`
+    def __init__(self, url: str, update_html: bool = True) -> None:
+        """
+        Creates RaceOverview object ready for HTML parsing
+
+        :param url: URL of race overview either full or relative, e.g.
+        `race/tour-de-france/2021/overview`
         :param update_html: whether to make request to given URL and update
         `self.html`, when False `self.update_html` method has to be called
         manually to make object ready for parsing, defaults to True
         """
-        super().__init__(race_url, update_html)
-
-    def _validate_url(
-        self, url: str, extra: Literal["", "overview", "startlist"] = ""
-    ) -> None:
-        """
-        Checks whether given URL is valid before making request, is used by
-        `Stage` class too
-
-        :param url: race URL to be validate e.g. `race/tour-de-france/2021`
-        :param extra: string that should URL contain after regular race URL e.g.
-        `overview`
-        :param stage: whether given URL is stage URL
-        :raises ValueError: when URL is invalid
-        """
-        url_to_check = url.split("/")
-        # remove empty strings from URL end (race/tour-de-france/2022/stage-19/)
-        for element in reversed(url_to_check):
-            if element != "":
-                break
-            url_to_check.pop()
-        try:
-            # remove self.base_url from URL if needed
-            if "https" in url:
-                if self.base_url != "/".join(url_to_check[:3]) + "/":
-                    raise IndexError()
-                url_to_check = url_to_check[3:]
-            length = 4 if extra else 3
-            # check criteria of valid URL
-            valid = len(url_to_check) >= 2 and \
-                len(url_to_check) <= 4 and \
-                url_to_check[0] == "race"
-            if valid and len(url_to_check) > 2:
-                valid = url_to_check[2].isnumeric() and \
-                    len(url_to_check[2]) == 4
-            if extra and valid:
-                valid = url_to_check[-1] == extra
-            if not valid:
-                raise ValueError(f"Invalid URL: {url}")
-        # if criteria couldn't been checked URL is invalid
-        except IndexError:
-            raise ValueError(f"Invalid URL: {url}")
+        super().__init__(url, update_html)
 
     def race_id(self) -> str:
         """
@@ -91,31 +53,6 @@ class Race(Scraper):
         :return: year as int
         """
         return int(self.relative_url().split("/")[2])
-
-    def race_season_id(self) -> str:
-        """
-        Parses race seson id from URL
-
-        :return: race season id e.g. `tour-de-france/2021`
-        """
-        return "/".join(self.relative_url().split("/")[1:3])
-
-
-class RaceOverview(Race):
-    _course_translator: dict = course_translator
-
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        """
-        Creates RaceOverview object ready for HTML parsing
-
-        :param url: URL of race overview either full or relative, e.g.
-        `race/tour-de-france/2021/overview`
-        :param update_html: whether to make request to given URL and update
-        `self.html`, when False `self.update_html` method has to be called
-        manually to make object ready for parsing, defaults to True
-        """
-        self._validate_url(url, "overview")
-        super().__init__(url, update_html)
 
     def display_name(self) -> str:
         """
@@ -215,7 +152,7 @@ class RaceOverview(Race):
         return tp.table
 
 
-class RaceStartlist(Race):
+class RaceStartlist(Scraper):
     def __init__(self, url: str, update_html: bool = True) -> None:
         """
         Creates RaceStartlist object ready for HTML parsing
@@ -226,8 +163,23 @@ class RaceStartlist(Race):
         `self.html`, when False `self.update_html` method has to be called
         manually to make object ready for parsing, defaults to True
         """
-        self._validate_url(url, "startlist")
         super().__init__(url, update_html)
+
+    def race_id(self) -> str:
+        """
+        Parses race id from URL
+
+        :return: race id e.g. `tour-de-france`
+        """
+        return self.relative_url().split("/")[1]
+
+    def year(self) -> int:
+        """
+        Parses year when the race occured from URL
+
+        :return: year as int
+        """
+        return int(self.relative_url().split("/")[2])
 
     def teams(self) -> List[str]:
         """
