@@ -45,7 +45,7 @@ class Team(Scraper):
 
     def _get_valid_url(self, url: str) -> str:
         """
-        Used for validating URL with regex
+        Validates given URL with regex and returns absolute URL
 
         :param url: URL either relative or absolute
         :raises ValueError: when URL isn't valid
