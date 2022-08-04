@@ -1,6 +1,6 @@
 import calendar
 from pprint import pprint
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 from tabulate import tabulate
 
@@ -24,13 +24,17 @@ class Rider(Scraper):
 
     :param url: rider's URL either full or relative, e.g.
     `rider/tadej-pogacar`
+    :param html: HTML to be parsed from, defaults to None, when passing the
+    parameter, set `update_html` to False to prevent overriding or making
+    useless request
     :param update_html: whether to make request to given URL and update
     `self.html`, when False `self.update_html` method has to be called
-    manually to make object ready for parsing, defaults to True
+    manually to set HTML (when isn't passed), defaults to True
     """
 
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        super().__init__(url, update_html)
+    def __init__(self, url: str, html: Optional[str] = None,
+                 update_html: bool = True) -> None:
+        super().__init__(url, html, update_html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -43,7 +47,7 @@ class Rider(Scraper):
         rider_url_regex = f"""
             {reg.base_url}?rider
             {reg.url_str}{reg.overview}?
-            (\\/)?
+            (\\/+)?
         """
         self._validate_url(url, rider_url_regex, "rider/tadej-pogacar")
         return self._make_absolute_url(url)
@@ -54,7 +58,7 @@ class Rider(Scraper):
 
         :return: birthday of the rider in `yyyy-mm-dd` format
         """
-        general_info = self.html.find(".rdr-info-cont")[0].text.split("\n")
+        general_info = self._html.find(".rdr-info-cont")[0].text.split("\n")
         birth_string = general_info[0].split(": ")[1]
         [date, month, year] = birth_string.split(" ")[:3]
         date = "".join([char for char in date if char.isnumeric()])
@@ -69,12 +73,12 @@ class Rider(Scraper):
         """
         # normal layout
         try:
-            place_of_birth_html = self.html.find(
+            place_of_birth_html = self._html.find(
                 ".rdr-info-cont > span > span > a")[0]
             return place_of_birth_html.text
         # special layout
         except IndexError:
-            place_of_birth_html = self.html.find(
+            place_of_birth_html = self._html.find(
                 ".rdr-info-cont > span > span > span > a")[0]
             return place_of_birth_html.text
 
@@ -84,7 +88,7 @@ class Rider(Scraper):
 
         :return: rider's name
         """
-        return self.html.find(".page-title > .main > h1")[0].text
+        return self._html.find(".page-title > .main > h1")[0].text
 
     def weight(self) -> int:
         """
@@ -94,11 +98,11 @@ class Rider(Scraper):
         """
         # normal layout
         try:
-            return int(self.html.find(".rdr-info-cont > span")
+            return int(self._html.find(".rdr-info-cont > span")
                        [1].text.split(" ")[1])
         # special layout
         except IndexError:
-            return int(self.html.find(".rdr-info-cont > span > span")
+            return int(self._html.find(".rdr-info-cont > span > span")
                        [1].text.split(" ")[1])
 
     def height(self) -> float:
@@ -109,11 +113,11 @@ class Rider(Scraper):
         """
         # normal layout
         try:
-            height_html = self.html.find(".rdr-info-cont > span > span")[0]
+            height_html = self._html.find(".rdr-info-cont > span > span")[0]
             return float(height_html.text.split(" ")[1])
         # special layout
         except IndexError:
-            height_html = self.html.find(
+            height_html = self._html.find(
                 ".rdr-info-cont > span > span > span")[0]
             return float(height_html.text.split(" ")[1])
 
@@ -126,11 +130,11 @@ class Rider(Scraper):
         """
         # normal layout
         try:
-            nationality_html = self.html.find(".rdr-info-cont > span")[0]
+            nationality_html = self._html.find(".rdr-info-cont > span")[0]
             return nationality_html.attrs['class'][1].upper()
         # special layout
         except KeyError:
-            nationality_html = self.html.find(
+            nationality_html = self._html.find(
                 ".rdr-info-cont > span > span")[0]
             return nationality_html.attrs['class'][1].upper()
 
@@ -150,7 +154,7 @@ class Rider(Scraper):
         :return: table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        seasons_html_table = self.html.find("ul.list.rdr-teams")[0]
+        seasons_html_table = self._html.find("ul.list.rdr-teams")[0]
         tp = TableParser(seasons_html_table, "ul")
         casual_fields = [field for field in fields if field == "team_name" or
                          field == "team_url"]
@@ -198,7 +202,7 @@ class Rider(Scraper):
         :return: table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        points_table_html = self.html.find(".rdr-season-stats > tbody")[0]
+        points_table_html = self._html.find(".rdr-season-stats > tbody")[0]
         tp = TableParser(points_table_html)
 
         tp.parse(["season"])

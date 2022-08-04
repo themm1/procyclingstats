@@ -1,5 +1,5 @@
 from pprint import pprint
-from typing import Any, Dict, List, Literal, Tuple, Union
+from typing import Any, Dict, List, Literal, Optional, Tuple, Union
 
 import requests_html
 from requests_html import HTML
@@ -29,14 +29,18 @@ class Stage(Scraper):
 
     :param url: URL of race overview either full or relative, e.g.
     `race/tour-de-france/2021/stage-8`
+    :param html: HTML to be parsed from, defaults to None, when passing the
+    parameter, set `update_html` to False to prevent overriding or making
+    useless request
     :param update_html: whether to make request to given URL and update
     `self.html`, when False `self.update_html` method has to be called
     manually to make object ready for parsing, defaults to True
     """
     _tables_path: str = ".result-cont > table > tbody"
 
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        super().__init__(url, update_html)
+    def __init__(self, url: str, html: Optional[str] = None,
+                 update_html: bool = True) -> None:
+        super().__init__(url, html, update_html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -49,7 +53,7 @@ class Stage(Scraper):
         race_stage_url_regex = f"""
             {reg.base_url}?race{reg.url_str}
             ({reg.year}{reg.stage}{reg.result}?|{reg.year})?
-            (\\/)?
+            (\\/+)?
         """
         self._validate_url(url, race_stage_url_regex,
                            "race/tour-de-france/2022/stage-18")
@@ -81,7 +85,7 @@ class Stage(Scraper):
         """
         # If there are elements with .restabs class (Stage/GC... menu), the race
         # is a stage race
-        return len(self.html.find(".restabs")) == 0
+        return len(self._html.find(".restabs")) == 0
 
     def distance(self) -> float:
         """
@@ -89,7 +93,7 @@ class Stage(Scraper):
 
         :return: stage distance in kms
         """
-        distance_html = self.html.find(".infolist > li:nth-child(5) > div")
+        distance_html = self._html.find(".infolist > li:nth-child(5) > div")
         return float(distance_html[1].text.split(" km")[0])
 
     def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
@@ -99,8 +103,8 @@ class Stage(Scraper):
         :return: profile icon e.g. `p4`, the higher the number is the more
         difficult the profile is
         """
-        profile_html = self.html.find(".infolist > li:nth-child(7) > "
-                                      "div:nth-child(2) > span")
+        profile_html = self._html.find(".infolist > li:nth-child(7) > "
+                                       "div:nth-child(2) > span")
         return profile_html[0].attrs['class'][2]
 
     def stage_type(self) -> Literal["ITT", "TTT", "RR"]:
@@ -109,8 +113,8 @@ class Stage(Scraper):
 
         :return: stage type
         """
-        stage_name_html = self.html.find(".sub > .blue")
-        stage_name2_html = self.html.find("div.main > h1")[0]
+        stage_name_html = self._html.find(".sub > .blue")
+        stage_name2_html = self._html.find("div.main > h1")[0]
         stage_name = stage_name_html[0].text
         stage_name2 = stage_name2_html.text
         if "ITT" in stage_name or "ITT" in stage_name2:
@@ -127,7 +131,7 @@ class Stage(Scraper):
         :param when_none_or_unknown: value to return when there is no info
         about winning attack, defaults to 0.0
         :return: length of winning attack"""
-        won_how_html = self.html.find(".infolist > li:nth-child(12) > div")
+        won_how_html = self._html.find(".infolist > li:nth-child(12) > div")
         won_how = won_how_html[1].text
         if " km solo" in won_how:
             return float(won_how.split(" km sol")[0])
@@ -140,8 +144,8 @@ class Stage(Scraper):
 
         :return: vertical meters
         """
-        vertical_meters_html = self.html.find(".infolist > li:nth-child(9) "
-                                              " > div")
+        vertical_meters_html = self._html.find(".infolist > li:nth-child(9) "
+                                               " > div")
         vertical_meters = vertical_meters_html[1].text
         return int(vertical_meters) if vertical_meters else None
 
@@ -151,7 +155,7 @@ class Stage(Scraper):
 
         :return: date when stage took place `yyyy-mm-dd`
         """
-        date_html = self.html.find(f".infolist > li > div")
+        date_html = self._html.find(f".infolist > li > div")
         date = date_html[1].text.split(", ")[0]
         return convert_date(date)
 
@@ -161,7 +165,7 @@ class Stage(Scraper):
 
         :return: departure of the stage
         """
-        departure_html = self.html.find(".infolist > li:nth-child(10) > div")
+        departure_html = self._html.find(".infolist > li:nth-child(10) > div")
         return departure_html[1].text
 
     def arrival(self) -> str:
@@ -170,7 +174,7 @@ class Stage(Scraper):
 
         :return: arrival of the stage
         """
-        arrival_html = self.html.find(".infolist > li:nth-child(11) > div")
+        arrival_html = self._html.find(".infolist > li:nth-child(11) > div")
         return arrival_html[1].text
 
     def results(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -200,7 +204,7 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
-        categories = self.html.find(self._tables_path)
+        categories = self._html.find(self._tables_path)
         results_table_html = HTML(html=categories[0].html)
         # parse TTT table
         if self.stage_type() == "TTT":
@@ -400,8 +404,8 @@ class Stage(Scraper):
         :param table: keyword of wanted table that occures in .restabs menu
         :return: HTML of wanted HTML table, None when not found
         """
-        categories = self.html.find(".result-cont")
-        for i, element in enumerate(self.html.find("ul.restabs > li > a")):
+        categories = self._html.find(".result-cont")
+        for i, element in enumerate(self._html.find("ul.restabs > li > a")):
             if table in element.text.lower():
                 return HTML(html=categories[i].find("tbody")[0].html)
 

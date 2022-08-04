@@ -1,5 +1,5 @@
 from pprint import pprint
-from typing import Dict, List, Tuple, Union
+from typing import Dict, List, Optional, Tuple, Union
 
 from tabulate import tabulate
 
@@ -30,6 +30,9 @@ class Team(Scraper):
 
     :param url: team URL, either absolute or relative, e.g.
     `team/bora-hansgrohe-2022`
+    :param html: HTML to be parsed from, defaults to None, when passing the
+    parameter, set `update_html` to False to prevent overriding or making
+    useless request
     :param update_html: whether to make request to given URL and update
     `self.html`, when False `self.update_html` method has to be called
     manually to make object ready for parsing, defaults to True
@@ -40,8 +43,9 @@ class Team(Scraper):
         "rider_url",
         "points")
 
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        super().__init__(url, update_html)
+    def __init__(self, url: str, html: Optional[str] = None,
+                 update_html: bool = True) -> None:
+        super().__init__(url, html, update_html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -52,7 +56,7 @@ class Team(Scraper):
         :return: absolute URL
         """
         team_url_regex = f"""
-            {reg.base_url}?team{reg.team_url_str}{reg.overview}?(\\/)?
+            {reg.base_url}?team{reg.team_url_str}{reg.overview}?(\\/+)?
         """
         self._validate_url(url, team_url_regex,
                            "team/bora-hansgrohe-2022")
@@ -64,7 +68,7 @@ class Team(Scraper):
 
         :return: table with fields `text`, `value` represented as list of dicts
         """
-        team_seasons_select_html = self.html.find("form > select")[0]
+        team_seasons_select_html = self._html.find("form > select")[0]
         return parse_select_menu(team_seasons_select_html)
 
     def riders(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -86,7 +90,7 @@ class Team(Scraper):
         :return: table with riders represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        career_points_table_html = self.html.find("div.taba > ul.list")[0]
+        career_points_table_html = self._html.find("div.taba > ul.list")[0]
         tp = TableParser(career_points_table_html, "ul")
         casual_fields = [field for field in fields
                          if field in self._career_points_table_fields]
@@ -139,7 +143,7 @@ class Team(Scraper):
 
         :return: display name e.g. `BORA - hansgrohe`
         """
-        display_name_html = self.html.find(".page-title > .main > h1")[0]
+        display_name_html = self._html.find(".page-title > .main > h1")[0]
         return display_name_html.text.split(" (")[0]
 
     def nationality(self) -> str:
@@ -148,7 +152,7 @@ class Team(Scraper):
 
         :return: team's nationality as 2 chars long country code in uppercase
         """
-        nationality_html = self.html.find(".page-title > .main > span.flag")[0]
+        nationality_html = self._html.find(".page-title > .main > span.flag")[0]
         return nationality_html.attrs['class'][1].upper()
 
     def team_status(self) -> str:
@@ -158,7 +162,7 @@ class Team(Scraper):
         :return: team status as 2 chars long code in uppercase e.g. `WT` (World
         Tour)
         """
-        team_status_html = self.html.find(
+        team_status_html = self._html.find(
             "div > ul.infolist > li:nth-child(1) > div")[1]
         return team_status_html.text
 
@@ -169,7 +173,7 @@ class Team(Scraper):
         :return: team abbreviation as 3 chars long code in uppercase e.g. `BOH`
         (BORA - hansgrohe)
         """
-        abbreviation_html = self.html.find(
+        abbreviation_html = self._html.find(
             "div > ul.infolist > li:nth-child(2) > div")[1]
         return abbreviation_html.text
 
@@ -179,7 +183,7 @@ class Team(Scraper):
 
         :return: bike brand e.g. `Specialized`
         """
-        bike_html = self.html.find(
+        bike_html = self._html.find(
             "div > ul.infolist > li:nth-child(3) > div")[1]
         return bike_html.text
 
@@ -189,7 +193,7 @@ class Team(Scraper):
 
         :return: count of wins in corresponding season
         """
-        team_ranking_html = self.html.find(
+        team_ranking_html = self._html.find(
             ".teamkpi > li:nth-child(1) > div:nth-child(2)")[0]
         return int(team_ranking_html.text)
 
@@ -199,7 +203,7 @@ class Team(Scraper):
 
         :return: PCS team ranking position in corresponding year
         """
-        team_ranking_html = self.html.find(
+        team_ranking_html = self._html.find(
             ".teamkpi > li:nth-child(2) > div:nth-child(2)")[0]
         return int(team_ranking_html.text)
 
@@ -216,7 +220,7 @@ class Team(Scraper):
         :return: table with fields rider_url and optionaly `ranking_points` and
         `ranking` position, represented either as list of dicts or dict of dicts
         """
-        ranking_table_html = self.html.find("div.tabe > ul.list")[0]
+        ranking_table_html = self._html.find("div.tabe > ul.list")[0]
         tp = TableParser(ranking_table_html, "ul")
         tp.parse(("rider_url",))
         if points:
@@ -241,7 +245,7 @@ class Team(Scraper):
         :return: table with fields rider_url and optionaly `ranking_points` and
         `ranking` position, represented either as list of dicts or dict of dicts
         """
-        ages_html_table = self.html.find("div.tabc > ul.list")[0]
+        ages_html_table = self._html.find("div.tabc > ul.list")[0]
         tp = TableParser(ages_html_table, "ul")
         tp.parse(("rider_url",))
         if age:

@@ -1,4 +1,4 @@
-from typing import List, Literal, Tuple
+from typing import List, Literal, Optional, Tuple
 
 from requests_html import HTML
 from tabulate import tabulate
@@ -25,13 +25,17 @@ class Ranking(Scraper):
     e.g. `rankings/me/season-individual` or 'rankings.php?date=2021-12-31&
     nation=&age=&zage=&page=smallerorequal&team=&offset=0&filter=Filter&p=me
     &s=season-individual'
+    :param html: HTML to be parsed from, defaults to None, when passing the
+    parameter, set `update_html` to False to prevent overriding or making
+    useless request
     :param update_html: whether to make request to given URL and update
     `self.html`, when False `self.update_html` method has to be called
-    manually to make object ready for parsing, defaults to True
+    manually to set HTML (when isn't passed), defaults to True
     """
 
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        super().__init__(url, update_html)
+    def __init__(self, url: str, html: Optional[str] = None,
+                 update_html: bool = True) -> None:
+        super().__init__(url, html, update_html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -75,7 +79,7 @@ class Ranking(Scraper):
                 "one with individual ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self.html.find("table > tbody")[0]
+        html_table = self._html.find("table > tbody")[0]
         tp = TableParser(html_table)
         tp.parse(fields)
         return tp.table
@@ -103,7 +107,7 @@ class Ranking(Scraper):
                 "create one with teams ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self.html.find("table > tbody")[0]
+        html_table = self._html.find("table > tbody")[0]
         tp = TableParser(html_table)
         tp.parse([field for field in fields if field != "class"])
         if "class" in fields:
@@ -133,7 +137,7 @@ class Ranking(Scraper):
                 "with nations ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self.html.find("table > tbody")[0]
+        html_table = self._html.find("table > tbody")[0]
         tp = TableParser(html_table)
         tp.parse(fields)
         return tp.table
@@ -161,7 +165,7 @@ class Ranking(Scraper):
                 "with race ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self.html.find("table > tbody")[0]
+        html_table = self._html.find("table > tbody")[0]
         tp = TableParser(html_table)
         tp.parse([field for field in fields if field != "class"])
         if "class" in fields:
@@ -197,7 +201,7 @@ class Ranking(Scraper):
                 "with individual wins ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self.html.find("table > tbody")[0]
+        html_table = self._html.find("table > tbody")[0]
         tp = TableParser(html_table)
         casual_fields = [
             field for field in fields
@@ -233,7 +237,7 @@ class Ranking(Scraper):
                 "one with teams wins ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self.html.find("table > tbody")[0]
+        html_table = self._html.find("table > tbody")[0]
         tp = TableParser(html_table)
         casual_fields = [
             field for field in fields
@@ -269,7 +273,7 @@ class Ranking(Scraper):
                 "create one with nations wins ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self.html.find("table > tbody")[0]
+        html_table = self._html.find("table > tbody")[0]
         tp = TableParser(html_table)
         casual_fields = [
             field for field in fields
@@ -409,14 +413,14 @@ class Ranking(Scraper):
         :raises Exception: when select menu with that label wasn't found
         :return: HTML of wanted select menu
         """
-        labels = self.html.find("ul.filter > li > .label")
+        labels = self._html.find("ul.filter > li > .label")
         index = -1
         for i, label_html in enumerate(labels):
             if label_html.text == label:
                 index = i
         if index == -1:
             raise Exception(f"Invalid label: {label}")
-        return self.html.find("li > div > select")[index]
+        return self._html.find("li > div > select")[index]
 
     @staticmethod
     def _extend_table_to_podiums(tp: TableParser, fields: List[str],

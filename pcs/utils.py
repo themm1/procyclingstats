@@ -16,8 +16,8 @@ class reg:
     """example match `/This-is-url-StriNg`"""
     year = "(\\/+\\d{4})"
     """example match `/1111`"""
-    stage = "(\\/+stage-(1[0-9]|2[0-1]|[0-9]|prologue)(\\/gc|-points|-kom|"\
-            "-youth|-teams)?)"
+    stage = "(\\/+(((stage-(1[0-9]|2[0-1]|[0-9])|prologue)"\
+            "(\\/gc|-points|-kom|-youth|-teams)?)|gc))"
     """example match `/stage-20/gc` or `/prologue-youth`"""
     result = "((\\/+result){1,2})"
     """example match `/result/result`"""

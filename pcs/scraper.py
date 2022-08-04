@@ -1,8 +1,8 @@
-from typing import Any, Dict, Literal, Union
+from typing import Any, Dict, Literal, Optional, Union
 
 from requests_html import HTML, HTMLSession
 
-from utils import reg, validate_string
+from utils import validate_string
 
 
 class Scraper:
@@ -17,9 +17,12 @@ class Scraper:
     BASE_URL: Literal["https://www.procyclingstats.com/"] = \
         "https://www.procyclingstats.com/"
 
-    def __init__(self, url: str, update_html: bool) -> None:
+    def __init__(self, url: str, html: Optional[str],
+                 update_html: bool) -> None:
         self._url: str = self._get_valid_url(url)
-        self.html: Union[HTML, None] = None
+        self._html: Union[HTML, None] = None
+        if html:
+            self._html = self._get_valid_html(html)
         if update_html:
             self.update_html()
 
@@ -31,6 +34,17 @@ class Scraper:
     def url(self) -> str:
         """Get URL of a scraper object"""
         return self._url
+
+    @property
+    def html(self) -> HTML:
+        """Get HTML of a scraper object"""
+        return self._html
+
+    def _get_valid_html(self, html: str) -> HTML:
+        try:
+            return HTML(html=html, url=self._url)
+        except TypeError:
+            raise TypeError("HTML has to be a string")
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -102,4 +116,4 @@ class Scraper:
         updates `self.html` to returned HTML
         :raises ValueError: when URL isn't valid (after making request)
         """
-        self.html = self._request_html()
+        self._html = self._request_html()

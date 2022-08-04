@@ -1,5 +1,5 @@
 from pprint import pprint
-from typing import Any, Dict, List, Literal, Tuple
+from typing import Any, Dict, List, Literal, Optional, Tuple
 
 from requests_html import HTML
 from tabulate import tabulate
@@ -11,8 +11,8 @@ from utils import parse_table_fields_args, reg
 
 def test():
     # RaceOverview()
-    url = "race/tour-de-france/2021"
-    race = RaceOverview(url + "/overview")
+    url = "https://www.procyclingstats.com/race/tour-de-france/2022/gc/overview"
+    race = RaceOverview(url)
     print(tabulate(race.stages()))
     # print(race.startdate())
     # pprint(race.stages())
@@ -29,13 +29,17 @@ class RaceOverview(Scraper):
 
     :param url: URL of race overview either full or relative, e.g.
     `race/tour-de-france/2021/overview`
+    :param html: HTML to be parsed from, defaults to None, when passing the
+    parameter, set `update_html` to False to prevent overriding or making
+    useless request
     :param update_html: whether to make request to given URL and update
     `self.html`, when False `self.update_html` method has to be called
-    manually to make object ready for parsing, defaults to True
+    manually to set HTML (when isn't passed), defaults to True
     """
 
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        super().__init__(url, update_html)
+    def __init__(self, url: str, html: Optional[str] = None,
+                 update_html: bool = True) -> None:
+        super().__init__(url, html, update_html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -48,7 +52,7 @@ class RaceOverview(Scraper):
         race_url_overview_regex = f"""
             {reg.base_url}?race{reg.url_str}
             ({reg.year}{reg.stage}{reg.overview}|{reg.year}{reg.overview})
-            (\\/)?
+            (\\/+)?
         """
         self._validate_url(url, race_url_overview_regex,
                            "race/tour-de-france/2021/overview")
@@ -76,7 +80,7 @@ class RaceOverview(Scraper):
 
         :return: display name e.g. `Tour de France`
         """
-        display_name_html = self.html.find(".page-title > .main > h1")[0]
+        display_name_html = self._html.find(".page-title > .main > h1")[0]
         return display_name_html.text
 
     def is_one_day_race(self) -> bool:
@@ -85,7 +89,7 @@ class RaceOverview(Scraper):
 
         :return: whether given race is one day race
         """
-        one_day_race_html = self.html.find("div.sub > span.blue")[0]
+        one_day_race_html = self._html.find("div.sub > span.blue")[0]
         return "stage" not in one_day_race_html.text.lower()
 
     def nationality(self) -> str:
@@ -94,7 +98,7 @@ class RaceOverview(Scraper):
 
         :return: 2 chars long country code
         """
-        nationality_html = self.html.find(".page-title > .main > span")[0]
+        nationality_html = self._html.find(".page-title > .main > span")[0]
         return nationality_html.attrs['class'][1].upper()
 
     def race_year(self) -> int:
@@ -103,7 +107,7 @@ class RaceOverview(Scraper):
 
         :return: race ridden year
         """
-        race_year_html = self.html.find(".page-title > .main > font")[0]
+        race_year_html = self._html.find(".page-title > .main > font")[0]
         return int(race_year_html.text[:-2])
 
     def startdate(self) -> str:
@@ -112,7 +116,7 @@ class RaceOverview(Scraper):
 
         :return: startdate in `dd-mm-yyyy` format
         """
-        startdate_html = self.html.find(".infolist > li > div:nth-child(2)")[0]
+        startdate_html = self._html.find(".infolist > li > div:nth-child(2)")[0]
         return startdate_html.text
 
     def enddate(self) -> str:
@@ -121,7 +125,7 @@ class RaceOverview(Scraper):
 
         :return: enddate in `dd-mm-yyyy` format
         """
-        enddate_html = self.html.find(".infolist > li > div:nth-child(2)")[1]
+        enddate_html = self._html.find(".infolist > li > div:nth-child(2)")[1]
         return enddate_html.text
 
     def category(self) -> str:
@@ -130,7 +134,7 @@ class RaceOverview(Scraper):
 
         :return: race category e.g. `Men Elite`
         """
-        category_html = self.html.find(".infolist > li > div:nth-child(2)")[2]
+        category_html = self._html.find(".infolist > li > div:nth-child(2)")[2]
         return category_html.text
 
     def uci_tour(self) -> str:
@@ -139,7 +143,7 @@ class RaceOverview(Scraper):
 
         :return: UCI Tour of the race e.g. `UCI Worldtour`
         """
-        uci_tour_html = self.html.find(".infolist > li > div:nth-child(2)")[3]
+        uci_tour_html = self._html.find(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text
 
     def stages(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -160,7 +164,7 @@ class RaceOverview(Scraper):
         if self.is_one_day_race():
             raise Exception("This method is available only on stage races")
         fields = parse_table_fields_args(args, available_fields)
-        stages_table_html = self.html.find("div:nth-child(3) > ul.list")[0]
+        stages_table_html = self._html.find("div:nth-child(3) > ul.list")[0]
         tp = TableParser(stages_table_html, "ul")
         tp.parse(fields, lambda x: True if "Restday" in x.text else False)
         tp.add_year_to_dates(self.year())
@@ -173,21 +177,21 @@ class RaceStartlist(Scraper):
 
     :param url: URL of race overview either full or relative, e.g.
     `race/tour-de-france/2021/startlist`
+    :param html: HTML to be parsed from, defaults to None, when passing the
+    parameter, set `update_html` to False to prevent overriding or making
+    useless request
     :param update_html: whether to make request to given URL and update
     `self.html`, when False `self.update_html` method has to be called
-    manually to make object ready for parsing, defaults to True
+    manually to set HTML (when isn't passed), defaults to True
     """
 
-    def __init__(self, url: str, update_html: bool = True) -> None:
-        super().__init__(url, update_html)
-
-    @property
-    def _url(self):
-        return self._url
+    def __init__(self, url: str, html: Optional[str] = None,
+                 update_html: bool = True) -> None:
+        super().__init__(url, html, update_html)
 
     def _get_valid_url(self, url: str) -> str:
         """
-        Used for validating URL with regex
+        Validates given URL with regex and returns absolute URL
 
         :param url: URL either relative or absolute
         :raises ValueError: when URL isn't valid
@@ -196,7 +200,7 @@ class RaceStartlist(Scraper):
         race_url_overview_regex = f"""
             {reg.base_url}?race{reg.url_str}
             ({reg.year}{reg.stage}{reg.overview}|{reg.year}{reg.overview})
-            (\\/)?
+            (\\/+)?
         """
         self._validate_url(url, race_url_overview_regex,
                            "race/tour-de-france/2022/startlist")
@@ -224,7 +228,7 @@ class RaceStartlist(Scraper):
 
         :return: list with team ids
         """
-        teams_html = self.html.find("ul > li.team > b > a")
+        teams_html = self._html.find("ul > li.team > b > a")
         return [team.attrs['href'].split("/")[1] for team in teams_html]
 
     def startlist(self) -> List[dict]:
@@ -235,7 +239,7 @@ class RaceStartlist(Scraper):
         represented as list of dicts
         """
         startlist = []
-        teams_html = self.html.find("ul > li.team")
+        teams_html = self._html.find("ul > li.team")
         for team_html in teams_html:
             # create new HTML object from team_html
             current_html = HTML(html=team_html.html)

@@ -9,7 +9,7 @@ from utils import add_time
 
 
 def test():
-    html = Scraper("race/tour-de-france/2022/stage-18").html
+    html = Scraper("race/tour-de-france/2022/stage-18", None, True).html
     categories = html.find(".result-cont > table > tbody")
     results_table_html = HTML(html=categories[0].html)
     tp = TableParser(results_table_html)
