@@ -7,12 +7,12 @@ from tabulate import tabulate
 
 from scraper import Scraper
 from table_parser import TableParser
-from utils import convert_date, parse_table_fields_args
+from utils import convert_date, parse_table_fields_args, reg
 
 
 def test():
     # s = Stage("race/world-championship-ttt/2017")
-    s = Stage("race/tour-de-france/2022/stage-3", True)
+    s = Stage("race/tour-de-france/2022/stage-3/")
     # print(tabulate(s.results()))
     print(s.profile_icon())
     # print(tabulate(s.gc()))
@@ -37,6 +37,23 @@ class Stage(Scraper):
 
     def __init__(self, url: str, update_html: bool = True) -> None:
         super().__init__(url, update_html)
+
+    def _get_valid_url(self, url: str) -> str:
+        """
+        Used for validating URL with regex
+
+        :param url: URL either relative or absolute
+        :raises ValueError: when URL isn't valid
+        :return: absolute URL
+        """
+        race_stage_url_regex = f"""
+            {reg.base_url}?race{reg.url_str}
+            ({reg.year}{reg.stage}{reg.result}?|{reg.year})?
+            (\\/)?
+        """
+        self._validate_url(url, race_stage_url_regex,
+                           "race/tour-de-france/2022/stage-18")
+        return self._make_absolute_url(url)
 
     def race_season_id(self) -> str:
         """

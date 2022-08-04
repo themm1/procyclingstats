@@ -6,7 +6,7 @@ from tabulate import tabulate
 
 from scraper import Scraper
 from table_parser import TableParser
-from utils import parse_table_fields_args
+from utils import parse_table_fields_args, reg
 
 
 def test():
@@ -36,6 +36,23 @@ class RaceOverview(Scraper):
 
     def __init__(self, url: str, update_html: bool = True) -> None:
         super().__init__(url, update_html)
+
+    def _get_valid_url(self, url: str) -> str:
+        """
+        Used for validating URL with regex
+
+        :param url: URL either relative or absolute
+        :raises ValueError: when URL isn't valid
+        :return: absolute URL
+        """
+        race_url_overview_regex = f"""
+            {reg.base_url}?race{reg.url_str}
+            ({reg.year}{reg.stage}{reg.overview}|{reg.year}{reg.overview})
+            (\\/)?
+        """
+        self._validate_url(url, race_url_overview_regex,
+                           "race/tour-de-france/2021/overview")
+        return self._make_absolute_url(url)
 
     def race_id(self) -> str:
         """
@@ -163,6 +180,27 @@ class RaceStartlist(Scraper):
 
     def __init__(self, url: str, update_html: bool = True) -> None:
         super().__init__(url, update_html)
+
+    @property
+    def _url(self):
+        return self._url
+
+    def _get_valid_url(self, url: str) -> str:
+        """
+        Used for validating URL with regex
+
+        :param url: URL either relative or absolute
+        :raises ValueError: when URL isn't valid
+        :return: absolute URL
+        """
+        race_url_overview_regex = f"""
+            {reg.base_url}?race{reg.url_str}
+            ({reg.year}{reg.stage}{reg.overview}|{reg.year}{reg.overview})
+            (\\/)?
+        """
+        self._validate_url(url, race_url_overview_regex,
+                           "race/tour-de-france/2022/startlist")
+        return self._make_absolute_url(url)
 
     def race_id(self) -> str:
         """

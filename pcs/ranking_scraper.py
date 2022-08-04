@@ -1,4 +1,3 @@
-from cgitb import html
 from typing import List, Literal, Tuple
 
 from requests_html import HTML
@@ -7,12 +6,12 @@ from tabulate import tabulate
 from scraper import Scraper
 from select_parser import SelectParser
 from table_parser import TableParser
-from utils import parse_table_fields_args
+from utils import parse_table_fields_args, reg
 
 
 def test():
     r = Ranking("rankings/me")
-    d = r.nations_select()
+    d = r.dates_select()
     print(tabulate(d))
 
 
@@ -31,9 +30,25 @@ class Ranking(Scraper):
     manually to make object ready for parsing, defaults to True
     """
 
-    def __init__(self, url: str, update_html: bool = False) -> None:
-        self._validate_url(url)
+    def __init__(self, url: str, update_html: bool = True) -> None:
         super().__init__(url, update_html)
+
+    def _get_valid_url(self, url: str) -> str:
+        """
+        Used for validating URL with regex
+
+        :param url: URL either relative or absolute
+        :raises ValueError: when URL isn't valid
+        :return: absolute URL
+        """
+        ranking_url_regex = f"""
+            {reg.base_url}?
+            (rankings\\/(me|we|mj){reg.url_str}?|{reg.rankings_filter})
+            (\\/+)?
+        """
+        self._validate_url(url, ranking_url_regex,
+                           "ranking/me/individual-season")
+        return self._make_absolute_url(url)
 
     def individual_ranking(self, *args: str,
                            available_fields: Tuple[str, ...] = (
@@ -385,31 +400,6 @@ class Ranking(Scraper):
             return "teams"
         else:
             return "individual"
-
-    def _validate_url(self, url: str):
-        """
-        Checks whether given URL is valid before making request
-
-        :param url: URL to check
-        :raises ValueError: when given URL is invalid
-        """
-        url_to_check = url.split("/")
-        for element in reversed(url_to_check):
-            if element != "":
-                break
-            url_to_check.pop()
-
-        if "https" in url:
-            if self.base_url != "/".join(url_to_check[:3]) + "/":
-                raise ValueError(f"Invalid URL: {url}")
-            url_to_check = url_to_check[3:]
-        valid = url_to_check[0] == "rankings"
-        if len(url_to_check) > 1 and valid:
-            valid = url_to_check[1] == "me" or\
-                url_to_check[1] == "we" or\
-                url_to_check[1] == "mj"
-        if not valid:
-            raise ValueError(f"Invalid URL: {url}")
 
     def _select_menu_by_label(self, label: str) -> HTML:
         """

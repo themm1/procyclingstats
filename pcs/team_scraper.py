@@ -5,7 +5,7 @@ from tabulate import tabulate
 
 from scraper import Scraper
 from table_parser import TableParser
-from utils import parse_select_menu, parse_table_fields_args
+from utils import parse_select_menu, parse_table_fields_args, reg
 
 
 def test():
@@ -42,6 +42,21 @@ class Team(Scraper):
 
     def __init__(self, url: str, update_html: bool = True) -> None:
         super().__init__(url, update_html)
+
+    def _get_valid_url(self, url: str) -> str:
+        """
+        Used for validating URL with regex
+
+        :param url: URL either relative or absolute
+        :raises ValueError: when URL isn't valid
+        :return: absolute URL
+        """
+        team_url_regex = f"""
+            {reg.base_url}?team{reg.team_url_str}{reg.overview}?(\\/)?
+        """
+        self._validate_url(url, team_url_regex,
+                           "team/bora-hansgrohe-2022")
+        return self._make_absolute_url(url)
 
     def teams_seasons_select(self) -> List[dict]:
         """

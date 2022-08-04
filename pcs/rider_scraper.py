@@ -6,12 +6,12 @@ from tabulate import tabulate
 
 from scraper import Scraper
 from table_parser import TableParser
-from utils import get_day_month, parse_table_fields_args
+from utils import get_day_month, parse_table_fields_args, reg
 
 
 def test():
     # rider = Rider("rider/david-canada")
-    rider = Rider("rider/peter-sagan")
+    rider = Rider("rider/peter-sagan/")
     # rider = Rider("rider/cesare-benedetti")
     # rider = Rider("rider/carlos-verona")
     table = rider.seasons_points("position")
@@ -31,6 +31,22 @@ class Rider(Scraper):
 
     def __init__(self, url: str, update_html: bool = True) -> None:
         super().__init__(url, update_html)
+
+    def _get_valid_url(self, url: str) -> str:
+        """
+        Used for validating URL with regex
+
+        :param url: URL either relative or absolute
+        :raises ValueError: when URL isn't valid
+        :return: absolute URL
+        """
+        rider_url_regex = f"""
+            {reg.base_url}?rider
+            {reg.url_str}{reg.overview}?
+            (\\/)?
+        """
+        self._validate_url(url, rider_url_regex, "rider/tadej-pogacar")
+        return self._make_absolute_url(url)
 
     def birthdate(self) -> str:
         """
