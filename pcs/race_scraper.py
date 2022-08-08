@@ -5,22 +5,20 @@ from requests_html import HTML
 from tabulate import tabulate
 
 from scraper import Scraper
-from table_parser import TableParser
+from table_parser import TableParser, TableRowParser
 from utils import parse_table_fields_args, reg
 
 
 def test():
     # RaceOverview()
-    url = "https://www.procyclingstats.com/race/tour-de-france/2022/gc/overview"
-    race = RaceOverview(url)
-    print(tabulate(race.stages()))
+    url = "race/tour-de-france/2022"
+    # race = RaceOverview(url + "/overview")
+    # print(tabulate(race.stages()))
     # print(race.startdate())
     # pprint(race.stages())
 
-    # stages = RaceStages(url)
-
-    # startlist = RaceStartlist(url + "/startlist")
-    # print(tabulate(startlist.startlist()))
+    startlist = RaceStartlist(url + "/startlist")
+    print(tabulate(startlist.startlist()))
 
 
 class RaceOverview(Scraper):
@@ -231,35 +229,43 @@ class RaceStartlist(Scraper):
         teams_html = self._html.find("ul > li.team > b > a")
         return [team.attrs['href'].split("/")[1] for team in teams_html]
 
-    def startlist(self) -> List[dict]:
+    def startlist(self, *args: str, available_fields: Tuple[str, ...] = (
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "nationality",
+            "rider_number")) -> List[dict]:
         """
         Parses startlist from HTML
 
         :return: table with columns `rider_id`, `rider_number`, `team_id`
         represented as list of dicts
         """
-        startlist = []
-        teams_html = self._html.find("ul > li.team")
-        for team_html in teams_html:
-            # create new HTML object from team_html
-            current_html = HTML(html=team_html.html)
-            team_id_html = current_html.find("b > a")
-            riders_ids_html = current_html.find("div > ul > li > a")
-            riders_numbers_html = current_html.find("div > ul > li")
+        fields = parse_table_fields_args(args, available_fields)
+        # fields that are parsable from rider row
+        rider_fields = [
+            field for field in fields if field in (
+                "rider_name",
+                "rider_url",
+                "nationality",
+                "rider_number")]
 
-            zipped_htmls = zip(riders_ids_html, riders_numbers_html)
-            team_id = team_id_html[0].attrs['href'].split("/")[1]
+        startlist_html_table = self._html.find("ul.startlist_v3")[0]
+        startlist_table = []
+        for team_html in startlist_html_table.find("li.team"):
+            riders_table_html = team_html.find("ul")[0]
+            tp = TableParser(riders_table_html)
+            tp.parse(rider_fields)
 
-            # loop through riders from the team
-            for id_html, number_html in zipped_htmls:
-                rider_number = int(number_html.text.split(" ")[0])
-                rider_id = id_html.attrs['href'].split("/")[1]
-                startlist.append({
-                    "rider_id": rider_id,
-                    "team_id": team_id,
-                    "rider_number": rider_number
-                })
-        return startlist
+            trp = TableRowParser(team_html)
+            for row in tp.table:
+                if "team_name" in fields:
+                    row['team_name'] = trp.team_name()
+                if "team_url" in fields:
+                    row['team_url'] = trp.team_url()
+            startlist_table.extend(tp.table)
+        return startlist_table
 
 
 if __name__ == "__main__":

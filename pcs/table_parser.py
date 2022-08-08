@@ -304,6 +304,14 @@ class TableRowParser:
         """
         return int(self.row.find(f"{self.row_child_tag}.season")[0].text)
 
+    def rider_number(self) -> int:
+        """
+        Parses rider number (available in startlist_v3 only)
+
+        :return: rider number
+        """
+        return int(self.row.text.split(" ")[0])
+
     def get_other(self, index: int) -> str:
         """
         Parses `td` elementh that is index-th child of current row HTML, used
