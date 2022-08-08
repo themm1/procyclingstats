@@ -2,7 +2,7 @@ from pprint import pprint
 from typing import Any, Dict, List, Literal, Optional, Tuple, Union
 
 import requests_html
-from requests_html import HTML
+from requests_html import Element
 from tabulate import tabulate
 
 from scraper import Scraper
@@ -14,9 +14,9 @@ def test():
     # s = Stage("race/world-championship-ttt/2017")
     s = Stage("race/tour-de-france/2022/stage-3/")
     # print(tabulate(s.results()))
-    print(s.profile_icon())
+    # print(s.profile_icon())
     # print(tabulate(s.gc()))
-    # print(tabulate(s.points()))
+    print(tabulate(s.points()))
     # print(tabulate(s.kom()))
     # print(tabulate(s.youth()))
     # print(tabulate(s.teams()))
@@ -205,7 +205,7 @@ class Stage(Scraper):
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
         categories = self._html.find(self._tables_path)
-        results_table_html = HTML(html=categories[0].html)
+        results_table_html = categories[0].html
         # parse TTT table
         if self.stage_type() == "TTT":
             tp = TableParser(results_table_html)
@@ -397,7 +397,7 @@ class Stage(Scraper):
             "points",
             "kom",
             "youth",
-            "teams"]) -> Optional[HTML]:
+            "teams"]) -> Optional[Element]:
         """
         Get HTML of a .result-cont table with results based on `table` param
 
@@ -407,7 +407,7 @@ class Stage(Scraper):
         categories = self._html.find(".result-cont")
         for i, element in enumerate(self._html.find("ul.restabs > li > a")):
             if table in element.text.lower():
-                return HTML(html=categories[i].find("tbody")[0].html)
+                return categories[i].find("tbody")[0]
 
     def _points_index(self, html: requests_html.HTML) -> Union[int, None]:
         """
