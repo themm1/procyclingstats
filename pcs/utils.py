@@ -23,6 +23,8 @@ class reg:
     """example match `/result/result`"""
     overview = "((\\/+overview){1,3})"
     """example match `/overview/overview`"""
+    startlist = "((\\/+startlist){1,3})"
+    """example match `/startlist/startlist`"""
     team_url_str = "(\\/(([a-zA-Z]+-)+)\\d{4,5})"
     """example match `/bora-hansgrohe-2022` or `/movistar-team-20152`"""
     rankings_filter = "(rankings[^\\?]*\\?.*)"

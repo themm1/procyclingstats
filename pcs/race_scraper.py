@@ -197,12 +197,12 @@ class RaceStartlist(Scraper):
         :raises ValueError: when URL isn't valid
         :return: absolute URL
         """
-        race_url_overview_regex = f"""
+        race_startlist_url_regex = f"""
             {reg.base_url}?race{reg.url_str}
-            ({reg.year}{reg.stage}{reg.overview}|{reg.year}{reg.overview})
+            ({reg.year}{reg.stage}{reg.startlist}|{reg.year}{reg.startlist})
             (\\/+)?
         """
-        self._validate_url(url, race_url_overview_regex,
+        self._validate_url(url, race_startlist_url_regex,
                            "race/tour-de-france/2022/startlist")
         return self._make_absolute_url(url)
 
