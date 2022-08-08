@@ -14,7 +14,7 @@ def test():
     rider = Rider("rider/peter-sagan/")
     # rider = Rider("rider/cesare-benedetti")
     # rider = Rider("rider/carlos-verona")
-    table = rider.seasons_points("position")
+    table = rider.seasons_teams()
     print(tabulate(table))
 
 
@@ -155,7 +155,7 @@ class Rider(Scraper):
         """
         fields = parse_table_fields_args(args, available_fields)
         seasons_html_table = self._html.find("ul.list.rdr-teams")[0]
-        tp = TableParser(seasons_html_table, "ul")
+        tp = TableParser(seasons_html_table)
         casual_fields = [field for field in fields if field == "team_name" or
                          field == "team_url"]
         if "since" in fields or "until" in fields or "season" in fields:

@@ -2,7 +2,8 @@ from datetime import date
 from re import T
 from typing import Any, Dict, List, Literal, Tuple, Union
 
-from requests_html import HTML
+from requests_html import HTML, Element
+from tabulate import tabulate
 
 from scraper import Scraper
 from utils import add_time
@@ -11,9 +12,9 @@ from utils import add_time
 def test():
     html = Scraper("race/tour-de-france/2022/stage-18", None, True).html
     categories = html.find(".result-cont > table > tbody")
-    results_table_html = HTML(html=categories[0].html)
-    tp = TableParser(results_table_html)
+    tp = TableParser(categories[0])
     tp.parse(["rank", "rider_url", "rider_name"])
+    print(tabulate(tp.table))
 
 
 class TableRowParser:
@@ -21,7 +22,6 @@ class TableRowParser:
     Parser for HTML table row, public methods parse data and return it
 
     :param row: table row (`tr` or `li` element currently) to be parsed from
-    :param row_tag: what HTML tag table row has (`tr`, `li`) 
     """
     row_child_tag_dict: Dict[str, str] = {
         "tr": "td",
@@ -29,10 +29,9 @@ class TableRowParser:
     }
     """Finds out what is the row child tag based on table child tag"""
 
-    def __init__(self, row: HTML,
-                 row_tag: Literal["tr", "li"] = "tr") -> None:
+    def __init__(self, row: Element) -> None:
         self.row = row
-        self.row_child_tag = self.row_child_tag_dict[row_tag]
+        self.row_child_tag = self.row_child_tag_dict[row.tag]
 
     def _get_a(self, to_find: Literal["rider", "team", "race", "nation"],
                url: bool = False) -> str:
@@ -322,8 +321,6 @@ class TableParser:
     represented as list of dicts
 
     :param html_table: HTML table to be parsed from
-    :param table_tag: HTML tag of table, currently supported are
-    `tbody` and `ul`, defaults to `tbody`
     """
 
     child_tag_dict: Dict[str, Any] = {
@@ -345,11 +342,9 @@ class TableParser:
     ]
     """Fields that are available in TTT results table"""
 
-    def __init__(
-            self, html_table: HTML,
-            table_tag: Literal["tbody", "ul"] = "tbody") -> None:
+    def __init__(self, html_table: Element) -> None:
         self.html_table: HTML = html_table
-        self.table_child_tag = self.child_tag_dict[table_tag]
+        self.table_child_tag = self.child_tag_dict[html_table.tag]
         self.table: List[dict] = []
 
     def parse(self, fields: Union[List[str], Tuple[str, ...]],
@@ -392,8 +387,7 @@ class TableParser:
         for child_html in self.html_table.find(self.table_child_tag):
             if skip_when(child_html):
                 continue
-            row_parser = TableRowParser(child_html,
-                                        row_tag=self.table_child_tag)
+            row_parser = TableRowParser(child_html)
             # add to every wanted property to parsed table row by calling
             # corresponding method
             parsed_row = {field: getattr(row_parser, field)()
@@ -457,8 +451,7 @@ class TableParser:
         """
         for i, child_html in enumerate(
                 self.html_table.find(self.table_child_tag)):
-            row_parser = TableRowParser(child_html,
-                                        row_tag=self.table_child_tag)
+            row_parser = TableRowParser(child_html)
             if i >= len(self.table):
                 self.table.append(
                     {field_name: func(row_parser.get_other(index))}

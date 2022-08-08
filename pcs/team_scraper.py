@@ -10,7 +10,7 @@ from utils import parse_select_menu, parse_table_fields_args, reg
 
 def test():
     t = Team("team/bora-hansgrohe-2022")
-    print(tabulate(t.riders("rider_url")))
+    print(tabulate(t.riders()))
     # print(tabulate(t.teams_seasons_select()))
     # print(t.abbreviation())
     # print(t.bike())
@@ -91,7 +91,7 @@ class Team(Scraper):
         """
         fields = parse_table_fields_args(args, available_fields)
         career_points_table_html = self._html.find("div.taba > ul.list")[0]
-        tp = TableParser(career_points_table_html, "ul")
+        tp = TableParser(career_points_table_html)
         casual_fields = [field for field in fields
                          if field in self._career_points_table_fields]
         if "rider_url" not in casual_fields:
@@ -221,7 +221,7 @@ class Team(Scraper):
         `ranking` position, represented either as list of dicts or dict of dicts
         """
         ranking_table_html = self._html.find("div.tabe > ul.list")[0]
-        tp = TableParser(ranking_table_html, "ul")
+        tp = TableParser(ranking_table_html)
         tp.parse(("rider_url",))
         if points:
             tp.extend_table("ranking_points", -3,
@@ -246,7 +246,7 @@ class Team(Scraper):
         `ranking` position, represented either as list of dicts or dict of dicts
         """
         ages_html_table = self._html.find("div.tabc > ul.list")[0]
-        tp = TableParser(ages_html_table, "ul")
+        tp = TableParser(ages_html_table)
         tp.parse(("rider_url",))
         if age:
             tp.extend_table("age", -2, int)

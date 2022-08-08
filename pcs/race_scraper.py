@@ -165,7 +165,7 @@ class RaceOverview(Scraper):
             raise Exception("This method is available only on stage races")
         fields = parse_table_fields_args(args, available_fields)
         stages_table_html = self._html.find("div:nth-child(3) > ul.list")[0]
-        tp = TableParser(stages_table_html, "ul")
+        tp = TableParser(stages_table_html)
         tp.parse(fields, lambda x: True if "Restday" in x.text else False)
         tp.add_year_to_dates(self.year())
         return tp.table
