@@ -5,8 +5,8 @@ from typing import Any, Dict, List, Literal, Optional, Tuple, Union
 from requests_html import HTML, Element
 from tabulate import tabulate
 
-from scraper import Scraper
-from utils import add_time
+from .scraper import Scraper
+from .utils import add_time
 
 
 def test():

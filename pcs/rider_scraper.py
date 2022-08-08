@@ -4,9 +4,9 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from tabulate import tabulate
 
-from scraper import Scraper
-from table_parser import TableParser
-from utils import get_day_month, parse_table_fields_args, reg
+from .scraper import Scraper
+from .table_parser import TableParser
+from .utils import get_day_month, parse_table_fields_args, reg
 
 
 def test():

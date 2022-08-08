@@ -3,10 +3,10 @@ from typing import List, Literal, Optional, Tuple
 from requests_html import HTML
 from tabulate import tabulate
 
-from scraper import Scraper
-from select_parser import SelectParser
-from table_parser import TableParser
-from utils import parse_table_fields_args, reg
+from .scraper import Scraper
+from .select_parser import SelectParser
+from .table_parser import TableParser
+from .utils import parse_table_fields_args, reg
 
 
 def test():
@@ -51,7 +51,7 @@ class Ranking(Scraper):
             (\\/+)?
         """
         self._validate_url(url, ranking_url_regex,
-                           "ranking/me/individual-season")
+                           "rankings/me/individual-season")
         return self._make_absolute_url(url)
 
     def individual_ranking(self, *args: str,

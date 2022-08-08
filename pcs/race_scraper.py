@@ -4,14 +4,14 @@ from typing import Any, Dict, List, Literal, Optional, Tuple
 from requests_html import HTML
 from tabulate import tabulate
 
-from scraper import Scraper
-from table_parser import TableParser, TableRowParser
-from utils import parse_table_fields_args, reg
+from .scraper import Scraper
+from .table_parser import TableParser, TableRowParser
+from .utils import parse_table_fields_args, reg
 
 
 def test():
     # RaceOverview()
-    url = "race/tour-de-france/2022"
+    url = "race/world-championship/2021/startlist"
     # race = RaceOverview(url + "/overview")
     # print(tabulate(race.stages()))
     # print(race.startdate())

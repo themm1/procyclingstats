@@ -2,7 +2,7 @@ from typing import Any, Dict, Literal, Optional, Union
 
 from requests_html import HTML, HTMLSession
 
-from utils import validate_string
+from .utils import validate_string
 
 
 class Scraper:
