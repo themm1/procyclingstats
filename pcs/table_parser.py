@@ -1,6 +1,6 @@
 from datetime import date
 from re import T
-from typing import Any, Dict, List, Literal, Tuple, Union
+from typing import Any, Dict, List, Literal, Optional, Tuple, Union
 
 from requests_html import HTML, Element
 from tabulate import tabulate
@@ -84,7 +84,7 @@ class TableRowParser:
         """
         return self._get_a("team", True)
 
-    def rank(self) -> Union[int, None]:
+    def rank(self) -> Optional[int]:
         """
         Parses rank from table (first row column)
 

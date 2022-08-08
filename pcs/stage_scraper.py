@@ -397,7 +397,7 @@ class Stage(Scraper):
             "points",
             "kom",
             "youth",
-            "teams"]) -> Union[HTML, None]:
+            "teams"]) -> Optional[HTML]:
         """
         Get HTML of a .result-cont table with results based on `table` param
 

@@ -20,7 +20,7 @@ class Scraper:
     def __init__(self, url: str, html: Optional[str],
                  update_html: bool) -> None:
         self._url: str = self._get_valid_url(url)
-        self._html: Union[HTML, None] = None
+        self._html: Optional[HTML] = None
         if html:
             self._html = self._get_valid_html(html)
         if update_html:
