@@ -252,15 +252,6 @@ class TableRowParser:
         """
         return self._get_a("nation", True)
 
-    def date(self) -> str:
-        """
-        Parses date with day and month (works only when date is in first column)
-
-        :return: day and month separated by `-` e.g. `30-7`
-        """
-        raw_date = self.row.find(self.row_child_tag)[0].text
-        return raw_date.replace("/", "-")
-
     def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
         """
         Parses profile icon
@@ -447,7 +438,8 @@ class TableParser:
                     if field in fields:
                         self.table[-1][field] = full_dict[field]
 
-    def extend_table(self, field_name: str, index: int, func: callable) -> None:
+    def extend_table(self, field_name: str, index: int, func: callable,
+                     skip_when: callable = lambda _: False) -> None:
         """
         Extends table by adding text of index-th `td` element from each row from
         HTML table
@@ -456,9 +448,12 @@ class TableParser:
         dict
         :param index: index of `tr` child element that will be parsed
         :param func: function to be called on parsed string
+        :param skip_when: function, when returns True row isn't parsed
         """
-        for i, child_html in enumerate(
-                self.html_table.find(self.table_child_tag)):
+        i = 0
+        for child_html in self.html_table.find(self.table_child_tag):
+            if skip_when(child_html):
+                continue
             row_parser = TableRowParser(child_html)
             if i >= len(self.table):
                 self.table.append(
@@ -466,6 +461,7 @@ class TableParser:
                 )
             else:
                 self.table[i][field_name] = func(row_parser.get_other(index))
+            i += 1
 
     def make_times_absolute(self, time_field: str = "time") -> None:
         """
@@ -480,19 +476,6 @@ class TableParser:
         for row in self.table[1:]:
             if row[time_field]:
                 row[time_field] = add_time(first_time, row['time'])
-
-    def add_year_to_dates(self, year: int, date_field: str = "date") -> None:
-        """
-        Adds year to dates in table, used when parsing table with stages from
-        race overview where dates are in `30-7` format
-
-        :param year: year to add to dates
-        :param date_field: field which represents wanted date, defaults to
-        `date`
-        """
-        for row in self.table:
-            if row[date_field]:
-                row[date_field] = f"{row[date_field]}-{str(year)}"
 
     def table_to_dict(self, key_field: str) -> Dict[str, dict]:
         """

@@ -56,7 +56,7 @@ class Rider(Scraper):
         """
         Parses rider's birthdate from HTML
 
-        :return: birthday of the rider in `yyyy-mm-dd` format
+        :return: birthday of the rider in `YYYY-MM-DD` format
         """
         general_info = self._html.find(".rdr-info-cont")[0].text.split("\n")
         birth_string = general_info[0].split(": ")[1]

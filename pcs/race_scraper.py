@@ -106,7 +106,7 @@ class RaceOverview(Scraper):
         """
         Parses race startdate from HTML
 
-        :return: startdate in `dd-mm-yyyy` format
+        :return: startdate in `DD-MM-YYYY` format
         """
         startdate_html = self._html.find(".infolist > li > div:nth-child(2)")[0]
         return startdate_html.text
@@ -115,7 +115,7 @@ class RaceOverview(Scraper):
         """
         Parses race enddate from HTML
 
-        :return: enddate in `dd-mm-yyyy` format
+        :return: enddate in `DD-MM-YYYY` format
         """
         enddate_html = self._html.find(".infolist > li > div:nth-child(2)")[1]
         return enddate_html.text
@@ -157,11 +157,26 @@ class RaceOverview(Scraper):
             raise ExpectedParsingError(
                 "This method is available only on stage races")
         fields = parse_table_fields_args(args, available_fields)
+
+        stages_fields = [field for field in fields if field != "date"]
         stages_table_html = self._html.find("div:nth-child(3) > ul.list")[0]
         tp = TableParser(stages_table_html)
-        tp.parse(fields, lambda x: True if "Restday" in x.text else False)
-        tp.add_year_to_dates(self.year())
+        # function to skip rest days when parsing table
+        def skip_func(x): return True if "Restday" in x.text else False
+        tp.parse(stages_fields, skip_func)
+        if "date" in fields:
+            tp.extend_table("date", 0, self._day_month_to_date, skip_func)
         return tp.table
+
+    def _day_month_to_date(self, day_month) -> str:
+        """
+        Convert day and month e.g. `30/7` to date with race year
+
+        :param day_month: day and month separated by '/'
+        :return: date in in `YYYY-MM-DD` format
+        """
+        [day, month] = day_month.split("/")
+        return f"{self.year()}-{month}-{day}"
 
 
 class RaceStartlist(Scraper):

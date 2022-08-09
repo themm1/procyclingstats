@@ -14,10 +14,11 @@ from .utils import convert_date, parse_table_fields_args, reg
 def test():
     # s = Stage("race/world-championship-ttt/2017")
     s = Stage("race/tour-de-france/2022/stage-3/")
+    print(s.date())
     # print(tabulate(s.results()))
     # print(s.profile_icon())
     # print(tabulate(s.gc()))
-    print(tabulate(s.points()))
+    # print(tabulate(s.points()))
     # print(tabulate(s.kom()))
     # print(tabulate(s.youth()))
     # print(tabulate(s.teams()))
@@ -136,7 +137,7 @@ class Stage(Scraper):
         """
         Parses date when stage took place from HTML
 
-        :return: date when stage took place `yyyy-mm-dd`
+        :return: date when stage took place `YYYY-MM-DD`
         """
         date_html = self._html.find(f".infolist > li > div")
         date = date_html[1].text.split(", ")[0]
