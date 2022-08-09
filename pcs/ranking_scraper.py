@@ -3,6 +3,7 @@ from typing import List, Literal, Optional, Tuple
 from requests_html import HTML
 from tabulate import tabulate
 
+from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .select_parser import SelectParser
 from .table_parser import TableParser
@@ -22,9 +23,7 @@ class Ranking(Scraper):
     for `rankings/me/season-individual` ranking
 
     :param url: URL of ranking to be parsed from, either full or relative,
-    e.g. `rankings/me/season-individual` or 'rankings.php?date=2021-12-31&
-    nation=&age=&zage=&page=smallerorequal&team=&offset=0&filter=Filter&p=me
-    &s=season-individual'
+    e.g. `rankings/me/season-individual` or URL with filters
     :param html: HTML to be parsed from, defaults to None, when passing the
     parameter, set `update_html` to False to prevent overriding or making
     useless request
@@ -74,7 +73,7 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         if self._ranking_type() != "individual":
-            raise Exception(
+            raise ExpectedParsingError(
                 "This object doesn't support individual_ranking method, create"
                 "one with individual ranking URL to call this method.")
 
@@ -102,7 +101,7 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         if self._ranking_type() != "teams":
-            raise Exception(
+            raise ExpectedParsingError(
                 "This object doesn't support team_ranking method, "
                 "create one with teams ranking URL to call this method.")
 
@@ -132,7 +131,7 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         if self._ranking_type() != "nations":
-            raise Exception(
+            raise ExpectedParsingError(
                 "This object doesn't support nations_ranking method, create one"
                 "with nations ranking URL to call this method.")
 
@@ -160,7 +159,7 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         if self._ranking_type() != "races":
-            raise Exception(
+            raise ExpectedParsingError(
                 "This object doesn't support races_ranking method, create one"
                 "with race ranking URL to call this method.")
 
@@ -196,7 +195,7 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         if self._ranking_type() != "individual_wins":
-            raise Exception(
+            raise ExpectedParsingError(
                 "This object doesn't support races_ranking method, create one"
                 "with individual wins ranking URL to call this method.")
 
@@ -232,7 +231,7 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         if self._ranking_type() != "team_wins":
-            raise Exception(
+            raise ExpectedParsingError(
                 "This object doesn't support teams_wins_ranking method, create "
                 "one with teams wins ranking URL to call this method.")
 
@@ -268,7 +267,7 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         if self._ranking_type() != "nation_wins":
-            raise Exception(
+            raise ExpectedParsingError(
                 "This object doesn't support nations_wins_ranking method, "
                 "create one with nations wins ranking URL to call this method.")
 
@@ -419,7 +418,7 @@ class Ranking(Scraper):
             if label_html.text == label:
                 index = i
         if index == -1:
-            raise Exception(f"Invalid label: {label}")
+            raise ValueError(f"Invalid label: {label}")
         return self._html.find("li > div > select")[index]
 
     @staticmethod

@@ -1,9 +1,11 @@
 import datetime
 import math
 import re
-from typing import List, Optional, Tuple, Union
+from typing import Any, List, Optional, Tuple, Union
 
 from requests_html import HTML
+
+from .errors import ParsedValueInvalidError
 
 
 class reg:
@@ -36,7 +38,8 @@ def validate_string(string: str,
                     max_length: int = math.inf,
                     regex: str = "",
                     options: Optional[List[str]] = None,
-                    can_be_none: bool = False) -> None:
+                    can_be_none: bool = False,
+                    error: Any = None) -> None:
     """
     Validates string based on given constraints
 
@@ -47,27 +50,37 @@ def validate_string(string: str,
     removed from given regex, defaults to ""
     :param can_be_none: whether string is valid when is None
     :param options: possible options that string could be, defaults to None
+    :param error: constructed exception object to raise if string is not valid,
+    when None raises ParsedValueInvalidError with given string
+    :raises: given error when string is not valid
     """
+    valid = True
     if not can_be_none and string is None:
-        raise ValueError()
+        valid = False
 
     if options and string not in options:
-        raise ValueError()
+        valid = False
 
     if len(string) < min_length or len(string) > max_length:
-        raise ValueError()
+        valid = False
 
     if regex:
         regex = [char for char in regex if char not in ("\n", " ")]
         formatted_regex = "".join(regex)
         if re.fullmatch(formatted_regex, string) is None:
-            raise ValueError()
+            valid = False
+    if not valid:
+        if not error:
+            raise ParsedValueInvalidError(string)
+        else:
+            raise error
 
 
 def validate_number(number: Union[int, float],
                     min_: Union[int, float] = -math.inf,
                     max_: Union[int, float] = math.inf,
-                    can_be_none: bool = False) -> None:
+                    can_be_none: bool = False,
+                    error: Any = None) -> None:
     """
     Validates number based on given constraints
 
@@ -75,13 +88,21 @@ def validate_number(number: Union[int, float],
     :param min_: minimal value of number, defaults to -math.inf
     :param max_: maximal value of number, defaults to math.inf
     :param can_be_none: whether number is valid when is None
-    :raises ValueError: when number isn't valid
+    :param error: constructed exception object to raise if number is not valid,
+    when None raises ParsedValueInvalidError with given number
+    :raises: given error when string is not valid
     """
+    valid = True
     if not can_be_none and number is None:
-        raise ValueError()
+        valid = False
 
     if number > max_ or number < min_:
-        raise ValueError()
+        valid = False
+    if not valid:
+        if not error:
+            raise ParsedValueInvalidError(number)
+        else:
+            raise error
 
 
 def get_day_month(str_with_date: str) -> Tuple[str, str]:

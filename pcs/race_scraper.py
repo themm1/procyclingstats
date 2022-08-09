@@ -4,6 +4,7 @@ from typing import Any, Dict, List, Literal, Optional, Tuple
 from requests_html import HTML
 from tabulate import tabulate
 
+from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser, TableRowParser
 from .utils import parse_table_fields_args, reg
@@ -153,7 +154,8 @@ class RaceOverview(Scraper):
         :return: table with wanted fields represented as list of dicts
         """
         if self.is_one_day_race():
-            raise Exception("This method is available only on stage races")
+            raise ExpectedParsingError(
+                "This method is available only on stage races")
         fields = parse_table_fields_args(args, available_fields)
         stages_table_html = self._html.find("div:nth-child(3) > ul.list")[0]
         tp = TableParser(stages_table_html)

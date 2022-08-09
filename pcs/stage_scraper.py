@@ -5,6 +5,7 @@ import requests_html
 from requests_html import Element
 from tabulate import tabulate
 
+from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
 from .utils import convert_date, parse_table_fields_args, reg
@@ -209,7 +210,7 @@ class Stage(Scraper):
             wanted_extra_fields = [field for field in fields if field not in
                                    tp.ttt_fields]
             if wanted_extra_fields and self.is_one_day_race():
-                raise Exception(
+                raise ExpectedParsingError(
                     "Can't parse nationality or age of TTT results "
                     "table participant, when race is an one day race.")
             elif wanted_extra_fields and not self.is_one_day_race():
