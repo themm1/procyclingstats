@@ -1,7 +1,9 @@
-from typing import Any, Dict, Literal, Optional, Union
+import inspect
+from typing import Any, Dict, List, Literal, Optional, Tuple, Union
 
 from requests_html import HTML, HTMLSession
 
+from .errors import ExpectedParsingError
 from .utils import validate_string
 
 
@@ -54,6 +56,44 @@ class Scraper:
         :return: absolute URL
         """
         return self._make_absolute_url(url)
+
+    def parse(self,
+              exceptions_to_ignore: Tuple[Any, ...] = (ExpectedParsingError,),
+              none_when_unavailable: bool = True) -> Dict[str, Any]:
+        """
+        Creates JSON like dict with parsed data by calling all parsing methods.
+        Keys in dict are methods names and values parsed data
+
+        :param exceptions_to_ignore: tuple of exceptions that should be ignored,
+        defaults to `(ExpectedParsingError)`
+        :param none_when_unavailable: whether to set dict value to None when
+        method raises ignored exception
+        :return: dict with parsing methods mapping to parsed data
+        """
+        parsing_methods = self._get_parsing_methods()
+        parsed_data = {}
+        for method_name, method in parsing_methods:
+            try:
+                parsed_data[method_name] = method()
+            except exceptions_to_ignore:
+                if none_when_unavailable:
+                    parsed_data[method_name] = None
+        return parsed_data
+
+    def _get_parsing_methods(self) -> List[Tuple[str, callable]]:
+        """
+        Gets all parsing methods from a class, (all public methods with the
+        excepotion of `update_html` and `parse`)
+
+        :return: list of tuples parsing methods names and parsing methods
+        """
+        methods = inspect.getmembers(self, predicate=inspect.ismethod)
+        parsing_methods = []
+        for method_name, method in methods:
+            if method_name[0] != "_" and method_name != "update_html" and\
+                    method_name != "parse":
+                parsing_methods.append((method_name, method))
+        return parsing_methods
 
     def _make_absolute_url(self, url: str) -> str:
         """
