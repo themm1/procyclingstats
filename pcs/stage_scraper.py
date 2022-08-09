@@ -59,24 +59,6 @@ class Stage(Scraper):
                            "race/tour-de-france/2022/stage-18")
         return self._make_absolute_url(url)
 
-    def race_season_id(self) -> str:
-        """
-        Parses race season id from URL
-
-        :return: race season id e.g. `tour-de-france/2021`
-        """
-        return "/".join(self.relative_url().split("/")[1:3])
-
-    def stage_id(self) -> str:
-        """
-        Parses stage id from URL
-
-        :returns: stage id e.g. `tour-de-france/2021/stage-9`
-        """
-        url_elements = self.relative_url().split("/")[1:]
-        stage_id = [element for element in url_elements if element != "result"]
-        return "/".join(stage_id)
-
     def is_one_day_race(self) -> bool:
         """
         Parses whether race is an one day race from HTML

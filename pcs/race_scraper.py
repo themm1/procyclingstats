@@ -11,14 +11,15 @@ from .utils import parse_table_fields_args, reg
 
 def test():
     # RaceOverview()
-    url = "race/world-championship/2021/startlist"
-    # race = RaceOverview(url + "/overview")
-    # print(tabulate(race.stages()))
+    # url = "race/world-championship/2021"
+    url = "race/tour-de-france/2022"
+    race = RaceOverview(url + "/overview")
+    print(tabulate(race.stages()))
     # print(race.startdate())
     # pprint(race.stages())
 
-    startlist = RaceStartlist(url + "/startlist")
-    print(tabulate(startlist.startlist()))
+    # startlist = RaceStartlist(url + "/startlist")
+    # print(tabulate(startlist.startlist()))
 
 
 class RaceOverview(Scraper):
@@ -56,21 +57,13 @@ class RaceOverview(Scraper):
                            "race/tour-de-france/2021/overview")
         return self._make_absolute_url(url)
 
-    def race_id(self) -> str:
-        """
-        Parses race id from URL
-
-        :return: race id e.g. `tour-de-france`
-        """
-        return self.relative_url().split("/")[1]
-
     def year(self) -> int:
         """
-        Parses year when the race occured from URL
+        Parse year when the race occured
 
-        :return: year as int
+        :return: year
         """
-        return int(self.relative_url().split("/")[2])
+        return int(self._html.find("span.hideIfMobile")[0].text)
 
     def display_name(self) -> str:
         """
@@ -99,11 +92,11 @@ class RaceOverview(Scraper):
         nationality_html = self._html.find(".page-title > .main > span")[0]
         return nationality_html.attrs['class'][1].upper()
 
-    def race_year(self) -> int:
+    def edition(self) -> int:
         """
-        Parses race ridden year from HTML
+        Parses race edition year from HTML
 
-        :return: race ridden year
+        :return: edition as int
         """
         race_year_html = self._html.find(".page-title > .main > font")[0]
         return int(race_year_html.text[:-2])
@@ -203,31 +196,6 @@ class RaceStartlist(Scraper):
         self._validate_url(url, race_startlist_url_regex,
                            "race/tour-de-france/2022/startlist")
         return self._make_absolute_url(url)
-
-    def race_id(self) -> str:
-        """
-        Parses race id from URL
-
-        :return: race id e.g. `tour-de-france`
-        """
-        return self.relative_url().split("/")[1]
-
-    def year(self) -> int:
-        """
-        Parses year when the race occured from URL
-
-        :return: year as int
-        """
-        return int(self.relative_url().split("/")[2])
-
-    def teams(self) -> List[str]:
-        """
-        Parses teams ids from HTML
-
-        :return: list with team ids
-        """
-        teams_html = self._html.find("ul > li.team > b > a")
-        return [team.attrs['href'].split("/")[1] for team in teams_html]
 
     def startlist(self, *args: str, available_fields: Tuple[str, ...] = (
             "rider_name",

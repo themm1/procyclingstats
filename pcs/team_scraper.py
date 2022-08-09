@@ -117,26 +117,6 @@ class Team(Scraper):
                     row.pop("rider_id")
         return merged_tables
 
-    def team_id(self) -> str:
-        """
-        Parses team id from URL, season is part of team id
-
-        :return: team id e.g. `bora-hansgrohe-2022`
-        """
-        return self.relative_url().split("/")[1]
-
-    def season(self) -> int:
-        """
-        Parses season from URL
-
-        :return: season
-        """
-        team_id = self.relative_url().split("/")[1]
-        season_part = team_id.split("-")[-1]
-        # only first 4 characters are used because some teams might have fifth
-        # character, which isn't part of season e.g. movistar-team-20152
-        return int(season_part[:4])
-
     def display_name(self) -> str:
         """
         Parses team display name from HTML
