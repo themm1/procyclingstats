@@ -9,8 +9,9 @@ from .utils import parse_select_menu, parse_table_fields_args, reg
 
 
 def test():
-    t = Team("team/bora-hansgrohe-2022")
-    print(tabulate(t.riders()))
+    t = Team("team/etixx-quick-step-2016")
+    pprint(t.parse())
+    # print(tabulate(t.riders()))
     # print(tabulate(t.teams_seasons_select()))
     # print(t.abbreviation())
     # print(t.bike())
@@ -97,8 +98,10 @@ class Team(Scraper):
         if "rider_url" not in casual_fields:
             casual_fields.append("rider_url")
         tp.parse(casual_fields)
-        table_rider_url_dict = tp.table_to_dict("rider_url")
+        career_points_dict = tp.table_to_dict("rider_url")
 
+        since_until_table = self._since_until_table("since" in fields,
+                                                    "until" in fields, True)
         ages_table = self._ages_table("age" in fields, True)
         ranking_table = self._ranking_table("ranking_points" in fields,
                                             "ranking_position" in fields)
@@ -107,8 +110,9 @@ class Team(Scraper):
         # will happen
         merged_tables = []
         for row in ranking_table:
-            dict1 = {**row, **table_rider_url_dict[row['rider_url']]}
-            merged_tables.append({**dict1, **ages_table[row['rider_url']]})
+            dict1 = {**row, **career_points_dict[row['rider_url']]}
+            dict2 = {**dict1, **since_until_table[row['rider_url']]}
+            merged_tables.append({**dict2, **ages_table[row['rider_url']]})
 
         # remove rider_id from table rows when it isn't in fields
         if "rider_id" not in fields:
@@ -185,7 +189,35 @@ class Team(Scraper):
         """
         team_ranking_html = self._html.find(
             ".teamkpi > li:nth-child(2) > div:nth-child(2)")[0]
-        return int(team_ranking_html.text)
+        if team_ranking_html.text:
+            return int(team_ranking_html.text)
+        else:
+            return None
+
+    def _since_until_table(self, since: bool, until: bool,
+                           as_dict: bool = False) -> Union[List[dict],
+                                                           Dict[str, dict]]:
+        """
+        Parses default rider table with dates of joining from HTML
+
+        :param since: whether to include join date
+        :param until: whether to include leave date
+        :param as_dict: whether to return table as a dict where `rider_url` is
+        a key to each rider, defaults to False
+        :return: table represented either as list of dicts or dict of dicts
+        """
+        since_until_table = self._html.find(".tabb > ul.list")[0]
+        tp = TableParser(since_until_table)
+        fields = ["rider_url"]
+        if since:
+            fields.append("since")
+        if until:
+            fields.append("until")
+        tp.parse(fields)
+        if as_dict:
+            return tp.table_to_dict("rider_url")
+        else:
+            return tp.table
 
     def _ranking_table(
         self, points: bool, position: bool, as_dict: bool = False
@@ -207,7 +239,8 @@ class Team(Scraper):
             tp.extend_table("ranking_points", -3,
                             lambda x: int(x.replace("(", "").replace(")", "")))
         if position:
-            tp.extend_table("ranking_position", -2, lambda x: int(x))
+            tp.extend_table("ranking_position", -2,
+                            lambda x: None if x == "-" else int(x))
         if as_dict:
             return tp.table_to_dict("rider_url")
         else:

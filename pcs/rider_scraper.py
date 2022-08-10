@@ -11,9 +11,9 @@ from .utils import get_day_month, parse_table_fields_args, reg
 
 def test():
     # rider = Rider("rider/david-canada")
-    rider = Rider("rider/peter-sagan/")
+    # rider = Rider("rider/peter-sagan/")
     # rider = Rider("rider/cesare-benedetti")
-    # rider = Rider("rider/carlos-verona")
+    rider = Rider("rider/carlos-verona")
     table = rider.seasons_teams()
     print(tabulate(table))
 
@@ -156,37 +156,12 @@ class Rider(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         seasons_html_table = self._html.find("ul.list.rdr-teams")[0]
         tp = TableParser(seasons_html_table)
-        casual_fields = [field for field in fields if field == "team_name" or
-                         field == "team_url"]
-        if "since" in fields or "until" in fields or "season" in fields:
-            casual_fields.append("season")
+        casual_fields = [field for field in fields if field != "class"]
         tp.parse(casual_fields)
         # add class and convert it from `(WT)` to `WT`
         if "class" in fields:
             tp.extend_table("class", -3,
                             lambda x: x.replace("(", "").replace(")", ""))
-        # add since and until dates to the table
-        if "since" in fields or "until" in fields:
-            tp.extend_table("since_until", -2, str)
-            for row in tp.table:
-                if "since" in fields:
-                    # add as from to since date
-                    if "as from" in row['since_until']:
-                        day, month = get_day_month(row['since_until'])
-                        row['since'] = f"{day}-{month}-{row['season']}"
-                    else:
-                        row['since'] = f"01-01-{row['season']}"
-                if "until" in fields:
-                    # add until to until date
-                    if "until" in row['since_until']:
-                        day, month = get_day_month(row['since_until'])
-                        row['until'] = f"{day}-{month}-{row['season']}"
-                    else:
-                        row['until'] = f"31-12-{row['season']}"
-                # remove unnecessary fields
-                if "season" not in fields:
-                    row.pop("season")
-                row.pop("since_until")
         return tp.table
 
     def seasons_points(self, *args: str, available_fields: Tuple[str, ...] = (

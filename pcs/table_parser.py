@@ -6,7 +6,7 @@ from requests_html import HTML, Element
 from tabulate import tabulate
 
 from .scraper import Scraper
-from .utils import add_time, format_time
+from .utils import add_time, format_time, get_day_month
 
 
 def test():
@@ -305,6 +305,32 @@ class TableRowParser:
         """
         return int(self.row.text.split(" ")[0])
 
+    def until(self) -> str:
+        """
+        Parses date until which rider was part of a team
+
+        :return: date in `MM-DD` format, if until isn't found `12-31` is
+        returned
+        """
+        for element in self.row.find(self.row_child_tag):
+            if "until" in element.text:
+                day, month = get_day_month(element.text)
+                return f"{month}-{day}"
+        return "12-31"
+
+    def since(self) -> str:
+        """
+        Parses date since which rider was part of a team
+
+        :return: date in `MM-DD` format, if until isn't found `01-01` is
+        returned
+        """
+        for element in self.row.find(self.row_child_tag):
+            if "as from" in element.text:
+                day, month = get_day_month(element.text)
+                return f"{month}-{day}"
+        return "01-01"
+
     def get_other(self, index: int) -> str:
         """
         Parses `td` elementh that is index-th child of current row HTML, used
@@ -384,6 +410,8 @@ class TableParser:
             - stage_url
             - distance
             - season
+            - since
+            - until
         """
         for child_html in self.html_table.find(self.table_child_tag):
             if skip_when(child_html):
