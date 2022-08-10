@@ -13,15 +13,15 @@ from .utils import convert_date, parse_table_fields_args, reg
 
 def test():
     # s = Stage("race/world-championship-ttt/2017")
-    s = Stage("race/tour-de-france/2022/stage-3/")
-    print(s.date())
-    # print(tabulate(s.results()))
+    s = Stage("race/tour-de-france/2022/stage-18/")
+    # print(s.date())
     # print(s.profile_icon())
+    # print(tabulate(s.results()))
     # print(tabulate(s.gc()))
     # print(tabulate(s.points()))
     # print(tabulate(s.kom()))
     # print(tabulate(s.youth()))
-    # print(tabulate(s.teams()))
+    print(tabulate(s.teams()))
 
 
 class Stage(Scraper):
@@ -189,7 +189,7 @@ class Stage(Scraper):
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
         categories = self._html.find(self._tables_path)
-        results_table_html = categories[0].html
+        results_table_html = categories[0]
         # parse TTT table
         if self.stage_type() == "TTT":
             tp = TableParser(results_table_html)
@@ -356,9 +356,7 @@ class Stage(Scraper):
             "rank",
             "prev_rank",
             "time",
-            "nationality",
-            "pcs_points",
-            "uci_points")) -> List[dict]:
+            "nationality")) -> List[dict]:
         """
         Parses results from teams classification results table from HTML,
         available only on stage races

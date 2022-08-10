@@ -6,7 +6,7 @@ from requests_html import HTML, Element
 from tabulate import tabulate
 
 from .scraper import Scraper
-from .utils import add_time
+from .utils import add_time, format_time
 
 
 def test():
@@ -127,7 +127,7 @@ class TableRowParser:
 
         :return: age
         """
-        age_html = self.row.find(self.row_child_tag)[0]
+        age_html = self.row.find(".age")[0]
         return int(age_html.text)
 
     def nationality(self) -> str:
@@ -152,6 +152,8 @@ class TableRowParser:
             time = self.row.find(".time")[0].text.split("\n")[0]
         if time == "-":
             time = None
+        if time is not None:
+            time = format_time(time)
         return time
 
     def bonus(self) -> int:
@@ -420,7 +422,7 @@ class TableParser:
                 if extra_time:
                     rider_time = add_time(extra_time[0].text, current_team_time)
                 else:
-                    rider_time = add_time(current_team_time, "00:00:00")
+                    rider_time = format_time(current_team_time)
                 full_dict = {
                     "rank": current_rank,
                     "time": rider_time,
@@ -472,7 +474,6 @@ class TableParser:
         `time`
         """
         first_time = self.table[0][time_field]
-        self.table[0][time_field] = add_time(first_time, "00:00:00")
         for row in self.table[1:]:
             if row[time_field]:
                 row[time_field] = add_time(first_time, row['time'])

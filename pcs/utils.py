@@ -171,32 +171,84 @@ def parse_select_menu(select_html: HTML) -> List[dict]:
 
 
 def convert_date(date: str) -> str:
+    """
+    Converts given date to `YYYY-MM-DD` format
+
+    :param date: date to convert, day, month and year have to be separated by
+    spaces and month has to be in word form e.g. `30 July 2022`
+    :return: date in `YYYY-MM-DD` format
+    """
     [day, month, year] = date.split(" ")
     month = datetime.datetime.strptime(month, "%B").month
     month = f"0{month}" if month < 10 else str(month)
     return "-".join([year, month, day])
 
 
-def format_time(time: str):
-    time_length = len(time.split(":"))
-    for _ in range(3 - time_length):
-        time = "".join(["00:", time])
-    return time
+def timedelta_to_time(tdelta: datetime.timedelta) -> str:
+    """
+    Converts timedelta object to time in `H:MM:SS` format
+
+    :param tdelta: timedelta to convert
+    :return: time
+    """
+    time = str(tdelta).split(" ")
+    if len(time) > 1:
+        days = time[0]
+        time = time[2]
+        hours = int(time.split(":")[0]) + (24 * int(days))
+        minutes_seconds = ":".join(time.split(":")[1:])
+    else:
+        hours = time[0].split(":")[0]
+        minutes_seconds = ":".join(time[0].split(":")[1:])
+    return f"{hours}:{minutes_seconds}"
+
+
+def time_to_timedelta(time: str) -> datetime.timedelta:
+    """
+    Converts time in `H:MM:SS` format to timedelta object
+
+    :param time: time to convert
+    :return: timedelta object
+    """
+    [hours, minutes, seconds] = [int(value) for value in time.split(":")]
+    return datetime.timedelta(hours=hours, minutes=minutes, seconds=seconds)
+
+
+def format_time(time: str) -> str:
+    """
+    Convert time from `M:SS` or `MM:SS` format to `H:MM:SS` format
+
+    :param time: time to convert
+    :return: formatted time e.g. `31:03:11`
+    """
+    time = time.split(":")
+    # make minutes and seconds two digits long
+    for i, time_val in enumerate(time[-2:]):
+        if len(time_val) == 1:
+            time[i] = "0" + time_val
+    time_str = ":".join(time)
+    # add hours if needed
+    if len(time) == 2:
+        time_str = "0:" + time_str
+    return time_str
 
 
 def add_time(time1: str, time2: str) -> str:
-    [t1hours, t1minutes, t1seconds] = format_time(time1).split(":")
-    [t2hours, t2minutes, t2seconds] = format_time(time2).split(":")
-    time_a = datetime.timedelta(hours=int(t1hours), minutes=int(t1minutes),
-                                seconds=int(t1seconds))
-    time_b = time_a + datetime.timedelta(hours=int(t2hours),
-                                         minutes=int(t2minutes),
-                                         seconds=int(t2seconds))
-    if " day, " in str(time_b):
-        [days, time] = str(time_b).split(" day, ")
-    elif " days, " in str(time_b):
-        [days, time] = str(time_b).split(" days, ")
-    else:
-        days = 0
-        time = str(time_b)
-    return f"{days} {time}"
+    """
+    Adds two given times with minutes and seconds or with hours optionally
+    together
+
+    :param time1: time separated with colons
+    :param time2: time separated with colons
+    :return: time in `H:MM:SS` format
+    """
+    tdelta1 = time_to_timedelta(format_time(time1))
+    tdelta2 = time_to_timedelta(format_time(time2))
+    tdelta = tdelta1 + tdelta2
+    return timedelta_to_time(tdelta)
+
+
+if __name__ == "__main__":
+    tdelta = time_to_timedelta("25:11:15")
+    time = timedelta_to_time(tdelta)
+    print(format_time("0:00"))
