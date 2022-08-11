@@ -246,9 +246,3 @@ def add_time(time1: str, time2: str) -> str:
     tdelta2 = time_to_timedelta(format_time(time2))
     tdelta = tdelta1 + tdelta2
     return timedelta_to_time(tdelta)
-
-
-if __name__ == "__main__":
-    tdelta = time_to_timedelta("25:11:15")
-    time = timedelta_to_time(tdelta)
-    print(format_time("0:00"))

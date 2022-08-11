@@ -9,14 +9,6 @@ from .scraper import Scraper
 from .utils import add_time, format_time, get_day_month
 
 
-def test():
-    html = Scraper("race/tour-de-france/2022/stage-18", None, True).html
-    categories = html.find(".result-cont > table > tbody")
-    tp = TableParser(categories[0])
-    tp.parse(["rank", "rider_url", "rider_name"])
-    print(tabulate(tp.table))
-
-
 class TableRowParser:
     """
     Parser for HTML table row, public methods parse data and return it
@@ -520,7 +512,3 @@ class TableParser:
             return {row[key_field]: row for row in self.table}
         except KeyError:
             raise ValueError(f"Invalid key_field argument: {key_field}")
-
-
-if __name__ == "__main__":
-    test()

@@ -43,8 +43,3 @@ class ParsedValueInvalidError(Exception):
         if self.custom_message:
             return self.custom_message
         return f"Parsed value '{self.value}' didn't pass validity check. "
-
-
-if __name__ == "__main__":
-    e = ValueError("test")
-    raise e

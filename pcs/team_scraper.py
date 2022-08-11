@@ -8,23 +8,6 @@ from .table_parser import TableParser
 from .utils import parse_select_menu, parse_table_fields_args, reg
 
 
-def test():
-    t = Team("team/etixx-quick-step-2016")
-    pprint(t.parse())
-    # print(tabulate(t.riders()))
-    # print(tabulate(t.teams_seasons_select()))
-    # print(t.abbreviation())
-    # print(t.bike())
-    # print(t.display_name())
-    # print(t.team_id())
-    # print(t.season())
-    # print(t.team_status())
-    # print(t.team_ranking_position())
-    # print(t.wins_count())
-    # pprint(t.urls())
-    # print(tabulate(t.riders()))
-
-
 class Team(Scraper):
     """
     Scraper for HTML team page.
@@ -267,7 +250,3 @@ class Team(Scraper):
             return tp.table_to_dict("rider_url")
         else:
             return tp.pable
-
-
-if __name__ == "__main__":
-    test()

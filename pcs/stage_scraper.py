@@ -11,19 +11,6 @@ from .table_parser import TableParser
 from .utils import convert_date, parse_table_fields_args, reg
 
 
-def test():
-    # s = Stage("race/world-championship-ttt/2017")
-    s = Stage("race/tour-de-france/2022/stage-18/")
-    # print(s.date())
-    # print(s.profile_icon())
-    # print(tabulate(s.results()))
-    # print(tabulate(s.gc()))
-    # print(tabulate(s.points()))
-    # print(tabulate(s.kom()))
-    # print(tabulate(s.youth()))
-    print(tabulate(s.teams()))
-
-
 class Stage(Scraper):
     """
     Scraper for HTML stage page. On one day races methods for parsing
@@ -405,7 +392,3 @@ class Stage(Scraper):
                 points_index = len(elements) - i
                 break
         return points_index
-
-
-if __name__ == "__main__":
-    test()

@@ -10,19 +10,6 @@ from .table_parser import TableParser, TableRowParser
 from .utils import parse_table_fields_args, reg
 
 
-def test():
-    # RaceOverview()
-    # url = "race/world-championship/2021"
-    url = "race/tour-de-france/2022"
-    race = RaceOverview(url + "/overview")
-    print(tabulate(race.stages()))
-    # print(race.startdate())
-    # pprint(race.stages())
-
-    # startlist = RaceStartlist(url + "/startlist")
-    # print(tabulate(startlist.startlist()))
-
-
 class RaceOverview(Scraper):
     """
     Scraper for race overview page.
@@ -251,7 +238,3 @@ class RaceStartlist(Scraper):
                     row['team_url'] = trp.team_url()
             startlist_table.extend(tp.table)
         return startlist_table
-
-
-if __name__ == "__main__":
-    test()

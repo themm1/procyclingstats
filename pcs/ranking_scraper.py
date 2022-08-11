@@ -10,12 +10,6 @@ from .table_parser import TableParser
 from .utils import parse_table_fields_args, reg
 
 
-def test():
-    r = Ranking("rankings/me")
-    d = r.dates_select()
-    print(tabulate(d))
-
-
 class Ranking(Scraper):
     """
     Scraper for HTML ranking page. Always only one method for ranking
@@ -455,7 +449,3 @@ class Ranking(Scraper):
         sp = SelectParser(select_menu_html)
         sp.parse(fields)
         return sp.table
-
-
-if __name__ == "__main__":
-    test()

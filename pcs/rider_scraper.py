@@ -9,15 +9,6 @@ from .table_parser import TableParser
 from .utils import get_day_month, parse_table_fields_args, reg
 
 
-def test():
-    # rider = Rider("rider/david-canada")
-    # rider = Rider("rider/peter-sagan/")
-    # rider = Rider("rider/cesare-benedetti")
-    rider = Rider("rider/carlos-verona")
-    table = rider.seasons_teams()
-    print(tabulate(table))
-
-
 class Rider(Scraper):
     """
     Scraper for HTML rider page.
@@ -189,7 +180,3 @@ class Rider(Scraper):
             for row in tp.table:
                 row.pop("season")
         return tp.table
-
-
-if __name__ == "__main__":
-    test()
