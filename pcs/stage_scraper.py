@@ -38,7 +38,7 @@ class Stage(Scraper):
     `self.html`, when False `self.update_html` method has to be called
     manually to make object ready for parsing, defaults to True
     """
-    _tables_path: str = ".result-cont > table > tbody"
+    _tables_path: str = ".result-cont table > tbody"
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
