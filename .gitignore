@@ -2,3 +2,4 @@ venv/
 notebook.ipynb
 .vscode/
 pcs/__pycache__/
+scripts/
