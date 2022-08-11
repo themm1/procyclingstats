@@ -1,8 +1,4 @@
-from pprint import pprint
-from typing import Any, Dict, List, Literal, Optional, Tuple
-
-from requests_html import HTML
-from tabulate import tabulate
+from typing import List, Optional, Tuple
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper

@@ -1,7 +1,4 @@
-from pprint import pprint
 from typing import Dict, List, Optional, Tuple, Union
-
-from tabulate import tabulate
 
 from .scraper import Scraper
 from .table_parser import TableParser

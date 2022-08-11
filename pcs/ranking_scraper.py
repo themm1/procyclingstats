@@ -1,7 +1,6 @@
 from typing import List, Literal, Optional, Tuple
 
 from requests_html import HTML
-from tabulate import tabulate
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper

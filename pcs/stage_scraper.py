@@ -1,9 +1,7 @@
-from pprint import pprint
-from typing import Any, Dict, List, Literal, Optional, Tuple, Union
+from typing import List, Literal, Optional, Tuple, Union
 
 import requests_html
 from requests_html import Element
-from tabulate import tabulate
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
