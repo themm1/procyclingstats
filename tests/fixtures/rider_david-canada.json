@@ -1,0 +1,190 @@
+{
+  "birthdate": "1975-3-11",
+  "height": 1.76,
+  "name": "David Ca\u00f1ada",
+  "nationality": "ES",
+  "place_of_birth": "Zaragoza",
+  "relative_url": "rider/david-canada",
+  "seasons_points": [
+    {
+      "season": 2008,
+      "points": 92,
+      "position": 591
+    },
+    {
+      "season": 2007,
+      "points": 223,
+      "position": 266
+    },
+    {
+      "season": 2006,
+      "points": 421,
+      "position": 110
+    },
+    {
+      "season": 2005,
+      "points": 128,
+      "position": 453
+    },
+    {
+      "season": 2004,
+      "points": 239,
+      "position": 236
+    },
+    {
+      "season": 2003,
+      "points": 246,
+      "position": 231
+    },
+    {
+      "season": 2002,
+      "points": 202,
+      "position": 281
+    },
+    {
+      "season": 2001,
+      "points": 10,
+      "position": 1236
+    },
+    {
+      "season": 2000,
+      "points": 522,
+      "position": 95
+    },
+    {
+      "season": 1999,
+      "points": 76,
+      "position": 471
+    },
+    {
+      "season": 1998,
+      "points": 40,
+      "position": 579
+    },
+    {
+      "season": 1997,
+      "points": 104,
+      "position": 360
+    },
+    {
+      "season": 1996,
+      "points": 3,
+      "position": 1104
+    }
+  ],
+  "seasons_teams": [
+    {
+      "season": 2009,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Fuji-Servetto",
+      "team_url": "team/fuji-servetto-2009",
+      "class": "WT"
+    },
+    {
+      "season": 2008,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Scott - American Beef",
+      "team_url": "team/scott-american-beef-2008",
+      "class": "PT"
+    },
+    {
+      "season": 2007,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Saunier Duval",
+      "team_url": "team/saunier-duval-2007",
+      "class": "PT"
+    },
+    {
+      "season": 2006,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Saunier Duval - Prodir",
+      "team_url": "team/saunier-duval-prodir-2006",
+      "class": "PT"
+    },
+    {
+      "season": 2005,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Saunier Duval - Prodir",
+      "team_url": "team/saunier-duval-prodir-2005",
+      "class": "PT"
+    },
+    {
+      "season": 2004,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Saunier Duval - Prodir",
+      "team_url": "team/saunier-duval-prodir-2004",
+      "class": "TT1"
+    },
+    {
+      "season": 2003,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Quickstep - Davitamon",
+      "team_url": "team/quickstep-davitamon-2003",
+      "class": "TT1"
+    },
+    {
+      "season": 2002,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Mapei - Quickstep",
+      "team_url": "team/mapei-quickstep-2002",
+      "class": "TT1"
+    },
+    {
+      "season": 2000,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "O.N.C.E. - Deutsche Bank",
+      "team_url": "team/o.n.c.e.-deutsche-bank-2000",
+      "class": "TT1"
+    },
+    {
+      "season": 1999,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "O.N.C.E. - Deutsche Bank",
+      "team_url": "team/o.n.c.e.-deutsche-bank-1999",
+      "class": "TT1"
+    },
+    {
+      "season": 1998,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "O.N.C.E. - Deutsche Bank",
+      "team_url": "team/once-1998",
+      "class": "TT1"
+    },
+    {
+      "season": 1997,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "ONCE",
+      "team_url": "team/once-1997",
+      "class": "TT1"
+    },
+    {
+      "season": 1996,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "O.N.C.E.",
+      "team_url": "team/o.n.c.e.-1996",
+      "class": "TT1"
+    },
+    {
+      "season": 1995,
+      "since": "09-01",
+      "until": "12-31",
+      "team_name": "O.N.C.E.",
+      "team_url": "team/o.n.c.e.-1995",
+      "class": "TT1"
+    }
+  ],
+  "weight": 65
+}

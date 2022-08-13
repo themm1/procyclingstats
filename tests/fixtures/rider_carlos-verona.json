@@ -1,0 +1,180 @@
+{
+  "birthdate": "1992-11-4",
+  "height": 1.86,
+  "name": "Carlos Verona",
+  "nationality": "ES",
+  "place_of_birth": "San Lorenzo de El Escorial",
+  "relative_url": "rider/carlos-verona",
+  "seasons_points": [
+    {
+      "season": 2022,
+      "points": 442,
+      "position": 81
+    },
+    {
+      "season": 2021,
+      "points": 121,
+      "position": 400
+    },
+    {
+      "season": 2020,
+      "points": 202,
+      "position": 167
+    },
+    {
+      "season": 2019,
+      "points": 150,
+      "position": 418
+    },
+    {
+      "season": 2018,
+      "points": 319,
+      "position": 189
+    },
+    {
+      "season": 2017,
+      "points": 233,
+      "position": 275
+    },
+    {
+      "season": 2016,
+      "points": 108,
+      "position": 539
+    },
+    {
+      "season": 2015,
+      "points": 121,
+      "position": 505
+    },
+    {
+      "season": 2014,
+      "points": 98,
+      "position": 550
+    },
+    {
+      "season": 2013,
+      "points": 68,
+      "position": 706
+    },
+    {
+      "season": 2011,
+      "points": 16,
+      "position": 1447
+    }
+  ],
+  "seasons_teams": [
+    {
+      "season": 2023,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Movistar Team",
+      "team_url": "team/movistar-team-2023",
+      "class": "WT"
+    },
+    {
+      "season": 2022,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Movistar Team",
+      "team_url": "team/movistar-team-2022",
+      "class": "WT"
+    },
+    {
+      "season": 2021,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Movistar Team",
+      "team_url": "team/movistar-team-2021",
+      "class": "WT"
+    },
+    {
+      "season": 2020,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Movistar Team",
+      "team_url": "team/movistar-team-2020",
+      "class": "WT"
+    },
+    {
+      "season": 2019,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Movistar Team",
+      "team_url": "team/movistar-team-2019",
+      "class": "WT"
+    },
+    {
+      "season": 2018,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Mitchelton-Scott",
+      "team_url": "team/mitchelton-scott-2018",
+      "class": "WT"
+    },
+    {
+      "season": 2017,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "ORICA-Scott",
+      "team_url": "team/orica-scott-2017",
+      "class": "WT"
+    },
+    {
+      "season": 2016,
+      "since": "07-30",
+      "until": "12-31",
+      "team_name": "ORICA-BikeExchange",
+      "team_url": "team/orica-bikeexchange-2016",
+      "class": "WT"
+    },
+    {
+      "season": 2016,
+      "since": "01-01",
+      "until": "07-30",
+      "team_name": "Etixx - Quick Step",
+      "team_url": "team/etixx-quick-step-2016",
+      "class": "WT"
+    },
+    {
+      "season": 2015,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Etixx - Quick Step",
+      "team_url": "team/etixx-quick-step-2015",
+      "class": "WT"
+    },
+    {
+      "season": 2014,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Omega Pharma - Quick-Step",
+      "team_url": "team/omega-pharma-quick-step-2014",
+      "class": "WT"
+    },
+    {
+      "season": 2013,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Omega Pharma - Quick-Step",
+      "team_url": "team/omega-pharma-quick-step-2013",
+      "class": "WT"
+    },
+    {
+      "season": 2012,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Burgos BH - Castilla y Le\u00f3n",
+      "team_url": "team/burgos-bh-castilla-y-leon-2012",
+      "class": "CT"
+    },
+    {
+      "season": 2011,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Burgos 2016 - Castilla y Le\u00f3n",
+      "team_url": "team/burgos-2016-castilla-y-leon-2011",
+      "class": "CT"
+    }
+  ],
+  "weight": 68
+}

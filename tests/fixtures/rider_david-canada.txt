@@ -1,0 +1,397 @@
+<!DOCTYPE HTML><html><head><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35889790-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
+
+  gtag('config', 'UA-35889790-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2MNJ20S7SJ');
+</script>
+<title>David  Cañada </title>
+<base href="https://www.procyclingstats.com/rider.php" />
+<link rel="canonical" href="https://www.procyclingstats.com/rider/david-canada" />
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="David Cañada (born 1975-03-11, passed away 2016-05-28) was a road racing cyclist from Spain, active between 1993 and 2009.">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8"> 
+<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<base href="rider.php" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
+
+<script src="https://www.procyclingstats.com/pcs_s57.js"></script> 
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
+<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
+</head>
+<body>
+<div class="wrapper">
+  <header class="  ">
+    <div class="cont">
+    	<a class="logo4" href="index.php"><ul><li class="r">P</li><li class="r">C</li><li class="z">S</li></ul></a>
+
+    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
+    		<input type="text" name="term" id="search" data-nav="rider/-id-" data-page="rider" class="search4"  placeholder="search"  /></form> 
+    	<div class="menuCont">
+      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
+<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
+<li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
+<li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
+</ul></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
+<li><a href="team/movistar-team-2022">Movistar Team</a></li>
+<li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
+<li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
+<li><a href="team/team-dsm-2022">Team DSM</a></li>
+<li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
+<li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
+<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2022">Cofidis</a></li>
+<li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+</ul></li>
+<li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
+<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
+<li><a href="statistics/riders">Riders</a></li>
+<li><a href="statistics/teams">Teams</a></li>
+<li><a href="statistics/grandtours">Grand tours</a></li>
+</ul></li>
+<li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
+<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
+<li><a href="livestats">LiveStats</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/tutorials">Tutorials</a></li>
+</ul></li>
+<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
+<li><a href="">Lists</a></li>
+</ul></li>
+ 
+				 </ul> 
+			 </div>
+			 <a class="user4" data-logged="0" href="login.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+  </header>  
+<div class="content  "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/david-canada">Overview</a></li>
+<li class="reg "><a class="" href="rider/david-canada/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/david-canada/statistics/overview">Overview</a></li>
+<li><a href="rider/david-canada/statistics/wins">Wins</a></li>
+<li><a href="rider/david-canada/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/david-canada/statistics/most-starts-by-race">Most starts by race</a></li>
+<li><a href="rider/david-canada/statistics/world-map-of-rider-races">World map of rider races</a></li>
+<li><a href="rider/david-canada/statistics/grand-tour-starts">Grand tour starts</a></li>
+</ul></li>
+<li class="reg "><a class="" href="rider/david-canada/results">Results</a></li>
+<li class="reg "><a class="" href="rider/david-canada/head-to-head">Head to head</a></li>
+<li class="reg "><a class="" href="rider/david-canada/calendar">Calendar</a></li>
+<li class="reg "><a class="" href="rider/david-canada/contribute">More&#x25BC;</a><ul><li><a href="rider/david-canada/contribute/contribute-info">Contribute info</a></li>
+<li><a href="rider/david-canada/contribute/submit-program">Submit program</a></li>
+<li><a href="rider/david-canada/contribute/report">Report</a></li>
+<li><a href="rider/david-canada/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
+<li><a href="rider/david-canada/contribute/contribute-family">Family</a></li>
+<li><a href="rider/david-canada/contribute/embed-rider-results">Embed rider results</a></li>
+</ul></li>
+<li class="more"><a href="rider/david-canada">More</a><ul><li data-n="0"><a href="rider/david-canada/overview/start">Overview - Start</a></li><li data-n="1"><a href="rider/david-canada/statistics/overview">Statistics - Overview</a></li><li data-n="1"><a href="rider/david-canada/statistics/wins">Wins</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/most-starts-by-race">Most starts by race</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/world-map-of-rider-races">World map of rider races</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/grand-tour-starts">Grand tour starts</a></li>
+<li data-n="2"><a href="rider/david-canada/results/all">Results - All results</a></li><li data-n="3"><a href="rider/david-canada/head-to-head/start">Head to head - Head-to-head</a></li><li data-n="4"><a href="rider/david-canada/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/david-canada/contribute/contribute-info">More - Contribute info</a></li><li data-n="5"><a href="rider/david-canada/contribute/submit-program">Submit program</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/report">Report</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/contribute-family">Family</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/embed-rider-results">Embed rider results</a></li>
+</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">David  Cañada</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;<span style="font-size: 10px; color: #999; ">&copy: -</span></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> March 1975<br /><span><b>Passed away on:</b> 28<sup>th</sup> May 2016<br /><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br /><span><b>Weight:</b> 65 kg &nbsp; <span><b>Height:</b> 1.76 m<br /><b>Place of birth:</b> <a href="location.php?id=1906">Zaragoza</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 17.037470725995%; height: 100%;  "></div></div><div class="pnt">291</div><div class="title"><a href="rider/david-canada/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1708</div><div class="title"><a href="rider/david-canada/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 48.009367681499%; height: 100%;  "></div></div><div class="pnt">820</div><div class="title"><a href="rider/david-canada/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 27.693208430913%; height: 100%;  "></div></div><div class="pnt">473</div><div class="title"><a href="rider/david-canada/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 19.789227166276%; height: 100%;  "></div></div><div class="pnt">338</div><div class="title"><a href="rider/david-canada/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<div class="mt10"><ul class="list horizontal sites"></ul></div>
+<div class="">
+<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/all-time">Specials | All Time Ranking</a></div><div class="rnk   "  >1484</div><div class="clear"></div></li>
+</ul></div>
+<div class="">
+<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;101</span></div><div >  this week</div><div class="clear"></div></li>
+</ul></div>
+</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/volta-a-catalunya/2006/gc">Volta Ciclista a Catalunya</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('06)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/gc">Vuelta a Murcia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/circuit-sarthe/2000/gc">Circuit de la Sarthe</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-5">Vuelta a Murcia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue"></span> <a href="race/san-sebastian/2000/result">Clasica Ciclista San Sebastian</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-georgia/2007/gc">Tour de Georgia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('07)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2003/stage-18">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('03)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/ronde-van-nederland/2002/gc">Ronde van Nederland</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('02)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2000/stage-1">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/escalada-a-montjuich/2006/gc">Escalada a Montjuich</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('06)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-suisse/2004/gc">Tour de Suisse</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('04)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/vuelta-a-los-valles-mineros/1997/gc">Vuelta a los Valles Mineros</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('97)</span></div></li>
+</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
+<div class="">
+<ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2009</div><div class="name   "  ><a    href="team/fuji-servetto-2009">Fuji-Servetto</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2008</div><div class="name   "  ><a    href="team/scott-american-beef-2008">Scott - American Beef</a></div><div > (PT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2007</div><div class="name   "  ><a    href="team/saunier-duval-2007">Saunier Duval</a></div><div > (PT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2006</div><div class="name   "  ><a    href="team/saunier-duval-prodir-2006">Saunier Duval - Prodir</a></div><div > (PT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2005</div><div class="name   "  ><a    href="team/saunier-duval-prodir-2005">Saunier Duval - Prodir</a></div><div > (PT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2004</div><div class="name   "  ><a    href="team/saunier-duval-prodir-2004">Saunier Duval - Prodir</a></div><div > (TT1)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2003</div><div class="name   "  ><a    href="team/quickstep-davitamon-2003">Quickstep - Davitamon</a></div><div > (TT1)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2002</div><div class="name   "  ><a    href="team/mapei-quickstep-2002">Mapei - Quickstep</a></div><div > (TT1)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2000</div><div class="name   "  ><a    href="team/o.n.c.e.-deutsche-bank-2000">O.N.C.E. - Deutsche Bank</a></div><div > (TT1)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >1999</div><div class="name   "  ><a    href="team/o.n.c.e.-deutsche-bank-1999">O.N.C.E. - Deutsche Bank</a></div><div > (TT1)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >1998</div><div class="name   "  ><a    href="team/once-1998">O.N.C.E. - Deutsche Bank</a></div><div > (TT1)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >1997</div><div class="name   "  ><a    href="team/once-1997">ONCE</a></div><div > (TT1)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >1996</div><div class="name   "  ><a    href="team/o.n.c.e.-1996">O.N.C.E.</a></div><div > (TT1)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >1995</div><div class="name   "  ><a    href="team/o.n.c.e.-1995">O.N.C.E.</a></div><div > (TT1)</div><div class="fs10   "  > trainee as from 01/09</div><div class="clear"></div></li>
+</ul><a class="showFullList hide showIfMobile" href="">show more</a></div>
+<div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2008" class="cur"><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=""><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=""><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=""><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=""><a class="seasonResults" data-season="2004" href="">2004</a></li><li data-season="2003" class=""><a class="seasonResults" data-season="2003" href="">2003</a></li><li data-season="2002" class=""><a class="seasonResults" data-season="2002" href="">2002</a></li><li data-season="2001" class=""><a class="seasonResults" data-season="2001" href="">2001</a></li><li data-season="2000" class=""><a class="seasonResults" data-season="2000" href="">2000</a></li><li data-season="1999" class=""><a class="seasonResults" data-season="1999" href="">1999</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2008" class=" "><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=" "><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=" "><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=" "><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=" "><a class="seasonResults" data-season="2004" href="">2004</a></li><li data-season="2003" class=" "><a class="seasonResults" data-season="2003" href="">2003</a></li><li data-season="2002" class=" "><a class="seasonResults" data-season="2002" href="">2002</a></li><li data-season="2001" class=" "><a class="seasonResults" data-season="2001" href="">2001</a></li><li data-season="2000" class=" "><a class="seasonResults" data-season="2000" href="">2000</a></li><li data-season="1999" class=" "><a class="seasonResults" data-season="1999" href="">1999</a></li><li data-season="1998" class=" "><a class="seasonResults" data-season="1998" href="">1998</a></li><li data-season="1997" class=" "><a class="seasonResults" data-season="1997" href="">1997</a></li><li data-season="1996" class=" "><a class="seasonResults" data-season="1996" href="">1996</a></li><li data-season="1993" class=" "><a class="seasonResults" data-season="1993" href="">1993</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600 " style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>14.09 &raquo; 20.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2008/gc">Tour de Pologne <span>(2.PT)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
+<tr data-main="0"><td></td><td>17</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2008/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600">18</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
+<tr data-main="0"><td>20.09</td><td>42</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2008/stage-6">Stage 6 - Rabki &rsaquo; Krakow</a> </td><td class="cu600 ">95.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
+<tr data-main="0"><td>19.09</td><td>23</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2008/stage-5">Stage 5 - Krynica Gorska &rsaquo; Zakopane</a> </td><td class="cu600 ">118</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
+<tr data-main="0"><td>18.09</td><td>105</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2008/stage-4">Stage 4 - Naleczow &rsaquo; Rzeszow</a> </td><td class="cu600 ">239.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
+<tr data-main="0"><td>16.09</td><td>93</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2008/stage-3">Stage 3 - Mikolajki &rsaquo; Bialystok</a> </td><td class="cu600 ">184.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
+<tr data-main="0"><td>15.09</td><td>71</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2008/stage-2">Stage 2 - Plock &rsaquo; Olsztyn</a> </td><td class="cu600 ">231.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
+<tr data-main="1"><td>07.09</td><td>28</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/cyclassics-hamburg/2008/result">Vattenfall Cyclassics <span>(1.PT)</span></a> </td><td class="cu600 ">213.7</td><td class="cu600">7</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1050">more</a></td></tr>
+<tr data-main="1"><td>29.08 &raquo; 06.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/gc">Deutschland Tour <span>(PT)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td></td><td>23</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600">14</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>06.09</td><td>33</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/stage-9">Stage 9 (ITT) - Bremen &rsaquo; Bremen</a> </td><td class="cu600 ">34</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>05.09</td><td>67</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/stage-8">Stage 8 - Neuss  &rsaquo; Georgsmarienhütte</a> </td><td class="cu600 ">214.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>04.09</td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/stage-7">Stage 7 - Bad Fredeburg &rsaquo; Neuss</a> </td><td class="cu600 ">188.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>03.09</td><td>35</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/stage-6">Stage 6 - Mainz &rsaquo; Winterberg</a> </td><td class="cu600 ">218.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>02.09</td><td>103</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/stage-5">Stage 5 - Wiesloch &rsaquo; Mainz</a> </td><td class="cu600 ">174</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>01.09</td><td>39</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/stage-4">Stage 4 - Herrieden &rsaquo; Wiesloch</a> </td><td class="cu600 ">214.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>31.08</td><td>37</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/stage-3">Stage 3 - München &rsaquo; Region Hesselberg</a> </td><td class="cu600 ">182.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>30.08</td><td>37</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/stage-2">Stage 2 - Kitzbühel &rsaquo; Hochfügen</a> </td><td class="cu600 ">178</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="0"><td>29.08</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2008/prologue">Prologue - Kitzbühel &rsaquo; Kitzbühel</a> </td><td class="cu600 ">3.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1043">more</a></td></tr>
+<tr data-main="1"><td>25.08</td><td>61</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/bretagne-classic/2008/result">GP Ouest France - Plouay <span>(1.PT)</span></a> </td><td class="cu600 ">229</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1048">more</a></td></tr>
+<tr data-main="1"><td>05.08 &raquo; 09.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2008/stage-1">Vuelta a Burgos <span>(2.HC)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1086">more</a></td></tr>
+<tr data-main="0"><td>05.08</td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2008/stage-1">Stage 1 - Medina de Pomar &rsaquo; Villarcayo</a> </td><td class="cu600 ">147.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1086">more</a></td></tr>
+<tr data-main="1"><td>14.06 &raquo; 22.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="race/tour-de-suisse/2008/stage-1">Tour de Suisse <span>()</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1044">more</a></td></tr>
+<tr data-main="0"><td>14.06</td><td>160</td><td class="gc cu600">160</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="race/tour-de-suisse/2008/stage-1">Stage 1 - Langnau im Emmental &rsaquo; Langnau im Emmental</a> </td><td class="cu600 ">156.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1044">more</a></td></tr>
+<tr data-main="1"><td>10.05 &raquo; 01.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/gc">Giro d'Italia <span>(2.HC)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td></td><td>58</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600">20</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>01.06</td><td>47</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-21">Stage 21 (ITT) - Cesano Maderno &rsaquo; Milano</a> </td><td class="cu600 ">28</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>31.05</td><td>43</td><td class="gc cu600">58</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-20">Stage 20 - Rovetta &rsaquo; Tirano</a> </td><td class="cu600 ">232</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>30.05</td><td>38</td><td class="gc cu600">64</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-19">Stage 19 - Legnano &rsaquo; Monte Pora</a> </td><td class="cu600 ">228</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>29.05</td><td>32</td><td class="gc cu600">72</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-18">Stage 18 - Mendrisio &rsaquo; Varese </a> </td><td class="cu600 ">147</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>28.05</td><td>47</td><td class="gc cu600">70</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-17">Stage 17 - Sondrio &rsaquo; Locarno</a> </td><td class="cu600 ">146</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>26.05</td><td>83</td><td class="gc cu600">70</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-16">Stage 16 (ITT) - San Vigilio di Marebbe &rsaquo; Plan de Corones</a> </td><td class="cu600 ">12.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>25.05</td><td>113</td><td class="gc cu600">71</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-15">Stage 15 - Arabba &rsaquo; Passo Fedaia</a> </td><td class="cu600 ">153</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>24.05</td><td>77</td><td class="gc cu600">63</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-14">Stage 14 - Verona &rsaquo; Alpe di Pampeago - Val di Fiemme</a> </td><td class="cu600 ">195</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>23.05</td><td>129</td><td class="gc cu600">57</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-13">Stage 13 - Modena &rsaquo; Cittadella</a> </td><td class="cu600 ">177</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>22.05</td><td>60</td><td class="gc cu600">57</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-12">Stage 12 - Forli &rsaquo; Carpi</a> </td><td class="cu600 ">169</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>21.05</td><td>38</td><td class="gc cu600">57</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-11">Stage 11 - Urbania &rsaquo; Cesena</a> </td><td class="cu600 ">199</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>20.05</td><td>75</td><td class="gc cu600">68</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-10">Stage 10 (ITT) - Pesaro &rsaquo; Urbino</a> </td><td class="cu600 ">39</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>18.05</td><td>123</td><td class="gc cu600">69</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-9">Stage 9 - Civitavecchia &rsaquo; San Vincenzo</a> </td><td class="cu600 ">218</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>17.05</td><td>108</td><td class="gc cu600">70</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-8">Stage 8 - Rivisondoli &rsaquo; Tivoli</a> </td><td class="cu600 ">208</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>16.05</td><td>84</td><td class="gc cu600">70</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-7">Stage 7 - Vasto &rsaquo; Pescocostanzo</a> </td><td class="cu600 ">180</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>15.05</td><td>32</td><td class="gc cu600">67</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-6">Stage 6 - Potenza &rsaquo; Peschici</a> </td><td class="cu600 ">232</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>14.05</td><td>41</td><td class="gc cu600">66</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-5">Stage 5 - Belvedere Marittimo &rsaquo; Contursi Terme</a> </td><td class="cu600 ">203</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>13.05</td><td>112</td><td class="gc cu600">73</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-4">Stage 4 - Pizzo Calabro &rsaquo; Catanzaro-Lungomare</a> </td><td class="cu600 ">183</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>12.05</td><td>91</td><td class="gc cu600">73</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-3">Stage 3 - Catania &rsaquo; Milazzo</a> </td><td class="cu600 ">221</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>11.05</td><td>75</td><td class="gc cu600">81</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-2">Stage 2 - Cefalù &rsaquo; Agrigento</a> </td><td class="cu600 ">207</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="0"><td>10.05</td><td>15</td><td class="gc cu600">104</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2008/stage-1">Stage 1 (TTT) - Palermo &rsaquo; Palermo</a> </td><td class="cu600 ">23</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
+<tr data-main="1"><td>14.04 &raquo; 20.04</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/gc">Presidential Cycling Tour of Turkey <span>(2.1)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="0"><td></td><td>10</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600">14</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="0"><td>20.04</td><td>40</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/stage-7">Stage 7 - Antalya &rsaquo; Antalya</a> </td><td class="cu600 ">136.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="0"><td>19.04</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/stage-6">Stage 6 - Finike &rsaquo; Antalya</a> </td><td class="cu600 ">115.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="0"><td>18.04</td><td>32</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/stage-5">Stage 5 - Kalkan &rsaquo; Finike</a> </td><td class="cu600 ">100.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="0"><td>17.04</td><td>5</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/stage-4">Stage 4 - Marmaris &rsaquo; Ölüdeniz</a> </td><td class="cu600 ">177.7</td><td class="cu600">4</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="0"><td>16.04</td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/stage-3">Stage 3 - Bodrum &rsaquo; Marmaris</a> </td><td class="cu600 ">166.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="0"><td>15.04</td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/stage-2">Stage 2 - Kuşadası &rsaquo; Bodrum</a> </td><td class="cu600 ">165.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="0"><td>14.04</td><td>40</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tr"></span><a href="race/tour-of-turkey/2008/stage-1">Stage 1 - İzmir  &rsaquo; Kuşadası</a> </td><td class="cu600 ">132.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1238">more</a></td></tr>
+<tr data-main="1"><td>24.03 &raquo; 28.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-castilla-y-leon/2008/gc">Vuelta a Castilla y Leon <span>(2.1)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1175">more</a></td></tr>
+<tr data-main="0"><td></td><td>45</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-castilla-y-leon/2008/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1175">more</a></td></tr>
+<tr data-main="0"><td>27.03</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-castilla-y-leon/2008/stage-4">Stage 4 - Carrión de los Condes - Montaña Palentina/C. Salce &rsaquo; </a> </td><td class="cu600 ">161</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1175">more</a></td></tr>
+<tr data-main="0"><td>26.03</td><td>63</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-castilla-y-leon/2008/stage-3">Stage 3 - VALLADOLID - VILLA DEL LIBRO &rsaquo; </a> </td><td class="cu600 ">160</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1175">more</a></td></tr>
+<tr data-main="0"><td>25.03</td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-castilla-y-leon/2008/stage-2">Stage 2 - Segovia &rsaquo; Ávila</a> </td><td class="cu600 ">141.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1175">more</a></td></tr>
+<tr data-main="0"><td>24.03</td><td>27</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-castilla-y-leon/2008/stage-1">Stage 1 (ITT) - Valsain &rsaquo; La Granja de San Ildefonso</a> </td><td class="cu600 ">9.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1175">more</a></td></tr>
+<tr data-main="1"><td>02.03</td><td>14</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="race/gp-lugano/2008/result">GP Lugano <span>(1.1)</span></a> </td><td class="cu600 ">179</td><td class="cu600">7</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1151">more</a></td></tr>
+<tr data-main="1"><td>17.02 &raquo; 24.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/gc">Tour of California <span>(2.HC)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td></td><td>23</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600">3</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td>24.02</td><td>46</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/stage-7">Stage 7 - Santa Clarita &rsaquo; Pasadena</a> </td><td class="cu600 ">150</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td>23.02</td><td>45</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/stage-6">Stage 6 - Santa Barbara &rsaquo; Santa Clarita</a> </td><td class="cu600 ">175</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td>22.02</td><td>34</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/stage-5">Stage 5 (ITT) - Solvang &rsaquo; Solvang</a> </td><td class="cu600 ">24</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td>21.02</td><td>42</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/stage-4">Stage 4 - Seaside &rsaquo; San Luis Obispo</a> </td><td class="cu600 ">217</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td>20.02</td><td>28</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/stage-3">Stage 3 - Modesto &rsaquo; San José</a> </td><td class="cu600 ">152.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td>19.02</td><td>45</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/stage-2">Stage 2 - Santa Rosa &rsaquo; Sacramento</a> </td><td class="cu600 ">187.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td>18.02</td><td>53</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/stage-1">Stage 1 - Sausalito &rsaquo; Santa Rosa</a> </td><td class="cu600 ">156</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="0"><td>17.02</td><td>52</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag us"></span><a href="race/tour-of-california/2008/prologue">Prologue - Palo Alto &rsaquo; Palo Alto</a> </td><td class="cu600 ">3.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1071">more</a></td></tr>
+<tr data-main="1"><td>22.01 &raquo; 27.01</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ar"></span><a href="race/tour-de-san-luis/2008/stage-3">Tour de San Luis <span>(2.2)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1207">more</a></td></tr>
+<tr data-main="0"><td>25.01</td><td>39</td><td class="gc cu600">28</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ar"></span><a href="race/tour-de-san-luis/2008/stage-3">Stage 3 (ITT) - San Luis &rsaquo; San Luis</a> </td><td class="cu600 ">19.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1207">more</a></td></tr>
+<tr data-main="0"><td>24.01</td><td>11</td><td class="gc cu600">16</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ar"></span><a href="race/tour-de-san-luis/2008/stage-2">Stage 2 - La Toma &rsaquo; Merlo</a> </td><td class="cu600 ">168.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1207">more</a></td></tr>
+<tr data-main="0"><td>23.01</td><td>35</td><td class="gc cu600">50</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ar"></span><a href="race/tour-de-san-luis/2008/stage-1">Stage 1 - San Luis &rsaquo; Villa Mercedes</a> </td><td class="cu600 ">168.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1207">more</a></td></tr>
+<tr data-main="0"><td>22.01</td><td>57</td><td class="gc cu600">57</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ar"></span><a href="race/tour-de-san-luis/2008/prologue">Prologue - San Luis &rsaquo; San Luis</a> </td><td class="cu600 ">3.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=117660&p=statistics&s=statistics-in-race&race=1207">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>9498</b> km in <b>64</b> days | PCS points: <b>92</b> |  UCI points: <b>0</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >6</div><div class="title   "  ><a    href="rider/david-canada/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (3)</div><div class="info fs11   "  >Oneday races (0)</div><div class="info fs11   "  >ITT (2)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="nr   "  >15</div><div class="title   "  ><a    href="rider/david-canada/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (5) giro (4) vuelta(6)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="nr   "  >7</div><div class="title   "  ><a    href="rider/david-canada/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(1)</div><div class="info fs11   "  >MSR(0)</div><div class="info fs11   "  >RVV(2)</div><div class="info fs11   "  >LBL(1)</div><div class="info fs11   "  >LOM(3)</div><div class="clear"></div></li>
+</ul></div>
+<div class="mt30"><h3>PCS Ranking position per season</h3>
+<table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
+<tr ><td class="season  " >2008</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 14.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">92</span></div></td><td class="ac  " >591</td></tr>
+<tr ><td class="season  " >2007</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 34.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">223</span></div></td><td class="ac  " >266</td></tr>
+<tr ><td class="season  " >2006</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 64.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">421</span></div></td><td class="ac  " >110</td></tr>
+<tr ><td class="season  " >2005</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 19.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">128</span></div></td><td class="ac  " >453</td></tr>
+<tr ><td class="season  " >2004</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 36.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">239</span></div></td><td class="ac  " >236</td></tr>
+<tr ><td class="season  " >2003</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 37.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">246</span></div></td><td class="ac  " >231</td></tr>
+<tr ><td class="season  " >2002</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 31%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">202</span></div></td><td class="ac  " >281</td></tr>
+<tr ><td class="season  " >2001</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">10</span></div></td><td class="ac  " >1236</td></tr>
+<tr ><td class="season  " >2000</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">522</span></div></td><td class="ac  " >95</td></tr>
+<tr ><td class="season  " >1999</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 11.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">76</span></div></td><td class="ac  " >471</td></tr>
+<tr ><td class="season  " >1998</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 6.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">40</span></div></td><td class="ac  " >579</td></tr>
+<tr ><td class="season  " >1997</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 15.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">104</span></div></td><td class="ac  " >360</td></tr>
+<tr ><td class="season  " >1996</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 0.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">3</span></div></td><td class="ac  " >1104</td></tr>
+</tbody></table></div>
+</div><div class="clear"></div><script>
+$(document).ready(function(){
+  var id = 117660; 
+  var natid = 0; 
+  var cxid = 0; 
+  var seo = 'david-canada';
+  var sort = 'date'; 
+  var pid = '1238'; 
+  var discipline = 'road'; 
+  var subpath = '';   
+    
+  $(document).on('click', '.toggleDiscipline', function(e){
+    e.preventDefault();        
+    discipline = $(this).attr('data-discipline');
+    id = $(this).attr('data-rid');
+    //console.log('dis: '+discipline+', id: '+$(this).attr('data-rid')+', season: '+$(this).attr('data-season'));
+    $('.rdrSeasonNav').hide();
+    $('.rdrSeasonNav[data-discipline="'+discipline+'"]').show(); 
+    $(".rdrSeasonNav li").removeClass('cur');
+    $(".rdrSeasonNav li[data-season="+$(this).attr('data-season')+"]").addClass('cur');
+    var url = 'rider/'+seo+'/'+discipline;
+    //history.pushState("string", "page", url);  
+    $(this).parents('ul').find('li').removeClass('cur');
+    $(this).parent('li').addClass('cur'); 
+    //console.log(subpath);
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season') }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
+  });   
+
+  $(document).on('click', '.seasonResults', function(e){
+    e.preventDefault();       
+    var season = $(this).attr('data-season');  
+    
+  
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    var url = 'rider/'+seo+'/'+season;
+    history.pushState("string", "page", url);  
+    $(".rdrSeasonNav li").removeClass('cur');
+    $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
+
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline  }  }).done(function( response ) {   
+    	//console.log(response);
+      $('#resultsCont').html(response);      
+    })
+     
+  });    
+    
+  $(".sortByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".sortByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    sort = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+  }); 
+
+});
+</script>
+
+</div>
+<div class="desktop-ad below-content rider"></div><div class="mob-ad below-content rider"></div></div><div style="clear: both; "></div>  
+  </div>
+  </center>
+  <div class="push"></div>
+</div>
+<div class="footer">
+  <div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
+</ul></li>
+<li class="group"><h3>One day races</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/world-championship">World Championships</a></li>
+</ul></li>
+<li class="group"><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
+<li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
+<li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
+<li><a href="race/binckbank-tour">Binckbank Tour</a></li>
+</ul></li>
+<li class="group"><h3>Rankings & Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/injuries">Injuries</a></li>
+<li><a href="rankings/me/world-ranking/individual">UCI World Ranking</a></li>
+</ul></li>
+<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+<li><a href="info/profile-score-explained">Profile scores</a></li>
+<li><a href="reset_password.php">Reset password</a></li>
+<li><a href="info/pcs-game">PCS game</a></li>
+<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+</ul></li>
+<li class="group"><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/cookie-policy">Cookie policy</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/contributions">Contributions</a></li>
+<li><span>0.0883 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1517kb) peak (2115kb)</span></li></ul></li>
+</ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
+	</div>
+</div> 
+ 
+ </body></html>
+<script src="search_list3.js"></script>
+  
