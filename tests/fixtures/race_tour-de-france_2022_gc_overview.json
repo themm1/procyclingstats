@@ -1,0 +1,161 @@
+{
+  "category": "Men Elite",
+  "display_name": "Tour de France",
+  "edition": 109,
+  "enddate": "2022-07-24",
+  "is_one_day_race": false,
+  "nationality": "FR",
+  "relative_url": "race/tour-de-france/2022/gc/overview",
+  "stages": [
+    {
+      "profile_icon": "p1",
+      "stage_name": "Stage 1 (ITT) | Copenhagen - Copenhagen",
+      "stage_url": "race/tour-de-france/2022/stage-1",
+      "distance": 13.2,
+      "date": "2022-07-01"
+    },
+    {
+      "profile_icon": "p1",
+      "stage_name": "Stage 2 | Roskilde - Nyborg",
+      "stage_url": "race/tour-de-france/2022/stage-2",
+      "distance": 202.2,
+      "date": "2022-07-02"
+    },
+    {
+      "profile_icon": "p1",
+      "stage_name": "Stage 3 | Vejle - S\u00f8nderborg",
+      "stage_url": "race/tour-de-france/2022/stage-3",
+      "distance": 182.0,
+      "date": "2022-07-03"
+    },
+    {
+      "profile_icon": "p1",
+      "stage_name": "Stage 4 | Dunkerque - Calais",
+      "stage_url": "race/tour-de-france/2022/stage-4",
+      "distance": 171.5,
+      "date": "2022-07-05"
+    },
+    {
+      "profile_icon": "p1",
+      "stage_name": "Stage 5 | Lille - Wallers-Arenberg",
+      "stage_url": "race/tour-de-france/2022/stage-5",
+      "distance": 157.0,
+      "date": "2022-07-06"
+    },
+    {
+      "profile_icon": "p3",
+      "stage_name": "Stage 6 | Binche - Longwy",
+      "stage_url": "race/tour-de-france/2022/stage-6",
+      "distance": 219.9,
+      "date": "2022-07-07"
+    },
+    {
+      "profile_icon": "p5",
+      "stage_name": "Stage 7 | Tomblaine - La Super Planche des Belles Filles",
+      "stage_url": "race/tour-de-france/2022/stage-7",
+      "distance": 176.3,
+      "date": "2022-07-08"
+    },
+    {
+      "profile_icon": "p3",
+      "stage_name": "Stage 8 | Dole - Lausanne",
+      "stage_url": "race/tour-de-france/2022/stage-8",
+      "distance": 186.3,
+      "date": "2022-07-09"
+    },
+    {
+      "profile_icon": "p3",
+      "stage_name": "Stage 9 | Aigle - Ch\u00e2tel les portes du Soleil",
+      "stage_url": "race/tour-de-france/2022/stage-9",
+      "distance": 192.9,
+      "date": "2022-07-10"
+    },
+    {
+      "profile_icon": "p5",
+      "stage_name": "Stage 10 | Morzine - Meg\u00e8ve",
+      "stage_url": "race/tour-de-france/2022/stage-10",
+      "distance": 148.1,
+      "date": "2022-07-12"
+    },
+    {
+      "profile_icon": "p5",
+      "stage_name": "Stage 11 | Albertville - Col du Granon",
+      "stage_url": "race/tour-de-france/2022/stage-11",
+      "distance": 151.7,
+      "date": "2022-07-13"
+    },
+    {
+      "profile_icon": "p5",
+      "stage_name": "Stage 12 | Brian\u00e7on - L'Alpe d'Huez",
+      "stage_url": "race/tour-de-france/2022/stage-12",
+      "distance": 165.1,
+      "date": "2022-07-14"
+    },
+    {
+      "profile_icon": "p2",
+      "stage_name": "Stage 13 | Bourg d'Oisans - Saint-Etienne",
+      "stage_url": "race/tour-de-france/2022/stage-13",
+      "distance": 192.6,
+      "date": "2022-07-15"
+    },
+    {
+      "profile_icon": "p2",
+      "stage_name": "Stage 14 | Saint-Etienne - Mende",
+      "stage_url": "race/tour-de-france/2022/stage-14",
+      "distance": 192.5,
+      "date": "2022-07-16"
+    },
+    {
+      "profile_icon": "p2",
+      "stage_name": "Stage 15 | Rodez - Carcassonne",
+      "stage_url": "race/tour-de-france/2022/stage-15",
+      "distance": 202.5,
+      "date": "2022-07-17"
+    },
+    {
+      "profile_icon": "p4",
+      "stage_name": "Stage 16 | Carcassonne - Foix",
+      "stage_url": "race/tour-de-france/2022/stage-16",
+      "distance": 178.5,
+      "date": "2022-07-19"
+    },
+    {
+      "profile_icon": "p5",
+      "stage_name": "Stage 17 | Saint-Gaudens - Peyragudes",
+      "stage_url": "race/tour-de-france/2022/stage-17",
+      "distance": 129.7,
+      "date": "2022-07-20"
+    },
+    {
+      "profile_icon": "p5",
+      "stage_name": "Stage 18 | Lourdes - Hautacam",
+      "stage_url": "race/tour-de-france/2022/stage-18",
+      "distance": 143.2,
+      "date": "2022-07-21"
+    },
+    {
+      "profile_icon": "p3",
+      "stage_name": "Stage 19 | Castelnau-Magnoac - Cahors",
+      "stage_url": "race/tour-de-france/2022/stage-19",
+      "distance": 188.3,
+      "date": "2022-07-22"
+    },
+    {
+      "profile_icon": "p3",
+      "stage_name": "Stage 20 (ITT) | Lacapelle-Marival - Rocamadour",
+      "stage_url": "race/tour-de-france/2022/stage-20",
+      "distance": 40.7,
+      "date": "2022-07-23"
+    },
+    {
+      "profile_icon": "p1",
+      "stage_name": "Stage 21 | Paris La D\u00e9fense - Paris (Champs-\u00c9lys\u00e9es)",
+      "stage_url": "race/tour-de-france/2022/stage-21",
+      "distance": 115.6,
+      "date": "2022-07-24"
+    }
+  ],
+  "startdate": "2022-07-01",
+  "uci_tour": "UCI Worldtour",
+  "year": 2022
+}

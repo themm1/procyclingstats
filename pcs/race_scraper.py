@@ -82,8 +82,10 @@ class RaceOverview(Scraper):
 
         :return: edition as int
         """
-        race_year_html = self._html.find(".page-title > .main > font")[0]
-        return int(race_year_html.text[:-2])
+        edition_html_list = self._html.find(".page-title > .main > span + font")
+        if edition_html_list:
+            return int(edition_html_list[0].text[:-2])
+        raise ExpectedParsingError("Race cancelled, edition unavailable.")
 
     def startdate(self) -> str:
         """
