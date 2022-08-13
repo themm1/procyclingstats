@@ -97,7 +97,7 @@ class TableRowParser:
         else:
             return status_html.text
 
-    def prev_rank(self) -> Union[int, None]:
+    def prev_rank(self) -> Optional[int]:
         """
         Parses rank from previous stage (available only for stage races)
 

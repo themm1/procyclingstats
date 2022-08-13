@@ -1,12 +1,9 @@
 import calendar
-from pprint import pprint
-from typing import Any, Dict, List, Optional, Tuple
-
-from tabulate import tabulate
+from typing import List, Optional, Tuple
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import get_day_month, parse_table_fields_args, reg
+from .utils import parse_table_fields_args, reg
 
 
 class Rider(Scraper):

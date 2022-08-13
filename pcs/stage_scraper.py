@@ -1,4 +1,4 @@
-from typing import List, Literal, Optional, Tuple, Union
+from typing import List, Literal, Optional, Tuple
 
 import requests_html
 from requests_html import Element
@@ -376,7 +376,7 @@ class Stage(Scraper):
             if table in element.text.lower():
                 return categories[i].find("tbody")[0]
 
-    def _points_index(self, html: requests_html.HTML) -> Union[int, None]:
+    def _points_index(self, html: requests_html.HTML) -> Optional[int]:
         """
         Get index of column with points from HTML table
 
