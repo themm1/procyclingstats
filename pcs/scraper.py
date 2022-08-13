@@ -3,7 +3,7 @@ from typing import Any, Dict, List, Literal, Optional, Tuple
 
 from requests_html import HTML, HTMLSession
 
-from .errors import ExpectedParsingError
+from .errors import ExpectedParsingError, ParsedValueInvalidError
 from .utils import validate_string
 
 
@@ -125,7 +125,7 @@ class Scraper:
         """
         try:
             validate_string(url, regex=url_regex)
-        except ValueError:
+        except ParsedValueInvalidError:
             raise ValueError(f"Given URL is indvalid: '{url}', example of valid"
                              f" URL: '{correct_url_example}'")
 
