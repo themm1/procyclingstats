@@ -1,0 +1,224 @@
+{
+  "birthdate": "1982-12-6",
+  "height": 1.76,
+  "name": "Alberto Contador",
+  "nationality": "ES",
+  "place_of_birth": "Pinto",
+  "relative_url": "rider/alberto-contador",
+  "seasons_points": [
+    {
+      "season": 2017,
+      "points": 1708,
+      "position": 9
+    },
+    {
+      "season": 2016,
+      "points": 1595,
+      "position": 8
+    },
+    {
+      "season": 2015,
+      "points": 1546,
+      "position": 10
+    },
+    {
+      "season": 2014,
+      "points": 2170,
+      "position": 2
+    },
+    {
+      "season": 2013,
+      "points": 1248,
+      "position": 17
+    },
+    {
+      "season": 2012,
+      "points": 1170,
+      "position": 18
+    },
+    {
+      "season": 2011,
+      "points": 100,
+      "position": 539
+    },
+    {
+      "season": 2010,
+      "points": 1076,
+      "position": 22
+    },
+    {
+      "season": 2009,
+      "points": 1926,
+      "position": 2
+    },
+    {
+      "season": 2008,
+      "points": 2113,
+      "position": 2
+    },
+    {
+      "season": 2007,
+      "points": 1601,
+      "position": 6
+    },
+    {
+      "season": 2006,
+      "points": 589,
+      "position": 73
+    },
+    {
+      "season": 2005,
+      "points": 811,
+      "position": 36
+    },
+    {
+      "season": 2004,
+      "points": 121,
+      "position": 462
+    },
+    {
+      "season": 2003,
+      "points": 103,
+      "position": 489
+    },
+    {
+      "season": 2002,
+      "points": 6,
+      "position": 1422
+    }
+  ],
+  "seasons_teams": [
+    {
+      "season": 2017,
+      "since": "01-01",
+      "until": "09-10",
+      "team_name": "Trek - Segafredo",
+      "team_url": "team/trek-segafredo-2017",
+      "class": "retired since 2017-09-10"
+    },
+    {
+      "season": 2016,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Tinkoff",
+      "team_url": "team/tinkoff-2016",
+      "class": "WT"
+    },
+    {
+      "season": 2015,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Tinkoff - Saxo",
+      "team_url": "team/tinkoff-saxo-2015",
+      "class": "WT"
+    },
+    {
+      "season": 2014,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Tinkoff - Saxo",
+      "team_url": "team/tinkoff-saxo-2014",
+      "class": "WT"
+    },
+    {
+      "season": 2013,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Team Saxo - Tinkoff",
+      "team_url": "team/team-saxo-tinkoff-2013",
+      "class": "WT"
+    },
+    {
+      "season": 2012,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Team Saxo Bank - Tinkoff Bank",
+      "team_url": "team/team-saxo-bank-tinkoff-bank-2012",
+      "class": "WT"
+    },
+    {
+      "season": 2011,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Saxo Bank - Sungard",
+      "team_url": "team/saxo-bank-sungard-2011",
+      "class": "WT"
+    },
+    {
+      "season": 2010,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Astana",
+      "team_url": "team/astana-pro-team-2010",
+      "class": "WT"
+    },
+    {
+      "season": 2009,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Astana",
+      "team_url": "team/astana-pro-team-2009",
+      "class": "WT"
+    },
+    {
+      "season": 2008,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Astana",
+      "team_url": "team/astana-2008",
+      "class": "WT"
+    },
+    {
+      "season": 2007,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Discovery Channel",
+      "team_url": "team/discovery-channel-2007",
+      "class": "PT"
+    },
+    {
+      "season": 2006,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Astana",
+      "team_url": "team/astana-2006",
+      "class": "PT"
+    },
+    {
+      "season": 2005,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Liberty Seguros - W\u00fcrth Team",
+      "team_url": "team/liberty-seguros-wurth-team-2005",
+      "class": "PT"
+    },
+    {
+      "season": 2004,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "Liberty Seguros",
+      "team_url": "team/liberty-seguros-2004",
+      "class": "PT"
+    },
+    {
+      "season": 2003,
+      "since": "01-01",
+      "until": "12-31",
+      "team_name": "O.N.C.E. - Eroski",
+      "team_url": "team/o.n.c.e.-eroski-2003",
+      "class": "TT1"
+    },
+    {
+      "season": 2002,
+      "since": "09-01",
+      "until": "12-31",
+      "team_name": "O.N.C.E. - Eroski",
+      "team_url": "team/o.n.c.e.-eroski-2002",
+      "class": "TT1"
+    },
+    {
+      "class": "TT1"
+    }
+  ],
+  "weight": 61
+}
