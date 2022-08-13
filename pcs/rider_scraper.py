@@ -145,7 +145,8 @@ class Rider(Scraper):
         seasons_html_table = self._html.find("ul.list.rdr-teams")[0]
         tp = TableParser(seasons_html_table)
         casual_fields = [field for field in fields if field != "class"]
-        tp.parse(casual_fields)
+        tp.parse(casual_fields,
+                 skip_when=lambda x: not x.find(".season")[0].text)
         # add class and convert it from `(WT)` to `WT`
         if "class" in fields:
             tp.extend_table("class", -3,
