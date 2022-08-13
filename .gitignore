@@ -1,5 +1,6 @@
 venv/
 notebook.ipynb
 .vscode/
-pcs/__pycache__/
+__pycache__/
 scripts/
+.pytest_cache/
