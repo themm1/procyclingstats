@@ -10,6 +10,7 @@ class TableRowParser:
     Parser for HTML table row, public methods parse data and return it
 
     :param row: table row (`tr` or `li` element currently) to be parsed from
+    :param header: table header
     """
     row_child_tag_dict: Dict[str, str] = {
         "tr": "td",
@@ -17,8 +18,9 @@ class TableRowParser:
     }
     """Finds out what is the row child tag based on table child tag"""
 
-    def __init__(self, row: Element) -> None:
+    def __init__(self, row: Element, header: Optional[Element] = None) -> None:
         self.row = row
+        self.header = header
         self.row_child_tag = self.row_child_tag_dict[row.tag]
 
     def _get_a(self, to_find: Literal["rider", "team", "race", "nation"],
@@ -39,6 +41,21 @@ class TableRowParser:
                 # return name of rider or team
                 else:
                     return a.text
+                    
+    def _get_column_index(self, column_name: str) -> Optional[int]:
+        """
+        Gets index of table header column with given column name.
+
+        :param column_name: text that should column have
+        :raises Exception: when header is None
+        :return: index of wanted column in header, when column wasn't found None
+        """
+        if self.header is None:
+            raise Exception("Table header can't be used when is None")
+        for i, row in enumerate(self.header.find("th")):
+            if column_name == row.text:
+                return i
+        return None
 
     def rider_name(self) -> str:
         """
@@ -174,20 +191,17 @@ class TableRowParser:
 
         :return: PCS points, when not found returns 0
         """
-        tds = self.row.find(self.row_child_tag)
-        count = 0
-        # get PCS points by getting eigth column that is not of class fs10
-        for td in tds:
-            if "class" not in td.attrs.keys() or\
-                    "fs10" not in td.attrs['class'] and\
-                    "gc" not in td.attrs['class']:
-                count += 1
-            if count == 8:
-                pcs_points = td.text
-                if pcs_points.isnumeric():
-                    return int(pcs_points)
-                else:
-                    return 0
+        pcs_points_column_index = self._get_column_index("PCS points")
+        if not pcs_points_column_index:
+            pcs_points_column_index = self._get_column_index("Pnt")
+        if pcs_points_column_index:
+            points = self.row.find(self.row_child_tag)[pcs_points_column_index].text
+            if points.isnumeric():
+                return int(points)
+            else:
+                return 0
+        else:
+            return 0
 
     def uci_points(self) -> float:
         """
@@ -195,21 +209,17 @@ class TableRowParser:
 
         :return: UCI points, when not found returns 0
         """
-        tds = self.row.find(self.row_child_tag)
-        # get UCI points by getting seventh column that is not of class fs10
-        count = 0
-        for td in tds:
-            if "class" not in td.attrs.keys() or\
-                    "fs10" not in td.attrs['class'] and\
-                    "gc" not in td.attrs['class']:
-                count += 1
-            if count == 7:
-                uci_points = td.text
-                if uci_points.isnumeric():
-                    return float(uci_points)
-                else:
-                    return 0
-
+        pcs_points_column_index = self._get_column_index("UCI points")
+        if not pcs_points_column_index:
+            pcs_points_column_index = self._get_column_index("UCI")
+        if pcs_points_column_index:
+            points = self.row.find(self.row_child_tag)[pcs_points_column_index].text
+            if points.isnumeric():
+                return float(points)
+            else:
+                return 0
+        else:
+            return 0
     def race_name(self) -> str:
         """
         Parses race name
@@ -358,8 +368,14 @@ class TableParser:
     """Fields that are available in TTT results table"""
 
     def __init__(self, html_table: Element) -> None:
-        self.html_table: HTML = html_table
-        self.table_child_tag = self.child_tag_dict[html_table.tag]
+        header = html_table.find("thead > tr")
+        if header:
+            self.header = header[0]
+            self.html_table: HTML = html_table.find("tbody")[0]
+        else:
+            self.header = None
+            self.html_table: HTML = html_table
+        self.table_child_tag = self.child_tag_dict[self.html_table.tag]
         self.table: List[dict] = []
 
     def parse(self, fields: Union[List[str], Tuple[str, ...]],
@@ -404,7 +420,7 @@ class TableParser:
         for child_html in self.html_table.find(self.table_child_tag):
             if skip_when(child_html):
                 continue
-            row_parser = TableRowParser(child_html)
+            row_parser = TableRowParser(child_html, self.header)
             # add to every wanted property to parsed table row by calling
             # corresponding method
             parsed_row = {field: getattr(row_parser, field)()

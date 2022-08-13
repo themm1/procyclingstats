@@ -71,7 +71,7 @@ class Ranking(Scraper):
                 "one with individual ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table > tbody")[0]
+        html_table = self._html.find("table")[0]
         tp = TableParser(html_table)
         tp.parse(fields)
         return tp.table
@@ -99,7 +99,7 @@ class Ranking(Scraper):
                 "create one with teams ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table > tbody")[0]
+        html_table = self._html.find("table")[0]
         tp = TableParser(html_table)
         tp.parse([field for field in fields if field != "class"])
         if "class" in fields:
@@ -129,7 +129,7 @@ class Ranking(Scraper):
                 "with nations ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table > tbody")[0]
+        html_table = self._html.find("table")[0]
         tp = TableParser(html_table)
         tp.parse(fields)
         return tp.table
@@ -157,7 +157,7 @@ class Ranking(Scraper):
                 "with race ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table > tbody")[0]
+        html_table = self._html.find("table")[0]
         tp = TableParser(html_table)
         tp.parse([field for field in fields if field != "class"])
         if "class" in fields:
@@ -193,7 +193,7 @@ class Ranking(Scraper):
                 "with individual wins ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table > tbody")[0]
+        html_table = self._html.find("table")[0]
         tp = TableParser(html_table)
         casual_fields = [
             field for field in fields
@@ -229,7 +229,7 @@ class Ranking(Scraper):
                 "one with teams wins ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table > tbody")[0]
+        html_table = self._html.find("table")[0]
         tp = TableParser(html_table)
         casual_fields = [
             field for field in fields
@@ -265,7 +265,7 @@ class Ranking(Scraper):
                 "create one with nations wins ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table > tbody")[0]
+        html_table = self._html.find("table")[0]
         tp = TableParser(html_table)
         casual_fields = [
             field for field in fields

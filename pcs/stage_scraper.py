@@ -23,7 +23,7 @@ class Stage(Scraper):
     `self.html`, when False `self.update_html` method has to be called
     manually to make object ready for parsing, defaults to True
     """
-    _tables_path: str = ".result-cont table > tbody"
+    _tables_path: str = ".result-cont table"
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
@@ -39,7 +39,7 @@ class Stage(Scraper):
         """
         race_stage_url_regex = f"""
             {reg.base_url}?race{reg.url_str}
-            ({reg.year}{reg.stage}{reg.result}?|{reg.year})?
+            ({reg.year}{reg.stage}?{reg.result}?|{reg.year})?
             (\\/+)?
         """
         self._validate_url(url, race_stage_url_regex,
@@ -166,8 +166,6 @@ class Stage(Scraper):
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
-        :raises Exception: when one day race TTT results table had invalid
-        fields
         :return: results table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
@@ -175,6 +173,10 @@ class Stage(Scraper):
         # because of one day races self._table_index isn't used here
         categories = self._html.find(self._tables_path)
         results_table_html = categories[0]
+        # Results table is empty
+        if not results_table_html or \
+                not results_table_html.find("tbody")[0].text:
+            raise ExpectedParsingError("Results table not in page HTML")
         # parse TTT table
         if self.stage_type() == "TTT":
             tp = TableParser(results_table_html)
@@ -195,11 +197,13 @@ class Stage(Scraper):
 
             wanted_extra_fields = [field for field in fields if field not in
                                    tp.ttt_fields]
+            # set extra fields to None when race is one day race
             if wanted_extra_fields and self.is_one_day_race():
-                raise ExpectedParsingError(
-                    "Can't parse nationality or age of TTT results "
-                    "table participant, when race is an one day race.")
-            elif wanted_extra_fields and not self.is_one_day_race():
+                for row in tp.table:
+                    for field in wanted_extra_fields:
+                        row[field] = None
+
+            if wanted_extra_fields and not self.is_one_day_race():
                 gc_table_html = self._table_html("gc")
                 extra_tp = TableParser(gc_table_html)
                 wanted_extra_fields.append("rider_url")
@@ -245,6 +249,8 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         gc_table_html = self._table_html("gc")
+        if not gc_table_html:
+            raise ExpectedParsingError("GC table not in page HTML")
         tp = TableParser(gc_table_html)
         tp.parse(fields)
         tp.make_times_absolute()
@@ -275,6 +281,8 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         points_table_html = self._table_html("points")
+        if not points_table_html:
+            raise ExpectedParsingError("Points table not in page HTML")
         tp = TableParser(points_table_html)
         tp.parse(fields)
         return tp.table
@@ -303,6 +311,8 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         kom_table_html = self._table_html("kom")
+        if not kom_table_html:
+            raise ExpectedParsingError("KOM table not in page HTML")
         tp = TableParser(kom_table_html)
         tp.parse(fields)
         return tp.table
@@ -330,6 +340,8 @@ class Stage(Scraper):
         """
         fields = parse_table_fields_args(args, available_fields)
         youth_table_html = self._table_html("youth")
+        if not youth_table_html:
+            raise ExpectedParsingError("Youth table not in page HTML")
         tp = TableParser(youth_table_html)
         tp.parse(fields)
         tp.make_times_absolute()
@@ -353,6 +365,8 @@ class Stage(Scraper):
         """
         fields = parse_table_fields_args(args, available_fields)
         teams_table_html = self._table_html("teams")
+        if not teams_table_html:
+            raise ExpectedParsingError("Teams table not in page HTML")
         tp = TableParser(teams_table_html)
         tp.parse(fields)
         tp.make_times_absolute()
@@ -374,7 +388,7 @@ class Stage(Scraper):
         categories = self._html.find(".result-cont")
         for i, element in enumerate(self._html.find("ul.restabs > li > a")):
             if table in element.text.lower():
-                return categories[i].find("tbody")[0]
+                return categories[i].find("table")[0]
 
     def _points_index(self, html: requests_html.HTML) -> Optional[int]:
         """

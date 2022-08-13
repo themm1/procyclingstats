@@ -166,7 +166,7 @@ class Rider(Scraper):
         :return: table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        points_table_html = self._html.find(".rdr-season-stats > tbody")[0]
+        points_table_html = self._html.find("table.rdr-season-stats")[0]
         tp = TableParser(points_table_html)
 
         tp.parse(["season"])
