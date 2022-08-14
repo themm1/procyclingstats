@@ -58,8 +58,8 @@ class CLI:
     Optional args:
     - `-fulltable`: whether to print full table or only first and last rows,
     defaults to False
-    - `-print_tables`: whether to print tables parsed from the HTML, defaults
-    to True
+    - `-notables`: whether to print tables parsed from the HTML, defaults
+    to False
     """
 
     scraper_classes = [
@@ -76,7 +76,7 @@ class CLI:
         self.args = sys.argv[1:]
         self.set_url()
         self.set_fulltable()
-        self.set_print_tables()
+        self.set_notables()
         
     def set_url(self):
         for arg in self.args:
@@ -91,11 +91,11 @@ class CLI:
         else:
             self.fulltable = False
             
-    def set_print_tables(self):
-        if "-skip_tables" in self.args:
-            self.print_tables = True
+    def set_notables(self):
+        if "-notables" in self.args:
+            self.notables = True
         else:
-            self.print_tables = False
+            self.notables = False
             
     def run(self):
         scraper_class = get_scraper_obj_by_url(self.scraper_classes, self.url)
@@ -112,7 +112,7 @@ class CLI:
                 tables[key] = value
             else:
                 print(key + ": " + str(value))
-        if self.print_tables:
+        if self.notables:
             return
 
         # print tables
