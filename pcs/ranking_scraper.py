@@ -411,7 +411,7 @@ class Ranking(Scraper):
             if label_html.text == label:
                 index = i
         if index == -1:
-            raise ValueError(f"Invalid label: {label}")
+            raise ExpectedParsingError(f"{label} select not in page HTML.")
         return self._html.find("li > div > select")[index]
 
     @staticmethod
