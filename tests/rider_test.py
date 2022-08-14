@@ -1,4 +1,4 @@
-from pcs import Rider
+from pcs_scraper import Rider
 
 from .scraper_test_base_class import ScraperTestBaseClass
 

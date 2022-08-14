@@ -1,4 +1,4 @@
-from pcs import RaceEdition
+from pcs_scraper import RaceEdition
 
 from .scraper_test_base_class import ScraperTestBaseClass
 

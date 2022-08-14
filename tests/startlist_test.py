@@ -1,4 +1,4 @@
-from pcs import Startlist
+from pcs_scraper import Startlist
 
 from .scraper_test_base_class import ScraperTestBaseClass
 

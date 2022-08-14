@@ -1,8 +1,9 @@
 import os
 import sys
 
-from pcs import RaceEdition, Ranking, Rider, Scraper, Stage, Startlist, Team
-from pcs.__main__ import get_scraper_obj_by_url
+from pcs_scraper import (RaceEdition, Ranking, Rider, Scraper, Stage,
+                         Startlist, Team)
+from pcs_scraper.__main__ import get_scraper_obj_by_url
 
 from .fixtures_utils import FixturesUtils
 

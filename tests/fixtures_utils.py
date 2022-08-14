@@ -2,8 +2,8 @@ import glob
 import json
 from typing import Any, Dict, List, Optional
 
-from pcs import Scraper
-from pcs.errors import ExpectedParsingError
+from pcs_scraper import Scraper
+from pcs_scraper.errors import ExpectedParsingError
 
 
 class FixturesUtils:

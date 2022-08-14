@@ -1,4 +1,4 @@
-from pcs import Stage
+from pcs_scraper import Stage
 
 from .scraper_test_base_class import ScraperTestBaseClass
 

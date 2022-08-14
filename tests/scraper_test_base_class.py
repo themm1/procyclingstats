@@ -1,5 +1,5 @@
 import pytest
-from pcs import Scraper
+from pcs_scraper import Scraper
 from pytest_subtests import subtests
 
 from .fixtures_utils import FixturesUtils

@@ -1,4 +1,4 @@
-from pcs import Ranking
+from pcs_scraper import Ranking
 
 from .scraper_test_base_class import ScraperTestBaseClass
 
