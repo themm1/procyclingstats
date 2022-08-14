@@ -2,6 +2,7 @@ import os
 import sys
 
 from pcs import RaceEdition, Ranking, Rider, Scraper, Stage, Startlist, Team
+from pcs.__main__ import get_scraper_obj_by_url
 
 from .fixtures_utils import FixturesUtils
 
@@ -75,7 +76,8 @@ class CLI:
         
     def run(self):
         if self.command in ("add", "add_html"):
-            ScraperClass = self.get_scraper_obj_by_url(self.url)
+            ScraperClass = get_scraper_obj_by_url(self.scraper_classes,
+                                                  self.url)
             obj = ScraperClass(self.url)
             filename = self.f.url_to_filename(obj.relative_url())
 
@@ -97,27 +99,11 @@ class CLI:
             for url in urls:
                 if self.logging:
                     print(f"Updating: {self.f.url_to_filename(url)}.txt")
-                ScraperClass = self.get_scraper_obj_by_url(url)
+                ScraperClass = get_scraper_obj_by_url(self.scraper_classes, url)
                 scraper_obj = ScraperClass(url)
                 self.f.make_html_fixture(scraper_obj)
         else:
             raise self.arg_error
-
-    def get_scraper_obj_by_url(self, url: str) -> Scraper:
-        """
-        Gets scraper class that can parse HTML from given URL
-
-        :param url: pcs URL
-        :raises ValueError: When no class is able to parse the URL
-        :return: object created from given URL
-        """
-        for ScraperClass in self.scraper_classes:
-            try:
-                ScraperClass(url, None, False)
-                return ScraperClass
-            except ValueError:
-                pass
-        raise ValueError(f"Invalid URL: {url}")
 
 if __name__ == "__main__":
     cli = CLI()
