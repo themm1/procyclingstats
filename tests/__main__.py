@@ -1,8 +1,7 @@
 import os
 import sys
 
-from pcs import (RaceOverview, RaceStartlist, Ranking, Rider, Scraper, Stage,
-                 Team)
+from pcs import RaceEdition, Ranking, Rider, Scraper, Stage, Startlist, Team
 
 from .fixtures_utils import FixturesUtils
 
@@ -25,8 +24,8 @@ class CLI:
     """
 
     scraper_classes = [
-        RaceOverview,
-        RaceStartlist,
+        RaceEdition,
+        Startlist,
         Ranking,
         Rider,
         Stage,
