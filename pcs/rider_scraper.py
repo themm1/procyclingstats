@@ -150,7 +150,8 @@ class Rider(Scraper):
         # add class and convert it from `(WT)` to `WT`
         if "class" in fields:
             tp.extend_table("class", -3,
-                            lambda x: x.replace("(", "").replace(")", ""))
+                            lambda x: x.replace("(", "").replace(")", ""),
+                            skip_when=lambda x: not x.find(".season")[0].text)
         return tp.table
 
     def seasons_points(self, *args: str, available_fields: Tuple[str, ...] = (

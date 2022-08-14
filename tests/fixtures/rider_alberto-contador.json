@@ -94,7 +94,7 @@
       "until": "09-10",
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2017",
-      "class": "retired since 2017-09-10"
+      "class": "WT"
     },
     {
       "season": 2016,
@@ -166,7 +166,7 @@
       "until": "12-31",
       "team_name": "Astana",
       "team_url": "team/astana-2008",
-      "class": "WT"
+      "class": "PT"
     },
     {
       "season": 2007,
@@ -198,7 +198,7 @@
       "until": "12-31",
       "team_name": "Liberty Seguros",
       "team_url": "team/liberty-seguros-2004",
-      "class": "PT"
+      "class": "TT1"
     },
     {
       "season": 2003,
@@ -214,9 +214,6 @@
       "until": "12-31",
       "team_name": "O.N.C.E. - Eroski",
       "team_url": "team/o.n.c.e.-eroski-2002",
-      "class": "TT1"
-    },
-    {
       "class": "TT1"
     }
   ],

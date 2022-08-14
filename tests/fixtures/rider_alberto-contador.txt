@@ -36,7 +36,7 @@
 <base href="rider.php" />
 <link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s57.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -156,7 +156,7 @@
 <ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/all-time">Specials | All Time Ranking</a></div><div class="rnk   "  >29</div><div class="clear"></div></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;425</span></div><div >  this week</div><div class="clear"></div></li>
+<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;513</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-a-espana/2014/gc">Vuelta a España</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14, '12, '08)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-de-france/2010/gc">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('10, '09, '07)</span></div></li>
@@ -430,7 +430,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1171 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1740kb) peak (2744kb)</span></li></ul></li>
+<li><span>0.4455 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1740kb) peak (2744kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
