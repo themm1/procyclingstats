@@ -1,4 +1,6 @@
+from tracemalloc import start
 from typing import List, Optional, Tuple
+from xml.dom.minidom import Element
 
 from .scraper import Scraper
 from .table_parser import TableParser, TableRowParser
@@ -48,13 +50,35 @@ class Startlist(Scraper):
             "nationality",
             "rider_number")) -> List[dict]:
         """
-        Parses startlist from HTML
-
-        :return: table with columns `rider_id`, `rider_number`, `team_id`
-        represented as list of dicts
+        Parses startlist from HTML. When startlist is individual (without teams)
+        fields team name, url and rider nationality are set to None.
+        
+        :param *args: fields that should be contained in table
+        :param available_fields: default fields, all available options
+        :raises ValueError: when one of args is invalid
+        :return: startlist table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        # fields that are parsable from rider row
+        startlist_html_table = self._html.find("ul.startlist_v3")[0]
+        # parse normal startlist with teams
+        if startlist_html_table.find("li"):
+            return self._parse_normal_startlist(startlist_html_table, fields)
+        # parse individual startlist where only rider name, url and number is
+        # available
+        else:
+            startlist_html = self._html.find("div.page-content > div")
+            return self._parse_individual_startlist(startlist_html[0], fields)
+                    
+    @staticmethod
+    def _parse_normal_startlist(startlist_html_table: Element,
+                                fields: List[str]) -> List[dict]:
+        """
+        Parses normal startlist (.startlist_v3)
+
+        :param startlist_html_table: HTML of the startlist
+        :param fields: fields to parse
+        :return: startlist table with wanted fields as list of dicts
+        """
         rider_fields = [
             field for field in fields if field in (
                 "rider_name",
@@ -62,7 +86,6 @@ class Startlist(Scraper):
                 "nationality",
                 "rider_number")]
 
-        startlist_html_table = self._html.find("ul.startlist_v3")[0]
         startlist_table = []
         for team_html in startlist_html_table.find("li.team"):
             riders_table_html = team_html.find("ul")[0]
@@ -76,4 +99,29 @@ class Startlist(Scraper):
                 if "team_url" in fields:
                     row['team_url'] = trp.team_url()
             startlist_table.extend(tp.table)
+        return startlist_table
+        
+    @staticmethod
+    def _parse_individual_startlist(startlist_html: Element,
+                                    fields: List[str]) -> List[dict]:
+        """
+        Parses individual startlist where are no teams (e.g.
+        `race/tour-de-pologne/2009/startlist`)
+
+        :param startlist_html_table: HTML of the startlist
+        :param fields: fields to parse
+        :return: startlist table with wanted fields as list of dicts
+        """
+        startlist_table = []
+        for i, rider_a in enumerate(startlist_html.find("a:not([class])")):
+            startlist_table.append({})
+            for field in fields:
+                startlist_table[-1][field] = None
+
+            if "rider_url" in fields:
+                startlist_table[-1]['rider_url'] = rider_a.attrs['href']
+            if "rider_name" in fields:
+                startlist_table[-1]['rider_naem'] = rider_a.text
+            if "rider_number" in fields:
+                startlist_table[-1]['rider_number'] = i + 1
         return startlist_table
