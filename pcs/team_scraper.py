@@ -1,6 +1,7 @@
 from typing import Dict, List, Optional, Tuple, Union
 
 from .scraper import Scraper
+from .select_parser import SelectParser
 from .table_parser import TableParser
 from .utils import parse_select_menu, parse_table_fields_args, reg
 
@@ -43,14 +44,21 @@ class Team(Scraper):
                            "team/bora-hansgrohe-2022")
         return self._make_absolute_url(url)
 
-    def teams_seasons_select(self) -> List[dict]:
+    def teams_seasons_select(self, *args: str,
+            available_fields: Tuple[str, ...] = (
+                "text",
+                "value"
+            )) -> List[dict]:
         """
         Parses teams seasons select menu from HTML
 
         :return: table with fields `text`, `value` represented as list of dicts
         """
+        fields = parse_table_fields_args(args, available_fields)
         team_seasons_select_html = self._html.find("form > select")[0]
-        return parse_select_menu(team_seasons_select_html)
+        s = SelectParser(team_seasons_select_html)
+        s.parse(fields)
+        return s.table
 
     def riders(self, *args: str, available_fields: Tuple[str, ...] = (
             "nationality",

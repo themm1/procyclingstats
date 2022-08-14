@@ -1,0 +1,488 @@
+{
+  "abbreviation": "EQS",
+  "bike": "Specialized",
+  "display_name": "Etixx - Quick Step",
+  "nationality": "BE",
+  "relative_url": "team/etixx-quick-step-2016",
+  "riders": [
+    {
+      "rider_url": "rider/julian-alaphilippe",
+      "ranking_points": 1184,
+      "ranking_position": 15,
+      "nationality": "FR",
+      "rider_name": "ALAPHILIPPE Julian",
+      "points": 11366.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 24
+    },
+    {
+      "rider_url": "rider/matteo-trentin",
+      "ranking_points": 767,
+      "ranking_position": 53,
+      "nationality": "IT",
+      "rider_name": "TRENTIN Matteo",
+      "points": 7371.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 26
+    },
+    {
+      "rider_url": "rider/fernando-gaviria",
+      "ranking_points": 540,
+      "ranking_position": 90,
+      "nationality": "CO",
+      "rider_name": "GAVIRIA Fernando",
+      "points": 5107.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 21
+    },
+    {
+      "rider_url": "rider/bob-jungels",
+      "ranking_points": 495,
+      "ranking_position": 104,
+      "nationality": "LU",
+      "rider_name": "JUNGELS Bob",
+      "points": 5200.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 23
+    },
+    {
+      "rider_url": "rider/carlos-verona",
+      "ranking_points": 492,
+      "ranking_position": 105,
+      "nationality": "ES",
+      "rider_name": "VERONA Carlos",
+      "points": 1878.0,
+      "since": "01-01",
+      "until": "07-30",
+      "age": 23
+    },
+    {
+      "rider_url": "rider/david-de-la-cruz",
+      "ranking_points": 447,
+      "ranking_position": 119,
+      "nationality": "ES",
+      "rider_name": "DE LA CRUZ David",
+      "points": 3242.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 27
+    },
+    {
+      "rider_url": "rider/yves-lampaert",
+      "ranking_points": 355,
+      "ranking_position": 159,
+      "nationality": "BE",
+      "rider_name": "LAMPAERT Yves",
+      "points": 5408.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 25
+    },
+    {
+      "rider_url": "rider/zdenek-stybar",
+      "ranking_points": 255,
+      "ranking_position": 227,
+      "nationality": "CZ",
+      "rider_name": "\u0160TYBAR Zden\u011bk",
+      "points": 6306.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 30
+    },
+    {
+      "rider_url": "rider/ivan-garcia-cortina",
+      "ranking_points": 223,
+      "ranking_position": 257,
+      "nationality": "ES",
+      "rider_name": "GARC\u00cdA CORTINA Iv\u00e1n",
+      "points": 1693.0,
+      "since": "08-01",
+      "until": "12-31",
+      "age": 20
+    },
+    {
+      "rider_url": "rider/gianluca-brambilla",
+      "ranking_points": 191,
+      "ranking_position": 289,
+      "nationality": "IT",
+      "rider_name": "BRAMBILLA Gianluca",
+      "points": 3776.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 28
+    },
+    {
+      "rider_url": "rider/maxime-bouet",
+      "ranking_points": 165,
+      "ranking_position": 323,
+      "nationality": "FR",
+      "rider_name": "BOUET Maxime",
+      "points": 2727.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 29
+    },
+    {
+      "rider_url": "rider/tony-martin",
+      "ranking_points": 139,
+      "ranking_position": 363,
+      "nationality": "DE",
+      "rider_name": "MARTIN Tony",
+      "points": 10986.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 31
+    },
+    {
+      "rider_url": "rider/dan-martin",
+      "ranking_points": 116,
+      "ranking_position": 410,
+      "nationality": "IE",
+      "rider_name": "MARTIN Dan",
+      "points": 12569.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 29
+    },
+    {
+      "rider_url": "rider/niki-terpstra",
+      "ranking_points": 68,
+      "ranking_position": 588,
+      "nationality": "NL",
+      "rider_name": "TERPSTRA Niki",
+      "points": 8331.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 32
+    },
+    {
+      "rider_url": "rider/ariel-maximiliano-richeze",
+      "ranking_points": 63,
+      "ranking_position": 618,
+      "nationality": "AR",
+      "rider_name": "RICHEZE Maximiliano",
+      "points": 4023.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 33
+    },
+    {
+      "rider_url": "rider/pieter-serry",
+      "ranking_points": 58,
+      "ranking_position": 641,
+      "nationality": "BE",
+      "rider_name": "SERRY Pieter",
+      "points": 2273.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 27
+    },
+    {
+      "rider_url": "rider/petr-vakoc",
+      "ranking_points": 51,
+      "ranking_position": 700,
+      "nationality": "CZ",
+      "rider_name": "VAKO\u010c Petr",
+      "points": 2140.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 23
+    },
+    {
+      "rider_url": "rider/guillaume-van-keirsbulck",
+      "ranking_points": 47,
+      "ranking_position": 739,
+      "nationality": "BE",
+      "rider_name": "VAN KEIRSBULCK Guillaume",
+      "points": 1550.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 25
+    },
+    {
+      "rider_url": "rider/laurens-de-plus",
+      "ranking_points": 41,
+      "ranking_position": 798,
+      "nationality": "BE",
+      "rider_name": "DE PLUS Laurens",
+      "points": 1334.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 20
+    },
+    {
+      "rider_url": "rider/davide-martinelli",
+      "ranking_points": 38,
+      "ranking_position": 839,
+      "nationality": "IT",
+      "rider_name": "MARTINELLI Davide",
+      "points": 646.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 23
+    },
+    {
+      "rider_url": "rider/rodrigo-contreras",
+      "ranking_points": 27,
+      "ranking_position": 997,
+      "nationality": "CO",
+      "rider_name": "CONTRERAS Rodrigo",
+      "points": 293.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 22
+    },
+    {
+      "rider_url": "rider/iljo-keisse",
+      "ranking_points": 21,
+      "ranking_position": 1120,
+      "nationality": "BE",
+      "rider_name": "KEISSE Iljo",
+      "points": 1387.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 33
+    },
+    {
+      "rider_url": "rider/julien-vermote",
+      "ranking_points": 19,
+      "ranking_position": 1170,
+      "nationality": "BE",
+      "rider_name": "VERMOTE Julien",
+      "points": 1515.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 26
+    },
+    {
+      "rider_url": "rider/lukasz-wisniowski",
+      "ranking_points": 15,
+      "ranking_position": 1254,
+      "nationality": "PL",
+      "rider_name": "WI\u015aNIOWSKI \u0141ukasz",
+      "points": 903.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 24
+    },
+    {
+      "rider_url": "rider/marcel-kittel",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "DE",
+      "rider_name": "KITTEL Marcel",
+      "points": 7194.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 28
+    },
+    {
+      "rider_url": "rider/adrien-costa",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "US",
+      "rider_name": "COSTA Adrien",
+      "points": 252.0,
+      "since": "08-01",
+      "until": "12-31",
+      "age": 18
+    },
+    {
+      "rider_url": "rider/hamish-schreurs",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "NZ",
+      "rider_name": "SCHREURS Hamish",
+      "points": 70.0,
+      "since": "07-27",
+      "until": "12-31",
+      "age": 22
+    },
+    {
+      "rider_url": "rider/frantisek-sisr",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "CZ",
+      "rider_name": "SISR Franti\u0161ek",
+      "points": 483.0,
+      "since": "08-22",
+      "until": "12-31",
+      "age": 23
+    },
+    {
+      "rider_url": "rider/stijn-vandenbergh",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "BE",
+      "rider_name": "VANDENBERGH Stijn",
+      "points": 1967.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 32
+    },
+    {
+      "rider_url": "rider/nikolas-maes",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "BE",
+      "rider_name": "MAES Nikolas",
+      "points": 1888.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 30
+    },
+    {
+      "rider_url": "rider/tom-boonen",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "BE",
+      "rider_name": "BOONEN Tom",
+      "points": 17978.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 35
+    },
+    {
+      "rider_url": "rider/martin-velits",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "SK",
+      "rider_name": "VELITS Martin",
+      "points": 916.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 31
+    },
+    {
+      "rider_url": "rider/gianni-meersman",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "BE",
+      "rider_name": "MEERSMAN Gianni",
+      "points": 3830.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 30
+    },
+    {
+      "rider_url": "rider/fabio-sabatini",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "nationality": "IT",
+      "rider_name": "SABATINI Fabio",
+      "points": 1609.0,
+      "since": "01-01",
+      "until": "12-31",
+      "age": 31
+    }
+  ],
+  "team_ranking_position": null,
+  "team_status": "WT",
+  "teams_seasons_select": [
+    {
+      "text": "2027 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2027/overview/"
+    },
+    {
+      "text": "2026 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2026/overview/"
+    },
+    {
+      "text": "2025 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2025/overview/"
+    },
+    {
+      "text": "2024 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2024/overview/"
+    },
+    {
+      "text": "2023 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2023/overview/"
+    },
+    {
+      "text": "2022 | Quick-Step Alpha Vinyl Team",
+      "value": "team/quick-step-alpha-vinyl-2022/overview/"
+    },
+    {
+      "text": "2021 | Deceuninck - Quick Step",
+      "value": "team/deceuninck-quick-step-2021/overview/"
+    },
+    {
+      "text": "2020 | Deceuninck - Quick Step",
+      "value": "team/deceuninck-quick-step-2020/overview/"
+    },
+    {
+      "text": "2019 | Deceuninck - Quick Step",
+      "value": "team/deceuninck-quick-step-2019/overview/"
+    },
+    {
+      "text": "2018 | Quick-Step Floors",
+      "value": "team/quick-step-floors-2018/overview/"
+    },
+    {
+      "text": "2017 | Quick-Step Floors",
+      "value": "team/quick-step-floors-2017/overview/"
+    },
+    {
+      "text": "2016 | Etixx - Quick Step",
+      "value": "team/etixx-quick-step-2016/overview/"
+    },
+    {
+      "text": "2015 | Etixx - Quick Step",
+      "value": "team/etixx-quick-step-2015/overview/"
+    },
+    {
+      "text": "2014 | Omega Pharma - Quick-Step",
+      "value": "team/omega-pharma-quick-step-2014/overview/"
+    },
+    {
+      "text": "2013 | Omega Pharma - Quick-Step",
+      "value": "team/omega-pharma-quick-step-2013/overview/"
+    },
+    {
+      "text": "2012 | Omega Pharma - Quick-Step",
+      "value": "team/omega-pharma-quick-step-2012/overview/"
+    },
+    {
+      "text": "2011 | Quickstep Cycling Team",
+      "value": "team/quickstep-cycling-team-2011/overview/"
+    },
+    {
+      "text": "2010 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2010/overview/"
+    },
+    {
+      "text": "2009 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2009/overview/"
+    },
+    {
+      "text": "2008 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2008/overview/"
+    },
+    {
+      "text": "2007 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2007/overview/"
+    },
+    {
+      "text": "2006 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2006/overview/"
+    },
+    {
+      "text": "2005 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2005/overview/"
+    },
+    {
+      "text": "2004 | Quickstep - Davitamon",
+      "value": "team/quickstep-davitamon-2004/overview/"
+    },
+    {
+      "text": "2003 | Quickstep - Davitamon",
+      "value": "team/quickstep-davitamon-2003/overview/"
+    }
+  ],
+  "wins_count": 54
+}
