@@ -1,8 +1,7 @@
 from typing import List, Optional, Tuple
 
-from table_parser import TableParser, TableRowParser
-
 from .scraper import Scraper
+from .table_parser import TableParser, TableRowParser
 from .utils import parse_table_fields_args, reg
 
 
