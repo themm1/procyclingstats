@@ -15,6 +15,7 @@ pyquery==1.4.3
 requests==2.28.1
 requests-html==0.10.0
 soupsieve==2.3.2.post1
+tabulate==0.8.10
 tqdm==4.64.0
 urllib3==1.26.11
 w3lib==2.0.1
