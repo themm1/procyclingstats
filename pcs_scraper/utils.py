@@ -21,9 +21,9 @@ class reg:
     stage = "(\\/+(((stage-([1-9]([0-9])?([a-z])?)|prologue)"\
             "(\\/gc|-points|-kom|-youth|-teams)?)|gc))"
     """example match `/stage-20/gc` or `/prologue-youth`"""
-    result = "((\\/+result){1,2})"
+    result = "(\\/+result)"
     """example match `/result/result`"""
-    overview = "((\\/+overview){1,3})"
+    overview = "(\\/+overview)"
     """example match `/overview/overview`"""
     startlist = "(\\/+startlist)"
     """example match `/startlist/startlist`"""

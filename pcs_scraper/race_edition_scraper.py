@@ -34,8 +34,9 @@ class RaceEdition(Scraper):
         """
         race_url_overview_regex = f"""
             {reg.base_url}?race{reg.url_str}
-            ({reg.year}{reg.stage}{reg.overview}|{reg.year}{reg.overview})
-            (\\/+)?
+            (({reg.year}{reg.stage}?{reg.overview}{reg.anything}?)|
+            {reg.overview}{reg.anything}?)
+            \\/*
         """
         self._validate_url(url, race_url_overview_regex,
                            "race/tour-de-france/2021/overview")
