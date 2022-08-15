@@ -221,7 +221,8 @@ class Stage(Scraper):
         else:
             tp = TableParser(results_table_html)
             tp.parse(fields)
-            tp.make_times_absolute()
+            if "time" in fields:
+                tp.make_times_absolute()
             return tp.table
 
     def gc(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -253,7 +254,8 @@ class Stage(Scraper):
             raise ExpectedParsingError("GC table not in page HTML")
         tp = TableParser(gc_table_html)
         tp.parse(fields)
-        tp.make_times_absolute()
+        if "time" in fields:
+            tp.make_times_absolute()
         return tp.table
 
     def points(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -344,7 +346,8 @@ class Stage(Scraper):
             raise ExpectedParsingError("Youth table not in page HTML")
         tp = TableParser(youth_table_html)
         tp.parse(fields)
-        tp.make_times_absolute()
+        if "time" in fields:
+            tp.make_times_absolute()
         return tp.table
 
     def teams(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -369,7 +372,8 @@ class Stage(Scraper):
             raise ExpectedParsingError("Teams table not in page HTML")
         tp = TableParser(teams_table_html)
         tp.parse(fields)
-        tp.make_times_absolute()
+        if "time" in fields:
+            tp.make_times_absolute()
         return tp.table
 
     def _table_html(self, table: Literal[
