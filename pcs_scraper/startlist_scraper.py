@@ -35,8 +35,9 @@ class Startlist(Scraper):
         """
         race_startlist_url_regex = f"""
             {reg.base_url}?race{reg.url_str}
-            ({reg.year}{reg.stage}{reg.startlist}|{reg.year}{reg.startlist})
-            (\\/+)?
+            (({reg.year}{reg.stage}?{reg.startlist}{reg.anything}?)|
+            {reg.startlist}{reg.anything}?)
+            \\/*
         """
         self._validate_url(url, race_startlist_url_regex,
                            "race/tour-de-france/2022/startlist")

@@ -18,19 +18,21 @@ class reg:
     """example match `/This-is-url-StriNg`"""
     year = "(\\/+\\d{4})"
     """example match `/1111`"""
-    stage = "(\\/+(((stage-(1[0-9]|2[0-1]|[0-9])|prologue)"\
+    stage = "(\\/+(((stage-([1-9]([0-9])?([a-z])?)|prologue)"\
             "(\\/gc|-points|-kom|-youth|-teams)?)|gc))"
     """example match `/stage-20/gc` or `/prologue-youth`"""
     result = "((\\/+result){1,2})"
     """example match `/result/result`"""
     overview = "((\\/+overview){1,3})"
     """example match `/overview/overview`"""
-    startlist = "((\\/+startlist){1,3})"
+    startlist = "(\\/+startlist)"
     """example match `/startlist/startlist`"""
     team_url_str = "(\\/(([a-zA-Z]+-)+)\\d{4,5})"
     """example match `/bora-hansgrohe-2022` or `/movistar-team-20152`"""
     rankings_filter = "(rankings[^\\?]*\\?.*)"
     """example match `rankingsfffff?rgrr`"""
+    anything = "(\\/+.*)"
+    """example match `/ffefwf//fwefw/aa`"""
 
 
 def validate_string(string: str,
