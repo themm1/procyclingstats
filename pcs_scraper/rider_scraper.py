@@ -34,8 +34,9 @@ class Rider(Scraper):
         """
         rider_url_regex = f"""
             {reg.base_url}?rider
-            {reg.url_str}{reg.overview}?
-            (\\/+)?
+            {reg.url_str}({reg.overview}{reg.anything}?|
+            {reg.year}{reg.anything}?)?
+            \\/*
         """
         self._validate_url(url, rider_url_regex, "rider/tadej-pogacar")
         return self._make_absolute_url(url)
