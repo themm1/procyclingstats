@@ -8,7 +8,7 @@ class TestRanking(ScraperTestBaseClass):
     
     def test_init(self):
         # ranking URL is every string beggining with rankings
-        self.url_ok("rankings")
-        self.url_ok("rankingsiiiiii")
+        self.url_valid("rankings")
+        self.url_valid("rankingsiiiiii")
 
-        self.url_not_ok("ranking")
+        self.url_invalid("ranking")

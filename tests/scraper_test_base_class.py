@@ -43,7 +43,7 @@ class ScraperTestBaseClass:
                     else:
                         assert parsed[method] == correct[method]
                         
-    def url_ok(self, url: str) -> None:
+    def url_valid(self, url: str) -> None:
         """
         Checks whether instance of current scraper class can be created when
         given URL is passed. 
@@ -59,7 +59,7 @@ class ScraperTestBaseClass:
         if not passed:
             assert False, f"'{url}' didn't pass when should"
             
-    def url_not_ok(self, url: str) -> None:
+    def url_invalid(self, url: str) -> None:
         """
         Checks whether current scraper class constructor raises an
         ValueError when given URL is passed. 
