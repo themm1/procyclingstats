@@ -6,7 +6,7 @@ from .table_parser import TableParser
 from .utils import parse_table_fields_args, reg
 
 
-class RaceEdition(Scraper):
+class Race(Scraper):
     """
     Scraper for race overview page.
 

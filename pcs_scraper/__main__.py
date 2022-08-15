@@ -5,12 +5,12 @@ from typing import List
 
 from tabulate import tabulate
 
-from .race_edition_scraper import RaceEdition
+from .race_scraper import Race
+from .race_startlist_scraper import RaceStartlist
 from .ranking_scraper import Ranking
 from .rider_scraper import Rider
 from .scraper import Scraper
 from .stage_scraper import Stage
-from .startlist_scraper import Startlist
 from .team_scraper import Team
 
 
@@ -63,8 +63,8 @@ class CLI:
     """
 
     scraper_classes = [
-        RaceEdition,
-        Startlist,
+        Race,
+        RaceStartlist,
         Ranking,
         Rider,
         Stage,

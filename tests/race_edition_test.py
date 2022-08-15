@@ -1,10 +1,10 @@
-from pcs_scraper import RaceEdition
+from pcs_scraper import Race
 
 from .scraper_test_base_class import ScraperTestBaseClass
 
 
 class TestRaceEdition(ScraperTestBaseClass):
-    ScraperClass = RaceEdition
+    ScraperClass = Race
     
     def test_init(self):
         self.url_valid("race/tour-de-france/2022/overview/")

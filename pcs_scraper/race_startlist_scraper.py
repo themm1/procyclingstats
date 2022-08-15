@@ -7,7 +7,7 @@ from .table_parser import TableParser, TableRowParser
 from .utils import parse_table_fields_args, reg
 
 
-class Startlist(Scraper):
+class RaceStartlist(Scraper):
     """
     Scraper for race startlist HTML page.
 

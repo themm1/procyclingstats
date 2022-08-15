@@ -1,11 +1,11 @@
 import pytest
-from pcs_scraper import Startlist
+from pcs_scraper import RaceStartlist
 
 from .scraper_test_base_class import ScraperTestBaseClass
 
 
 class TestStartlist(ScraperTestBaseClass):
-    ScraperClass = Startlist
+    ScraperClass = RaceStartlist
     
     def test_init(self) -> None:
         self.url_valid("race/tour-de-france/2022/startlist/")
