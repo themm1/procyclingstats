@@ -225,7 +225,7 @@ class Team(Scraper):
         tp.parse(("rider_url",))
         if points:
             tp.extend_table("ranking_points", -3,
-                            lambda x: int(x.replace("(", "").replace(")", "")))
+                        lambda x: float(x.replace("(", "").replace(")", "")))
         if position:
             tp.extend_table("ranking_position", -2,
                             lambda x: None if x == "-" else int(x))
