@@ -39,8 +39,9 @@ class Stage(Scraper):
         """
         race_stage_url_regex = f"""
             {reg.base_url}?race{reg.url_str}
-            ({reg.year}{reg.stage}?{reg.result}?|{reg.year})?
-            (\\/+)?
+            ({reg.year}{reg.stage}?({reg.result}{reg.anything}?)?|
+            ({reg.result}{reg.anything}))?
+            \\/*
         """
         self._validate_url(url, race_stage_url_regex,
                            "race/tour-de-france/2022/stage-18")
