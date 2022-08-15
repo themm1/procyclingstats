@@ -38,9 +38,7 @@ class Ranking(Scraper):
         :return: absolute URL
         """
         ranking_url_regex = f"""
-            {reg.base_url}?
-            (rankings\\/(me|we|mj){reg.url_str}?|{reg.rankings_filter})
-            (\\/+)?
+            {reg.base_url}?rankings.*\\/*
         """
         self._validate_url(url, ranking_url_regex,
                            "rankings/me/individual-season")
