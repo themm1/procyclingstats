@@ -38,7 +38,8 @@ class Team(Scraper):
         :return: absolute URL
         """
         team_url_regex = f"""
-            {reg.base_url}?team{reg.team_url_str}{reg.overview}?(\\/+)?
+            {reg.base_url}?team{reg.team_url_str}
+            ({reg.overview}{reg.anything}?)?\\/*
         """
         self._validate_url(url, team_url_regex,
                            "team/bora-hansgrohe-2022")
