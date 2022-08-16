@@ -1,9 +1,9 @@
 import os
 import sys
 
-from pcs_scraper import (Race, Ranking, Rider, Scraper, Stage,
-                         RaceStartlist, Team)
-from pcs_scraper.__main__ import get_scraper_obj_by_url
+from procyclingstats import (Race, RaceStartlist, Ranking, Rider, Scraper,
+                             Stage, Team)
+from procyclingstats.__main__ import get_scraper_obj_by_url
 
 from .fixtures_utils import FixturesUtils
 
@@ -34,8 +34,9 @@ class CLI:
         Team
     ]
     command_types = ["add", "add_html", "update_htmls"]
-    arg_error = ValueError("Please provide valid arguments, example usage: " + \
-        "'python -m tests add rider rider/peter-sagan -nologging " + \
+    arg_error = ValueError(
+        "Please provide valid arguments, example usage: " +
+        "'python -m tests add rider rider/peter-sagan -nologging " +
         "-fixtures_path=fixtures/'")
 
     def __init__(self):
@@ -46,7 +47,7 @@ class CLI:
         self.set_url()
         self.set_logging()
         self.set_f()
-        
+
     def set_command(self):
         if self.args:
             if self.args[0] not in self.command_types:
@@ -64,7 +65,7 @@ class CLI:
             self.logging = False
         else:
             self.logging = True
-            
+
     def set_f(self):
         for arg in self.args:
             if "-fixtures_path=" in arg:
@@ -74,7 +75,7 @@ class CLI:
                 self.f = FixturesUtils(fixtures_path)
                 return
         self.f = FixturesUtils()
-        
+
     def run(self):
         if self.command in ("add", "add_html"):
             ScraperClass = get_scraper_obj_by_url(self.scraper_classes,
@@ -105,6 +106,7 @@ class CLI:
                 self.f.make_html_fixture(scraper_obj)
         else:
             raise self.arg_error
+
 
 if __name__ == "__main__":
     cli = CLI()

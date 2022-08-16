@@ -1,4 +1,4 @@
-from pcs_scraper import Scraper
+from procyclingstats import Scraper
 from pytest_subtests import subtests
 
 from .fixtures_utils import FixturesUtils
@@ -42,11 +42,11 @@ class ScraperTestBaseClass:
                             assert parsed_row == correct_row
                     else:
                         assert parsed[method] == correct[method]
-                        
+
     def url_valid(self, url: str) -> None:
         """
         Checks whether instance of current scraper class can be created when
-        given URL is passed. 
+        given URL is passed.
 
         :param url: URL that should be valid for current scraper class
         constructor.
@@ -58,11 +58,11 @@ class ScraperTestBaseClass:
             passed = False
         if not passed:
             assert False, f"'{url}' didn't pass when should"
-            
+
     def url_invalid(self, url: str) -> None:
         """
         Checks whether current scraper class constructor raises an
-        ValueError when given URL is passed. 
+        ValueError when given URL is passed.
 
         :param url: URL that should be invalid for current scraper class
         constructor.
