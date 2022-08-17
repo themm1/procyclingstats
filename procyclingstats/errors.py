@@ -15,17 +15,20 @@ class ExpectedParsingError(Exception):
         return self.message
 
 
-class UnexpectedParsingError(ExpectedParsingError):
+class UnexpectedParsingError(Exception):
     """
     Exception to raise when data can't be parsed due to some unknown factor
 
     :param message: exception message to print when raised
     """
 
+
     def __init__(self,
                  message: str = "Unexpected parsing error occured") -> None:
-        super().__init__(message)
+        self.message = message
 
+    def __str__(self) -> str:
+        return self.message
 
 class ParsedValueInvalidError(Exception):
     """
