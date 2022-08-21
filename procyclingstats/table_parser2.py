@@ -94,7 +94,7 @@ class TableParser:
                 parsed_field_list = getattr(self, field)()
             # special case when field is called class
             else:
-                parsed_field_list = getattr(self, "class_")
+                parsed_field_list = getattr(self, "class_")()
             # field wasn't found in every table row, so isn't matching table
             # rows correctly
             if len(parsed_field_list) != self.table_length:
@@ -178,10 +178,16 @@ class TableParser:
         return self._filter_a_elements("race", False)
 
     def nation_url(self) -> List[str]:
-        return self._filter_a_elements("nation", True)
+        nations_urls = self._filter_a_elements("nation", True)
+        # return only urls to nation overview, not `pcs-season-wins`
+        return [url for url in nations_urls if "pcs" not in url]
 
     def nation_name(self) -> List[str]:
-        return self._filter_a_elements("nation", False)
+        nations_texts = self._filter_a_elements("nation", False)
+        # return text only when is not numeric, so doesn't represent number of
+        # wins of the nation
+        return [text for text in nations_texts
+                if not text.isnumeric() and text != "-"]
 
     def age(self) -> List[int]:
         ages_elements = self.html_table.css(".age")
@@ -261,12 +267,14 @@ class TableParser:
         return seasons
     
     def rank(self) -> List[Optional[int]]:
+        format_rank_func = lambda x: int(x) if x.isnumeric() else None
         try:
-            return self.parse_extra_column("Rnk",
-                lambda x: int(x) if x.isnumeric() else None)
+            return self.parse_extra_column("Rnk", format_rank_func)
         except ValueError:
-            return self.parse_extra_column("Pos.",
-                lambda x: int(x) if x.isnumeric() else None)
+            try:
+                return self.parse_extra_column("Pos", format_rank_func)
+            except ValueError:
+                return self.parse_extra_column("#", format_rank_func)
 
     def status(self) -> List[Literal[
         "DF", "DNF", "DNS", "OTL", "DSQ"
@@ -286,20 +294,15 @@ class TableParser:
             return self.parse_extra_column("UCI",
                                            lambda x: float(x) if x else 0)
         except ValueError:
-            try:
-                return self.parse_extra_column("UCI points",
-                                               lambda x: float(x) if x else 0)
-            except ValueError:
-                return [0 for _ in range(self.table_length)]
+            return [0 for _ in range(self.table_length)]
     
     def pcs_points(self) -> List[Optional[int]]:
+        format_points_func = lambda x: int(x) if x else 0
         try:
-            return self.parse_extra_column("Pnt",
-                                           lambda x: int(x) if x else 0)
+            return self.parse_extra_column("Pnt", format_points_func)
         except ValueError:
             try:
-                return self.parse_extra_column("PCS points",
-                                               lambda x: int(x) if x else 0)
+                return self.parse_extra_column("PCS points", format_points_func)
             except ValueError:
                 return [0 for _ in range(self.table_length)]
     
@@ -316,6 +319,18 @@ class TableParser:
         """
         return self.parse_extra_column("Class", str)
 
+    def first_places(self) -> List[Optional[int]]:
+        return self.parse_extra_column("Wins", lambda x: int(x) if x.isnumeric()
+                                       else 0)
+
+    def second_places(self) -> List[Optional[int]]:
+        return self.parse_extra_column("2nd", lambda x: int(x) if x.isnumeric()
+                                       else 0)
+
+    def third_places(self) -> List[Optional[int]]:
+        return self.parse_extra_column("3rd", lambda x: int(x) if x.isnumeric()
+                                       else 0)
+
     def table_to_dict(self, key_field: str) -> Dict[str, dict]:
         """
         Converts table to dictionary with given key
@@ -331,14 +346,24 @@ class TableParser:
         except KeyError:
             raise ValueError(f"Invalid key_field argument: {key_field}")
 
+    def rename_field(self, field_name: str, new_field_name: str) -> None:
+        """
+        Renames field from table.
+
+        :param field_name: original field name
+        :param new_field_name: new name of original field
+        """
+        for row in self.table:
+            value = row.pop(field_name)
+            row[new_field_name] = value
+
    
     def _get_column_index_from_header(self, column_name: str) -> int:
         if self.header is None:
             raise ExpectedParsingError(
                 f"Can not parse '{column_name}' column without table header")
         for i, column_name_e in enumerate(self.header.css("th")):
-            current_column_name = column_name_e.text()
-            if current_column_name == column_name:
+            if column_name in column_name_e.text():
                 return i
         raise ValueError(
             f"'{column_name}' column isn't in table header")

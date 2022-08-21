@@ -1,11 +1,12 @@
-from typing import List, Literal, Optional, Tuple
+from typing import Any, Dict, List, Literal, Optional, Tuple
 
 from requests_html import HTML
+from selectolax.parser import HTMLParser, Node
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .select_parser import SelectParser
-from .table_parser import TableParser
+from .table_parser2 import TableParser
 from .utils import parse_table_fields_args, reg
 
 
@@ -28,6 +29,8 @@ class Ranking(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
+        if self._html and self._html.html:
+            self._html = HTMLParser(self._html.html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -53,7 +56,7 @@ class Ranking(Scraper):
                                "team_name",
                                "team_url",
                                "nationality",
-                               "points")) -> List[dict]:
+                               "points")) -> List[Dict[str, Any]]:
         """
         Parses individual ranking from HTML
 
@@ -67,12 +70,7 @@ class Ranking(Scraper):
             raise ExpectedParsingError(
                 "This object doesn't support individual_ranking method, create"
                 "one with individual ranking URL to call this method.")
-
-        fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table")[0]
-        tp = TableParser(html_table)
-        tp.parse(fields)
-        return tp.table
+        return self._parse_regular_ranking_table(args, available_fields)
 
     def team_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
             "rank",
@@ -95,15 +93,7 @@ class Ranking(Scraper):
             raise ExpectedParsingError(
                 "This object doesn't support team_ranking method, "
                 "create one with teams ranking URL to call this method.")
-
-        fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table")[0]
-        tp = TableParser(html_table)
-        tp.parse([field for field in fields if field != "class"])
-        if "class" in fields:
-            # extend table to contain class (e.g. WT) if needed
-            tp.extend_table("class", -2, str)
-        return tp.table
+        return self._parse_regular_ranking_table(args, available_fields)
 
     def nations_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
             "rank",
@@ -125,12 +115,7 @@ class Ranking(Scraper):
             raise ExpectedParsingError(
                 "This object doesn't support nations_ranking method, create one"
                 "with nations ranking URL to call this method.")
-
-        fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table")[0]
-        tp = TableParser(html_table)
-        tp.parse(fields)
-        return tp.table
+        return self._parse_regular_ranking_table(args, available_fields)
 
     def races_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
             "rank",
@@ -155,12 +140,16 @@ class Ranking(Scraper):
                 "with race ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table")[0]
+        html_table = self._html.css_first("table")
         tp = TableParser(html_table)
-        tp.parse([field for field in fields if field != "class"])
-        if "class" in fields:
-            # extend table to contain class (e.g. 2.UWT) if needed
-            tp.extend_table("class", -2, str)
+        # parse race name and url as stage name and url and rename it afterwards
+        if "race_name" in fields:
+            fields[fields.index("race_name")] = "stage_name"
+        if "race_url" in fields:
+            fields[fields.index("race_url")] = "stage_url"
+        tp.parse(fields)
+        tp.rename_field("stage_name", "race_name")
+        tp.rename_field("stage_url", "race_url")
         return tp.table
 
     def individual_wins_ranking(self, *args: str,
@@ -189,17 +178,7 @@ class Ranking(Scraper):
             raise ExpectedParsingError(
                 "This object doesn't support races_ranking method, create one"
                 "with individual wins ranking URL to call this method.")
-
-        fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table")[0]
-        tp = TableParser(html_table)
-        casual_fields = [
-            field for field in fields
-            if field != "first_places" and field != "second_places" and field
-            != "third_places"]
-        tp.parse(casual_fields)
-        self._extend_table_to_podiums(tp, fields)
-        return tp.table
+        return self._parse_regular_ranking_table(args, available_fields)
 
     def teams_wins_ranking(self, *args: str,
                            available_fields: Tuple[str, ...] = (
@@ -225,19 +204,7 @@ class Ranking(Scraper):
             raise ExpectedParsingError(
                 "This object doesn't support teams_wins_ranking method, create "
                 "one with teams wins ranking URL to call this method.")
-
-        fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table")[0]
-        tp = TableParser(html_table)
-        casual_fields = [
-            field for field in fields
-            if field != "first_places" and field != "second_places" and field
-            != "third_places" and field != "class"]
-        tp.parse(casual_fields)
-        if "class" in fields:
-            tp.extend_table("class", -4, str)
-        self._extend_table_to_podiums(tp, fields, [-3, -2, -1])
-        return tp.table
+        return self._parse_regular_ranking_table(args, available_fields)
 
     def nations_wins_ranking(self, *args: str,
                              available_fields: Tuple[str, ...] = (
@@ -261,17 +228,7 @@ class Ranking(Scraper):
             raise ExpectedParsingError(
                 "This object doesn't support nations_wins_ranking method, "
                 "create one with nations wins ranking URL to call this method.")
-
-        fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.find("table")[0]
-        tp = TableParser(html_table)
-        casual_fields = [
-            field for field in fields
-            if field != "first_places" and field != "second_places" and field
-            != "third_places"]
-        tp.parse(casual_fields)
-        self._extend_table_to_podiums(tp, fields)
-        return tp.table
+        return self._parse_regular_ranking_table(args, available_fields)
 
     def dates_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
             "text",
@@ -395,7 +352,7 @@ class Ranking(Scraper):
         else:
             return "individual"
 
-    def _select_menu_by_label(self, label: str) -> HTML:
+    def _select_menu_by_label(self, label: str) -> Node:
         """
         Finds select menu with given label
 
@@ -403,39 +360,33 @@ class Ranking(Scraper):
         :raises Exception: when select menu with that label wasn't found
         :return: HTML of wanted select menu
         """
-        labels = self._html.find("ul.filter > li > .label")
+        labels = self._html.css("ul.filter > li > .label")
         index = -1
         for i, label_html in enumerate(labels):
-            if label_html.text == label:
+            if label_html.text() == label:
                 index = i
         if index == -1:
             raise ExpectedParsingError(f"{label} select not in page HTML.")
-        return self._html.find("li > div > select")[index]
+        return self._html.css("li > div > select")[index]
 
-    @staticmethod
-    def _extend_table_to_podiums(tp: TableParser, fields: List[str],
-                                 podium_indexes: List[int] = [-4, -3, -2]
-                                 ) -> None:
+    def _parse_regular_ranking_table(self,
+            args: Tuple[str, ...],
+            available_fields: Tuple[str, ...]) -> List[Dict[str, Any]]:
         """
-        Extends table to podiums from HTML wins table
+        Does general ranking parsing procedure using TableParser.
 
-        :param tp: `TableParser` object with table to extend
-        :param fields: wanted table fields
-        :param podium_indexes: list with indexes to `td` elements with podium
-        positions counts
+        :param args: parsing method args
+        :param available_fields: available table fields for parsing method
+        :return: table represented as list of dicts
         """
-        if "first_places" in fields:
-            tp.extend_table("first_places", podium_indexes[0],
-                            lambda x: int(x) if x != "-" else 0)
-        if "second_places" in fields:
-            tp.extend_table("second_places", podium_indexes[1],
-                            lambda x: int(x) if x != "-" else 0)
-        if "third_places" in fields:
-            tp.extend_table("third_places", podium_indexes[2],
-                            lambda x: int(x) if x != "-" else 0)
+        fields = parse_table_fields_args(args, available_fields)
+        html_table = self._html.css_first("table")
+        tp = TableParser(html_table)
+        tp.parse(fields)
+        return tp.table
 
     @ staticmethod
-    def _parse_select(select_menu_html: HTML, fields: List[str]) -> List[dict]:
+    def _parse_select(select_menu_html: Node, fields: List[str]) -> List[dict]:
         """
         Uses `SelectParser` and gets parsed table
 
@@ -444,5 +395,5 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         sp = SelectParser(select_menu_html)
-        sp.parse(fields)
+        sp.parse(tuple(fields))
         return sp.table

@@ -1,7 +1,6 @@
 from typing import Any, Dict, List, Literal, Optional, Tuple
 
 from selectolax.parser import HTMLParser, Node
-from tabulate import tabulate
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper

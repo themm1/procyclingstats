@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-from requests_html import HTML
+from selectolax.parser import Node
 
 
 class SelectParser:
@@ -11,9 +11,9 @@ class SelectParser:
     :param html_select_menu: HTML select menu to be parsed from
     """
 
-    def __init__(self, html_select_menu: HTML) -> None:
-        self.html_select_menu: HTML = html_select_menu
-        self.table: List[dict] = []
+    def __init__(self, html_select_menu: Node) -> None:
+        self.html_select_menu = html_select_menu
+        self.table = []
 
     def parse(self, fields: Tuple[str]) -> None:
         """
@@ -25,10 +25,10 @@ class SelectParser:
             - text
             - value
         """
-        for option in self.html_select_menu.find("option"):
+        for option in self.html_select_menu.css("option"):
             row = {}
             if "text" in fields:
-                row['text'] = option.text
+                row['text'] = option.text()
             if "value" in fields:
-                row['value'] = option.attrs['value']
+                row['value'] = option.attributes['value']
             self.table.append(row)

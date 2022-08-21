@@ -1,8 +1,8 @@
 {
   "dates_select": [
     {
-      "text": "2022-08-14",
-      "value": "2022-08-14"
+      "text": "2022-08-21",
+      "value": "2022-08-21"
     },
     {
       "text": "2021-12-31",
@@ -329,6 +329,30 @@
     },
     {
       "rank": 2,
+      "prev_rank": 15,
+      "rider_name": "Jakobsen Fabio",
+      "rider_url": "rider/fabio-jakobsen",
+      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_url": "team/quick-step-alpha-vinyl-2022",
+      "nationality": "NL",
+      "first_places": 12,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 3,
+      "prev_rank": 105,
+      "rider_name": "Kooij Olav",
+      "rider_url": "rider/olav-kooij",
+      "team_name": "Jumbo-Visma",
+      "team_url": "team/team-jumbo-visma-2022",
+      "nationality": "NL",
+      "first_places": 11,
+      "second_places": 5,
+      "third_places": 1
+    },
+    {
+      "rank": 4,
       "prev_rank": 10,
       "rider_name": "Evenepoel Remco",
       "rider_url": "rider/remco-evenepoel",
@@ -340,30 +364,6 @@
       "third_places": 1
     },
     {
-      "rank": 3,
-      "prev_rank": 15,
-      "rider_name": "Jakobsen Fabio",
-      "rider_url": "rider/fabio-jakobsen",
-      "team_name": "Quick-Step Alpha Vinyl Team",
-      "team_url": "team/quick-step-alpha-vinyl-2022",
-      "nationality": "NL",
-      "first_places": 11,
-      "second_places": 1,
-      "third_places": 0
-    },
-    {
-      "rank": 4,
-      "prev_rank": 105,
-      "rider_name": "Kooij Olav",
-      "rider_url": "rider/olav-kooij",
-      "team_name": "Jumbo-Visma",
-      "team_url": "team/team-jumbo-visma-2022",
-      "nationality": "NL",
-      "first_places": 9,
-      "second_places": 5,
-      "third_places": 1
-    },
-    {
       "rank": 5,
       "prev_rank": 2,
       "rider_name": "van Aert Wout",
@@ -372,7 +372,7 @@
       "team_url": "team/team-jumbo-visma-2022",
       "nationality": "BE",
       "first_places": 8,
-      "second_places": 9,
+      "second_places": 10,
       "third_places": 5
     },
     {
@@ -389,6 +389,18 @@
     },
     {
       "rank": 7,
+      "prev_rank": 29,
+      "rider_name": "De Lie Arnaud",
+      "rider_url": "rider/arnaud-de-lie",
+      "team_name": "Lotto Soudal",
+      "team_url": "team/lotto-soudal-2022",
+      "nationality": "BE",
+      "first_places": 8,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 8,
       "prev_rank": 55,
       "rider_name": "Pedersen Mads",
       "rider_url": "rider/mads-pedersen",
@@ -396,11 +408,23 @@
       "team_url": "team/trek-segafredo-2022",
       "nationality": "DK",
       "first_places": 7,
-      "second_places": 7,
+      "second_places": 9,
       "third_places": 5
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "prev_rank": 5,
+      "rider_name": "Philipsen Jasper",
+      "rider_url": "rider/jasper-philipsen",
+      "team_name": "Alpecin-Deceuninck",
+      "team_url": "team/alpecin-deceuninck-2022",
+      "nationality": "BE",
+      "first_places": 7,
+      "second_places": 9,
+      "third_places": 3
+    },
+    {
+      "rank": 10,
       "prev_rank": 284,
       "rider_name": "Rajovi\u0107 Du\u0161an",
       "rider_url": "rider/dusan-rajovic",
@@ -412,7 +436,7 @@
       "third_places": 1
     },
     {
-      "rank": 9,
+      "rank": 11,
       "prev_rank": 76,
       "rider_name": "Groenewegen Dylan",
       "rider_url": "rider/dylan-groenewegen",
@@ -422,30 +446,6 @@
       "first_places": 7,
       "second_places": 2,
       "third_places": 0
-    },
-    {
-      "rank": 10,
-      "prev_rank": 29,
-      "rider_name": "De Lie Arnaud",
-      "rider_url": "rider/arnaud-de-lie",
-      "team_name": "Lotto Soudal",
-      "team_url": "team/lotto-soudal-2022",
-      "nationality": "BE",
-      "first_places": 7,
-      "second_places": 0,
-      "third_places": 2
-    },
-    {
-      "rank": 11,
-      "prev_rank": 5,
-      "rider_name": "Philipsen Jasper",
-      "rider_url": "rider/jasper-philipsen",
-      "team_name": "Alpecin-Deceuninck",
-      "team_url": "team/alpecin-deceuninck-2022",
-      "nationality": "BE",
-      "first_places": 6,
-      "second_places": 8,
-      "third_places": 3
     },
     {
       "rank": 12,
@@ -521,6 +521,18 @@
     },
     {
       "rank": 18,
+      "prev_rank": 7,
+      "rider_name": "D\u00e9mare Arnaud",
+      "rider_url": "rider/arnaud-demare",
+      "team_name": "Groupama - FDJ",
+      "team_url": "team/groupama-fdj-2022",
+      "nationality": "FR",
+      "first_places": 5,
+      "second_places": 4,
+      "third_places": 0
+    },
+    {
+      "rank": 19,
       "prev_rank": null,
       "rider_name": "Gr\u00e9goire Romain",
       "rider_url": "rider/romain-gregoire1",
@@ -532,7 +544,7 @@
       "third_places": 3
     },
     {
-      "rank": 19,
+      "rank": 20,
       "prev_rank": 21,
       "rider_name": "Ewan Caleb",
       "rider_url": "rider/caleb-ewan",
@@ -542,18 +554,6 @@
       "first_places": 5,
       "second_places": 3,
       "third_places": 1
-    },
-    {
-      "rank": 20,
-      "prev_rank": 7,
-      "rider_name": "D\u00e9mare Arnaud",
-      "rider_url": "rider/arnaud-demare",
-      "team_name": "Groupama - FDJ",
-      "team_url": "team/groupama-fdj-2022",
-      "nationality": "FR",
-      "first_places": 5,
-      "second_places": 3,
-      "third_places": 0
     },
     {
       "rank": 21,
@@ -581,24 +581,24 @@
     },
     {
       "rank": 23,
-      "prev_rank": 947,
-      "rider_name": "Higuita Sergio",
-      "rider_url": "rider/sergio-higuita",
-      "team_name": "BORA - hansgrohe",
-      "team_url": "team/bora-hansgrohe-2022",
-      "nationality": "CO",
-      "first_places": 5,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 24,
       "prev_rank": 283,
       "rider_name": "Miholjevi\u0107 Fran",
       "rider_url": "rider/fran-miholjevic",
       "team_name": "Cycling Team Friuli ASD",
       "team_url": "team/cycling-team-friuli-asd-2022",
       "nationality": "HR",
+      "first_places": 5,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 24,
+      "prev_rank": 947,
+      "rider_name": "Higuita Sergio",
+      "rider_url": "rider/sergio-higuita",
+      "team_name": "BORA - hansgrohe",
+      "team_url": "team/bora-hansgrohe-2022",
+      "nationality": "CO",
       "first_places": 5,
       "second_places": 2,
       "third_places": 1
@@ -625,7 +625,7 @@
       "nationality": "IT",
       "first_places": 5,
       "second_places": 1,
-      "third_places": 1
+      "third_places": 2
     },
     {
       "rank": 27,
@@ -641,15 +641,15 @@
     },
     {
       "rank": 28,
-      "prev_rank": 64,
-      "rider_name": "Tesson Jason",
-      "rider_url": "rider/jason-tesson",
-      "team_name": "St Michel - Auber93",
-      "team_url": "team/st-michel-auber93-2022",
+      "prev_rank": 35,
+      "rider_name": "Laporte Christophe",
+      "rider_url": "rider/christophe-laporte",
+      "team_name": "Jumbo-Visma",
+      "team_url": "team/team-jumbo-visma-2022",
       "nationality": "FR",
       "first_places": 4,
       "second_places": 3,
-      "third_places": 2
+      "third_places": 3
     },
     {
       "rank": 29,
@@ -661,7 +661,7 @@
       "nationality": "UA",
       "first_places": 4,
       "second_places": 3,
-      "third_places": 1
+      "third_places": 3
     },
     {
       "rank": 30,
@@ -673,19 +673,19 @@
       "nationality": "CZ",
       "first_places": 4,
       "second_places": 3,
-      "third_places": 1
+      "third_places": 2
     },
     {
       "rank": 31,
-      "prev_rank": 148,
-      "rider_name": "Quintana Nairo",
-      "rider_url": "rider/nairo-quintana",
-      "team_name": "Team Ark\u00e9a Samsic",
-      "team_url": "team/team-arkea-samsic-2022",
-      "nationality": "CO",
+      "prev_rank": 64,
+      "rider_name": "Tesson Jason",
+      "rider_url": "rider/jason-tesson",
+      "team_name": "St Michel - Auber93",
+      "team_url": "team/st-michel-auber93-2022",
+      "nationality": "FR",
       "first_places": 4,
       "second_places": 3,
-      "third_places": 1
+      "third_places": 2
     },
     {
       "rank": 32,
@@ -725,6 +725,18 @@
     },
     {
       "rank": 35,
+      "prev_rank": 148,
+      "rider_name": "Quintana Nairo",
+      "rider_url": "rider/nairo-quintana",
+      "team_name": "Team Ark\u00e9a Samsic",
+      "team_url": "team/team-arkea-samsic-2022",
+      "nationality": "CO",
+      "first_places": 4,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 36,
       "prev_rank": 258,
       "rider_name": "Girmay Biniam",
       "rider_url": "rider/biniam-girmay",
@@ -736,7 +748,7 @@
       "third_places": 0
     },
     {
-      "rank": 36,
+      "rank": 37,
       "prev_rank": 8,
       "rider_name": "Merlier Tim",
       "rider_url": "rider/tim-merlier",
@@ -745,10 +757,22 @@
       "nationality": "BE",
       "first_places": 4,
       "second_places": 1,
+      "third_places": 4
+    },
+    {
+      "rank": 38,
+      "prev_rank": 79,
+      "rider_name": "van Uden Casper",
+      "rider_url": "rider/casper-van-uden",
+      "team_name": "Team DSM",
+      "team_url": "team/team-dsm-2022",
+      "nationality": "NL",
+      "first_places": 4,
+      "second_places": 1,
       "third_places": 2
     },
     {
-      "rank": 37,
+      "rank": 39,
       "prev_rank": 236,
       "rider_name": "Thomas Benjamin",
       "rider_url": "rider/benjamin-thomas-2",
@@ -760,7 +784,7 @@
       "third_places": 2
     },
     {
-      "rank": 38,
+      "rank": 40,
       "prev_rank": 486,
       "rider_name": "K\u00e4mna Lennard",
       "rider_url": "rider/lennard-kamna",
@@ -772,7 +796,7 @@
       "third_places": 1
     },
     {
-      "rank": 39,
+      "rank": 41,
       "prev_rank": null,
       "rider_name": "Fouch\u00e9 James",
       "rider_url": "rider/james-fouche",
@@ -784,7 +808,7 @@
       "third_places": 0
     },
     {
-      "rank": 40,
+      "rank": 42,
       "prev_rank": null,
       "rider_name": "Van Eetvelt Lennert",
       "rider_url": "rider/lennert-van-eetvelt",
@@ -796,7 +820,7 @@
       "third_places": 3
     },
     {
-      "rank": 41,
+      "rank": 43,
       "prev_rank": 62,
       "rider_name": "Valverde Alejandro",
       "rider_url": "rider/alejandro-valverde",
@@ -808,19 +832,31 @@
       "third_places": 3
     },
     {
-      "rank": 42,
-      "prev_rank": 13,
-      "rider_name": "Stosz Patryk",
-      "rider_url": "rider/patryk-stosz",
-      "team_name": "Voster ATS Team",
-      "team_url": "team/voster-ats-team-2022",
-      "nationality": "PL",
+      "rank": 44,
+      "prev_rank": null,
+      "rider_name": "Sheffield Magnus",
+      "rider_url": "rider/magnus-sheffield",
+      "team_name": "INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2022",
+      "nationality": "US",
       "first_places": 3,
-      "second_places": 3,
-      "third_places": 2
+      "second_places": 4,
+      "third_places": 1
     },
     {
-      "rank": 43,
+      "rank": 45,
+      "prev_rank": 367,
+      "rider_name": "Watson Samuel",
+      "rider_url": "rider/samuel-watson",
+      "team_name": "Equipe continentale Groupama-FDJ",
+      "team_url": "team/equipe-continentale-groupama-fdj-2022",
+      "nationality": "GB",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 4
+    },
+    {
+      "rank": 46,
       "prev_rank": 1144,
       "rider_name": "Mart\u00ednez Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
@@ -832,19 +868,19 @@
       "third_places": 2
     },
     {
-      "rank": 44,
-      "prev_rank": 367,
-      "rider_name": "Watson Samuel",
-      "rider_url": "rider/samuel-watson",
-      "team_name": "Equipe continentale Groupama-FDJ",
-      "team_url": "team/equipe-continentale-groupama-fdj-2022",
-      "nationality": "GB",
+      "rank": 47,
+      "prev_rank": 13,
+      "rider_name": "Stosz Patryk",
+      "rider_url": "rider/patryk-stosz",
+      "team_name": "Voster ATS Team",
+      "team_url": "team/voster-ats-team-2022",
+      "nationality": "PL",
       "first_places": 3,
       "second_places": 3,
       "third_places": 2
     },
     {
-      "rank": 45,
+      "rank": 48,
       "prev_rank": 100,
       "rider_name": "Woods Michael",
       "rider_url": "rider/michael-woods",
@@ -856,7 +892,7 @@
       "third_places": 1
     },
     {
-      "rank": 46,
+      "rank": 49,
       "prev_rank": null,
       "rider_name": "Quiroga Mauricio",
       "rider_url": "rider/mauricio-quiroga",
@@ -868,7 +904,7 @@
       "third_places": 1
     },
     {
-      "rank": 47,
+      "rank": 50,
       "prev_rank": null,
       "rider_name": "Stokbro Andreas",
       "rider_url": "rider/andreas-stokbro",
@@ -880,7 +916,7 @@
       "third_places": 0
     },
     {
-      "rank": 48,
+      "rank": 51,
       "prev_rank": null,
       "rider_name": "Baudin Alex",
       "rider_url": "rider/alex-baudin",
@@ -892,7 +928,7 @@
       "third_places": 0
     },
     {
-      "rank": 49,
+      "rank": 52,
       "prev_rank": 25,
       "rider_name": "Banaszek Alan",
       "rider_url": "rider/alan-banaszek",
@@ -904,7 +940,31 @@
       "third_places": 3
     },
     {
-      "rank": 50,
+      "rank": 53,
+      "prev_rank": 56,
+      "rider_name": "Moreira Mauricio",
+      "rider_url": "rider/mauricio-moreira",
+      "team_name": "Glassdrive Q8 Anicolor",
+      "team_url": "team/Gglassdrive-qb-anicolor-2022",
+      "nationality": "UY",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 54,
+      "prev_rank": 83,
+      "rider_name": "Figueiredo Frederico",
+      "rider_url": "rider/frederico-figueiredo",
+      "team_name": "Glassdrive Q8 Anicolor",
+      "team_url": "team/Gglassdrive-qb-anicolor-2022",
+      "nationality": "PT",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 55,
       "prev_rank": 658,
       "rider_name": "McNulty Brandon",
       "rider_url": "rider/brandon-mcnulty",
@@ -916,7 +976,7 @@
       "third_places": 2
     },
     {
-      "rank": 51,
+      "rank": 56,
       "prev_rank": 1153,
       "rider_name": "Buitrago Santiago",
       "rider_url": "rider/santiago-buitrago-sanchez",
@@ -928,19 +988,19 @@
       "third_places": 0
     },
     {
-      "rank": 52,
-      "prev_rank": 79,
-      "rider_name": "van Uden Casper",
-      "rider_url": "rider/casper-van-uden",
-      "team_name": "Team DSM",
-      "team_url": "team/team-dsm-2022",
-      "nationality": "NL",
+      "rank": 57,
+      "prev_rank": 16,
+      "rider_name": "Bennett Sam",
+      "rider_url": "rider/sam-bennett",
+      "team_name": "BORA - hansgrohe",
+      "team_url": "team/bora-hansgrohe-2022",
+      "nationality": "IE",
       "first_places": 3,
       "second_places": 1,
       "third_places": 2
     },
     {
-      "rank": 53,
+      "rank": 58,
       "prev_rank": 18,
       "rider_name": "Almeida Jo\u00e3o",
       "rider_url": "rider/joao-almeida",
@@ -952,19 +1012,7 @@
       "third_places": 2
     },
     {
-      "rank": 54,
-      "prev_rank": 131,
-      "rider_name": "Gate Aaron",
-      "rider_url": "rider/aaron-gate",
-      "team_name": "Bolton Equities Black Spoke Pro Cycling",
-      "team_url": "team/bolton-equities-black-spoke-pro-cycling-2022",
-      "nationality": "NZ",
-      "first_places": 3,
-      "second_places": 1,
-      "third_places": 1
-    },
-    {
-      "rank": 55,
+      "rank": 59,
       "prev_rank": null,
       "rider_name": "Hirt Jan",
       "rider_url": "rider/jan-hirt",
@@ -976,7 +1024,31 @@
       "third_places": 1
     },
     {
-      "rank": 56,
+      "rank": 60,
+      "prev_rank": 131,
+      "rider_name": "Gate Aaron",
+      "rider_url": "rider/aaron-gate",
+      "team_name": "Bolton Equities Black Spoke Pro Cycling",
+      "team_url": "team/bolton-equities-black-spoke-pro-cycling-2022",
+      "nationality": "NZ",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 61,
+      "prev_rank": null,
+      "rider_name": "Buratti Nicolo",
+      "rider_url": "rider/nicolo-buratti",
+      "team_name": "Cycling Team Friuli ASD",
+      "team_url": "team/cycling-team-friuli-asd-2022",
+      "nationality": "IT",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 62,
       "prev_rank": 161,
       "rider_name": "Eriksson Lucas",
       "rider_url": "rider/lucas-eriksson",
@@ -988,31 +1060,7 @@
       "third_places": 1
     },
     {
-      "rank": 57,
-      "prev_rank": null,
-      "rider_name": "Scott Robert",
-      "rider_url": "rider/robert-scott",
-      "team_name": "WiV SunGod",
-      "team_url": "team/wiv-sungod-2022",
-      "nationality": "GB",
-      "first_places": 3,
-      "second_places": 1,
-      "third_places": 0
-    },
-    {
-      "rank": 58,
-      "prev_rank": null,
-      "rider_name": "Rapiteau Florian",
-      "rider_url": "rider/florian-rapiteau",
-      "team_name": "",
-      "team_url": "team/",
-      "nationality": "FR",
-      "first_places": 3,
-      "second_places": 1,
-      "third_places": 0
-    },
-    {
-      "rank": 59,
+      "rank": 63,
       "prev_rank": 731,
       "rider_name": "Bevin Patrick",
       "rider_url": "rider/patrick-bevin",
@@ -1024,7 +1072,19 @@
       "third_places": 0
     },
     {
-      "rank": 60,
+      "rank": 64,
+      "prev_rank": null,
+      "rider_name": "Rapiteau Florian",
+      "rider_url": "rider/florian-rapiteau",
+      "team_name": "",
+      "team_url": "team/",
+      "nationality": "FR",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 65,
       "prev_rank": 194,
       "rider_name": "Hayter Leo",
       "rider_url": "rider/leo-hayter",
@@ -1036,19 +1096,31 @@
       "third_places": 0
     },
     {
-      "rank": 61,
-      "prev_rank": 83,
-      "rider_name": "Figueiredo Frederico",
-      "rider_url": "rider/frederico-figueiredo",
-      "team_name": "Glassdrive Q8 Anicolor",
-      "team_url": "team/Gglassdrive-qb-anicolor-2022",
-      "nationality": "PT",
+      "rank": 66,
+      "prev_rank": null,
+      "rider_name": "Scott Robert",
+      "rider_url": "rider/robert-scott",
+      "team_name": "WiV SunGod",
+      "team_url": "team/wiv-sungod-2022",
+      "nationality": "GB",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 67,
+      "prev_rank": null,
+      "rider_name": "Simon Julien",
+      "rider_url": "rider/julien-simon",
+      "team_name": "TotalEnergies",
+      "team_url": "team/team-totalenergies-2022",
+      "nationality": "FR",
       "first_places": 3,
       "second_places": 0,
       "third_places": 2
     },
     {
-      "rank": 62,
+      "rank": 68,
       "prev_rank": 575,
       "rider_name": "Covi Alessandro",
       "rider_url": "rider/alessandro-covi",
@@ -1060,7 +1132,7 @@
       "third_places": 2
     },
     {
-      "rank": 63,
+      "rank": 69,
       "prev_rank": 477,
       "rider_name": "Bendixen Louis",
       "rider_url": "rider/louis-bendixen",
@@ -1072,31 +1144,7 @@
       "third_places": 1
     },
     {
-      "rank": 64,
-      "prev_rank": 112,
-      "rider_name": "Aleotti Giovanni",
-      "rider_url": "rider/giovanni-aleotti",
-      "team_name": "BORA - hansgrohe",
-      "team_url": "team/bora-hansgrohe-2022",
-      "nationality": "IT",
-      "first_places": 3,
-      "second_places": 0,
-      "third_places": 0
-    },
-    {
-      "rank": 65,
-      "prev_rank": 118,
-      "rider_name": "Sefa Ylber",
-      "rider_url": "rider/ylber-sefa",
-      "team_name": "",
-      "team_url": "team/",
-      "nationality": "AL",
-      "first_places": 3,
-      "second_places": 0,
-      "third_places": 0
-    },
-    {
-      "rank": 66,
+      "rank": 70,
       "prev_rank": 530,
       "rider_name": "Le Bon Johan",
       "rider_url": "rider/johan-le-bon",
@@ -1108,31 +1156,7 @@
       "third_places": 0
     },
     {
-      "rank": 67,
-      "prev_rank": null,
-      "rider_name": "Martinelli Alessio",
-      "rider_url": "rider/alessio-martinelli",
-      "team_name": "Bardiani-CSF-Faizan\u00e8",
-      "team_url": "team/bardiani-csf-faizane-2022",
-      "nationality": "IT",
-      "first_places": 3,
-      "second_places": 0,
-      "third_places": 0
-    },
-    {
-      "rank": 68,
-      "prev_rank": 134,
-      "rider_name": "Caruso Damiano",
-      "rider_url": "rider/damiano-caruso",
-      "team_name": "Bahrain - Victorious",
-      "team_url": "team/bahrain-victorious-2022",
-      "nationality": "IT",
-      "first_places": 3,
-      "second_places": 0,
-      "third_places": 0
-    },
-    {
-      "rank": 69,
+      "rank": 71,
       "prev_rank": null,
       "rider_name": "Gandin Stefano",
       "rider_url": "rider/stefano-gandin",
@@ -1144,11 +1168,71 @@
       "third_places": 0
     },
     {
-      "rank": 70,
+      "rank": 72,
+      "prev_rank": null,
+      "rider_name": "Martinelli Alessio",
+      "rider_url": "rider/alessio-martinelli",
+      "team_name": "Bardiani-CSF-Faizan\u00e8",
+      "team_url": "team/bardiani-csf-faizane-2022",
+      "nationality": "IT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 73,
+      "prev_rank": 134,
+      "rider_name": "Caruso Damiano",
+      "rider_url": "rider/damiano-caruso",
+      "team_name": "Bahrain - Victorious",
+      "team_url": "team/bahrain-victorious-2022",
+      "nationality": "IT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 74,
+      "prev_rank": 1140,
+      "rider_name": "Leknessund Andreas",
+      "rider_url": "rider/andreas-leknessund",
+      "team_name": "Team DSM",
+      "team_url": "team/team-dsm-2022",
+      "nationality": "NO",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 75,
+      "prev_rank": 112,
+      "rider_name": "Aleotti Giovanni",
+      "rider_url": "rider/giovanni-aleotti",
+      "team_name": "BORA - hansgrohe",
+      "team_url": "team/bora-hansgrohe-2022",
+      "nationality": "IT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 76,
+      "prev_rank": 118,
+      "rider_name": "Sefa Ylber",
+      "rider_url": "rider/ylber-sefa",
+      "team_name": "",
+      "team_url": "team/",
+      "nationality": "AL",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 77,
       "prev_rank": null,
       "rider_name": "Tesfatsion Natnael",
       "rider_url": "rider/natnael-tesfatsion",
-      "team_name": "Drone Hopper - Androni Giocattoli",
+      "team_name": "Drone Hopper -  Androni Giocattoli",
       "team_url": "team/drone-hopper-androni-giocattol-2022",
       "nationality": "ER",
       "first_places": 2,
@@ -1156,7 +1240,7 @@
       "third_places": 0
     },
     {
-      "rank": 71,
+      "rank": 78,
       "prev_rank": 235,
       "rider_name": "Groves Kaden",
       "rider_url": "rider/kaden-groves",
@@ -1168,7 +1252,7 @@
       "third_places": 7
     },
     {
-      "rank": 72,
+      "rank": 79,
       "prev_rank": 585,
       "rider_name": "Coquard Bryan",
       "rider_url": "rider/bryan-coquard",
@@ -1180,19 +1264,7 @@
       "third_places": 2
     },
     {
-      "rank": 73,
-      "prev_rank": 193,
-      "rider_name": "Wellens Tim",
-      "rider_url": "rider/tim-wellens",
-      "team_name": "Lotto Soudal",
-      "team_url": "team/lotto-soudal-2022",
-      "nationality": "BE",
-      "first_places": 2,
-      "second_places": 4,
-      "third_places": 1
-    },
-    {
-      "rank": 74,
+      "rank": 80,
       "prev_rank": 33,
       "rider_name": "Alaphilippe Julian",
       "rider_url": "rider/julian-alaphilippe",
@@ -1204,7 +1276,19 @@
       "third_places": 1
     },
     {
-      "rank": 75,
+      "rank": 81,
+      "prev_rank": 193,
+      "rider_name": "Wellens Tim",
+      "rider_url": "rider/tim-wellens",
+      "team_name": "Lotto Soudal",
+      "team_url": "team/lotto-soudal-2022",
+      "nationality": "BE",
+      "first_places": 2,
+      "second_places": 4,
+      "third_places": 1
+    },
+    {
+      "rank": 82,
       "prev_rank": 12,
       "rider_name": "Bauhaus Phil",
       "rider_url": "rider/phil-bauhaus",
@@ -1216,7 +1300,7 @@
       "third_places": 1
     },
     {
-      "rank": 76,
+      "rank": 83,
       "prev_rank": null,
       "rider_name": "Dal-Cin Matteo",
       "rider_url": "rider/matteo-dal-cin",
@@ -1228,7 +1312,7 @@
       "third_places": 1
     },
     {
-      "rank": 77,
+      "rank": 84,
       "prev_rank": 462,
       "rider_name": "Schmid Mauro",
       "rider_url": "rider/mauro-schmid",
@@ -1240,7 +1324,7 @@
       "third_places": 0
     },
     {
-      "rank": 78,
+      "rank": 85,
       "prev_rank": 228,
       "rider_name": "Gaviria Fernando",
       "rider_url": "rider/fernando-gaviria",
@@ -1252,7 +1336,7 @@
       "third_places": 3
     },
     {
-      "rank": 79,
+      "rank": 86,
       "prev_rank": 87,
       "rider_name": "Carapaz Richard",
       "rider_url": "rider/richard-carapaz",
@@ -1264,7 +1348,7 @@
       "third_places": 2
     },
     {
-      "rank": 80,
+      "rank": 87,
       "prev_rank": 239,
       "rider_name": "Rodr\u00edguez Carlos",
       "rider_url": "rider/carlos-rodriguez-cano",
@@ -1276,31 +1360,7 @@
       "third_places": 2
     },
     {
-      "rank": 81,
-      "prev_rank": null,
-      "rider_name": "Dunbar Eddie",
-      "rider_url": "rider/edward-irl-dunbar",
-      "team_name": "INEOS Grenadiers",
-      "team_url": "team/ineos-grenadiers-2022",
-      "nationality": "IE",
-      "first_places": 2,
-      "second_places": 3,
-      "third_places": 1
-    },
-    {
-      "rank": 82,
-      "prev_rank": null,
-      "rider_name": "Kepplinger Rainer",
-      "rider_url": "rider/rainer-kepplinger",
-      "team_name": "Hrinkow Advarics Cycleang",
-      "team_url": "team/hrinkow-advarics-cycleang-2022",
-      "nationality": "AT",
-      "first_places": 2,
-      "second_places": 3,
-      "third_places": 1
-    },
-    {
-      "rank": 83,
+      "rank": 88,
       "prev_rank": 644,
       "rider_name": "Matthews Michael",
       "rider_url": "rider/michael-matthews",
@@ -1312,7 +1372,67 @@
       "third_places": 1
     },
     {
-      "rank": 84,
+      "rank": 89,
+      "prev_rank": 113,
+      "rider_name": "Laas Martin",
+      "rider_url": "rider/martin-laas",
+      "team_name": "BORA - hansgrohe",
+      "team_url": "team/bora-hansgrohe-2022",
+      "nationality": "EE",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 90,
+      "prev_rank": null,
+      "rider_name": "Rota Lorenzo",
+      "rider_url": "rider/lorenzo-rota",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
+      "nationality": "IT",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 91,
+      "prev_rank": 923,
+      "rider_name": "Kolze Changizi Sebastian",
+      "rider_url": "rider/sebastian-kolze-changizi",
+      "team_name": "Team ColoQuick",
+      "team_url": "team/coloquick-2022",
+      "nationality": "DK",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 92,
+      "prev_rank": null,
+      "rider_name": "Kepplinger Rainer",
+      "rider_url": "rider/rainer-kepplinger",
+      "team_name": "Hrinkow Advarics Cycleang",
+      "team_url": "team/hrinkow-advarics-cycleang-2022",
+      "nationality": "AT",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 93,
+      "prev_rank": null,
+      "rider_name": "Dunbar Eddie",
+      "rider_url": "rider/edward-irl-dunbar",
+      "team_name": "INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2022",
+      "nationality": "IE",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 94,
       "prev_rank": 109,
       "rider_name": "Mareczko Jakub",
       "rider_url": "rider/jakub-mareczko",
@@ -1324,7 +1444,7 @@
       "third_places": 0
     },
     {
-      "rank": 85,
+      "rank": 95,
       "prev_rank": null,
       "rider_name": "Zijlaard Maikel",
       "rider_url": "rider/maikel-zijlaard",
@@ -1336,7 +1456,19 @@
       "third_places": 0
     },
     {
-      "rank": 86,
+      "rank": 96,
+      "prev_rank": 225,
+      "rider_name": "Aranburu Alex",
+      "rider_url": "rider/alex-aranburu",
+      "team_name": "Movistar Team",
+      "team_url": "team/movistar-team-2022",
+      "nationality": "ES",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 5
+    },
+    {
+      "rank": 97,
       "prev_rank": 268,
       "rider_name": "Bilbao Pello",
       "rider_url": "rider/pello-bilbao",
@@ -1348,7 +1480,7 @@
       "third_places": 4
     },
     {
-      "rank": 87,
+      "rank": 98,
       "prev_rank": 1230,
       "rider_name": "Thijssen Gerben",
       "rider_url": "rider/gerben-thijssen",
@@ -1360,31 +1492,7 @@
       "third_places": 3
     },
     {
-      "rank": 88,
-      "prev_rank": 957,
-      "rider_name": "Capiot Amaury",
-      "rider_url": "rider/amaury-capiot",
-      "team_name": "Team Ark\u00e9a Samsic",
-      "team_url": "team/team-arkea-samsic-2022",
-      "nationality": "BE",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 89,
-      "prev_rank": 35,
-      "rider_name": "Laporte Christophe",
-      "rider_url": "rider/christophe-laporte",
-      "team_name": "Jumbo-Visma",
-      "team_url": "team/team-jumbo-visma-2022",
-      "nationality": "FR",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 90,
+      "rank": 99,
       "prev_rank": null,
       "rider_name": "Jeanni\u00e8re Emilien",
       "rider_url": "rider/emilien-jeanniere",
@@ -1396,131 +1504,23 @@
       "third_places": 2
     },
     {
-      "rank": 91,
-      "prev_rank": null,
-      "rider_name": "Rota Lorenzo",
-      "rider_url": "rider/lorenzo-rota",
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
-      "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
-      "nationality": "IT",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 92,
-      "prev_rank": 389,
-      "rider_name": "Martin Guillaume",
-      "rider_url": "rider/guillaume-martin",
-      "team_name": "Cofidis",
-      "team_url": "team/cofidis-2022",
-      "nationality": "FR",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 93,
-      "prev_rank": 553,
-      "rider_name": "Majka Rafa\u0142",
-      "rider_url": "rider/rafal-majka",
-      "team_name": "UAE Team Emirates",
-      "team_url": "team/uae-team-emirates-2022",
-      "nationality": "PL",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 94,
-      "prev_rank": null,
-      "rider_name": "Sheffield Magnus",
-      "rider_url": "rider/magnus-sheffield",
-      "team_name": "INEOS Grenadiers",
-      "team_url": "team/ineos-grenadiers-2022",
-      "nationality": "US",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 95,
-      "prev_rank": null,
-      "rider_name": "McGill Scott",
-      "rider_url": "rider/scott-mcgill",
-      "team_name": "Wildlife Generation Pro Cycling",
-      "team_url": "team/wildlife-generation-pro-cycling-2022",
-      "nationality": "US",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 96,
-      "prev_rank": 713,
-      "rider_name": "Govekar Matev\u017e",
-      "rider_url": "rider/matevz-govekar",
-      "team_name": "Bahrain - Victorious",
-      "team_url": "team/bahrain-victorious-2022",
-      "nationality": "SI",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 97,
-      "prev_rank": 1157,
-      "rider_name": "Dalla Valle Nicolas",
-      "rider_url": "rider/nicolas-dalla-valle",
-      "team_name": "Giotti Victoria - Savini Due",
-      "team_url": "team/giotti-victoria-savini-due2022",
-      "nationality": "IT",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 98,
-      "prev_rank": 611,
-      "rider_name": "Plowright Jensen",
-      "rider_url": "rider/jensen-plowright",
-      "team_name": "Equipe continentale Groupama-FDJ",
-      "team_url": "team/equipe-continentale-groupama-fdj-2022",
-      "nationality": "AU",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 99,
-      "prev_rank": 36,
-      "rider_name": "Zana Filippo",
-      "rider_url": "rider/filippo-zana",
-      "team_name": "Bardiani-CSF-Faizan\u00e8",
-      "team_url": "team/bardiani-csf-faizane-2022",
-      "nationality": "IT",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 0
-    },
-    {
       "rank": 100,
-      "prev_rank": 312,
-      "rider_name": "Moschetti Matteo",
-      "rider_url": "rider/matteo-moschetti",
-      "team_name": "Trek - Segafredo",
-      "team_url": "team/trek-segafredo-2022",
-      "nationality": "IT",
+      "prev_rank": 957,
+      "rider_name": "Capiot Amaury",
+      "rider_url": "rider/amaury-capiot",
+      "team_name": "Team Ark\u00e9a Samsic",
+      "team_url": "team/team-arkea-samsic-2022",
+      "nationality": "BE",
       "first_places": 2,
       "second_places": 2,
-      "third_places": 0
+      "third_places": 2
     }
   ],
   "nations_ranking": null,
   "nations_select": [
     {
       "text": "-",
-      "value": ""
+      "value": null
     },
     {
       "text": "Albania",
@@ -1974,7 +1974,7 @@
       "value": "1100"
     },
     {
-      "text": "1201-1203",
+      "text": "1201-1215",
       "value": "1200"
     }
   ],
@@ -1985,7 +1985,7 @@
   "teams_select": [
     {
       "text": "-",
-      "value": ""
+      "value": null
     },
     {
       "text": "AG2R Citro\u00ebn Team",
@@ -2088,7 +2088,7 @@
       "value": "1111"
     },
     {
-      "text": "Drone Hopper - Androni Giocattoli",
+      "text": "Drone Hopper -  Androni Giocattoli",
       "value": "2925"
     },
     {
@@ -2212,7 +2212,7 @@
       "value": "4995"
     },
     {
-      "text": "Baloise - Trek Lions",
+      "text": "Baloise - Trek Lions\t",
       "value": "1440"
     },
     {
@@ -2232,7 +2232,7 @@
       "value": "2708"
     },
     {
-      "text": "Biesse - Carrera",
+      "text": "Biesse - Carrera ",
       "value": "6362"
     },
     {
@@ -2436,7 +2436,7 @@
       "value": "9466"
     },
     {
-      "text": "Kelly / Simoldes / UDO",
+      "text": "Kelly / Simoldes / UDO ",
       "value": "3143"
     },
     {
@@ -2860,7 +2860,7 @@
       "value": "9425"
     },
     {
-      "text": "W52 / FC Porto",
+      "text": "W52 / FC Porto ",
       "value": "1800"
     },
     {

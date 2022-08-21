@@ -1,8 +1,8 @@
 {
   "dates_select": [
     {
-      "text": "2022-08-14",
-      "value": "2022-08-14"
+      "text": "2022-08-21",
+      "value": "2022-08-21"
     },
     {
       "text": "2021-12-31",
@@ -142,7 +142,7 @@
       "nation_name": "Belgium",
       "nation_url": "nation/belgium",
       "nationality": "BE",
-      "points": 9470.0
+      "points": 9670.0
     },
     {
       "rank": 2,
@@ -150,7 +150,7 @@
       "nation_name": "France",
       "nation_url": "nation/france",
       "nationality": "FR",
-      "points": 8480.0
+      "points": 8670.0
     },
     {
       "rank": 3,
@@ -158,7 +158,7 @@
       "nation_name": "Spain",
       "nation_url": "nation/spain",
       "nationality": "ES",
-      "points": 6774.0
+      "points": 6850.0
     },
     {
       "rank": 4,
@@ -166,7 +166,7 @@
       "nation_name": "Netherlands",
       "nation_url": "nation/netherlands",
       "nationality": "NL",
-      "points": 6600.0
+      "points": 6728.0
     },
     {
       "rank": 5,
@@ -174,7 +174,7 @@
       "nation_name": "Italy",
       "nation_url": "nation/italy",
       "nationality": "IT",
-      "points": 6440.0
+      "points": 6577.0
     },
     {
       "rank": 6,
@@ -182,7 +182,7 @@
       "nation_name": "Great Britain",
       "nation_url": "nation/great-britain",
       "nationality": "GB",
-      "points": 6041.0
+      "points": 6162.0
     },
     {
       "rank": 7,
@@ -190,31 +190,31 @@
       "nation_name": "Australia",
       "nation_url": "nation/australia",
       "nationality": "AU",
-      "points": 5555.0
+      "points": 5619.0
     },
     {
       "rank": 8,
-      "prev_rank": 9,
-      "nation_name": "Colombia",
-      "nation_url": "nation/colombia",
-      "nationality": "CO",
-      "points": 5375.0
-    },
-    {
-      "rank": 9,
       "prev_rank": 11,
       "nation_name": "Denmark",
       "nation_url": "nation/denmark",
       "nationality": "DK",
-      "points": 5210.0
+      "points": 5510.0
     },
     {
-      "rank": 10,
+      "rank": 9,
       "prev_rank": 7,
       "nation_name": "Slovenia",
       "nation_url": "nation/slovenia",
       "nationality": "SI",
-      "points": 4996.0
+      "points": 5078.0
+    },
+    {
+      "rank": 10,
+      "prev_rank": 9,
+      "nation_name": "Colombia",
+      "nation_url": "nation/colombia",
+      "nationality": "CO",
+      "points": 5052.0
     },
     {
       "rank": 11,
@@ -222,23 +222,23 @@
       "nation_name": "Germany",
       "nation_url": "nation/germany",
       "nationality": "DE",
-      "points": 3297.0
+      "points": 3391.0
     },
     {
       "rank": 12,
-      "prev_rank": 14,
-      "nation_name": "United States",
-      "nation_url": "nation/united-states",
-      "nationality": "US",
-      "points": 3086.0
-    },
-    {
-      "rank": 13,
       "prev_rank": 20,
       "nation_name": "Norway",
       "nation_url": "nation/norway",
       "nationality": "NO",
-      "points": 3078.0
+      "points": 3375.0
+    },
+    {
+      "rank": 13,
+      "prev_rank": 14,
+      "nation_name": "United States",
+      "nation_url": "nation/united-states",
+      "nationality": "US",
+      "points": 3285.0
     },
     {
       "rank": 14,
@@ -246,7 +246,7 @@
       "nation_name": "Switzerland",
       "nation_url": "nation/switzerland",
       "nationality": "CH",
-      "points": 2600.0
+      "points": 2704.0
     },
     {
       "rank": 15,
@@ -254,7 +254,7 @@
       "nation_name": "Portugal",
       "nation_url": "nation/portugal",
       "nationality": "PT",
-      "points": 1766.0
+      "points": 2014.0
     },
     {
       "rank": 16,
@@ -270,7 +270,7 @@
       "nation_name": "Poland",
       "nation_url": "nation/poland",
       "nationality": "PL",
-      "points": 1688.0
+      "points": 1712.0
     },
     {
       "rank": 18,
@@ -278,31 +278,31 @@
       "nation_name": "Eritrea",
       "nation_url": "nation/eritrea",
       "nationality": "ER",
-      "points": 1628.0
+      "points": 1629.0
     },
     {
       "rank": 19,
-      "prev_rank": 21,
-      "nation_name": "New Zealand",
-      "nation_url": "nation/new-zealand",
-      "nationality": "NZ",
-      "points": 1418.0
-    },
-    {
-      "rank": 20,
-      "prev_rank": 23,
-      "nation_name": "Czech Republic",
-      "nation_url": "nation/czech-republic",
-      "nationality": "CZ",
-      "points": 1332.0
-    },
-    {
-      "rank": 21,
       "prev_rank": 17,
       "nation_name": "Austria",
       "nation_url": "nation/austria",
       "nationality": "AT",
-      "points": 1298.0
+      "points": 1605.0
+    },
+    {
+      "rank": 20,
+      "prev_rank": 19,
+      "nation_name": "Ecuador",
+      "nation_url": "nation/ecuador",
+      "nationality": "EC",
+      "points": 1442.0
+    },
+    {
+      "rank": 21,
+      "prev_rank": 21,
+      "nation_name": "New Zealand",
+      "nation_url": "nation/new-zealand",
+      "nationality": "NZ",
+      "points": 1431.0
     },
     {
       "rank": 22,
@@ -310,15 +310,15 @@
       "nation_name": "Canada",
       "nation_url": "nation/canada",
       "nationality": "CA",
-      "points": 1287.0
+      "points": 1428.0
     },
     {
       "rank": 23,
-      "prev_rank": 19,
-      "nation_name": "Ecuador",
-      "nation_url": "nation/ecuador",
-      "nationality": "EC",
-      "points": 1278.0
+      "prev_rank": 23,
+      "nation_name": "Czech Republic",
+      "nation_url": "nation/czech-republic",
+      "nationality": "CZ",
+      "points": 1379.0
     },
     {
       "rank": 24,
@@ -326,7 +326,7 @@
       "nation_name": "South Africa",
       "nation_url": "nation/south-africa",
       "nationality": "ZA",
-      "points": 1253.0
+      "points": 1279.0
     },
     {
       "rank": 25,
@@ -334,7 +334,7 @@
       "nation_name": "Ireland",
       "nation_url": "nation/ireland",
       "nationality": "IE",
-      "points": 898.0
+      "points": 1091.0
     },
     {
       "rank": 26,
@@ -342,7 +342,7 @@
       "nation_name": "Kazakhstan",
       "nation_url": "nation/kazakhstan",
       "nationality": "KZ",
-      "points": 882.0
+      "points": 907.0
     },
     {
       "rank": 27,
@@ -350,7 +350,7 @@
       "nation_name": "Luxembourg",
       "nation_url": "nation/luxembourg",
       "nationality": "LU",
-      "points": 806.0
+      "points": 817.0
     },
     {
       "rank": 28,
@@ -358,7 +358,7 @@
       "nation_name": "Estonia",
       "nation_url": "nation/estonia",
       "nationality": "EE",
-      "points": 546.0
+      "points": 619.0
     },
     {
       "rank": 29,
@@ -378,19 +378,19 @@
     },
     {
       "rank": 31,
+      "prev_rank": 32,
+      "nation_name": "Ukraine",
+      "nation_url": "nation/ukraine",
+      "nationality": "UA",
+      "points": 442.0
+    },
+    {
+      "rank": 32,
       "prev_rank": 36,
       "nation_name": "Venezuela",
       "nation_url": "nation/venezuela",
       "nationality": "VE",
       "points": 416.0
-    },
-    {
-      "rank": 32,
-      "prev_rank": 32,
-      "nation_name": "Ukraine",
-      "nation_url": "nation/ukraine",
-      "nationality": "UA",
-      "points": 388.0
     },
     {
       "rank": 33,
@@ -402,6 +402,14 @@
     },
     {
       "rank": 34,
+      "prev_rank": 35,
+      "nation_name": "Latvia",
+      "nation_url": "nation/latvia",
+      "nationality": "LV",
+      "points": 333.0
+    },
+    {
+      "rank": 35,
       "prev_rank": 34,
       "nation_name": "Japan",
       "nation_url": "nation/japan",
@@ -409,31 +417,39 @@
       "points": 306.0
     },
     {
-      "rank": 35,
-      "prev_rank": 35,
-      "nation_name": "Latvia",
-      "nation_url": "nation/latvia",
-      "nationality": "LV",
-      "points": 280.0
+      "rank": 36,
+      "prev_rank": 80,
+      "nation_name": "Uruguay",
+      "nation_url": "nation/uruguay",
+      "nationality": "UY",
+      "points": 293.0
     },
     {
-      "rank": 36,
+      "rank": 37,
       "prev_rank": 46,
       "nation_name": "Israel",
       "nation_url": "nation/israel",
       "nationality": "IL",
-      "points": 224.0
+      "points": 246.0
     },
     {
-      "rank": 37,
+      "rank": 38,
       "prev_rank": 47,
       "nation_name": "Lithuania",
       "nation_url": "nation/lithuania",
       "nationality": "LT",
-      "points": 219.0
+      "points": 221.0
     },
     {
-      "rank": 38,
+      "rank": 39,
+      "prev_rank": 58,
+      "nation_name": "Mongolia",
+      "nation_url": "nation/mongolia",
+      "nationality": "MN",
+      "points": 213.0
+    },
+    {
+      "rank": 40,
       "prev_rank": 40,
       "nation_name": "Malaysia",
       "nation_url": "nation/malaysia",
@@ -441,28 +457,12 @@
       "points": 209.0
     },
     {
-      "rank": 39,
+      "rank": 41,
       "prev_rank": 42,
       "nation_name": "Sweden",
       "nation_url": "nation/sweden",
       "nationality": "SE",
       "points": 202.0
-    },
-    {
-      "rank": 40,
-      "prev_rank": 58,
-      "nation_name": "Mongolia",
-      "nation_url": "nation/mongolia",
-      "nationality": "MN",
-      "points": 194.0
-    },
-    {
-      "rank": 41,
-      "prev_rank": 39,
-      "nation_name": "Rwanda",
-      "nation_url": "nation/rwanda",
-      "nationality": "RW",
-      "points": 190.0
     },
     {
       "rank": 42,
@@ -474,42 +474,42 @@
     },
     {
       "rank": 43,
-      "prev_rank": 80,
-      "nation_name": "Uruguay",
-      "nation_url": "nation/uruguay",
-      "nationality": "UY",
-      "points": 166.0
+      "prev_rank": 39,
+      "nation_name": "Rwanda",
+      "nation_url": "nation/rwanda",
+      "nationality": "RW",
+      "points": 190.0
     },
     {
       "rank": 44,
-      "prev_rank": 33,
-      "nation_name": "Romania",
-      "nation_url": "nation/romania",
-      "nationality": "RO",
-      "points": 154.0
-    },
-    {
-      "rank": 45,
       "prev_rank": 38,
       "nation_name": "Algeria",
       "nation_url": "nation/algeria",
       "nationality": "DZ",
-      "points": 152.0
+      "points": 182.0
+    },
+    {
+      "rank": 45,
+      "prev_rank": 33,
+      "nation_name": "Romania",
+      "nation_url": "nation/romania",
+      "nationality": "RO",
+      "points": 166.0
     },
     {
       "rank": 46,
-      "prev_rank": 49,
-      "nation_name": "Serbia",
-      "nation_url": "nation/serbia",
-      "nationality": "RS",
-      "points": 151.0
-    },
-    {
-      "rank": 47,
       "prev_rank": 66,
       "nation_name": "China",
       "nation_url": "nation/china",
       "nationality": "CN",
+      "points": 151.0
+    },
+    {
+      "rank": 47,
+      "prev_rank": 49,
+      "nation_name": "Serbia",
+      "nation_url": "nation/serbia",
+      "nationality": "RS",
       "points": 151.0
     },
     {
@@ -518,7 +518,7 @@
       "nation_name": "Turkey",
       "nation_url": "nation/turkey",
       "nationality": "TR",
-      "points": 138.0
+      "points": 143.0
     },
     {
       "rank": 49,
@@ -530,18 +530,18 @@
     },
     {
       "rank": 50,
-      "prev_rank": 50,
-      "nation_name": "Finland",
-      "nation_url": "nation/finland",
-      "nationality": "FI",
-      "points": 125.0
-    },
-    {
-      "rank": 51,
       "prev_rank": null,
       "nation_name": "Brazil",
       "nation_url": "nation/brazil",
       "nationality": "BR",
+      "points": 125.0
+    },
+    {
+      "rank": 51,
+      "prev_rank": 50,
+      "nation_name": "Finland",
+      "nation_url": "nation/finland",
+      "nationality": "FI",
       "points": 125.0
     },
     {
@@ -558,7 +558,7 @@
       "nation_name": "Uzbekistan",
       "nation_url": "nation/uzbekistan",
       "nationality": "UZ",
-      "points": 96.0
+      "points": 97.0
     },
     {
       "rank": 54,
@@ -642,22 +642,6 @@
     },
     {
       "rank": 64,
-      "prev_rank": 73,
-      "nation_name": "Ethiopia",
-      "nation_url": "nation/ethiopia",
-      "nationality": "ET",
-      "points": 68.0
-    },
-    {
-      "rank": 65,
-      "prev_rank": 72,
-      "nation_name": "Mauritius",
-      "nation_url": "nation/mauritius",
-      "nationality": "MU",
-      "points": 68.0
-    },
-    {
-      "rank": 66,
       "prev_rank": 67,
       "nation_name": "Hongkong",
       "nation_url": "nation/hongkong",
@@ -665,11 +649,27 @@
       "points": 68.0
     },
     {
-      "rank": 67,
+      "rank": 65,
       "prev_rank": null,
       "nation_name": "Puerto Rico",
       "nation_url": "nation/puerto-rico",
       "nationality": "PR",
+      "points": 68.0
+    },
+    {
+      "rank": 66,
+      "prev_rank": 73,
+      "nation_name": "Ethiopia",
+      "nation_url": "nation/ethiopia",
+      "nationality": "ET",
+      "points": 68.0
+    },
+    {
+      "rank": 67,
+      "prev_rank": 72,
+      "nation_name": "Mauritius",
+      "nation_url": "nation/mauritius",
+      "nationality": "MU",
       "points": 68.0
     },
     {
@@ -682,46 +682,6 @@
     },
     {
       "rank": 69,
-      "prev_rank": null,
-      "nation_name": "Belize",
-      "nation_url": "nation/belize",
-      "nationality": "BZ",
-      "points": 63.0
-    },
-    {
-      "rank": 70,
-      "prev_rank": 68,
-      "nation_name": "Paraguay",
-      "nation_url": "nation/paraguay",
-      "nationality": "PY",
-      "points": 63.0
-    },
-    {
-      "rank": 71,
-      "prev_rank": 57,
-      "nation_name": "North Macedonia",
-      "nation_url": "nation/macedonie",
-      "nationality": "MK",
-      "points": 63.0
-    },
-    {
-      "rank": 72,
-      "prev_rank": 81,
-      "nation_name": "Qatar",
-      "nation_url": "nation/qatar",
-      "nationality": "QA",
-      "points": 63.0
-    },
-    {
-      "rank": 73,
-      "prev_rank": 61,
-      "nation_name": "Iceland",
-      "nation_url": "nation/iceland",
-      "nationality": "IS",
-      "points": 63.0
-    },
-    {
-      "rank": 74,
       "prev_rank": 62,
       "nation_name": "Namibia",
       "nation_url": "nation/namibia",
@@ -729,7 +689,7 @@
       "points": 63.0
     },
     {
-      "rank": 75,
+      "rank": 70,
       "prev_rank": null,
       "nation_name": "Georgia",
       "nation_url": "nation/georgia",
@@ -737,7 +697,7 @@
       "points": 63.0
     },
     {
-      "rank": 76,
+      "rank": 71,
       "prev_rank": null,
       "nation_name": "Cuba",
       "nation_url": "nation/cuba",
@@ -745,7 +705,7 @@
       "points": 63.0
     },
     {
-      "rank": 77,
+      "rank": 72,
       "prev_rank": 65,
       "nation_name": "El Salvador",
       "nation_url": "nation/el-salvador",
@@ -753,7 +713,7 @@
       "points": 63.0
     },
     {
-      "rank": 78,
+      "rank": 73,
       "prev_rank": 90,
       "nation_name": "Honduras",
       "nation_url": "nation/honduras",
@@ -761,11 +721,51 @@
       "points": 63.0
     },
     {
-      "rank": 79,
+      "rank": 74,
       "prev_rank": null,
       "nation_name": "Trinidad & Tobago",
       "nation_url": "nation/trinidad-tobago",
       "nationality": "TT",
+      "points": 63.0
+    },
+    {
+      "rank": 75,
+      "prev_rank": null,
+      "nation_name": "Belize",
+      "nation_url": "nation/belize",
+      "nationality": "BZ",
+      "points": 63.0
+    },
+    {
+      "rank": 76,
+      "prev_rank": 68,
+      "nation_name": "Paraguay",
+      "nation_url": "nation/paraguay",
+      "nationality": "PY",
+      "points": 63.0
+    },
+    {
+      "rank": 77,
+      "prev_rank": 57,
+      "nation_name": "North Macedonia",
+      "nation_url": "nation/macedonie",
+      "nationality": "MK",
+      "points": 63.0
+    },
+    {
+      "rank": 78,
+      "prev_rank": 81,
+      "nation_name": "Qatar",
+      "nation_url": "nation/qatar",
+      "nationality": "QA",
+      "points": 63.0
+    },
+    {
+      "rank": 79,
+      "prev_rank": 61,
+      "nation_name": "Iceland",
+      "nation_url": "nation/iceland",
+      "nationality": "IS",
       "points": 63.0
     },
     {
@@ -794,6 +794,14 @@
     },
     {
       "rank": 83,
+      "prev_rank": 63,
+      "nation_name": "Kosovo",
+      "nation_url": "nation/kosovo",
+      "nationality": "XK",
+      "points": 56.0
+    },
+    {
+      "rank": 84,
       "prev_rank": null,
       "nation_name": "Montenegro",
       "nation_url": "nation/montenegro",
@@ -801,7 +809,7 @@
       "points": 56.0
     },
     {
-      "rank": 84,
+      "rank": 85,
       "prev_rank": null,
       "nation_name": "Antigua and Barbuda",
       "nation_url": "nation/antigua-and-barbuda",
@@ -809,7 +817,7 @@
       "points": 56.0
     },
     {
-      "rank": 85,
+      "rank": 86,
       "prev_rank": 93,
       "nation_name": "Angola",
       "nation_url": "nation/angola",
@@ -817,19 +825,11 @@
       "points": 56.0
     },
     {
-      "rank": 86,
+      "rank": 87,
       "prev_rank": 54,
       "nation_name": "Saint Vincent and the Grenadines",
       "nation_url": "nation/saint-vincent-and-the-grenadines",
       "nationality": "VC",
-      "points": 56.0
-    },
-    {
-      "rank": 87,
-      "prev_rank": 63,
-      "nation_name": "Kosovo",
-      "nation_url": "nation/kosovo",
-      "nationality": "XK",
       "points": 56.0
     },
     {
@@ -867,25 +867,25 @@
     {
       "rank": 92,
       "prev_rank": null,
-      "nation_name": "Mali",
-      "nation_url": "nation/mali",
-      "nationality": "ML",
-      "points": 39.0
-    },
-    {
-      "rank": 93,
-      "prev_rank": null,
       "nation_name": "Lesotho",
       "nation_url": "nation/lesotho",
       "nationality": "LS",
       "points": 39.0
     },
     {
-      "rank": 94,
+      "rank": 93,
       "prev_rank": null,
       "nation_name": "Swaziland",
       "nation_url": "nation/swaziland",
       "nationality": "SZ",
+      "points": 39.0
+    },
+    {
+      "rank": 94,
+      "prev_rank": null,
+      "nation_name": "Mali",
+      "nation_url": "nation/mali",
+      "nationality": "ML",
       "points": 39.0
     },
     {
@@ -898,18 +898,18 @@
     },
     {
       "rank": 96,
-      "prev_rank": null,
-      "nation_name": "Jamaica",
-      "nation_url": "nation/jamaica",
-      "nationality": "JM",
-      "points": 24.0
-    },
-    {
-      "rank": 97,
       "prev_rank": 85,
       "nation_name": "Singapore",
       "nation_url": "nation/singapore",
       "nationality": "SG",
+      "points": 24.0
+    },
+    {
+      "rank": 97,
+      "prev_rank": null,
+      "nation_name": "Jamaica",
+      "nation_url": "nation/jamaica",
+      "nationality": "JM",
       "points": 24.0
     },
     {

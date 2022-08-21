@@ -1,8 +1,8 @@
 {
   "dates_select": [
     {
-      "text": "2022-08-14",
-      "value": "2022-08-14"
+      "text": "2022-08-21",
+      "value": "2022-08-21"
     },
     {
       "text": "2021-12-31",
@@ -59,7 +59,7 @@
   "nations_select": [
     {
       "text": "-",
-      "value": ""
+      "value": null
     },
     {
       "text": "Albania",
@@ -477,7 +477,7 @@
       "value": "200"
     },
     {
-      "text": "301-301",
+      "text": "301-305",
       "value": "300"
     }
   ],
@@ -489,14 +489,14 @@
   "teams_wins_ranking": [
     {
       "rank": 1,
-      "prev_rank": 1,
-      "team_name": "Quick-Step Alpha Vinyl Team",
-      "team_url": "team/quick-step-alpha-vinyl-2022",
-      "nationality": "BE",
+      "prev_rank": 3,
+      "team_name": "Jumbo-Visma",
+      "team_url": "team/team-jumbo-visma-2022",
+      "nationality": "NL",
       "class": "WT",
-      "first_places": 39,
-      "second_places": 24,
-      "third_places": 14
+      "first_places": 40,
+      "second_places": 37,
+      "third_places": 22
     },
     {
       "rank": 2,
@@ -505,20 +505,20 @@
       "team_url": "team/uae-team-emirates-2022",
       "nationality": "AE",
       "class": "WT",
-      "first_places": 38,
-      "second_places": 22,
-      "third_places": 29
+      "first_places": 39,
+      "second_places": 24,
+      "third_places": 30
     },
     {
       "rank": 3,
-      "prev_rank": 3,
-      "team_name": "Jumbo-Visma",
-      "team_url": "team/team-jumbo-visma-2022",
-      "nationality": "NL",
+      "prev_rank": 1,
+      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_url": "team/quick-step-alpha-vinyl-2022",
+      "nationality": "BE",
       "class": "WT",
-      "first_places": 35,
-      "second_places": 35,
-      "third_places": 21
+      "first_places": 39,
+      "second_places": 24,
+      "third_places": 16
     },
     {
       "rank": 4,
@@ -527,8 +527,8 @@
       "team_url": "team/ineos-grenadiers-2022",
       "nationality": "GB",
       "class": "WT",
-      "first_places": 30,
-      "second_places": 31,
+      "first_places": 31,
+      "second_places": 34,
       "third_places": 29
     },
     {
@@ -538,7 +538,7 @@
       "team_url": "team/bora-hansgrohe-2022",
       "nationality": "DE",
       "class": "WT",
-      "first_places": 25,
+      "first_places": 28,
       "second_places": 18,
       "third_places": 21
     },
@@ -549,12 +549,23 @@
       "team_url": "team/alpecin-deceuninck-2022",
       "nationality": "BE",
       "class": "PRT",
-      "first_places": 22,
-      "second_places": 28,
-      "third_places": 13
+      "first_places": 23,
+      "second_places": 30,
+      "third_places": 15
     },
     {
       "rank": 7,
+      "prev_rank": 14,
+      "team_name": "Lotto Soudal",
+      "team_url": "team/lotto-soudal-2022",
+      "nationality": "BE",
+      "class": "WT",
+      "first_places": 22,
+      "second_places": 10,
+      "third_places": 11
+    },
+    {
+      "rank": 8,
       "prev_rank": 9,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
@@ -565,26 +576,15 @@
       "third_places": 11
     },
     {
-      "rank": 8,
+      "rank": 9,
       "prev_rank": 38,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "nationality": "BE",
       "class": "WT",
       "first_places": 21,
-      "second_places": 17,
-      "third_places": 27
-    },
-    {
-      "rank": 9,
-      "prev_rank": 14,
-      "team_name": "Lotto Soudal",
-      "team_url": "team/lotto-soudal-2022",
-      "nationality": "BE",
-      "class": "WT",
-      "first_places": 21,
-      "second_places": 10,
-      "third_places": 11
+      "second_places": 18,
+      "third_places": 28
     },
     {
       "rank": 10,
@@ -595,7 +595,7 @@
       "class": "CT",
       "first_places": 17,
       "second_places": 21,
-      "third_places": 8
+      "third_places": 9
     },
     {
       "rank": 11,
@@ -617,7 +617,7 @@
       "class": "WT",
       "first_places": 15,
       "second_places": 16,
-      "third_places": 20
+      "third_places": 21
     },
     {
       "rank": 13,
@@ -627,8 +627,8 @@
       "nationality": "US",
       "class": "WT",
       "first_places": 14,
-      "second_places": 16,
-      "third_places": 14
+      "second_places": 19,
+      "third_places": 16
     },
     {
       "rank": 14,
@@ -643,28 +643,39 @@
     },
     {
       "rank": 15,
+      "prev_rank": 48,
+      "team_name": "TotalEnergies",
+      "team_url": "team/team-totalenergies-2022",
+      "nationality": "FR",
+      "class": "PRT",
+      "first_places": 14,
+      "second_places": 9,
+      "third_places": 19
+    },
+    {
+      "rank": 16,
       "prev_rank": 17,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "nationality": "IL",
       "class": "WT",
       "first_places": 13,
-      "second_places": 14,
+      "second_places": 15,
       "third_places": 16
     },
     {
-      "rank": 16,
-      "prev_rank": 48,
-      "team_name": "TotalEnergies",
-      "team_url": "team/team-totalenergies-2022",
-      "nationality": "FR",
-      "class": "PRT",
+      "rank": 17,
+      "prev_rank": 65,
+      "team_name": "Movistar Team",
+      "team_url": "team/movistar-team-2022",
+      "nationality": "ES",
+      "class": "WT",
       "first_places": 13,
-      "second_places": 8,
-      "third_places": 18
+      "second_places": 11,
+      "third_places": 20
     },
     {
-      "rank": 17,
+      "rank": 18,
       "prev_rank": 5,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
@@ -675,7 +686,7 @@
       "third_places": 21
     },
     {
-      "rank": 18,
+      "rank": 19,
       "prev_rank": null,
       "team_name": "Team Corratec",
       "team_url": "team/team-corratec-2022",
@@ -686,26 +697,15 @@
       "third_places": 4
     },
     {
-      "rank": 19,
+      "rank": 20,
       "prev_rank": 15,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "nationality": "FR",
       "class": "PRT",
       "first_places": 11,
-      "second_places": 18,
-      "third_places": 22
-    },
-    {
-      "rank": 20,
-      "prev_rank": 65,
-      "team_name": "Movistar Team",
-      "team_url": "team/movistar-team-2022",
-      "nationality": "ES",
-      "class": "WT",
-      "first_places": 11,
-      "second_places": 10,
-      "third_places": 18
+      "second_places": 17,
+      "third_places": 23
     },
     {
       "rank": 21,
@@ -736,9 +736,9 @@
       "team_url": "team/terengganu-cycling-team-2022",
       "nationality": "MY",
       "class": "CT",
-      "first_places": 9,
+      "first_places": 10,
       "second_places": 10,
-      "third_places": 6
+      "third_places": 7
     },
     {
       "rank": 24,
@@ -747,23 +747,45 @@
       "team_url": "team/elkov-kasper-2022",
       "nationality": "CZ",
       "class": "CT",
-      "first_places": 9,
+      "first_places": 10,
       "second_places": 7,
-      "third_places": 13
+      "third_places": 14
     },
     {
       "rank": 25,
+      "prev_rank": 56,
+      "team_name": "Glassdrive Q8 Anicolor",
+      "team_url": "team/Gglassdrive-qb-anicolor-2022",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 9,
+      "second_places": 5,
+      "third_places": 9
+    },
+    {
+      "rank": 26,
+      "prev_rank": 8,
+      "team_name": "Team DSM",
+      "team_url": "team/team-dsm-2022",
+      "nationality": "NL",
+      "class": "WT",
+      "first_places": 8,
+      "second_places": 6,
+      "third_places": 11
+    },
+    {
+      "rank": 27,
       "prev_rank": 32,
       "team_name": "Voster ATS Team",
       "team_url": "team/voster-ats-team-2022",
       "nationality": "PL",
       "class": "CT",
       "first_places": 8,
-      "second_places": 5,
+      "second_places": 6,
       "third_places": 8
     },
     {
-      "rank": 26,
+      "rank": 28,
       "prev_rank": 67,
       "team_name": "Riwal Cycling Team",
       "team_url": "team/riwal-cycling-team-2022",
@@ -774,7 +796,18 @@
       "third_places": 6
     },
     {
-      "rank": 27,
+      "rank": 29,
+      "prev_rank": 108,
+      "team_name": "Cycling Team Friuli ASD",
+      "team_url": "team/cycling-team-friuli-asd-2022",
+      "nationality": "IT",
+      "class": "CT",
+      "first_places": 8,
+      "second_places": 5,
+      "third_places": 4
+    },
+    {
+      "rank": 30,
       "prev_rank": 114,
       "team_name": "Tudor Pro Cycling Team",
       "team_url": "team/tudor-pro-cycling-team-2022",
@@ -785,18 +818,18 @@
       "third_places": 2
     },
     {
-      "rank": 28,
+      "rank": 31,
       "prev_rank": 31,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "nationality": "FR",
       "class": "WT",
       "first_places": 7,
-      "second_places": 13,
-      "third_places": 7
+      "second_places": 14,
+      "third_places": 9
     },
     {
-      "rank": 29,
+      "rank": 32,
       "prev_rank": 7,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
@@ -804,10 +837,10 @@
       "class": "WT",
       "first_places": 7,
       "second_places": 11,
-      "third_places": 7
+      "third_places": 8
     },
     {
-      "rank": 30,
+      "rank": 33,
       "prev_rank": 46,
       "team_name": "Caja Rural - Seguros RGA",
       "team_url": "team/caja-rural-seguros-rga-2022",
@@ -818,7 +851,7 @@
       "third_places": 9
     },
     {
-      "rank": 31,
+      "rank": 34,
       "prev_rank": 16,
       "team_name": "Uno-X Pro Cycling Team",
       "team_url": "team/uno-x-pro-cycling-team-2022",
@@ -829,7 +862,7 @@
       "third_places": 5
     },
     {
-      "rank": 32,
+      "rank": 35,
       "prev_rank": 96,
       "team_name": "WiV SunGod",
       "team_url": "team/wiv-sungod-2022",
@@ -840,7 +873,7 @@
       "third_places": 4
     },
     {
-      "rank": 33,
+      "rank": 36,
       "prev_rank": 95,
       "team_name": "Bardiani-CSF-Faizan\u00e8",
       "team_url": "team/bardiani-csf-faizane-2022",
@@ -848,10 +881,10 @@
       "class": "PRT",
       "first_places": 7,
       "second_places": 6,
-      "third_places": 3
+      "third_places": 4
     },
     {
-      "rank": 34,
+      "rank": 37,
       "prev_rank": 54,
       "team_name": "Italy",
       "team_url": "team/italy-2022",
@@ -859,10 +892,10 @@
       "class": "NAT",
       "first_places": 7,
       "second_places": 2,
-      "third_places": 3
+      "third_places": 4
     },
     {
-      "rank": 35,
+      "rank": 38,
       "prev_rank": null,
       "team_name": "Team UKYO",
       "team_url": "team/team-ukyo-2022",
@@ -873,29 +906,18 @@
       "third_places": 2
     },
     {
-      "rank": 36,
-      "prev_rank": 8,
-      "team_name": "Team DSM",
-      "team_url": "team/team-dsm-2022",
-      "nationality": "NL",
-      "class": "WT",
-      "first_places": 6,
-      "second_places": 6,
-      "third_places": 11
-    },
-    {
-      "rank": 37,
-      "prev_rank": 108,
-      "team_name": "Cycling Team Friuli ASD",
-      "team_url": "team/cycling-team-friuli-asd-2022",
-      "nationality": "IT",
+      "rank": 39,
+      "prev_rank": 49,
+      "team_name": "Sakarya BB Pro Team",
+      "team_url": "team/sakarya-bb-pro-team-2022",
+      "nationality": "TR",
       "class": "CT",
       "first_places": 6,
-      "second_places": 5,
-      "third_places": 4
+      "second_places": 7,
+      "third_places": 2
     },
     {
-      "rank": 38,
+      "rank": 40,
       "prev_rank": null,
       "team_name": "Wildlife Generation Pro Cycling",
       "team_url": "team/wildlife-generation-pro-cycling-2022",
@@ -906,7 +928,7 @@
       "third_places": 2
     },
     {
-      "rank": 39,
+      "rank": 41,
       "prev_rank": 103,
       "team_name": "Team Coop",
       "team_url": "team/team-coop-2022",
@@ -917,7 +939,7 @@
       "third_places": 3
     },
     {
-      "rank": 40,
+      "rank": 42,
       "prev_rank": 115,
       "team_name": "Development Team DSM",
       "team_url": "team/development-team-dsm-2022",
@@ -928,18 +950,7 @@
       "third_places": 2
     },
     {
-      "rank": 41,
-      "prev_rank": 56,
-      "team_name": "Glassdrive Q8 Anicolor",
-      "team_url": "team/Gglassdrive-qb-anicolor-2022",
-      "nationality": "PT",
-      "class": "CT",
-      "first_places": 6,
-      "second_places": 2,
-      "third_places": 7
-    },
-    {
-      "rank": 42,
+      "rank": 43,
       "prev_rank": 161,
       "team_name": "Agrupaci\u00f3n Virgen de Fatima - San Juan Biker Motos",
       "team_url": "team/agrupacion-virgen-de-fatima-2022",
@@ -950,26 +961,15 @@
       "third_places": 4
     },
     {
-      "rank": 43,
+      "rank": 44,
       "prev_rank": 13,
-      "team_name": "Drone Hopper - Androni Giocattoli",
+      "team_name": "Drone Hopper -  Androni Giocattoli",
       "team_url": "team/drone-hopper-androni-giocattol-2022",
       "nationality": "IT",
       "class": "PRT",
       "first_places": 5,
-      "second_places": 9,
+      "second_places": 10,
       "third_places": 9
-    },
-    {
-      "rank": 44,
-      "prev_rank": 49,
-      "team_name": "Sakarya BB Pro Team",
-      "team_url": "team/sakarya-bb-pro-team-2022",
-      "nationality": "TR",
-      "class": "CT",
-      "first_places": 5,
-      "second_places": 5,
-      "third_places": 2
     },
     {
       "rank": 45,
@@ -995,6 +995,17 @@
     },
     {
       "rank": 47,
+      "prev_rank": 71,
+      "team_name": "Estonia",
+      "team_url": "team/estonia-2022",
+      "nationality": "EE",
+      "class": "NAT",
+      "first_places": 5,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 48,
       "prev_rank": 30,
       "team_name": "Lotto - Soudal U23",
       "team_url": "team/lotto-soudal-u23-2022",
@@ -1005,7 +1016,7 @@
       "third_places": 6
     },
     {
-      "rank": 48,
+      "rank": 49,
       "prev_rank": 11,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
@@ -1016,7 +1027,18 @@
       "third_places": 9
     },
     {
-      "rank": 49,
+      "rank": 50,
+      "prev_rank": 39,
+      "team_name": "B&B Hotels - KTM",
+      "team_url": "team/b-b-hotels-ktm-2022",
+      "nationality": "FR",
+      "class": "PRT",
+      "first_places": 4,
+      "second_places": 8,
+      "third_places": 5
+    },
+    {
+      "rank": 51,
       "prev_rank": 89,
       "team_name": "Team Medellin - EPM",
       "team_url": "team/team-medellin-2022",
@@ -1027,7 +1049,7 @@
       "third_places": 5
     },
     {
-      "rank": 50,
+      "rank": 52,
       "prev_rank": null,
       "team_name": "St Michel - Auber93",
       "team_url": "team/st-michel-auber93-2022",
@@ -1038,7 +1060,7 @@
       "third_places": 3
     },
     {
-      "rank": 51,
+      "rank": 53,
       "prev_rank": 179,
       "team_name": "Morocco",
       "team_url": "team/morocco-2022",
@@ -1049,18 +1071,7 @@
       "third_places": 7
     },
     {
-      "rank": 52,
-      "prev_rank": null,
-      "team_name": "Hrinkow Advarics Cycleang",
-      "team_url": "team/hrinkow-advarics-cycleang-2022",
-      "nationality": "AT",
-      "class": "CT",
-      "first_places": 4,
-      "second_places": 4,
-      "third_places": 2
-    },
-    {
-      "rank": 53,
+      "rank": 54,
       "prev_rank": 66,
       "team_name": "Human Powered Health",
       "team_url": "team/human-powered-health-2022",
@@ -1071,18 +1082,51 @@
       "third_places": 2
     },
     {
-      "rank": 54,
+      "rank": 55,
       "prev_rank": 78,
       "team_name": "Zalf Euromobil Fior",
       "team_url": "team/zalf-euromobil-fior-2022",
       "nationality": "IT",
       "class": "CT",
       "first_places": 4,
+      "second_places": 4,
+      "third_places": 2
+    },
+    {
+      "rank": 56,
+      "prev_rank": null,
+      "team_name": "Hrinkow Advarics Cycleang",
+      "team_url": "team/hrinkow-advarics-cycleang-2022",
+      "nationality": "AT",
+      "class": "CT",
+      "first_places": 4,
+      "second_places": 4,
+      "third_places": 2
+    },
+    {
+      "rank": 57,
+      "prev_rank": 164,
+      "team_name": "Denmark",
+      "team_url": "team/denmark-2022",
+      "nationality": "DK",
+      "class": "NAT",
+      "first_places": 4,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 58,
+      "prev_rank": null,
+      "team_name": "Alpecin-Deceuninck Development Team",
+      "team_url": "team/alpecin-deceuninck-development-team-2023",
+      "nationality": "BE",
+      "class": "CT",
+      "first_places": 4,
       "second_places": 2,
       "third_places": 2
     },
     {
-      "rank": 55,
+      "rank": 59,
       "prev_rank": null,
       "team_name": "Kazakhstan",
       "team_url": "team/kazakhstan-2022",
@@ -1093,7 +1137,7 @@
       "third_places": 2
     },
     {
-      "rank": 56,
+      "rank": 60,
       "prev_rank": null,
       "team_name": "Laval Cyclisme 53",
       "team_url": "team/laval-cyclisme-53-2022",
@@ -1101,32 +1145,32 @@
       "class": "CLUB",
       "first_places": 4,
       "second_places": 1,
-      "third_places": 1
+      "third_places": 2
     },
     {
-      "rank": 57,
-      "prev_rank": null,
-      "team_name": "Alpecin-Deceuninck Development Team",
-      "team_url": "team/alpecin-deceuninck-development-team-2023",
-      "nationality": "BE",
+      "rank": 61,
+      "prev_rank": 101,
+      "team_name": "ATT Investments",
+      "team_url": "team/att-investments-2022",
+      "nationality": "CZ",
       "class": "CT",
-      "first_places": 4,
-      "second_places": 1,
-      "third_places": 1
+      "first_places": 3,
+      "second_places": 7,
+      "third_places": 10
     },
     {
-      "rank": 58,
-      "prev_rank": 39,
-      "team_name": "B&B Hotels - KTM",
-      "team_url": "team/b-b-hotels-ktm-2022",
-      "nationality": "FR",
+      "rank": 62,
+      "prev_rank": 110,
+      "team_name": "EOLO-Kometa",
+      "team_url": "team/eolo-kometa-2022",
+      "nationality": "IT",
       "class": "PRT",
       "first_places": 3,
-      "second_places": 8,
-      "third_places": 5
+      "second_places": 7,
+      "third_places": 2
     },
     {
-      "rank": 59,
+      "rank": 63,
       "prev_rank": 53,
       "team_name": "Giotti Victoria - Savini Due",
       "team_url": "team/giotti-victoria-savini-due2022",
@@ -1137,18 +1181,7 @@
       "third_places": 1
     },
     {
-      "rank": 60,
-      "prev_rank": 101,
-      "team_name": "ATT Investments",
-      "team_url": "team/att-investments-2022",
-      "nationality": "CZ",
-      "class": "CT",
-      "first_places": 3,
-      "second_places": 6,
-      "third_places": 8
-    },
-    {
-      "rank": 61,
+      "rank": 64,
       "prev_rank": 189,
       "team_name": "Metec - SOLARWATT p/b Mantel",
       "team_url": "team/metec-solarwatt-p-b-mantel-2022",
@@ -1159,7 +1192,7 @@
       "third_places": 4
     },
     {
-      "rank": 62,
+      "rank": 65,
       "prev_rank": null,
       "team_name": "ABLOC CT",
       "team_url": "team/abloc-ct-2022",
@@ -1170,7 +1203,7 @@
       "third_places": 9
     },
     {
-      "rank": 63,
+      "rank": 66,
       "prev_rank": 126,
       "team_name": "Team Vorarlberg",
       "team_url": "team/team-vorarlberg-2022",
@@ -1181,7 +1214,7 @@
       "third_places": 5
     },
     {
-      "rank": 64,
+      "rank": 67,
       "prev_rank": 102,
       "team_name": "Go Sport - Roubaix Lille M\u00e9tropole",
       "team_url": "team/roubaix-lille-metropole-2022",
@@ -1192,7 +1225,7 @@
       "third_places": 5
     },
     {
-      "rank": 65,
+      "rank": 68,
       "prev_rank": 42,
       "team_name": "Team Ampler - Tartu2024",
       "team_url": "team/team-ampler-tartu2024-2022",
@@ -1203,7 +1236,7 @@
       "third_places": 2
     },
     {
-      "rank": 66,
+      "rank": 69,
       "prev_rank": null,
       "team_name": "Li Ning Star Cycling Team",
       "team_url": "team/li-ning-star-cycling-team-2022",
@@ -1214,7 +1247,18 @@
       "third_places": 2
     },
     {
-      "rank": 67,
+      "rank": 70,
+      "prev_rank": 131,
+      "team_name": "Sport Vlaanderen - Baloise",
+      "team_url": "team/sport-vlaanderen-baloise-2022",
+      "nationality": "BE",
+      "class": "PRT",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 6
+    },
+    {
+      "rank": 71,
       "prev_rank": 104,
       "team_name": "New Zealand",
       "team_url": "team/new-zealand-2022",
@@ -1225,7 +1269,7 @@
       "third_places": 6
     },
     {
-      "rank": 68,
+      "rank": 72,
       "prev_rank": 151,
       "team_name": "Team ColoQuick",
       "team_url": "team/coloquick-2022",
@@ -1236,29 +1280,7 @@
       "third_places": 3
     },
     {
-      "rank": 69,
-      "prev_rank": 138,
-      "team_name": "Tavfer-Mort\u00e1gua-Ovos Matinados",
-      "team_url": "team/tavfer-measindot-mortagua-2022",
-      "nationality": "PT",
-      "class": "CT",
-      "first_places": 3,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 70,
-      "prev_rank": null,
-      "team_name": "CSA Steaua Bucharest",
-      "team_url": "team/csa-steaua-bucharest-2022",
-      "nationality": "RO",
-      "class": "CLUB",
-      "first_places": 3,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 71,
+      "rank": 73,
       "prev_rank": null,
       "team_name": "C\u00f4tes d'Armor-Marie Morin-U",
       "team_url": "team/cotes-armor-cyclisme-2022",
@@ -1269,7 +1291,29 @@
       "third_places": 2
     },
     {
-      "rank": 72,
+      "rank": 74,
+      "prev_rank": 138,
+      "team_name": "Tavfer-Mort\u00e1gua-Ovos Matinados",
+      "team_url": "team/tavfer-measindot-mortagua-2022",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 75,
+      "prev_rank": null,
+      "team_name": "CSA Steaua Bucharest",
+      "team_url": "team/csa-steaua-bucharest-2022",
+      "nationality": "RO",
+      "class": "CLUB",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 76,
       "prev_rank": 137,
       "team_name": "ProTouch",
       "team_url": "team/protouch-2022",
@@ -1280,7 +1324,7 @@
       "third_places": 1
     },
     {
-      "rank": 73,
+      "rank": 77,
       "prev_rank": null,
       "team_name": "Colombia",
       "team_url": "team/colombia-2022",
@@ -1291,18 +1335,7 @@
       "third_places": 0
     },
     {
-      "rank": 74,
-      "prev_rank": 131,
-      "team_name": "Sport Vlaanderen - Baloise",
-      "team_url": "team/sport-vlaanderen-baloise-2022",
-      "nationality": "BE",
-      "class": "PRT",
-      "first_places": 3,
-      "second_places": 1,
-      "third_places": 5
-    },
-    {
-      "rank": 75,
+      "rank": 78,
       "prev_rank": null,
       "team_name": "Leopard Pro Cycling",
       "team_url": "team/leopard-pro-cycling-2022",
@@ -1313,18 +1346,7 @@
       "third_places": 2
     },
     {
-      "rank": 76,
-      "prev_rank": 164,
-      "team_name": "Denmark",
-      "team_url": "team/denmark-2022",
-      "nationality": "DK",
-      "class": "NAT",
-      "first_places": 3,
-      "second_places": 1,
-      "third_places": 1
-    },
-    {
-      "rank": 77,
+      "rank": 79,
       "prev_rank": 135,
       "team_name": "Belgium",
       "team_url": "team/belgium-2022",
@@ -1332,10 +1354,10 @@
       "class": "NAT",
       "first_places": 3,
       "second_places": 1,
-      "third_places": 0
+      "third_places": 1
     },
     {
-      "rank": 78,
+      "rank": 80,
       "prev_rank": null,
       "team_name": "Project Echelon Racing",
       "team_url": "team/project-echelon-racing-2022",
@@ -1346,7 +1368,7 @@
       "third_places": 7
     },
     {
-      "rank": 79,
+      "rank": 81,
       "prev_rank": null,
       "team_name": "Albania",
       "team_url": "team/albania-2022",
@@ -1357,7 +1379,7 @@
       "third_places": 2
     },
     {
-      "rank": 80,
+      "rank": 82,
       "prev_rank": null,
       "team_name": "Israel",
       "team_url": "team/israel-2022",
@@ -1368,18 +1390,7 @@
       "third_places": 2
     },
     {
-      "rank": 81,
-      "prev_rank": null,
-      "team_name": "Dinan Sport Cycling",
-      "team_url": "team/team-pays-de-dinan-2022",
-      "nationality": "FR",
-      "class": "CLUB",
-      "first_places": 3,
-      "second_places": 0,
-      "third_places": 0
-    },
-    {
-      "rank": 82,
+      "rank": 83,
       "prev_rank": null,
       "team_name": "Ribble Weldtite Pro Cycling",
       "team_url": "team/ribble-weldtite-pro-cycling-2022",
@@ -1390,9 +1401,31 @@
       "third_places": 0
     },
     {
-      "rank": 83,
+      "rank": 84,
+      "prev_rank": null,
+      "team_name": "Dinan Sport Cycling",
+      "team_url": "team/team-pays-de-dinan-2022",
+      "nationality": "FR",
+      "class": "CLUB",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 85,
+      "prev_rank": 59,
+      "team_name": "Netherlands",
+      "team_url": "team/netherlands-2022",
+      "nationality": "NL",
+      "class": "NAT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 86,
       "prev_rank": 195,
-      "team_name": "Vend\u00e9e U",
+      "team_name": "Vend\u00e9e U ",
       "team_url": "team/vendee-u-2022",
       "nationality": "FR",
       "class": "CLUB",
@@ -1401,18 +1434,7 @@
       "third_places": 3
     },
     {
-      "rank": 84,
-      "prev_rank": 110,
-      "team_name": "EOLO-Kometa",
-      "team_url": "team/eolo-kometa-2022",
-      "nationality": "IT",
-      "class": "PRT",
-      "first_places": 2,
-      "second_places": 7,
-      "third_places": 2
-    },
-    {
-      "rank": 85,
+      "rank": 87,
       "prev_rank": 150,
       "team_name": "Euskaltel - Euskadi",
       "team_url": "team/euskaltel-euskadi-2022",
@@ -1423,7 +1445,7 @@
       "third_places": 6
     },
     {
-      "rank": 86,
+      "rank": 88,
       "prev_rank": null,
       "team_name": "Colombia Tierra de Atletas - GW Bicicletas - Shimano",
       "team_url": "team/colombia-tierra-de-atletas-gw-bicicletas-2022",
@@ -1434,7 +1456,7 @@
       "third_places": 4
     },
     {
-      "rank": 87,
+      "rank": 89,
       "prev_rank": null,
       "team_name": "Premier Tech U23 Cycling Project",
       "team_url": "team/premier-tech-u-23-cycling-project-2022",
@@ -1445,7 +1467,7 @@
       "third_places": 3
     },
     {
-      "rank": 88,
+      "rank": 90,
       "prev_rank": null,
       "team_name": "Toronto Hustle",
       "team_url": "team/toronto-hustle-2022",
@@ -1456,7 +1478,7 @@
       "third_places": 1
     },
     {
-      "rank": 89,
+      "rank": 91,
       "prev_rank": 25,
       "team_name": "Jumbo-Visma Development Team",
       "team_url": "team/jumbo-visma-development-team-2022",
@@ -1467,7 +1489,7 @@
       "third_places": 8
     },
     {
-      "rank": 90,
+      "rank": 92,
       "prev_rank": 125,
       "team_name": "Bingoal Pauwels Sauces WB",
       "team_url": "team/bingoal-pauwels-sauzen-wb-2022",
@@ -1475,10 +1497,10 @@
       "class": "PRT",
       "first_places": 2,
       "second_places": 3,
-      "third_places": 5
+      "third_places": 6
     },
     {
-      "rank": 91,
+      "rank": 93,
       "prev_rank": null,
       "team_name": "Panam\u00e1 es Cultura y Valores",
       "team_url": "team/panama-es-cultura-y-valores-2022",
@@ -1489,7 +1511,7 @@
       "third_places": 4
     },
     {
-      "rank": 92,
+      "rank": 94,
       "prev_rank": 76,
       "team_name": "Tarteletto - Isorex",
       "team_url": "team/tarteletto-isorex-2022",
@@ -1500,7 +1522,7 @@
       "third_places": 3
     },
     {
-      "rank": 93,
+      "rank": 95,
       "prev_rank": 69,
       "team_name": "Canel's Zerouno",
       "team_url": "team/canel-s-zerouno-2022",
@@ -1511,7 +1533,7 @@
       "third_places": 1
     },
     {
-      "rank": 94,
+      "rank": 96,
       "prev_rank": null,
       "team_name": "IDEA-Indeportes Antioquia",
       "team_url": "team/idea-indeportes-antioquia-2022",
@@ -1522,7 +1544,7 @@
       "third_places": 0
     },
     {
-      "rank": 95,
+      "rank": 97,
       "prev_rank": null,
       "team_name": "South Africa",
       "team_url": "team/south-africa-2022",
@@ -1533,18 +1555,7 @@
       "third_places": 0
     },
     {
-      "rank": 96,
-      "prev_rank": null,
-      "team_name": "Tashkent City Professional Cycling Team",
-      "team_url": "team/tashkent-city-professional-cycling-team-2022",
-      "nationality": "UZ",
-      "class": "CT",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 3
-    },
-    {
-      "rank": 97,
+      "rank": 98,
       "prev_rank": null,
       "team_name": "Venezuela Pais Futuro - Fina Arroz",
       "team_url": "team/venezuela-pais-futuro-2022",
@@ -1556,36 +1567,25 @@
     },
     {
       "rank": 99,
-      "prev_rank": 107,
-      "team_name": "Team Colpack Ballan",
-      "team_url": "team/team-colpack-ballan-2022",
-      "nationality": "IT",
+      "prev_rank": null,
+      "team_name": "Tashkent City Professional Cycling Team",
+      "team_url": "team/tashkent-city-professional-cycling-team-2022",
+      "nationality": "UZ",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 100,
+      "prev_rank": null,
+      "team_name": "Allinq Continental Cycling Team",
+      "team_url": "team/allinq-continental-cycling-team-2022",
+      "nationality": "NL",
       "class": "CT",
       "first_places": 2,
       "second_places": 2,
       "third_places": 2
-    },
-    {
-      "rank": 100,
-      "prev_rank": 127,
-      "team_name": "Team Lotto - Kern Haus",
-      "team_url": "team/team-lotto-kern-haus-2022",
-      "nationality": "DE",
-      "class": "CT",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
-    },
-    {
-      "rank": 101,
-      "prev_rank": null,
-      "team_name": "Equipo Coraza",
-      "team_url": "team/equipo-coraza-2022",
-      "nationality": "AR",
-      "class": "CLUB",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 1
     }
   ]
 }
