@@ -2,7 +2,7 @@ from typing import Any, Dict, List, Literal, Optional, Tuple, Union
 
 from requests_html import HTML, Element
 
-from .utils import add_time, format_time, get_day_month
+from .utils import add_times, format_time, get_day_month
 
 
 class TableRowParser:
@@ -452,7 +452,7 @@ class TableParser:
                 uci_points = tr.find(".ac.blue")[0].text
                 uci_points = 0 if not uci_points else float(uci_points)
                 if extra_time:
-                    rider_time = add_time(extra_time[0].text, current_team_time)
+                    rider_time = add_times(extra_time[0].text, current_team_time)
                 else:
                     rider_time = format_time(current_team_time)
                 full_dict = {
@@ -508,7 +508,7 @@ class TableParser:
         first_time = self.table[0][time_field]
         for row in self.table[1:]:
             if row[time_field]:
-                row[time_field] = add_time(first_time, row['time'])
+                row[time_field] = add_times(first_time, row['time'])
 
     def table_to_dict(self, key_field: str) -> Dict[str, dict]:
         """

@@ -1,6 +1,6 @@
 import glob
 import json
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Type
 
 from procyclingstats import Scraper
 from procyclingstats.errors import ExpectedParsingError
@@ -83,7 +83,7 @@ class FixturesUtils:
             return None
 
     def get_scraper_objects_from_fixtures(
-            self, ScraperClass: Scraper) -> List[Scraper]:
+            self, ScraperClass: Type[Scraper]) -> List[Scraper]:
         """
         Creates scraper object of ScraperClass from every HTML fixture which URL
         is valid for given ScraperClass

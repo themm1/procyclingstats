@@ -1,5 +1,4 @@
 from procyclingstats import Scraper
-from pytest_subtests import subtests
 
 from .fixtures_utils import FixturesUtils
 
@@ -12,7 +11,7 @@ class ScraperTestBaseClass:
     """
     ScraperClass = Scraper
 
-    def test_parser(self, subtests: subtests) -> None:
+    def test_parser(self, subtests) -> None:
         """
         Tests parser method of current `ScraperClass` against all data fixtures
         that are created by instances of current `ScraperClass`. HTML is always
@@ -25,10 +24,13 @@ class ScraperTestBaseClass:
         parsed_data = []
         correct_data = []
         for obj in objects_to_test:
+            # if "race/tour-de-france/2018/stage-3" in obj.url or\
+            #     "ttt" in obj.url:
+            #     continue
             parsed = obj.parse()
             correct = f.get_data_fixture(obj.relative_url())
             # dicts with parsed data has same keys
-            assert parsed.keys() == correct.keys()
+            assert parsed.keys() == correct.keys() # type: ignore
             parsed_data.append(parsed)
             correct_data.append(correct)
 
@@ -36,6 +38,7 @@ class ScraperTestBaseClass:
             # method subtest
             with subtests.test(msg=method):
                 for parsed, correct in zip(parsed_data, correct_data):
+                    print(parsed['relative_url'])
                     if isinstance(correct[method], list):
                         for parsed_row, correct_row in zip(
                                 parsed[method], correct[method]):

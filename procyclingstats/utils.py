@@ -1,7 +1,7 @@
 import datetime
 import math
 import re
-from typing import Any, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Optional, Tuple, Union
 
 from requests_html import HTML
 
@@ -35,7 +35,7 @@ class reg:
 
 def validate_string(string: str,
                     min_length: int = 0,
-                    max_length: int = math.inf,
+                    max_length: int = math.inf, # type: ignore
                     regex: str = "",
                     options: Optional[List[str]] = None,
                     can_be_none: bool = False,
@@ -65,8 +65,8 @@ def validate_string(string: str,
         valid = False
 
     if regex:
-        regex = [char for char in regex if char not in ("\n", " ")]
-        formatted_regex = "".join(regex)
+        valid_regex_list = [char for char in regex if char not in ("\n", " ")]
+        formatted_regex = "".join(valid_regex_list)
         if re.fullmatch(formatted_regex, string) is None:
             valid = False
     if not valid:
@@ -103,6 +103,31 @@ def validate_number(number: Union[int, float],
             raise ParsedValueInvalidError(number)
         else:
             raise error
+
+def join_tables(table1: List[Dict[str, Any]],
+               table2: List[Dict[str, Any]] ,
+               join_key: str) -> List[Dict[str, Any]]:
+    """
+    Join given tables to one by joining rows which `join_key` values are
+    matching.
+
+    :param table1: table represented as list of dicts where every row has
+    `join_key`
+    :param table2: table represented as list of dicts where every row has
+    `join_key`
+    :param join_key: field used for finding matching rows, e.g. `rider_url`
+    :raises ValueError: when matching row to one of table rows wasn't found
+    :return: tables joined together into one table
+    """
+    table2_dict = {row[join_key]: row for row in table2}
+    table = []
+    for row in table1:
+        try:
+            table.append({**table2_dict[row[join_key]], **row})
+        except KeyError:
+            raise ValueError(f"Matching row to row with join key value \
+                '{row[join_key]}' wasn't found.")
+    return table
 
 
 def get_day_month(str_with_date: str) -> Tuple[str, str]:
@@ -221,19 +246,19 @@ def format_time(time: str) -> str:
     :param time: time to convert
     :return: formatted time e.g. `31:03:11`
     """
-    time = time.split(":")
+    splitted_time = time.split(":")
     # make minutes and seconds two digits long
-    for i, time_val in enumerate(time[-2:]):
+    for i, time_val in enumerate(splitted_time [-2:]):
         if len(time_val) == 1:
-            time[i] = "0" + time_val
-    time_str = ":".join(time)
+            splitted_time[i] = "0" + time_val
+    time_str = ":".join(splitted_time)
     # add hours if needed
-    if len(time) == 2:
+    if len(splitted_time) == 2:
         time_str = "0:" + time_str
     return time_str
 
 
-def add_time(time1: str, time2: str) -> str:
+def add_times(time1: str, time2: str) -> str:
     """
     Adds two given times with minutes and seconds or with hours optionally
     together

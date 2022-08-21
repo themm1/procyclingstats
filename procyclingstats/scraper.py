@@ -1,7 +1,8 @@
 import inspect
-from typing import Any, Dict, List, Literal, Optional, Tuple
+from typing import Any, Callable, Dict, List, Literal, Optional, Tuple
 
 from requests_html import HTML, HTMLSession
+from selectolax.parser import HTMLParser
 
 from .errors import ExpectedParsingError, ParsedValueInvalidError
 from .utils import validate_string
@@ -21,8 +22,8 @@ class Scraper:
 
     def __init__(self, url: str, html: Optional[str],
                  update_html: bool) -> None:
-        self._url: str = self._get_valid_url(url)
-        self._html: Optional[HTML] = None
+        self._url = self._get_valid_url(url)
+        self._html = None
         if html:
             self._html = self._get_valid_html(html)
         if update_html:
@@ -38,7 +39,7 @@ class Scraper:
         return self._url
 
     @property
-    def html(self) -> HTML:
+    def html(self) -> Optional[HTML]:
         """Get HTML of a scraper object"""
         return self._html
 
@@ -80,7 +81,7 @@ class Scraper:
                     parsed_data[method_name] = None
         return parsed_data
 
-    def _get_parsing_methods(self) -> List[Tuple[str, callable]]:
+    def _get_parsing_methods(self) -> List[Tuple[str, Callable]]:
         """
         Gets all parsing methods from a class, (all public methods with the
         excepotion of `update_html` and `parse`)

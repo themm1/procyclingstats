@@ -3,7 +3,7 @@ from typing import Any, Callable, Dict, List, Literal, Optional, Tuple, Union
 from selectolax.parser import HTMLParser, Node
 
 from .errors import ExpectedParsingError, UnexpectedParsingError
-from .utils import add_time, format_time
+from .utils import add_times, format_time
 
 
 class TableParser:
@@ -12,10 +12,13 @@ class TableParser:
     represented as list of dicts
 
     :param html_table: HTML table to be parsed from
+    :param extra_header: header of given table (if isn't passed header from
+    given html table is taken, if isn't found header is set to None)
     """
 
     child_tag_dict: Dict[str, str] = {
         "tbody": "tr",
+        "table": "tr",
         "ul": "li"
     }
     """Finds out what is the table children tag"""
@@ -26,12 +29,14 @@ class TableParser:
     """Finds out what is the table row children tag"""
 
     def __init__(self, html_table: Node) -> None:
-        self.table: List[Dict[str, Any]] = []
-        self.header: Optional[Node] = html_table.css_first("thead")
-        if self.header:
-            self.html_table = html_table.css_first("tbody")
+        self.table = []
+        table_body = html_table.css_first("tbody")
+        if table_body:
+            self.html_table = table_body
+            self.header = html_table.css_first("thead")
         else:
             self.html_table = html_table
+            self.header = None
 
         self.table_child_tag = self.child_tag_dict[self.html_table.tag]
         self.row_child_tag = self.row_child_tag_dict[self.table_child_tag]
@@ -123,7 +128,8 @@ class TableParser:
             
     def parse_extra_column(self, index_or_header_value: Union[int, str],
                      func: Callable = int,
-                     skip: Callable = lambda _: False) -> List[Any]:
+                     skip: Callable = lambda _: False,
+                     separator: str = "") -> List[Any]:
         """
         Parses values from given column.
 
@@ -134,6 +140,7 @@ class TableParser:
         :param skip: fucntion to call on every element that is going to be
         parsed when returns True element isn't parsed, defaults to lambda _: 
         False
+        :param separator: separator for text attributes given to `func`
         :return: list with parsed values
         """
         if isinstance(index_or_header_value, str):
@@ -143,13 +150,13 @@ class TableParser:
         if index < 0:
             index = self.row_length + index
         elements = self.html_table.css(
-            f"{self.row_child_tag}:nth-child({index+1})")
+            f"{self.table_child_tag} > {self.row_child_tag}:nth-child({index+1})")
 
         values = []
         for element in elements:
             if skip(element):
                 continue
-            values.append(func(element.text()))
+            values.append(func(element.text(separator=separator)))
         return values
 
     def rider_url(self) -> List[str]:
@@ -254,9 +261,13 @@ class TableParser:
         return seasons
     
     def rank(self) -> List[Optional[int]]:
-        return self.parse_extra_column("Rnk",
-            lambda x: int(x) if x.isnumeric() else None)
-        
+        try:
+            return self.parse_extra_column("Rnk",
+                lambda x: int(x) if x.isnumeric() else None)
+        except ValueError:
+            return self.parse_extra_column("Pos.",
+                lambda x: int(x) if x.isnumeric() else None)
+
     def status(self) -> List[Literal[
         "DF", "DNF", "DNS", "OTL", "DSQ"
     ]]:
@@ -267,7 +278,7 @@ class TableParser:
         try:
             return self.parse_extra_column("Prev",
                                            lambda x: int(x) if x else None)
-        except UnexpectedParsingError:
+        except ValueError:
             return [None for _ in range(self.table_length)]
 
     def uci_points(self) -> List[Optional[float]]:
@@ -277,7 +288,7 @@ class TableParser:
         except ValueError:
             try:
                 return self.parse_extra_column("UCI points",
-                                               lambda x: int(x) if x else 0)
+                                               lambda x: float(x) if x else 0)
             except ValueError:
                 return [0 for _ in range(self.table_length)]
     
@@ -319,6 +330,7 @@ class TableParser:
             return {row[key_field]: row for row in self.table}
         except KeyError:
             raise ValueError(f"Invalid key_field argument: {key_field}")
+
    
     def _get_column_index_from_header(self, column_name: str) -> int:
         if self.header is None:
@@ -342,7 +354,7 @@ class TableParser:
         first_time = self.table[0][time_field]
         for row in self.table[1:]:
             if row[time_field]:
-                row[time_field] = add_time(first_time, row['time'])
+                row[time_field] = add_times(first_time, row['time'])
 
     def _filter_a_elements(self, keyword: str, get_href: bool) -> List[str]:
         """
@@ -363,17 +375,3 @@ class TableParser:
                 else:
                     filtered_values.append(a_element.text())
         return filtered_values
-
-
-if __name__ == "__main__":
-    # html = Stage("race/tour-de-france/2022/stage-18").html
-    # html_table = HTMLParser(html.html).css_first(".result-cont table")
-    # # html_table = html.find(".result-cont table")[1]
-    # # print(html_table.text())
-    # tp = TableParser(html_table)
-    # tp.parse(("rank", "status", "prev_rank", "rider_url", "rider_name",
-    #           "team_url", "team_name", "nationality", "age", "bonus", "time",
-    #           "uci_points", "pcs_points"))
-    # tp.extend_table("pcs_points", -4,
-                #    lambda x: int(x.text()) if x.text() else 0)
-    pass

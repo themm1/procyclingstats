@@ -1,4 +1,3 @@
-import pytest
 from procyclingstats import RaceStartlist
 
 from .scraper_test_base_class import ScraperTestBaseClass

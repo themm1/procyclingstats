@@ -1,12 +1,14 @@
-from typing import List, Literal, Optional, Tuple
+from typing import Any, Dict, List, Literal, Optional, Tuple
 
-import requests_html
-from requests_html import Element
+from selectolax.parser import HTMLParser, Node
+from tabulate import tabulate
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
-from .table_parser import TableParser
-from .utils import convert_date, parse_table_fields_args, reg
+# from .table_parser import TableParser
+from .table_parser2 import TableParser
+from .utils import (add_times, convert_date, format_time, join_tables,
+                    parse_table_fields_args, reg)
 
 
 class Stage(Scraper):
@@ -23,11 +25,13 @@ class Stage(Scraper):
     `self.html`, when False `self.update_html` method has to be called
     manually to make object ready for parsing, defaults to True
     """
-    _tables_path: str = ".result-cont table"
+    _tables_path = ".result-cont table"
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
+        if self._html and self._html.html:
+            self._html = HTMLParser(self._html.html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -55,7 +59,7 @@ class Stage(Scraper):
         """
         # If there are elements with .restabs class (Stage/GC... menu), the race
         # is a stage race
-        return len(self._html.find(".restabs")) == 0
+        return len(self._html.css(".restabs")) == 0
 
     def distance(self) -> float:
         """
@@ -63,8 +67,9 @@ class Stage(Scraper):
 
         :return: stage distance in kms
         """
-        distance_html = self._html.find(".infolist > li:nth-child(5) > div")
-        return float(distance_html[1].text.split(" km")[0])
+        distance_html = self._html.css_first(
+            ".infolist > li:nth-child(5) > div:nth-child(2)")
+        return float(distance_html.text().split(" km")[0])
 
     def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
         """
@@ -73,9 +78,9 @@ class Stage(Scraper):
         :return: profile icon e.g. `p4`, the higher the number is the more
         difficult the profile is
         """
-        profile_html = self._html.find(".infolist > li:nth-child(7) > "
-                                       "div:nth-child(2) > span")
-        return profile_html[0].attrs['class'][2]
+        profile_html = self._html.css_first(".infolist > li:nth-child(7) > "
+                                       "div:nth-child(2) > span.icon")
+        return profile_html.attributes['class'].split(" ")[2] # type: ignore
 
     def stage_type(self) -> Literal["ITT", "TTT", "RR"]:
         """
@@ -83,10 +88,10 @@ class Stage(Scraper):
 
         :return: stage type
         """
-        stage_name_html = self._html.find(".sub > .blue")
-        stage_name2_html = self._html.find("div.main > h1")[0]
-        stage_name = stage_name_html[0].text
-        stage_name2 = stage_name2_html.text
+        stage_name_html = self._html.css_first(".sub > .blue")
+        stage_name2_html = self._html.css_first("div.main > h1")
+        stage_name = stage_name_html.text()
+        stage_name2 = stage_name2_html.text()
         if "ITT" in stage_name or "ITT" in stage_name2:
             return "ITT"
         elif "TTT" in stage_name or "TTT" in stage_name2:
@@ -101,22 +106,23 @@ class Stage(Scraper):
         :param when_none_or_unknown: value to return when there is no info
         about winning attack, defaults to 0.0
         :return: length of winning attack"""
-        won_how_html = self._html.find(".infolist > li:nth-child(12) > div")
-        won_how = won_how_html[1].text
+        won_how_html = self._html.css_first(
+            ".infolist > li:nth-child(12) > div:nth-child(2)")
+        won_how = won_how_html.text()
         if " km solo" in won_how:
             return float(won_how.split(" km sol")[0])
         else:
             return when_none_or_unknown
 
-    def vertical_meters(self) -> int:
+    def vertical_meters(self) -> Optional[int]:
         """
         Parses vertical meters gained throughout the stage from HTML
 
         :return: vertical meters
         """
-        vertical_meters_html = self._html.find(".infolist > li:nth-child(9) "
-                                               " > div")
-        vertical_meters = vertical_meters_html[1].text
+        vertical_meters_html = self._html.css_first(
+            ".infolist > li:nth-child(9) > div:nth-child(2)")
+        vertical_meters = vertical_meters_html.text()
         return int(vertical_meters) if vertical_meters else None
 
     def date(self) -> str:
@@ -125,8 +131,8 @@ class Stage(Scraper):
 
         :return: date when stage took place `YYYY-MM-DD`
         """
-        date_html = self._html.find(f".infolist > li > div")
-        date = date_html[1].text.split(", ")[0]
+        date_html = self._html.css_first(f".infolist > li > div:nth-child(2)")
+        date = date_html.text().split(", ")[0]
         return convert_date(date)
 
     def departure(self) -> str:
@@ -135,8 +141,9 @@ class Stage(Scraper):
 
         :return: departure of the stage
         """
-        departure_html = self._html.find(".infolist > li:nth-child(10) > div")
-        return departure_html[1].text
+        departure_html = self._html.css_first(
+            ".infolist > li:nth-child(10) > div:nth-child(2)")
+        return departure_html.text()
 
     def arrival(self) -> str:
         """
@@ -144,8 +151,9 @@ class Stage(Scraper):
 
         :return: arrival of the stage
         """
-        arrival_html = self._html.find(".infolist > li:nth-child(11) > div")
-        return arrival_html[1].text
+        arrival_html = self._html.css_first(
+            ".infolist > li:nth-child(11) > div:nth-child(2)")
+        return arrival_html.text()
 
     def results(self, *args: str, available_fields: Tuple[str, ...] = (
             "rider_name",
@@ -159,10 +167,11 @@ class Stage(Scraper):
             "time",
             "bonus",
             "pcs_points",
-            "uci_points")) -> List[dict]:
+            "uci_points")) -> List[Dict[str, Any]]:
         """
-        Parses main results table from HTML, if results table is TTT one day
-        race, fields `age`, `nationality` and `bonus` are not available
+        Parses main results table from HTML. If results table is TTT one day
+        race, fields `age` and `nationality` are set to None if are requested,
+        because they aren't contained in the HTML.
 
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
@@ -172,59 +181,38 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
-        categories = self._html.find(self._tables_path)
+        categories = self._html.css(self._tables_path)
         results_table_html = categories[0]
         # Results table is empty
-        if not results_table_html or \
-                not results_table_html.find("tbody")[0].text:
+        if (not results_table_html or 
+            not results_table_html.css_first("tbody > tr")):
             raise ExpectedParsingError("Results table not in page HTML")
         # parse TTT table
         if self.stage_type() == "TTT":
-            tp = TableParser(results_table_html)
-            wanted_ttt_fields = [field for field in fields if field in
-                                 tp.ttt_fields]
-            # add rider_url for easier parsing
-            rider_url_added = False
-            if "rider_url" not in wanted_ttt_fields:
-                wanted_ttt_fields.append("rider_url")
-                rider_url_added = True
-
-            tp.parse_ttt_table(wanted_ttt_fields)
-            rider_url_key_table = {row['rider_url']: row for row in tp.table}
-            # remove rider_url from table
-            if rider_url_added:
-                for rider_url in rider_url_key_table.keys():
-                    rider_url_key_table[rider_url].pop("rider_url")
-
-            wanted_extra_fields = [field for field in fields if field not in
-                                   tp.ttt_fields]
-            # set extra fields to None when race is one day race
-            if wanted_extra_fields and self.is_one_day_race():
-                for row in tp.table:
-                    for field in wanted_extra_fields:
-                        row[field] = None
-
-            if wanted_extra_fields and not self.is_one_day_race():
-                gc_table_html = self._table_html("gc")
-                extra_tp = TableParser(gc_table_html)
-                wanted_extra_fields.append("rider_url")
-                extra_tp.parse(wanted_extra_fields)
-                # merge tp.table and extra_tp.table by rider_url and remove
-                # rider_url from extra_tp.table
-                table = []
-                for row in extra_tp.table:
-                    row2 = rider_url_key_table[row['rider_url']]
-                    row.pop("rider_url")
-                    table.append({**row, **row2})
-                return table
-            else:
-                return tp.table
+            table = self._ttt_results(results_table_html, fields)
+            # set status of all riders to DF because status information isn't
+            # contained in the HTML of TTT results
+            if "status" in fields:
+                for row in table:
+                    row['status'] = "DF"
+            # add extra elements from GC table if possible and needed
+            gc_table_html = self._table_html("gc")
+            if (not self.is_one_day_race() and gc_table_html and
+                ("nationality" in fields or "age" in fields)):
+                tp = TableParser(gc_table_html)
+                extra_fields = [f for f in fields
+                                if f in ("nationality", "age", "rider_url")]
+                tp.parse(extra_fields)
+                table = join_tables(table, tp.table, "rider_url")
+            elif "nationality" in fields or "age" in fields:
+                for row in table:
+                    row['nationality'] = None
+                    row['age'] = None
         else:
             tp = TableParser(results_table_html)
             tp.parse(fields)
-            if "time" in fields:
-                tp.make_times_absolute()
-            return tp.table
+            table = tp.table
+        return table
 
     def gc(self, *args: str, available_fields: Tuple[str, ...] = (
             "rider_name",
@@ -238,7 +226,7 @@ class Stage(Scraper):
             "time",
             "bonus",
             "pcs_points",
-            "uci_points")) -> List[dict]:
+            "uci_points")) -> List[Dict[str, Any]]:
         """
         Parses results from GC results table from HTML, available only on stage
         races
@@ -255,8 +243,6 @@ class Stage(Scraper):
             raise ExpectedParsingError("GC table not in page HTML")
         tp = TableParser(gc_table_html)
         tp.parse(fields)
-        if "time" in fields:
-            tp.make_times_absolute()
         return tp.table
 
     def points(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -270,7 +256,7 @@ class Stage(Scraper):
             "age",
             "nationality",
             "pcs_points",
-            "uci_points")) -> List[dict]:
+            "uci_points")) -> List[Dict[str, Any]]:
         """
         Parses results from points classification results table from HTML,
         available only on stage races
@@ -301,7 +287,7 @@ class Stage(Scraper):
             "age",
             "nationality",
             "pcs_points",
-            "uci_points")) -> List[dict]:
+            "uci_points")) -> List[Dict[str, Any]]:
         """
         Parses results from KOM classification results table from HTML,
         available only on stage races
@@ -331,7 +317,7 @@ class Stage(Scraper):
             "age",
             "nationality",
             "pcs_points",
-            "uci_points")) -> List[dict]:
+            "uci_points")) -> List[Dict[str, Any]]:
         """
         Parses results from youth classification results table from HTML,
         available only on stage races
@@ -347,8 +333,6 @@ class Stage(Scraper):
             raise ExpectedParsingError("Youth table not in page HTML")
         tp = TableParser(youth_table_html)
         tp.parse(fields)
-        if "time" in fields:
-            tp.make_times_absolute()
         return tp.table
 
     def teams(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -357,7 +341,7 @@ class Stage(Scraper):
             "rank",
             "prev_rank",
             "time",
-            "nationality")) -> List[dict]:
+            "nationality")) -> List[Dict[str, Any]]:
         """
         Parses results from teams classification results table from HTML,
         available only on stage races
@@ -373,8 +357,6 @@ class Stage(Scraper):
             raise ExpectedParsingError("Teams table not in page HTML")
         tp = TableParser(teams_table_html)
         tp.parse(fields)
-        if "time" in fields:
-            tp.make_times_absolute()
         return tp.table
 
     def _table_html(self, table: Literal[
@@ -383,29 +365,86 @@ class Stage(Scraper):
             "points",
             "kom",
             "youth",
-            "teams"]) -> Optional[Element]:
+            "teams"]) -> Optional[Node]:
         """
         Get HTML of a .result-cont table with results based on `table` param
 
         :param table: keyword of wanted table that occures in .restabs menu
         :return: HTML of wanted HTML table, None when not found
         """
-        categories = self._html.find(".result-cont")
-        for i, element in enumerate(self._html.find("ul.restabs > li > a")):
-            if table in element.text.lower():
-                return categories[i].find("table")[0]
+        categories = self._html.css(".result-cont")
+        for i, element in enumerate(self._html.css("ul.restabs > li > a")):
+            if table in element.text().lower():
+                return categories[i].css_first("table")
 
-    def _points_index(self, html: requests_html.HTML) -> Optional[int]:
+    @staticmethod
+    def _ttt_results(results_table_html: Node,
+                     fields: List[str]) -> List[Dict[str, Any]]:
         """
-        Get index of column with points from HTML table
+        Parses data from TTT results table.
 
-        :param html: HTML table to be parsed from
-        :return: index of columns with points, None when not found
+        :param results_table_html: TTT results table HTML
+        :param fields: fields that returned table should have
+        :return: table represented as list of dicts
         """
-        points_index = None
-        elements = html.find("tbody > tr:first-child > td")
-        for i, element in enumerate(reversed(elements)):
-            if element.text.isnumeric():
-                points_index = len(elements) - i
-                break
-        return points_index
+        team_fields = [
+            "rank",
+            "team_name",
+            "team_url",
+        ]
+        rider_fields = [
+            "rank",
+            "rider_name",
+            "rider_url",
+            "pcs_points",
+            "uci_points",
+            "bonus"
+        ]
+        team_fields_to_parse = [f for f in team_fields if f in fields]
+        rider_fields_to_parse = [f for f in rider_fields if f in fields]
+
+        # add team ranks to every rider's first td element, so it's possible
+        # to map teams to riders based on their rank
+        current_rank_node = None
+        for td in results_table_html.css("tr > td:first-child"):
+            rank = td.text()
+            if rank:
+                current_rank_node = td
+            elif current_rank_node:
+                td.replace_with(current_rank_node) # type: ignore
+
+        # create two copies of HTML table (one for riders and one for teams)
+        riders_table = results_table_html
+        teams_elements = HTMLParser(results_table_html.html) # type: ignore
+        teams_table = teams_elements.css_first("table")
+        # remove unwanted rows from both tables
+        riders_table.unwrap_tags(["tr.team"])
+        teams_table.unwrap_tags(["tr:not(.team)"])
+        teams_parser = TableParser(teams_table)
+        teams_parser.parse(team_fields_to_parse)
+        riders_parser = TableParser(riders_table)
+        riders_parser.parse(rider_fields_to_parse)
+        # add time of every rider to the table
+        if "time" in fields:
+            team_times = teams_parser.parse_extra_column("Time",
+                lambda x: format_time(x))
+            # riders extra times from second HTML table column, if there is no
+            # extra time, time is set to None
+            riders_extra_times = riders_parser.parse_extra_column(1,
+                lambda x: format_time(x.split("+")[1]) if
+                len(x.split("+")) >= 2 else "0:00:00")
+
+            riders_parser.extend_table("rider_time", riders_extra_times)
+            teams_parser.extend_table("time", team_times)
+
+            table = join_tables(riders_parser.table, teams_parser.table,
+                                "rank")
+            # add team times and rider_extra times together and remove
+            # rider_time field from table
+            for row in table:
+                rider_extra_time = row.pop('rider_time')
+                row['time'] = add_times(row['time'], rider_extra_time)
+        else:
+            table = join_tables(riders_parser.table, teams_parser.table,
+                                "rank")
+        return table
