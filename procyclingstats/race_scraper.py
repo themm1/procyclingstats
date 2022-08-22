@@ -1,9 +1,9 @@
-from typing import List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import parse_table_fields_args, reg
+from .utils import get_day_month, parse_table_fields_args, reg
 
 
 class Race(Scraper):
@@ -49,7 +49,7 @@ class Race(Scraper):
 
         :return: year
         """
-        return int(self._html.find("span.hideIfMobile")[0].text)
+        return int(self.html.css_first("span.hideIfMobile").text())
 
     def display_name(self) -> str:
         """
@@ -57,8 +57,8 @@ class Race(Scraper):
 
         :return: display name e.g. `Tour de France`
         """
-        display_name_html = self._html.find(".page-title > .main > h1")[0]
-        return display_name_html.text
+        display_name_html = self.html.css_first(".page-title > .main > h1")
+        return display_name_html.text()
 
     def is_one_day_race(self) -> bool:
         """
@@ -66,8 +66,8 @@ class Race(Scraper):
 
         :return: whether given race is one day race
         """
-        one_day_race_html = self._html.find("div.sub > span.blue")[0]
-        return "stage" not in one_day_race_html.text.lower()
+        one_day_race_html = self.html.css_first("div.sub > span.blue")
+        return "stage" not in one_day_race_html.text().lower()
 
     def nationality(self) -> str:
         """
@@ -75,8 +75,10 @@ class Race(Scraper):
 
         :return: 2 chars long country code
         """
-        nationality_html = self._html.find(".page-title > .main > span")[0]
-        return nationality_html.attrs['class'][1].upper()
+        nationality_html = self.html.css_first(
+            ".page-title > .main > span.flag")
+        flag_class = nationality_html.attributes['class']
+        return flag_class.split(" ")[1].upper() # type: ignore
 
     def edition(self) -> int:
         """
@@ -84,9 +86,10 @@ class Race(Scraper):
 
         :return: edition as int
         """
-        edition_html_list = self._html.find(".page-title > .main > span + font")
-        if edition_html_list:
-            return int(edition_html_list[0].text[:-2])
+        edition_html = self.html.css_first(
+            ".page-title > .main > span + font")
+        if edition_html is not None:
+            return int(edition_html.text()[:-2])
         raise ExpectedParsingError("Race cancelled, edition unavailable.")
 
     def startdate(self) -> str:
@@ -95,8 +98,9 @@ class Race(Scraper):
 
         :return: startdate in `DD-MM-YYYY` format
         """
-        startdate_html = self._html.find(".infolist > li > div:nth-child(2)")[0]
-        return startdate_html.text
+        startdate_html = self.html.css_first(
+            ".infolist > li > div:nth-child(2)")
+        return startdate_html.text()
 
     def enddate(self) -> str:
         """
@@ -104,8 +108,8 @@ class Race(Scraper):
 
         :return: enddate in `DD-MM-YYYY` format
         """
-        enddate_html = self._html.find(".infolist > li > div:nth-child(2)")[1]
-        return enddate_html.text
+        enddate_html = self.html.css(".infolist > li > div:nth-child(2)")[1]
+        return enddate_html.text()
 
     def category(self) -> str:
         """
@@ -113,8 +117,8 @@ class Race(Scraper):
 
         :return: race category e.g. `Men Elite`
         """
-        category_html = self._html.find(".infolist > li > div:nth-child(2)")[2]
-        return category_html.text
+        category_html = self.html.css(".infolist > li > div:nth-child(2)")[2]
+        return category_html.text()
 
     def uci_tour(self) -> str:
         """
@@ -122,15 +126,15 @@ class Race(Scraper):
 
         :return: UCI Tour of the race e.g. `UCI Worldtour`
         """
-        uci_tour_html = self._html.find(".infolist > li > div:nth-child(2)")[3]
-        return uci_tour_html.text
+        uci_tour_html = self.html.css(".infolist > li > div:nth-child(2)")[3]
+        return uci_tour_html.text()
 
     def stages(self, *args: str, available_fields: Tuple[str, ...] = (
             "date",
             "profile_icon",
             "stage_name",
             "stage_url",
-            "distance")) -> List[dict]:
+            "distance")) -> List[Dict[str, Any]]:
         """
         Parses race stages from HTML (available only on stage races)
 
@@ -143,24 +147,31 @@ class Race(Scraper):
         if self.is_one_day_race():
             raise ExpectedParsingError(
                 "This method is available only on stage races")
+
         fields = parse_table_fields_args(args, available_fields)
+        casual_fields = (
+            "profile_icon",
+            "stage_name",
+            "stage_url"
+        )
+        stages_table_html = self.html.css_first("div:nth-child(3) > ul.list")
+        # remove rest day table rows
+        for stage_e in stages_table_html.css("li"):
+            dist = stage_e.css_first("div:nth-child(5)").text()
+            if not dist:
+                stage_e.remove()
 
-        stages_fields = [field for field in fields if field != "date"]
-        stages_table_html = self._html.find("div:nth-child(3) > ul.list")[0]
         tp = TableParser(stages_table_html)
-        # function to skip rest days when parsing table
-        def skip_func(x): return True if "Restday" in x.text else False
-        tp.parse(stages_fields, skip_func)
+        casual_f_to_parse = [f for f in fields if f in casual_fields]
+        if casual_fields:
+            tp.parse(casual_f_to_parse)
+        # add stages dates to table if neede
         if "date" in fields:
-            tp.extend_table("date", 0, self._day_month_to_date, skip_func)
+            dates = tp.parse_extra_column(0, lambda x: get_day_month(x))
+            tp.extend_table("date", dates)        
+        # add distances to table if needed
+        if "distance" in fields:
+            distances = tp.parse_extra_column(4, lambda x:
+                float(x.split("k")[0].replace("(", "")) if x else None)
+            tp.extend_table("distance", distances)
         return tp.table
-
-    def _day_month_to_date(self, day_month) -> str:
-        """
-        Convert day and month e.g. `30/7` to date with race year
-
-        :param day_month: day and month separated by '/'
-        :return: date in in `YYYY-MM-DD` format
-        """
-        [day, month] = day_month.split("/")
-        return f"{self.year()}-{month}-{day}"

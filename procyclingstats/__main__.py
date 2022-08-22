@@ -1,7 +1,7 @@
 import sys
 # importing in case module is ran in interactive mode
 from pprint import pprint
-from typing import List
+from typing import List, Type
 
 from tabulate import tabulate
 
@@ -24,8 +24,8 @@ def tab(table: List[dict]) -> None:
     print(tabulate(table, headers="keys"))
     
 
-def get_scraper_obj_by_url(scraper_classes: List[Scraper],
-                           url: str) -> Scraper:
+def get_scraper_obj_by_url(scraper_classes: List[Type[Scraper]],
+                           url: str) -> Type[Scraper]:
     """
     Gets scraper class that can parse HTML from given URL
 
@@ -99,7 +99,7 @@ class CLI:
             
     def run(self):
         scraper_class = get_scraper_obj_by_url(self.scraper_classes, self.url)
-        scraper_obj = scraper_class(self.url)
+        scraper_obj = scraper_class(self.url, None, True)
         
         # object created, so return when running in interactive mode
         if sys.flags.interactive:

@@ -1,343 +1,9 @@
-from typing import Any, Dict, List, Literal, Optional, Tuple, Union
+from typing import Any, Callable, Dict, List, Literal, Optional, Tuple, Union
 
-from requests_html import HTML, Element
+from selectolax.parser import HTMLParser, Node
 
-from .utils import add_times, format_time, get_day_month
-
-
-class TableRowParser:
-    """
-    Parser for HTML table row, public methods parse data and return it
-
-    :param row: table row (`tr` or `li` element currently) to be parsed from
-    :param header: table header
-    """
-    row_child_tag_dict: Dict[str, str] = {
-        "tr": "td",
-        "li": "div"
-    }
-    """Finds out what is the row child tag based on table child tag"""
-
-    def __init__(self, row: Element, header: Optional[Element] = None) -> None:
-        self.row = row
-        self.header = header
-        self.row_child_tag = self.row_child_tag_dict[row.tag]
-
-    def _get_a(self, to_find: Literal["rider", "team", "race", "nation"],
-               url: bool = False) -> str:
-        """
-        Gets `a` element and returns it's text or URL
-
-        :param to_find: based on what keyword should be `a` element found
-        :param url: whether to return URL, when False returns text, defaults to
-        False
-        :return: text of the element, if url is True href of the element
-        """
-        for a in self.row.find("a"):
-            if a.attrs['href'].split("/")[0] == to_find:
-                # return url of rider or team
-                if url:
-                    return a.attrs['href']
-                # return name of rider or team
-                else:
-                    return a.text
-                    
-    def _get_column_index(self, column_name: str) -> Optional[int]:
-        """
-        Gets index of table header column with given column name.
-
-        :param column_name: text that should column have
-        :raises Exception: when header is None
-        :return: index of wanted column in header, when column wasn't found None
-        """
-        if self.header is None:
-            raise Exception("Table header can't be used when is None")
-        for i, row in enumerate(self.header.find("th")):
-            if column_name == row.text:
-                return i
-        return None
-
-    def rider_name(self) -> str:
-        """
-        Parses rider name
-
-        :return: rider name e.g. `POGACAR Tadej`
-        """
-        return self._get_a("rider")
-
-    def rider_url(self) -> str:
-        """
-        Parses rider URL from `a` element href
-
-        :return: rider URL e.g. `rider/tadej-pogacar`
-        """
-        return self._get_a("rider", True)
-
-    def team_name(self) -> str:
-        """
-        Parses team name
-
-        :return: team name e.g. `BORA - hansgrohe`
-        """
-        return self._get_a("team")
-
-    def team_url(self) -> str:
-        """
-        Parses team URL from `a` element href
-
-        :return: team URL e.g. `team/bora-hansgrohe`
-        """
-        return self._get_a("team", True)
-
-    def rank(self) -> Optional[int]:
-        """
-        Parses rank from table (first row column)
-
-        :return: rank as int if found, otherwise None
-        """
-        rank_html = self.row.find(self.row_child_tag)[0]
-        if not rank_html.text.isnumeric():
-            return None
-        else:
-            return int(rank_html.text)
-
-    def status(self) -> str:
-        """
-        Parses status (same element as rank)
-
-        :return: if rank is numeric returns `DF` otherwise returns rank text
-        value, e.g. `DNF`
-        """
-        status_html = self.row.find(self.row_child_tag)[0]
-        if status_html.text.isnumeric():
-            return "DF"
-        else:
-            return status_html.text
-
-    def prev_rank(self) -> Optional[int]:
-        """
-        Parses rank from previous stage (available only for stage races)
-
-        :return: previous rank as int if found, otherwise None
-        """
-        rank_html = self.row.find(self.row_child_tag)[1]
-        if rank_html.text:
-            return int(rank_html.text)
-        else:
-            return None
-
-    def age(self) -> int:
-        """
-        Parses age (available only for tables with riders)
-
-        :return: age
-        """
-        age_html = self.row.find(".age")[0]
-        return int(age_html.text)
-
-    def nationality(self) -> str:
-        """
-        Parses nationality
-
-        :return: nationality as 2 chars long country code in uppercase
-        """
-        nationality_html = self.row.find(".flag")[0]
-        return nationality_html.attrs['class'][1].upper()
-
-    def time(self) -> str:
-        """
-        Parses time
-
-        :return: time, when first row is parsed absolute, otherwise relative
-        """
-        hidden_time_list = self.row.find(".time > .hide")
-        if hidden_time_list:
-            time = hidden_time_list[0].text
-        else:
-            time = self.row.find(".time")[0].text.split("\n")[0]
-        if time == "-":
-            time = None
-        if time is not None:
-            time = format_time(time)
-        return time
-
-    def bonus(self) -> int:
-        """
-        Parses bonus seconds gained (available only in stage races)
-
-        :return: bonus seconds as int, 0 if not found
-        """
-        bonus_html_list = self.row.find(".bonis")
-        if not bonus_html_list:
-            return 0
-        bonus = bonus_html_list[0].text.replace("″", "")
-        if not bonus:
-            return 0
-        return int(bonus)
-
-    def points(self) -> float:
-        """
-        Parses points (last `td` element from row that is not .delta_pnt)
-
-        :return: points
-        """
-        points_html = self.row.find(f"{self.row_child_tag}:not(.delta_pnt)"
-                                    ":not(.clear)")[-1]
-        return float(points_html.text)
-
-    def pcs_points(self) -> int:
-        """
-        Parses PCS points
-
-        :return: PCS points, when not found returns 0
-        """
-        pcs_points_column_index = self._get_column_index("PCS points")
-        if not pcs_points_column_index:
-            pcs_points_column_index = self._get_column_index("Pnt")
-        if pcs_points_column_index:
-            points = self.row.find(self.row_child_tag)[pcs_points_column_index].text
-            if points.isnumeric():
-                return int(points)
-            else:
-                return 0
-        else:
-            return 0
-
-    def uci_points(self) -> float:
-        """
-        Parses UCI points
-
-        :return: UCI points, when not found returns 0
-        """
-        pcs_points_column_index = self._get_column_index("UCI points")
-        if not pcs_points_column_index:
-            pcs_points_column_index = self._get_column_index("UCI")
-        if pcs_points_column_index:
-            points = self.row.find(self.row_child_tag)[pcs_points_column_index].text
-            if points.isnumeric():
-                return float(points)
-            else:
-                return 0
-        else:
-            return 0
-    def race_name(self) -> str:
-        """
-        Parses race name
-
-        :return: race name e.g `Tour de France`
-        """
-        return self._get_a("race", False)
-
-    def race_url(self) -> str:
-        """
-        Parses race URL from `a` element href
-
-        :return: race's URL e.g. `race/tour-de-france`
-        """
-        return self._get_a("race", True)
-
-    def nation_name(self) -> str:
-        """
-        Parses nation name
-
-        :return: nation name e.g. `Belgium`
-        """
-        return self._get_a("nation", False)
-
-    def nation_url(self) -> str:
-        """
-        Parses nation URL from `a` element href
-
-        :return: nation url e.g. `nation/belgium`
-        """
-        return self._get_a("nation", True)
-
-    def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
-        """
-        Parses profile icon
-
-        :return: profile icon e.g. `p4`, the higher the number is the more
-        difficult the profile is
-        """
-        return self.row.find(".icon.profile")[0].attrs['class'][-1]
-
-    def stage_name(self) -> str:
-        """
-        Parses stage name from `a` element text
-
-        :return: stage name e.g. `Stage 1 (ITT) | Copenhagen - Copenhagen`
-        """
-        return self._get_a("race")
-
-    def stage_url(self) -> str:
-        """
-        Parses stage URL from `a` element href
-
-        :return: stage URL e.g. `race/tour-de-france/2022/stage-1`
-        """
-        return self._get_a("race", True)
-
-    def distance(self) -> float:
-        """
-        Parses distance of the stage (works only on race stages table)
-
-        :return: distance in kms
-        """
-        distance_raw = self.row.find(self.row_child_tag)[-2].text
-        # convert distance in `(12.2k)` format to 12.2 format
-        return float(distance_raw.replace("k", "")[1:-1])
-
-    def season(self) -> int:
-        """
-        Parses season (used for parsing tables from rider page)
-
-        :return: season
-        """
-        return int(self.row.find(f"{self.row_child_tag}.season")[0].text)
-
-    def rider_number(self) -> int:
-        """
-        Parses rider number (available in startlist_v3 only)
-
-        :return: rider number
-        """
-        return int(self.row.text.split(" ")[0])
-
-    def until(self) -> str:
-        """
-        Parses date until which rider was part of a team
-
-        :return: date in `MM-DD` format, if until isn't found `12-31` is
-        returned
-        """
-        for element in self.row.find(self.row_child_tag):
-            if "until" in element.text:
-                day, month = get_day_month(element.text)
-                return f"{month}-{day}"
-        return "12-31"
-
-    def since(self) -> str:
-        """
-        Parses date since which rider was part of a team
-
-        :return: date in `MM-DD` format, if until isn't found `01-01` is
-        returned
-        """
-        for element in self.row.find(self.row_child_tag):
-            if "as from" in element.text:
-                day, month = get_day_month(element.text)
-                return f"{month}-{day}"
-        return "01-01"
-
-    def get_other(self, index: int) -> str:
-        """
-        Parses `td` elementh that is index-th child of current row HTML, used
-        for elements that can't be accessed always by same path e.g. UCI points
-
-        :param index: index of wanted `td` element, negative indexing works too
-        :return: text attribute of wanted element
-        """
-        return self.row.find(self.row_child_tag)[index].text
+from .errors import ExpectedParsingError, UnexpectedParsingError
+from .utils import add_times, format_time
 
 
 class TableParser:
@@ -346,169 +12,328 @@ class TableParser:
     represented as list of dicts
 
     :param html_table: HTML table to be parsed from
+    :param extra_header: header of given table (if isn't passed header from
+    given html table is taken, if isn't found header is set to None)
     """
 
-    child_tag_dict: Dict[str, Any] = {
+    child_tag_dict: Dict[str, str] = {
         "tbody": "tr",
+        "table": "tr",
         "ul": "li"
     }
     """Finds out what is the table children tag"""
-    ttt_fields: List[str] = [
-        "rank",
-        "time",
-        "rider_name",
-        "rider_url",
-        "team_name",
-        "team_url",
-        "pcs_points",
-        "uci_points",
-        "pcs_points",
-        "status"
-    ]
-    """Fields that are available in TTT results table"""
+    row_child_tag_dict: Dict[str, str] = {
+        "tr": "td",
+        "li": "div"
+    }
+    """Finds out what is the table row children tag"""
 
-    def __init__(self, html_table: Element) -> None:
-        header = html_table.find("thead > tr")
-        if header:
-            self.header = header[0]
-            self.html_table: HTML = html_table.find("tbody")[0]
+    def __init__(self, html_table: Node) -> None:
+        self.table = []
+        table_body = html_table.css_first("tbody")
+        if table_body:
+            self.html_table = table_body
+            self.header = html_table.css_first("thead")
         else:
+            self.html_table = html_table
             self.header = None
-            self.html_table: HTML = html_table
+
         self.table_child_tag = self.child_tag_dict[self.html_table.tag]
-        self.table: List[dict] = []
+        self.row_child_tag = self.row_child_tag_dict[self.table_child_tag]
+
+        self.a_elements = self.html_table.css("a")
+        self.table_length = len(self.html_table.css(self.table_child_tag))
+        self.row_length = len(self.html_table.css(
+            f"{self.table_child_tag}:first-child > {self.row_child_tag}"))
 
     def parse(self, fields: Union[List[str], Tuple[str, ...]],
-              skip_when: callable = lambda _: False) -> None:
+              skip_when: Callable = lambda _: False) -> None:
         """
         Parses HTML table to `self.table` (list of dicts) by calling given
-        `TableRowParses` methods. Every parsed table row is dictionary with
+        table parsing methods. Every parsed table row is dictionary with
         `fields` keys
 
-        :param fields: `TableRowParser` public methods with no parameters to be
-        called
-        :param skip_when: function to call on every table row HTML, when returns
-        True parser skips the row, always returns False by default
-        :current fields options:
+        :param fields: table parsing methods of this class
+        :param skip_when: Function to call on every table row (dict where keys
+        are given fields and values parsed values). When returns true row is
+        removed from the table.
+
+        :regular fields options:
             - rider_name
             - rider_url
             - team_name
             - team_url
-            - rank
-            - status
-            - prev_rank
+            - stage_name
+            - stage_url
+            - nation_name
+            - nation_url
             - age
             - nationality
             - time
             - bonus
-            - points
+            - profile_icon
+            - season
+
+        :fields options for tables with a header:
+            - rank
+            - status
+            - prev_rank
             - pcs_points
             - uci_points
-            - race_name
-            - race_url
-            - nation_name
-            - nation_url
+            - points
+            - class
             - date
-            - profile_icon
-            - stage_name
-            - stage_url
             - distance
-            - season
-            - since
-            - until
         """
-        for child_html in self.html_table.find(self.table_child_tag):
-            if skip_when(child_html):
-                continue
-            row_parser = TableRowParser(child_html, self.header)
-            # add to every wanted property to parsed table row by calling
-            # corresponding method
-            parsed_row = {field: getattr(row_parser, field)()
-                          for field in fields}
-            self.table.append(parsed_row)
+        raw_table = []
+        for _ in range(self.table_length):
+            raw_table.append({})
 
-    def parse_ttt_table(self, fields: List[str]) -> None:
-        """
-        Special method for parsing TTT results
-
-        :param fields: wanted fields (public `TableParser` methods are current\
-            options)
-        :return: table with wanted fields represented as list of dicts
-        """
-        for tr in self.html_table.find(self.table_child_tag):
-            trp = TableRowParser(tr)
-            if "team" in tr.attrs['class']:
-                current_rank = trp.rank()
-                # gets third td element, which is time
-                current_team_time = trp.get_other(2)
-                current_team_name = trp.team_name()
-                current_team_url = trp.team_url()
+        for field in fields:
+            if field != "class":
+                parsed_field_list = getattr(self, field)()
+            # special case when field is called class
             else:
-                rider_name = trp.rider_name()
-                rider_url = trp.rider_url()
-                extra_time = tr.find("span.blue")
-                pcs_points = tr.find(".ac")[0].text
-                pcs_points = 0 if not pcs_points else int(pcs_points)
-                uci_points = tr.find(".ac.blue")[0].text
-                uci_points = 0 if not uci_points else float(uci_points)
-                if extra_time:
-                    rider_time = add_times(extra_time[0].text, current_team_time)
-                else:
-                    rider_time = format_time(current_team_time)
-                full_dict = {
-                    "rank": current_rank,
-                    "time": rider_time,
-                    "rider_name": rider_name,
-                    "rider_url": rider_url,
-                    "team_name": current_team_name,
-                    "team_url": current_team_url,
-                    "pcs_points": pcs_points,
-                    "uci_points": uci_points,
-                    "status": "DF"
-                }
-                self.table.append({})
-                # drop unwanted fields
-                for field in full_dict.keys():
-                    if field in fields:
-                        self.table[-1][field] = full_dict[field]
+                parsed_field_list = getattr(self, "class_")()
+            # field wasn't found in every table row, so isn't matching table
+            # rows correctly
+            if len(parsed_field_list) != self.table_length:
+                message = f"Field '{field}' wasn't parsed correctly"
+                raise UnexpectedParsingError(message)
 
-    def extend_table(self, field_name: str, index: int, func: callable,
-                     skip_when: callable = lambda _: False) -> None:
-        """
-        Extends table by adding text of index-th `td` element from each row from
-        HTML table
+            for row, parsed_value in zip(raw_table, parsed_field_list):
+                row[field] = parsed_value
+ 
+        # remove unwanted rows
+        for row in raw_table:
+            if not skip_when(row):
+                self.table.append(row)
 
-        :param field_name: key that will represent parsed value in table row
-        dict
-        :param index: index of `tr` child element that will be parsed
-        :param func: function to be called on parsed string
-        :param skip_when: function, when returns True row isn't parsed
+        if "time" in fields and self.table:
+            self._make_times_absolute()
+
+    def extend_table(self, field_name: str, values: List[Any]):
         """
-        i = 0
-        for child_html in self.html_table.find(self.table_child_tag):
-            if skip_when(child_html):
+        Add given values to table.
+
+        :param field_name: name for column that's being added
+        :param values: values which are being added
+        :raises ValueError: when values to add aren't the same length as table
+        """
+        if len(values) != self.table_length:
+            raise ValueError(
+                "Given values has to be the same length as table rows count")
+        if self.table:
+            for row, value in zip(self.table, values):
+                row[field_name] = value
+        else:
+            for value in values:
+                self.table.append({field_name: value})
+            
+    def parse_extra_column(self, index_or_header_value: Union[int, str],
+                     func: Callable = int,
+                     skip: Callable = lambda _: False,
+                     separator: str = "") -> List[Any]:
+        """
+        Parses values from given column.
+
+        :param index_or_header_value: either index of column to parse (negative
+        indexing works too) or column name from table header (table has to have
+        a header in that case)
+        :param func: function to call on parsed text value, defaults to int
+        :param skip: fucntion to call on every element that is going to be
+        parsed when returns True element isn't parsed, defaults to lambda _: 
+        False
+        :param separator: separator for text attributes given to `func`
+        :return: list with parsed values
+        """
+        if isinstance(index_or_header_value, str):
+            index = self._get_column_index_from_header(index_or_header_value)
+        else:
+            index = index_or_header_value
+        if index < 0:
+            index = self.row_length + index
+        elements = self.html_table.css(
+            f"{self.table_child_tag} > {self.row_child_tag}:nth-child({index+1})")
+
+        values = []
+        for element in elements:
+            if skip(element):
                 continue
-            row_parser = TableRowParser(child_html)
-            if i >= len(self.table):
-                self.table.append(
-                    {field_name: func(row_parser.get_other(index))}
-                )
+            values.append(func(element.text(separator=separator)))
+        return values
+
+    def rider_url(self) -> List[str]:
+        return self._filter_a_elements("rider", True)
+
+    def rider_name(self) -> List[str]:
+        return self._filter_a_elements("rider", False)
+
+    def team_url(self) -> List[str]:
+        return self._filter_a_elements("team", True)
+
+    def team_name(self) -> List[str]:
+        return self._filter_a_elements("team", False)
+
+    def stage_url(self) -> List[str]:
+        return self._filter_a_elements("race", True)
+
+    def stage_name(self) -> List[str]:
+        return self._filter_a_elements("race", False)
+
+    def nation_url(self) -> List[str]:
+        nations_urls = self._filter_a_elements("nation", True)
+        # return only urls to nation overview, not `pcs-season-wins`
+        return [url for url in nations_urls if "pcs" not in url]
+
+    def nation_name(self) -> List[str]:
+        nations_texts = self._filter_a_elements("nation", False)
+        # return text only when is not numeric, so doesn't represent number of
+        # wins of the nation
+        return [text for text in nations_texts
+                if not text.isnumeric() and text != "-"]
+
+    def age(self) -> List[int]:
+        ages_elements = self.html_table.css(".age")
+        return [int(age_e.text()) for age_e in ages_elements]
+
+    def nationality(self) -> List[str]:
+        flags_elements = self.html_table.css(".flag")
+        flags = []
+        for flag_e in flags_elements:
+            if flag_e.attributes['class'] and " " in flag_e.attributes['class']:
+                flags.append(flag_e.attributes['class'].split(" ")[1].upper())
+        return flags
+
+    def time(self) -> List[Optional[str]]:
+        times_elements = self.html_table.css(".time")
+        times = []
+        for time_e in times_elements:
+            time_e_text = time_e.text(separator="\n")
+            rider_time = None
+            for time_line in time_e_text.split("\n"):
+                if ",," not in time_line and "″" not in time_line:
+                    rider_time = time_line
+                    break
+            if rider_time == "-" or rider_time == None:
+                rider_time = None
             else:
-                self.table[i][field_name] = func(row_parser.get_other(index))
-            i += 1
+                rider_time = format_time(rider_time.replace(" ", ""))
+            times.append(rider_time)
+        return times
 
-    def make_times_absolute(self, time_field: str = "time") -> None:
+    def bonus(self) -> List[int]:
         """
-        Sums all times from table with first time from table. Table has to have
-        at least 2 rows.
+        Parses all bonuses elements from the table. If there aren't any returns
+        where every row has bonus 0.
 
-        :param time_field: field which represents wanted time, defaults to
-        `time`
+        :return: list of bonuses
         """
-        first_time = self.table[0][time_field]
-        for row in self.table[1:]:
-            if row[time_field]:
-                row[time_field] = add_times(first_time, row['time'])
+        bonuses_elements = self.html_table.css(".bonis")
+        bonuses = []
+        for bonus_e in bonuses_elements:
+            bonus = bonus_e.text().replace("″", "")
+            if not bonus:
+                bonus = 0
+            else:
+                bonus = int(bonus)
+            bonuses.append(bonus)
+        if not bonuses:
+            bonuses = [0 for _ in range(self.table_length)]
+        return bonuses
+
+    def profile_icon(self) -> List[Literal[
+        "p0", "p1", "p2", "p3", "p4", "p5"
+    ]]:
+        icons_elements = self.html_table.css(".icon.profile")
+        profiles = []
+        for icon_e in icons_elements:
+            classes = icon_e.attributes['class']
+            if classes and len(classes.split(" ")) >= 3:
+                profiles.append(classes.split(" ")[-1])
+        return profiles
+
+    def season(self) -> List[Optional[int]]:
+        """
+        Parses all season elements text values from table. If value is not
+        numeric sesaon is set to None.
+
+        :return: list of seasons
+        """
+        seasons_elements = self.html_table.css(".season")
+        seasons = []
+        for season_e in seasons_elements:
+            season_e_text = season_e.text()
+            if season_e_text.isnumeric():
+                seasons.append(int(season_e_text))
+            else:
+                seasons.append(None)
+        return seasons
+    
+    def rank(self) -> List[Optional[int]]:
+        format_rank_func = lambda x: int(x) if x.isnumeric() else None
+        try:
+            return self.parse_extra_column("Rnk", format_rank_func)
+        except ValueError:
+            try:
+                return self.parse_extra_column("pos", format_rank_func)
+            except ValueError:
+                return self.parse_extra_column("#", format_rank_func)
+
+    def status(self) -> List[Literal[
+        "DF", "DNF", "DNS", "OTL", "DSQ"
+    ]]:
+        return self.parse_extra_column("Rnk",
+            lambda x: "DF" if x.isnumeric() else x)
+
+    def prev_rank(self) -> List[Optional[int]]:
+        try:
+            return self.parse_extra_column("Prev",
+                                           lambda x: int(x) if x else None)
+        except ValueError:
+            return [None for _ in range(self.table_length)]
+
+    def uci_points(self) -> List[Optional[float]]:
+        try:
+            return self.parse_extra_column("UCI",
+                                           lambda x: float(x) if x else 0)
+        except ValueError:
+            return [0 for _ in range(self.table_length)]
+    
+    def pcs_points(self) -> List[Optional[int]]:
+        format_points_func = lambda x: int(x) if x else 0
+        try:
+            return self.parse_extra_column("Pnt", format_points_func)
+        except ValueError:
+            try:
+                return self.parse_extra_column("PCS points", format_points_func)
+            except ValueError:
+                return [0 for _ in range(self.table_length)]
+    
+    def points(self) -> List[int]:
+        return self.parse_extra_column("Points", float)
+    
+    def class_(self) -> List[str]:
+        """
+        Parses classes from table with a header. Method is called class_ so
+        it won't be interchanged with class keyword. In parsed table underscore
+        is removed.
+
+        :return: list of classes
+        """
+        return self.parse_extra_column("Class", str)
+
+    def first_places(self) -> List[Optional[int]]:
+        return self.parse_extra_column("Wins", lambda x: int(x) if x.isnumeric()
+                                       else 0)
+
+    def second_places(self) -> List[Optional[int]]:
+        return self.parse_extra_column("2nd", lambda x: int(x) if x.isnumeric()
+                                       else 0)
+
+    def third_places(self) -> List[Optional[int]]:
+        return self.parse_extra_column("3rd", lambda x: int(x) if x.isnumeric()
+                                       else 0)
 
     def table_to_dict(self, key_field: str) -> Dict[str, dict]:
         """
@@ -524,3 +349,57 @@ class TableParser:
             return {row[key_field]: row for row in self.table}
         except KeyError:
             raise ValueError(f"Invalid key_field argument: {key_field}")
+
+    def rename_field(self, field_name: str, new_field_name: str) -> None:
+        """
+        Renames field from table.
+
+        :param field_name: original field name
+        :param new_field_name: new name of original field
+        """
+        for row in self.table:
+            value = row.pop(field_name)
+            row[new_field_name] = value
+
+    def _get_column_index_from_header(self, column_name: str) -> int:
+        if self.header is None:
+            raise ExpectedParsingError(
+                f"Can not parse '{column_name}' column without table header")
+        for i, column_name_e in enumerate(self.header.css("th")):
+            if column_name.lower() in column_name_e.text().lower():
+                return i
+        raise ValueError(
+            f"'{column_name}' column isn't in table header")
+
+    def _make_times_absolute(self, time_field: str = "time") -> None:
+        """
+        Sums all times from table with first time from table. Table has to have
+        at least 2 rows.
+
+        :param time_field: field which represents wanted time, defaults to
+        `time`
+        """
+        first_time = self.table[0][time_field]
+        for row in self.table[1:]:
+            if row[time_field]:
+                row[time_field] = add_times(first_time, row['time'])
+
+    def _filter_a_elements(self, keyword: str, get_href: bool) -> List[str]:
+        """
+        Filters from all a elements these which has at the beggining of their
+        href given keyword and gets their href or text.
+
+        :param keyword: keyword that element's href should have
+        :param get_href: whether to return the href of a element, when False
+        text is returned
+        :return: list of all a elements texts or hrefs with given keyword
+        """
+        filtered_values = []
+        for a_element in self.a_elements:
+            href = a_element.attributes['href']
+            if href and href.split("/")[0] == keyword:
+                if get_href:
+                    filtered_values.append(href)
+                else:
+                    filtered_values.append(a_element.text())
+        return filtered_values

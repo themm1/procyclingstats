@@ -5,7 +5,7 @@ from selectolax.parser import HTMLParser, Node
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 # from .table_parser import TableParser
-from .table_parser2 import TableParser
+from .table_parser import TableParser
 from .utils import (add_times, convert_date, format_time, join_tables,
                     parse_table_fields_args, reg)
 
@@ -29,8 +29,6 @@ class Stage(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
-        if self._html and self._html.html:
-            self._html = HTMLParser(self._html.html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -59,7 +57,7 @@ class Stage(Scraper):
         """
         # If there are elements with .restabs class (Stage/GC... menu), the race
         # is a stage race
-        return len(self._html.css(".restabs")) == 0
+        return len(self.html.css(".restabs")) == 0
 
     def distance(self) -> float:
         """
@@ -67,7 +65,7 @@ class Stage(Scraper):
 
         :return: stage distance in kms
         """
-        distance_html = self._html.css_first(
+        distance_html = self.html.css_first(
             ".infolist > li:nth-child(5) > div:nth-child(2)")
         return float(distance_html.text().split(" km")[0])
 
@@ -78,7 +76,7 @@ class Stage(Scraper):
         :return: profile icon e.g. `p4`, the higher the number is the more
         difficult the profile is
         """
-        profile_html = self._html.css_first("span.icon")
+        profile_html = self.html.css_first("span.icon")
         return profile_html.attributes['class'].split(" ")[2] # type: ignore
 
     def stage_type(self) -> Literal["ITT", "TTT", "RR"]:
@@ -87,8 +85,8 @@ class Stage(Scraper):
 
         :return: stage type
         """
-        stage_name_html = self._html.css_first(".sub > .blue")
-        stage_name2_html = self._html.css_first("div.main > h1")
+        stage_name_html = self.html.css_first(".sub > .blue")
+        stage_name2_html = self.html.css_first("div.main > h1")
         stage_name = stage_name_html.text()
         stage_name2 = stage_name2_html.text()
         if "ITT" in stage_name or "ITT" in stage_name2:
@@ -105,7 +103,7 @@ class Stage(Scraper):
         :param when_none_or_unknown: value to return when there is no info
         about winning attack, defaults to 0.0
         :return: length of winning attack"""
-        won_how_html = self._html.css_first(
+        won_how_html = self.html.css_first(
             ".infolist > li:nth-child(12) > div:nth-child(2)")
         won_how = won_how_html.text()
         if " km solo" in won_how:
@@ -119,7 +117,7 @@ class Stage(Scraper):
 
         :return: vertical meters
         """
-        vertical_meters_html = self._html.css_first(
+        vertical_meters_html = self.html.css_first(
             ".infolist > li:nth-child(9) > div:nth-child(2)")
         vertical_meters = vertical_meters_html.text()
         return int(vertical_meters) if vertical_meters else None
@@ -130,7 +128,7 @@ class Stage(Scraper):
 
         :return: date when stage took place `YYYY-MM-DD`
         """
-        date_html = self._html.css_first(f".infolist > li > div:nth-child(2)")
+        date_html = self.html.css_first(f".infolist > li > div:nth-child(2)")
         date = date_html.text().split(", ")[0]
         return convert_date(date)
 
@@ -140,7 +138,7 @@ class Stage(Scraper):
 
         :return: departure of the stage
         """
-        departure_html = self._html.css_first(
+        departure_html = self.html.css_first(
             ".infolist > li:nth-child(10) > div:nth-child(2)")
         return departure_html.text()
 
@@ -150,7 +148,7 @@ class Stage(Scraper):
 
         :return: arrival of the stage
         """
-        arrival_html = self._html.css_first(
+        arrival_html = self.html.css_first(
             ".infolist > li:nth-child(11) > div:nth-child(2)")
         return arrival_html.text()
 
@@ -180,7 +178,7 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
-        categories = self._html.css(self._tables_path)
+        categories = self.html.css(self._tables_path)
         results_table_html = categories[0]
         # Results table is empty
         if (not results_table_html or 
@@ -371,8 +369,8 @@ class Stage(Scraper):
         :param table: keyword of wanted table that occures in .restabs menu
         :return: HTML of wanted HTML table, None when not found
         """
-        categories = self._html.css(".result-cont")
-        for i, element in enumerate(self._html.css("ul.restabs > li > a")):
+        categories = self.html.css(".result-cont")
+        for i, element in enumerate(self.html.css("ul.restabs > li > a")):
             if table in element.text().lower():
                 return categories[i].css_first("table")
 

@@ -1,12 +1,11 @@
 from typing import Any, Dict, List, Literal, Optional, Tuple
 
-from requests_html import HTML
-from selectolax.parser import HTMLParser, Node
+from selectolax.parser import Node
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .select_parser import SelectParser
-from .table_parser2 import TableParser
+from .table_parser import TableParser
 from .utils import parse_table_fields_args, reg
 
 
@@ -29,8 +28,6 @@ class Ranking(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
-        if self._html and self._html.html:
-            self._html = HTMLParser(self._html.html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -79,7 +76,7 @@ class Ranking(Scraper):
             "team_url",
             "nationality",
             "class",
-            "points")) -> List[dict]:
+            "points")) -> List[Dict[str, Any]]:
         """
         Parses team ranking from HTML
 
@@ -101,7 +98,7 @@ class Ranking(Scraper):
             "nation_name",
             "nation_url",
             "nationality",
-            "points")) -> List[dict]:
+            "points")) -> List[Dict[str, Any]]:
         """
         Parses nations ranking from HTML
 
@@ -124,7 +121,7 @@ class Ranking(Scraper):
             "race_url",
             "nationality",
             "class",
-            "points")) -> List[dict]:
+            "points")) -> List[Dict[str, Any]]:
         """
         Parses races ranking from HTML
 
@@ -140,7 +137,7 @@ class Ranking(Scraper):
                 "with race ranking URL to call this method.")
 
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.css_first("table")
+        html_table = self.html.css_first("table")
         tp = TableParser(html_table)
         # parse race name and url as stage name and url and rename it afterwards
         if "race_name" in fields:
@@ -164,7 +161,7 @@ class Ranking(Scraper):
                                     "first_places",
                                     "second_places",
                                     "third_places"
-                                )) -> List[dict]:
+                                )) -> List[Dict[str, Any]]:
         """
         Parses individual wins ranking from HTML
 
@@ -190,7 +187,7 @@ class Ranking(Scraper):
                                "class",
                                "first_places",
                                "second_places",
-                               "third_places")) -> List[dict]:
+                               "third_places")) -> List[Dict[str, Any]]:
         """
         Parses teams wins ranking from HTML
 
@@ -215,7 +212,7 @@ class Ranking(Scraper):
                                  "nationality",
                                  "first_places",
                                  "second_places",
-                                 "third_places")) -> List[dict]:
+                                 "third_places")) -> List[Dict[str, Any]]:
         """
         Parses nations wins ranking from HTML
 
@@ -232,7 +229,7 @@ class Ranking(Scraper):
 
     def dates_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
             "text",
-            "value")) -> List[dict]:
+            "value")) -> List[Dict[str, str]]:
         """
         Parses dates select menu from HTML
 
@@ -249,7 +246,7 @@ class Ranking(Scraper):
 
     def nations_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
             "text",
-            "value")) -> List[dict]:
+            "value")) -> List[Dict[str, str]]:
         """
         Parses nations select menu from HTML
 
@@ -266,7 +263,7 @@ class Ranking(Scraper):
 
     def teams_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
             "text",
-            "value")) -> List[dict]:
+            "value")) -> List[Dict[str, str]]:
         """
         Parses teams select menu from HTML
 
@@ -283,7 +280,7 @@ class Ranking(Scraper):
 
     def pages_select(self, *args: str, avialable_fields: Tuple[str, ...] = (
             "text",
-            "value")) -> List[dict]:
+            "value")) -> List[Dict[str, str]]:
         """
         Parses pages select menu from HTML
 
@@ -301,7 +298,7 @@ class Ranking(Scraper):
     def teamlevels_select(self, *args: str,
                           avialable_fields: Tuple[str, ...] = (
                               "text",
-                              "value")) -> List[dict]:
+                              "value")) -> List[Dict[str, str]]:
         """
         Parses team levels select menu from HTML
 
@@ -360,14 +357,14 @@ class Ranking(Scraper):
         :raises Exception: when select menu with that label wasn't found
         :return: HTML of wanted select menu
         """
-        labels = self._html.css("ul.filter > li > .label")
+        labels = self.html.css("ul.filter > li > .label")
         index = -1
         for i, label_html in enumerate(labels):
             if label_html.text() == label:
                 index = i
         if index == -1:
             raise ExpectedParsingError(f"{label} select not in page HTML.")
-        return self._html.css("li > div > select")[index]
+        return self.html.css("li > div > select")[index]
 
     def _parse_regular_ranking_table(self,
             args: Tuple[str, ...],
@@ -380,13 +377,14 @@ class Ranking(Scraper):
         :return: table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        html_table = self._html.css_first("table")
+        html_table = self.html.css_first("table")
         tp = TableParser(html_table)
         tp.parse(fields)
         return tp.table
 
     @ staticmethod
-    def _parse_select(select_menu_html: Node, fields: List[str]) -> List[dict]:
+    def _parse_select(select_menu_html: Node,
+                      fields: List[str]) -> List[Dict[str, Any]]:
         """
         Uses `SelectParser` and gets parsed table
 

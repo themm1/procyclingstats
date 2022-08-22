@@ -1,7 +1,7 @@
 import inspect
 from typing import Any, Callable, Dict, List, Literal, Optional, Tuple
 
-from requests_html import HTML, HTMLSession
+import requests
 from selectolax.parser import HTMLParser
 
 from .errors import ExpectedParsingError, ParsedValueInvalidError
@@ -25,13 +25,13 @@ class Scraper:
         self._url = self._get_valid_url(url)
         self._html = None
         if html:
-            self._html = self._get_valid_html(html)
+            self._html = HTMLParser(html)
         if update_html:
             self.update_html()
 
     def __repr__(self) -> str:
-        """Returns `self.url`"""
-        return self._url
+        """Returns relative URL of the object"""
+        return self.relative_url()
 
     @property
     def url(self) -> str:
@@ -39,24 +39,36 @@ class Scraper:
         return self._url
 
     @property
-    def html(self) -> Optional[HTML]:
-        """Get HTML of a scraper object"""
+    def html(self) -> HTMLParser:
+        """
+        Get HTML of a scraper object
+
+        :raises ExpectedParsingError: when HTML is None
+        """
+        if self._html is None:
+            raise ExpectedParsingError(
+                "In order to access HTML, update it.")
         return self._html
 
-    def _get_valid_html(self, html: str) -> HTML:
-        try:
-            return HTML(html=html, url=self._url)
-        except TypeError:
-            raise TypeError("HTML has to be a string")
-
-    def _get_valid_url(self, url: str) -> str:
+    def relative_url(self) -> str:
         """
-        Method for validating and formatting given URL, should be overriden by
-        subclass
+        Makes relative URL from absolute url (cuts `self.base_url` from URL)
 
-        :return: absolute URL
+        :return: relative URL
         """
-        return self._make_absolute_url(url)
+        return "/".join(self._url.split("/")[3:])
+
+    def update_html(self) -> None:
+        """
+        Calls request to `self.url` using `Scraper._request_html` and
+        updates `self.html` to returned HTML
+        :raises ValueError: when URL isn't valid (after making request)
+        """
+        html_str = self._request_html()
+        html = HTMLParser(html_str)
+        if html.css_first(".page-title > .main > h1").text()== "Page not found":
+            raise ValueError(f"Invalid URL: {self._url}")
+        self._html = html
 
     def parse(self,
               exceptions_to_ignore: Tuple[Any, ...] = (ExpectedParsingError,),
@@ -80,6 +92,15 @@ class Scraper:
                 if none_when_unavailable:
                     parsed_data[method_name] = None
         return parsed_data
+
+    def _get_valid_url(self, url: str) -> str:
+        """
+        Method for validating and formatting given URL, should be overriden by
+        subclass
+
+        :return: absolute URL
+        """
+        return self._make_absolute_url(url)
 
     def _get_parsing_methods(self) -> List[Tuple[str, Callable]]:
         """
@@ -130,31 +151,11 @@ class Scraper:
             raise ValueError(f"Given URL is indvalid: '{url}', example of valid"
                              f" URL: '{correct_url_example}'")
 
-    def relative_url(self) -> str:
-        """
-        Makes relative URL from absolute url (cuts `self.base_url` from URL)
 
-        :return: relative URL
-        """
-        return "/".join(self._url.split("/")[3:])
-
-    def _request_html(self) -> HTML:
+    def _request_html(self) -> str:
         """
         Makes request to `self.url` and returns it's HTML
 
-        :raises ValueError: when URL isn't valid (after making request)
-        :return: HTML obtained from `self.url`
+        :return: HTML obtained from `self.url` as str
         """
-        session = HTMLSession()
-        html = session.get(self._url).html
-        if html.find(".page-title > .main > h1")[0].text == "Page not found":
-            raise ValueError(f"Invalid URL: {self._url}")
-        return html
-
-    def update_html(self) -> None:
-        """
-        Calls request to `self.url` using `Scraper._request_html` and
-        updates `self.html` to returned HTML
-        :raises ValueError: when URL isn't valid (after making request)
-        """
-        self._html = self._request_html()
+        return requests.get(self._url).text

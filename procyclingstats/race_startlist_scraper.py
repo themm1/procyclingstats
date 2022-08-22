@@ -3,7 +3,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from selectolax.parser import HTMLParser
 
 from .scraper import Scraper
-from .table_parser2 import TableParser
+from .table_parser import TableParser
 from .utils import parse_table_fields_args, reg
 
 
@@ -24,8 +24,6 @@ class RaceStartlist(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
-        if self._html:
-            self._html = HTMLParser(self._html.html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -63,11 +61,11 @@ class RaceStartlist(Scraper):
         :return: startlist table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        startlist_html = self._html.css_first(".startlist_v3")
+        startlist_html = self.html.css_first(".startlist_v3")
         # startlist is individual startlist e.g. 
         # race/tour-de-pologne/2009/gc/startlist
         if startlist_html.css_first("li.team") is None:
-            startlist_html = self._html.css_first(".page-content > div")
+            startlist_html = self.html.css_first(".page-content > div")
             startlist_table = []
             for i, rider_a in enumerate(startlist_html.css("a:not([class])")):
                 startlist_table.append({})
