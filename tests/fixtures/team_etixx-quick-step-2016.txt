@@ -1,5 +1,5 @@
-<!DOCTYPE HTML><html><head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35889790-1"></script>
+<!DOCTYPE html><html><head><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35889790-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -14,7 +14,7 @@
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -23,22 +23,22 @@
   gtag('config', 'G-2MNJ20S7SJ');
 </script>
 <title>Etixx - Quick Step 2016</title>
-<base href="https://www.procyclingstats.com/team.php" />
-<link rel="canonical" href="https://www.procyclingstats.com/team/etixx-quick-step-2016/overview" />
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Etixx - Quick Step was the name of the cyclingteam in 2016. The main riders on the team this season were Tom Boonen, Dan Martin and Julian Alaphilippe.">
+<base href="https://www.procyclingstats.com/team.php">
+<link rel="canonical" href="https://www.procyclingstats.com/team/etixx-quick-step-2016/overview">
+<script async="" src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Etixx - Quick Step was the name of the cyclingteam in 2016. The main riders on the team this season were Tom Boonen, Dan Martin and Julian Alaphilippe.">
 <meta name="keywords" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8"> 
-<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
+<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<base href="team.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
+<base href="team.php">
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css">
 
-<script src="https://www.procyclingstats.com/pcs_s57.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
-<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico">
 </head>
 <body>
 <div class="wrapper">
@@ -46,12 +46,12 @@
     <div class="cont">
     	<a class="logo4" href="index.php"><ul><li class="r">P</li><li class="r">C</li><li class="z">S</li></ul></a>
 
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
-    		<input type="text" name="term" id="search" data-nav="team/-id-/" data-page="team" class="search4"  placeholder="search"  /></form> 
+    	<form action="search.php" class="msearch"><input type="hidden" id="term">
+    		<input type="text" name="term" id="search" data-nav="team/-id-/" data-page="team" class="search4" placeholder="search"></form> 
     	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+      	<a class="mobMenu" href="">Menu▼</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
-<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
+<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
@@ -69,7 +69,7 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -89,18 +89,18 @@
 <li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
-<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
+<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
 <li><a href="statistics/riders">Riders</a></li>
 <li><a href="statistics/teams">Teams</a></li>
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
 <li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
 <li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
 <li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
+<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -110,16 +110,16 @@
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
+<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="">Dashboard</a></li>
 <li><a href="">Lists</a></li>
 </ul></li>
  
 				 </ul> 
 			 </div>
-			 <a class="user4" data-logged="0" href="login.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 <a class="user4" data-logged="0" href="login.php"><span>❖</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>✱</span><font>settings</font></a>    </div>
   </header>  
-<div class="content  "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><div ><form style="  "><select style="" onChange="window.location.href=this.value; "><option value="team/soudal-quick-step-2027/overview/" >2027 | Soudal - Quick Step</option><option value="team/soudal-quick-step-2026/overview/" >2026 | Soudal - Quick Step</option><option value="team/soudal-quick-step-2025/overview/" >2025 | Soudal - Quick Step</option><option value="team/soudal-quick-step-2024/overview/" >2024 | Soudal - Quick Step</option><option value="team/soudal-quick-step-2023/overview/" >2023 | Soudal - Quick Step</option><option value="team/quick-step-alpha-vinyl-2022/overview/" >2022 | Quick-Step Alpha Vinyl Team</option><option value="team/deceuninck-quick-step-2021/overview/" >2021 | Deceuninck - Quick Step</option><option value="team/deceuninck-quick-step-2020/overview/" >2020 | Deceuninck - Quick Step</option><option value="team/deceuninck-quick-step-2019/overview/" >2019 | Deceuninck - Quick Step</option><option value="team/quick-step-floors-2018/overview/" >2018 | Quick-Step Floors</option><option value="team/quick-step-floors-2017/overview/" >2017 | Quick-Step Floors</option><option value="team/etixx-quick-step-2016/overview/" selected>2016 | Etixx - Quick Step</option><option value="team/etixx-quick-step-2015/overview/" >2015 | Etixx - Quick Step</option><option value="team/omega-pharma-quick-step-2014/overview/" >2014 | Omega Pharma - Quick-Step</option><option value="team/omega-pharma-quick-step-2013/overview/" >2013 | Omega Pharma - Quick-Step</option><option value="team/omega-pharma-quick-step-2012/overview/" >2012 | Omega Pharma - Quick-Step</option><option value="team/quickstep-cycling-team-2011/overview/" >2011 | Quickstep Cycling Team</option><option value="team/quickstep-innergetic-2010/overview/" >2010 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2009/overview/" >2009 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2008/overview/" >2008 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2007/overview/" >2007 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2006/overview/" >2006 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2005/overview/" >2005 | Quickstep - Innergetic</option><option value="team/quickstep-davitamon-2004/overview/" >2004 | Quickstep - Davitamon</option><option value="team/quickstep-davitamon-2003/overview/" >2003 | Quickstep - Davitamon</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="team/etixx-quick-step-2016">Start</a></li>
-<li class="reg "><a class="" href="team/etixx-quick-step-2016/statistics">Statistics&#x25BC;</a><ul><li><a href="team/etixx-quick-step-2016/statistics/overview">Overview</a></li>
+<div class="content  "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav "><div><form style="  "><select style="" onchange="window.location.href=this.value; "><option value="team/soudal-quick-step-2027/overview/">2027 | Soudal - Quick Step</option><option value="team/soudal-quick-step-2026/overview/">2026 | Soudal - Quick Step</option><option value="team/soudal-quick-step-2025/overview/">2025 | Soudal - Quick Step</option><option value="team/soudal-quick-step-2024/overview/">2024 | Soudal - Quick Step</option><option value="team/soudal-quick-step-2023/overview/">2023 | Soudal - Quick Step</option><option value="team/quick-step-alpha-vinyl-2022/overview/">2022 | Quick-Step Alpha Vinyl Team</option><option value="team/deceuninck-quick-step-2021/overview/">2021 | Deceuninck - Quick Step</option><option value="team/deceuninck-quick-step-2020/overview/">2020 | Deceuninck - Quick Step</option><option value="team/deceuninck-quick-step-2019/overview/">2019 | Deceuninck - Quick Step</option><option value="team/quick-step-floors-2018/overview/">2018 | Quick-Step Floors</option><option value="team/quick-step-floors-2017/overview/">2017 | Quick-Step Floors</option><option value="team/etixx-quick-step-2016/overview/" selected="">2016 | Etixx - Quick Step</option><option value="team/etixx-quick-step-2015/overview/">2015 | Etixx - Quick Step</option><option value="team/omega-pharma-quick-step-2014/overview/">2014 | Omega Pharma - Quick-Step</option><option value="team/omega-pharma-quick-step-2013/overview/">2013 | Omega Pharma - Quick-Step</option><option value="team/omega-pharma-quick-step-2012/overview/">2012 | Omega Pharma - Quick-Step</option><option value="team/quickstep-cycling-team-2011/overview/">2011 | Quickstep Cycling Team</option><option value="team/quickstep-innergetic-2010/overview/">2010 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2009/overview/">2009 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2008/overview/">2008 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2007/overview/">2007 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2006/overview/">2006 | Quickstep - Innergetic</option><option value="team/quickstep-innergetic-2005/overview/">2005 | Quickstep - Innergetic</option><option value="team/quickstep-davitamon-2004/overview/">2004 | Quickstep - Davitamon</option><option value="team/quickstep-davitamon-2003/overview/">2003 | Quickstep - Davitamon</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="team/etixx-quick-step-2016">Start</a></li>
+<li class="reg "><a class="" href="team/etixx-quick-step-2016/statistics">Statistics▼</a><ul><li><a href="team/etixx-quick-step-2016/statistics/overview">Overview</a></li>
 <li><a href="team/etixx-quick-step-2016/statistics/races-per-nation">Races per nation</a></li>
 <li><a href="team/etixx-quick-step-2016/statistics/riders-per-country">#Riders per country</a></li>
 <li><a href="team/etixx-quick-step-2016/statistics/points-per-rider">Points per rider</a></li>
@@ -132,7 +132,7 @@
 <li class="reg "><a class="" href="team/etixx-quick-step-2016/results">Results</a></li>
 <li class="reg "><a class="" href="team/etixx-quick-step-2016/transfers">Transfers</a></li>
 <li class="reg "><a class="" href="team/etixx-quick-step-2016/program">Program</a></li>
-<li class="reg "><a class="" href="team/etixx-quick-step-2016/more">More&#x25BC;</a><ul><li><a href="team/etixx-quick-step-2016/more/report">Report</a></li>
+<li class="reg "><a class="" href="team/etixx-quick-step-2016/more">More▼</a><ul><li><a href="team/etixx-quick-step-2016/more/report">Report</a></li>
 <li><a href="team/etixx-quick-step-2016/more/gear">Gear</a></li>
 <li><a href="team/etixx-quick-step-2016/more/contribute-link">Contribute link</a></li>
 </ul></li>
@@ -144,328 +144,331 @@
 <li data-n="1"><a href="team/etixx-quick-step-2016/statistics/wins-per-season">Wins per season</a></li>
 <li data-n="2"><a href="team/etixx-quick-step-2016/analysis/start">Analysis - Analysis</a></li><li data-n="3"><a href="team/etixx-quick-step-2016/wins/">Wins - Victories</a></li><li data-n="4"><a href="team/etixx-quick-step-2016/results/latest-results">Results - Latest results</a></li><li data-n="5"><a href="team/etixx-quick-step-2016/transfers/">Transfers - Transfers</a></li><li data-n="6"><a href="team/etixx-quick-step-2016/program/program">Program - Program</a></li><li data-n="7"><a href="team/etixx-quick-step-2016/more/report">More - Report</a></li><li data-n="7"><a href="team/etixx-quick-step-2016/more/gear">Gear</a></li>
 <li data-n="7"><a href="team/etixx-quick-step-2016/more/contribute-link">Contribute link</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag be w32"></span><span class="flag be w24"></span><h1 class="">Etixx - Quick Step (WT)</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">2016</span></div><div class="sub"><span class="red showIfMobile">2016</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100" >
-<ul class="list horizontal teamkpi" style=""><li><div>wins</div> <div><a    href="team/etixx-quick-step-2016/wins">54</a></div></li>
-<li><div>ranking</div> <div><a    href="rankings/me/teams"></a></div></li>
-<li><div>incoming transfers</div> <div><a    href="team/etixx-quick-step-2016/transfers">1</a></div></li>
+</ul></li></ul><div class="clear"></div></div><div class="page-title "><div class="main"><span class="flag be w32"></span><span class="flag be w24"></span><h1 class="">Etixx - Quick Step (WT)</h1><span class="hideIfMobile center">»</span><span class="red hideIfMobile">2016</span></div><div class="sub"><span class="red showIfMobile">2016</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1"><h2></h2><div class="w100">
+<ul class="list horizontal teamkpi" style=""><li><div>wins</div> <div><a href="team/etixx-quick-step-2016/wins">54</a></div></li>
+<li><div>ranking</div> <div><a href="rankings/me/teams"></a></div></li>
+<li><div>incoming transfers</div> <div><a href="team/etixx-quick-step-2016/transfers">1</a></div></li>
 </ul>
-<div class="mt20"><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/da/tom-boonen-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/tom-boonen"></a><span>BOONEN Tom</span></li><li><a style="background: url(images/riders/bp/bb/daniel-martin-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/dan-martin"></a><span>MARTIN Dan</span></li><li><a style="background: url(images/riders/bp/bf/julian-alaphilippe-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/julian-alaphilippe"></a><span>ALAPHILIPPE Julian</span></li><li><a style="background: url(images/riders/bp/ba/tony-martin-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/tony-martin"></a><span>MARTIN Tony</span></li><li><a style="background: url(images/riders/bp/ca/niki-terpstra-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/niki-terpstra"></a><span>TERPSTRA Niki</span></li><li><a style="background: url(images/riders/bp/bb/matteo-trentin-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/matteo-trentin"></a><span>TRENTIN Matteo</span></li><li><a style="background: url(images/riders/bp/dd/marcel-kittel-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/marcel-kittel"></a><span>KITTEL Marcel</span></li><li><a style="background: url(images/riders/bp/ab/zdenek-stybar-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/zdenek-stybar"></a><span>ŠTYBAR Zdeněk</span></li><li><a style="background: url(images/riders/bp/aa/yves-lampaert-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/yves-lampaert"></a><span>LAMPAERT Yves</span></li><li><a style="background: url(images/riders/bp/bb/bob-jungels-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/bob-jungels"></a><span>JUNGELS Bob</span></li><li><a style="background: url(images/riders/bp/fe/fernando-gaviria-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/fernando-gaviria"></a><span>GAVIRIA Fernando</span></li><li><a style="background: url(images/riders/bp/ad/ariel-maximiliano-richeze-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/ariel-maximiliano-richeze"></a><span>RICHEZE Maximiliano</span></li><li><a style="background: url(images/riders/bp/fe/gianni-meersman-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/gianni-meersman"></a><span>MEERSMAN Gianni</span></li><li><a style="background: url(images/riders/bp/fa/gianluca-brambilla-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/gianluca-brambilla"></a><span>BRAMBILLA Gianluca</span></li><li><a style="background: url(images/riders/bp/ad/david-de-la-cruz-melgarejo-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/david-de-la-cruz"></a><span>DE LA CRUZ David</span></li><li><a style="background: url(images/riders/bp/bc/maxime-bouet-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/maxime-bouet"></a><span>BOUET Maxime</span></li><li><a style="background: url(images/riders/bp/cc/pieter-serry-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/pieter-serry"></a><span>SERRY Pieter</span></li><li><a style="background: url(images/riders/bp/cf/petr-vakoc-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/petr-vakoc"></a><span>VAKOČ Petr</span></li><li><a style="background: url(images/riders/bp/fa/stijn-vandenbergh-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/stijn-vandenbergh"></a><span>VANDENBERGH Stijn</span></li><li><a style="background: url(images/riders/bp/cb/nikolas-maes-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/nikolas-maes"></a><span>MAES Nikolas</span></li><li><a style="background: url(images/riders/bp/fe/carlos-verona-2016-n2.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/carlos-verona"></a><span>VERONA Carlos</span></li><li><a style="background: url(images/riders/bp/ed/ivan-garcia-cortina-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/ivan-garcia-cortina"></a><span>GARCÍA CORTINA Iván</span></li><li><a style="background: url(images/riders/bp/cc/fabio-sabatini-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/fabio-sabatini"></a><span>SABATINI Fabio</span></li><li><a style="background: url(images/riders/bp/df/guillaume-van-keirsbulck-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/guillaume-van-keirsbulck"></a><span>VAN KEIRSBULCK Guillaume</span></li><li><a style="background: url(images/riders/bp/fe/julien-vermote-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/julien-vermote"></a><span>VERMOTE Julien</span></li><li><a style="background: url(images/riders/bp/bf/iljo-keisse-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/iljo-keisse"></a><span>KEISSE Iljo</span></li><li><a style="background: url(images/riders/bp/ab/laurens-de-plus-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/laurens-de-plus"></a><span>DE PLUS Laurens</span></li><li><a style="background: url(images/riders/bp/fb/martin-velits-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/martin-velits"></a><span>VELITS Martin</span></li><li><a style="background: url() no-repeat -10px 0; background-size: 110px; "  href="rider/lukasz-wisniowski"></a><span>WIŚNIOWSKI Łukasz</span></li><li><a style="background: url(images/riders/bp/db/davide-martinelli-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/davide-martinelli"></a><span>MARTINELLI Davide</span></li><li><a style="background: url(images/riders/bp/fe/frantisek-sisr-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/frantisek-sisr"></a><span>SISR František</span></li><li><a style="background: url(images/riders/bp/fa/rodrigo-contreras-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/rodrigo-contreras"></a><span>CONTRERAS Rodrigo</span></li><li><a style="background: url(images/riders/bp/ce/adrien-costa-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/adrien-costa"></a><span>COSTA Adrien</span></li><li><a style="background: url(images/riders/bp/bc/hamish-schreurs-2016.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/hamish-schreurs"></a><span>SCHREURS Hamish</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
-<li class="tabb cur" ><a   class="tabb cur" href="#">name</a></li>
-<li class="tabe" ><a   class="tabe" href="#">ranking</a></li>
-<li class="tabc" ><a   class="tabc" href="#">age</a></li>
-<li class="tabd" ><a   class="tabd" href="#">country</a></li>
+<div class="mt20"><div class="w70 left mb_w100"><ul class="photos" data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/da/tom-boonen-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/tom-boonen"></a><span>BOONEN Tom</span></li><li><a style="background: url(images/riders/bp/bb/daniel-martin-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/dan-martin"></a><span>MARTIN Dan</span></li><li><a style="background: url(images/riders/bp/bf/julian-alaphilippe-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/julian-alaphilippe"></a><span>ALAPHILIPPE Julian</span></li><li><a style="background: url(images/riders/bp/ba/tony-martin-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/tony-martin"></a><span>MARTIN Tony</span></li><li><a style="background: url(images/riders/bp/ca/niki-terpstra-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/niki-terpstra"></a><span>TERPSTRA Niki</span></li><li><a style="background: url(images/riders/bp/bb/matteo-trentin-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/matteo-trentin"></a><span>TRENTIN Matteo</span></li><li><a style="background: url(images/riders/bp/dd/marcel-kittel-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/marcel-kittel"></a><span>KITTEL Marcel</span></li><li><a style="background: url(images/riders/bp/ab/zdenek-stybar-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/zdenek-stybar"></a><span>ŠTYBAR Zdeněk</span></li><li><a style="background: url(images/riders/bp/aa/yves-lampaert-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/yves-lampaert"></a><span>LAMPAERT Yves</span></li><li><a style="background: url(images/riders/bp/bb/bob-jungels-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/bob-jungels"></a><span>JUNGELS Bob</span></li><li><a style="background: url(images/riders/bp/fe/fernando-gaviria-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/fernando-gaviria"></a><span>GAVIRIA Fernando</span></li><li><a style="background: url(images/riders/bp/ad/ariel-maximiliano-richeze-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/ariel-maximiliano-richeze"></a><span>RICHEZE Maximiliano</span></li><li><a style="background: url(images/riders/bp/fe/gianni-meersman-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/gianni-meersman"></a><span>MEERSMAN Gianni</span></li><li><a style="background: url(images/riders/bp/fa/gianluca-brambilla-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/gianluca-brambilla"></a><span>BRAMBILLA Gianluca</span></li><li><a style="background: url(images/riders/bp/ad/david-de-la-cruz-melgarejo-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/david-de-la-cruz"></a><span>DE LA CRUZ David</span></li><li><a style="background: url(images/riders/bp/bc/maxime-bouet-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/maxime-bouet"></a><span>BOUET Maxime</span></li><li><a style="background: url(images/riders/bp/cc/pieter-serry-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/pieter-serry"></a><span>SERRY Pieter</span></li><li><a style="background: url(images/riders/bp/cf/petr-vakoc-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/petr-vakoc"></a><span>VAKOČ Petr</span></li><li><a style="background: url(images/riders/bp/fa/stijn-vandenbergh-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/stijn-vandenbergh"></a><span>VANDENBERGH Stijn</span></li><li><a style="background: url(images/riders/bp/cb/nikolas-maes-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/nikolas-maes"></a><span>MAES Nikolas</span></li><li><a style="background: url(images/riders/bp/fe/carlos-verona-2016-n2.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/carlos-verona"></a><span>VERONA Carlos</span></li><li><a style="background: url(images/riders/bp/ed/ivan-garcia-cortina-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/ivan-garcia-cortina"></a><span>GARCÍA CORTINA Iván</span></li><li><a style="background: url(images/riders/bp/cc/fabio-sabatini-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/fabio-sabatini"></a><span>SABATINI Fabio</span></li><li><a style="background: url(images/riders/bp/df/guillaume-van-keirsbulck-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/guillaume-van-keirsbulck"></a><span>VAN KEIRSBULCK Guillaume</span></li><li><a style="background: url(images/riders/bp/fe/julien-vermote-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/julien-vermote"></a><span>VERMOTE Julien</span></li><li><a style="background: url(images/riders/bp/bf/iljo-keisse-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/iljo-keisse"></a><span>KEISSE Iljo</span></li><li><a style="background: url(images/riders/bp/ab/laurens-de-plus-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/laurens-de-plus"></a><span>DE PLUS Laurens</span></li><li><a style="background: url(images/riders/bp/fb/martin-velits-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/martin-velits"></a><span>VELITS Martin</span></li><li><a style="background: url() no-repeat -10px 0; background-size: 110px; " href="rider/lukasz-wisniowski"></a><span>WIŚNIOWSKI Łukasz</span></li><li><a style="background: url(images/riders/bp/db/davide-martinelli-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/davide-martinelli"></a><span>MARTINELLI Davide</span></li><li><a style="background: url(images/riders/bp/fe/frantisek-sisr-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/frantisek-sisr"></a><span>SISR František</span></li><li><a style="background: url(images/riders/bp/fa/rodrigo-contreras-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/rodrigo-contreras"></a><span>CONTRERAS Rodrigo</span></li><li><a style="background: url(images/riders/bp/ce/adrien-costa-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/adrien-costa"></a><span>COSTA Adrien</span></li><li><a style="background: url(images/riders/bp/bc/hamish-schreurs-2016.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/hamish-schreurs"></a><span>SCHREURS Hamish</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba"><a class="taba" href="#">career points</a></li>
+<li class="tabb cur"><a class="tabb cur" href="#">name</a></li>
+<li class="tabe"><a class="tabe" href="#">ranking</a></li>
+<li class="tabc"><a class="tabc" href="#">age</a></li>
+<li class="tabd"><a class="tabd" href="#">country</a></li>
 </ul></div>
 <div class="hide ttabs taba">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag be"></span> <a    href="rider/tom-boonen">BOONEN Tom</a></div><div class="right   "  >17978</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag ie"></span> <a    href="rider/dan-martin">MARTIN Dan</a></div><div class="right   "  >12569</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag fr"></span> <a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="right   "  >11366</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag de"></span> <a    href="rider/tony-martin">MARTIN Tony</a></div><div class="right   "  >10986</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag nl"></span> <a    href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="right   "  >8331</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="right   "  >7371</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag de"></span> <a    href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="right   "  >7194</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag cz"></span> <a    href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="right   "  >6306</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag be"></span> <a    href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="right   "  >5408</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag lu"></span> <a    href="rider/bob-jungels">JUNGELS Bob</a></div><div class="right   "  >5200</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag co"></span> <a    href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="right   "  >5107</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag ar"></span> <a    href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="right   "  >4023</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag be"></span> <a    href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="right   "  >3830</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="right   "  >3776</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="right   "  >3242</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag fr"></span> <a    href="rider/maxime-bouet">BOUET Maxime</a></div><div class="right   "  >2727</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag be"></span> <a    href="rider/pieter-serry">SERRY Pieter</a></div><div class="right   "  >2273</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag cz"></span> <a    href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="right   "  >2140</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag be"></span> <a    href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="right   "  >1967</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag be"></span> <a    href="rider/nikolas-maes">MAES Nikolas</a></div><div class="right   "  >1888</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/carlos-verona">VERONA Carlos</a></div><div class="right   "  >1878</div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag es"></span> <a    href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="right   "  >1693</div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag it"></span> <a    href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="right   "  >1609</div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag be"></span> <a    href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="right   "  >1550</div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag be"></span> <a    href="rider/julien-vermote">VERMOTE Julien</a></div><div class="right   "  >1515</div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag be"></span> <a    href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="right   "  >1387</div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag be"></span> <a    href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="right   "  >1334</div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag sk"></span> <a    href="rider/martin-velits">VELITS Martin</a></div><div class="right   "  >916</div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag pl"></span> <a    href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="right   "  >903</div><div class="clear"></div></li>
-<li class="" ><div >30</div><div ><span class="flag it"></span> <a    href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="right   "  >646</div><div class="clear"></div></li>
-<li class="" ><div >31</div><div ><span class="flag cz"></span> <a    href="rider/frantisek-sisr">SISR František</a></div><div class="right   "  >483</div><div class="clear"></div></li>
-<li class="" ><div >32</div><div ><span class="flag co"></span> <a    href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="right   "  >293</div><div class="clear"></div></li>
-<li class="" ><div >33</div><div ><span class="flag us"></span> <a    href="rider/adrien-costa">COSTA Adrien</a></div><div class="right   "  >252</div><div class="clear"></div></li>
-<li class="" ><div >34</div><div ><span class="flag nz"></span> <a    href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="right   "  >70</div><div class="clear"></div></li>
+<ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="right   ">17978</div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag ie"></span> <a href="rider/dan-martin">MARTIN Dan</a></div><div class="right   ">12569</div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag fr"></span> <a href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="right   ">11390</div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag de"></span> <a href="rider/tony-martin">MARTIN Tony</a></div><div class="right   ">10986</div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag nl"></span> <a href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="right   ">8331</div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag it"></span> <a href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="right   ">7431</div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag de"></span> <a href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="right   ">7194</div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag cz"></span> <a href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="right   ">6330</div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag be"></span> <a href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="right   ">5413</div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag lu"></span> <a href="rider/bob-jungels">JUNGELS Bob</a></div><div class="right   ">5200</div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag co"></span> <a href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="right   ">5107</div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag ar"></span> <a href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="right   ">4023</div><div class="clear"></div></li>
+<li class=""><div>13</div><div><span class="flag be"></span> <a href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="right   ">3830</div><div class="clear"></div></li>
+<li class=""><div>14</div><div><span class="flag it"></span> <a href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="right   ">3776</div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag es"></span> <a href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="right   ">3242</div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag fr"></span> <a href="rider/maxime-bouet">BOUET Maxime</a></div><div class="right   ">2727</div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag be"></span> <a href="rider/pieter-serry">SERRY Pieter</a></div><div class="right   ">2297</div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag cz"></span> <a href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="right   ">2140</div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag be"></span> <a href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="right   ">1967</div><div class="clear"></div></li>
+<li class=""><div>20</div><div><span class="flag be"></span> <a href="rider/nikolas-maes">MAES Nikolas</a></div><div class="right   ">1888</div><div class="clear"></div></li>
+<li class=""><div>21</div><div><span class="flag es"></span> <a href="rider/carlos-verona">VERONA Carlos</a></div><div class="right   ">1878</div><div class="clear"></div></li>
+<li class=""><div>22</div><div><span class="flag es"></span> <a href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="right   ">1725</div><div class="clear"></div></li>
+<li class=""><div>23</div><div><span class="flag it"></span> <a href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="right   ">1609</div><div class="clear"></div></li>
+<li class=""><div>24</div><div><span class="flag be"></span> <a href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="right   ">1550</div><div class="clear"></div></li>
+<li class=""><div>25</div><div><span class="flag be"></span> <a href="rider/julien-vermote">VERMOTE Julien</a></div><div class="right   ">1520</div><div class="clear"></div></li>
+<li class=""><div>26</div><div><span class="flag be"></span> <a href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="right   ">1387</div><div class="clear"></div></li>
+<li class=""><div>27</div><div><span class="flag be"></span> <a href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="right   ">1334</div><div class="clear"></div></li>
+<li class=""><div>28</div><div><span class="flag sk"></span> <a href="rider/martin-velits">VELITS Martin</a></div><div class="right   ">916</div><div class="clear"></div></li>
+<li class=""><div>29</div><div><span class="flag pl"></span> <a href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="right   ">903</div><div class="clear"></div></li>
+<li class=""><div>30</div><div><span class="flag it"></span> <a href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="right   ">651</div><div class="clear"></div></li>
+<li class=""><div>31</div><div><span class="flag cz"></span> <a href="rider/frantisek-sisr">SISR František</a></div><div class="right   ">483</div><div class="clear"></div></li>
+<li class=""><div>32</div><div><span class="flag co"></span> <a href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="right   ">293</div><div class="clear"></div></li>
+<li class=""><div>33</div><div><span class="flag us"></span> <a href="rider/adrien-costa">COSTA Adrien</a></div><div class="right   ">252</div><div class="clear"></div></li>
+<li class=""><div>34</div><div><span class="flag nz"></span> <a href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="right   ">70</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabe">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag fr"></span> <a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="right ar w12 fs11 clr555   "  >(1184)</div><div class="right ac   "  >15</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="right ar w12 fs11 clr555   "  >(767)</div><div class="right ac   "  >53</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag co"></span> <a    href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="right ar w12 fs11 clr555   "  >(540)</div><div class="right ac   "  >90</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag lu"></span> <a    href="rider/bob-jungels">JUNGELS Bob</a></div><div class="right ar w12 fs11 clr555   "  >(495)</div><div class="right ac   "  >104</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/carlos-verona">VERONA Carlos</a></div><div class="right ar w12 fs11 clr555   "  >(492)</div><div class="right ac   "  >105</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="right ar w12 fs11 clr555   "  >(447)</div><div class="right ac   "  >119</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag be"></span> <a    href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="right ar w12 fs11 clr555   "  >(355)</div><div class="right ac   "  >159</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag cz"></span> <a    href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="right ar w12 fs11 clr555   "  >(255)</div><div class="right ac   "  >227</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="right ar w12 fs11 clr555   "  >(223)</div><div class="right ac   "  >257</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="right ar w12 fs11 clr555   "  >(191)</div><div class="right ac   "  >289</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag fr"></span> <a    href="rider/maxime-bouet">BOUET Maxime</a></div><div class="right ar w12 fs11 clr555   "  >(165)</div><div class="right ac   "  >323</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag de"></span> <a    href="rider/tony-martin">MARTIN Tony</a></div><div class="right ar w12 fs11 clr555   "  >(139)</div><div class="right ac   "  >363</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag ie"></span> <a    href="rider/dan-martin">MARTIN Dan</a></div><div class="right ar w12 fs11 clr555   "  >(116)</div><div class="right ac   "  >410</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag nl"></span> <a    href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="right ar w12 fs11 clr555   "  >(68)</div><div class="right ac   "  >588</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag ar"></span> <a    href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="right ar w12 fs11 clr555   "  >(63)</div><div class="right ac   "  >618</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag be"></span> <a    href="rider/pieter-serry">SERRY Pieter</a></div><div class="right ar w12 fs11 clr555   "  >(58)</div><div class="right ac   "  >641</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag cz"></span> <a    href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="right ar w12 fs11 clr555   "  >(51)</div><div class="right ac   "  >700</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag be"></span> <a    href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="right ar w12 fs11 clr555   "  >(47)</div><div class="right ac   "  >739</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag be"></span> <a    href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="right ar w12 fs11 clr555   "  >(41)</div><div class="right ac   "  >798</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="right ar w12 fs11 clr555   "  >(38)</div><div class="right ac   "  >839</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag co"></span> <a    href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="right ar w12 fs11 clr555   "  >(27)</div><div class="right ac   "  >997</div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag be"></span> <a    href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="right ar w12 fs11 clr555   "  >(21)</div><div class="right ac   "  >1120</div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag be"></span> <a    href="rider/julien-vermote">VERMOTE Julien</a></div><div class="right ar w12 fs11 clr555   "  >(19)</div><div class="right ac   "  >1170</div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag pl"></span> <a    href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="right ar w12 fs11 clr555   "  >(15)</div><div class="right ac   "  >1254</div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag de"></span> <a    href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag us"></span> <a    href="rider/adrien-costa">COSTA Adrien</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag nz"></span> <a    href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag cz"></span> <a    href="rider/frantisek-sisr">SISR František</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag be"></span> <a    href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >30</div><div ><span class="flag be"></span> <a    href="rider/nikolas-maes">MAES Nikolas</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >31</div><div ><span class="flag be"></span> <a    href="rider/tom-boonen">BOONEN Tom</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >32</div><div ><span class="flag sk"></span> <a    href="rider/martin-velits">VELITS Martin</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >33</div><div ><span class="flag be"></span> <a    href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >34</div><div ><span class="flag it"></span> <a    href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
+<ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag fr"></span> <a href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="right ar w12 fs11 clr555   ">(1208)</div><div class="right ac   ">13</div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag it"></span> <a href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="right ar w12 fs11 clr555   ">(795)</div><div class="right ac   ">48</div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag co"></span> <a href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="right ar w12 fs11 clr555   ">(540)</div><div class="right ac   ">92</div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag lu"></span> <a href="rider/bob-jungels">JUNGELS Bob</a></div><div class="right ar w12 fs11 clr555   ">(495)</div><div class="right ac   ">109</div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag es"></span> <a href="rider/carlos-verona">VERONA Carlos</a></div><div class="right ar w12 fs11 clr555   ">(492)</div><div class="right ac   ">110</div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag es"></span> <a href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="right ar w12 fs11 clr555   ">(446)</div><div class="right ac   ">129</div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag be"></span> <a href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="right ar w12 fs11 clr555   ">(360)</div><div class="right ac   ">158</div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag cz"></span> <a href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="right ar w12 fs11 clr555   ">(279)</div><div class="right ac   ">213</div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag es"></span> <a href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="right ar w12 fs11 clr555   ">(255)</div><div class="right ac   ">236</div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag it"></span> <a href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="right ar w12 fs11 clr555   ">(191)</div><div class="right ac   ">292</div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag fr"></span> <a href="rider/maxime-bouet">BOUET Maxime</a></div><div class="right ar w12 fs11 clr555   ">(165)</div><div class="right ac   ">320</div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag de"></span> <a href="rider/tony-martin">MARTIN Tony</a></div><div class="right ar w12 fs11 clr555   ">(139)</div><div class="right ac   ">362</div><div class="clear"></div></li>
+<li class=""><div>13</div><div><span class="flag ie"></span> <a href="rider/dan-martin">MARTIN Dan</a></div><div class="right ar w12 fs11 clr555   ">(116)</div><div class="right ac   ">411</div><div class="clear"></div></li>
+<li class=""><div>14</div><div><span class="flag be"></span> <a href="rider/pieter-serry">SERRY Pieter</a></div><div class="right ar w12 fs11 clr555   ">(82)</div><div class="right ac   ">535</div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag ar"></span> <a href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="right ar w12 fs11 clr555   ">(63)</div><div class="right ac   ">619</div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag nl"></span> <a href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="right ar w12 fs11 clr555   ">(50)</div><div class="right ac   ">715</div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag be"></span> <a href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="right ar w12 fs11 clr555   ">(47)</div><div class="right ac   ">742</div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag it"></span> <a href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="right ar w12 fs11 clr555   ">(43)</div><div class="right ac   ">783</div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag be"></span> <a href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="right ar w12 fs11 clr555   ">(41)</div><div class="right ac   ">808</div><div class="clear"></div></li>
+<li class=""><div>20</div><div><span class="flag cz"></span> <a href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="right ar w12 fs11 clr555   ">(31)</div><div class="right ac   ">926</div><div class="clear"></div></li>
+<li class=""><div>21</div><div><span class="flag co"></span> <a href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="right ar w12 fs11 clr555   ">(27)</div><div class="right ac   ">1004</div><div class="clear"></div></li>
+<li class=""><div>22</div><div><span class="flag be"></span> <a href="rider/julien-vermote">VERMOTE Julien</a></div><div class="right ar w12 fs11 clr555   ">(24)</div><div class="right ac   ">1051</div><div class="clear"></div></li>
+<li class=""><div>23</div><div><span class="flag be"></span> <a href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="right ar w12 fs11 clr555   ">(21)</div><div class="right ac   ">1122</div><div class="clear"></div></li>
+<li class=""><div>24</div><div><span class="flag pl"></span> <a href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="right ar w12 fs11 clr555   ">(15)</div><div class="right ac   ">1261</div><div class="clear"></div></li>
+<li class=""><div>25</div><div><span class="flag de"></span> <a href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>26</div><div><span class="flag us"></span> <a href="rider/adrien-costa">COSTA Adrien</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>27</div><div><span class="flag nz"></span> <a href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>28</div><div><span class="flag cz"></span> <a href="rider/frantisek-sisr">SISR František</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>29</div><div><span class="flag be"></span> <a href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>30</div><div><span class="flag be"></span> <a href="rider/nikolas-maes">MAES Nikolas</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>31</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>32</div><div><span class="flag sk"></span> <a href="rider/martin-velits">VELITS Martin</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>33</div><div><span class="flag be"></span> <a href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>34</div><div><span class="flag it"></span> <a href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
 </ul></div>
 <div class="ttabs tabb">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag fr"></span> <a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag be"></span> <a    href="rider/tom-boonen">BOONEN Tom</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag fr"></span> <a    href="rider/maxime-bouet">BOUET Maxime</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag it"></span> <a    href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag co"></span> <a    href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag us"></span> <a    href="rider/adrien-costa">COSTA Adrien</a></div><div class="fs11 clr999   "  > (trainee as from 01/08)</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag be"></span> <a    href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="fs11 clr999   "  > (trainee as from 01/08)</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag co"></span> <a    href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag lu"></span> <a    href="rider/bob-jungels">JUNGELS Bob</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag be"></span> <a    href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag de"></span> <a    href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag be"></span> <a    href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag be"></span> <a    href="rider/nikolas-maes">MAES Nikolas</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag ie"></span> <a    href="rider/dan-martin">MARTIN Dan</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag de"></span> <a    href="rider/tony-martin">MARTIN Tony</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag be"></span> <a    href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag ar"></span> <a    href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag nz"></span> <a    href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="fs11 clr999   "  > (trainee as from 27/07)</div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag be"></span> <a    href="rider/pieter-serry">SERRY Pieter</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag cz"></span> <a    href="rider/frantisek-sisr">SISR František</a></div><div class="fs11 clr999   "  > (trainee as from 22/08)</div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag cz"></span> <a    href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag nl"></span> <a    href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag it"></span> <a    href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag cz"></span> <a    href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag be"></span> <a    href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >30</div><div ><span class="flag be"></span> <a    href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >31</div><div ><span class="flag sk"></span> <a    href="rider/martin-velits">VELITS Martin</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >32</div><div ><span class="flag be"></span> <a    href="rider/julien-vermote">VERMOTE Julien</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >33</div><div ><span class="flag es"></span> <a    href="rider/carlos-verona">VERONA Carlos</a></div><div class="fs11 clr999   "  > (until 30/07)</div><div class="clear"></div></li>
-<li class="" ><div >34</div><div ><span class="flag pl"></span> <a    href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag fr"></span> <a href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag fr"></span> <a href="rider/maxime-bouet">BOUET Maxime</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag it"></span> <a href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag co"></span> <a href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag us"></span> <a href="rider/adrien-costa">COSTA Adrien</a></div><div class="fs11 clr999   "> (trainee as from 01/08)</div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag es"></span> <a href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag be"></span> <a href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag es"></span> <a href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="fs11 clr999   "> (trainee as from 01/08)</div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag co"></span> <a href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag lu"></span> <a href="rider/bob-jungels">JUNGELS Bob</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag be"></span> <a href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>13</div><div><span class="flag de"></span> <a href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>14</div><div><span class="flag be"></span> <a href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag be"></span> <a href="rider/nikolas-maes">MAES Nikolas</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag ie"></span> <a href="rider/dan-martin">MARTIN Dan</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag de"></span> <a href="rider/tony-martin">MARTIN Tony</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag it"></span> <a href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag be"></span> <a href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>20</div><div><span class="flag ar"></span> <a href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>21</div><div><span class="flag it"></span> <a href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>22</div><div><span class="flag nz"></span> <a href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="fs11 clr999   "> (trainee as from 27/07)</div><div class="clear"></div></li>
+<li class=""><div>23</div><div><span class="flag be"></span> <a href="rider/pieter-serry">SERRY Pieter</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>24</div><div><span class="flag cz"></span> <a href="rider/frantisek-sisr">SISR František</a></div><div class="fs11 clr999   "> (trainee as from 22/08)</div><div class="clear"></div></li>
+<li class=""><div>25</div><div><span class="flag cz"></span> <a href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>26</div><div><span class="flag nl"></span> <a href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>27</div><div><span class="flag it"></span> <a href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>28</div><div><span class="flag cz"></span> <a href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>29</div><div><span class="flag be"></span> <a href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>30</div><div><span class="flag be"></span> <a href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>31</div><div><span class="flag sk"></span> <a href="rider/martin-velits">VELITS Martin</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>32</div><div><span class="flag be"></span> <a href="rider/julien-vermote">VERMOTE Julien</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
+<li class=""><div>33</div><div><span class="flag es"></span> <a href="rider/carlos-verona">VERONA Carlos</a></div><div class="fs11 clr999   "> (until 30/07)</div><div class="clear"></div></li>
+<li class=""><div>34</div><div><span class="flag pl"></span> <a href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabc">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag us"></span> <a    href="rider/adrien-costa">COSTA Adrien</a></div><div class="right   "  >18</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="right   "  >20</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag be"></span> <a    href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="right   "  >20</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag co"></span> <a    href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="right   "  >21</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag co"></span> <a    href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="right   "  >22</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag nz"></span> <a    href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="right   "  >22</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="right   "  >23</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag cz"></span> <a    href="rider/frantisek-sisr">SISR František</a></div><div class="right   "  >23</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/carlos-verona">VERONA Carlos</a></div><div class="right   "  >23</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag lu"></span> <a    href="rider/bob-jungels">JUNGELS Bob</a></div><div class="right   "  >23</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag cz"></span> <a    href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="right   "  >23</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag fr"></span> <a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag pl"></span> <a    href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag be"></span> <a    href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="right   "  >25</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag be"></span> <a    href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="right   "  >25</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag be"></span> <a    href="rider/julien-vermote">VERMOTE Julien</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="right   "  >27</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag be"></span> <a    href="rider/pieter-serry">SERRY Pieter</a></div><div class="right   "  >27</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag de"></span> <a    href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="right   "  >28</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="right   "  >28</div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag fr"></span> <a    href="rider/maxime-bouet">BOUET Maxime</a></div><div class="right   "  >29</div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag ie"></span> <a    href="rider/dan-martin">MARTIN Dan</a></div><div class="right   "  >29</div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag be"></span> <a    href="rider/nikolas-maes">MAES Nikolas</a></div><div class="right   "  >30</div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag cz"></span> <a    href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="right   "  >30</div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag be"></span> <a    href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="right   "  >30</div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag de"></span> <a    href="rider/tony-martin">MARTIN Tony</a></div><div class="right   "  >31</div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag sk"></span> <a    href="rider/martin-velits">VELITS Martin</a></div><div class="right   "  >31</div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag it"></span> <a    href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="right   "  >31</div><div class="clear"></div></li>
-<li class="" ><div >30</div><div ><span class="flag nl"></span> <a    href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="right   "  >32</div><div class="clear"></div></li>
-<li class="" ><div >31</div><div ><span class="flag be"></span> <a    href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="right   "  >32</div><div class="clear"></div></li>
-<li class="" ><div >32</div><div ><span class="flag ar"></span> <a    href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="right   "  >33</div><div class="clear"></div></li>
-<li class="" ><div >33</div><div ><span class="flag be"></span> <a    href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="right   "  >33</div><div class="clear"></div></li>
-<li class="" ><div >34</div><div ><span class="flag be"></span> <a    href="rider/tom-boonen">BOONEN Tom</a></div><div class="right   "  >35</div><div class="clear"></div></li>
+<ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag us"></span> <a href="rider/adrien-costa">COSTA Adrien</a></div><div class="right   ">18</div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag es"></span> <a href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="right   ">20</div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag be"></span> <a href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="right   ">20</div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag co"></span> <a href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="right   ">21</div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag co"></span> <a href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="right   ">22</div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag nz"></span> <a href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="right   ">22</div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag it"></span> <a href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="right   ">23</div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag cz"></span> <a href="rider/frantisek-sisr">SISR František</a></div><div class="right   ">23</div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag es"></span> <a href="rider/carlos-verona">VERONA Carlos</a></div><div class="right   ">23</div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag lu"></span> <a href="rider/bob-jungels">JUNGELS Bob</a></div><div class="right   ">23</div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag cz"></span> <a href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="right   ">23</div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag fr"></span> <a href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="right   ">24</div><div class="clear"></div></li>
+<li class=""><div>13</div><div><span class="flag pl"></span> <a href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="right   ">24</div><div class="clear"></div></li>
+<li class=""><div>14</div><div><span class="flag be"></span> <a href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="right   ">25</div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag be"></span> <a href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="right   ">25</div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag it"></span> <a href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="right   ">26</div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag be"></span> <a href="rider/julien-vermote">VERMOTE Julien</a></div><div class="right   ">26</div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag es"></span> <a href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="right   ">27</div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag be"></span> <a href="rider/pieter-serry">SERRY Pieter</a></div><div class="right   ">27</div><div class="clear"></div></li>
+<li class=""><div>20</div><div><span class="flag de"></span> <a href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="right   ">28</div><div class="clear"></div></li>
+<li class=""><div>21</div><div><span class="flag it"></span> <a href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="right   ">28</div><div class="clear"></div></li>
+<li class=""><div>22</div><div><span class="flag fr"></span> <a href="rider/maxime-bouet">BOUET Maxime</a></div><div class="right   ">29</div><div class="clear"></div></li>
+<li class=""><div>23</div><div><span class="flag ie"></span> <a href="rider/dan-martin">MARTIN Dan</a></div><div class="right   ">29</div><div class="clear"></div></li>
+<li class=""><div>24</div><div><span class="flag be"></span> <a href="rider/nikolas-maes">MAES Nikolas</a></div><div class="right   ">30</div><div class="clear"></div></li>
+<li class=""><div>25</div><div><span class="flag cz"></span> <a href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="right   ">30</div><div class="clear"></div></li>
+<li class=""><div>26</div><div><span class="flag be"></span> <a href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="right   ">30</div><div class="clear"></div></li>
+<li class=""><div>27</div><div><span class="flag de"></span> <a href="rider/tony-martin">MARTIN Tony</a></div><div class="right   ">31</div><div class="clear"></div></li>
+<li class=""><div>28</div><div><span class="flag sk"></span> <a href="rider/martin-velits">VELITS Martin</a></div><div class="right   ">31</div><div class="clear"></div></li>
+<li class=""><div>29</div><div><span class="flag it"></span> <a href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="right   ">31</div><div class="clear"></div></li>
+<li class=""><div>30</div><div><span class="flag nl"></span> <a href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="right   ">32</div><div class="clear"></div></li>
+<li class=""><div>31</div><div><span class="flag be"></span> <a href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="right   ">32</div><div class="clear"></div></li>
+<li class=""><div>32</div><div><span class="flag ar"></span> <a href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="right   ">33</div><div class="clear"></div></li>
+<li class=""><div>33</div><div><span class="flag be"></span> <a href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="right   ">33</div><div class="clear"></div></li>
+<li class=""><div>34</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="right   ">35</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabd">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag ar"></span> <a    href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag be"></span> <a    href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag be"></span> <a    href="rider/pieter-serry">SERRY Pieter</a></div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag be"></span> <a    href="rider/nikolas-maes">MAES Nikolas</a></div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag be"></span> <a    href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag be"></span> <a    href="rider/tom-boonen">BOONEN Tom</a></div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag be"></span> <a    href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag be"></span> <a    href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag be"></span> <a    href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag be"></span> <a    href="rider/julien-vermote">VERMOTE Julien</a></div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag be"></span> <a    href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag co"></span> <a    href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag co"></span> <a    href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag cz"></span> <a    href="rider/frantisek-sisr">SISR František</a></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag cz"></span> <a    href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag cz"></span> <a    href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag de"></span> <a    href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag de"></span> <a    href="rider/tony-martin">MARTIN Tony</a></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/carlos-verona">VERONA Carlos</a></div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag fr"></span> <a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag fr"></span> <a    href="rider/maxime-bouet">BOUET Maxime</a></div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag ie"></span> <a    href="rider/dan-martin">MARTIN Dan</a></div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag it"></span> <a    href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag it"></span> <a    href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag it"></span> <a    href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag it"></span> <a    href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag lu"></span> <a    href="rider/bob-jungels">JUNGELS Bob</a></div><div class="clear"></div></li>
-<li class="" ><div >30</div><div ><span class="flag nl"></span> <a    href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="clear"></div></li>
-<li class="" ><div >31</div><div ><span class="flag nz"></span> <a    href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="clear"></div></li>
-<li class="" ><div >32</div><div ><span class="flag pl"></span> <a    href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="clear"></div></li>
-<li class="" ><div >33</div><div ><span class="flag sk"></span> <a    href="rider/martin-velits">VELITS Martin</a></div><div class="clear"></div></li>
-<li class="" ><div >34</div><div ><span class="flag us"></span> <a    href="rider/adrien-costa">COSTA Adrien</a></div><div class="clear"></div></li>
+<ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag ar"></span> <a href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a></div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag be"></span> <a href="rider/guillaume-van-keirsbulck">VAN KEIRSBULCK Guillaume</a></div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag be"></span> <a href="rider/pieter-serry">SERRY Pieter</a></div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag be"></span> <a href="rider/nikolas-maes">MAES Nikolas</a></div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag be"></span> <a href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag be"></span> <a href="rider/laurens-de-plus">DE PLUS Laurens</a></div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag be"></span> <a href="rider/stijn-vandenbergh">VANDENBERGH Stijn</a></div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag be"></span> <a href="rider/gianni-meersman">MEERSMAN Gianni</a></div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag be"></span> <a href="rider/julien-vermote">VERMOTE Julien</a></div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag be"></span> <a href="rider/iljo-keisse">KEISSE Iljo</a></div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag co"></span> <a href="rider/fernando-gaviria">GAVIRIA Fernando</a></div><div class="clear"></div></li>
+<li class=""><div>13</div><div><span class="flag co"></span> <a href="rider/rodrigo-contreras">CONTRERAS Rodrigo</a></div><div class="clear"></div></li>
+<li class=""><div>14</div><div><span class="flag cz"></span> <a href="rider/frantisek-sisr">SISR František</a></div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag cz"></span> <a href="rider/zdenek-stybar">ŠTYBAR Zdeněk</a></div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag cz"></span> <a href="rider/petr-vakoc">VAKOČ Petr</a></div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag de"></span> <a href="rider/marcel-kittel">KITTEL Marcel</a></div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag de"></span> <a href="rider/tony-martin">MARTIN Tony</a></div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag es"></span> <a href="rider/ivan-garcia-cortina">GARCÍA CORTINA Iván</a></div><div class="clear"></div></li>
+<li class=""><div>20</div><div><span class="flag es"></span> <a href="rider/david-de-la-cruz">DE LA CRUZ David</a></div><div class="clear"></div></li>
+<li class=""><div>21</div><div><span class="flag es"></span> <a href="rider/carlos-verona">VERONA Carlos</a></div><div class="clear"></div></li>
+<li class=""><div>22</div><div><span class="flag fr"></span> <a href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="clear"></div></li>
+<li class=""><div>23</div><div><span class="flag fr"></span> <a href="rider/maxime-bouet">BOUET Maxime</a></div><div class="clear"></div></li>
+<li class=""><div>24</div><div><span class="flag ie"></span> <a href="rider/dan-martin">MARTIN Dan</a></div><div class="clear"></div></li>
+<li class=""><div>25</div><div><span class="flag it"></span> <a href="rider/davide-martinelli">MARTINELLI Davide</a></div><div class="clear"></div></li>
+<li class=""><div>26</div><div><span class="flag it"></span> <a href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a></div><div class="clear"></div></li>
+<li class=""><div>27</div><div><span class="flag it"></span> <a href="rider/fabio-sabatini">SABATINI Fabio</a></div><div class="clear"></div></li>
+<li class=""><div>28</div><div><span class="flag it"></span> <a href="rider/matteo-trentin">TRENTIN Matteo</a></div><div class="clear"></div></li>
+<li class=""><div>29</div><div><span class="flag lu"></span> <a href="rider/bob-jungels">JUNGELS Bob</a></div><div class="clear"></div></li>
+<li class=""><div>30</div><div><span class="flag nl"></span> <a href="rider/niki-terpstra">TERPSTRA Niki</a></div><div class="clear"></div></li>
+<li class=""><div>31</div><div><span class="flag nz"></span> <a href="rider/hamish-schreurs">SCHREURS Hamish</a></div><div class="clear"></div></li>
+<li class=""><div>32</div><div><span class="flag pl"></span> <a href="rider/lukasz-wisniowski">WIŚNIOWSKI Łukasz</a></div><div class="clear"></div></li>
+<li class=""><div>33</div><div><span class="flag sk"></span> <a href="rider/martin-velits">VELITS Martin</a></div><div class="clear"></div></li>
+<li class=""><div>34</div><div><span class="flag us"></span> <a href="rider/adrien-costa">COSTA Adrien</a></div><div class="clear"></div></li>
 </ul></div>
 <div class="fs10 clr999"><div class="">In historical seasons, age is taken at July 1.</div></div>
+<div class="mt20"><h3>Quick links</h3><ul class="list fs14"><li class="blue"><a class="blue" href="compare_teams.php?id=32114">Compare to other teams </a></li>
+</ul></div>
 <div class="mt20"><h3>Info</h3><ul class="infolist" style=""><li><div>Team status:</div> <div>WT</div></li>
 <li><div>Abbreviation: </div> <div>EQS</div></li>
-<li><div>Bike:</div> <div><a    href="gear.php?id=280">Specialized</a></div></li>
-<li><div>Shirt:</div> <div><img src="images/shirts/bx/fw/etixx-quick-step-2016.png" style="max-height: 250px; max-width: 100%;  " /></div></li>
+<li><div>Bike:</div> <div><a href="gear.php?id=280">Specialized</a></div></li>
+<li><div>Shirt:</div> <div><img src="images/shirts/bx/fw/etixx-quick-step-2016.png" style="max-height: 250px; max-width: 100%;  "></div></li>
 </ul></div>
-<div class=""><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/qst_alphavinyl">twitter</a></li>
-<li><span class="icon website left"></span><a  target="_blank"   class="" href="https://www.quickstep-alphavinylteam.com/nl">site</a></li>
-<li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/quickstepalphavinyl">facebook</a></li>
-<li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/quickstep_alphavinylteam/">instagram</a></li>
+<div class=""><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a target="_blank" class="" href="https://twitter.com/qst_alphavinyl">twitter</a></li>
+<li><span class="icon website left"></span><a target="_blank" class="" href="https://www.quickstep-alphavinylteam.com/nl">site</a></li>
+<li><span class="icon facebook left"></span><a target="_blank" class="" href="https://www.facebook.com/quickstepalphavinyl">facebook</a></li>
+<li><span class="icon instagram left"></span><a target="_blank" class="" href="https://www.instagram.com/quickstep_alphavinylteam/">instagram</a></li>
 </ul></div>
 <div class="mt20"><h3>Staff</h3>
-<table class="basic"  style=""><thead><tr><th style="width: 50%; ">Name</th><th style="width: 50%; ">Functions</th></tr></thead><tbody>
-<tr ><td><span class="flag be"></span> <a    href="staff/patrick-lefevere">Patrick  Lefevere </a></td><td>General manager</td></tr>
-<tr ><td><span class="flag be"></span> <a    href="staff/wilfried-peeters">Wilfried  Peeters </a></td><td>Sports Director</td></tr>
-<tr ><td><span class="flag dk"></span> <a    href="staff/brian-holm-sorensen">Brian  Holm Sørensen </a></td><td>Ass. Sports Director</td></tr>
-<tr ><td><span class="flag it"></span> <a    href="staff/davide-bramati">Davide  Bramati </a></td><td>Ass. Sports Director</td></tr>
-<tr ><td><span class="flag it"></span> <a    href="staff/davide-bramati">Davide  Bramati </a></td><td>Ass. Sports Director</td></tr>
-<tr ><td><span class="flag be"></span> <a    href="staff/geert-van-bondt">Geert Van Bondt </a></td><td>Ass. Sports Director</td></tr>
-<tr ><td><span class="flag de"></span> <a    href="staff/jan-schaffrath">Jan  Schaffrath </a></td><td>Ass. Sports Director</td></tr>
-<tr ><td><span class="flag be"></span> <a    href="staff/rik-van-slycke">Rik Van Slycke </a></td><td>Ass. Sports Director</td></tr>
-<tr ><td><span class="flag be"></span> <a    href="staff/tom-steels">Tom  Steels </a></td><td>Ass. Sports Director</td></tr>
+<table class="basic" style=""><thead><tr><th style="width: 50%; ">Name</th><th style="width: 50%; ">Functions</th></tr></thead><tbody>
+<tr><td><span class="flag be"></span> <a href="staff/patrick-lefevere">Patrick  Lefevere </a></td><td>General manager</td></tr>
+<tr><td><span class="flag be"></span> <a href="staff/wilfried-peeters">Wilfried  Peeters </a></td><td>Sports Director</td></tr>
+<tr><td><span class="flag dk"></span> <a href="staff/brian-holm-sorensen">Brian  Holm Sørensen </a></td><td>Ass. Sports Director</td></tr>
+<tr><td><span class="flag it"></span> <a href="staff/davide-bramati">Davide  Bramati </a></td><td>Ass. Sports Director</td></tr>
+<tr><td><span class="flag it"></span> <a href="staff/davide-bramati">Davide  Bramati </a></td><td>Ass. Sports Director</td></tr>
+<tr><td><span class="flag be"></span> <a href="staff/geert-van-bondt">Geert Van Bondt </a></td><td>Ass. Sports Director</td></tr>
+<tr><td><span class="flag de"></span> <a href="staff/jan-schaffrath">Jan  Schaffrath </a></td><td>Ass. Sports Director</td></tr>
+<tr><td><span class="flag be"></span> <a href="staff/rik-van-slycke">Rik Van Slycke </a></td><td>Ass. Sports Director</td></tr>
+<tr><td><span class="flag be"></span> <a href="staff/tom-steels">Tom  Steels </a></td><td>Ass. Sports Director</td></tr>
 </tbody></table></div>
 <div class="mt30"><h3>Points per season</h3>
-<table class="basic"  style=""><thead><tr><th style="width: 20%; ">year</th><th class="bar  "  style="width: 60%; ">points</th><th class="ac  "  style="width: 20%; ">position</th></tr></thead><tbody>
-<tr ><td>2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 41.8%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">5166</span></div></td><td class="ac  " >7</td></tr>
-<tr ><td>2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 78.9%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">9760</span></div></td><td class="ac  " >1</td></tr>
-<tr ><td>2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 58.8%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">7267</span></div></td><td class="ac  " >1</td></tr>
-<tr ><td>2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 76.7%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">9476</span></div></td><td class="ac  " >1</td></tr>
-<tr ><td>2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">9890</span></div></td><td class="ac  " >1</td></tr>
+<table class="basic" style=""><thead><tr><th style="width: 20%; ">year</th><th class="bar  " style="width: 60%; ">points</th><th class="ac  " style="width: 20%; ">position</th></tr></thead><tbody>
+<tr><td>2022</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 42.6%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">5268</span></div></td><td class="ac  ">7</td></tr>
+<tr><td>2021</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 78.9%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">9760</span></div></td><td class="ac  ">1</td></tr>
+<tr><td>2020</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 58.8%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">7267</span></div></td><td class="ac  ">1</td></tr>
+<tr><td>2019</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 76.7%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">9476</span></div></td><td class="ac  ">1</td></tr>
+<tr><td>2018</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">9890</span></div></td><td class="ac  ">1</td></tr>
 </tbody></table></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
-<table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >16/08 - 20/08</td><td class="cs600 hide  " >16/08 - 20/08</td><td><span class="flag dk"></span> <a    href="race/tour-of-denmark/2022">PostNord Danmark Rundt - Tour of Denmark</a></td><td class="cu600 fs10 clr555  " >Mørkøv, Knox, Schmid, Štybar, Vernon, Declercq, Černý</td></tr>
-<tr ><td class="cu600  " >19/08 - 11/09</td><td class="cs600 hide  " >19/08 - 11/09</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2022">La Vuelta ciclista a España</a></td><td class="cu600 fs10 clr555  " >Evenepoel, Van Wilder, Vervaeke, Alaphilippe, Masnada, Devenyns, Cavagna, Vansevenant</td></tr>
-<tr ><td class="cu600  " >21/08</td><td class="cs600 hide  " >21/08</td><td><span class="flag de"></span> <a    href="race/cyclassics-hamburg/2022">BEMER Cyclassics</a></td><td class="cu600 fs10 clr555  " >Van Lerberghe</td></tr>
-<tr ><td class="cu600  " >24/08</td><td class="cs600 hide  " >24/08</td><td><span class="flag be"></span> <a    href="race/druivenkoers-overijse/2022">Druivenkoers - Overijse</a></td><td class="cu600 fs10 clr555  " >Bagioli, Štybar</td></tr>
-<tr ><td class="cu600  " >24/08 - 28/08</td><td class="cs600 hide  " >24/08 - 28/08</td><td><span class="flag de"></span> <a    href="race/deutschland-tour/2022">Deutschland Tour</a></td><td class="cu600 fs10 clr555  " >Vansevenant, Asgreen, Lampaert, Jakobsen, Van Tricht, Raccani</td></tr>
-<tr class=" hide"  ><td class="cu600  " >28/08</td><td class="cs600 hide  " >28/08</td><td><span class="flag fr"></span> <a    href="race/bretagne-classic/2022">Bretagne Classic - Ouest-France</a></td><td class="cu600 fs10 clr555  " >Bagioli, Štybar, Vansevenant, Masnada</td></tr>
-<tr class=" hide"  ><td class="cu600  " >09/09</td><td class="cs600 hide  " >09/09</td><td><span class="flag ca"></span> <a    href="race/gp-quebec/2022">Grand Prix Cycliste de Québec</a></td><td class="cu600 fs10 clr555  " >Bagioli</td></tr>
-<tr class=" hide"  ><td class="cu600  " >11/09</td><td class="cs600 hide  " >11/09</td><td><span class="flag ca"></span> <a    href="race/gp-montreal/2022">Grand Prix Cycliste de Montréal</a></td><td class="cu600 fs10 clr555  " >Bagioli</td></tr>
-<tr class=" hide"  ><td class="cu600  " >11/09</td><td class="cs600 hide  " >11/09</td><td><span class="flag fr"></span> <a    href="race/gp-de-fourmies/2022">GP de Fourmies / La Voix du Nord</a></td><td class="cu600 fs10 clr555  " >Van Lerberghe</td></tr>
-<tr class=" hide"  ><td class="cu600  " >13/09 - 17/09</td><td class="cs600 hide  " >13/09 - 17/09</td><td><span class="flag sk"></span> <a    href="race/okolo-slovenska/2022">Okolo Slovenska / Tour de Slovaquie</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >13/09 - 17/09</td><td class="cs600 hide  " >13/09 - 17/09</td><td><span class="flag lu"></span> <a    href="race/tour-de-luxembourg/2022">Skoda Tour Luxembourg</a></td><td class="cu600 fs10 clr555  " >Štybar</td></tr>
-<tr class=" hide"  ><td class="cu600  " >16/09</td><td class="cs600 hide  " >16/09</td><td><span class="flag be"></span> <a    href="race/kampioenschap-van-vlaanderen/2022">Kampioenschap van Vlaanderen</a></td><td class="cu600 fs10 clr555  " >Van Lerberghe</td></tr>
-<tr class=" hide"  ><td class="cu600  " >17/09</td><td class="cs600 hide  " >17/09</td><td><span class="flag be"></span> <a    href="race/gp-impanis-van-petegem/2022">Primus Classic</a></td><td class="cu600 fs10 clr555  " >Van Lerberghe</td></tr>
-<tr class=" hide"  ><td class="cu600  " >18/09</td><td class="cs600 hide  " >18/09</td><td><span class="flag be"></span> <a    href="race/gooikse-pijl/2022">Gooikse Pijl</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >18/09</td><td class="cs600 hide  " >18/09</td><td><span class="flag au"></span> <a    href="race/world-championship-itt/2022">World Championships - ITT</a></td><td class="cu600 fs10 clr555  " >Evenepoel</td></tr>
-<tr class=" hide"  ><td class="cu600  " >01/10</td><td class="cs600 hide  " >01/10</td><td><span class="flag it"></span> <a    href="race/giro-dell-emilia/2022">Giro dell'Emilia</a></td><td class="cu600 fs10 clr555  " >Vansevenant</td></tr>
-<tr class=" hide"  ><td class="cu600  " >03/10</td><td class="cs600 hide  " >03/10</td><td><span class="flag it"></span> <a    href="race/coppa-bernocchi/2022">Coppa Bernocchi - GP BPM</a></td><td class="cu600 fs10 clr555  " >Vansevenant</td></tr>
-<tr class=" hide"  ><td class="cu600  " >08/10</td><td class="cs600 hide  " >08/10</td><td><span class="flag it"></span> <a    href="race/il-lombardia/2022">Il Lombardia</a></td><td class="cu600 fs10 clr555  " >Serry, Devenyns</td></tr>
+<table class="basic" style=""><thead><tr><th class="cu600  " style="width: 13%; ">Date</th><th class="cs600 hide  " style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  " style="width: 34.8%; ">Riders</th></tr></thead><tbody>
+<tr><td class="cu600  ">19/08 - 11/09</td><td class="cs600 hide  ">19/08 - 11/09</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2022">La Vuelta ciclista a España</a></td><td class="cu600 fs10 clr555  ">Evenepoel, Van Wilder, Vervaeke, Alaphilippe, Masnada, Devenyns, Cavagna, Serry</td></tr>
+<tr><td class="cu600  ">24/08 - 28/08</td><td class="cs600 hide  ">24/08 - 28/08</td><td><span class="flag de"></span> <a href="race/deutschland-tour/2022">Deutschland Tour</a></td><td class="cu600 fs10 clr555  ">Vansevenant, Lampaert, Jakobsen, Van Tricht</td></tr>
+<tr><td class="cu600  ">24/08</td><td class="cs600 hide  ">24/08</td><td><span class="flag be"></span> <a href="race/druivenkoers-overijse/2022">Druivenkoers - Overijse</a></td><td class="cu600 fs10 clr555  ">Bagioli, Ballerini, Černý, Keisse, Steels, Štybar, Svrček</td></tr>
+<tr><td class="cu600  ">28/08</td><td class="cs600 hide  ">28/08</td><td><span class="flag fr"></span> <a href="race/bretagne-classic/2022">Bretagne Classic - Ouest-France</a></td><td class="cu600 fs10 clr555  ">Bagioli, Štybar, Ballerini, Cattaneo, Schmid, Honoré</td></tr>
+<tr><td class="cu600  ">09/09</td><td class="cs600 hide  ">09/09</td><td><span class="flag ca"></span> <a href="race/gp-quebec/2022">Grand Prix Cycliste de Québec</a></td><td class="cu600 fs10 clr555  ">Bagioli</td></tr>
+<tr class=" hide"><td class="cu600  ">11/09</td><td class="cs600 hide  ">11/09</td><td><span class="flag ca"></span> <a href="race/gp-montreal/2022">Grand Prix Cycliste de Montréal</a></td><td class="cu600 fs10 clr555  ">Bagioli</td></tr>
+<tr class=" hide"><td class="cu600  ">11/09</td><td class="cs600 hide  ">11/09</td><td><span class="flag fr"></span> <a href="race/gp-de-fourmies/2022">GP de Fourmies / La Voix du Nord</a></td><td class="cu600 fs10 clr555  ">Van Lerberghe</td></tr>
+<tr class=" hide"><td class="cu600  ">13/09 - 17/09</td><td class="cs600 hide  ">13/09 - 17/09</td><td><span class="flag sk"></span> <a href="race/okolo-slovenska/2022">Okolo Slovenska / Tour de Slovaquie</a></td><td class="cu600 fs10 clr555  "></td></tr>
+<tr class=" hide"><td class="cu600  ">13/09 - 17/09</td><td class="cs600 hide  ">13/09 - 17/09</td><td><span class="flag lu"></span> <a href="race/tour-de-luxembourg/2022">Skoda Tour Luxembourg</a></td><td class="cu600 fs10 clr555  ">Štybar</td></tr>
+<tr class=" hide"><td class="cu600  ">16/09</td><td class="cs600 hide  ">16/09</td><td><span class="flag be"></span> <a href="race/kampioenschap-van-vlaanderen/2022">Kampioenschap van Vlaanderen</a></td><td class="cu600 fs10 clr555  ">Van Lerberghe</td></tr>
+<tr class=" hide"><td class="cu600  ">17/09</td><td class="cs600 hide  ">17/09</td><td><span class="flag be"></span> <a href="race/gp-impanis-van-petegem/2022">Primus Classic</a></td><td class="cu600 fs10 clr555  ">Van Lerberghe</td></tr>
+<tr class=" hide"><td class="cu600  ">18/09</td><td class="cs600 hide  ">18/09</td><td><span class="flag be"></span> <a href="race/gooikse-pijl/2022">Gooikse Pijl</a></td><td class="cu600 fs10 clr555  "></td></tr>
+<tr class=" hide"><td class="cu600  ">01/10</td><td class="cs600 hide  ">01/10</td><td><span class="flag it"></span> <a href="race/giro-dell-emilia/2022">Giro dell'Emilia</a></td><td class="cu600 fs10 clr555  ">Vansevenant</td></tr>
+<tr class=" hide"><td class="cu600  ">03/10</td><td class="cs600 hide  ">03/10</td><td><span class="flag it"></span> <a href="race/coppa-bernocchi/2022">Coppa Bernocchi - GP BPM</a></td><td class="cu600 fs10 clr555  ">Vansevenant</td></tr>
+<tr class=" hide"><td class="cu600  ">03/10</td><td class="cs600 hide  ">03/10</td><td><span class="flag de"></span> <a href="race/munsterland-giro/2022">Sparkassen Münsterland Giro</a></td><td class="cu600 fs10 clr555  "></td></tr>
+<tr class=" hide"><td class="cu600  ">04/10</td><td class="cs600 hide  ">04/10</td><td><span class="flag be"></span> <a href="race/memorial-frank-vandenbroucke/2022">Binche -  Chimay - Binche / Mémorial Frank Vandenbroucke</a></td><td class="cu600 fs10 clr555  "></td></tr>
+<tr class=" hide"><td class="cu600  ">06/10</td><td class="cs600 hide  ">06/10</td><td><span class="flag it"></span> <a href="race/gran-piemonte/2022">Gran Piemonte</a></td><td class="cu600 fs10 clr555  "></td></tr>
+<tr class=" hide"><td class="cu600  ">08/10</td><td class="cs600 hide  ">08/10</td><td><span class="flag it"></span> <a href="race/il-lombardia/2022">Il Lombardia</a></td><td class="cu600 fs10 clr555  ">Serry, Devenyns</td></tr>
+<tr class=" hide"><td class="cu600  ">09/10</td><td class="cs600 hide  ">09/10</td><td><span class="flag be"></span> <a href="race/memorial-rik-van-steenbergen/2022">Memorial Rik Van Steenbergen / Kempen Classic</a></td><td class="cu600 fs10 clr555  "></td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 <div class="mt20"><h3>Last victories</h3>
-<table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">#</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Winner</th></tr></thead><tbody>
-<tr ><td>54</td><td><span class="flag fr"></span> <a    href="race/paris-tours/2016/result">Paris - Tours Elite</a></td><td>1.HC</td><td>GAVIRIA Fernando</td></tr>
-<tr ><td>53</td><td><span class="flag qa"></span> <a    href="race/world-championship-ttt/2016/result">World Championships - TTT</a></td><td>WC</td><td>TTT</td></tr>
-<tr ><td>52</td><td><span class="flag be"></span> <a    href="race/benelux-tour/2016/gc">Eneco Tour</a></td><td>2.UWT</td><td>TERPSTRA Niki</td></tr>
-<tr ><td>51</td><td><span class="flag be"></span> <a    href="race/gp-impanis-van-petegem/2016/result">Primus Classic Impanis - Van Petegem</a></td><td>1.HC</td><td>GAVIRIA Fernando</td></tr>
-<tr ><td>50</td><td><span class="flag gb"></span> <a    href="race/tour-of-britain/2016/stage-7a">Tour of Britain | Stage 7a (ITT)</a></td><td>2.HC</td><td>MARTIN Tony</td></tr>
-<tr ><td>49</td><td><span class="flag gb"></span> <a    href="race/tour-of-britain/2016/stage-2">Tour of Britain | Stage 2</a></td><td>2.HC</td><td>VERMOTE Julien</td></tr>
-<tr ><td>48</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2016/stage-15">Vuelta a España | Stage 15</a></td><td>2.UWT</td><td>BRAMBILLA Gianluca</td></tr>
-<tr ><td>47</td><td><span class="flag fr"></span> <a    href="race/gp-de-fourmies/2016/result">GP de Fourmies / La Voix du Nord</a></td><td>1.HC</td><td>KITTEL Marcel</td></tr>
-<tr ><td>46</td><td><span class="flag be"></span> <a    href="race/brussels-cycling-classic/2016/result">Brussels Cycling Classic</a></td><td>1.HC</td><td>BOONEN Tom</td></tr>
-<tr ><td>45</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2016/stage-9">Vuelta a España | Stage 9</a></td><td>2.UWT</td><td>DE LA CRUZ David</td></tr>
-<tr class=" hide"  ><td>44</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2016/stage-5">Vuelta a España | Stage 5</a></td><td>2.UWT</td><td>MEERSMAN Gianni</td></tr>
-<tr class=" hide"  ><td>43</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2016/stage-2">Vuelta a España | Stage 2</a></td><td>2.UWT</td><td>MEERSMAN Gianni</td></tr>
-<tr class=" hide"  ><td>42</td><td><span class="flag fr"></span> <a    href="race/tour-de-l-ain/2016/stage-1">Tour de l'Ain | Stage 1</a></td><td>2.1</td><td>TRENTIN Matteo</td></tr>
-<tr class=" hide"  ><td>41</td><td><span class="flag be"></span> <a    href="race/dwars-door-het-hageland/2016/result">Dwars door het Hageland - Aarschot</a></td><td>1.1</td><td>TERPSTRA Niki</td></tr>
-<tr class=" hide"  ><td>40</td><td><span class="flag gb"></span> <a    href="race/ride-london-classic/2016/result">RideLondon Classic</a></td><td>1.HC</td><td>BOONEN Tom</td></tr>
-<tr class=" hide"  ><td>39</td><td><span class="flag be"></span> <a    href="race/tour-de-wallonie/2016/stage-4">Tour de Wallonie | Stage 4</a></td><td>2.HC</td><td>TRENTIN Matteo</td></tr>
-<tr class=" hide"  ><td>38</td><td><span class="flag be"></span> <a    href="race/tour-de-wallonie/2016/stage-1">Tour de Wallonie | Stage 1</a></td><td>2.HC</td><td>BOONEN Tom</td></tr>
-<tr class=" hide"  ><td>37</td><td><span class="flag pl"></span> <a    href="race/tour-de-pologne/2016/stage-4">Tour de Pologne | Stage 4</a></td><td>2.UWT</td><td>GAVIRIA Fernando</td></tr>
-<tr class=" hide"  ><td>36</td><td><span class="flag pl"></span> <a    href="race/tour-de-pologne/2016/stage-2">Tour de Pologne | Stage 2</a></td><td>2.UWT</td><td>GAVIRIA Fernando</td></tr>
-<tr class=" hide"  ><td>35</td><td><span class="flag pl"></span> <a    href="race/tour-de-pologne/2016/stage-1">Tour de Pologne | Stage 1</a></td><td>2.UWT</td><td>MARTINELLI Davide</td></tr>
-<tr class=" hide"  ><td>34</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2016/stage-4">Tour de France | Stage 4</a></td><td>2.UWT</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>33</td><td><span class="flag lu"></span> <a    href="race/nc-luxembourg/2016/result">National Championships Luxembourg - Road Race</a></td><td>NC</td><td>JUNGELS Bob</td></tr>
-<tr class=" hide"  ><td>32</td><td><span class="flag lu"></span> <a    href="race/nc-luxembourg-itt/2016/result">National Championships Luxembourg - ITT</a></td><td>NC</td><td>JUNGELS Bob</td></tr>
-<tr class=" hide"  ><td>31</td><td><span class="flag de"></span> <a    href="race/nc-germany-itt/2016/result">National Championships Germany - ITT</a></td><td>NC</td><td>MARTIN Tony</td></tr>
-<tr class=" hide"  ><td>30</td><td><span class="flag ch"></span> <a    href="race/tour-de-suisse/2016/stage-4">Tour de Suisse | Stage 4</a></td><td>2.UWT</td><td>RICHEZE Maximiliano</td></tr>
-<tr class=" hide"  ><td>29</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2016/stage-18">Giro d'Italia | Stage 18</a></td><td>2.UWT</td><td>TRENTIN Matteo</td></tr>
-<tr class=" hide"  ><td>28</td><td><span class="flag us"></span> <a    href="race/tour-of-california/2016/gc">Amgen Tour of California</a></td><td>2.HC</td><td>ALAPHILIPPE Julian</td></tr>
-<tr class=" hide"  ><td>27</td><td><span class="flag us"></span> <a    href="race/tour-of-california/2016/stage-3">Amgen Tour of California | Stage 3</a></td><td>2.HC</td><td>ALAPHILIPPE Julian</td></tr>
-<tr class=" hide"  ><td>26</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2016/stage-8">Giro d'Italia | Stage 8</a></td><td>2.UWT</td><td>BRAMBILLA Gianluca</td></tr>
-<tr class=" hide"  ><td>25</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2016/stage-3">Giro d'Italia | Stage 3</a></td><td>2.UWT</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>24</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2016/stage-2">Giro d'Italia | Stage 2</a></td><td>2.UWT</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>23</td><td><span class="flag ch"></span> <a    href="race/tour-de-romandie/2016/stage-1">Tour de Romandie | Stage 1</a></td><td>2.UWT</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>22</td><td><span class="flag be"></span> <a    href="race/brabantse-pijl/2016/result">De Brabantse Pijl - La Flèche Brabançonne</a></td><td>1.HC</td><td>VAKOČ Petr</td></tr>
-<tr class=" hide"  ><td>21</td><td><span class="flag be"></span> <a    href="race/scheldeprijs/2016/result">Scheldeprijs</a></td><td>1.HC</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>20</td><td><span class="flag be"></span> <a    href="race/oxyclean-classic-brugge-de-panne/2016/stage-3a">Driedaagse De Panne-Koksijde | Stage 3a</a></td><td>2.HC</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>19</td><td><span class="flag es"></span> <a    href="race/volta-a-catalunya/2016/stage-3">Volta Ciclista a Catalunya | Stage 3</a></td><td>2.UWT</td><td>MARTIN Dan</td></tr>
-<tr class=" hide"  ><td>18</td><td><span class="flag it"></span> <a    href="race/tirreno-adriatico/2016/stage-3">Tirreno-Adriatico | Stage 3</a></td><td>2.UWT</td><td>GAVIRIA Fernando</td></tr>
-<tr class=" hide"  ><td>17</td><td><span class="flag it"></span> <a    href="race/tirreno-adriatico/2016/stage-2">Tirreno-Adriatico | Stage 2</a></td><td>2.UWT</td><td>ŠTYBAR Zdeněk</td></tr>
-<tr class=" hide"  ><td>16</td><td><span class="flag be"></span> <a    href="race/gp-samyn/2016/result">Le Samyn</a></td><td>1.1</td><td>TERPSTRA Niki</td></tr>
-<tr class=" hide"  ><td>15</td><td><span class="flag fr"></span> <a    href="race/la-drome-classic/2016/result">Royal Bernard Drôme Classic</a></td><td>1.1</td><td>VAKOČ Petr</td></tr>
-<tr class=" hide"  ><td>14</td><td><span class="flag fr"></span> <a    href="race/faun-ardeche-classic/2016/result">Classic Sud Ardèche - Souvenir Francis Delpech</a></td><td>1.1</td><td>VAKOČ Petr</td></tr>
-<tr class=" hide"  ><td>13</td><td><span class="flag fr"></span> <a    href="race/tour-cycliste-international-la-provence/2016/stage-3">Tour Cycliste International La Provence | Stage 3</a></td><td>2.1</td><td>GAVIRIA Fernando</td></tr>
-<tr class=" hide"  ><td>12</td><td><span class="flag fr"></span> <a    href="race/tour-cycliste-international-la-provence/2016/stage-2">Tour Cycliste International La Provence | Stage 2</a></td><td>2.1</td><td>MARTINELLI Davide</td></tr>
-<tr class=" hide"  ><td>11</td><td><span class="flag pt"></span> <a    href="race/volta-ao-algarve/2016/stage-4">Volta ao Algarve em Bicicleta | Stage 4</a></td><td>2.1</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>10</td><td><span class="flag pt"></span> <a    href="race/volta-ao-algarve/2016/stage-1">Volta ao Algarve em Bicicleta | Stage 1</a></td><td>2.1</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>9</td><td><span class="flag om"></span> <a    href="race/tour-of-oman/2016/stage-1">Tour of Oman | Stage 1</a></td><td>2.HC</td><td>JUNGELS Bob</td></tr>
-<tr class=" hide"  ><td>8</td><td><span class="flag es"></span> <a    href="race/vuelta-a-la-comunidad-valenciana/2016/stage-5">Volta a la Comunitat Valenciana | Stage 5</a></td><td>2.1</td><td>VANDENBERGH Stijn</td></tr>
-<tr class=" hide"  ><td>7</td><td><span class="flag ae"></span> <a    href="race/dubai-tour/2016/stage-4">Dubai Tour | Stage 4</a></td><td>2.HC</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>6</td><td><span class="flag ae"></span> <a    href="race/dubai-tour/2016/gc">Dubai Tour</a></td><td>2.HC</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>5</td><td><span class="flag es"></span> <a    href="race/vuelta-a-la-comunidad-valenciana/2016/stage-2">Volta a la Comunitat Valenciana | Stage 2</a></td><td>2.1</td><td>MARTIN Dan</td></tr>
-<tr class=" hide"  ><td>4</td><td><span class="flag ae"></span> <a    href="race/dubai-tour/2016/stage-1">Dubai Tour | Stage 1</a></td><td>2.HC</td><td>KITTEL Marcel</td></tr>
-<tr class=" hide"  ><td>3</td><td><span class="flag es"></span> <a    href="race/trofeo-andratx-mirador-d-es-colomer/2016/result">Trofeo Pollenca - Port de Andratx</a></td><td>1.1</td><td>BRAMBILLA Gianluca</td></tr>
-<tr class=" hide"  ><td>2</td><td><span class="flag ar"></span> <a    href="race/tour-de-san-luis/2016/stage-2">Tour de San Luis | Stage 2</a></td><td>2.1</td><td>GAVIRIA Fernando</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag ar"></span> <a    href="race/tour-de-san-luis/2016/stage-1">Tour de San Luis | Stage 1 (TTT)</a></td><td>2.1</td><td>TTT</td></tr>
+<table class="basic" style=""><thead><tr><th style="width: 7.7%; ">#</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Winner</th></tr></thead><tbody>
+<tr><td>54</td><td><span class="flag fr"></span> <a href="race/paris-tours/2016/result">Paris - Tours Elite</a></td><td>1.HC</td><td>GAVIRIA Fernando</td></tr>
+<tr><td>53</td><td><span class="flag qa"></span> <a href="race/world-championship-ttt/2016/result">World Championships - TTT</a></td><td>WC</td><td>TTT</td></tr>
+<tr><td>52</td><td><span class="flag be"></span> <a href="race/benelux-tour/2016/gc">Eneco Tour</a></td><td>2.UWT</td><td>TERPSTRA Niki</td></tr>
+<tr><td>51</td><td><span class="flag be"></span> <a href="race/gp-impanis-van-petegem/2016/result">Primus Classic Impanis - Van Petegem</a></td><td>1.HC</td><td>GAVIRIA Fernando</td></tr>
+<tr><td>50</td><td><span class="flag gb"></span> <a href="race/tour-of-britain/2016/stage-7a">Tour of Britain | Stage 7a (ITT)</a></td><td>2.HC</td><td>MARTIN Tony</td></tr>
+<tr><td>49</td><td><span class="flag gb"></span> <a href="race/tour-of-britain/2016/stage-2">Tour of Britain | Stage 2</a></td><td>2.HC</td><td>VERMOTE Julien</td></tr>
+<tr><td>48</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2016/stage-15">Vuelta a España | Stage 15</a></td><td>2.UWT</td><td>BRAMBILLA Gianluca</td></tr>
+<tr><td>47</td><td><span class="flag fr"></span> <a href="race/gp-de-fourmies/2016/result">GP de Fourmies / La Voix du Nord</a></td><td>1.HC</td><td>KITTEL Marcel</td></tr>
+<tr><td>46</td><td><span class="flag be"></span> <a href="race/brussels-cycling-classic/2016/result">Brussels Cycling Classic</a></td><td>1.HC</td><td>BOONEN Tom</td></tr>
+<tr><td>45</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2016/stage-9">Vuelta a España | Stage 9</a></td><td>2.UWT</td><td>DE LA CRUZ David</td></tr>
+<tr class=" hide"><td>44</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2016/stage-5">Vuelta a España | Stage 5</a></td><td>2.UWT</td><td>MEERSMAN Gianni</td></tr>
+<tr class=" hide"><td>43</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2016/stage-2">Vuelta a España | Stage 2</a></td><td>2.UWT</td><td>MEERSMAN Gianni</td></tr>
+<tr class=" hide"><td>42</td><td><span class="flag fr"></span> <a href="race/tour-de-l-ain/2016/stage-1">Tour de l'Ain | Stage 1</a></td><td>2.1</td><td>TRENTIN Matteo</td></tr>
+<tr class=" hide"><td>41</td><td><span class="flag be"></span> <a href="race/dwars-door-het-hageland/2016/result">Dwars door het Hageland - Aarschot</a></td><td>1.1</td><td>TERPSTRA Niki</td></tr>
+<tr class=" hide"><td>40</td><td><span class="flag gb"></span> <a href="race/ride-london-classic/2016/result">RideLondon Classic</a></td><td>1.HC</td><td>BOONEN Tom</td></tr>
+<tr class=" hide"><td>39</td><td><span class="flag be"></span> <a href="race/tour-de-wallonie/2016/stage-4">Tour de Wallonie | Stage 4</a></td><td>2.HC</td><td>TRENTIN Matteo</td></tr>
+<tr class=" hide"><td>38</td><td><span class="flag be"></span> <a href="race/tour-de-wallonie/2016/stage-1">Tour de Wallonie | Stage 1</a></td><td>2.HC</td><td>BOONEN Tom</td></tr>
+<tr class=" hide"><td>37</td><td><span class="flag pl"></span> <a href="race/tour-de-pologne/2016/stage-4">Tour de Pologne | Stage 4</a></td><td>2.UWT</td><td>GAVIRIA Fernando</td></tr>
+<tr class=" hide"><td>36</td><td><span class="flag pl"></span> <a href="race/tour-de-pologne/2016/stage-2">Tour de Pologne | Stage 2</a></td><td>2.UWT</td><td>GAVIRIA Fernando</td></tr>
+<tr class=" hide"><td>35</td><td><span class="flag pl"></span> <a href="race/tour-de-pologne/2016/stage-1">Tour de Pologne | Stage 1</a></td><td>2.UWT</td><td>MARTINELLI Davide</td></tr>
+<tr class=" hide"><td>34</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2016/stage-4">Tour de France | Stage 4</a></td><td>2.UWT</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>33</td><td><span class="flag lu"></span> <a href="race/nc-luxembourg/2016/result">National Championships Luxembourg - Road Race</a></td><td>NC</td><td>JUNGELS Bob</td></tr>
+<tr class=" hide"><td>32</td><td><span class="flag lu"></span> <a href="race/nc-luxembourg-itt/2016/result">National Championships Luxembourg - ITT</a></td><td>NC</td><td>JUNGELS Bob</td></tr>
+<tr class=" hide"><td>31</td><td><span class="flag de"></span> <a href="race/nc-germany-itt/2016/result">National Championships Germany - ITT</a></td><td>NC</td><td>MARTIN Tony</td></tr>
+<tr class=" hide"><td>30</td><td><span class="flag ch"></span> <a href="race/tour-de-suisse/2016/stage-4">Tour de Suisse | Stage 4</a></td><td>2.UWT</td><td>RICHEZE Maximiliano</td></tr>
+<tr class=" hide"><td>29</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2016/stage-18">Giro d'Italia | Stage 18</a></td><td>2.UWT</td><td>TRENTIN Matteo</td></tr>
+<tr class=" hide"><td>28</td><td><span class="flag us"></span> <a href="race/tour-of-california/2016/gc">Amgen Tour of California</a></td><td>2.HC</td><td>ALAPHILIPPE Julian</td></tr>
+<tr class=" hide"><td>27</td><td><span class="flag us"></span> <a href="race/tour-of-california/2016/stage-3">Amgen Tour of California | Stage 3</a></td><td>2.HC</td><td>ALAPHILIPPE Julian</td></tr>
+<tr class=" hide"><td>26</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2016/stage-8">Giro d'Italia | Stage 8</a></td><td>2.UWT</td><td>BRAMBILLA Gianluca</td></tr>
+<tr class=" hide"><td>25</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2016/stage-3">Giro d'Italia | Stage 3</a></td><td>2.UWT</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>24</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2016/stage-2">Giro d'Italia | Stage 2</a></td><td>2.UWT</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>23</td><td><span class="flag ch"></span> <a href="race/tour-de-romandie/2016/stage-1">Tour de Romandie | Stage 1</a></td><td>2.UWT</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>22</td><td><span class="flag be"></span> <a href="race/brabantse-pijl/2016/result">De Brabantse Pijl - La Flèche Brabançonne</a></td><td>1.HC</td><td>VAKOČ Petr</td></tr>
+<tr class=" hide"><td>21</td><td><span class="flag be"></span> <a href="race/scheldeprijs/2016/result">Scheldeprijs</a></td><td>1.HC</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>20</td><td><span class="flag be"></span> <a href="race/oxyclean-classic-brugge-de-panne/2016/stage-3a">Driedaagse De Panne-Koksijde | Stage 3a</a></td><td>2.HC</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>19</td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2016/stage-3">Volta Ciclista a Catalunya | Stage 3</a></td><td>2.UWT</td><td>MARTIN Dan</td></tr>
+<tr class=" hide"><td>18</td><td><span class="flag it"></span> <a href="race/tirreno-adriatico/2016/stage-3">Tirreno-Adriatico | Stage 3</a></td><td>2.UWT</td><td>GAVIRIA Fernando</td></tr>
+<tr class=" hide"><td>17</td><td><span class="flag it"></span> <a href="race/tirreno-adriatico/2016/stage-2">Tirreno-Adriatico | Stage 2</a></td><td>2.UWT</td><td>ŠTYBAR Zdeněk</td></tr>
+<tr class=" hide"><td>16</td><td><span class="flag be"></span> <a href="race/gp-samyn/2016/result">Le Samyn</a></td><td>1.1</td><td>TERPSTRA Niki</td></tr>
+<tr class=" hide"><td>15</td><td><span class="flag fr"></span> <a href="race/la-drome-classic/2016/result">Royal Bernard Drôme Classic</a></td><td>1.1</td><td>VAKOČ Petr</td></tr>
+<tr class=" hide"><td>14</td><td><span class="flag fr"></span> <a href="race/faun-ardeche-classic/2016/result">Classic Sud Ardèche - Souvenir Francis Delpech</a></td><td>1.1</td><td>VAKOČ Petr</td></tr>
+<tr class=" hide"><td>13</td><td><span class="flag fr"></span> <a href="race/tour-cycliste-international-la-provence/2016/stage-3">Tour Cycliste International La Provence | Stage 3</a></td><td>2.1</td><td>GAVIRIA Fernando</td></tr>
+<tr class=" hide"><td>12</td><td><span class="flag fr"></span> <a href="race/tour-cycliste-international-la-provence/2016/stage-2">Tour Cycliste International La Provence | Stage 2</a></td><td>2.1</td><td>MARTINELLI Davide</td></tr>
+<tr class=" hide"><td>11</td><td><span class="flag pt"></span> <a href="race/volta-ao-algarve/2016/stage-4">Volta ao Algarve em Bicicleta | Stage 4</a></td><td>2.1</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>10</td><td><span class="flag pt"></span> <a href="race/volta-ao-algarve/2016/stage-1">Volta ao Algarve em Bicicleta | Stage 1</a></td><td>2.1</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>9</td><td><span class="flag om"></span> <a href="race/tour-of-oman/2016/stage-1">Tour of Oman | Stage 1</a></td><td>2.HC</td><td>JUNGELS Bob</td></tr>
+<tr class=" hide"><td>8</td><td><span class="flag es"></span> <a href="race/vuelta-a-la-comunidad-valenciana/2016/stage-5">Volta a la Comunitat Valenciana | Stage 5</a></td><td>2.1</td><td>VANDENBERGH Stijn</td></tr>
+<tr class=" hide"><td>7</td><td><span class="flag ae"></span> <a href="race/dubai-tour/2016/stage-4">Dubai Tour | Stage 4</a></td><td>2.HC</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>6</td><td><span class="flag ae"></span> <a href="race/dubai-tour/2016/gc">Dubai Tour</a></td><td>2.HC</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>5</td><td><span class="flag es"></span> <a href="race/vuelta-a-la-comunidad-valenciana/2016/stage-2">Volta a la Comunitat Valenciana | Stage 2</a></td><td>2.1</td><td>MARTIN Dan</td></tr>
+<tr class=" hide"><td>4</td><td><span class="flag ae"></span> <a href="race/dubai-tour/2016/stage-1">Dubai Tour | Stage 1</a></td><td>2.HC</td><td>KITTEL Marcel</td></tr>
+<tr class=" hide"><td>3</td><td><span class="flag es"></span> <a href="race/trofeo-andratx-mirador-d-es-colomer/2016/result">Trofeo Pollenca - Port de Andratx</a></td><td>1.1</td><td>BRAMBILLA Gianluca</td></tr>
+<tr class=" hide"><td>2</td><td><span class="flag ar"></span> <a href="race/tour-de-san-luis/2016/stage-2">Tour de San Luis | Stage 2</a></td><td>2.1</td><td>GAVIRIA Fernando</td></tr>
+<tr class=" hide"><td>1</td><td><span class="flag ar"></span> <a href="race/tour-de-san-luis/2016/stage-1">Tour de San Luis | Stage 1 (TTT)</a></td><td>2.1</td><td>TTT</td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 <div class="mt30"><h3>Top results</h3>
-<table class="basic"  style=""><thead><tr><th style="width: 7.1%; ">Result</th><th style="width: 50%; ">Race</th><th style="width: 7.1%; ">Class</th><th style="width: 28.6%; ">Rider</th><th style="width: 7.1%; ">Points</th></tr></thead><tbody>
-<tr ><td>1</td><td><span class="flag be"></span> <a    href="race/benelux-tour/2016/gc">Eneco Tour</a></td><td>2.UWT</td><td><a    href="rider/niki-terpstra">TERPSTRA Niki</a></td><td>250</td></tr>
-<tr ><td>9</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2016/gc">Tour de France</a></td><td>2.UWT</td><td><a    href="rider/dan-martin">MARTIN Dan</a></td><td>210</td></tr>
-<tr ><td>2</td><td><span class="flag fr"></span> <a    href="race/paris-roubaix/2016/result">Paris - Roubaix</a></td><td>1.UWT</td><td><a    href="rider/tom-boonen">BOONEN Tom</a></td><td>200</td></tr>
-<tr ><td>6</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2016/gc">Giro d'Italia</a></td><td>2.UWT</td><td><a    href="rider/bob-jungels">JUNGELS Bob</a></td><td>190</td></tr>
-<tr ><td>7</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2016/gc">Vuelta a España</a></td><td>2.UWT</td><td><a    href="rider/david-de-la-cruz">DE LA CRUZ David</a></td><td>180</td></tr>
-<tr ><td>3</td><td><span class="flag fr"></span> <a    href="race/dauphine/2016/gc">Criterium du Dauphiné</a></td><td>2.UWT</td><td><a    href="rider/dan-martin">MARTIN Dan</a></td><td>160</td></tr>
-<tr ><td>3</td><td><span class="flag it"></span> <a    href="race/tirreno-adriatico/2016/gc">Tirreno-Adriatico</a></td><td>2.UWT</td><td><a    href="rider/bob-jungels">JUNGELS Bob</a></td><td>160</td></tr>
-<tr ><td>3</td><td><span class="flag es"></span> <a    href="race/volta-a-catalunya/2016/gc">Volta Ciclista a Catalunya</a></td><td>2.UWT</td><td><a    href="rider/dan-martin">MARTIN Dan</a></td><td>160</td></tr>
-<tr ><td>1</td><td><span class="flag ae"></span> <a    href="race/dubai-tour/2016/gc">Dubai Tour</a></td><td>2.HC</td><td><a    href="rider/marcel-kittel">KITTEL Marcel</a></td><td>150</td></tr>
-<tr ><td>1</td><td><span class="flag us"></span> <a    href="race/tour-of-california/2016/gc">Amgen Tour of California</a></td><td>2.HC</td><td><a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></td><td>150</td></tr>
-<tr class=" hide"  ><td>2</td><td><span class="flag be"></span> <a    href="race/la-fleche-wallone/2016/result">La Flèche Wallonne</a></td><td>1.UWT</td><td><a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></td><td>150</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag fr"></span> <a    href="race/gp-de-fourmies/2016/result">GP de Fourmies / La Voix du Nord</a></td><td>1.HC</td><td><a    href="rider/marcel-kittel">KITTEL Marcel</a></td><td>125</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag be"></span> <a    href="race/brabantse-pijl/2016/result">De Brabantse Pijl - La Flèche Brabançonne</a></td><td>1.HC</td><td><a    href="rider/petr-vakoc">VAKOČ Petr</a></td><td>125</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag be"></span> <a    href="race/scheldeprijs/2016/result">Scheldeprijs</a></td><td>1.HC</td><td><a    href="rider/marcel-kittel">KITTEL Marcel</a></td><td>125</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag gb"></span> <a    href="race/ride-london-classic/2016/result">RideLondon Classic</a></td><td>1.HC</td><td><a    href="rider/tom-boonen">BOONEN Tom</a></td><td>125</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag be"></span> <a    href="race/brussels-cycling-classic/2016/result">Brussels Cycling Classic</a></td><td>1.HC</td><td><a    href="rider/tom-boonen">BOONEN Tom</a></td><td>125</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag be"></span> <a    href="race/gp-impanis-van-petegem/2016/result">Primus Classic Impanis - Van Petegem</a></td><td>1.HC</td><td><a    href="rider/fernando-gaviria">GAVIRIA Fernando</a></td><td>125</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag fr"></span> <a    href="race/paris-tours/2016/result">Paris - Tours Elite</a></td><td>1.HC</td><td><a    href="rider/fernando-gaviria">GAVIRIA Fernando</a></td><td>125</td></tr>
-<tr class=" hide"  ><td>2</td><td><span class="flag be"></span> <a    href="race/tour-de-wallonie/2016/gc">Tour de Wallonie</a></td><td>2.HC</td><td><a    href="rider/gianni-meersman">MEERSMAN Gianni</a></td><td>110</td></tr>
-<tr class=" hide"  ><td>3</td><td><span class="flag be"></span> <a    href="race/la-fleche-wallone/2016/result">La Flèche Wallonne</a></td><td>1.UWT</td><td><a    href="rider/dan-martin">MARTIN Dan</a></td><td>110</td></tr>
+<table class="basic" style=""><thead><tr><th style="width: 7.1%; ">Result</th><th style="width: 50%; ">Race</th><th style="width: 7.1%; ">Class</th><th style="width: 28.6%; ">Rider</th><th style="width: 7.1%; ">Points</th></tr></thead><tbody>
+<tr><td>1</td><td><span class="flag be"></span> <a href="race/benelux-tour/2016/gc">Eneco Tour</a></td><td>2.UWT</td><td><a href="rider/niki-terpstra">TERPSTRA Niki</a></td><td>250</td></tr>
+<tr><td>9</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2016/gc">Tour de France</a></td><td>2.UWT</td><td><a href="rider/dan-martin">MARTIN Dan</a></td><td>210</td></tr>
+<tr><td>2</td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2016/result">Paris - Roubaix</a></td><td>1.UWT</td><td><a href="rider/tom-boonen">BOONEN Tom</a></td><td>200</td></tr>
+<tr><td>6</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2016/gc">Giro d'Italia</a></td><td>2.UWT</td><td><a href="rider/bob-jungels">JUNGELS Bob</a></td><td>190</td></tr>
+<tr><td>7</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2016/gc">Vuelta a España</a></td><td>2.UWT</td><td><a href="rider/david-de-la-cruz">DE LA CRUZ David</a></td><td>180</td></tr>
+<tr><td>3</td><td><span class="flag fr"></span> <a href="race/dauphine/2016/gc">Criterium du Dauphiné</a></td><td>2.UWT</td><td><a href="rider/dan-martin">MARTIN Dan</a></td><td>160</td></tr>
+<tr><td>3</td><td><span class="flag it"></span> <a href="race/tirreno-adriatico/2016/gc">Tirreno-Adriatico</a></td><td>2.UWT</td><td><a href="rider/bob-jungels">JUNGELS Bob</a></td><td>160</td></tr>
+<tr><td>3</td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2016/gc">Volta Ciclista a Catalunya</a></td><td>2.UWT</td><td><a href="rider/dan-martin">MARTIN Dan</a></td><td>160</td></tr>
+<tr><td>1</td><td><span class="flag ae"></span> <a href="race/dubai-tour/2016/gc">Dubai Tour</a></td><td>2.HC</td><td><a href="rider/marcel-kittel">KITTEL Marcel</a></td><td>150</td></tr>
+<tr><td>1</td><td><span class="flag us"></span> <a href="race/tour-of-california/2016/gc">Amgen Tour of California</a></td><td>2.HC</td><td><a href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></td><td>150</td></tr>
+<tr class=" hide"><td>2</td><td><span class="flag be"></span> <a href="race/la-fleche-wallone/2016/result">La Flèche Wallonne</a></td><td>1.UWT</td><td><a href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></td><td>150</td></tr>
+<tr class=" hide"><td>1</td><td><span class="flag fr"></span> <a href="race/gp-de-fourmies/2016/result">GP de Fourmies / La Voix du Nord</a></td><td>1.HC</td><td><a href="rider/marcel-kittel">KITTEL Marcel</a></td><td>125</td></tr>
+<tr class=" hide"><td>1</td><td><span class="flag be"></span> <a href="race/brabantse-pijl/2016/result">De Brabantse Pijl - La Flèche Brabançonne</a></td><td>1.HC</td><td><a href="rider/petr-vakoc">VAKOČ Petr</a></td><td>125</td></tr>
+<tr class=" hide"><td>1</td><td><span class="flag be"></span> <a href="race/scheldeprijs/2016/result">Scheldeprijs</a></td><td>1.HC</td><td><a href="rider/marcel-kittel">KITTEL Marcel</a></td><td>125</td></tr>
+<tr class=" hide"><td>1</td><td><span class="flag gb"></span> <a href="race/ride-london-classic/2016/result">RideLondon Classic</a></td><td>1.HC</td><td><a href="rider/tom-boonen">BOONEN Tom</a></td><td>125</td></tr>
+<tr class=" hide"><td>1</td><td><span class="flag be"></span> <a href="race/brussels-cycling-classic/2016/result">Brussels Cycling Classic</a></td><td>1.HC</td><td><a href="rider/tom-boonen">BOONEN Tom</a></td><td>125</td></tr>
+<tr class=" hide"><td>1</td><td><span class="flag be"></span> <a href="race/gp-impanis-van-petegem/2016/result">Primus Classic Impanis - Van Petegem</a></td><td>1.HC</td><td><a href="rider/fernando-gaviria">GAVIRIA Fernando</a></td><td>125</td></tr>
+<tr class=" hide"><td>1</td><td><span class="flag fr"></span> <a href="race/paris-tours/2016/result">Paris - Tours Elite</a></td><td>1.HC</td><td><a href="rider/fernando-gaviria">GAVIRIA Fernando</a></td><td>125</td></tr>
+<tr class=" hide"><td>2</td><td><span class="flag be"></span> <a href="race/tour-de-wallonie/2016/gc">Tour de Wallonie</a></td><td>2.HC</td><td><a href="rider/gianni-meersman">MEERSMAN Gianni</a></td><td>110</td></tr>
+<tr class=" hide"><td>3</td><td><span class="flag be"></span> <a href="race/la-fleche-wallone/2016/result">La Flèche Wallonne</a></td><td>1.UWT</td><td><a href="rider/dan-martin">MARTIN Dan</a></td><td>110</td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 </div>  <script>
   $(document).ready(function(){
@@ -475,15 +478,15 @@
   </script>
   </div>
 </div>
-<div class="w80 left" >
+<div class="w80 left">
 </div>
-<div class="w20 right" >
+<div class="w20 right">
 </div>
-<div class="w80 left" >
+<div class="w80 left">
 </div>
 <div class="desktop-ad below-content team"></div><div class="mob-ad below-content team"></div></div><div style="clear: both; "></div>  
   </div>
-  </center>
+  
   <div class="push"></div>
 </div>
 <div class="footer">
@@ -505,7 +508,7 @@
 <li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
 <li><a href="race/binckbank-tour">Binckbank Tour</a></li>
 </ul></li>
-<li class="group"><h3>Rankings & Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li class="group"><h3>Rankings &amp; Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/injuries">Injuries</a></li>
 <li><a href="rankings/me/world-ranking/individual">UCI World Ranking</a></li>
@@ -521,11 +524,12 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0856 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1429kb) peak (1551kb)</span></li></ul></li>
-</ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
+<li><span>0.0823 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1435kb) peak (1557kb)</span></li></ul></li>
+</ul><input type="hidden" id="pageid" value="2101"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
  
- </body></html>
+ 
 <script src="search_list3.js"></script>
   
+</body></html>

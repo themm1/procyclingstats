@@ -361,7 +361,6 @@ class TableParser:
             value = row.pop(field_name)
             row[new_field_name] = value
 
-   
     def _get_column_index_from_header(self, column_name: str) -> int:
         if self.header is None:
             raise ExpectedParsingError(

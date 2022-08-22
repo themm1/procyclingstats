@@ -1,4 +1,4 @@
-from typing import List, Tuple
+from typing import List, Tuple, Union
 
 from selectolax.parser import Node
 
@@ -15,7 +15,7 @@ class SelectParser:
         self.html_select_menu = html_select_menu
         self.table = []
 
-    def parse(self, fields: Tuple[str]) -> None:
+    def parse(self, fields: Union[Tuple[str, ...], List[str]]) -> None:
         """
         Parses HTML table to `self.table` (list of dicts) by calling given
         `TableRowParses` methods. Every parsed table row is dictionary with
