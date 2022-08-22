@@ -1,9 +1,9 @@
-from tracemalloc import start
-from typing import List, Optional, Tuple
-from xml.dom.minidom import Element
+from typing import Any, Dict, List, Optional, Tuple
+
+from selectolax.parser import HTMLParser
 
 from .scraper import Scraper
-from .table_parser import TableParser, TableRowParser
+from .table_parser2 import TableParser
 from .utils import parse_table_fields_args, reg
 
 
@@ -24,6 +24,8 @@ class RaceStartlist(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
+        if self._html:
+            self._html = HTMLParser(self._html.html)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -49,7 +51,7 @@ class RaceStartlist(Scraper):
             "team_name",
             "team_url",
             "nationality",
-            "rider_number")) -> List[dict]:
+            "rider_number")) -> List[Dict[str, Any]]:
         """
         Parses startlist from HTML. When startlist is individual (without teams)
         fields team name, url and rider nationality are set to None.
@@ -60,69 +62,61 @@ class RaceStartlist(Scraper):
         :return: startlist table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        startlist_html_table = self._html.find("ul.startlist_v3")[0]
-        # parse normal startlist with teams
-        if startlist_html_table.find("li"):
-            return self._parse_normal_startlist(startlist_html_table, fields)
-        # parse individual startlist where only rider name, url and number is
-        # available
-        else:
-            startlist_html = self._html.find("div.page-content > div")
-            return self._parse_individual_startlist(startlist_html[0], fields)
-                    
-    @staticmethod
-    def _parse_normal_startlist(startlist_html_table: Element,
-                                fields: List[str]) -> List[dict]:
-        """
-        Parses normal startlist (.startlist_v3)
+        startlist_html = self._html.css_first(".startlist_v3")
+        # startlist is individual startlist e.g. 
+        # race/tour-de-pologne/2009/gc/startlist
+        if startlist_html.css_first("li.team") is None:
+            startlist_html = self._html.css_first(".page-content > div")
+            startlist_table = []
+            for i, rider_a in enumerate(startlist_html.css("a:not([class])")):
+                startlist_table.append({})
+                for field in fields:
+                    startlist_table[-1][field] = None
 
-        :param startlist_html_table: HTML of the startlist
-        :param fields: fields to parse
-        :return: startlist table with wanted fields as list of dicts
-        """
-        rider_fields = [
-            field for field in fields if field in (
-                "rider_name",
-                "rider_url",
-                "nationality",
-                "rider_number")]
-
-        startlist_table = []
-        for team_html in startlist_html_table.find("li.team"):
-            riders_table_html = team_html.find("ul")[0]
-            tp = TableParser(riders_table_html)
-            tp.parse(rider_fields)
-
-            trp = TableRowParser(team_html)
-            for row in tp.table:
+                if "rider_url" in fields:
+                    startlist_table[-1]['rider_url'] = rider_a.\
+                        attributes['href']
+                if "rider_name" in fields:
+                    startlist_table[-1]['rider_name'] = rider_a.text()
+                if "rider_number" in fields:
+                    startlist_table[-1]['rider_number'] = i + 1
                 if "team_name" in fields:
-                    row['team_name'] = trp.team_name()
+                    startlist_table[-1]['team_name'] = None
                 if "team_url" in fields:
-                    row['team_url'] = trp.team_url()
-            startlist_table.extend(tp.table)
-        return startlist_table
-        
-    @staticmethod
-    def _parse_individual_startlist(startlist_html: Element,
-                                    fields: List[str]) -> List[dict]:
-        """
-        Parses individual startlist where are no teams (e.g.
-        `race/tour-de-pologne/2009/startlist`)
+                    startlist_table[-1]['team_url'] = None
+                if "nationality" in fields:
+                    startlist_table[-1]['nationality'] = None
+            return startlist_table
 
-        :param startlist_html_table: HTML of the startlist
-        :param fields: fields to parse
-        :return: startlist table with wanted fields as list of dicts
-        """
-        startlist_table = []
-        for i, rider_a in enumerate(startlist_html.find("a:not([class])")):
-            startlist_table.append({})
-            for field in fields:
-                startlist_table[-1][field] = None
+        casual_rider_fields = [
+            "rider_name",
+            "rider_url",
+            "nationality"
+        ]
 
-            if "rider_url" in fields:
-                startlist_table[-1]['rider_url'] = rider_a.attrs['href']
-            if "rider_name" in fields:
-                startlist_table[-1]['rider_naem'] = rider_a.text
+        table = []
+        for team_html in startlist_html.css("li.team"):
+            riders_table = team_html.css_first("ul")
+            tp = TableParser(riders_table)
+            rider_f_to_parse = [f for f in casual_rider_fields if f in fields]
+            tp.parse(rider_f_to_parse)
+            # add rider numbers to the table if needed
             if "rider_number" in fields:
-                startlist_table[-1]['rider_number'] = i + 1
-        return startlist_table
+                numbers = []
+                for li in riders_table.css("li"):
+                    num = li.text(deep=False).split(" ")[0]
+                    numbers.append(int(num))
+                tp.extend_table("rider_number", numbers)
+            # add team names to the table if needed
+            if "team_name" in fields:
+                team_name = team_html.css_first("a").text()
+                team_names = [team_name for _ in range(len(tp.table))]
+                tp.extend_table("team_name", team_names)
+            # add team urls to the table if needed
+            if "team_url" in fields:
+                team_url = team_html.css_first("a").attributes['href']
+                team_urls = [team_url for _ in range(len(tp.table))]
+                tp.extend_table("team_url", team_urls)
+            # add team table to startlist table
+            table.extend(tp.table)
+        return table

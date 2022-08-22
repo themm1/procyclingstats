@@ -2,1435 +2,1276 @@
   "relative_url": "race/tour-de-pologne/2009/startlist",
   "startlist": [
     {
-      "rider_name": null,
+      "rider_name": "MATVEYEV Sergiy",
       "rider_url": "rider/sergiy-matveyev",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 1,
-      "rider_naem": "MATVEYEV Sergiy"
+      "rider_number": 1
     },
     {
-      "rider_name": null,
+      "rider_name": "PORTAL S\u00e9bastien",
       "rider_url": "rider/sebastien-portal",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 2,
-      "rider_naem": "PORTAL S\u00e9bastien"
+      "rider_number": 2
     },
     {
-      "rider_name": null,
+      "rider_name": "CLERC Aur\u00e9lien",
       "rider_url": "rider/aurelien-clerc",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 3,
-      "rider_naem": "CLERC Aur\u00e9lien"
+      "rider_number": 3
     },
     {
-      "rider_name": null,
+      "rider_name": "KUX Christian",
       "rider_url": "rider/christian-kux",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 4,
-      "rider_naem": "KUX Christian"
+      "rider_number": 4
     },
     {
-      "rider_name": null,
+      "rider_name": "SCHOLZ Ronny",
       "rider_url": "rider/ronny-scholz",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 5,
-      "rider_naem": "SCHOLZ Ronny"
+      "rider_number": 5
     },
     {
-      "rider_name": null,
+      "rider_name": "AGIRRE Josu",
       "rider_url": "rider/josu-agirre",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 6,
-      "rider_naem": "AGIRRE Josu"
+      "rider_number": 6
     },
     {
-      "rider_name": null,
+      "rider_name": "MIKHAYLOV Gennady",
       "rider_url": "rider/gennady-mikhaylov",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 7,
-      "rider_naem": "MIKHAYLOV Gennady"
+      "rider_number": 7
     },
     {
-      "rider_name": null,
+      "rider_name": "LJUNGQVIST Marcus",
       "rider_url": "rider/marcus-ljungqvist",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 8,
-      "rider_naem": "LJUNGQVIST Marcus"
+      "rider_number": 8
     },
     {
-      "rider_name": null,
+      "rider_name": "DUCLOS-LASSALLE Herv\u00e9",
       "rider_url": "rider/herve-duclos-lassalle",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 9,
-      "rider_naem": "DUCLOS-LASSALLE Herv\u00e9"
+      "rider_number": 9
     },
     {
-      "rider_name": null,
+      "rider_name": "BRARD Florent",
       "rider_url": "rider/florent-brard",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 10,
-      "rider_naem": "BRARD Florent"
+      "rider_number": 10
     },
     {
-      "rider_name": null,
+      "rider_name": "FRISCHKORN William",
       "rider_url": "rider/william-frischkorn-1",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 11,
-      "rider_naem": "FRISCHKORN William"
+      "rider_number": 11
     },
     {
-      "rider_name": null,
+      "rider_name": "PATOUR Kilian",
       "rider_url": "rider/kilian-patour",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 12,
-      "rider_naem": "PATOUR Kilian"
+      "rider_number": 12
     },
     {
-      "rider_name": null,
+      "rider_name": "DE LIS Sergio",
       "rider_url": "rider/sergio-andres-de-lis",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 13,
-      "rider_naem": "DE LIS Sergio"
+      "rider_number": 13
     },
     {
-      "rider_name": null,
+      "rider_name": "ABAKOUMOV Igor",
       "rider_url": "rider/igor-abakoumov",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 14,
-      "rider_naem": "ABAKOUMOV Igor"
+      "rider_number": 14
     },
     {
-      "rider_name": null,
+      "rider_name": "BELGY Julien",
       "rider_url": "rider/julien-belgy",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 15,
-      "rider_naem": "BELGY Julien"
+      "rider_number": 15
     },
     {
-      "rider_name": null,
+      "rider_name": "GRABOVSKYY Dmytro",
       "rider_url": "rider/dmytro-grabovskyy",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 16,
-      "rider_naem": "GRABOVSKYY Dmytro"
+      "rider_number": 16
     },
     {
-      "rider_name": null,
+      "rider_name": "SENTJENS Roy",
       "rider_url": "rider/roy-sentjens",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 17,
-      "rider_naem": "SENTJENS Roy"
+      "rider_number": 17
     },
     {
-      "rider_name": null,
+      "rider_name": "RUSS Matthias",
       "rider_url": "rider/matthias-russ",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 18,
-      "rider_naem": "RUSS Matthias"
+      "rider_number": 18
     },
     {
-      "rider_name": null,
+      "rider_name": "KUNITSKI Andrei",
       "rider_url": "rider/andrei-kunitski",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 19,
-      "rider_naem": "KUNITSKI Andrei"
+      "rider_number": 19
     },
     {
-      "rider_name": null,
+      "rider_name": "USOV Alexandre",
       "rider_url": "rider/alexandre-usov",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 20,
-      "rider_naem": "USOV Alexandre"
+      "rider_number": 20
     },
     {
-      "rider_name": null,
+      "rider_name": "BRANDT Christophe",
       "rider_url": "rider/christophe-brandt",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 21,
-      "rider_naem": "BRANDT Christophe"
+      "rider_number": 21
     },
     {
-      "rider_name": null,
+      "rider_name": "VELO Marco",
       "rider_url": "rider/marco-velo",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 22,
-      "rider_naem": "VELO Marco"
+      "rider_number": 22
     },
     {
-      "rider_name": null,
+      "rider_name": "ROELS Dominik",
       "rider_url": "rider/dominik-roels",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 23,
-      "rider_naem": "ROELS Dominik"
+      "rider_number": 23
     },
     {
-      "rider_name": null,
+      "rider_name": "M\u00dcLLER Martin",
       "rider_url": "rider/martin-muller",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 24,
-      "rider_naem": "M\u00dcLLER Martin"
+      "rider_number": 24
     },
     {
-      "rider_name": null,
+      "rider_name": "VALJAVEC Tadej",
       "rider_url": "rider/tadej-valjavec",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 25,
-      "rider_naem": "VALJAVEC Tadej"
+      "rider_number": 25
     },
     {
-      "rider_name": null,
+      "rider_name": "WEYLANDT Wouter",
       "rider_url": "rider/wouter-weylandt",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 26,
-      "rider_naem": "WEYLANDT Wouter"
+      "rider_number": 26
     },
     {
-      "rider_name": null,
+      "rider_name": "FOTHEN Thomas",
       "rider_url": "rider/thomas-fothen",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 27,
-      "rider_naem": "FOTHEN Thomas"
+      "rider_number": 27
     },
     {
-      "rider_name": null,
+      "rider_name": "KIREYEV Roman",
       "rider_url": "rider/roman-kireyev",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 28,
-      "rider_naem": "KIREYEV Roman"
+      "rider_number": 28
     },
     {
-      "rider_name": null,
+      "rider_name": "SCHR\u00d6DER Bj\u00f6rn",
       "rider_url": "rider/bjorn-schroder",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 29,
-      "rider_naem": "SCHR\u00d6DER Bj\u00f6rn"
+      "rider_number": 29
     },
     {
-      "rider_name": null,
+      "rider_name": "DEL NERO Jes\u00fas",
       "rider_url": "rider/jesus-del-nero",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 30,
-      "rider_naem": "DEL NERO Jes\u00fas"
+      "rider_number": 30
     },
     {
-      "rider_name": null,
+      "rider_name": "RUDNICKI Dariusz",
       "rider_url": "rider/dariusz-rudnicki",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 31,
-      "rider_naem": "RUDNICKI Dariusz"
+      "rider_number": 31
     },
     {
-      "rider_name": null,
+      "rider_name": "SAPA Marcin",
       "rider_url": "rider/marcin-sapa",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 32,
-      "rider_naem": "SAPA Marcin"
+      "rider_number": 32
     },
     {
-      "rider_name": null,
+      "rider_name": "LOOSLI David",
       "rider_url": "rider/david-loosli",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 33,
-      "rider_naem": "LOOSLI David"
+      "rider_number": 33
     },
     {
-      "rider_name": null,
+      "rider_name": "JANIACZYK B\u0142a\u017cej",
       "rider_url": "rider/blazej-janiaczyk",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 34,
-      "rider_naem": "JANIACZYK B\u0142a\u017cej"
+      "rider_number": 34
     },
     {
-      "rider_name": null,
+      "rider_name": "VILLA Romain",
       "rider_url": "rider/romain-villa",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 35,
-      "rider_naem": "VILLA Romain"
+      "rider_number": 35
     },
     {
-      "rider_name": null,
+      "rider_name": "DOCKX Bart",
       "rider_url": "rider/bart-dockx",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 36,
-      "rider_naem": "DOCKX Bart"
+      "rider_number": 36
     },
     {
-      "rider_name": null,
+      "rider_name": "SMOLE\u0143 Tomasz",
       "rider_url": "rider/tomasz-smolen",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 37,
-      "rider_naem": "SMOLE\u0143 Tomasz"
+      "rider_number": 37
     },
     {
-      "rider_name": null,
+      "rider_name": "CAPELLI Ermano",
       "rider_url": "rider/ermano-capelli",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 38,
-      "rider_naem": "CAPELLI Ermano"
+      "rider_number": 38
     },
     {
-      "rider_name": null,
+      "rider_name": "GUDSELL Timothy",
       "rider_url": "rider/timothy-gudsell",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 39,
-      "rider_naem": "GUDSELL Timothy"
+      "rider_number": 39
     },
     {
-      "rider_name": null,
+      "rider_name": "PRONK Matth\u00e9",
       "rider_url": "rider/matthe-pronk",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 40,
-      "rider_naem": "PRONK Matth\u00e9"
+      "rider_number": 40
     },
     {
-      "rider_name": null,
+      "rider_name": "WURF Cameron",
       "rider_url": "rider/cameron-wurf",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 41,
-      "rider_naem": "WURF Cameron"
+      "rider_number": 41
     },
     {
-      "rider_name": null,
+      "rider_name": "ARDILA Mauricio Alberto",
       "rider_url": "rider/mauricio-alberto-ardila",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 42,
-      "rider_naem": "ARDILA Mauricio Alberto"
+      "rider_number": 42
     },
     {
-      "rider_name": null,
+      "rider_name": "HERN\u00c1NDEZ Aitor",
       "rider_url": "rider/aitor-hernandez-gutierrez",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 43,
-      "rider_naem": "HERN\u00c1NDEZ Aitor"
+      "rider_number": 43
     },
     {
-      "rider_name": null,
+      "rider_name": "OFFREDO Yoann",
       "rider_url": "rider/yoann-offredo",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 44,
-      "rider_naem": "OFFREDO Yoann"
+      "rider_number": 44
     },
     {
-      "rider_name": null,
+      "rider_name": "FLENS Rick",
       "rider_url": "rider/rick-flens",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 45,
-      "rider_naem": "FLENS Rick"
+      "rider_number": 45
     },
     {
-      "rider_name": null,
+      "rider_name": "BLAIN Alexandre",
       "rider_url": "rider/alexandre-blain",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 46,
-      "rider_naem": "BLAIN Alexandre"
+      "rider_number": 46
     },
     {
-      "rider_name": null,
+      "rider_name": "ROUSSEAU Nicolas",
       "rider_url": "rider/nicolas-rousseau",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 47,
-      "rider_naem": "ROUSSEAU Nicolas"
+      "rider_number": 47
     },
     {
-      "rider_name": null,
+      "rider_name": "CORNU Dominique",
       "rider_url": "rider/dominique-cornu",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 48,
-      "rider_naem": "CORNU Dominique"
+      "rider_number": 48
     },
     {
-      "rider_name": null,
+      "rider_name": "CLARKE Hilton",
       "rider_url": "rider/hilton-clarke",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 49,
-      "rider_naem": "CLARKE Hilton"
+      "rider_number": 49
     },
     {
-      "rider_name": null,
+      "rider_name": "LEWIS Craig",
       "rider_url": "rider/craig-lewis",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 50,
-      "rider_naem": "LEWIS Craig"
+      "rider_number": 50
     },
     {
-      "rider_name": null,
+      "rider_name": "COZZA Steven",
       "rider_url": "rider/steven-cozza",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 51,
-      "rider_naem": "COZZA Steven"
+      "rider_number": 51
     },
     {
-      "rider_name": null,
+      "rider_name": "SEROV Alexander",
       "rider_url": "rider/alexander-serov",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 52,
-      "rider_naem": "SEROV Alexander"
+      "rider_number": 52
     },
     {
-      "rider_name": null,
+      "rider_name": "STEENSEN Andr\u00e9",
       "rider_url": "rider/andre-steensen",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 53,
-      "rider_naem": "STEENSEN Andr\u00e9"
+      "rider_number": 53
     },
     {
-      "rider_name": null,
+      "rider_name": "FURLAN Angelo",
       "rider_url": "rider/angelo-furlan",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 54,
-      "rider_naem": "FURLAN Angelo"
+      "rider_number": 54
     },
     {
-      "rider_name": null,
+      "rider_name": "PLIU\u0218CHIN Alexandr",
       "rider_url": "rider/alexandr-pliuschin",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 55,
-      "rider_naem": "PLIU\u0218CHIN Alexandr"
+      "rider_number": 55
     },
     {
-      "rider_name": null,
+      "rider_name": "ARAMENDIA Javier",
       "rider_url": "rider/javier-aramendia",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 56,
-      "rider_naem": "ARAMENDIA Javier"
+      "rider_number": 56
     },
     {
-      "rider_name": null,
+      "rider_name": "MORAJKO Jacek",
       "rider_url": "rider/jacek-morajko",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 57,
-      "rider_naem": "MORAJKO Jacek"
+      "rider_number": 57
     },
     {
-      "rider_name": null,
+      "rider_name": "DE VOCHT Wim",
       "rider_url": "rider/wim-de-vocht",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 58,
-      "rider_naem": "DE VOCHT Wim"
+      "rider_number": 58
     },
     {
-      "rider_name": null,
+      "rider_name": "F\u00d6RSTER Robert",
       "rider_url": "rider/robert-forster",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 59,
-      "rider_naem": "F\u00d6RSTER Robert"
+      "rider_number": 59
     },
     {
-      "rider_name": null,
+      "rider_name": "RENEV Sergey",
       "rider_url": "rider/sergey-renev",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 60,
-      "rider_naem": "RENEV Sergey"
+      "rider_number": 60
     },
     {
-      "rider_name": null,
+      "rider_name": "KOZONTCHUK Dmitry",
       "rider_url": "rider/dmitry-kozonchuk",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 61,
-      "rider_naem": "KOZONTCHUK Dmitry"
+      "rider_number": 61
     },
     {
-      "rider_name": null,
+      "rider_name": "KLIMOV Sergey",
       "rider_url": "rider/sergey-klimov",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 62,
-      "rider_naem": "KLIMOV Sergey"
+      "rider_number": 62
     },
     {
-      "rider_name": null,
+      "rider_name": "CLAUDE Mathieu",
       "rider_url": "rider/mathieu-claude",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 63,
-      "rider_naem": "CLAUDE Mathieu"
+      "rider_number": 63
     },
     {
-      "rider_name": null,
+      "rider_name": "ESKOV Nikita",
       "rider_url": "rider/nikita-eskov",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 64,
-      "rider_naem": "ESKOV Nikita"
+      "rider_number": 64
     },
     {
-      "rider_name": null,
+      "rider_name": "KLEMME Dominic",
       "rider_url": "rider/dominic-klemme",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 65,
-      "rider_naem": "KLEMME Dominic"
+      "rider_number": 65
     },
     {
-      "rider_name": null,
+      "rider_name": "GUESDON Fr\u00e9d\u00e9ric",
       "rider_url": "rider/frederic-guesdon",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 66,
-      "rider_naem": "GUESDON Fr\u00e9d\u00e9ric"
+      "rider_number": 66
     },
     {
-      "rider_name": null,
+      "rider_name": "BLOT Guillaume",
       "rider_url": "rider/guillaume-blot",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 67,
-      "rider_naem": "BLOT Guillaume"
+      "rider_number": 67
     },
     {
-      "rider_name": null,
+      "rider_name": "FRIEDMAN Michael",
       "rider_url": "rider/michael-friedman",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 68,
-      "rider_naem": "FRIEDMAN Michael"
+      "rider_number": 68
     },
     {
-      "rider_name": null,
+      "rider_name": "MCCARTNEY Jason",
       "rider_url": "rider/jason-mccartney",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 69,
-      "rider_naem": "MCCARTNEY Jason"
+      "rider_number": 69
     },
     {
-      "rider_name": null,
+      "rider_name": "MOUREY Francis",
       "rider_url": "rider/francis-mourey",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 70,
-      "rider_naem": "MOUREY Francis"
+      "rider_number": 70
     },
     {
-      "rider_name": null,
+      "rider_name": "BRUTT Pavel",
       "rider_url": "rider/pavel-brutt",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 71,
-      "rider_naem": "BRUTT Pavel"
+      "rider_number": 71
     },
     {
-      "rider_name": null,
+      "rider_name": "ZAUGG Oliver",
       "rider_url": "rider/oliver-zaugg",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 72,
-      "rider_naem": "ZAUGG Oliver"
+      "rider_number": 72
     },
     {
-      "rider_name": null,
+      "rider_name": "MEIER Christian",
       "rider_url": "rider/christian-meier",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 73,
-      "rider_naem": "MEIER Christian"
+      "rider_number": 73
     },
     {
-      "rider_name": null,
+      "rider_name": "SANTAROMITA Ivan",
       "rider_url": "rider/ivan-santaromita",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 74,
-      "rider_naem": "SANTAROMITA Ivan"
+      "rider_number": 74
     },
     {
-      "rider_name": null,
+      "rider_name": "ZEITS Andrey",
       "rider_url": "rider/andrey-zeits",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 75,
-      "rider_naem": "ZEITS Andrey"
+      "rider_number": 75
     },
     {
-      "rider_name": null,
+      "rider_name": "CHARTEAU Anthony",
       "rider_url": "rider/anthony-charteau",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 76,
-      "rider_naem": "CHARTEAU Anthony"
+      "rider_number": 76
     },
     {
-      "rider_name": null,
+      "rider_name": "IRIZAR Markel",
       "rider_url": "rider/markel-irizar",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 77,
-      "rider_naem": "IRIZAR Markel"
+      "rider_number": 77
     },
     {
-      "rider_name": null,
+      "rider_name": "PATERSKI Maciej",
       "rider_url": "rider/maciej-paterski",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 78,
-      "rider_naem": "PATERSKI Maciej"
+      "rider_number": 78
     },
     {
-      "rider_name": null,
+      "rider_name": "LOSADA Alberto",
       "rider_url": "rider/alberto-losada",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 79,
-      "rider_naem": "LOSADA Alberto"
+      "rider_number": 79
     },
     {
-      "rider_name": null,
+      "rider_name": "MORENO Daniel",
       "rider_url": "rider/daniel-moreno",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 80,
-      "rider_naem": "MORENO Daniel"
+      "rider_number": 80
     },
     {
-      "rider_name": null,
+      "rider_name": "DAVIS Allan",
       "rider_url": "rider/allan-davis",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 81,
-      "rider_naem": "DAVIS Allan"
+      "rider_number": 81
     },
     {
-      "rider_name": null,
+      "rider_name": "CHAINEL Steve",
       "rider_url": "rider/steve-chainel",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 82,
-      "rider_naem": "CHAINEL Steve"
+      "rider_number": 82
     },
     {
-      "rider_name": null,
+      "rider_name": "KANGERT Tanel",
       "rider_url": "rider/tanel-kangert",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 83,
-      "rider_naem": "KANGERT Tanel"
+      "rider_number": 83
     },
     {
-      "rider_name": null,
+      "rider_name": "SIUTSOU Kanstantsin",
       "rider_url": "rider/kanstantsin-siutsou",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 84,
-      "rider_naem": "SIUTSOU Kanstantsin"
+      "rider_number": 84
     },
     {
-      "rider_name": null,
+      "rider_name": "TJALLINGII Maarten",
       "rider_url": "rider/maarten-tjallingii",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 85,
-      "rider_naem": "TJALLINGII Maarten"
+      "rider_number": 85
     },
     {
-      "rider_name": null,
+      "rider_name": "WYNANTS Maarten",
       "rider_url": "rider/maarten-wynants",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 86,
-      "rider_naem": "WYNANTS Maarten"
+      "rider_number": 86
     },
     {
-      "rider_name": null,
+      "rider_name": "VAITKUS Tomas",
       "rider_url": "rider/tomas-vaitkus",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 87,
-      "rider_naem": "VAITKUS Tomas"
+      "rider_number": 87
     },
     {
-      "rider_name": null,
+      "rider_name": "KRIVTSOV Yuriy",
       "rider_url": "rider/yuriy-krivtsov",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 88,
-      "rider_naem": "KRIVTSOV Yuriy"
+      "rider_number": 88
     },
     {
-      "rider_name": null,
+      "rider_name": "BROWN Graeme Allen",
       "rider_url": "rider/graeme-brown",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 89,
-      "rider_naem": "BROWN Graeme Allen"
+      "rider_number": 89
     },
     {
-      "rider_name": null,
+      "rider_name": "SMUKULIS Gatis",
       "rider_url": "rider/gatis-smukulis",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 90,
-      "rider_naem": "SMUKULIS Gatis"
+      "rider_number": 90
     },
     {
-      "rider_name": null,
+      "rider_name": "GUARNIERI Jacopo",
       "rider_url": "rider/jacopo-guarnieri",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 91,
-      "rider_naem": "GUARNIERI Jacopo"
+      "rider_number": 91
     },
     {
-      "rider_name": null,
+      "rider_name": "VEUCHELEN Frederik",
       "rider_url": "rider/frederik-veuchelen",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 92,
-      "rider_naem": "VEUCHELEN Frederik"
+      "rider_number": 92
     },
     {
-      "rider_name": null,
+      "rider_name": "KOSTYUK Denys",
       "rider_url": "rider/denys-kostyuk",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 93,
-      "rider_naem": "KOSTYUK Denys"
+      "rider_number": 93
     },
     {
-      "rider_name": null,
+      "rider_name": "BALLAN Alessandro",
       "rider_url": "rider/alessandro-ballan",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 94,
-      "rider_naem": "BALLAN Alessandro"
+      "rider_number": 94
     },
     {
-      "rider_name": null,
+      "rider_name": "BERNAUDEAU Giovanni",
       "rider_url": "rider/giovanni-bernaudeau",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 95,
-      "rider_naem": "BERNAUDEAU Giovanni"
+      "rider_number": 95
     },
     {
-      "rider_name": null,
+      "rider_name": "BODROGI L\u00e1szl\u00f3",
       "rider_url": "rider/laszlo-bodrogi",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 96,
-      "rider_naem": "BODROGI L\u00e1szl\u00f3"
+      "rider_number": 96
     },
     {
-      "rider_name": null,
+      "rider_name": "MORI Manuele",
       "rider_url": "rider/manuele-mori",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 97,
-      "rider_naem": "MORI Manuele"
+      "rider_number": 97
     },
     {
-      "rider_name": null,
+      "rider_name": "L\u00d3PEZ David",
       "rider_url": "rider/david-lopez",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 98,
-      "rider_naem": "L\u00d3PEZ David"
+      "rider_number": 98
     },
     {
-      "rider_name": null,
+      "rider_name": "PETERSON Tom",
       "rider_url": "rider/tom-peterson",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 99,
-      "rider_naem": "PETERSON Tom"
+      "rider_number": 99
     },
     {
-      "rider_name": null,
+      "rider_name": "HUZARSKI Bartosz",
       "rider_url": "rider/bartosz-huzarski",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 100,
-      "rider_naem": "HUZARSKI Bartosz"
+      "rider_number": 100
     },
     {
-      "rider_name": null,
+      "rider_name": "RUTKIEWICZ Marek",
       "rider_url": "rider/marek-rutkiewicz",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 101,
-      "rider_naem": "RUTKIEWICZ Marek"
+      "rider_number": 101
     },
     {
-      "rider_name": null,
+      "rider_name": "KVACHUK Oleksandr",
       "rider_url": "rider/oleksandr-kvachuk",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 102,
-      "rider_naem": "KVACHUK Oleksandr"
+      "rider_number": 102
     },
     {
-      "rider_name": null,
+      "rider_name": "DYACHENKO Alexandr",
       "rider_url": "rider/alexandr-dyachenko",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 103,
-      "rider_naem": "DYACHENKO Alexandr"
+      "rider_number": 103
     },
     {
-      "rider_name": null,
+      "rider_name": "MATYSIAK Bart\u0142omiej",
       "rider_url": "rider/bartlomiej-matysiak",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 104,
-      "rider_naem": "MATYSIAK Bart\u0142omiej"
+      "rider_number": 104
     },
     {
-      "rider_name": null,
+      "rider_name": "TACIAK Mateusz",
       "rider_url": "rider/mateusz-taciak",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 105,
-      "rider_naem": "TACIAK Mateusz"
+      "rider_number": 105
     },
     {
-      "rider_name": null,
+      "rider_name": "MADRAZO \u00c1ngel",
       "rider_url": "rider/angel-madrazo",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 106,
-      "rider_naem": "MADRAZO \u00c1ngel"
+      "rider_number": 106
     },
     {
-      "rider_name": null,
+      "rider_name": "HOOGERLAND Johnny",
       "rider_url": "rider/johnny-hoogerland",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 107,
-      "rider_naem": "HOOGERLAND Johnny"
+      "rider_number": 107
     },
     {
-      "rider_name": null,
+      "rider_name": "M\u00d8RK\u00d8V Michael",
       "rider_url": "rider/michael-morkov",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 108,
-      "rider_naem": "M\u00d8RK\u00d8V Michael"
+      "rider_number": 108
     },
     {
-      "rider_name": null,
+      "rider_name": "WEENING Pieter",
       "rider_url": "rider/pieter-weening",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 109,
-      "rider_naem": "WEENING Pieter"
+      "rider_number": 109
     },
     {
-      "rider_name": null,
+      "rider_name": "NUYENS Nick",
       "rider_url": "rider/nick-nuyens",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 110,
-      "rider_naem": "NUYENS Nick"
+      "rider_number": 110
     },
     {
-      "rider_name": null,
+      "rider_name": "DE WEERT Kevin",
       "rider_url": "rider/kevin-de-weert",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 111,
-      "rider_naem": "DE WEERT Kevin"
+      "rider_number": 111
     },
     {
-      "rider_name": null,
+      "rider_name": "TANKINK Bram",
       "rider_url": "rider/bram-tankink",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 112,
-      "rider_naem": "TANKINK Bram"
+      "rider_number": 112
     },
     {
-      "rider_name": null,
+      "rider_name": "BURGHARDT Marcus",
       "rider_url": "rider/marcus-burghardt",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 113,
-      "rider_naem": "BURGHARDT Marcus"
+      "rider_number": 113
     },
     {
-      "rider_name": null,
+      "rider_name": "BASSO Ivan",
       "rider_url": "rider/ivan-basso",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 114,
-      "rider_naem": "BASSO Ivan"
+      "rider_number": 114
     },
     {
-      "rider_name": null,
+      "rider_name": "QUINZIATO Manuel",
       "rider_url": "rider/manuel-quinziato",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 115,
-      "rider_naem": "QUINZIATO Manuel"
+      "rider_number": 115
     },
     {
-      "rider_name": null,
+      "rider_name": "IGLINSKIY Maxim",
       "rider_url": "rider/maxim-iglinskiy",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 116,
-      "rider_naem": "IGLINSKIY Maxim"
+      "rider_number": 116
     },
     {
-      "rider_name": null,
+      "rider_name": "MARCATO Marco",
       "rider_url": "rider/marco-marcato",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 117,
-      "rider_naem": "MARCATO Marco"
+      "rider_number": 117
     },
     {
-      "rider_name": null,
+      "rider_name": "HAEDO Juan Jos\u00e9",
       "rider_url": "rider/juan-jose-haedo",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 118,
-      "rider_naem": "HAEDO Juan Jos\u00e9"
+      "rider_number": 118
     },
     {
-      "rider_name": null,
+      "rider_name": "G\u00c8NE Yohann",
       "rider_url": "rider/yohann-gene",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 119,
-      "rider_naem": "G\u00c8NE Yohann"
+      "rider_number": 119
     },
     {
-      "rider_name": null,
+      "rider_name": "SZMYD Sylwester",
       "rider_url": "rider/sylwester-szmyd",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 120,
-      "rider_naem": "SZMYD Sylwester"
+      "rider_number": 120
     },
     {
-      "rider_name": null,
+      "rider_name": "HANSEN Adam",
       "rider_url": "rider/adam-hansen",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 121,
-      "rider_naem": "HANSEN Adam"
+      "rider_number": 121
     },
     {
-      "rider_name": null,
+      "rider_name": "ROUX Anthony",
       "rider_url": "rider/anthony-roux",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 122,
-      "rider_naem": "ROUX Anthony"
+      "rider_number": 122
     },
     {
-      "rider_name": null,
+      "rider_name": "DE GREEF Francis",
       "rider_url": "rider/francis-de-greef",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 123,
-      "rider_naem": "DE GREEF Francis"
+      "rider_number": 123
     },
     {
-      "rider_name": null,
+      "rider_name": "OSS Daniel",
       "rider_url": "rider/daniel-oss",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 124,
-      "rider_naem": "OSS Daniel"
+      "rider_number": 124
     },
     {
-      "rider_name": null,
+      "rider_name": "KADRI Blel",
       "rider_url": "rider/blel-kadri",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 125,
-      "rider_naem": "KADRI Blel"
+      "rider_number": 125
     },
     {
-      "rider_name": null,
+      "rider_name": "SIJMENS Nico",
       "rider_url": "rider/nico-sijmens",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 126,
-      "rider_naem": "SIJMENS Nico"
+      "rider_number": 126
     },
     {
-      "rider_name": null,
+      "rider_name": "KAISEN Olivier",
       "rider_url": "rider/olivier-kaisen",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 127,
-      "rider_naem": "KAISEN Olivier"
+      "rider_number": 127
     },
     {
-      "rider_name": null,
+      "rider_name": "LABB\u00c9 Arnaud",
       "rider_url": "rider/arnaud-labbe",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 128,
-      "rider_naem": "LABB\u00c9 Arnaud"
+      "rider_number": 128
     },
     {
-      "rider_name": null,
+      "rider_name": "CHAVANEL S\u00e9bastien",
       "rider_url": "rider/sebastien-chavanel",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 129,
-      "rider_naem": "CHAVANEL S\u00e9bastien"
+      "rider_number": 129
     },
     {
-      "rider_name": null,
+      "rider_name": "NAPOLITANO Danilo",
       "rider_url": "rider/danilo-napolitano",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 130,
-      "rider_naem": "NAPOLITANO Danilo"
+      "rider_number": 130
     },
     {
-      "rider_name": null,
+      "rider_name": "SUTTON Chris",
       "rider_url": "rider/chris-sutton",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 131,
-      "rider_naem": "SUTTON Chris"
+      "rider_number": 131
     },
     {
-      "rider_name": null,
+      "rider_name": "VAN GOOLEN Jurgen",
       "rider_url": "rider/jurgen-van-goolen",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 132,
-      "rider_naem": "VAN GOOLEN Jurgen"
+      "rider_number": 132
     },
     {
-      "rider_name": null,
+      "rider_name": "G\u00c9RARD Arnaud",
       "rider_url": "rider/arnaud-gerard",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 133,
-      "rider_naem": "G\u00c9RARD Arnaud"
+      "rider_number": 133
     },
     {
-      "rider_name": null,
+      "rider_name": "REDA Francesco",
       "rider_url": "rider/francesco-reda",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 134,
-      "rider_naem": "REDA Francesco"
+      "rider_number": 134
     },
     {
-      "rider_name": null,
+      "rider_name": "QU\u00c9M\u00c9NEUR Perrig",
       "rider_url": "rider/perrig-quemeneur",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 135,
-      "rider_naem": "QU\u00c9M\u00c9NEUR Perrig"
+      "rider_number": 135
     },
     {
-      "rider_name": null,
+      "rider_name": "TURGOT S\u00e9bastien",
       "rider_url": "rider/sebastien-turgot",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 136,
-      "rider_naem": "TURGOT S\u00e9bastien"
+      "rider_number": 136
     },
     {
-      "rider_name": null,
+      "rider_name": "LAGUTIN Sergey",
       "rider_url": "rider/sergey-lagutin",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 137,
-      "rider_naem": "LAGUTIN Sergey"
+      "rider_number": 137
     },
     {
-      "rider_name": null,
+      "rider_name": "SIEBERG Marcel",
       "rider_url": "rider/marcel-sieberg",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 138,
-      "rider_naem": "SIEBERG Marcel"
+      "rider_number": 138
     },
     {
-      "rider_name": null,
+      "rider_name": "STANNARD Ian",
       "rider_url": "rider/ian-stannard",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 139,
-      "rider_naem": "STANNARD Ian"
+      "rider_number": 139
     },
     {
-      "rider_name": null,
+      "rider_name": "BO\u017dI\u010c Borut",
       "rider_url": "rider/borut-bozic",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 140,
-      "rider_naem": "BO\u017dI\u010c Borut"
+      "rider_number": 140
     },
     {
-      "rider_name": null,
+      "rider_name": "GRIVKO Andrey",
       "rider_url": "rider/andrei-grivko",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 141,
-      "rider_naem": "GRIVKO Andrey"
+      "rider_number": 141
     },
     {
-      "rider_name": null,
+      "rider_name": "SCH\u00c4R Michael",
       "rider_url": "rider/michael-schar",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 142,
-      "rider_naem": "SCH\u00c4R Michael"
+      "rider_number": 142
     },
     {
-      "rider_name": null,
+      "rider_name": "GOSS Matthew",
       "rider_url": "rider/matthew-goss",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 143,
-      "rider_naem": "GOSS Matthew"
+      "rider_number": 143
     },
     {
-      "rider_name": null,
+      "rider_name": "GREIPEL Andr\u00e9",
       "rider_url": "rider/andre-greipel",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 144,
-      "rider_naem": "GREIPEL Andr\u00e9"
+      "rider_number": 144
     },
     {
-      "rider_name": null,
+      "rider_name": "GO\u0141A\u015a Micha\u0142",
       "rider_url": "rider/michal-golas",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 145,
-      "rider_naem": "GO\u0141A\u015a Micha\u0142"
+      "rider_number": 145
     },
     {
-      "rider_name": null,
+      "rider_name": "MARTIN Dan",
       "rider_url": "rider/dan-martin",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 146,
-      "rider_naem": "MARTIN Dan"
+      "rider_number": 146
     },
     {
-      "rider_name": null,
+      "rider_name": "ROELANDTS J\u00fcrgen",
       "rider_url": "rider/jurgen-roelandts",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 147,
-      "rider_naem": "ROELANDTS J\u00fcrgen"
+      "rider_number": 147
     },
     {
-      "rider_name": null,
+      "rider_name": "AMADOR Andrey",
       "rider_url": "rider/andrey-amador",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 148,
-      "rider_naem": "AMADOR Andrey"
+      "rider_number": 148
     },
     {
-      "rider_name": null,
+      "rider_name": "BODNAR Maciej",
       "rider_url": "rider/maciej-bodnar",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 149,
-      "rider_naem": "BODNAR Maciej"
+      "rider_number": 149
     },
     {
-      "rider_name": null,
+      "rider_name": "GILBERT Philippe",
       "rider_url": "rider/philippe-gilbert",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 150,
-      "rider_naem": "GILBERT Philippe"
+      "rider_number": 150
     },
     {
-      "rider_name": null,
+      "rider_name": "KIRYIENKA Vasil",
       "rider_url": "rider/vasil-kiryienka",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 151,
-      "rider_naem": "KIRYIENKA Vasil"
+      "rider_number": 151
     },
     {
-      "rider_name": null,
+      "rider_name": "ALBASINI Michael",
       "rider_url": "rider/michael-albasini",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 152,
-      "rider_naem": "ALBASINI Michael"
+      "rider_number": 152
     },
     {
-      "rider_name": null,
+      "rider_name": "BOASSON HAGEN Edvald",
       "rider_url": "rider/edvald-boasson-hagen",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 153,
-      "rider_naem": "BOASSON HAGEN Edvald"
+      "rider_number": 153
     },
     {
-      "rider_name": null,
+      "rider_name": "BAZAYEV Assan",
       "rider_url": "rider/assan-bazayev",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 154,
-      "rider_naem": "BAZAYEV Assan"
+      "rider_number": 154
     },
     {
-      "rider_name": null,
+      "rider_name": "BRUSEGHIN Marzio",
       "rider_url": "rider/marzio-bruseghin",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 155,
-      "rider_naem": "BRUSEGHIN Marzio"
+      "rider_number": 155
     },
     {
-      "rider_name": null,
+      "rider_name": "GALD\u00d3S Aitor",
       "rider_url": "rider/aitor-galdos",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 156,
-      "rider_naem": "GALD\u00d3S Aitor"
+      "rider_number": 156
     },
     {
-      "rider_name": null,
+      "rider_name": "LASTRAS Pablo",
       "rider_url": "rider/pablo-lastras",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 157,
-      "rider_naem": "LASTRAS Pablo"
+      "rider_number": 157
     },
     {
-      "rider_name": null,
+      "rider_name": "GAVAZZI Francesco",
       "rider_url": "rider/francesco-gavazzi",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 158,
-      "rider_naem": "GAVAZZI Francesco"
+      "rider_number": 158
     },
     {
-      "rider_name": null,
+      "rider_name": "KESSIAKOFF Fredrik",
       "rider_url": "rider/fredrik-kessiakoff",
       "team_name": null,
       "team_url": null,
       "nationality": null,
-      "rider_number": 159,
-      "rider_naem": "KESSIAKOFF Fredrik"
+      "rider_number": 159
     }
   ]
 }
