@@ -123,8 +123,12 @@ class TableParser:
         if len(values) != self.table_length:
             raise ValueError(
                 "Given values has to be the same length as table rows count")
-        for row, value in zip(self.table, values):
-            row[field_name] = value
+        if self.table:
+            for row, value in zip(self.table, values):
+                row[field_name] = value
+        else:
+            for value in values:
+                self.table.append({field_name: value})
             
     def parse_extra_column(self, index_or_header_value: Union[int, str],
                      func: Callable = int,
@@ -272,7 +276,7 @@ class TableParser:
             return self.parse_extra_column("Rnk", format_rank_func)
         except ValueError:
             try:
-                return self.parse_extra_column("Pos", format_rank_func)
+                return self.parse_extra_column("pos", format_rank_func)
             except ValueError:
                 return self.parse_extra_column("#", format_rank_func)
 
@@ -363,7 +367,7 @@ class TableParser:
             raise ExpectedParsingError(
                 f"Can not parse '{column_name}' column without table header")
         for i, column_name_e in enumerate(self.header.css("th")):
-            if column_name in column_name_e.text():
+            if column_name.lower() in column_name_e.text().lower():
                 return i
         raise ValueError(
             f"'{column_name}' column isn't in table header")

@@ -1,9 +1,11 @@
 import calendar
-from typing import List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
+
+from selectolax.parser import HTMLParser
 
 from .scraper import Scraper
-from .table_parser import TableParser
-from .utils import parse_table_fields_args, reg
+from .table_parser2 import TableParser
+from .utils import get_day_month, parse_table_fields_args, reg
 
 
 class Rider(Scraper):
@@ -23,9 +25,12 @@ class Rider(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
+        if self._html:
+            self._html = HTMLParser(self._html.html)
 
     def _get_valid_url(self, url: str) -> str:
         """
+        print(bd_list)
         Validates given URL with regex and returns absolute URL
 
         :param url: URL either relative or absolute
@@ -47,12 +52,12 @@ class Rider(Scraper):
 
         :return: birthday of the rider in `YYYY-MM-DD` format
         """
-        general_info = self._html.find(".rdr-info-cont")[0].text.split("\n")
-        birth_string = general_info[0].split(": ")[1]
-        [date, month, year] = birth_string.split(" ")[:3]
-        date = "".join([char for char in date if char.isnumeric()])
-        month = list(calendar.month_name).index(month)
-        return "-".join([str(year), str(month), date])
+        general_info_html = self._html.css_first(".rdr-info-cont")
+        bd_string = general_info_html.text(separator=" ", deep=False)
+        bd_list = [item for item in bd_string.split(" ") if item][:3]
+        [day, str_month, year] = bd_list
+        month = list(calendar.month_name).index(str_month)
+        return f"{year}-{month}-{day}"
 
     def place_of_birth(self) -> str:
         """
@@ -62,14 +67,14 @@ class Rider(Scraper):
         """
         # normal layout
         try:
-            place_of_birth_html = self._html.find(
-                ".rdr-info-cont > span > span > a")[0]
-            return place_of_birth_html.text
+            place_of_birth_html = self._html.css_first(
+                ".rdr-info-cont > span > span > a")
+            return place_of_birth_html.text()
         # special layout
-        except IndexError:
-            place_of_birth_html = self._html.find(
-                ".rdr-info-cont > span > span > span > a")[0]
-            return place_of_birth_html.text
+        except AttributeError:
+            place_of_birth_html = self._html.css_first(
+                ".rdr-info-cont > span > span > span > a")
+            return place_of_birth_html.text()
 
     def name(self) -> str:
         """
@@ -77,7 +82,7 @@ class Rider(Scraper):
 
         :return: rider's name
         """
-        return self._html.find(".page-title > .main > h1")[0].text
+        return self._html.css_first(".page-title > .main > h1").text()
 
     def weight(self) -> int:
         """
@@ -87,12 +92,12 @@ class Rider(Scraper):
         """
         # normal layout
         try:
-            return int(self._html.find(".rdr-info-cont > span")
-                       [1].text.split(" ")[1])
+            weight_html = self._html.css(".rdr-info-cont > span")[1]
+            return int(weight_html.text().split(" ")[1])
         # special layout
-        except IndexError:
-            return int(self._html.find(".rdr-info-cont > span > span")
-                       [1].text.split(" ")[1])
+        except (AttributeError, IndexError):
+            weight_html = self._html.css(".rdr-info-cont > span > span")[1]
+            return int(weight_html.text().split(" ")[1])
 
     def height(self) -> float:
         """
@@ -102,13 +107,13 @@ class Rider(Scraper):
         """
         # normal layout
         try:
-            height_html = self._html.find(".rdr-info-cont > span > span")[0]
-            return float(height_html.text.split(" ")[1])
+            height_html = self._html.css_first(".rdr-info-cont > span > span")
+            return float(height_html.text().split(" ")[1])
         # special layout
-        except IndexError:
-            height_html = self._html.find(
-                ".rdr-info-cont > span > span > span")[0]
-            return float(height_html.text.split(" ")[1])
+        except (AttributeError, IndexError):
+            height_html = self._html.css_first(
+                ".rdr-info-cont > span > span > span")
+            return float(height_html.text().split(" ")[1])
 
     def nationality(self) -> str:
         """
@@ -118,14 +123,14 @@ class Rider(Scraper):
         uppercase
         """
         # normal layout
-        try:
-            nationality_html = self._html.find(".rdr-info-cont > span")[0]
-            return nationality_html.attrs['class'][1].upper()
+        nationality_html = self._html.css_first(".rdr-info-cont > .flag")
+        if nationality_html is None:
         # special layout
-        except KeyError:
-            nationality_html = self._html.find(
-                ".rdr-info-cont > span > span")[0]
-            return nationality_html.attrs['class'][1].upper()
+            nationality_html = self._html.css_first(
+                ".rdr-info-cont > span > span")
+        flag_class = nationality_html.attributes['class']
+        return flag_class.split(" ")[-1].upper() # type:ignore
+
 
     def seasons_teams(self, *args: str, available_fields: Tuple[str, ...] = (
             "season",
@@ -133,7 +138,7 @@ class Rider(Scraper):
             "until",
             "team_name",
             "team_url",
-            "class")) -> List[dict]:
+            "class")) -> List[Dict[str, Any]]:
         """
         Parses rider's teams per season from HTML
 
@@ -143,22 +148,33 @@ class Rider(Scraper):
         :return: table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        seasons_html_table = self._html.find("ul.list.rdr-teams")[0]
+        seasons_html_table = self._html.css_first("ul.list.rdr-teams")
         tp = TableParser(seasons_html_table)
-        casual_fields = [field for field in fields if field != "class"]
-        tp.parse(casual_fields,
-                 skip_when=lambda x: not x.find(".season")[0].text)
-        # add class and convert it from `(WT)` to `WT`
+        casual_fields = [f for f in fields
+                         if f in ("season", "team_name", "team_url")]
+        if casual_fields:
+            tp.parse(casual_fields)
         if "class" in fields:
-            tp.extend_table("class", -3,
-                            lambda x: x.replace("(", "").replace(")", ""),
-                            skip_when=lambda x: not x.find(".season")[0].text)
-        return tp.table
+            classes = tp.parse_extra_column(2,
+                lambda x: x.replace("(", "").replace(")", "").replace(" ", "")
+                if x and "retired" not in x else None)
+            tp.extend_table("class", classes)
+        if "since" in fields:
+            until_dates = tp.parse_extra_column(-2,
+                lambda x: get_day_month(x) if "as from" in x else "01-01")
+            tp.extend_table("since", until_dates)
+        if "until" in fields:
+            until_dates = tp.parse_extra_column(-2,
+                lambda x: get_day_month(x) if "until" in x else "12-31")
+            tp.extend_table("until", until_dates)
+
+        table = [row for row in tp.table if row['class']]
+        return table
 
     def seasons_points(self, *args: str, available_fields: Tuple[str, ...] = (
             "season",
             "points",
-            "position")) -> List[dict]:
+            "rank")) -> List[dict]:
         """
         Parses rider's points per season from HTML
 
@@ -168,15 +184,7 @@ class Rider(Scraper):
         :return: table represented as list of dicts
         """
         fields = parse_table_fields_args(args, available_fields)
-        points_table_html = self._html.find("table.rdr-season-stats")[0]
+        points_table_html = self._html.css_first("table.rdr-season-stats")
         tp = TableParser(points_table_html)
-
-        tp.parse(["season"])
-        if "points" in fields:
-            tp.extend_table("points", -2, int)
-        if "position" in fields:
-            tp.extend_table("position", -1, int)
-        if "season" not in fields:
-            for row in tp.table:
-                row.pop("season")
+        tp.parse(fields)
         return tp.table

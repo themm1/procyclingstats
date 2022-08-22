@@ -130,15 +130,14 @@ def join_tables(table1: List[Dict[str, Any]],
     return table
 
 
-def get_day_month(str_with_date: str) -> Tuple[str, str]:
+def get_day_month(str_with_date: str) -> str:
     """
     Gets day and month from string containing day/month or day-month
 
     :param str_with_date: string with day and month separated by - or /
     :raises ValueError: if string doesn't contain day and month in wanted
     format
-    :return: tuple in (day, month) format where day and month are numeric
-    strings
+    :return: string in month-day format
     """
     day, month = "", ""
     # loop through string and check whether next 5 characters are in wanted
@@ -151,7 +150,7 @@ def get_day_month(str_with_date: str) -> Tuple[str, str]:
             elif str_with_date[i + 2] == "-":
                 [day, month] = str_with_date[i:i + 5].split("-")
     if day.isnumeric() and month.isnumeric():
-        return day, month
+        return f"{month}-{day}"
     # day or month weren't numeric so given string doesn't contain date in
     # wanted format
     raise ValueError(
