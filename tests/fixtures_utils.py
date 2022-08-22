@@ -50,7 +50,7 @@ class FixturesUtils:
         """
         filename = self._get_filename_for_parsing(scraper_obj)
         with open(f"{self.fixtures_path}{filename}.txt", "w") as f:
-            f.write(scraper_obj.html.html)
+            f.write(scraper_obj.html.html) # type: ignore
 
     def get_data_fixture(self, url: str) -> Optional[Dict[str, Any]]:
         """

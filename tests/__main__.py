@@ -77,10 +77,10 @@ class CLI:
         self.f = FixturesUtils()
 
     def run(self):
-        if self.command in ("add", "add_html"):
+        if self.command in ("add", "add_html") and self.url:
             ScraperClass = get_scraper_obj_by_url(self.scraper_classes,
                                                   self.url)
-            obj = ScraperClass(self.url)
+            obj = ScraperClass(self.url, None, True)
             filename = self.f.url_to_filename(obj.relative_url())
 
             if self.command == "add":
@@ -102,7 +102,7 @@ class CLI:
                 if self.logging:
                     print(f"Updating: {self.f.url_to_filename(url)}.txt")
                 ScraperClass = get_scraper_obj_by_url(self.scraper_classes, url)
-                scraper_obj = ScraperClass(url)
+                scraper_obj = ScraperClass(url, None, True)
                 self.f.make_html_fixture(scraper_obj)
         else:
             raise self.arg_error
