@@ -77,8 +77,7 @@ class Stage(Scraper):
         :return: profile icon e.g. `p4`, the higher the number is the more
         difficult the profile is
         """
-        profile_html = self._html.css_first(".infolist > li:nth-child(7) > "
-                                       "div:nth-child(2) > span.icon")
+        profile_html = self._html.css_first("span.icon")
         return profile_html.attributes['class'].split(" ")[2] # type: ignore
 
     def stage_type(self) -> Literal["ITT", "TTT", "RR"]:
