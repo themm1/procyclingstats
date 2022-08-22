@@ -42,7 +42,8 @@ class Stage(Scraper):
         """
         race_stage_url_regex = f"""
             {reg.base_url}?race{reg.url_str}
-            ({reg.year}{reg.stage}?({reg.result}{reg.anything}?)?|
+            ({reg.year}{reg.stage}({reg.result}{reg.anything}?)?|
+            ({reg.year}{reg.result}?({reg.result}{reg.result}{reg.anything})?)|
             ({reg.result}{reg.anything}))?
             \\/*
         """

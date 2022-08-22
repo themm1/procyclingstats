@@ -12,9 +12,12 @@ class TestStartlist(ScraperTestBaseClass):
         self.url_valid("race/tour-de-france/1970/stage-3b/startlist")
         self.url_valid("race/tour-de-france/2022/gc/startlist/ff")
         self.url_valid("race/tour-de-france/startlist/gggg/ggg")
+        self.url_valid("race/cyclassics-hamburg/2022/result/startlist/feef")
 
         self.url_invalid("race/tour-de-france")
         self.url_invalid("race/tour-de-france/gc/startlist")
         self.url_invalid("race/tour-de-france/result/startlist")
         self.url_invalid("race/tour-de-france/2022")
         self.url_invalid("race/tour-de-france/2022/stage-1")
+        self.url_invalid("race/cyclassics-hamburg/2022/result/gggg")
+

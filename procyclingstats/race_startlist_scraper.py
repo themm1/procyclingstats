@@ -37,7 +37,8 @@ class RaceStartlist(Scraper):
         """
         race_startlist_url_regex = f"""
             {reg.base_url}?race{reg.url_str}
-            (({reg.year}{reg.stage}?{reg.startlist}{reg.anything}?)|
+            (({reg.year}{reg.stage}{reg.startlist}{reg.anything}?)|
+            ({reg.year}{reg.result}?{reg.startlist}{reg.anything}?)|
             {reg.startlist}{reg.anything}?)
             \\/*
         """
