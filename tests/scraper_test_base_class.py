@@ -38,7 +38,7 @@ class ScraperTestBaseClass:
             # method subtest
             with subtests.test(msg=method):
                 for parsed, correct in zip(parsed_data, correct_data):
-                    print(parsed['relative_url'])
+                    print(parsed['normalized_relative_url'])
                     if isinstance(correct[method], list):
                         for parsed_row, correct_row in zip(
                                 parsed[method], correct[method]):

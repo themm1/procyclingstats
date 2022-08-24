@@ -6,7 +6,7 @@ from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .select_parser import SelectParser
 from .table_parser import TableParser
-from .utils import parse_table_fields_args, reg
+from .utils import format_url_filter, parse_table_fields_args, reg
 
 
 class Ranking(Scraper):
@@ -28,6 +28,25 @@ class Ranking(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
+
+    def normalized_relative_url(self) -> str:
+        """
+        Creates normalized relative URL. Determines equality of objects (is
+        used in __eq__ method). Ranking objects are equal when both have same
+        URL or filter values are the same (empty filter values don't count).
+
+        :return: formatted relative URL or filter URL without uneccessary fields
+        e.g. `rankings.php?date=2021-12-31&p=we&s=season-individual`
+        """
+        relative_url = self.relative_url()
+        # returns special normalized ranking filter URL
+        if "?" in relative_url:
+            return format_url_filter(relative_url)
+        decomposed_url = self._decomposed_url()
+        # remove .php from rankings URL if it is not a filter URL
+        if "." in decomposed_url[0]:
+            decomposed_url[0] = decomposed_url[0].split(".")[0]
+        return "/".join(decomposed_url)
 
     def _get_valid_url(self, url: str) -> str:
         """
@@ -328,7 +347,7 @@ class Ranking(Scraper):
         :return: ranking type
         """
         relative_url = self.relative_url()
-        if len(relative_url.split("/")) < 3:
+        if len(relative_url.split("/")) < 3 and "?" not in relative_url:
             return "individual"
         elif "races" in relative_url:
             return "races"
@@ -342,9 +361,9 @@ class Ranking(Scraper):
             return "team_wins"
         elif "wins-nations" in relative_url:
             return "nation_wins"
-        elif "nation" in relative_url:
+        elif "nations" in relative_url:
             return "nations"
-        elif "team" in relative_url:
+        elif "teams" in relative_url:
             return "teams"
         else:
             return "individual"

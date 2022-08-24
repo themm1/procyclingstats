@@ -156,5 +156,6 @@ class FixturesUtils:
         """
         if scraper_obj.html is None:
             raise ExpectedParsingError("Object is not ready for HTML parsing")
-        filename = FixturesUtils.url_to_filename(scraper_obj.relative_url())
+        filename = FixturesUtils.url_to_filename(
+            scraper_obj.normalized_relative_url())
         return filename

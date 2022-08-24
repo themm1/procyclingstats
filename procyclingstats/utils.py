@@ -102,6 +102,31 @@ def validate_number(number: Union[int, float],
         else:
             raise error
 
+def format_url_filter(url_filter: str) -> str:
+    """
+    Removes uneccessarry filters from URL filter string.
+
+    :param url_filter: URL filter string
+    :return: formatted URL filter
+    """
+    splitted_url = url_filter.split("?")
+    if splitted_url[1] == "":
+        return "rankings"
+    url_filter = splitted_url[1]
+    filter_ = url_filter.split("&")
+    formatted_url_filter = []
+    for part in filter_:
+        if part == "":
+            continue
+        [key, value] = part.split("=")
+        if (key == "page" or value == "" or (key == "offset" and value == "0")
+                or key == "filter"):
+            continue
+        formatted_url_filter.append(f"{key}={value}")
+    formatted_filter = "&".join(formatted_url_filter)
+    return f"rankings.php?{formatted_filter}"
+
+
 def join_tables(table1: List[Dict[str, Any]],
                table2: List[Dict[str, Any]] ,
                join_key: str) -> List[Dict[str, Any]]:

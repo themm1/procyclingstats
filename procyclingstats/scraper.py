@@ -17,8 +17,25 @@ class Scraper:
     object's HTML, when False `self.update_html` method has to be called
     manually to make object ready for parsing
     """
+    doc_str = """
+    :param url: URL of race overview either full or relative, e.g.
+    `race/tour-de-france/2021/stage-8`
+    :param html: HTML to be parsed from, defaults to None, when passing the
+    parameter, set `update_html` to False to prevent overriding or making
+    useless request
+    :param update_html: whether to make request to given URL and update
+    `self.html`, when False `self.update_html` method has to be called
+    manually to make object ready for parsing, defaults to True
+    """
+
     BASE_URL: Literal["https://www.procyclingstats.com/"] = \
         "https://www.procyclingstats.com/"
+    _public_nonparsing_methods = (
+        "update_html",
+        "parse",
+        "relative_url"
+    )
+    """Public methods that aren't called by `parse` method."""
 
     def __init__(self, url: str, html: Optional[str],
                  update_html: bool) -> None:
@@ -30,8 +47,12 @@ class Scraper:
             self.update_html()
 
     def __repr__(self) -> str:
-        """Returns relative URL of the object"""
-        return self.relative_url()
+        return f"{type(self).__name__}(url='{self.normalized_relative_url()}')"
+
+    def __eq__(self, other) -> bool:
+        if type(self) != type(other):
+            return False
+        return self.normalized_relative_url() == other.normalized_relative_url()
 
     @property
     def url(self) -> str:
@@ -47,12 +68,23 @@ class Scraper:
         """
         if self._html is None:
             raise ExpectedParsingError(
-                "In order to access HTML, update it.")
+                "In order to access HTML, update it using `self.update_html` " +
+                "method")
         return self._html
+
+    def normalized_relative_url(self) -> str:
+        """
+        Creates normalized relative URL. By default only removes extra slashes
+        from user defined relative URL. Is used for evaluating equality of
+        objects and should be overridden by subclass.
+
+        :return: normalized URL
+        """
+        return "/".join(self._decomposed_url())
 
     def relative_url(self) -> str:
         """
-        Makes relative URL from absolute url (cuts `self.base_url` from URL)
+        Makes relative URL from absolute url (cuts `self.BASE_URL` from URL)
 
         :return: relative URL
         """
@@ -102,18 +134,27 @@ class Scraper:
         """
         return self._make_absolute_url(url)
 
+    def _decomposed_url(self) -> List[str]:
+        """
+        Splits relative URL to list of strings.
+
+        :return: splitted relative URL without empty strings
+        """
+        splitted_url = self.relative_url().split("/")
+        return [part for part in splitted_url if part]
+
     def _get_parsing_methods(self) -> List[Tuple[str, Callable]]:
         """
-        Gets all parsing methods from a class, (all public methods with the
-        excepotion of `update_html` and `parse`)
+        Gets all parsing methods from a class. That are all public methods
+        except of methods listed in `_public_nonparsing_methods`.
 
         :return: list of tuples parsing methods names and parsing methods
         """
         methods = inspect.getmembers(self, predicate=inspect.ismethod)
         parsing_methods = []
         for method_name, method in methods:
-            if method_name[0] != "_" and method_name != "update_html" and\
-                    method_name != "parse":
+            if (method_name[0] != "_"
+                and method_name not in Scraper._public_nonparsing_methods):
                 parsing_methods.append((method_name, method))
         return parsing_methods
 
@@ -150,7 +191,6 @@ class Scraper:
         except ParsedValueInvalidError:
             raise ValueError(f"Given URL is indvalid: '{url}', example of valid"
                              f" URL: '{correct_url_example}'")
-
 
     def _request_html(self) -> str:
         """
