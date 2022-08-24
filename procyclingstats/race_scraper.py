@@ -24,6 +24,29 @@ class Race(Scraper):
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
 
+    def normalized_relative_url(self) -> str:
+        """
+        Creates normalized relative URL. Determines equality of objects (is
+        used in __eq__ method).
+
+        :return: Normalized URL in `race/{race_id}/{year}/overview` format.
+        When some of variables aren't contained in user defined URL, are set to
+        empty strings.
+        """
+        decomposed_url = self._decomposed_url()
+        decomposed_url.extend([""] * (3 - len(decomposed_url)))
+        race_id = decomposed_url[1]
+        if decomposed_url[2].isnumeric() and len(decomposed_url[2]) == 4:
+            year = decomposed_url[2]
+        else:
+            year = None
+        normalized_url = f"race/{race_id}"
+        if year is not None:
+            normalized_url += f"/{year}/overview"
+        else:
+            normalized_url += f"/overview"
+        return normalized_url
+
     def _get_valid_url(self, url: str) -> str:
         """
         Validates given URL with regex and returns absolute URL

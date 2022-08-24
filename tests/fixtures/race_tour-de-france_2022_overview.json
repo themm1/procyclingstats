@@ -5,7 +5,7 @@
   "enddate": "2022-07-24",
   "is_one_day_race": false,
   "nationality": "FR",
-  "relative_url": "race/tour-de-france/2022/overview",
+  "normalized_relative_url": "race/tour-de-france/2022/overview",
   "stages": [
     {
       "profile_icon": "p1",

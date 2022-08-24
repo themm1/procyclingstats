@@ -20,3 +20,16 @@ class TestRace(ScraperTestBaseClass):
         self.url_invalid("race/tour-de-france/2022")
         self.url_invalid("race/tour-de-france/2022/stage-1")
         self.url_invalid("race/cyclassics-hamburg/2022/result/ff")
+
+    def test_eq(self):
+        self.equal("race/tour-de-france/2022/overview",
+                   "race/tour-de-france/2022/overview/ggff/")
+        self.equal("race/tour-de-france/2022/overview",
+                   "race//tour-de-france/2022/overview/")
+
+        self.unequal("race/tour-de-france/2022/overview",
+                     "race/tour-de-france/2010/overview")
+        self.unequal("race/tour-de-france/2022/overview",
+                     "race/tour-de-suisse/2022/overview")
+
+
