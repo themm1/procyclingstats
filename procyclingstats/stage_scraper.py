@@ -5,8 +5,8 @@ from selectolax.parser import HTMLParser, Node
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (add_times, convert_date, format_time, join_tables,
-                    parse_table_fields_args, reg)
+from .utils import (add_times, convert_date, format_regex_str, format_time,
+                    join_tables, parse_table_fields_args, reg)
 
 
 class Stage(Scraper):
@@ -23,6 +23,14 @@ class Stage(Scraper):
     `self.html`, when False `self.update_html` method has to be called
     manually to make object ready for parsing, defaults to True
     """
+    _url_validation_regex = format_regex_str(
+    f"""
+        {reg.base_url}?race{reg.url_str}
+        ({reg.year}{reg.stage}({reg.result}{reg.anything}?)?|
+        ({reg.year}{reg.result}?({reg.result}{reg.result}{reg.anything})?)|
+        ({reg.result}{reg.anything}))?
+        \\/*
+    """)
     _tables_path = ".result-cont table"
 
     def __init__(self, url: str, html: Optional[str] = None,
@@ -55,25 +63,6 @@ class Stage(Scraper):
             if stage_id is not None:
                 normalized_url += f"/{stage_id}"
         return normalized_url
-
-    def _get_valid_url(self, url: str) -> str:
-        """
-        Validates given URL with regex and returns absolute URL
-
-        :param url: URL either relative or absolute
-        :raises ValueError: when URL isn't valid
-        :return: absolute URL
-        """
-        race_stage_url_regex = f"""
-            {reg.base_url}?race{reg.url_str}
-            ({reg.year}{reg.stage}({reg.result}{reg.anything}?)?|
-            ({reg.year}{reg.result}?({reg.result}{reg.result}{reg.anything})?)|
-            ({reg.result}{reg.anything}))?
-            \\/*
-        """
-        self._validate_url(url, race_stage_url_regex,
-                           "race/tour-de-france/2022/stage-18")
-        return self._make_absolute_url(url)
 
     def is_one_day_race(self) -> bool:
         """

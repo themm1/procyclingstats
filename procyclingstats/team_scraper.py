@@ -3,7 +3,8 @@ from typing import Any, Dict, List, Optional, Tuple
 from .scraper import Scraper
 from .select_parser import SelectParser
 from .table_parser import TableParser
-from .utils import get_day_month, join_tables, parse_table_fields_args, reg
+from .utils import (format_regex_str, get_day_month, join_tables,
+                    parse_table_fields_args, reg)
 
 
 class Team(Scraper):
@@ -19,7 +20,11 @@ class Team(Scraper):
     `self.html`, when False `self.update_html` method has to be called
     manually to make object ready for parsing, defaults to True
     """
-
+    _url_validation_regex = format_regex_str(
+    f"""
+        {reg.base_url}?team{reg.team_url_str}
+        ({reg.overview}{reg.anything}?)?\\/*
+    """)
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
@@ -36,23 +41,6 @@ class Team(Scraper):
         team_id = decomposed_url[1]
         return f"team/{team_id}"
    
-
-    def _get_valid_url(self, url: str) -> str:
-        """
-        Validates given URL with regex and returns absolute URL
-
-        :param url: URL either relative or absolute
-        :raises ValueError: when URL isn't valid
-        :return: absolute URL
-        """
-        team_url_regex = f"""
-            {reg.base_url}?team{reg.team_url_str}
-            ({reg.overview}{reg.anything}?)?\\/*
-        """
-        self._validate_url(url, team_url_regex,
-                           "team/bora-hansgrohe-2022")
-        return self._make_absolute_url(url)
-
     def teams_seasons_select(self, *args: str,
             available_fields: Tuple[str, ...] = (
                 "text",

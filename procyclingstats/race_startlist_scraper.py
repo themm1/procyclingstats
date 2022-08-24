@@ -4,7 +4,8 @@ from selectolax.parser import HTMLParser
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import normalize_race_url, parse_table_fields_args, reg
+from .utils import (format_regex_str, normalize_race_url,
+                    parse_table_fields_args, reg)
 
 
 class RaceStartlist(Scraper):
@@ -20,6 +21,15 @@ class RaceStartlist(Scraper):
     `self.html`, when False `self.update_html` method has to be called
     manually to set HTML (when isn't passed), defaults to True
     """
+    _url_validation_regex = format_regex_str(
+    f"""
+        {reg.base_url}?race{reg.url_str}
+        (({reg.year}{reg.stage}{reg.startlist}{reg.anything}?)|
+        ({reg.year}{reg.result}?{reg.startlist}{reg.anything}?)|
+        {reg.startlist}{reg.anything}?)
+        \\/*
+    """)
+    """Regex for validating URL."""
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
@@ -34,25 +44,6 @@ class RaceStartlist(Scraper):
         When year isn't contained in user defined URL, year is skipped.
         """
         return normalize_race_url(self._decomposed_url(), "startlist")
-
-    def _get_valid_url(self, url: str) -> str:
-        """
-        Validates given URL with regex and returns absolute URL
-
-        :param url: URL either relative or absolute
-        :raises ValueError: when URL isn't valid
-        :return: absolute URL
-        """
-        race_startlist_url_regex = f"""
-            {reg.base_url}?race{reg.url_str}
-            (({reg.year}{reg.stage}{reg.startlist}{reg.anything}?)|
-            ({reg.year}{reg.result}?{reg.startlist}{reg.anything}?)|
-            {reg.startlist}{reg.anything}?)
-            \\/*
-        """
-        self._validate_url(url, race_startlist_url_regex,
-                           "race/tour-de-france/2022/startlist")
-        return self._make_absolute_url(url)
 
     def startlist(self, *args: str, available_fields: Tuple[str, ...] = (
             "rider_name",

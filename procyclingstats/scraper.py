@@ -10,14 +10,8 @@ from .utils import validate_string
 
 class Scraper:
     """
-    Used as base class for scraping classes
+    Used as base class for scraping classes.
 
-    :param url: URL to be parsed from
-    :param update_html: whether to make request to given URL and update
-    object's HTML, when False `self.update_html` method has to be called
-    manually to make object ready for parsing
-    """
-    doc_str = """
     :param url: URL of race overview either full or relative, e.g.
     `race/tour-de-france/2021/stage-8`
     :param html: HTML to be parsed from, defaults to None, when passing the
@@ -27,7 +21,6 @@ class Scraper:
     `self.html`, when False `self.update_html` method has to be called
     manually to make object ready for parsing, defaults to True
     """
-
     BASE_URL: Literal["https://www.procyclingstats.com/"] = \
         "https://www.procyclingstats.com/"
     _public_nonparsing_methods = (
@@ -36,6 +29,8 @@ class Scraper:
         "relative_url"
     )
     """Public methods that aren't called by `parse` method."""
+    _url_validation_regex = ".*"
+    """Regex for validating URL. Should be overridden by subclass."""
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
@@ -72,6 +67,14 @@ class Scraper:
                 "method")
         return self._html
 
+    def relative_url(self) -> str:
+        """
+        Makes relative URL from absolute url (cuts `self.BASE_URL` from URL)
+
+        :return: relative URL
+        """
+        return "/".join(self._url.split("/")[3:])
+
     def normalized_relative_url(self) -> str:
         """
         Creates normalized relative URL. By default only removes extra slashes
@@ -81,14 +84,6 @@ class Scraper:
         :return: normalized URL
         """
         return "/".join(self._decomposed_url())
-
-    def relative_url(self) -> str:
-        """
-        Makes relative URL from absolute url (cuts `self.BASE_URL` from URL)
-
-        :return: relative URL
-        """
-        return "/".join(self._url.split("/")[3:])
 
     def update_html(self) -> None:
         """
@@ -127,12 +122,17 @@ class Scraper:
 
     def _get_valid_url(self, url: str) -> str:
         """
-        Method for validating and formatting given URL, should be overriden by
-        subclass
+        Validates given URL with regex and returns absolute URL.
 
-        :return: absolute URL
+        :param url: URL either relative or absolute
+        :raises ValueError: when URL isn't valid
+        :return: valid absolute URL
         """
-        return self._make_absolute_url(url)
+        try:
+            validate_string(url, regex=self._url_validation_regex)
+            return self._make_absolute_url(url)
+        except ParsedValueInvalidError:
+            raise ValueError(f"Given URL is indvalid: '{url}'")
 
     def _decomposed_url(self) -> List[str]:
         """
@@ -172,25 +172,6 @@ class Scraper:
             else:
                 url = self.BASE_URL + url
         return url
-
-    def _validate_url(
-            self,
-            url: str,
-            url_regex: str,
-            correct_url_example: str):
-        """
-        Validates URL with given regex
-
-        :param url: URL to be validated
-        :param url_regex: regex that has to fullmatch with given URL
-        :param correct_url_example: example to print when ValueError is raised
-        :raises ValueError: when URL is invalid
-        """
-        try:
-            validate_string(url, regex=url_regex)
-        except ParsedValueInvalidError:
-            raise ValueError(f"Given URL is indvalid: '{url}', example of valid"
-                             f" URL: '{correct_url_example}'")
 
     def _request_html(self) -> str:
         """

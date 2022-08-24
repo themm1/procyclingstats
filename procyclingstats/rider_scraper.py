@@ -3,7 +3,8 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import get_day_month, parse_table_fields_args, reg
+from .utils import (format_regex_str, get_day_month, parse_table_fields_args,
+                    reg)
 
 
 class Rider(Scraper):
@@ -19,6 +20,13 @@ class Rider(Scraper):
     `self.html`, when False `self.update_html` method has to be called
     manually to set HTML (when isn't passed), defaults to True
     """
+    _url_validation_regex = format_regex_str(
+    f"""
+        {reg.base_url}?rider
+        {reg.url_str}({reg.overview}{reg.anything}?|
+        {reg.year}{reg.anything}?)?
+        \\/*
+    """)
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
@@ -34,24 +42,6 @@ class Rider(Scraper):
         decomposed_url = self._decomposed_url()
         rider_id = decomposed_url[1]
         return f"rider/{rider_id}"
-
-    def _get_valid_url(self, url: str) -> str:
-        """
-        print(bd_list)
-        Validates given URL with regex and returns absolute URL
-
-        :param url: URL either relative or absolute
-        :raises ValueError: when URL isn't valid
-        :return: absolute URL
-        """
-        rider_url_regex = f"""
-            {reg.base_url}?rider
-            {reg.url_str}({reg.overview}{reg.anything}?|
-            {reg.year}{reg.anything}?)?
-            \\/*
-        """
-        self._validate_url(url, rider_url_regex, "rider/tadej-pogacar")
-        return self._make_absolute_url(url)
 
     def birthdate(self) -> str:
         """

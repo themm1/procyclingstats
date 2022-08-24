@@ -63,9 +63,7 @@ def validate_string(string: str,
         valid = False
 
     if regex:
-        valid_regex_list = [char for char in regex if char not in ("\n", " ")]
-        formatted_regex = "".join(valid_regex_list)
-        if re.fullmatch(formatted_regex, string) is None:
+        if re.fullmatch(regex, string) is None:
             valid = False
     if not valid:
         if not error:
@@ -125,6 +123,17 @@ def format_url_filter(url_filter: str) -> str:
         formatted_url_filter.append(f"{key}={value}")
     formatted_filter = "&".join(formatted_url_filter)
     return f"rankings.php?{formatted_filter}"
+
+
+def format_regex_str(regex: str) -> str:
+    """
+    Formats given regex (removes newlines and spaces).
+
+    :param regex: regex to format
+    :return: regex without newlines and spaces
+    """
+    return "".join([char for char in regex if char not in ("\n", " ")])
+
 
 
 def normalize_race_url(decomposed_url: List[str], addon: str) -> str:

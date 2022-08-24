@@ -24,6 +24,7 @@ class Ranking(Scraper):
     `self.html`, when False `self.update_html` method has to be called
     manually to set HTML (when isn't passed), defaults to True
     """
+    _url_validation_regex = f"{reg.base_url}?rankings.*\\/*"
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
@@ -47,21 +48,6 @@ class Ranking(Scraper):
         if "." in decomposed_url[0]:
             decomposed_url[0] = decomposed_url[0].split(".")[0]
         return "/".join(decomposed_url)
-
-    def _get_valid_url(self, url: str) -> str:
-        """
-        Validates given URL with regex and returns absolute URL
-
-        :param url: URL either relative or absolute
-        :raises ValueError: when URL isn't valid
-        :return: absolute URL
-        """
-        ranking_url_regex = f"""
-            {reg.base_url}?rankings.*\\/*
-        """
-        self._validate_url(url, ranking_url_regex,
-                           "rankings/me/individual-season")
-        return self._make_absolute_url(url)
 
     def individual_ranking(self, *args: str,
                            available_fields: Tuple[str, ...] = (

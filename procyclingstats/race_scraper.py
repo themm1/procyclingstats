@@ -3,8 +3,8 @@ from typing import Any, Dict, List, Optional, Tuple
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (get_day_month, normalize_race_url, parse_table_fields_args,
-                    reg)
+from .utils import (format_regex_str, get_day_month, normalize_race_url,
+                    parse_table_fields_args, reg)
 
 
 class Race(Scraper):
@@ -21,6 +21,16 @@ class Race(Scraper):
     manually to set HTML (when isn't passed), defaults to True
     """
 
+    _url_validation_regex = format_regex_str(
+    f"""
+        {reg.base_url}?race{reg.url_str}
+        (({reg.year}{reg.stage}{reg.overview}{reg.anything}?)|
+        ({reg.year}{reg.result}?{reg.overview}{reg.anything}?)|
+        {reg.overview}{reg.anything}?)
+        \\/*
+    """)
+    """Regex for validating URL."""
+
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
@@ -34,25 +44,6 @@ class Race(Scraper):
         When year isn't contained in user defined URL, year is skipped.
         """
         return normalize_race_url(self._decomposed_url(), "overview")
-
-    def _get_valid_url(self, url: str) -> str:
-        """
-        Validates given URL with regex and returns absolute URL
-
-        :param url: URL either relative or absolute
-        :raises ValueError: when URL isn't valid
-        :return: absolute URL
-        """
-        race_url_overview_regex = f"""
-            {reg.base_url}?race{reg.url_str}
-            (({reg.year}{reg.stage}{reg.overview}{reg.anything}?)|
-            ({reg.year}{reg.result}?{reg.overview}{reg.anything}?)|
-            {reg.overview}{reg.anything}?)
-            \\/*
-        """
-        self._validate_url(url, race_url_overview_regex,
-                           "race/tour-de-france/2021/overview")
-        return self._make_absolute_url(url)
 
     def year(self) -> int:
         """
