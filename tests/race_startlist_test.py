@@ -21,3 +21,10 @@ class TestStartlist(ScraperTestBaseClass):
         self.url_invalid("race/tour-de-france/2022/stage-1")
         self.url_invalid("race/cyclassics-hamburg/2022/result/gggg")
 
+    def test_eq(self):
+        self.equal("race/tour-de-france/2022/startlist",
+                   "race/tour-de-france/2022/startlist/gg/")
+
+        self.unequal("race/tour-de-france/2022/startlist",
+                   "race/tour-france/2022/startlist")
+

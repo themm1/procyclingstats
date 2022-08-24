@@ -127,6 +127,29 @@ def format_url_filter(url_filter: str) -> str:
     return f"rankings.php?{formatted_filter}"
 
 
+def normalize_race_url(decomposed_url: List[str], addon: str) -> str:
+    """
+    Creates normalized race URL.
+
+    :param decomposed_url: list of URL strings
+    :param addon: extra part added after race normalized URL
+    :return: normalized URL in `race/{race_id}/{year}/{addon}` format
+    """
+    decomposed_url = decomposed_url
+    decomposed_url.extend([""] * (3 - len(decomposed_url)))
+    race_id = decomposed_url[1]
+    if decomposed_url[2].isnumeric() and len(decomposed_url[2]) == 4:
+        year = decomposed_url[2]
+    else:
+        year = None
+    normalized_url = f"race/{race_id}"
+    if year is not None:
+        normalized_url += f"/{year}/{addon}"
+    else:
+        normalized_url += f"/{addon}"
+    return normalized_url
+
+
 def join_tables(table1: List[Dict[str, Any]],
                table2: List[Dict[str, Any]] ,
                join_key: str) -> List[Dict[str, Any]]:

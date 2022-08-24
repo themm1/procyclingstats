@@ -4,7 +4,7 @@ from selectolax.parser import HTMLParser
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import parse_table_fields_args, reg
+from .utils import normalize_race_url, parse_table_fields_args, reg
 
 
 class RaceStartlist(Scraper):
@@ -24,6 +24,16 @@ class RaceStartlist(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
+
+    def normalized_relative_url(self) -> str:
+        """
+        Creates normalized relative URL. Determines equality of objects (is
+        used in __eq__ method).
+
+        :return: Normalized URL in `race/{race_id}/{year}/startlist` format.
+        When year isn't contained in user defined URL, year is skipped.
+        """
+        return normalize_race_url(self._decomposed_url(), "startlist")
 
     def _get_valid_url(self, url: str) -> str:
         """

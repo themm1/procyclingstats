@@ -3,7 +3,8 @@ from typing import Any, Dict, List, Optional, Tuple
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import get_day_month, parse_table_fields_args, reg
+from .utils import (get_day_month, normalize_race_url, parse_table_fields_args,
+                    reg)
 
 
 class Race(Scraper):
@@ -30,22 +31,9 @@ class Race(Scraper):
         used in __eq__ method).
 
         :return: Normalized URL in `race/{race_id}/{year}/overview` format.
-        When some of variables aren't contained in user defined URL, are set to
-        empty strings.
+        When year isn't contained in user defined URL, year is skipped.
         """
-        decomposed_url = self._decomposed_url()
-        decomposed_url.extend([""] * (3 - len(decomposed_url)))
-        race_id = decomposed_url[1]
-        if decomposed_url[2].isnumeric() and len(decomposed_url[2]) == 4:
-            year = decomposed_url[2]
-        else:
-            year = None
-        normalized_url = f"race/{race_id}"
-        if year is not None:
-            normalized_url += f"/{year}/overview"
-        else:
-            normalized_url += f"/overview"
-        return normalized_url
+        return normalize_race_url(self._decomposed_url(), "overview")
 
     def _get_valid_url(self, url: str) -> str:
         """
