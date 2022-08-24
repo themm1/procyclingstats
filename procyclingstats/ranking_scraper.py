@@ -25,10 +25,7 @@ class Ranking(Scraper):
     manually to set HTML (when isn't passed), defaults to True
     """
     _url_validation_regex = f"{reg.base_url}?rankings.*\\/*"
-
-    def __init__(self, url: str, html: Optional[str] = None,
-                 update_html: bool = True) -> None:
-        super().__init__(url, html, update_html)
+    """Regex for validating ranking URL."""
 
     def normalized_relative_url(self) -> str:
         """

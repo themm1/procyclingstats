@@ -29,11 +29,7 @@ class Race(Scraper):
         {reg.overview}{reg.anything}?)
         \\/*
     """)
-    """Regex for validating URL."""
-
-    def __init__(self, url: str, html: Optional[str] = None,
-                 update_html: bool = True) -> None:
-        super().__init__(url, html, update_html)
+    """Regex for validating race overview URL."""
 
     def normalized_relative_url(self) -> str:
         """

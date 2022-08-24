@@ -25,10 +25,7 @@ class Team(Scraper):
         {reg.base_url}?team{reg.team_url_str}
         ({reg.overview}{reg.anything}?)?\\/*
     """)
-
-    def __init__(self, url: str, html: Optional[str] = None,
-                 update_html: bool = True) -> None:
-        super().__init__(url, html, update_html)
+    """Regex for validating team URL."""
 
     def normalized_relative_url(self) -> str:
         """

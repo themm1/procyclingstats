@@ -31,11 +31,8 @@ class Stage(Scraper):
         ({reg.result}{reg.anything}))?
         \\/*
     """)
+    """Regex for validating stage URL."""
     _tables_path = ".result-cont table"
-
-    def __init__(self, url: str, html: Optional[str] = None,
-                 update_html: bool = True) -> None:
-        super().__init__(url, html, update_html)
 
     def normalized_relative_url(self) -> str:
         """
