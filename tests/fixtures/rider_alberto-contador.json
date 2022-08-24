@@ -4,7 +4,7 @@
   "name": "Alberto  Contador",
   "nationality": "ES",
   "place_of_birth": "Pinto",
-  "relative_url": "rider/alberto-contador",
+  "normalized_relative_url": "rider/alberto-contador",
   "seasons_points": [
     {
       "season": 2017,

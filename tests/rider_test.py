@@ -14,3 +14,7 @@ class TestRider(ScraperTestBaseClass):
 
         self.url_invalid("rider/tadej-pogacar/results")
         self.url_invalid("rder/tadej-pogacar")
+
+    def test_eq(self):
+        self.equal("rider/tadej-pogacar", "rider/tadej-pogacar/overview/")
+        self.unequal("rider/tadej-pogacar", "rider/tadej-pog")

@@ -24,6 +24,17 @@ class Rider(Scraper):
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
 
+    def normalized_relative_url(self) -> str:
+        """
+        Creates normalized relative URL. Determines equality of objects (is
+        used in __eq__ method).
+
+        :return: Normalized URL in `rider/{rider_id}` format.
+        """
+        decomposed_url = self._decomposed_url()
+        rider_id = decomposed_url[1]
+        return f"rider/{rider_id}"
+
     def _get_valid_url(self, url: str) -> str:
         """
         print(bd_list)
