@@ -34,7 +34,8 @@ class Scraper:
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
-        self._url = self._get_valid_url(url)
+        self._validate_url(url)
+        self._url = self._make_url_absolute(url)
         self._html = None
         if html:
             self._html = HTMLParser(html)
@@ -83,7 +84,7 @@ class Scraper:
 
         :return: normalized URL
         """
-        return "/".join(self._decomposed_url())
+        return "/".join(self._decompose_url())
 
     def update_html(self) -> None:
         """
@@ -110,7 +111,7 @@ class Scraper:
         method raises ignored exception
         :return: dict with parsing methods mapping to parsed data
         """
-        parsing_methods = self._get_parsing_methods()
+        parsing_methods = self._parsing_methods()
         parsed_data = {}
         for method_name, method in parsing_methods:
             try:
@@ -120,7 +121,16 @@ class Scraper:
                     parsed_data[method_name] = None
         return parsed_data
 
-    def _get_valid_url(self, url: str) -> str:
+    def _decompose_url(self) -> List[str]:
+        """
+        Splits relative URL to list of strings.
+
+        :return: splitted relative URL without empty strings
+        """
+        splitted_url = self.relative_url().split("/")
+        return [part for part in splitted_url if part]
+
+    def _validate_url(self, url: str) -> None:
         """
         Validates given URL with regex and returns absolute URL.
 
@@ -130,20 +140,10 @@ class Scraper:
         """
         try:
             validate_string(url, regex=self._url_validation_regex)
-            return self._make_absolute_url(url)
         except ParsedValueInvalidError:
             raise ValueError(f"Given URL is indvalid: '{url}'")
 
-    def _decomposed_url(self) -> List[str]:
-        """
-        Splits relative URL to list of strings.
-
-        :return: splitted relative URL without empty strings
-        """
-        splitted_url = self.relative_url().split("/")
-        return [part for part in splitted_url if part]
-
-    def _get_parsing_methods(self) -> List[Tuple[str, Callable]]:
+    def _parsing_methods(self) -> List[Tuple[str, Callable]]:
         """
         Gets all parsing methods from a class. That are all public methods
         except of methods listed in `_public_nonparsing_methods`.
@@ -158,7 +158,7 @@ class Scraper:
                 parsing_methods.append((method_name, method))
         return parsing_methods
 
-    def _make_absolute_url(self, url: str) -> str:
+    def _make_url_absolute(self, url: str) -> str:
         """
         Makes absolute URL from given url (adds `self.base_url` to URL if
         needed)

@@ -39,7 +39,7 @@ class RaceStartlist(Scraper):
         :return: Normalized URL in `race/{race_id}/{year}/startlist` format.
         When year isn't contained in user defined URL, year is skipped.
         """
-        return normalize_race_url(self._decomposed_url(), "startlist")
+        return normalize_race_url(self._decompose_url(), "startlist")
 
     def startlist(self, *args: str, available_fields: Tuple[str, ...] = (
             "rider_name",

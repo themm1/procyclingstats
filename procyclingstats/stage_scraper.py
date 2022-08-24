@@ -43,7 +43,7 @@ class Stage(Scraper):
         When year or stage_id aren't contained in user defined URL, they are
         skipped.
         """
-        decomposed_url = self._decomposed_url()
+        decomposed_url = self._decompose_url()
         decomposed_url.extend([""] * (4 - len(decomposed_url)))
         race_id = decomposed_url[1]
         if decomposed_url[2].isnumeric() and len(decomposed_url[2]) == 4:

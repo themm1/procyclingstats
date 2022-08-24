@@ -34,7 +34,7 @@ class Team(Scraper):
 
         :return: Normalized URL in `team/{team_id}` format.
         """
-        decomposed_url = self._decomposed_url()
+        decomposed_url = self._decompose_url()
         team_id = decomposed_url[1]
         return f"team/{team_id}"
    

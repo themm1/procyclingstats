@@ -31,6 +31,7 @@ class reg:
     """example match `/ffefwf//fwefw/aa`"""
 
 
+# validation functions
 def validate_string(string: str,
                     min_length: int = 0,
                     max_length: int = math.inf, # type: ignore
@@ -71,7 +72,6 @@ def validate_string(string: str,
         else:
             raise error
 
-
 def validate_number(number: Union[int, float],
                     min_: Union[int, float] = -math.inf,
                     max_: Union[int, float] = math.inf,
@@ -100,6 +100,7 @@ def validate_number(number: Union[int, float],
         else:
             raise error
 
+# strings and URLs manipulation functions
 def format_url_filter(url_filter: str) -> str:
     """
     Removes uneccessarry filters from URL filter string.
@@ -124,18 +125,6 @@ def format_url_filter(url_filter: str) -> str:
     formatted_filter = "&".join(formatted_url_filter)
     return f"rankings.php?{formatted_filter}"
 
-
-def format_regex_str(regex: str) -> str:
-    """
-    Formats given regex (removes newlines and spaces).
-
-    :param regex: regex to format
-    :return: regex without newlines and spaces
-    """
-    return "".join([char for char in regex if char not in ("\n", " ")])
-
-
-
 def normalize_race_url(decomposed_url: List[str], addon: str) -> str:
     """
     Creates normalized race URL.
@@ -158,32 +147,14 @@ def normalize_race_url(decomposed_url: List[str], addon: str) -> str:
         normalized_url += f"/{addon}"
     return normalized_url
 
-
-def join_tables(table1: List[Dict[str, Any]],
-               table2: List[Dict[str, Any]] ,
-               join_key: str) -> List[Dict[str, Any]]:
+def format_regex_str(regex: str) -> str:
     """
-    Join given tables to one by joining rows which `join_key` values are
-    matching.
+    Formats given regex (removes newlines and spaces).
 
-    :param table1: table represented as list of dicts where every row has
-    `join_key`
-    :param table2: table represented as list of dicts where every row has
-    `join_key`
-    :param join_key: field used for finding matching rows, e.g. `rider_url`
-    :raises ValueError: when matching row to one of table rows wasn't found
-    :return: tables joined together into one table
+    :param regex: regex to format
+    :return: regex without newlines and spaces
     """
-    table2_dict = {row[join_key]: row for row in table2}
-    table = []
-    for row in table1:
-        try:
-            table.append({**table2_dict[row[join_key]], **row})
-        except KeyError:
-            raise ValueError(f"Matching row to row with join key value \
-                '{row[join_key]}' wasn't found.")
-    return table
-
+    return "".join([char for char in regex if char not in ("\n", " ")])
 
 def get_day_month(str_with_date: str) -> str:
     """
@@ -212,26 +183,7 @@ def get_day_month(str_with_date: str) -> str:
         "Given string doesn't contain day and month in wanted format")
 
 
-def parse_table_fields_args(args: Tuple[str],
-                            available_fields: Tuple[str]) -> List[str]:
-    """
-    Check whether given args are valid and get table fields
-
-    :param args: args to be validated
-    :param available_fields: args that would be valid
-    :raises ValueError: when one of args is not valid
-    :return: table fields, args if any were given, otherwise all available\
-        fields
-    """
-    for arg in args:
-        if arg not in available_fields:
-            raise ValueError("Invalid field argument")
-    if args:
-        return list(args)
-    else:
-        return list(available_fields)
-
-
+# date and time manipulation functions
 def convert_date(date: str) -> str:
     """
     Converts given date to `YYYY-MM-DD` format
@@ -244,7 +196,6 @@ def convert_date(date: str) -> str:
     month = datetime.datetime.strptime(month, "%B").month
     month = f"0{month}" if month < 10 else str(month)
     return "-".join([year, month, day])
-
 
 def timedelta_to_time(tdelta: datetime.timedelta) -> str:
     """
@@ -264,7 +215,6 @@ def timedelta_to_time(tdelta: datetime.timedelta) -> str:
         minutes_seconds = ":".join(time[0].split(":")[1:])
     return f"{hours}:{minutes_seconds}"
 
-
 def time_to_timedelta(time: str) -> datetime.timedelta:
     """
     Converts time in `H:MM:SS` format to timedelta object
@@ -274,7 +224,6 @@ def time_to_timedelta(time: str) -> datetime.timedelta:
     """
     [hours, minutes, seconds] = [int(value) for value in time.split(":")]
     return datetime.timedelta(hours=hours, minutes=minutes, seconds=seconds)
-
 
 def format_time(time: str) -> str:
     """
@@ -294,7 +243,6 @@ def format_time(time: str) -> str:
         time_str = "0:" + time_str
     return time_str
 
-
 def add_times(time1: str, time2: str) -> str:
     """
     Adds two given times with minutes and seconds or with hours optionally
@@ -308,3 +256,49 @@ def add_times(time1: str, time2: str) -> str:
     tdelta2 = time_to_timedelta(format_time(time2))
     tdelta = tdelta1 + tdelta2
     return timedelta_to_time(tdelta)
+
+
+# other functions
+def join_tables(table1: List[Dict[str, Any]],
+               table2: List[Dict[str, Any]] ,
+               join_key: str) -> List[Dict[str, Any]]:
+    """
+    Join given tables to one by joining rows which `join_key` values are
+    matching.
+
+    :param table1: table represented as list of dicts where every row has
+    `join_key`
+    :param table2: table represented as list of dicts where every row has
+    `join_key`
+    :param join_key: field used for finding matching rows, e.g. `rider_url`
+    :raises ValueError: when matching row to one of table rows wasn't found
+    :return: tables joined together into one table
+    """
+    table2_dict = {row[join_key]: row for row in table2}
+    table = []
+    for row in table1:
+        try:
+            table.append({**table2_dict[row[join_key]], **row})
+        except KeyError:
+            raise ValueError(f"Matching row to row with join key value \
+                '{row[join_key]}' wasn't found.")
+    return table
+
+def parse_table_fields_args(args: Tuple[str],
+                            available_fields: Tuple[str]) -> List[str]:
+    """
+    Check whether given args are valid and get table fields
+
+    :param args: args to be validated
+    :param available_fields: args that would be valid
+    :raises ValueError: when one of args is not valid
+    :return: table fields, args if any were given, otherwise all available\
+        fields
+    """
+    for arg in args:
+        if arg not in available_fields:
+            raise ValueError("Invalid field argument")
+    if args:
+        return list(args)
+    else:
+        return list(available_fields)

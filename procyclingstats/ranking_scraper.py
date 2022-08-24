@@ -40,7 +40,7 @@ class Ranking(Scraper):
         # returns special normalized ranking filter URL
         if "?" in relative_url:
             return format_url_filter(relative_url)
-        decomposed_url = self._decomposed_url()
+        decomposed_url = self._decompose_url()
         # remove .php from rankings URL if it is not a filter URL
         if "." in decomposed_url[0]:
             decomposed_url[0] = decomposed_url[0].split(".")[0]

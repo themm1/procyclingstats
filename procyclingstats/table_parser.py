@@ -8,25 +8,23 @@ from .utils import add_times, format_time
 
 class TableParser:
     """
-    Parser for HTML tables, parsed content is stored in `self.table`, which is
-    represented as list of dicts
+    Parser for HTML tables. Parsed content is stored in `self.table`, which is
+    represented as list of dicts.
 
     :param html_table: HTML table to be parsed from
-    :param extra_header: header of given table (if isn't passed header from
-    given html table is taken, if isn't found header is set to None)
     """
 
-    child_tag_dict: Dict[str, str] = {
+    table_row_dict: Dict[str, str] = {
         "tbody": "tr",
         "table": "tr",
         "ul": "li"
     }
-    """Finds out what is the table children tag"""
-    row_child_tag_dict: Dict[str, str] = {
+    """Finds out what is the table row tag"""
+    row_column_tag_dict: Dict[str, str] = {
         "tr": "td",
         "li": "div"
     }
-    """Finds out what is the table row children tag"""
+    """Finds out what is the table row column tag"""
 
     def __init__(self, html_table: Node) -> None:
         self.table = []
@@ -38,35 +36,33 @@ class TableParser:
             self.html_table = html_table
             self.header = None
 
-        self.table_child_tag = self.child_tag_dict[self.html_table.tag]
-        self.row_child_tag = self.row_child_tag_dict[self.table_child_tag]
+        self.table_row_tag = self.table_row_dict[self.html_table.tag]
+        self.row_column_tag = self.row_column_tag_dict[self.table_row_tag]
 
         self.a_elements = self.html_table.css("a")
-        self.table_length = len(self.html_table.css(self.table_child_tag))
+        self.table_length = len(self.html_table.css(self.table_row_tag))
         self.row_length = len(self.html_table.css(
-            f"{self.table_child_tag}:first-child > {self.row_child_tag}"))
+            f"{self.table_row_tag}:first-child > {self.row_column_tag}"))
 
-    def parse(self, fields: Union[List[str], Tuple[str, ...]],
-              skip_when: Callable = lambda _: False) -> None:
+    def parse(self, fields: Union[List[str], Tuple[str, ...]]) -> None:
         """
         Parses HTML table to `self.table` (list of dicts) by calling given
         table parsing methods. Every parsed table row is dictionary with
         `fields` keys
 
         :param fields: table parsing methods of this class
-        :param skip_when: Function to call on every table row (dict where keys
-        are given fields and values parsed values). When returns true row is
-        removed from the table.
+        :raises UnexpectedParsingError: when parsed field values aren't the same
+        size as table length
 
         :regular fields options:
-            - rider_name
             - rider_url
-            - team_name
+            - rider_name
             - team_url
-            - stage_name
+            - team_name
             - stage_url
-            - nation_name
+            - stage_name
             - nation_url
+            - nation_name
             - age
             - nationality
             - time
@@ -82,8 +78,9 @@ class TableParser:
             - uci_points
             - points
             - class
-            - date
-            - distance
+            - first_places
+            - second_places
+            - third_places
         """
         raw_table = []
         for _ in range(self.table_length):
@@ -106,8 +103,7 @@ class TableParser:
  
         # remove unwanted rows
         for row in raw_table:
-            if not skip_when(row):
-                self.table.append(row)
+            self.table.append(row)
 
         if "time" in fields and self.table:
             self._make_times_absolute()
@@ -154,7 +150,8 @@ class TableParser:
         if index < 0:
             index = self.row_length + index
         elements = self.html_table.css(
-            f"{self.table_child_tag} > {self.row_child_tag}:nth-child({index+1})")
+            f"{self.table_row_tag} > {self.row_column_tag}:nth-child({index+1})"
+        )
 
         values = []
         for element in elements:
@@ -334,21 +331,6 @@ class TableParser:
     def third_places(self) -> List[Optional[int]]:
         return self.parse_extra_column("3rd", lambda x: int(x) if x.isnumeric()
                                        else 0)
-
-    def table_to_dict(self, key_field: str) -> Dict[str, dict]:
-        """
-        Converts table to dictionary with given key
-
-        :param key_field: table row field which value is unique for each row
-        e.g. `rider_url`, key has to be in every table row
-        :raises ValueError: when `key_field` is not in table row
-        :return: dictionary where given table field values are keys and rows of
-        original table are values
-        """
-        try:
-            return {row[key_field]: row for row in self.table}
-        except KeyError:
-            raise ValueError(f"Invalid key_field argument: {key_field}")
 
     def rename_field(self, field_name: str, new_field_name: str) -> None:
         """

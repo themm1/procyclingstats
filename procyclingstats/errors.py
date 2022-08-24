@@ -22,7 +22,6 @@ class UnexpectedParsingError(Exception):
     :param message: exception message to print when raised
     """
 
-
     def __init__(self,
                  message: str = "Unexpected parsing error occured") -> None:
         self.message = message

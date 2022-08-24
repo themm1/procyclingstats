@@ -36,7 +36,7 @@ class Rider(Scraper):
 
         :return: Normalized URL in `rider/{rider_id}` format.
         """
-        decomposed_url = self._decomposed_url()
+        decomposed_url = self._decompose_url()
         rider_id = decomposed_url[1]
         return f"rider/{rider_id}"
 

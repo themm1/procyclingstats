@@ -39,7 +39,7 @@ class Race(Scraper):
         :return: Normalized URL in `race/{race_id}/{year}/overview` format.
         When year isn't contained in user defined URL, year is skipped.
         """
-        return normalize_race_url(self._decomposed_url(), "overview")
+        return normalize_race_url(self._decompose_url(), "overview")
 
     def year(self) -> int:
         """
