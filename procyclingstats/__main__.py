@@ -35,7 +35,7 @@ def get_scraper_obj_by_url(scraper_classes: List[Type[Scraper]],
     """
     for ScraperClass in scraper_classes:
         try:
-            ScraperClass(url, None, False)
+            ScraperClass(url, update_html=False)
             return ScraperClass
         except ValueError:
             pass

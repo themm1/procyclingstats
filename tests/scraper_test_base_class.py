@@ -56,7 +56,7 @@ class ScraperTestBaseClass:
         """
         passed = True
         try:
-            self.ScraperClass(url, None, False)
+            self.ScraperClass(url, update_html=False)
         except ValueError:
             passed = False
         if not passed:
@@ -72,7 +72,7 @@ class ScraperTestBaseClass:
         """
         passed = True
         try:
-            self.ScraperClass(url, None, False)
+            self.ScraperClass(url, update_html=False)
         except ValueError:
             passed = False
         if passed:
@@ -85,8 +85,8 @@ class ScraperTestBaseClass:
         :param url1: URL of first object
         :param url2: URL of second object
         """
-        assert self.ScraperClass(url1, None, False) == self.ScraperClass(url2,
-            None, False)
+        assert self.ScraperClass(url1, update_html=False) == self.ScraperClass(
+            url2, update_html=False)
 
     def unequal(self, url1: str, url2: str) -> None:
         """
@@ -95,6 +95,6 @@ class ScraperTestBaseClass:
         :param url1: URL of first object
         :param url2: URL of second object
         """
-        assert self.ScraperClass(url1, None, False) != self.ScraperClass(url2,
-            None, False)
+        assert self.ScraperClass(url1, update_html=False) != self.ScraperClass(
+            url2, update_html=False)
 

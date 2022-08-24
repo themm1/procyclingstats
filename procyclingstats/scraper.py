@@ -37,8 +37,8 @@ class Scraper:
     )
     """Public methods that aren't called by `parse` method."""
 
-    def __init__(self, url: str, html: Optional[str],
-                 update_html: bool) -> None:
+    def __init__(self, url: str, html: Optional[str] = None,
+                 update_html: bool = True) -> None:
         self._url = self._get_valid_url(url)
         self._html = None
         if html:
