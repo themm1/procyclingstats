@@ -25,6 +25,18 @@ class Team(Scraper):
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
 
+    def normalized_relative_url(self) -> str:
+        """
+        Creates normalized relative URL. Determines equality of objects (is
+        used in __eq__ method).
+
+        :return: Normalized URL in `team/{team_id}` format.
+        """
+        decomposed_url = self._decomposed_url()
+        team_id = decomposed_url[1]
+        return f"team/{team_id}"
+   
+
     def _get_valid_url(self, url: str) -> str:
         """
         Validates given URL with regex and returns absolute URL

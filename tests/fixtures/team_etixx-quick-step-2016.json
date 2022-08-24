@@ -3,7 +3,7 @@
   "bike": "Specialized",
   "display_name": "Etixx - Quick Step",
   "nationality": "BE",
-  "relative_url": "team/etixx-quick-step-2016",
+  "normalized_relative_url": "team/etixx-quick-step-2016",
   "riders": [
     {
       "rider_url": "rider/tom-boonen",

@@ -15,3 +15,8 @@ class TestTeam(ScraperTestBaseClass):
         self.url_invalid("team/bora-hansgrohe/")
         self.url_invalid("team/bora-hansgrohe-2022/wins")
         self.url_invalid("tam/bora-hansgrohe-2022/wins")
+
+    def test_eq(self):
+        self.equal("team/bora-hansgrohe-2022",
+                   "team/bora-hansgrohe-2022/overview/")
+        self.unequal("team/bora-hansgrohe-2022", "team/bora-hansgrohe-2021")
