@@ -2941,7 +2941,7 @@
     }
   ],
   "profile_icon": "p1",
-  "relative_url": "race/tour-de-france/2018/stage-3",
+  "normalized_relative_url": "race/tour-de-france/2018/stage-3",
   "results": [
     {
       "rider_url": "rider/damiano-caruso",

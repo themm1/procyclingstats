@@ -4215,7 +4215,7 @@
     }
   ],
   "profile_icon": "p1",
-  "relative_url": "race/tour-de-france/2022/stage-21",
+  "normalized_relative_url": "race/tour-de-france/2022/stage-21",
   "results": [
     {
       "rider_name": "PHILIPSEN Jasper",

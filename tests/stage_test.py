@@ -20,3 +20,13 @@ class TestStage(ScraperTestBaseClass):
         self.url_invalid("race/2022")
         self.url_invalid("race/tour-de-france/222")
         self.url_invalid("race/paris-roubaix/2021/result/overview")
+
+    def test_eq(self):
+        self.equal("race/tour-de-france/2022/stage-18/result/fff",
+                   "race/tour-de-france/2022/stage-18")
+        self.equal("race/tour-de-france/2022", "race/tour-de-france/2022/gc")
+
+        self.unequal("race/tdf/2022/stage-1",
+                     "race/tour-de-france/2022/stage-1")
+        self.unequal("race/okolo-slovenska/2021/prologue",
+                     "race/okolo-slovenska/2021/gc")

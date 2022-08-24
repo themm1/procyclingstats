@@ -77,3 +77,24 @@ class ScraperTestBaseClass:
             passed = False
         if passed:
             assert False, f"'{url}' passed when shouldn't"
+
+    def equal(self, url1: str, url2: str) -> None:
+        """
+        Checks equality of two scraper objects created from given URLs.
+
+        :param url1: URL of first object
+        :param url2: URL of second object
+        """
+        assert self.ScraperClass(url1, None, False) == self.ScraperClass(url2,
+            None, False)
+
+    def unequal(self, url1: str, url2: str) -> None:
+        """
+        Checks unequality of two scraper objects created from given URLs.
+
+        :param url1: URL of first object
+        :param url2: URL of second object
+        """
+        assert self.ScraperClass(url1, None, False) != self.ScraperClass(url2,
+            None, False)
+

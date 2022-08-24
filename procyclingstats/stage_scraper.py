@@ -4,7 +4,6 @@ from selectolax.parser import HTMLParser, Node
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
-# from .table_parser import TableParser
 from .table_parser import TableParser
 from .utils import (add_times, convert_date, format_time, join_tables,
                     parse_table_fields_args, reg)
@@ -29,6 +28,33 @@ class Stage(Scraper):
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
         super().__init__(url, html, update_html)
+
+    def normalized_relative_url(self) -> str:
+        """
+        Creates normalized relative URL. Determines equality of objects (is
+        used in `__eq__` method).
+
+        :return: Normalized URL in `race/{race_id}/{year}/{stage_id}` format.
+        When year or stage_id aren't contained in user defined URL, they are
+        skipped.
+        """
+        decomposed_url = self._decomposed_url()
+        decomposed_url.extend([""] * (4 - len(decomposed_url)))
+        race_id = decomposed_url[1]
+        if decomposed_url[2].isnumeric() and len(decomposed_url[2]) == 4:
+            year = decomposed_url[2]
+        else:
+            year = None
+        if "stage" in decomposed_url[3] or "prologue" in decomposed_url[3]:
+            stage_id = decomposed_url[3]
+        else:
+            stage_id = None
+        normalized_url = f"race/{race_id}"
+        if year is not None:
+            normalized_url += f"/{year}"
+            if stage_id is not None:
+                normalized_url += f"/{stage_id}"
+        return normalized_url
 
     def _get_valid_url(self, url: str) -> str:
         """
