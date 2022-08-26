@@ -1,8 +1,8 @@
 import os
 import sys
 
-from procyclingstats import (Race, RaceStartlist, Ranking, Rider, Scraper,
-                             Stage, Team)
+from procyclingstats import (Race, RaceStartlist, Ranking, Rider, RiderResults,
+                             Scraper, Stage, Team)
 from procyclingstats.__main__ import get_scraper_obj_by_url
 
 from .fixtures_utils import FixturesUtils
@@ -31,7 +31,8 @@ class CLI:
         Ranking,
         Rider,
         Stage,
-        Team
+        Team,
+        RiderResults
     ]
     command_types = ["add", "add_html", "update_htmls"]
     arg_error = ValueError(
@@ -81,7 +82,7 @@ class CLI:
             ScraperClass = get_scraper_obj_by_url(self.scraper_classes,
                                                   self.url)
             obj = ScraperClass(self.url)
-            filename = self.f.url_to_filename(obj.relative_url())
+            filename = self.f.url_to_filename(obj.normalized_relative_url())
 
             if self.command == "add":
                 if self.logging:

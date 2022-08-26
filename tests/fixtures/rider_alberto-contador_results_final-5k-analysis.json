@@ -1,0 +1,453 @@
+{
+  "categories_select": null,
+  "final_n_km_results": [
+    {
+      "date": "2017-09-09",
+      "rank": 1,
+      "stage_url": "race/vuelta-a-espana/2017/stage-20",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 20",
+      "class": "2.UWT",
+      "vertical_meters": 590,
+      "average_percentage": 11.8
+    },
+    {
+      "date": "2017-09-06",
+      "rank": 2,
+      "stage_url": "race/vuelta-a-espana/2017/stage-17",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 17",
+      "class": "2.UWT",
+      "vertical_meters": 581,
+      "average_percentage": 11.6
+    },
+    {
+      "date": "2017-07-14",
+      "rank": 3,
+      "stage_url": "race/tour-de-france/2017/stage-13",
+      "stage_name": "Tour de France | Stage 13",
+      "class": "2.UWT",
+      "vertical_meters": 11,
+      "average_percentage": 0.2
+    },
+    {
+      "date": "2017-03-24",
+      "rank": 3,
+      "stage_url": "race/volta-a-catalunya/2017/stage-5",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 5",
+      "class": "2.UWT",
+      "vertical_meters": 463,
+      "average_percentage": 9.3
+    },
+    {
+      "date": "2017-03-12",
+      "rank": 2,
+      "stage_url": "race/paris-nice/2017/stage-8",
+      "stage_name": "Paris - Nice | Stage 8",
+      "class": "2.UWT",
+      "vertical_meters": 10,
+      "average_percentage": 0.2
+    },
+    {
+      "date": "2017-03-11",
+      "rank": 2,
+      "stage_url": "race/paris-nice/2017/stage-7",
+      "stage_name": "Paris - Nice | Stage 7",
+      "class": "2.UWT",
+      "vertical_meters": 431,
+      "average_percentage": 8.6
+    },
+    {
+      "date": "2016-04-08",
+      "rank": 3,
+      "stage_url": "race/itzulia-basque-country/2016/stage-5",
+      "stage_name": "Vuelta Ciclista al Pais Vasco | Stage 5",
+      "class": "2.UWT",
+      "vertical_meters": 266,
+      "average_percentage": 5.3
+    },
+    {
+      "date": "2016-03-23",
+      "rank": 2,
+      "stage_url": "race/volta-a-catalunya/2016/stage-3",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 3",
+      "class": "2.UWT",
+      "vertical_meters": 55,
+      "average_percentage": 1.1
+    },
+    {
+      "date": "2016-03-13",
+      "rank": 2,
+      "stage_url": "race/paris-nice/2016/stage-7",
+      "stage_name": "Paris - Nice | Stage 7",
+      "class": "2.UWT",
+      "vertical_meters": 0,
+      "average_percentage": 0.0
+    },
+    {
+      "date": "2016-03-12",
+      "rank": 3,
+      "stage_url": "race/paris-nice/2016/stage-6",
+      "stage_name": "Paris - Nice | Stage 6",
+      "class": "2.UWT",
+      "vertical_meters": 441,
+      "average_percentage": 8.8
+    },
+    {
+      "date": "2015-05-26",
+      "rank": 3,
+      "stage_url": "race/giro-d-italia/2015/stage-16",
+      "stage_name": "Giro d'Italia | Stage 16",
+      "class": "2.UWT",
+      "vertical_meters": 174,
+      "average_percentage": 3.5
+    },
+    {
+      "date": "2015-05-24",
+      "rank": 3,
+      "stage_url": "race/giro-d-italia/2015/stage-15",
+      "stage_name": "Giro d'Italia | Stage 15",
+      "class": "2.UWT",
+      "vertical_meters": 298,
+      "average_percentage": 6.0
+    },
+    {
+      "date": "2015-05-21",
+      "rank": 2,
+      "stage_url": "race/giro-d-italia/2015/stage-12",
+      "stage_name": "Giro d'Italia | Stage 12",
+      "class": "2.UWT",
+      "vertical_meters": 72,
+      "average_percentage": 1.4
+    },
+    {
+      "date": "2015-03-26",
+      "rank": 3,
+      "stage_url": "race/volta-a-catalunya/2015/stage-4",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 4",
+      "class": "2.UWT",
+      "vertical_meters": 223,
+      "average_percentage": 4.5
+    },
+    {
+      "date": "2014-09-13",
+      "rank": 1,
+      "stage_url": "race/vuelta-a-espana/2014/stage-20",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 20",
+      "class": "2.UWT",
+      "vertical_meters": 329,
+      "average_percentage": 6.6
+    },
+    {
+      "date": "2014-09-08",
+      "rank": 1,
+      "stage_url": "race/vuelta-a-espana/2014/stage-16",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 16",
+      "class": "2.UWT",
+      "vertical_meters": 446,
+      "average_percentage": 8.9
+    },
+    {
+      "date": "2014-08-28",
+      "rank": 3,
+      "stage_url": "race/vuelta-a-espana/2014/stage-6",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 6",
+      "class": "2.UWT",
+      "vertical_meters": 462,
+      "average_percentage": 9.2
+    },
+    {
+      "date": "2014-07-12",
+      "rank": 2,
+      "stage_url": "race/tour-de-france/2014/stage-8",
+      "stage_name": "Tour de France | Stage 8",
+      "class": "2.UWT",
+      "vertical_meters": 189,
+      "average_percentage": 3.8
+    },
+    {
+      "date": "2014-06-09",
+      "rank": 2,
+      "stage_url": "race/dauphine/2014/stage-2",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 2",
+      "class": "2.UWT",
+      "vertical_meters": 343,
+      "average_percentage": 6.9
+    },
+    {
+      "date": "2014-04-07",
+      "rank": 1,
+      "stage_url": "race/itzulia-basque-country/2014/stage-1",
+      "stage_name": "Vuelta Ciclista al Pais Vasco | Stage 1",
+      "class": "2.UWT",
+      "vertical_meters": 28,
+      "average_percentage": 0.6
+    },
+    {
+      "date": "2014-03-27",
+      "rank": 3,
+      "stage_url": "race/volta-a-catalunya/2014/stage-4",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 4",
+      "class": "2.UWT",
+      "vertical_meters": 410,
+      "average_percentage": 8.2
+    },
+    {
+      "date": "2014-03-26",
+      "rank": 2,
+      "stage_url": "race/volta-a-catalunya/2014/stage-3",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 3",
+      "class": "2.UWT",
+      "vertical_meters": 377,
+      "average_percentage": 7.5
+    },
+    {
+      "date": "2014-03-16",
+      "rank": 1,
+      "stage_url": "race/tirreno-adriatico/2014/stage-5",
+      "stage_name": "Tirreno-Adriatico | Stage 5",
+      "class": "2.UWT",
+      "vertical_meters": 225,
+      "average_percentage": 4.5
+    },
+    {
+      "date": "2014-03-15",
+      "rank": 1,
+      "stage_url": "race/tirreno-adriatico/2014/stage-4",
+      "stage_name": "Tirreno-Adriatico | Stage 4",
+      "class": "2.UWT",
+      "vertical_meters": 319,
+      "average_percentage": 6.4
+    },
+    {
+      "date": "2013-06-06",
+      "rank": 2,
+      "stage_url": "race/dauphine/2013/stage-5",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 5",
+      "class": "WT",
+      "vertical_meters": 290,
+      "average_percentage": 5.8
+    },
+    {
+      "date": "2013-04-04",
+      "rank": 3,
+      "stage_url": "race/itzulia-basque-country/2013/stage-4",
+      "stage_name": "Vuelta Ciclista al Pais Vasco | Stage 4",
+      "class": "2.UWT",
+      "vertical_meters": 169,
+      "average_percentage": 3.4
+    },
+    {
+      "date": "2013-03-10",
+      "rank": 3,
+      "stage_url": "race/tirreno-adriatico/2013/stage-5",
+      "stage_name": "Tirreno-Adriatico | Stage 5",
+      "class": "WT",
+      "vertical_meters": 156,
+      "average_percentage": 3.1
+    },
+    {
+      "date": "2012-09-05",
+      "rank": 1,
+      "stage_url": "race/vuelta-a-espana/2012/stage-17",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 17",
+      "class": "WT",
+      "vertical_meters": 381,
+      "average_percentage": 7.6
+    },
+    {
+      "date": "2012-09-01",
+      "rank": 2,
+      "stage_url": "race/vuelta-a-espana/2012/stage-14",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 14",
+      "class": "WT",
+      "vertical_meters": 319,
+      "average_percentage": 6.4
+    },
+    {
+      "date": "2012-08-30",
+      "rank": 2,
+      "stage_url": "race/vuelta-a-espana/2012/stage-12",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 12",
+      "class": "WT",
+      "vertical_meters": 328,
+      "average_percentage": 6.6
+    },
+    {
+      "date": "2012-08-25",
+      "rank": 3,
+      "stage_url": "race/vuelta-a-espana/2012/stage-8",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 8",
+      "class": "WT",
+      "vertical_meters": 601,
+      "average_percentage": 12.0
+    },
+    {
+      "date": "2011-07-22",
+      "rank": 3,
+      "stage_url": "race/tour-de-france/2011/stage-19",
+      "stage_name": "Tour de France | Stage 19",
+      "class": "WT",
+      "vertical_meters": 369,
+      "average_percentage": 7.4
+    },
+    {
+      "date": "2011-07-05",
+      "rank": 2,
+      "stage_url": "race/tour-de-france/2011/stage-4",
+      "stage_name": "Tour de France | Stage 4",
+      "class": "WT",
+      "vertical_meters": 209,
+      "average_percentage": 4.2
+    },
+    {
+      "date": "2011-05-27",
+      "rank": 2,
+      "stage_url": "race/giro-d-italia/2011/stage-19",
+      "stage_name": "Giro d'Italia | Stage 19",
+      "class": "WT",
+      "vertical_meters": 425,
+      "average_percentage": 8.5
+    },
+    {
+      "date": "2011-05-22",
+      "rank": 3,
+      "stage_url": "race/giro-d-italia/2011/stage-15",
+      "stage_name": "Giro d'Italia | Stage 15",
+      "class": "WT",
+      "vertical_meters": 598,
+      "average_percentage": 12.0
+    },
+    {
+      "date": "2011-05-21",
+      "rank": 2,
+      "stage_url": "race/giro-d-italia/2011/stage-14",
+      "stage_name": "Giro d'Italia | Stage 14",
+      "class": "WT",
+      "vertical_meters": 833,
+      "average_percentage": 16.7
+    },
+    {
+      "date": "2011-05-20",
+      "rank": 2,
+      "stage_url": "race/giro-d-italia/2011/stage-13",
+      "stage_name": "Giro d'Italia | Stage 13",
+      "class": "WT",
+      "vertical_meters": 299,
+      "average_percentage": 6.0
+    },
+    {
+      "date": "2011-05-15",
+      "rank": 1,
+      "stage_url": "race/giro-d-italia/2011/stage-9",
+      "stage_name": "Giro d'Italia | Stage 9",
+      "class": "WT",
+      "vertical_meters": 238,
+      "average_percentage": 4.8
+    },
+    {
+      "date": "2011-05-14",
+      "rank": 2,
+      "stage_url": "race/giro-d-italia/2011/stage-8",
+      "stage_name": "Giro d'Italia | Stage 8",
+      "class": "WT",
+      "vertical_meters": 69,
+      "average_percentage": 1.4
+    },
+    {
+      "date": "2010-07-22",
+      "rank": 2,
+      "stage_url": "race/tour-de-france/2010/stage-17",
+      "stage_name": "Tour de France | Stage 17",
+      "class": "2.HC",
+      "vertical_meters": 636,
+      "average_percentage": 12.7
+    },
+    {
+      "date": "2010-07-16",
+      "rank": 2,
+      "stage_url": "race/tour-de-france/2010/stage-12",
+      "stage_name": "Tour de France | Stage 12",
+      "class": "2.HC",
+      "vertical_meters": 332,
+      "average_percentage": 6.6
+    },
+    {
+      "date": "2009-07-22",
+      "rank": 2,
+      "stage_url": "race/tour-de-france/2009/stage-17",
+      "stage_name": "Tour de France | Stage 17",
+      "class": "2.HC",
+      "vertical_meters": 42,
+      "average_percentage": 0.8
+    },
+    {
+      "date": "2009-07-19",
+      "rank": 1,
+      "stage_url": "race/tour-de-france/2009/stage-15",
+      "stage_name": "Tour de France | Stage 15",
+      "class": "2.HC",
+      "vertical_meters": 396,
+      "average_percentage": 7.9
+    },
+    {
+      "date": "2008-09-14",
+      "rank": 1,
+      "stage_url": "race/vuelta-a-espana/2008/stage-14",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 14",
+      "class": "2.HC",
+      "vertical_meters": 319,
+      "average_percentage": 6.4
+    },
+    {
+      "date": "2008-09-13",
+      "rank": 1,
+      "stage_url": "race/vuelta-a-espana/2008/stage-13",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 13",
+      "class": "2.HC",
+      "vertical_meters": 585,
+      "average_percentage": 11.7
+    },
+    {
+      "date": "2008-09-07",
+      "rank": 3,
+      "stage_url": "race/vuelta-a-espana/2008/stage-8",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 8",
+      "class": "2.HC",
+      "vertical_meters": 2,
+      "average_percentage": 0.0
+    },
+    {
+      "date": "2008-09-06",
+      "rank": 3,
+      "stage_url": "race/vuelta-a-espana/2008/stage-7",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 7",
+      "class": "2.HC",
+      "vertical_meters": 284,
+      "average_percentage": 5.7
+    },
+    {
+      "date": "2007-07-25",
+      "rank": 3,
+      "stage_url": "race/tour-de-france/2007/stage-16",
+      "stage_name": "Tour de France | Stage 16",
+      "class": "2.PT",
+      "vertical_meters": 409,
+      "average_percentage": 8.2
+    },
+    {
+      "date": "2007-07-22",
+      "rank": 1,
+      "stage_url": "race/tour-de-france/2007/stage-14",
+      "stage_name": "Tour de France | Stage 14",
+      "class": "2.PT",
+      "vertical_meters": 346,
+      "average_percentage": 6.9
+    }
+  ],
+  "nations_select": null,
+  "normalized_relative_url": "rider/alberto-contador/results/final-5k-analysis",
+  "pages_select": null,
+  "races_select": null,
+  "results": null,
+  "seasons_select": null,
+  "stage_types_select": null
+}

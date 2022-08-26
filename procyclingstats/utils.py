@@ -113,6 +113,8 @@ def format_url_filter(url_filter: str) -> str:
     splitted_url = url_filter.split("?")
     if splitted_url[1] == "":
         return "rankings"
+    if splitted_url[0] == "rankings":
+        splitted_url[0] = "rankings.php"
     url_filter = splitted_url[1]
     filter_ = url_filter.split("&")
     formatted_url_filter = []
@@ -125,7 +127,7 @@ def format_url_filter(url_filter: str) -> str:
             continue
         formatted_url_filter.append(f"{key}={value}")
     formatted_filter = "&".join(formatted_url_filter)
-    return f"rankings.php?{formatted_filter}"
+    return f"{splitted_url[0]}?{formatted_filter}"
 
 def normalize_race_url(decomposed_url: List[str], addon: str) -> str:
     """

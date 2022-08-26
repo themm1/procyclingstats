@@ -4,6 +4,7 @@ import sys
 from .race_scraper import Race
 from .race_startlist_scraper import RaceStartlist
 from .ranking_scraper import Ranking
+from .rider_results_scraper import RiderResults
 from .rider_scraper import Rider
 from .scraper import Scraper
 from .stage_scraper import Stage

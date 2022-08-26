@@ -1,0 +1,1582 @@
+{
+  "categories_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "ME - Men Elite",
+      "value": "1"
+    },
+    {
+      "text": "WE - Women Elite",
+      "value": "2"
+    },
+    {
+      "text": "MU - Men U23",
+      "value": "3"
+    },
+    {
+      "text": "MJ - Men Juniors",
+      "value": "4"
+    },
+    {
+      "text": "WJ - Women Juniors",
+      "value": "6"
+    },
+    {
+      "text": "-",
+      "value": "0"
+    },
+    {
+      "text": "WU - Women U23",
+      "value": "7"
+    },
+    {
+      "text": "ME + WE",
+      "value": "8"
+    }
+  ],
+  "final_n_km_results": null,
+  "nations_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "Argentina",
+      "value": "ar"
+    },
+    {
+      "text": "Australia",
+      "value": "au"
+    },
+    {
+      "text": "Belgium",
+      "value": "be"
+    },
+    {
+      "text": "Canada",
+      "value": "ca"
+    },
+    {
+      "text": "China",
+      "value": "cn"
+    },
+    {
+      "text": "France",
+      "value": "fr"
+    },
+    {
+      "text": "Germany",
+      "value": "de"
+    },
+    {
+      "text": "Italy",
+      "value": "it"
+    },
+    {
+      "text": "Netherlands",
+      "value": "nl"
+    },
+    {
+      "text": "Oman",
+      "value": "om"
+    },
+    {
+      "text": "Poland",
+      "value": "pl"
+    },
+    {
+      "text": "Portugal",
+      "value": "pt"
+    },
+    {
+      "text": "Spain",
+      "value": "es"
+    },
+    {
+      "text": "Switzerland",
+      "value": "ch"
+    },
+    {
+      "text": "United Arab Emirates",
+      "value": "ae"
+    },
+    {
+      "text": "United States",
+      "value": "us"
+    }
+  ],
+  "normalized_relative_url": "rider/alberto-contador/results",
+  "pages_select": [
+    {
+      "text": "1-100",
+      "value": "0"
+    },
+    {
+      "text": "101-200",
+      "value": "100"
+    },
+    {
+      "text": "201-300",
+      "value": "200"
+    },
+    {
+      "text": "301-400",
+      "value": "300"
+    },
+    {
+      "text": "401-500",
+      "value": "400"
+    },
+    {
+      "text": "501-600",
+      "value": "500"
+    },
+    {
+      "text": "601-700",
+      "value": "600"
+    },
+    {
+      "text": "701-800",
+      "value": "700"
+    },
+    {
+      "text": "801-900",
+      "value": "800"
+    },
+    {
+      "text": "901-1000",
+      "value": "900"
+    },
+    {
+      "text": "1001-1100",
+      "value": "1000"
+    },
+    {
+      "text": "1101-1123",
+      "value": "1100"
+    }
+  ],
+  "races_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "Abu Dhabi Tour",
+      "value": "5588"
+    },
+    {
+      "text": "Amstel Gold Race",
+      "value": "1033"
+    },
+    {
+      "text": "Brussels Cycling Classic",
+      "value": "1064"
+    },
+    {
+      "text": "Trofeo Calvia",
+      "value": "3319"
+    },
+    {
+      "text": "Circuito de Getxo",
+      "value": "1126"
+    },
+    {
+      "text": "Circuito Monta\u00f1es",
+      "value": "1311"
+    },
+    {
+      "text": "Clasica a los Puertos",
+      "value": "2561"
+    },
+    {
+      "text": "Clasica Ciclista San Sebastian",
+      "value": "1028"
+    },
+    {
+      "text": "Cl\u00e1sica Internacional Alcobendas",
+      "value": "3540"
+    },
+    {
+      "text": "Crit\u00e9rium du Dauphin\u00e9 Lib\u00e9r\u00e9",
+      "value": "1034"
+    },
+    {
+      "text": "Crit\u00e9rium International",
+      "value": "1082"
+    },
+    {
+      "text": "Deutschland Tour",
+      "value": "1043"
+    },
+    {
+      "text": "Eneco Tour",
+      "value": "1054"
+    },
+    {
+      "text": "European Championships U23 - ITT",
+      "value": "7253"
+    },
+    {
+      "text": "European Championships U23 - Road Race",
+      "value": "1786"
+    },
+    {
+      "text": "Giro d'Italia",
+      "value": "1039"
+    },
+    {
+      "text": "Il Lombardia",
+      "value": "1026"
+    },
+    {
+      "text": "GP de Fourmies / La Voix du Nord",
+      "value": "1089"
+    },
+    {
+      "text": "GP Nobili Rubinetterie-Coppa Pap\u00e0 Carlo-Coppa Citt\u00e0 di Stresa",
+      "value": "1108"
+    },
+    {
+      "text": "GP Ouest France - Plouay",
+      "value": "1048"
+    },
+    {
+      "text": "GP Villafranca de Ordizia",
+      "value": "1678"
+    },
+    {
+      "text": "Gran Premio Bruno Beghelli",
+      "value": "1229"
+    },
+    {
+      "text": "Gran Premio Miguel Indurain",
+      "value": "1073"
+    },
+    {
+      "text": "Grand Prix Cycliste de Montr\u00e9al",
+      "value": "1057"
+    },
+    {
+      "text": "Grand Prix Cycliste de Qu\u00e9bec",
+      "value": "1055"
+    },
+    {
+      "text": "Jacob's Creek Tour Down Under",
+      "value": "1066"
+    },
+    {
+      "text": "Klasika Primavera de Amorebieta",
+      "value": "1165"
+    },
+    {
+      "text": "La Fl\u00e8che Wallonne",
+      "value": "1027"
+    },
+    {
+      "text": "Li\u00e8ge - Bastogne - Li\u00e8ge",
+      "value": "1047"
+    },
+    {
+      "text": "Memorial Galera - Ciudad de Armilla",
+      "value": "4779"
+    },
+    {
+      "text": "Milano-Torino",
+      "value": "1080"
+    },
+    {
+      "text": "National Championships Spain - ITT",
+      "value": "1488"
+    },
+    {
+      "text": "National Championships Spain - Road Race",
+      "value": "1483"
+    },
+    {
+      "text": "National Championships Spain U23 - ITT",
+      "value": "2127"
+    },
+    {
+      "text": "National Championships Spain U23 - Road Race",
+      "value": "2128"
+    },
+    {
+      "text": "Olympic Games - ITT",
+      "value": "1068"
+    },
+    {
+      "text": "Olympic Games Road Race",
+      "value": "1053"
+    },
+    {
+      "text": "Paris - Corr\u00e8ze",
+      "value": "1135"
+    },
+    {
+      "text": "Paris - Nice",
+      "value": "1058"
+    },
+    {
+      "text": "Route du Sud Cycliste - La D\u00e9p\u00eache du Midi",
+      "value": "1230"
+    },
+    {
+      "text": "Ruban Granitier Breton",
+      "value": "1403"
+    },
+    {
+      "text": "Setmana-Catalana",
+      "value": "1711"
+    },
+    {
+      "text": "Subida al Naranco",
+      "value": "3205"
+    },
+    {
+      "text": "Tirreno-Adriatico",
+      "value": "1025"
+    },
+    {
+      "text": "Tour de France",
+      "value": "1049"
+    },
+    {
+      "text": "Tour de Pologne",
+      "value": "1041"
+    },
+    {
+      "text": "Tour de Romandie",
+      "value": "1032"
+    },
+    {
+      "text": "Tour de San Luis",
+      "value": "1207"
+    },
+    {
+      "text": "Tour de Suisse",
+      "value": "1044"
+    },
+    {
+      "text": "Tour of Missouri",
+      "value": "1042"
+    },
+    {
+      "text": "Tour of Oman",
+      "value": "1256"
+    },
+    {
+      "text": "Trofeo Alcudia",
+      "value": "1719"
+    },
+    {
+      "text": "Trofeo Cala: Cala Millor - Son Servera",
+      "value": "1509"
+    },
+    {
+      "text": "Trofeo Luis Puig",
+      "value": "1824"
+    },
+    {
+      "text": "Trofeo Mallorca",
+      "value": "1112"
+    },
+    {
+      "text": "Trofeo Manacor",
+      "value": "3320"
+    },
+    {
+      "text": "Trofeo Pollen\u00e7a",
+      "value": "2555"
+    },
+    {
+      "text": "Trofeo S\u00f3ller",
+      "value": "3316"
+    },
+    {
+      "text": "Urkiola Igoera - Subida Urkiola",
+      "value": "3260"
+    },
+    {
+      "text": "Volta ao Algarve em Bicicleta",
+      "value": "1251"
+    },
+    {
+      "text": "Volta Ciclista a Catalunya",
+      "value": "1037"
+    },
+    {
+      "text": "Vuelta a Andalucia Ruta Ciclista Del Sol",
+      "value": "1191"
+    },
+    {
+      "text": "Vuelta a Aragon",
+      "value": "1714"
+    },
+    {
+      "text": "Vuelta a Burgos",
+      "value": "1086"
+    },
+    {
+      "text": "Vuelta a Castilla y Leon",
+      "value": "1175"
+    },
+    {
+      "text": "Vuelta a Espa\u00f1a",
+      "value": "1051"
+    },
+    {
+      "text": "Vuelta Ciclista al Pais Vasco",
+      "value": "1060"
+    },
+    {
+      "text": "Vuelta Ciclista a la Comunidad Valenciana",
+      "value": "1101"
+    },
+    {
+      "text": "Vuelta ciclista a la region de Murcia",
+      "value": "1202"
+    },
+    {
+      "text": "Vuelta Ciclista a la Rioja",
+      "value": "1522"
+    },
+    {
+      "text": "World Championships - ITT",
+      "value": "1062"
+    },
+    {
+      "text": "World Championships - Road Race",
+      "value": "1021"
+    },
+    {
+      "text": "World Championships U23 - ITT",
+      "value": "1698"
+    }
+  ],
+  "results": [
+    {
+      "date": "2017-09-10",
+      "rank": 9,
+      "stage_url": "race/vuelta-a-espana/2017/kom",
+      "stage_name": "Vuelta a Espa\u00f1a | Mountains classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-10",
+      "rank": 4,
+      "stage_url": "race/vuelta-a-espana/2017/points",
+      "stage_name": "Vuelta a Espa\u00f1a | Points classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-10",
+      "rank": 5,
+      "stage_url": "race/vuelta-a-espana/2017/gc",
+      "stage_name": "Vuelta a Espa\u00f1a",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-10",
+      "rank": 26,
+      "stage_url": "race/vuelta-a-espana/2017/stage-21",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 21",
+      "class": "2.UWT",
+      "distance": 117.6,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-09",
+      "rank": 1,
+      "stage_url": "race/vuelta-a-espana/2017/stage-20",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 20",
+      "class": "2.UWT",
+      "distance": 117.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-08",
+      "rank": 38,
+      "stage_url": "race/vuelta-a-espana/2017/stage-19",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 19",
+      "class": "2.UWT",
+      "distance": 149.7,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-07",
+      "rank": 21,
+      "stage_url": "race/vuelta-a-espana/2017/stage-18",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 18",
+      "class": "2.UWT",
+      "distance": 169.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-06",
+      "rank": 2,
+      "stage_url": "race/vuelta-a-espana/2017/stage-17",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 17",
+      "class": "2.UWT",
+      "distance": 180.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-05",
+      "rank": 5,
+      "stage_url": "race/vuelta-a-espana/2017/stage-16",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 16 (ITT)",
+      "class": "2.UWT",
+      "distance": 40.2,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-03",
+      "rank": 13,
+      "stage_url": "race/vuelta-a-espana/2017/stage-15",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 15",
+      "class": "2.UWT",
+      "distance": 129.4,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-02",
+      "rank": 7,
+      "stage_url": "race/vuelta-a-espana/2017/stage-14",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 14",
+      "class": "2.UWT",
+      "distance": 175.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-09-01",
+      "rank": 9,
+      "stage_url": "race/vuelta-a-espana/2017/stage-13",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 13",
+      "class": "2.UWT",
+      "distance": 198.4,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-31",
+      "rank": 13,
+      "stage_url": "race/vuelta-a-espana/2017/stage-12",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 12",
+      "class": "2.UWT",
+      "distance": 160.1,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-30",
+      "rank": 6,
+      "stage_url": "race/vuelta-a-espana/2017/stage-11",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 11",
+      "class": "2.UWT",
+      "distance": 187.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-29",
+      "rank": 21,
+      "stage_url": "race/vuelta-a-espana/2017/stage-10",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 10",
+      "class": "2.UWT",
+      "distance": 164.8,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-27",
+      "rank": 6,
+      "stage_url": "race/vuelta-a-espana/2017/stage-9",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 9",
+      "class": "2.UWT",
+      "distance": 174.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-26",
+      "rank": 13,
+      "stage_url": "race/vuelta-a-espana/2017/stage-8",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 8",
+      "class": "2.UWT",
+      "distance": 199.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-25",
+      "rank": 25,
+      "stage_url": "race/vuelta-a-espana/2017/stage-7",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 7",
+      "class": "2.UWT",
+      "distance": 207.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-24",
+      "rank": 22,
+      "stage_url": "race/vuelta-a-espana/2017/stage-6",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 6",
+      "class": "2.UWT",
+      "distance": 204.4,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-23",
+      "rank": 13,
+      "stage_url": "race/vuelta-a-espana/2017/stage-5",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 5",
+      "class": "2.UWT",
+      "distance": 157.7,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-22",
+      "rank": 35,
+      "stage_url": "race/vuelta-a-espana/2017/stage-4",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 4",
+      "class": "2.UWT",
+      "distance": 198.2,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-21",
+      "rank": 37,
+      "stage_url": "race/vuelta-a-espana/2017/stage-3",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 3",
+      "class": "2.UWT",
+      "distance": 158.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-20",
+      "rank": 62,
+      "stage_url": "race/vuelta-a-espana/2017/stage-2",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 2",
+      "class": "2.UWT",
+      "distance": 203.4,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-08-19",
+      "rank": 11,
+      "stage_url": "race/vuelta-a-espana/2017/stage-1",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 1 (TTT)",
+      "class": "2.UWT",
+      "distance": 13.7,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-23",
+      "rank": 9,
+      "stage_url": "race/tour-de-france/2017/kom",
+      "stage_name": "Tour de France | Mountains classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-23",
+      "rank": 30,
+      "stage_url": "race/tour-de-france/2017/points",
+      "stage_name": "Tour de France | Points classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-23",
+      "rank": 9,
+      "stage_url": "race/tour-de-france/2017/gc",
+      "stage_name": "Tour de France",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-23",
+      "rank": 82,
+      "stage_url": "race/tour-de-france/2017/stage-21",
+      "stage_name": "Tour de France | Stage 21",
+      "class": "2.UWT",
+      "distance": 105.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-22",
+      "rank": 6,
+      "stage_url": "race/tour-de-france/2017/stage-20",
+      "stage_name": "Tour de France | Stage 20 (ITT)",
+      "class": "2.UWT",
+      "distance": 22.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-21",
+      "rank": 62,
+      "stage_url": "race/tour-de-france/2017/stage-19",
+      "stage_name": "Tour de France | Stage 19",
+      "class": "2.UWT",
+      "distance": 222.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-20",
+      "rank": 10,
+      "stage_url": "race/tour-de-france/2017/stage-18",
+      "stage_name": "Tour de France | Stage 18",
+      "class": "2.UWT",
+      "distance": 179.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-19",
+      "rank": 8,
+      "stage_url": "race/tour-de-france/2017/stage-17",
+      "stage_name": "Tour de France | Stage 17",
+      "class": "2.UWT",
+      "distance": 183.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-18",
+      "rank": 46,
+      "stage_url": "race/tour-de-france/2017/stage-16",
+      "stage_name": "Tour de France | Stage 16",
+      "class": "2.UWT",
+      "distance": 165.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-16",
+      "rank": 36,
+      "stage_url": "race/tour-de-france/2017/stage-15",
+      "stage_name": "Tour de France | Stage 15",
+      "class": "2.UWT",
+      "distance": 189.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-15",
+      "rank": 24,
+      "stage_url": "race/tour-de-france/2017/stage-14",
+      "stage_name": "Tour de France | Stage 14",
+      "class": "2.UWT",
+      "distance": 181.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-14",
+      "rank": 3,
+      "stage_url": "race/tour-de-france/2017/stage-13",
+      "stage_name": "Tour de France | Stage 13",
+      "class": "2.UWT",
+      "distance": 101.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-13",
+      "rank": 14,
+      "stage_url": "race/tour-de-france/2017/stage-12",
+      "stage_name": "Tour de France | Stage 12",
+      "class": "2.UWT",
+      "distance": 214.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-12",
+      "rank": 71,
+      "stage_url": "race/tour-de-france/2017/stage-11",
+      "stage_name": "Tour de France | Stage 11",
+      "class": "2.UWT",
+      "distance": 203.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-11",
+      "rank": 89,
+      "stage_url": "race/tour-de-france/2017/stage-10",
+      "stage_name": "Tour de France | Stage 10",
+      "class": "2.UWT",
+      "distance": 178.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-09",
+      "rank": 20,
+      "stage_url": "race/tour-de-france/2017/stage-9",
+      "stage_name": "Tour de France | Stage 9",
+      "class": "2.UWT",
+      "distance": 181.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-08",
+      "rank": 30,
+      "stage_url": "race/tour-de-france/2017/stage-8",
+      "stage_name": "Tour de France | Stage 8",
+      "class": "2.UWT",
+      "distance": 187.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-07",
+      "rank": 66,
+      "stage_url": "race/tour-de-france/2017/stage-7",
+      "stage_name": "Tour de France | Stage 7",
+      "class": "2.UWT",
+      "distance": 213.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-06",
+      "rank": 46,
+      "stage_url": "race/tour-de-france/2017/stage-6",
+      "stage_name": "Tour de France | Stage 6",
+      "class": "2.UWT",
+      "distance": 216.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-05",
+      "rank": 8,
+      "stage_url": "race/tour-de-france/2017/stage-5",
+      "stage_name": "Tour de France | Stage 5",
+      "class": "2.UWT",
+      "distance": 160.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-04",
+      "rank": 81,
+      "stage_url": "race/tour-de-france/2017/stage-4",
+      "stage_name": "Tour de France | Stage 4",
+      "class": "2.UWT",
+      "distance": 207.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-03",
+      "rank": 18,
+      "stage_url": "race/tour-de-france/2017/stage-3",
+      "stage_name": "Tour de France | Stage 3",
+      "class": "2.UWT",
+      "distance": 212.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-02",
+      "rank": 71,
+      "stage_url": "race/tour-de-france/2017/stage-2",
+      "stage_name": "Tour de France | Stage 2",
+      "class": "2.UWT",
+      "distance": 203.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-07-01",
+      "rank": 68,
+      "stage_url": "race/tour-de-france/2017/stage-1",
+      "stage_name": "Tour de France | Stage 1 (ITT)",
+      "class": "2.UWT",
+      "distance": 14.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-11",
+      "rank": 26,
+      "stage_url": "race/dauphine/2017/kom",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Mountains classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-11",
+      "rank": 28,
+      "stage_url": "race/dauphine/2017/points",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Points classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-11",
+      "rank": 11,
+      "stage_url": "race/dauphine/2017/gc",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-11",
+      "rank": 11,
+      "stage_url": "race/dauphine/2017/stage-8",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 8",
+      "class": "2.UWT",
+      "distance": 115.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-10",
+      "rank": 9,
+      "stage_url": "race/dauphine/2017/stage-7",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 7",
+      "class": "2.UWT",
+      "distance": 167.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-09",
+      "rank": 9,
+      "stage_url": "race/dauphine/2017/stage-6",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 6",
+      "class": "2.UWT",
+      "distance": 145.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-08",
+      "rank": 35,
+      "stage_url": "race/dauphine/2017/stage-5",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 5",
+      "class": "2.UWT",
+      "distance": 175.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-07",
+      "rank": 7,
+      "stage_url": "race/dauphine/2017/stage-4",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 4 (ITT)",
+      "class": "2.UWT",
+      "distance": 23.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-06",
+      "rank": 82,
+      "stage_url": "race/dauphine/2017/stage-3",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 3",
+      "class": "2.UWT",
+      "distance": 184.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-05",
+      "rank": 98,
+      "stage_url": "race/dauphine/2017/stage-2",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 2",
+      "class": "2.UWT",
+      "distance": 171.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-06-04",
+      "rank": 39,
+      "stage_url": "race/dauphine/2017/stage-1",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | Stage 1",
+      "class": "2.UWT",
+      "distance": 170.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-08",
+      "rank": 22,
+      "stage_url": "race/itzulia-basque-country/2017/kom",
+      "stage_name": "Vuelta al Pais Vasco | Mountains classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-08",
+      "rank": 15,
+      "stage_url": "race/itzulia-basque-country/2017/points",
+      "stage_name": "Vuelta al Pais Vasco | Points classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-08",
+      "rank": 2,
+      "stage_url": "race/itzulia-basque-country/2017/gc",
+      "stage_name": "Vuelta al Pais Vasco",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-08",
+      "rank": 4,
+      "stage_url": "race/itzulia-basque-country/2017/stage-6",
+      "stage_name": "Vuelta al Pais Vasco | Stage 6 (ITT)",
+      "class": "2.UWT",
+      "distance": 27.7,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-07",
+      "rank": 6,
+      "stage_url": "race/itzulia-basque-country/2017/stage-5",
+      "stage_name": "Vuelta al Pais Vasco | Stage 5",
+      "class": "2.UWT",
+      "distance": 139.8,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-06",
+      "rank": 38,
+      "stage_url": "race/itzulia-basque-country/2017/stage-4",
+      "stage_name": "Vuelta al Pais Vasco | Stage 4",
+      "class": "2.UWT",
+      "distance": 174.1,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-05",
+      "rank": 33,
+      "stage_url": "race/itzulia-basque-country/2017/stage-3",
+      "stage_name": "Vuelta al Pais Vasco | Stage 3",
+      "class": "2.UWT",
+      "distance": 160.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-04",
+      "rank": 86,
+      "stage_url": "race/itzulia-basque-country/2017/stage-2",
+      "stage_name": "Vuelta al Pais Vasco | Stage 2",
+      "class": "2.UWT",
+      "distance": 173.4,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-04-03",
+      "rank": 136,
+      "stage_url": "race/itzulia-basque-country/2017/stage-1",
+      "stage_name": "Vuelta al Pais Vasco | Stage 1",
+      "class": "2.UWT",
+      "distance": 153.3,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-26",
+      "rank": 4,
+      "stage_url": "race/volta-a-catalunya/2017/kom",
+      "stage_name": "Volta Ciclista a Catalunya | Mountains classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-26",
+      "rank": 2,
+      "stage_url": "race/volta-a-catalunya/2017/gc",
+      "stage_name": "Volta Ciclista a Catalunya",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-26",
+      "rank": 15,
+      "stage_url": "race/volta-a-catalunya/2017/stage-7",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 7",
+      "class": "2.UWT",
+      "distance": 138.7,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-25",
+      "rank": 27,
+      "stage_url": "race/volta-a-catalunya/2017/stage-6",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 6",
+      "class": "2.UWT",
+      "distance": 189.7,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-24",
+      "rank": 3,
+      "stage_url": "race/volta-a-catalunya/2017/stage-5",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 5",
+      "class": "2.UWT",
+      "distance": 182.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-23",
+      "rank": 16,
+      "stage_url": "race/volta-a-catalunya/2017/stage-4",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 4",
+      "class": "2.UWT",
+      "distance": 134.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-22",
+      "rank": 7,
+      "stage_url": "race/volta-a-catalunya/2017/stage-3",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 3",
+      "class": "2.UWT",
+      "distance": 188.3,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-21",
+      "rank": 4,
+      "stage_url": "race/volta-a-catalunya/2017/stage-2",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 2 (TTT)",
+      "class": "2.UWT",
+      "distance": 41.3,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-20",
+      "rank": 57,
+      "stage_url": "race/volta-a-catalunya/2017/stage-1",
+      "stage_name": "Volta Ciclista a Catalunya | Stage 1",
+      "class": "2.UWT",
+      "distance": 178.9,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-12",
+      "rank": 3,
+      "stage_url": "race/paris-nice/2017/kom",
+      "stage_name": "Paris - Nice | Mountains classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-12",
+      "rank": 2,
+      "stage_url": "race/paris-nice/2017/points",
+      "stage_name": "Paris - Nice | Points classification",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-12",
+      "rank": 2,
+      "stage_url": "race/paris-nice/2017/gc",
+      "stage_name": "Paris - Nice",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-12",
+      "rank": 2,
+      "stage_url": "race/paris-nice/2017/stage-8",
+      "stage_name": "Paris - Nice | Stage 8",
+      "class": "2.UWT",
+      "distance": 115.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-11",
+      "rank": 2,
+      "stage_url": "race/paris-nice/2017/stage-7",
+      "stage_name": "Paris - Nice | Stage 7",
+      "class": "2.UWT",
+      "distance": 177.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-10",
+      "rank": 8,
+      "stage_url": "race/paris-nice/2017/stage-6",
+      "stage_name": "Paris - Nice | Stage 6",
+      "class": "2.UWT",
+      "distance": 193.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-09",
+      "rank": 55,
+      "stage_url": "race/paris-nice/2017/stage-5",
+      "stage_name": "Paris - Nice | Stage 5",
+      "class": "2.UWT",
+      "distance": 199.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-08",
+      "rank": 2,
+      "stage_url": "race/paris-nice/2017/stage-4",
+      "stage_name": "Paris - Nice | Stage 4 (ITT)",
+      "class": "2.UWT",
+      "distance": 14.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-07",
+      "rank": 54,
+      "stage_url": "race/paris-nice/2017/stage-3",
+      "stage_name": "Paris - Nice | Stage 3",
+      "class": "2.UWT",
+      "distance": 190.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-06",
+      "rank": 36,
+      "stage_url": "race/paris-nice/2017/stage-2",
+      "stage_name": "Paris - Nice | Stage 2",
+      "class": "2.UWT",
+      "distance": 195.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-03-05",
+      "rank": 20,
+      "stage_url": "race/paris-nice/2017/stage-1",
+      "stage_name": "Paris - Nice | Stage 1",
+      "class": "2.UWT",
+      "distance": 148.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-26",
+      "rank": 15,
+      "stage_url": "race/abu-dhabi-tour/2017/gc",
+      "stage_name": "Abu Dhabi Tour",
+      "class": "2.UWT",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-26",
+      "rank": 97,
+      "stage_url": "race/abu-dhabi-tour/2017/stage-4",
+      "stage_name": "Abu Dhabi Tour | Stage 4",
+      "class": "2.UWT",
+      "distance": 143.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-25",
+      "rank": 13,
+      "stage_url": "race/abu-dhabi-tour/2017/stage-3",
+      "stage_name": "Abu Dhabi Tour | Stage 3",
+      "class": "2.UWT",
+      "distance": 186.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-24",
+      "rank": 107,
+      "stage_url": "race/abu-dhabi-tour/2017/stage-2",
+      "stage_name": "Abu Dhabi Tour | Stage 2",
+      "class": "2.UWT",
+      "distance": 153.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-23",
+      "rank": 88,
+      "stage_url": "race/abu-dhabi-tour/2017/stage-1",
+      "stage_name": "Abu Dhabi Tour | Stage 1",
+      "class": "2.UWT",
+      "distance": 189.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-19",
+      "rank": 4,
+      "stage_url": "race/ruta-del-sol/2017/kom",
+      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol | Mountains classification",
+      "class": "2.HC",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-19",
+      "rank": 3,
+      "stage_url": "race/ruta-del-sol/2017/points",
+      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol | Points classification",
+      "class": "2.HC",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-19",
+      "rank": 2,
+      "stage_url": "race/ruta-del-sol/2017/gc",
+      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol",
+      "class": "2.HC",
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-19",
+      "rank": 25,
+      "stage_url": "race/ruta-del-sol/2017/stage-5",
+      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 5",
+      "class": "2.HC",
+      "distance": 151.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-18",
+      "rank": 56,
+      "stage_url": "race/ruta-del-sol/2017/stage-4",
+      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 4",
+      "class": "2.HC",
+      "distance": 179.3,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-17",
+      "rank": 3,
+      "stage_url": "race/ruta-del-sol/2017/stage-3",
+      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 3 (ITT)",
+      "class": "2.HC",
+      "distance": 12.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "date": "2017-02-16",
+      "rank": 2,
+      "stage_url": "race/ruta-del-sol/2017/stage-2",
+      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 2",
+      "class": "2.HC",
+      "distance": 177.9,
+      "pcs_points": 0,
+      "uci_points": 0
+    }
+  ],
+  "seasons_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "2017",
+      "value": "2017"
+    },
+    {
+      "text": "2016",
+      "value": "2016"
+    },
+    {
+      "text": "2015",
+      "value": "2015"
+    },
+    {
+      "text": "2014",
+      "value": "2014"
+    },
+    {
+      "text": "2013",
+      "value": "2013"
+    },
+    {
+      "text": "2012",
+      "value": "2012"
+    },
+    {
+      "text": "2011",
+      "value": "2011"
+    },
+    {
+      "text": "2010",
+      "value": "2010"
+    },
+    {
+      "text": "2009",
+      "value": "2009"
+    },
+    {
+      "text": "2008",
+      "value": "2008"
+    },
+    {
+      "text": "2007",
+      "value": "2007"
+    },
+    {
+      "text": "2006",
+      "value": "2006"
+    },
+    {
+      "text": "2005",
+      "value": "2005"
+    },
+    {
+      "text": "2004",
+      "value": "2004"
+    },
+    {
+      "text": "2003",
+      "value": "2003"
+    },
+    {
+      "text": "2002",
+      "value": "2002"
+    },
+    {
+      "text": "2001",
+      "value": "2001"
+    }
+  ],
+  "stage_types_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "Stage",
+      "value": "1"
+    },
+    {
+      "text": "Prologue",
+      "value": "2"
+    },
+    {
+      "text": "Time Trial",
+      "value": "3"
+    },
+    {
+      "text": "General classification",
+      "value": "4"
+    },
+    {
+      "text": "Points classification",
+      "value": "5"
+    },
+    {
+      "text": "Youth classification",
+      "value": "6"
+    },
+    {
+      "text": "Mountains classification",
+      "value": "7"
+    },
+    {
+      "text": "One day race",
+      "value": "8"
+    },
+    {
+      "text": "Criterium",
+      "value": "9"
+    },
+    {
+      "text": "Teams classification",
+      "value": "10"
+    }
+  ]
+}

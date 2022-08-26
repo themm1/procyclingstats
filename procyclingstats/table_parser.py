@@ -81,6 +81,8 @@ class TableParser:
             - first_places
             - second_places
             - third_places
+            - distance
+            - date
         """
         raw_table = []
         for _ in range(self.table_length):
@@ -269,13 +271,13 @@ class TableParser:
     
     def rank(self) -> List[Optional[int]]:
         format_rank_func = lambda x: int(x) if x.isnumeric() else None
-        try:
-            return self.parse_extra_column("Rnk", format_rank_func)
-        except ValueError:
+        possible_columns = ["Rnk", "pos", "Result", "#"]
+        for column_name in possible_columns:
             try:
-                return self.parse_extra_column("pos", format_rank_func)
+                return self.parse_extra_column(column_name, format_rank_func)
             except ValueError:
-                return self.parse_extra_column("#", format_rank_func)
+                pass
+        raise ValueError("Rank column wasn't found.")
 
     def status(self) -> List[Literal[
         "DF", "DNF", "DNS", "OTL", "DSQ"
@@ -331,6 +333,12 @@ class TableParser:
     def third_places(self) -> List[Optional[int]]:
         return self.parse_extra_column("3rd", lambda x: int(x) if x.isnumeric()
                                        else 0)
+
+    def distance(self) -> List[float]:
+        return self.parse_extra_column("KMs", lambda x: float(x) if x else None)
+
+    def date(self) -> List[str]:
+        return self.parse_extra_column("Date", lambda x: str(x))
 
     def rename_field(self, field_name: str, new_field_name: str) -> None:
         """
