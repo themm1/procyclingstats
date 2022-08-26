@@ -55,11 +55,13 @@ class Scraper:
             self._html = HTMLParser(html)
             if self._html_invalid(self.html):
                 raise ValueError("Given HTML is invalid.")
+            self._set_up_html()
         if update_html:
             self.update_html()
             if self._html_invalid(self.html):
                 raise ValueError(
                     f"HTML from given URL is invalid: '{self.url}'")
+            self._set_up_html()
 
     def __repr__(self) -> str:
         return f"{type(self).__name__}(url='{self.normalized_relative_url()}')"
@@ -174,6 +176,13 @@ class Scraper:
             else:
                 url = self.BASE_URL + url
         return url
+
+    def _set_up_html(self):
+        """
+        Empty method that should be overridden by subclasses if it's needed to
+        modify HTML before parsing.
+        """
+        pass
 
     @staticmethod
     def _html_invalid(html: HTMLParser) -> bool:

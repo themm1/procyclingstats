@@ -52,6 +52,25 @@ class Stage(Scraper):
                 normalized_url += f"/{stage_id}"
         return normalized_url
 
+    def _set_up_html(self) -> None:
+        """
+        Overrides Scraper method. Modifies HTML if stage is TTT by adding team
+        ranks to riders.
+        """
+        # add team ranks to every rider's first td element, so it's possible
+        # to map teams to riders based on their rank
+        categories = self.html.css(self._tables_path)
+        results_table_html = categories[0]
+        if self.stage_type() != "TTT":
+            return
+        current_rank_node = None
+        for td in results_table_html.css("tr > td:first-child"):
+            rank = td.text()
+            if rank:
+                current_rank_node = td
+            elif current_rank_node:
+                td.replace_with(current_rank_node) # type: ignore
+
     def is_one_day_race(self) -> bool:
         """
         Parses whether race is an one day race from HTML
@@ -418,22 +437,10 @@ class Stage(Scraper):
         if "rider_url" not in fields:
             rider_fields_to_parse.append("rider_url")
 
-        # add team ranks to every rider's first td element, so it's possible
-        # to map teams to riders based on their rank
-        # before that we create a copy of the HTML table so HTML modification
-        # won't be applied to `self.html`
-        results_table_parser = HTMLParser(results_table_html.html) # type:ignore
-        results_table_html = results_table_parser.css_first("table")
-        current_rank_node = None
-        for td in results_table_html.css("tr > td:first-child"):
-            rank = td.text()
-            if rank:
-                current_rank_node = td
-            elif current_rank_node:
-                td.replace_with(current_rank_node) # type: ignore
-
-        # create two copies of HTML table (one for riders and one for teams)
-        riders_table = results_table_html
+        # create two copies of HTML table (one for riders and one for teams),
+        # so we won't modify self.html
+        riders_elements = HTMLParser(results_table_html.html) # type: ignore
+        riders_table = riders_elements.css_first("table")
         teams_elements = HTMLParser(results_table_html.html) # type: ignore
         teams_table = teams_elements.css_first("table")
         # remove unwanted rows from both tables
