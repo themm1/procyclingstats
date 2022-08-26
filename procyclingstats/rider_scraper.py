@@ -10,18 +10,7 @@ from .utils import (format_regex_str, get_day_month, parse_table_fields_args,
 
 
 class Rider(Scraper):
-    """
-    Scraper for HTML rider page.
-
-    :param url: rider's URL either full or relative, e.g.
-    `rider/tadej-pogacar`
-    :param html: HTML to be parsed from, defaults to None, when passing the
-    parameter, set `update_html` to False to prevent overriding or making
-    useless request
-    :param update_html: whether to make request to given URL and update
-    `self.html`, when False `self.update_html` method has to be called
-    manually to set HTML (when isn't passed), defaults to True
-    """
+    """Scraper for rider HTML page. Example URL: `rider/tadej-pogacar`."""
     _url_validation_regex = format_regex_str(
     f"""
         {reg.base_url}?rider

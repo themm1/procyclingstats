@@ -10,16 +10,8 @@ from .utils import (format_regex_str, normalize_race_url,
 
 class RaceStartlist(Scraper):
     """
-    Scraper for race startlist HTML page.
-
-    :param url: URL of race overview either full or relative, e.g.
-    `race/tour-de-france/2021/startlist`
-    :param html: HTML to be parsed from, defaults to None, when passing the
-    parameter, set `update_html` to False to prevent overriding or making
-    useless request
-    :param update_html: whether to make request to given URL and update
-    `self.html`, when False `self.update_html` method has to be called
-    manually to set HTML (when isn't passed), defaults to True
+    Scraper for race startlist HTML page. Example URL: 
+    `race/tour-de-france/2022/startlist`
     """
     _url_validation_regex = format_regex_str(
     f"""

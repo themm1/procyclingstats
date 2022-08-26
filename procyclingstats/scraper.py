@@ -9,18 +9,7 @@ from .utils import validate_string
 
 
 class Scraper:
-    """
-    Used as base class for scraping classes.
-
-    :param url: URL of race overview either full or relative, e.g.
-    `race/tour-de-france/2021/stage-8`
-    :param html: HTML to be parsed from, defaults to None, when passing the
-    parameter, set `update_html` to False to prevent overriding or making
-    useless request
-    :param update_html: whether to make request to given URL and update
-    `self.html`, when False `self.update_html` method has to be called
-    manually to make object ready for parsing, defaults to True
-    """
+    """Base class for scraping classes."""
     BASE_URL: Literal["https://www.procyclingstats.com/"] = \
         "https://www.procyclingstats.com/"
 
@@ -36,6 +25,24 @@ class Scraper:
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
+        """
+        Creates scraper object that is by default ready for HTML parsing. Call
+        parsing methods to parse data from HTML.
+
+        :param url: URL of procyclingstats page to parse. Either absolute or
+        relative.
+        :param html: HTML to be parsed from, defaults to None. When passing the
+        parameter, set `update_html` to False to prevent overriding or making
+        useless request.
+        :param update_html: Whether to make request to given URL and update
+        `self.html`. When False `self.update_html` method has to be called
+        manually to make object ready for parsing. Defaults to True.
+
+        :raises ValueError: When given URL isn't valid for current scraping
+        class.
+        :raises ValueError: When given HTML or HTML from given URL is invalid,
+        e.g. 'Page not found' is contained in the HTML.
+        """
         # validate given URL
         try:
             validate_string(url, regex=self._url_validation_regex)
@@ -169,7 +176,7 @@ class Scraper:
         return url
 
     @staticmethod
-    def _html_invalid(html: HTMLParser):
+    def _html_invalid(html: HTMLParser) -> bool:
         """
         Checks whether given HTML is invalid, HTML with page title 'Page not
         found' is considered invalid. Should be overridden by subclass when

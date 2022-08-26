@@ -11,6 +11,15 @@ from .utils import format_url_filter, parse_table_fields_args, reg
 
 class Ranking(Scraper):
     """
+    Scraper for rankings HTML page. Example URL: `rankings/me/individual`.
+    
+    Always only one parsing method that parses ranking is availabe, the others
+    raise `ExpectedParsingError`. E.g. for object created with example URL
+    would be valid only `self.individual_ranking` parsing method and others
+    methods that parse ranking (`self.team_ranking`, ...) would raise error.
+    """
+
+    """
     Scraper for HTML ranking page. Always only one method for ranking
     parsing is available (based on ranking type). e.g. `self.individual_ranking`
     for `rankings/me/season-individual` ranking

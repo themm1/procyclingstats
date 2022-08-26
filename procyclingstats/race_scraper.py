@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Tuple
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
@@ -9,18 +9,9 @@ from .utils import (format_regex_str, get_day_month, normalize_race_url,
 
 class Race(Scraper):
     """
-    Scraper for race overview page.
-
-    :param url: URL of race overview either full or relative, e.g.
-    `race/tour-de-france/2021/overview`
-    :param html: HTML to be parsed from, defaults to None, when passing the
-    parameter, set `update_html` to False to prevent overriding or making
-    useless request
-    :param update_html: whether to make request to given URL and update
-    `self.html`, when False `self.update_html` method has to be called
-    manually to set HTML (when isn't passed), defaults to True
+    Scraper for race overview HTML page. Example URL: 
+    `race/tour-de-france/2022/overview`.
     """
-
     _url_validation_regex = format_regex_str(
     f"""
         {reg.base_url}?race{reg.url_str}

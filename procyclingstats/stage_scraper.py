@@ -11,17 +11,8 @@ from .utils import (add_times, convert_date, format_regex_str, format_time,
 
 class Stage(Scraper):
     """
-    Scraper for HTML stage page. On one day races methods for parsing
-    classifications (e.g. `self.gc` or `self.points`) aren't available.
-
-    :param url: URL of race overview either full or relative, e.g.
-    `race/tour-de-france/2021/stage-8`
-    :param html: HTML to be parsed from, defaults to None, when passing the
-    parameter, set `update_html` to False to prevent overriding or making
-    useless request
-    :param update_html: whether to make request to given URL and update
-    `self.html`, when False `self.update_html` method has to be called
-    manually to make object ready for parsing, defaults to True
+    Scraper for stage results HTML page. Example URL: 
+    `race/tour-de-france/2022/stage-18`.
     """
     _url_validation_regex = format_regex_str(
     f"""

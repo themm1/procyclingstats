@@ -8,18 +8,7 @@ from .utils import (format_regex_str, get_day_month, join_tables,
 
 
 class Team(Scraper):
-    """
-    Scraper for HTML team page.
-
-    :param url: team URL, either absolute or relative, e.g.
-    `team/bora-hansgrohe-2022`
-    :param html: HTML to be parsed from, defaults to None, when passing the
-    parameter, set `update_html` to False to prevent overriding or making
-    useless request
-    :param update_html: whether to make request to given URL and update
-    `self.html`, when False `self.update_html` method has to be called
-    manually to make object ready for parsing, defaults to True
-    """
+    """Scraper for team HTML page. Example URL: `team/bora-hansgrohe-2022`."""
     _url_validation_regex = format_regex_str(
     f"""
         {reg.base_url}?team{reg.team_url_str}
