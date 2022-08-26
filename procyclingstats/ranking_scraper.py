@@ -6,7 +6,7 @@ from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
 from .utils import (format_url_filter, parse_select, parse_table_fields_args,
-                    reg, select_menu_by_label)
+                    reg, select_menu_by_name)
 
 
 class Ranking(Scraper):
@@ -260,8 +260,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = select_menu_by_label(self.html, "Date")
-        return parse_select(select_menu_html)
+        return parse_select(select_menu_by_name(self.html, "date"))
 
     def nations_select(self) -> List[Dict[str, str]]:
         """
@@ -270,8 +269,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = select_menu_by_label(self.html, "Nation")
-        return parse_select(select_menu_html)
+        return parse_select(select_menu_by_name(self.html, "nation"))
 
     def teams_select(self) -> List[Dict[str, str]]:
         """
@@ -280,8 +278,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = select_menu_by_label(self.html, "Team")
-        return parse_select(select_menu_html)
+        return parse_select(select_menu_by_name(self.html, "team"))
 
     def pages_select(self) -> List[Dict[str, str]]:
         """
@@ -290,8 +287,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = select_menu_by_label(self.html, "Page")
-        return parse_select(select_menu_html)
+        return parse_select(select_menu_by_name(self.html, "offset"))
 
     def teamlevels_select(self) -> List[Dict[str, str]]:
         """
@@ -300,8 +296,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = select_menu_by_label(self.html, "Teamlevel")
-        return parse_select(select_menu_html)
+        return parse_select(select_menu_by_name(self.html, "teamlevel"))
 
     def _ranking_type(self) -> Literal["individual",
                                        "nations",

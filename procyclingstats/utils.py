@@ -276,23 +276,20 @@ def parse_select(select_menu: Node) -> List[Dict[str, str]]:
         })
     return table
 
-def select_menu_by_label(html: Union[Node, HTMLParser], label: str) -> Node:
+def select_menu_by_name(html: Union[Node, HTMLParser], name_attr: str) -> Node:
     """
-    Finds select menu with given label
+    Finds select menu my it's name attribute.
 
-    :param html: HTML with some select menus
-    :param label: wanted select menu label
-    :raises Exception: when select menu with that label wasn't found
-    :return: HTML of wanted select menu
+    :param html: HTML to find select menu in
+    :param name_attr: name attribute of wanted select menu
+    :raises ExpectedParsingError: when select menu with given name attribute
+    isn't contained in given HTML
+    :return: wanted select menu HTML
     """
-    labels = html.css("ul.filter > li > .label")
-    index = -1
-    for i, label_html in enumerate(labels):
-        if label_html.text() == label:
-            index = i
-    if index == -1:
-        raise ExpectedParsingError(f"{label} select not in page HTML.")
-    return html.css("li > div > select")[index]
+    select_html = html.css_first(f"select[name={name_attr}]")
+    if not select_html:
+        raise ExpectedParsingError(f"'{name_attr}' select not in page HTML.")
+    return select_html
 
 
 # other functions
