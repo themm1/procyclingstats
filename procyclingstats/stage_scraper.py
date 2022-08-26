@@ -214,10 +214,6 @@ class Stage(Scraper):
                 # add rider_url for table joining purposes
                 extra_fields.append("rider_url")
                 tp.parse(extra_fields)
-                from tabulate import tabulate
-
-                print(tabulate(table))
-                print(tabulate(tp.table))
                 table = join_tables(table, tp.table, "rider_url")
             elif "nationality" in fields or "age" in fields:
                 for row in table:
