@@ -211,12 +211,22 @@ class Stage(Scraper):
                 tp = TableParser(gc_table_html)
                 extra_fields = [f for f in fields
                                 if f in ("nationality", "age", "rider_url")]
+                # add rider_url for table joining purposes
+                extra_fields.append("rider_url")
                 tp.parse(extra_fields)
+                from tabulate import tabulate
+
+                print(tabulate(table))
+                print(tabulate(tp.table))
                 table = join_tables(table, tp.table, "rider_url")
             elif "nationality" in fields or "age" in fields:
                 for row in table:
                     row['nationality'] = None
                     row['age'] = None
+            # remove rider_url from table if isn't needed
+            if "rider_url" not in fields:
+                for row in table:
+                    row.pop("rider_url")
         else:
             tp = TableParser(results_table_html)
             tp.parse(fields)
@@ -412,8 +422,21 @@ class Stage(Scraper):
         team_fields_to_parse = [f for f in team_fields if f in fields]
         rider_fields_to_parse = [f for f in rider_fields if f in fields]
 
+        # add rank field to fields for joining tables purposes
+        if "rank" not in fields:
+            rider_fields_to_parse.append("rank")
+            team_fields_to_parse.append("rank")
+        # add rider_url for joining table with nationality or age from other
+        # table, if isn't nedded is removed from table in self.results method
+        if "rider_url" not in fields:
+            rider_fields_to_parse.append("rider_url")
+
         # add team ranks to every rider's first td element, so it's possible
         # to map teams to riders based on their rank
+        # before that we create a copy of the HTML table so HTML modification
+        # won't be applied to `self.html`
+        results_table_parser = HTMLParser(results_table_html.html) # type:ignore
+        results_table_html = results_table_parser.css_first("table")
         current_rank_node = None
         for td in results_table_html.css("tr > td:first-child"):
             rank = td.text()
@@ -446,14 +469,15 @@ class Stage(Scraper):
             riders_parser.extend_table("rider_time", riders_extra_times)
             teams_parser.extend_table("time", team_times)
 
-            table = join_tables(riders_parser.table, teams_parser.table,
-                                "rank")
+            table = join_tables(riders_parser.table, teams_parser.table, "rank")
             # add team times and rider_extra times together and remove
             # rider_time field from table
             for row in table:
                 rider_extra_time = row.pop('rider_time')
                 row['time'] = add_times(row['time'], rider_extra_time)
         else:
-            table = join_tables(riders_parser.table, teams_parser.table,
-                                "rank")
+            table = join_tables(riders_parser.table, teams_parser.table, "rank")
+        if "rank" not in fields:
+            for row in table:
+                row.pop("rank")
         return table
