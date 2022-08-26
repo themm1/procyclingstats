@@ -1,12 +1,12 @@
-from typing import Any, Dict, List, Literal, Tuple
+from typing import Any, Dict, List, Literal, Tuple, Union
 
-from selectolax.parser import HTMLParser, Node
+from selectolax.parser import HTMLParser
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
 from .utils import (format_url_filter, parse_select, parse_table_fields_args,
-                    reg)
+                    reg, select_menu_by_label)
 
 
 class Ranking(Scraper):
@@ -260,7 +260,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = self._select_menu_by_label("Date")
+        select_menu_html = select_menu_by_label(self.html, "Date")
         return parse_select(select_menu_html)
 
     def nations_select(self) -> List[Dict[str, str]]:
@@ -270,7 +270,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = self._select_menu_by_label("Nation")
+        select_menu_html = select_menu_by_label(self.html, "Nation")
         return parse_select(select_menu_html)
 
     def teams_select(self) -> List[Dict[str, str]]:
@@ -280,7 +280,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = self._select_menu_by_label("Team")
+        select_menu_html = select_menu_by_label(self.html, "Team")
         return parse_select(select_menu_html)
 
     def pages_select(self) -> List[Dict[str, str]]:
@@ -290,7 +290,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = self._select_menu_by_label("Page")
+        select_menu_html = select_menu_by_label(self.html, "Page")
         return parse_select(select_menu_html)
 
     def teamlevels_select(self) -> List[Dict[str, str]]:
@@ -300,7 +300,7 @@ class Ranking(Scraper):
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
-        select_menu_html = self._select_menu_by_label("Teamlevel")
+        select_menu_html = select_menu_by_label(self.html, "Teamlevel")
         return parse_select(select_menu_html)
 
     def _ranking_type(self) -> Literal["individual",
@@ -338,23 +338,6 @@ class Ranking(Scraper):
             return "teams"
         else:
             return "individual"
-
-    def _select_menu_by_label(self, label: str) -> Node:
-        """
-        Finds select menu with given label
-
-        :param label: wanted select menu label
-        :raises Exception: when select menu with that label wasn't found
-        :return: HTML of wanted select menu
-        """
-        labels = self.html.css("ul.filter > li > .label")
-        index = -1
-        for i, label_html in enumerate(labels):
-            if label_html.text() == label:
-                index = i
-        if index == -1:
-            raise ExpectedParsingError(f"{label} select not in page HTML.")
-        return self.html.css("li > div > select")[index]
 
     def _parse_regular_ranking_table(self,
             args: Tuple[str, ...],

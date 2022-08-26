@@ -3,9 +3,9 @@ import math
 import re
 from typing import Any, Dict, List, Optional, Tuple, Union
 
-from selectolax.parser import Node
+from selectolax.parser import HTMLParser, Node
 
-from .errors import ParsedValueInvalidError
+from .errors import ExpectedParsingError, ParsedValueInvalidError
 
 
 class reg:
@@ -275,6 +275,24 @@ def parse_select(select_menu: Node) -> List[Dict[str, str]]:
             "value": option.attributes['value']
         })
     return table
+
+def select_menu_by_label(html: Union[Node, HTMLParser], label: str) -> Node:
+    """
+    Finds select menu with given label
+
+    :param html: HTML with some select menus
+    :param label: wanted select menu label
+    :raises Exception: when select menu with that label wasn't found
+    :return: HTML of wanted select menu
+    """
+    labels = html.css("ul.filter > li > .label")
+    index = -1
+    for i, label_html in enumerate(labels):
+        if label_html.text() == label:
+            index = i
+    if index == -1:
+        raise ExpectedParsingError(f"{label} select not in page HTML.")
+    return html.css("li > div > select")[index]
 
 
 # other functions
