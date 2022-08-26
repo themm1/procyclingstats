@@ -1,6 +1,6 @@
-from typing import Any, Dict, List, Literal, Optional, Tuple
+from typing import Any, Dict, List, Literal, Tuple
 
-from selectolax.parser import Node
+from selectolax.parser import HTMLParser, Node
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
@@ -26,6 +26,21 @@ class Ranking(Scraper):
     """
     _url_validation_regex = f"{reg.base_url}?rankings.*\\/*"
     """Regex for validating ranking URL."""
+
+    @staticmethod
+    def _html_invalid(html: HTMLParser) -> bool:
+        """
+        Overrides `Scraper` method. HTML is considered invalid when 'Due to
+        technical difficulties this page is temporarily unavailable.' is
+        contained in HTML page content.
+
+        :param html: HTML to validate
+        :return: True if given HTML is invalid, otherwise False
+        """
+        page_title = html.css_first("div.page-content > div").text()
+        invalid_str = ("Due to technical difficulties this page is " +
+        "temporarily unavailable.")
+        return page_title == invalid_str
 
     def normalized_relative_url(self) -> str:
         """

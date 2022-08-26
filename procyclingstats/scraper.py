@@ -23,24 +23,36 @@ class Scraper:
     """
     BASE_URL: Literal["https://www.procyclingstats.com/"] = \
         "https://www.procyclingstats.com/"
+
     _public_nonparsing_methods = (
         "update_html",
         "parse",
         "relative_url"
     )
     """Public methods that aren't called by `parse` method."""
+
     _url_validation_regex = ".*"
     """Regex for validating URL. Should be overridden by subclass."""
 
     def __init__(self, url: str, html: Optional[str] = None,
                  update_html: bool = True) -> None:
-        self._validate_url(url)
+        # validate given URL
+        try:
+            validate_string(url, regex=self._url_validation_regex)
+        except ParsedValueInvalidError:
+            raise ValueError(f"Given URL is indvalid: '{url}'")
+
         self._url = self._make_url_absolute(url)
         self._html = None
         if html:
             self._html = HTMLParser(html)
+            if self._html_invalid(self.html):
+                raise ValueError("Given HTML is invalid.")
         if update_html:
             self.update_html()
+            if self._html_invalid(self.html):
+                raise ValueError(
+                    f"HTML from given URL is invalid: '{self.url}'")
 
     def __repr__(self) -> str:
         return f"{type(self).__name__}(url='{self.normalized_relative_url()}')"
@@ -88,15 +100,11 @@ class Scraper:
 
     def update_html(self) -> None:
         """
-        Calls request to `self.url` using `Scraper._request_html` and
-        updates `self.html` to returned HTML
-        :raises ValueError: when URL isn't valid (after making request)
+        Calls request to `self.url` and updates `self.html` to HTMLParser object
+        created from returned HTML.
         """
-        html_str = self._request_html()
-        html = HTMLParser(html_str)
-        if html.css_first(".page-title > .main > h1").text()== "Page not found":
-            raise ValueError(f"Invalid URL: {self._url}")
-        self._html = html
+        html_str = requests.get(self._url).text
+        self._html = HTMLParser(html_str)
 
     def parse(self,
               exceptions_to_ignore: Tuple[Any, ...] = (ExpectedParsingError,),
@@ -130,19 +138,6 @@ class Scraper:
         splitted_url = self.relative_url().split("/")
         return [part for part in splitted_url if part]
 
-    def _validate_url(self, url: str) -> None:
-        """
-        Validates given URL with regex and returns absolute URL.
-
-        :param url: URL either relative or absolute
-        :raises ValueError: when URL isn't valid
-        :return: valid absolute URL
-        """
-        try:
-            validate_string(url, regex=self._url_validation_regex)
-        except ParsedValueInvalidError:
-            raise ValueError(f"Given URL is indvalid: '{url}'")
-
     def _parsing_methods(self) -> List[Tuple[str, Callable]]:
         """
         Gets all parsing methods from a class. That are all public methods
@@ -154,7 +149,7 @@ class Scraper:
         parsing_methods = []
         for method_name, method in methods:
             if (method_name[0] != "_"
-                and method_name not in Scraper._public_nonparsing_methods):
+                and method_name not in self._public_nonparsing_methods):
                 parsing_methods.append((method_name, method))
         return parsing_methods
 
@@ -173,10 +168,15 @@ class Scraper:
                 url = self.BASE_URL + url
         return url
 
-    def _request_html(self) -> str:
+    @staticmethod
+    def _html_invalid(html: HTMLParser):
         """
-        Makes request to `self.url` and returns it's HTML
+        Checks whether given HTML is invalid, HTML with page title 'Page not
+        found' is considered invalid. Should be overridden by subclass when
+        other type of HTML is considered invalid.
 
-        :return: HTML obtained from `self.url` as str
+        :param html: HTML to validate
+        :return: True if given HTML is invalid, otherwise False
         """
-        return requests.get(self._url).text
+        page_title = html.css_first(".page-title > .main > h1").text()
+        return page_title == "Page not found"
