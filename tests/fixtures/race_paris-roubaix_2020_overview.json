@@ -6,6 +6,488 @@
   "is_one_day_race": true,
   "nationality": "FR",
   "normalized_relative_url": "race/paris-roubaix/2020/overview",
+  "prev_editions": [
+    {
+      "text": "2022",
+      "value": "race/paris-roubaix/2022/overview/overview"
+    },
+    {
+      "text": "2021",
+      "value": "race/paris-roubaix/2021/overview/overview"
+    },
+    {
+      "text": "2020",
+      "value": "race/paris-roubaix/2020/overview/overview"
+    },
+    {
+      "text": "2019",
+      "value": "race/paris-roubaix/2019/overview/overview"
+    },
+    {
+      "text": "2018",
+      "value": "race/paris-roubaix/2018/overview/overview"
+    },
+    {
+      "text": "2017",
+      "value": "race/paris-roubaix/2017/overview/overview"
+    },
+    {
+      "text": "2016",
+      "value": "race/paris-roubaix/2016/overview/overview"
+    },
+    {
+      "text": "2015",
+      "value": "race/paris-roubaix/2015/overview/overview"
+    },
+    {
+      "text": "2014",
+      "value": "race/paris-roubaix/2014/overview/overview"
+    },
+    {
+      "text": "2013",
+      "value": "race/paris-roubaix/2013/overview/overview"
+    },
+    {
+      "text": "2012",
+      "value": "race/paris-roubaix/2012/overview/overview"
+    },
+    {
+      "text": "2011",
+      "value": "race/paris-roubaix/2011/overview/overview"
+    },
+    {
+      "text": "2010",
+      "value": "race/paris-roubaix/2010/overview/overview"
+    },
+    {
+      "text": "2009",
+      "value": "race/paris-roubaix/2009/overview/overview"
+    },
+    {
+      "text": "2008",
+      "value": "race/paris-roubaix/2008/overview/overview"
+    },
+    {
+      "text": "2007",
+      "value": "race/paris-roubaix/2007/overview/overview"
+    },
+    {
+      "text": "2006",
+      "value": "race/paris-roubaix/2006/overview/overview"
+    },
+    {
+      "text": "2005",
+      "value": "race/paris-roubaix/2005/overview/overview"
+    },
+    {
+      "text": "2004",
+      "value": "race/paris-roubaix/2004/overview/overview"
+    },
+    {
+      "text": "2003",
+      "value": "race/paris-roubaix/2003/overview/overview"
+    },
+    {
+      "text": "2002",
+      "value": "race/paris-roubaix/2002/overview/overview"
+    },
+    {
+      "text": "2001",
+      "value": "race/paris-roubaix/2001/overview/overview"
+    },
+    {
+      "text": "2000",
+      "value": "race/paris-roubaix/2000/overview/overview"
+    },
+    {
+      "text": "1999",
+      "value": "race/paris-roubaix/1999/overview/overview"
+    },
+    {
+      "text": "1998",
+      "value": "race/paris-roubaix/1998/overview/overview"
+    },
+    {
+      "text": "1997",
+      "value": "race/paris-roubaix/1997/overview/overview"
+    },
+    {
+      "text": "1996",
+      "value": "race/paris-roubaix/1996/overview/overview"
+    },
+    {
+      "text": "1995",
+      "value": "race/paris-roubaix/1995/overview/overview"
+    },
+    {
+      "text": "1994",
+      "value": "race/paris-roubaix/1994/overview/overview"
+    },
+    {
+      "text": "1993",
+      "value": "race/paris-roubaix/1993/overview/overview"
+    },
+    {
+      "text": "1992",
+      "value": "race/paris-roubaix/1992/overview/overview"
+    },
+    {
+      "text": "1991",
+      "value": "race/paris-roubaix/1991/overview/overview"
+    },
+    {
+      "text": "1990",
+      "value": "race/paris-roubaix/1990/overview/overview"
+    },
+    {
+      "text": "1989",
+      "value": "race/paris-roubaix/1989/overview/overview"
+    },
+    {
+      "text": "1988",
+      "value": "race/paris-roubaix/1988/overview/overview"
+    },
+    {
+      "text": "1987",
+      "value": "race/paris-roubaix/1987/overview/overview"
+    },
+    {
+      "text": "1986",
+      "value": "race/paris-roubaix/1986/overview/overview"
+    },
+    {
+      "text": "1985",
+      "value": "race/paris-roubaix/1985/overview/overview"
+    },
+    {
+      "text": "1984",
+      "value": "race/paris-roubaix/1984/overview/overview"
+    },
+    {
+      "text": "1983",
+      "value": "race/paris-roubaix/1983/overview/overview"
+    },
+    {
+      "text": "1982",
+      "value": "race/paris-roubaix/1982/overview/overview"
+    },
+    {
+      "text": "1981",
+      "value": "race/paris-roubaix/1981/overview/overview"
+    },
+    {
+      "text": "1980",
+      "value": "race/paris-roubaix/1980/overview/overview"
+    },
+    {
+      "text": "1979",
+      "value": "race/paris-roubaix/1979/overview/overview"
+    },
+    {
+      "text": "1978",
+      "value": "race/paris-roubaix/1978/overview/overview"
+    },
+    {
+      "text": "1977",
+      "value": "race/paris-roubaix/1977/overview/overview"
+    },
+    {
+      "text": "1976",
+      "value": "race/paris-roubaix/1976/overview/overview"
+    },
+    {
+      "text": "1975",
+      "value": "race/paris-roubaix/1975/overview/overview"
+    },
+    {
+      "text": "1974",
+      "value": "race/paris-roubaix/1974/overview/overview"
+    },
+    {
+      "text": "1973",
+      "value": "race/paris-roubaix/1973/overview/overview"
+    },
+    {
+      "text": "1972",
+      "value": "race/paris-roubaix/1972/overview/overview"
+    },
+    {
+      "text": "1971",
+      "value": "race/paris-roubaix/1971/overview/overview"
+    },
+    {
+      "text": "1970",
+      "value": "race/paris-roubaix/1970/overview/overview"
+    },
+    {
+      "text": "1969",
+      "value": "race/paris-roubaix/1969/overview/overview"
+    },
+    {
+      "text": "1968",
+      "value": "race/paris-roubaix/1968/overview/overview"
+    },
+    {
+      "text": "1967",
+      "value": "race/paris-roubaix/1967/overview/overview"
+    },
+    {
+      "text": "1966",
+      "value": "race/paris-roubaix/1966/overview/overview"
+    },
+    {
+      "text": "1965",
+      "value": "race/paris-roubaix/1965/overview/overview"
+    },
+    {
+      "text": "1964",
+      "value": "race/paris-roubaix/1964/overview/overview"
+    },
+    {
+      "text": "1963",
+      "value": "race/paris-roubaix/1963/overview/overview"
+    },
+    {
+      "text": "1962",
+      "value": "race/paris-roubaix/1962/overview/overview"
+    },
+    {
+      "text": "1961",
+      "value": "race/paris-roubaix/1961/overview/overview"
+    },
+    {
+      "text": "1960",
+      "value": "race/paris-roubaix/1960/overview/overview"
+    },
+    {
+      "text": "1959",
+      "value": "race/paris-roubaix/1959/overview/overview"
+    },
+    {
+      "text": "1958",
+      "value": "race/paris-roubaix/1958/overview/overview"
+    },
+    {
+      "text": "1957",
+      "value": "race/paris-roubaix/1957/overview/overview"
+    },
+    {
+      "text": "1956",
+      "value": "race/paris-roubaix/1956/overview/overview"
+    },
+    {
+      "text": "1955",
+      "value": "race/paris-roubaix/1955/overview/overview"
+    },
+    {
+      "text": "1954",
+      "value": "race/paris-roubaix/1954/overview/overview"
+    },
+    {
+      "text": "1953",
+      "value": "race/paris-roubaix/1953/overview/overview"
+    },
+    {
+      "text": "1952",
+      "value": "race/paris-roubaix/1952/overview/overview"
+    },
+    {
+      "text": "1951",
+      "value": "race/paris-roubaix/1951/overview/overview"
+    },
+    {
+      "text": "1950",
+      "value": "race/paris-roubaix/1950/overview/overview"
+    },
+    {
+      "text": "1949",
+      "value": "race/paris-roubaix/1949/overview/overview"
+    },
+    {
+      "text": "1948",
+      "value": "race/paris-roubaix/1948/overview/overview"
+    },
+    {
+      "text": "1947",
+      "value": "race/paris-roubaix/1947/overview/overview"
+    },
+    {
+      "text": "1946",
+      "value": "race/paris-roubaix/1946/overview/overview"
+    },
+    {
+      "text": "1945",
+      "value": "race/paris-roubaix/1945/overview/overview"
+    },
+    {
+      "text": "1944",
+      "value": "race/paris-roubaix/1944/overview/overview"
+    },
+    {
+      "text": "1943",
+      "value": "race/paris-roubaix/1943/overview/overview"
+    },
+    {
+      "text": "1939",
+      "value": "race/paris-roubaix/1939/overview/overview"
+    },
+    {
+      "text": "1938",
+      "value": "race/paris-roubaix/1938/overview/overview"
+    },
+    {
+      "text": "1937",
+      "value": "race/paris-roubaix/1937/overview/overview"
+    },
+    {
+      "text": "1936",
+      "value": "race/paris-roubaix/1936/overview/overview"
+    },
+    {
+      "text": "1935",
+      "value": "race/paris-roubaix/1935/overview/overview"
+    },
+    {
+      "text": "1934",
+      "value": "race/paris-roubaix/1934/overview/overview"
+    },
+    {
+      "text": "1933",
+      "value": "race/paris-roubaix/1933/overview/overview"
+    },
+    {
+      "text": "1932",
+      "value": "race/paris-roubaix/1932/overview/overview"
+    },
+    {
+      "text": "1931",
+      "value": "race/paris-roubaix/1931/overview/overview"
+    },
+    {
+      "text": "1930",
+      "value": "race/paris-roubaix/1930/overview/overview"
+    },
+    {
+      "text": "1929",
+      "value": "race/paris-roubaix/1929/overview/overview"
+    },
+    {
+      "text": "1928",
+      "value": "race/paris-roubaix/1928/overview/overview"
+    },
+    {
+      "text": "1927",
+      "value": "race/paris-roubaix/1927/overview/overview"
+    },
+    {
+      "text": "1926",
+      "value": "race/paris-roubaix/1926/overview/overview"
+    },
+    {
+      "text": "1925",
+      "value": "race/paris-roubaix/1925/overview/overview"
+    },
+    {
+      "text": "1924",
+      "value": "race/paris-roubaix/1924/overview/overview"
+    },
+    {
+      "text": "1923",
+      "value": "race/paris-roubaix/1923/overview/overview"
+    },
+    {
+      "text": "1922",
+      "value": "race/paris-roubaix/1922/overview/overview"
+    },
+    {
+      "text": "1921",
+      "value": "race/paris-roubaix/1921/overview/overview"
+    },
+    {
+      "text": "1920",
+      "value": "race/paris-roubaix/1920/overview/overview"
+    },
+    {
+      "text": "1919",
+      "value": "race/paris-roubaix/1919/overview/overview"
+    },
+    {
+      "text": "1914",
+      "value": "race/paris-roubaix/1914/overview/overview"
+    },
+    {
+      "text": "1913",
+      "value": "race/paris-roubaix/1913/overview/overview"
+    },
+    {
+      "text": "1912",
+      "value": "race/paris-roubaix/1912/overview/overview"
+    },
+    {
+      "text": "1911",
+      "value": "race/paris-roubaix/1911/overview/overview"
+    },
+    {
+      "text": "1910",
+      "value": "race/paris-roubaix/1910/overview/overview"
+    },
+    {
+      "text": "1909",
+      "value": "race/paris-roubaix/1909/overview/overview"
+    },
+    {
+      "text": "1908",
+      "value": "race/paris-roubaix/1908/overview/overview"
+    },
+    {
+      "text": "1907",
+      "value": "race/paris-roubaix/1907/overview/overview"
+    },
+    {
+      "text": "1906",
+      "value": "race/paris-roubaix/1906/overview/overview"
+    },
+    {
+      "text": "1905",
+      "value": "race/paris-roubaix/1905/overview/overview"
+    },
+    {
+      "text": "1904",
+      "value": "race/paris-roubaix/1904/overview/overview"
+    },
+    {
+      "text": "1903",
+      "value": "race/paris-roubaix/1903/overview/overview"
+    },
+    {
+      "text": "1902",
+      "value": "race/paris-roubaix/1902/overview/overview"
+    },
+    {
+      "text": "1901",
+      "value": "race/paris-roubaix/1901/overview/overview"
+    },
+    {
+      "text": "1900",
+      "value": "race/paris-roubaix/1900/overview/overview"
+    },
+    {
+      "text": "1899",
+      "value": "race/paris-roubaix/1899/overview/overview"
+    },
+    {
+      "text": "1898",
+      "value": "race/paris-roubaix/1898/overview/overview"
+    },
+    {
+      "text": "1897",
+      "value": "race/paris-roubaix/1897/overview/overview"
+    },
+    {
+      "text": "1896",
+      "value": "race/paris-roubaix/1896/overview/overview"
+    }
+  ],
   "stages": null,
   "startdate": "2020-10-25",
   "uci_tour": "UCI Worldtour",

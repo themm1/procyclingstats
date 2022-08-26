@@ -4,7 +4,7 @@ from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
 from .utils import (format_regex_str, get_day_month, normalize_race_url,
-                    parse_table_fields_args, reg)
+                    parse_select, parse_table_fields_args, reg)
 
 
 class Race(Scraper):
@@ -117,6 +117,16 @@ class Race(Scraper):
         """
         uci_tour_html = self.html.css(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text()
+
+    def prev_editions(self) -> List[Dict[str, str]]:
+        """
+        Parses previous race editions
+
+        :return: parsed select menu represented as list of dicts with keys
+        'text' and 'value'
+        """
+        editions_select_html = self.html.css_first("form > select")
+        return parse_select(editions_select_html)
 
     def stages(self, *args: str, available_fields: Tuple[str, ...] = (
             "date",

@@ -6,6 +6,444 @@
   "is_one_day_race": false,
   "nationality": "FR",
   "normalized_relative_url": "race/tour-de-france/2022/overview",
+  "prev_editions": [
+    {
+      "text": "2022",
+      "value": "race/tour-de-france/2022/overview/overview"
+    },
+    {
+      "text": "2021",
+      "value": "race/tour-de-france/2021/overview/overview"
+    },
+    {
+      "text": "2020",
+      "value": "race/tour-de-france/2020/overview/overview"
+    },
+    {
+      "text": "2019",
+      "value": "race/tour-de-france/2019/overview/overview"
+    },
+    {
+      "text": "2018",
+      "value": "race/tour-de-france/2018/overview/overview"
+    },
+    {
+      "text": "2017",
+      "value": "race/tour-de-france/2017/overview/overview"
+    },
+    {
+      "text": "2016",
+      "value": "race/tour-de-france/2016/overview/overview"
+    },
+    {
+      "text": "2015",
+      "value": "race/tour-de-france/2015/overview/overview"
+    },
+    {
+      "text": "2014",
+      "value": "race/tour-de-france/2014/overview/overview"
+    },
+    {
+      "text": "2013",
+      "value": "race/tour-de-france/2013/overview/overview"
+    },
+    {
+      "text": "2012",
+      "value": "race/tour-de-france/2012/overview/overview"
+    },
+    {
+      "text": "2011",
+      "value": "race/tour-de-france/2011/overview/overview"
+    },
+    {
+      "text": "2010",
+      "value": "race/tour-de-france/2010/overview/overview"
+    },
+    {
+      "text": "2009",
+      "value": "race/tour-de-france/2009/overview/overview"
+    },
+    {
+      "text": "2008",
+      "value": "race/tour-de-france/2008/overview/overview"
+    },
+    {
+      "text": "2007",
+      "value": "race/tour-de-france/2007/overview/overview"
+    },
+    {
+      "text": "2006",
+      "value": "race/tour-de-france/2006/overview/overview"
+    },
+    {
+      "text": "2005",
+      "value": "race/tour-de-france/2005/overview/overview"
+    },
+    {
+      "text": "2004",
+      "value": "race/tour-de-france/2004/overview/overview"
+    },
+    {
+      "text": "2003",
+      "value": "race/tour-de-france/2003/overview/overview"
+    },
+    {
+      "text": "2002",
+      "value": "race/tour-de-france/2002/overview/overview"
+    },
+    {
+      "text": "2001",
+      "value": "race/tour-de-france/2001/overview/overview"
+    },
+    {
+      "text": "2000",
+      "value": "race/tour-de-france/2000/overview/overview"
+    },
+    {
+      "text": "1999",
+      "value": "race/tour-de-france/1999/overview/overview"
+    },
+    {
+      "text": "1998",
+      "value": "race/tour-de-france/1998/overview/overview"
+    },
+    {
+      "text": "1997",
+      "value": "race/tour-de-france/1997/overview/overview"
+    },
+    {
+      "text": "1996",
+      "value": "race/tour-de-france/1996/overview/overview"
+    },
+    {
+      "text": "1995",
+      "value": "race/tour-de-france/1995/overview/overview"
+    },
+    {
+      "text": "1994",
+      "value": "race/tour-de-france/1994/overview/overview"
+    },
+    {
+      "text": "1993",
+      "value": "race/tour-de-france/1993/overview/overview"
+    },
+    {
+      "text": "1992",
+      "value": "race/tour-de-france/1992/overview/overview"
+    },
+    {
+      "text": "1991",
+      "value": "race/tour-de-france/1991/overview/overview"
+    },
+    {
+      "text": "1990",
+      "value": "race/tour-de-france/1990/overview/overview"
+    },
+    {
+      "text": "1989",
+      "value": "race/tour-de-france/1989/overview/overview"
+    },
+    {
+      "text": "1988",
+      "value": "race/tour-de-france/1988/overview/overview"
+    },
+    {
+      "text": "1987",
+      "value": "race/tour-de-france/1987/overview/overview"
+    },
+    {
+      "text": "1986",
+      "value": "race/tour-de-france/1986/overview/overview"
+    },
+    {
+      "text": "1985",
+      "value": "race/tour-de-france/1985/overview/overview"
+    },
+    {
+      "text": "1984",
+      "value": "race/tour-de-france/1984/overview/overview"
+    },
+    {
+      "text": "1983",
+      "value": "race/tour-de-france/1983/overview/overview"
+    },
+    {
+      "text": "1982",
+      "value": "race/tour-de-france/1982/overview/overview"
+    },
+    {
+      "text": "1981",
+      "value": "race/tour-de-france/1981/overview/overview"
+    },
+    {
+      "text": "1980",
+      "value": "race/tour-de-france/1980/overview/overview"
+    },
+    {
+      "text": "1979",
+      "value": "race/tour-de-france/1979/overview/overview"
+    },
+    {
+      "text": "1978",
+      "value": "race/tour-de-france/1978/overview/overview"
+    },
+    {
+      "text": "1977",
+      "value": "race/tour-de-france/1977/overview/overview"
+    },
+    {
+      "text": "1976",
+      "value": "race/tour-de-france/1976/overview/overview"
+    },
+    {
+      "text": "1975",
+      "value": "race/tour-de-france/1975/overview/overview"
+    },
+    {
+      "text": "1974",
+      "value": "race/tour-de-france/1974/overview/overview"
+    },
+    {
+      "text": "1973",
+      "value": "race/tour-de-france/1973/overview/overview"
+    },
+    {
+      "text": "1972",
+      "value": "race/tour-de-france/1972/overview/overview"
+    },
+    {
+      "text": "1971",
+      "value": "race/tour-de-france/1971/overview/overview"
+    },
+    {
+      "text": "1970",
+      "value": "race/tour-de-france/1970/overview/overview"
+    },
+    {
+      "text": "1969",
+      "value": "race/tour-de-france/1969/overview/overview"
+    },
+    {
+      "text": "1968",
+      "value": "race/tour-de-france/1968/overview/overview"
+    },
+    {
+      "text": "1967",
+      "value": "race/tour-de-france/1967/overview/overview"
+    },
+    {
+      "text": "1966",
+      "value": "race/tour-de-france/1966/overview/overview"
+    },
+    {
+      "text": "1965",
+      "value": "race/tour-de-france/1965/overview/overview"
+    },
+    {
+      "text": "1964",
+      "value": "race/tour-de-france/1964/overview/overview"
+    },
+    {
+      "text": "1963",
+      "value": "race/tour-de-france/1963/overview/overview"
+    },
+    {
+      "text": "1962",
+      "value": "race/tour-de-france/1962/overview/overview"
+    },
+    {
+      "text": "1961",
+      "value": "race/tour-de-france/1961/overview/overview"
+    },
+    {
+      "text": "1960",
+      "value": "race/tour-de-france/1960/overview/overview"
+    },
+    {
+      "text": "1959",
+      "value": "race/tour-de-france/1959/overview/overview"
+    },
+    {
+      "text": "1958",
+      "value": "race/tour-de-france/1958/overview/overview"
+    },
+    {
+      "text": "1957",
+      "value": "race/tour-de-france/1957/overview/overview"
+    },
+    {
+      "text": "1956",
+      "value": "race/tour-de-france/1956/overview/overview"
+    },
+    {
+      "text": "1955",
+      "value": "race/tour-de-france/1955/overview/overview"
+    },
+    {
+      "text": "1954",
+      "value": "race/tour-de-france/1954/overview/overview"
+    },
+    {
+      "text": "1953",
+      "value": "race/tour-de-france/1953/overview/overview"
+    },
+    {
+      "text": "1952",
+      "value": "race/tour-de-france/1952/overview/overview"
+    },
+    {
+      "text": "1951",
+      "value": "race/tour-de-france/1951/overview/overview"
+    },
+    {
+      "text": "1950",
+      "value": "race/tour-de-france/1950/overview/overview"
+    },
+    {
+      "text": "1949",
+      "value": "race/tour-de-france/1949/overview/overview"
+    },
+    {
+      "text": "1948",
+      "value": "race/tour-de-france/1948/overview/overview"
+    },
+    {
+      "text": "1947",
+      "value": "race/tour-de-france/1947/overview/overview"
+    },
+    {
+      "text": "1939",
+      "value": "race/tour-de-france/1939/overview/overview"
+    },
+    {
+      "text": "1938",
+      "value": "race/tour-de-france/1938/overview/overview"
+    },
+    {
+      "text": "1937",
+      "value": "race/tour-de-france/1937/overview/overview"
+    },
+    {
+      "text": "1936",
+      "value": "race/tour-de-france/1936/overview/overview"
+    },
+    {
+      "text": "1935",
+      "value": "race/tour-de-france/1935/overview/overview"
+    },
+    {
+      "text": "1934",
+      "value": "race/tour-de-france/1934/overview/overview"
+    },
+    {
+      "text": "1933",
+      "value": "race/tour-de-france/1933/overview/overview"
+    },
+    {
+      "text": "1932",
+      "value": "race/tour-de-france/1932/overview/overview"
+    },
+    {
+      "text": "1931",
+      "value": "race/tour-de-france/1931/overview/overview"
+    },
+    {
+      "text": "1930",
+      "value": "race/tour-de-france/1930/overview/overview"
+    },
+    {
+      "text": "1929",
+      "value": "race/tour-de-france/1929/overview/overview"
+    },
+    {
+      "text": "1928",
+      "value": "race/tour-de-france/1928/overview/overview"
+    },
+    {
+      "text": "1927",
+      "value": "race/tour-de-france/1927/overview/overview"
+    },
+    {
+      "text": "1926",
+      "value": "race/tour-de-france/1926/overview/overview"
+    },
+    {
+      "text": "1925",
+      "value": "race/tour-de-france/1925/overview/overview"
+    },
+    {
+      "text": "1924",
+      "value": "race/tour-de-france/1924/overview/overview"
+    },
+    {
+      "text": "1923",
+      "value": "race/tour-de-france/1923/overview/overview"
+    },
+    {
+      "text": "1922",
+      "value": "race/tour-de-france/1922/overview/overview"
+    },
+    {
+      "text": "1921",
+      "value": "race/tour-de-france/1921/overview/overview"
+    },
+    {
+      "text": "1920",
+      "value": "race/tour-de-france/1920/overview/overview"
+    },
+    {
+      "text": "1919",
+      "value": "race/tour-de-france/1919/overview/overview"
+    },
+    {
+      "text": "1914",
+      "value": "race/tour-de-france/1914/overview/overview"
+    },
+    {
+      "text": "1913",
+      "value": "race/tour-de-france/1913/overview/overview"
+    },
+    {
+      "text": "1912",
+      "value": "race/tour-de-france/1912/overview/overview"
+    },
+    {
+      "text": "1911",
+      "value": "race/tour-de-france/1911/overview/overview"
+    },
+    {
+      "text": "1910",
+      "value": "race/tour-de-france/1910/overview/overview"
+    },
+    {
+      "text": "1909",
+      "value": "race/tour-de-france/1909/overview/overview"
+    },
+    {
+      "text": "1908",
+      "value": "race/tour-de-france/1908/overview/overview"
+    },
+    {
+      "text": "1907",
+      "value": "race/tour-de-france/1907/overview/overview"
+    },
+    {
+      "text": "1906",
+      "value": "race/tour-de-france/1906/overview/overview"
+    },
+    {
+      "text": "1905",
+      "value": "race/tour-de-france/1905/overview/overview"
+    },
+    {
+      "text": "1904",
+      "value": "race/tour-de-france/1904/overview/overview"
+    },
+    {
+      "text": "1903",
+      "value": "race/tour-de-france/1903/overview/overview"
+    }
+  ],
   "stages": [
     {
       "profile_icon": "p1",

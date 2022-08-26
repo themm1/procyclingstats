@@ -224,7 +224,7 @@ Originally planned from 2020-04-12 - 2020-04-12.</div></div>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0417 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1235kb) peak (1384kb)</span></li></ul></li>
+<li><span>0.0318 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1235kb) peak (1384kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
