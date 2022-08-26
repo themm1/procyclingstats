@@ -4,6 +4,7 @@
   "display_name": "Etixx - Quick Step",
   "nationality": "BE",
   "normalized_relative_url": "team/etixx-quick-step-2016",
+  "ranking_position": null,
   "riders": [
     {
       "rider_url": "rider/tom-boonen",
@@ -29,8 +30,8 @@
       "rider_url": "rider/julian-alaphilippe",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": "1208",
-      "ranking_position": 13,
+      "ranking_points": "1179",
+      "ranking_position": 15,
       "age": 24,
       "nationality": "FR",
       "rider_name": "ALAPHILIPPE Julian"
@@ -40,7 +41,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "139",
-      "ranking_position": 362,
+      "ranking_position": 361,
       "age": 31,
       "nationality": "DE",
       "rider_name": "MARTIN Tony"
@@ -50,7 +51,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "50",
-      "ranking_position": 715,
+      "ranking_position": 714,
       "age": 32,
       "nationality": "NL",
       "rider_name": "TERPSTRA Niki"
@@ -60,7 +61,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "795",
-      "ranking_position": 48,
+      "ranking_position": 46,
       "age": 26,
       "nationality": "IT",
       "rider_name": "TRENTIN Matteo"
@@ -89,8 +90,8 @@
       "rider_url": "rider/yves-lampaert",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": "360",
-      "ranking_position": 158,
+      "ranking_points": "357",
+      "ranking_position": 160,
       "age": 25,
       "nationality": "BE",
       "rider_name": "LAMPAERT Yves"
@@ -100,7 +101,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "495",
-      "ranking_position": 109,
+      "ranking_position": 107,
       "age": 23,
       "nationality": "LU",
       "rider_name": "JUNGELS Bob"
@@ -110,7 +111,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "540",
-      "ranking_position": 92,
+      "ranking_position": 91,
       "age": 21,
       "nationality": "CO",
       "rider_name": "GAVIRIA Fernando"
@@ -120,7 +121,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "63",
-      "ranking_position": 619,
+      "ranking_position": 615,
       "age": 33,
       "nationality": "AR",
       "rider_name": "RICHEZE Maximiliano"
@@ -140,7 +141,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "191",
-      "ranking_position": 292,
+      "ranking_position": 290,
       "age": 28,
       "nationality": "IT",
       "rider_name": "BRAMBILLA Gianluca"
@@ -149,7 +150,7 @@
       "rider_url": "rider/david-de-la-cruz",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": "446",
+      "ranking_points": "441",
       "ranking_position": 129,
       "age": 27,
       "nationality": "ES",
@@ -160,7 +161,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "165",
-      "ranking_position": 320,
+      "ranking_position": 323,
       "age": 29,
       "nationality": "FR",
       "rider_name": "BOUET Maxime"
@@ -169,8 +170,8 @@
       "rider_url": "rider/pieter-serry",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": "82",
-      "ranking_position": 535,
+      "ranking_points": "54",
+      "ranking_position": 688,
       "age": 27,
       "nationality": "BE",
       "rider_name": "SERRY Pieter"
@@ -180,7 +181,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "31",
-      "ranking_position": 926,
+      "ranking_position": 922,
       "age": 23,
       "nationality": "CZ",
       "rider_name": "VAKO\u010c Petr"
@@ -209,8 +210,8 @@
       "rider_url": "rider/carlos-verona",
       "since": "01-01",
       "until": "07-30",
-      "ranking_points": "492",
-      "ranking_position": 110,
+      "ranking_points": "442",
+      "ranking_position": 128,
       "age": 23,
       "nationality": "ES",
       "rider_name": "VERONA Carlos"
@@ -220,7 +221,7 @@
       "since": "08-01",
       "until": "12-31",
       "ranking_points": "255",
-      "ranking_position": 236,
+      "ranking_position": 233,
       "age": 20,
       "nationality": "ES",
       "rider_name": "GARC\u00cdA CORTINA Iv\u00e1n"
@@ -240,7 +241,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "47",
-      "ranking_position": 742,
+      "ranking_position": 740,
       "age": 25,
       "nationality": "BE",
       "rider_name": "VAN KEIRSBULCK Guillaume"
@@ -250,7 +251,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "24",
-      "ranking_position": 1051,
+      "ranking_position": 1050,
       "age": 26,
       "nationality": "BE",
       "rider_name": "VERMOTE Julien"
@@ -260,7 +261,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "21",
-      "ranking_position": 1122,
+      "ranking_position": 1117,
       "age": 33,
       "nationality": "BE",
       "rider_name": "KEISSE Iljo"
@@ -270,7 +271,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "41",
-      "ranking_position": 808,
+      "ranking_position": 801,
       "age": 20,
       "nationality": "BE",
       "rider_name": "DE PLUS Laurens"
@@ -290,7 +291,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "15",
-      "ranking_position": 1261,
+      "ranking_position": 1258,
       "age": 24,
       "nationality": "PL",
       "rider_name": "WI\u015aNIOWSKI \u0141ukasz"
@@ -300,7 +301,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "43",
-      "ranking_position": 783,
+      "ranking_position": 780,
       "age": 23,
       "nationality": "IT",
       "rider_name": "MARTINELLI Davide"
@@ -320,7 +321,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "27",
-      "ranking_position": 1004,
+      "ranking_position": 1001,
       "age": 22,
       "nationality": "CO",
       "rider_name": "CONTRERAS Rodrigo"
@@ -346,9 +347,7 @@
       "rider_name": "SCHREURS Hamish"
     }
   ],
-  "team_ranking_position": null,
-  "team_status": "WT",
-  "teams_seasons_select": [
+  "seasons_select": [
     {
       "text": "2027 | Soudal - Quick Step",
       "value": "team/soudal-quick-step-2027/overview/"
@@ -450,5 +449,6 @@
       "value": "team/quickstep-davitamon-2003/overview/"
     }
   ],
+  "status": "WT",
   "wins_count": 54
 }

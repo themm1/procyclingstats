@@ -1,9 +1,8 @@
 from typing import Any, Dict, List, Optional, Tuple
 
 from .scraper import Scraper
-from .select_parser import SelectParser
 from .table_parser import TableParser
-from .utils import (format_regex_str, get_day_month, join_tables,
+from .utils import (format_regex_str, get_day_month, join_tables, parse_select,
                     parse_table_fields_args, reg)
 
 
@@ -27,22 +26,6 @@ class Team(Scraper):
         team_id = decomposed_url[1]
         return f"team/{team_id}"
    
-    def teams_seasons_select(self, *args: str,
-            available_fields: Tuple[str, ...] = (
-                "text",
-                "value"
-            )) -> List[Dict[str, str]]:
-        """
-        Parses teams seasons select menu from HTML
-
-        :return: table with fields `text`, `value` represented as list of dicts
-        """
-        fields = parse_table_fields_args(args, available_fields)
-        team_seasons_select_html = self.html.css_first("form > select")
-        s = SelectParser(team_seasons_select_html)
-        s.parse(fields)
-        return s.table
-
     def display_name(self) -> str:
         """
         Parses team display name from HTML
@@ -63,9 +46,9 @@ class Team(Scraper):
         flag_class = nationality_html.attributes['class']
         return flag_class.split(" ")[1].upper() # type: ignore
 
-    def team_status(self) -> str:
+    def status(self) -> str:
         """
-        Parses team status from HTML
+        Parses team status (class) from HTML
 
         :return: team status as 2 chars long code in uppercase e.g. `WT` (World
         Tour)
@@ -105,7 +88,7 @@ class Team(Scraper):
             ".teamkpi > li:nth-child(1) > div:nth-child(2)")
         return int(team_ranking_html.text())
 
-    def team_ranking_position(self) -> Optional[int]:
+    def ranking_position(self) -> Optional[int]:
         """
         Parses team ranking position from HTML
 
@@ -117,6 +100,16 @@ class Team(Scraper):
             return int(team_ranking_html.text())
         else:
             return None
+
+    def seasons_select(self) -> List[Dict[str, str]]:
+        """
+        Parses team seasons select menu from HTML.
+
+        :return: parsed select menu represented as list of dicts with keys
+        'text' and 'value'
+        """
+        team_seasons_select_html = self.html.css_first("form > select")
+        return parse_select(team_seasons_select_html)   
 
     def riders(self, *args: str, available_fields: Tuple[str, ...] = (
             "nationality",

@@ -3,6 +3,8 @@ import math
 import re
 from typing import Any, Dict, List, Optional, Tuple, Union
 
+from selectolax.parser import Node
+
 from .errors import ParsedValueInvalidError
 
 
@@ -256,6 +258,23 @@ def add_times(time1: str, time2: str) -> str:
     tdelta2 = time_to_timedelta(format_time(time2))
     tdelta = tdelta1 + tdelta2
     return timedelta_to_time(tdelta)
+
+# HTML parsing functions
+def parse_select(select_menu: Node) -> List[Dict[str, str]]:
+    """
+    Parses select menu.
+
+    :param select_menu: select menu HTML
+    :return: parsed select menu represented as list of dicts with keys 'text'
+    and 'value'
+    """
+    table = []
+    for option in select_menu.css("option"):
+        table.append({
+            "text": option.text(),
+            "value": option.attributes['value']
+        })
+    return table
 
 
 # other functions
