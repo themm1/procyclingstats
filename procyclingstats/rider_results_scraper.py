@@ -28,17 +28,20 @@ class RiderResults(Scraper):
     """)
     """Regex for validating rider results URL."""
 
-    @staticmethod
-    def _html_invalid(html: HTMLParser) -> bool:
+    def _html_valid(self) -> bool:
         """
-        Overrides `Scraper` method.
+        Extends Scraper method for validating HTMLs.
 
-        :param html: HTML to validate
-        :return: True if given HTML is invalid, otherwise False
+        :return: True if given HTML is valid, otherwise False
         """
-        page_title = html.css_first(".page-content > h2").text()
-        return (page_title != "All results" and
-                page_title != "Top results final 5k analysis")
+        try:
+            assert super()._html_valid() == True
+            page_title = self.html.css_first(".page-content > h2").text()
+            assert (page_title == "All results" or
+                    page_title == "Top results final 5k analysis")
+            return True
+        except AssertionError:
+            return False
 
     def normalized_relative_url(self) -> str:
         """

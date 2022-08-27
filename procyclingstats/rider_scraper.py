@@ -20,18 +20,6 @@ class Rider(Scraper):
     """)
     """Regex for validating rider URL."""
 
-    @staticmethod
-    def _html_invalid(html: HTMLParser) -> bool:
-        """
-        Overrides `Scraper` method. HTML is considered invalid when page title
-        is 'Start'.
-
-        :param html: HTML to validate
-        :return: True if given HTML is invalid, otherwise False
-        """
-        page_title = html.css_first(".page-title > .main > h1").text()
-        return page_title == "Start"
-
     def normalized_relative_url(self) -> str:
         """
         Creates normalized relative URL. Determines equality of objects (is

@@ -53,12 +53,12 @@ class Scraper:
         self._html = None
         if html:
             self._html = HTMLParser(html)
-            if self._html_invalid(self.html):
+            if not self._html_valid():
                 raise ValueError("Given HTML is invalid.")
             self._set_up_html()
         if update_html:
             self.update_html()
-            if self._html_invalid(self.html):
+            if not self._html_valid():
                 raise ValueError(
                     f"HTML from given URL is invalid: '{self.url}'")
             self._set_up_html()
@@ -184,15 +184,24 @@ class Scraper:
         """
         pass
 
-    @staticmethod
-    def _html_invalid(html: HTMLParser) -> bool:
+    def _html_valid(self) -> bool:
         """
-        Checks whether given HTML is invalid, HTML with page title 'Page not
-        found' is considered invalid. Should be overridden by subclass when
-        other type of HTML is considered invalid.
+        Checks whether given HTML is valid based on some known invalid formats
+        of invalid HTMLs.
 
-        :param html: HTML to validate
-        :return: True if given HTML is invalid, otherwise False
+        :return: True if given HTML is valid, otherwise False
         """
-        page_title = html.css_first(".page-title > .main > h1").text()
-        return page_title == "Page not found"
+        try:
+            page_title = self.html.css_first(".page-title > .main > h1").text()
+            assert page_title != "Page not found"
+
+            page_title2 = self.html.css_first("div.page-content > div").text()
+            print(page_title2)
+            assert page_title2 != ("Due to technical difficulties this page " +
+            "is temporarily unavailable.")
+
+            page_title3 = self.html.css_first(".page-title > .main > h1").text()
+            assert page_title3 != "Start"
+            return True
+        except AssertionError:
+            return False
