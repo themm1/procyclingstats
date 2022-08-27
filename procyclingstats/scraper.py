@@ -81,7 +81,7 @@ class Scraper:
         """
         Get HTML of a scraper object
 
-        :raises ExpectedParsingError: when HTML is None
+        :raises AttributeError: when HTML is None
         """
         if self._html is None:
             raise AttributeError(
