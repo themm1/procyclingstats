@@ -151,11 +151,11 @@ class Rider(Scraper):
                          if f in ("season", "team_name", "team_url")]
         if casual_fields:
             tp.parse(casual_fields)
-        if "class" in fields:
-            classes = tp.parse_extra_column(2,
-                lambda x: x.replace("(", "").replace(")", "").replace(" ", "")
-                if x and "retired" not in x else None)
-            tp.extend_table("class", classes)
+        # add classes for row validity checking
+        classes = tp.parse_extra_column(2,
+            lambda x: x.replace("(", "").replace(")", "").replace(" ", "")
+            if x and "retired" not in x else None)
+        tp.extend_table("class", classes)
         if "since" in fields:
             until_dates = tp.parse_extra_column(-2,
                 lambda x: get_day_month(x) if "as from" in x else "01-01")
@@ -166,6 +166,10 @@ class Rider(Scraper):
             tp.extend_table("until", until_dates)
 
         table = [row for row in tp.table if row['class']]
+        # remove class field if isn't needed
+        if "class" not in fields:
+            for row in table:
+                row.pop("class")
         return table
 
     def seasons_points(self, *args: str, available_fields: Tuple[str, ...] = (
