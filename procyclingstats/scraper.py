@@ -84,9 +84,9 @@ class Scraper:
         :raises ExpectedParsingError: when HTML is None
         """
         if self._html is None:
-            raise ExpectedParsingError(
+            raise AttributeError(
                 "In order to access HTML, update it using `self.update_html` " +
-                "method")
+                "method.")
         return self._html
 
     def relative_url(self) -> str:
@@ -196,7 +196,6 @@ class Scraper:
             assert page_title != "Page not found"
 
             page_title2 = self.html.css_first("div.page-content > div").text()
-            print(page_title2)
             assert page_title2 != ("Due to technical difficulties this page " +
             "is temporarily unavailable.")
 
