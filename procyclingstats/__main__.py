@@ -1,7 +1,7 @@
 import argparse
 import sys
 from pprint import pprint
-from typing import Any, Dict, List, Type
+from typing import Any, Dict, List, Tuple, Type
 
 from tabulate import tabulate
 
@@ -36,7 +36,8 @@ def configure_parser():
 			help="Whether to print full or shortened tables in output.")
 	return parser
 
-def get_scraper_obj_by_url(url: str) -> Type[Scraper]:
+def get_scraper_obj_by_url(url: str, scraper_classes: Tuple[Type[Scraper], ...]
+		) -> Type[Scraper]:
     """
     Gets scraper class that can parse HTML from given URL.
 
@@ -59,7 +60,7 @@ def run(args: argparse.Namespace) -> Scraper:
 	:param args: argparse arguments (currently url and fulltable)
 	:return: scraper object created from given URL
 	"""
-	scraper_class = get_scraper_obj_by_url(args.url)
+	scraper_class = get_scraper_obj_by_url(args.url, scraper_classes)
 	scraper_obj = scraper_class(args.url)
 	
 	# object created, so return when running in interactive mode

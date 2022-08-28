@@ -1,9 +1,7 @@
 import os
 import sys
 
-from procyclingstats import (Race, RaceStartlist, Ranking, Rider, RiderResults,
-                             Scraper, Stage, Team)
-from procyclingstats.__main__ import get_scraper_obj_by_url
+from procyclingstats.__main__ import get_scraper_obj_by_url, scraper_classes
 
 from .fixtures_utils import FixturesUtils
 
@@ -25,15 +23,7 @@ class CLI:
     "tests/fixtures/"
     """
 
-    scraper_classes = [
-        Race,
-        RaceStartlist,
-        Ranking,
-        Rider,
-        Stage,
-        Team,
-        RiderResults
-    ]
+
     command_types = ["add", "add_html", "update_htmls"]
     arg_error = ValueError(
         "Please provide valid arguments, example usage: " +
@@ -79,8 +69,7 @@ class CLI:
 
     def run(self):
         if self.command in ("add", "add_html") and self.url:
-            ScraperClass = get_scraper_obj_by_url(self.scraper_classes,
-                                                  self.url)
+            ScraperClass = get_scraper_obj_by_url(self.url, scraper_classes)
             obj = ScraperClass(self.url)
             filename = self.f.url_to_filename(obj.normalized_relative_url())
 
@@ -102,7 +91,7 @@ class CLI:
             for url in urls:
                 if self.logging:
                     print(f"Updating: {self.f.url_to_filename(url)}.txt")
-                ScraperClass = get_scraper_obj_by_url(self.scraper_classes, url)
+                ScraperClass = get_scraper_obj_by_url(url, scraper_classes)
                 scraper_obj = ScraperClass(url)
                 self.f.make_html_fixture(scraper_obj)
         else:
