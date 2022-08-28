@@ -21,13 +21,13 @@ scraper_classes = (
 
 def configure_parser():
 	parser = argparse.ArgumentParser(
-			prog="python -m procyclingstats",
-			description=
-			("CLI to procyclingstats package. Scraper object to parse " +
-			"given URL is evaluated automatically. When no scraper object is " +
-			"able to parse given URL ValueError is raised. When ran in " +
-			"interactive mode, nothing is printed and scraper object ready " +
-			"for parsing is available as `obj`.")
+		prog="python -m procyclingstats",
+		description=
+		("CLI to procyclingstats package. Scraper object to parse " +
+		"given URL is evaluated automatically. When no scraper object is " +
+		"able to parse given URL ValueError is raised. When ran in " +
+		"interactive mode, nothing is printed and scraper object ready " +
+		"for parsing is available as `obj`.")
 	)
 	parser.add_argument("url", metavar="url", type=str,
 						help="Absolute or relative URL of PCS page to parse.")
@@ -62,7 +62,7 @@ def run(args: argparse.Namespace) -> Scraper:
 	"""
 	scraper_class = get_scraper_obj_by_url(args.url, scraper_classes)
 	scraper_obj = scraper_class(args.url)
-	
+
 	# object created, so return when running in interactive mode
 	if sys.flags.interactive:
 		print(f"Scraper object `{scraper_obj}` can now be accessed as `obj`.")
