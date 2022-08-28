@@ -1,13 +1,14 @@
 import argparse
 import sys
-from pprint import pprint
+from pprint import pprint  # pylint: disable=unused-import
 from typing import Any, Dict, List, Tuple, Type
 
 from tabulate import tabulate
 
 # imports all scraping classes that are listed in `scraper_classes` tuple and
 # Scraper class
-from .__init__ import *
+from .__init__ import (Race, RaceStartlist, Ranking, Rider, RiderResults,
+                       Scraper, Stage, Team)
 
 scraper_classes = (
     Race,
@@ -36,7 +37,9 @@ def configure_parser():
             help="Whether to print full or shortened tables in output.")
     return parser
 
-def get_scraper_obj_by_url(url: str, scraper_classes: Tuple[Type[Scraper], ...]
+def get_scraper_obj_by_url(url: str,
+        scraper_classes: Tuple[Type[Scraper], ...] \
+            # pylint: disable=redefined-outer-name
         ) -> Type[Scraper]:
     """
     Gets scraper class that can parse HTML from given URL.
@@ -45,10 +48,10 @@ def get_scraper_obj_by_url(url: str, scraper_classes: Tuple[Type[Scraper], ...]
     :raises ValueError: When no scraping class is able to parse the URL
     :return: object created from given URL
     """
-    for ScraperClass in scraper_classes:
+    for scraper_class in scraper_classes:
         try:
-            ScraperClass(url, update_html=False)
-            return ScraperClass
+            scraper_class(url, update_html=False)
+            return scraper_class
         except ValueError:
             pass
     raise ValueError(f"Invalid URL: {url}")
@@ -105,6 +108,5 @@ def tab(table: List[Dict[str, Any]]) -> None:
     print(tabulate(table, headers="keys"))
 
 if __name__ == "__main__":
-    parser = configure_parser()
-    args = parser.parse_args()
-    obj = run(args)
+    arguments = configure_parser().parse_args()
+    obj = run(arguments)
