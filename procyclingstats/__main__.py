@@ -5,14 +5,9 @@ from typing import Any, Dict, List, Type
 
 from tabulate import tabulate
 
-from .race_scraper import Race
-from .race_startlist_scraper import RaceStartlist
-from .ranking_scraper import Ranking
-from .rider_results_scraper import RiderResults
-from .rider_scraper import Rider
-from .scraper import Scraper
-from .stage_scraper import Stage
-from .team_scraper import Team
+# imports all scraping classes that are listed in `scraper_classes` tuple and
+# Scraper class
+from .__init__ import *
 
 scraper_classes = (
 	Race,
@@ -27,11 +22,13 @@ scraper_classes = (
 def configure_parser():
 	parser = argparse.ArgumentParser(
 			prog="python -m procyclingstats",
-			description="CLI to procyclingstats package. Scraper object to parse " +
+			description=
+			("CLI to procyclingstats package. Scraper object to parse " +
 			"given URL is evaluated automatically. When no scraper object is " +
-			"able to parse given URL ValueError is raised. When running in " +
+			"able to parse given URL ValueError is raised. When ran in " +
 			"interactive mode, nothing is printed and scraper object ready " +
 			"for parsing is available as `obj`.")
+	)
 	parser.add_argument("url", metavar="url", type=str,
 						help="Absolute or relative URL of PCS page to parse.")
 	parser.add_argument("--fulltable", action="store_const", const=True,
@@ -67,7 +64,7 @@ def run(args: argparse.Namespace) -> Scraper:
 	
 	# object created, so return when running in interactive mode
 	if sys.flags.interactive:
-		print(f"Scraper object `{scraper_obj}` can be accessed as `obj`.")
+		print(f"Scraper object `{scraper_obj}` can now be accessed as `obj`.")
 		return scraper_obj
 
 	tables = {}
