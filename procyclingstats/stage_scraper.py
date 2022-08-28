@@ -73,9 +73,9 @@ class Stage(Scraper):
 
     def is_one_day_race(self) -> bool:
         """
-        Parses whether race is an one day race from HTML
+        Parses whether race is an one day race from HTML.
 
-        :return: whether the race is an one day race
+        :return: Whether the race is an one day race.
         """
         # If there are elements with .restabs class (Stage/GC... menu), the race
         # is a stage race
@@ -83,9 +83,9 @@ class Stage(Scraper):
 
     def distance(self) -> float:
         """
-        Parses stage distance from HTML
+        Parses stage distance from HTML.
 
-        :return: stage distance in kms
+        :return: Stage distance in kms.
         """
         distance_html = self.html.css_first(
             ".infolist > li:nth-child(5) > div:nth-child(2)")
@@ -93,19 +93,19 @@ class Stage(Scraper):
 
     def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
         """
-        Parses profile icon from HTML
+        Parses profile icon from HTML.
 
-        :return: profile icon e.g. `p4`, the higher the number is the more
-        difficult the profile is
+        :return: Profile icon e.g. `p4`, the higher the number is the more
+        difficult the profile is.
         """
         profile_html = self.html.css_first("span.icon")
         return profile_html.attributes['class'].split(" ")[2] # type: ignore
 
     def stage_type(self) -> Literal["ITT", "TTT", "RR"]:
         """
-        Parses stage type from HTML
+        Parses stage type from HTML.
 
-        :return: stage type
+        :return: Stage type, e.g. `ITT`.
         """
         stage_name_html = self.html.css_first(".sub > .blue")
         stage_name2_html = self.html.css_first("div.main > h1")
@@ -118,13 +118,15 @@ class Stage(Scraper):
         else:
             return "RR"
 
-    def winning_attack_length(self, when_none_or_unknown: float = 0.0) -> float:
+    def winning_attack_length(self,
+            when_none_or_unknown: float = 0.0) -> float:
         """
-        Parses length of winning attack from HTML
+        Parses length of winning attack from HTML.
 
-        :param when_none_or_unknown: value to return when there is no info
-        about winning attack, defaults to 0.0
-        :return: length of winning attack"""
+        :param when_none_or_unknown: Value to return when there is no info
+        about winning attack, defaults to 0.0.
+        :return: Length of winning attack in KMs.
+        """
         won_how_html = self.html.css_first(
             ".infolist > li:nth-child(12) > div:nth-child(2)")
         won_how = won_how_html.text()
@@ -135,9 +137,9 @@ class Stage(Scraper):
 
     def vertical_meters(self) -> Optional[int]:
         """
-        Parses vertical meters gained throughout the stage from HTML
+        Parses vertical meters gained throughout the stage from HTML.
 
-        :return: vertical meters
+        :return: Vertical meters.
         """
         vertical_meters_html = self.html.css_first(
             ".infolist > li:nth-child(9) > div:nth-child(2)")
@@ -146,9 +148,9 @@ class Stage(Scraper):
 
     def date(self) -> str:
         """
-        Parses date when stage took place from HTML
+        Parses date when stage took place from HTML.
 
-        :return: date when stage took place `YYYY-MM-DD`
+        :return: Date when stage took place `YYYY-MM-DD`.
         """
         date_html = self.html.css_first(".infolist > li > div:nth-child(2)")
         date = date_html.text().split(", ")[0]
@@ -156,9 +158,9 @@ class Stage(Scraper):
 
     def departure(self) -> str:
         """
-        Parses departure of the stage from HTML
+        Parses departure of the stage from HTML.
 
-        :return: departure of the stage
+        :return: Departure of the stage.
         """
         departure_html = self.html.css_first(
             ".infolist > li:nth-child(10) > div:nth-child(2)")
@@ -166,15 +168,39 @@ class Stage(Scraper):
 
     def arrival(self) -> str:
         """
-        Parses arrival of the stage from HTML
+        Parses arrival of the stage from HTML.
 
-        :return: arrival of the stage
+        :return: Arrival of the stage.
         """
         arrival_html = self.html.css_first(
             ".infolist > li:nth-child(11) > div:nth-child(2)")
         return arrival_html.text()
 
-    def results(self, *args: str, available_fields: Tuple[str, ...] = (
+    def results(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses main results table from HTML. If results table is TTT one day
+        race, fields `age` and `nationality` are set to None if are requested,
+        because they aren't contained in the HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's result in the stage.
+            - status: `DF`, `DNF`, `DNS`, `OTL` or `DSQ`.
+            - age: Rider's age.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - time: Rider's time in the stage.
+            - bonus: Bonus seconds that the rider gained in the stage.
+            - pcs_points:
+            - uci_points:
+
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rider_name",
             "rider_url",
             "team_name",
@@ -186,17 +212,8 @@ class Stage(Scraper):
             "time",
             "bonus",
             "pcs_points",
-            "uci_points")) -> List[Dict[str, Any]]:
-        """
-        Parses main results table from HTML. If results table is TTT one day
-        race, fields `age` and `nationality` are set to None if are requested,
-        because they aren't contained in the HTML.
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: results table represented as list of dicts
-        """
+            "uci_points"
+        )
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
@@ -239,8 +256,31 @@ class Stage(Scraper):
             table = table_parser.table
         return table
 
-    def gc(self, *args: str, available_fields: Tuple[str, ...] = ( \
+    def gc(self, *args: str) -> List[Dict[str, Any]]: \
         # pylint: disable=invalid-name
+        """
+        Parses results from GC results table from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's GC rank after the stage.
+            - prev_rank: Rider's GC rank before the stage.
+            - age: Rider's age.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - time: Rider's GC time after the stage.
+            - bonus: Bonus seconds that the rider gained throughout the race.
+            - pcs_points:
+            - uci_points:
+
+        :raises ExcpectedParsingError: When general classif. is unavailable.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rider_name",
             "rider_url",
             "team_name",
@@ -252,16 +292,8 @@ class Stage(Scraper):
             "time",
             "bonus",
             "pcs_points",
-            "uci_points")) -> List[Dict[str, Any]]:
-        """
-        Parses results from GC results table from HTML, available only on stage
-        races
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: GC results table represented as list of dicts
-        """
+            "uci_points"
+        )
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         gc_table_html = self._table_html("gc")
@@ -271,7 +303,29 @@ class Stage(Scraper):
         table_parser.parse(fields)
         return table_parser.table
 
-    def points(self, *args: str, available_fields: Tuple[str, ...] = (
+    def points(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses results from points classification results table from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's points classif. rank after the stage.
+            - prev_rank: Rider's points classif. rank before the stage.
+            - points: Rider's points classif. points after the stage.
+            - age: Rider's age.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - pcs_points:
+            - uci_points:
+
+        :raises ExcpectedParsingError: When points classif. is unavailable.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rider_name",
             "rider_url",
             "team_name",
@@ -282,17 +336,8 @@ class Stage(Scraper):
             "age",
             "nationality",
             "pcs_points",
-            "uci_points")) -> List[Dict[str, Any]]:
-        """
-        Parses results from points classification results table from HTML,
-        available only on stage races
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: points classification results table represented as list of
-        dicts
-        """
+            "uci_points"
+        )
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         points_table_html = self._table_html("points")
@@ -302,7 +347,29 @@ class Stage(Scraper):
         table_parser.parse(fields)
         return table_parser.table
 
-    def kom(self, *args: str, available_fields: Tuple[str, ...] = (
+    def kom(self, *args: str, available_fields: Tuple[str, ...] = ()) -> List[Dict[str, Any]]:
+        """
+        Parses results from KOM classification results table from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's KOM classif. rank after the stage.
+            - prev_rank: Rider's KOM classif. rank before the stage.
+            - points: Rider's KOM points after the stage.
+            - age: Rider's age.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - pcs_points:
+            - uci_points:
+
+        :raises ExcpectedParsingError: When KOM classif. is unavailable.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rider_name",
             "rider_url",
             "team_name",
@@ -313,16 +380,8 @@ class Stage(Scraper):
             "age",
             "nationality",
             "pcs_points",
-            "uci_points")) -> List[Dict[str, Any]]:
-        """
-        Parses results from KOM classification results table from HTML,
-        available only on stage races
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: KOM classification results table represented as list of dicts
-        """
+            "uci_points"
+        )
         fields = parse_table_fields_args(args, available_fields)
         # remove other result tables from html
         kom_table_html = self._table_html("kom")
@@ -332,7 +391,29 @@ class Stage(Scraper):
         table_parser.parse(fields)
         return table_parser.table
 
-    def youth(self, *args: str, available_fields: Tuple[str, ...] = (
+    def youth(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses results from youth classification results table from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's youth classif. rank after the stage.
+            - prev_rank: Rider's youth classif. rank before the stage.
+            - time: Rider's GC time after the stage.
+            - age: Rider's age.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - pcs_points:
+            - uci_points:
+
+        :raises ExcpectedParsingError: When youth classif. is unavailable.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rider_name",
             "rider_url",
             "team_name",
@@ -343,16 +424,8 @@ class Stage(Scraper):
             "age",
             "nationality",
             "pcs_points",
-            "uci_points")) -> List[Dict[str, Any]]:
-        """
-        Parses results from youth classification results table from HTML,
-        available only on stage races
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: youth classification results table represented as list of dicts
-        """
+            "uci_points"
+        )
         fields = parse_table_fields_args(args, available_fields)
         youth_table_html = self._table_html("youth")
         if not youth_table_html:
@@ -361,23 +434,31 @@ class Stage(Scraper):
         table_parser.parse(fields)
         return table_parser.table
 
-    def teams(self, *args: str, available_fields: Tuple[str, ...] = (
+    def teams(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses results from teams classification results table from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - team_name:
+            - team_url:
+            - rank: Teams's classif. rank after the stage.
+            - prev_rank: Team's classif. rank before the stage.
+            - time: Team's total GC time after the stage.
+            - nationality: Team's nationality as 2 chars long country code.
+
+        :raises ExcpectedParsingError: When teams classif. is unavailable.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "team_name",
             "team_url",
             "rank",
             "prev_rank",
             "time",
-            "nationality")) -> List[Dict[str, Any]]:
-        """
-        Parses results from teams classification results table from HTML,
-        available only on stage races
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: youth classification results table represented as list of
-        dicts
-        """
+            "nationality"
+        )
         fields = parse_table_fields_args(args, available_fields)
         teams_table_html = self._table_html("teams")
         if not teams_table_html:
@@ -394,10 +475,10 @@ class Stage(Scraper):
             "youth",
             "teams"]) -> Optional[Node]:
         """
-        Get HTML of a .result-cont table with results based on `table` param
+        Get HTML of a .result-cont table with results based on `table` param.
 
-        :param table: keyword of wanted table that occures in .restabs menu
-        :return: HTML of wanted HTML table, None when not found
+        :param table: Keyword of wanted table that occures in .restabs menu.
+        :return: HTML of wanted HTML table, None when not found.
         """
         categories = self.html.css(".result-cont")
         for i, element in enumerate(self.html.css("ul.restabs > li > a")):
@@ -410,9 +491,10 @@ class Stage(Scraper):
         """
         Parses data from TTT results table.
 
-        :param results_table_html: TTT results table HTML
-        :param fields: fields that returned table should have
-        :return: table represented as list of dicts
+        :param results_table_html: TTT results table HTML.
+        :param fields: Fields that returned table should have. Available are
+        all `results` table fields with the exception of age and nationality.
+        :return: Table with wanted fields.
         """
         team_fields = [
             "rank",

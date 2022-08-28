@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
@@ -69,7 +69,27 @@ class RiderResults(Scraper):
             if "class" in row.attributes and row.attributes['class'] == "sum":
                 row.decompose()
 
-    def results(self, *args: str, available_fields: Tuple[str, ...] = (
+    def results(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses general rider's results table from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - stage_url:
+            - stage_name:
+            - distance:
+            - date: Date when the stage occured in `YYYY-MM-DD` format.
+            - rank: Rider's result in the stage.
+            - class: Class of the stage's race, e.g. `2.UWT`.
+            - pcs_points:
+            - uci_points:
+
+        :raises ExpecterParsingError: When general results table is not
+        contained in the HTML.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "date",
             "rank",
             "stage_url",
@@ -78,17 +98,7 @@ class RiderResults(Scraper):
             "distance",
             "pcs_points",
             "uci_points"
-        )) -> List[Dict[str, Any]]:
-        """
-        Parses rider's results table from HTML.
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :raises ExpecterParsingError: when general results table is not
-        contained in the HTML
-        :return: rider's results table represented as list of dicts
-        """
+        )
         if self.html.css_first(".page-content > h2").text() != "All results":
             error_msg = ("This object doesn't support 'results' method. " +
                 "Create one from rider's default results table to call this " +
@@ -101,26 +111,34 @@ class RiderResults(Scraper):
         table_parser.parse(fields)
         return table_parser.table
 
-    def final_n_km_results(self, *args: str,
-                           available_fields: Tuple[str, ...] = (
-                                "date",
-                                "rank",
-                                "stage_url",
-                                "stage_name",
-                                "class",
-                                "vertical_meters",
-                                "average_percentage"
-                           )) -> List[Dict[str, Any]]:
+    def final_n_km_results(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses rider's final N kms results table from HTML.
+        Parses rider's final n KMs results table from HTML.
 
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :raises ExpecterParsingError: when final n kms results table is not
-        contained in the HTML
-        :return: results table represented as list of dicts
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - stage_url:
+            - stage_name:
+            - date: Date when the stage occured in `YYYY-MM-DD` format.
+            - rank: Rider's result in the stage.
+            - class: Class of the stage's race, e.g. `2.UWT`.
+            - vertical_meters: Vertical meters gained in final n KMs.
+            - average_percentage: Average percentage of last n KMs.
+
+        :raises ExpecterParsingError: When final n KMs results table is not
+        contained in the HTML.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
         """
+        available_fields = (
+            "date",
+            "rank",
+            "stage_url",
+            "stage_name",
+            "class",
+            "vertical_meters",
+            "average_percentage"
+        )
         if (self.html.css_first(".page-content > h2").text() !=
                 "Top results final 5k analysis"):
             error_msg = ("This object doesn't support 'final_n_km_results'" +
@@ -149,8 +167,8 @@ class RiderResults(Scraper):
         """
         Parses seasons select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "xseason"))
 
@@ -158,8 +176,8 @@ class RiderResults(Scraper):
         """
         Parses race select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "race"))
 
@@ -167,8 +185,8 @@ class RiderResults(Scraper):
         """
         Parses race select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "offset"))
 
@@ -176,8 +194,8 @@ class RiderResults(Scraper):
         """
         Parses stage types select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "type"))
 
@@ -185,8 +203,8 @@ class RiderResults(Scraper):
         """
         Parses nations select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "znation"))
 
@@ -194,7 +212,7 @@ class RiderResults(Scraper):
         """
         Parses categories select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "category"))

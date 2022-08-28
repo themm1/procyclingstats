@@ -68,6 +68,7 @@ class Scraper:
         return f"{type(self).__name__}(url='{self.normalized_relative_url()}')"
 
     def __eq__(self, other) -> bool:
+        """Compares two classes based on their `normalized_relative_url`."""
         if isinstance(type(self), type(other)):
             return False
         return (self.normalized_relative_url() ==
@@ -75,13 +76,13 @@ class Scraper:
 
     @property
     def url(self) -> str:
-        """Get URL of a scraper object"""
+        """Absolute object's URL."""
         return self._url
 
     @property
     def html(self) -> HTMLParser:
         """
-        Get HTML of a scraper object
+        Object's HTML.
 
         :raises AttributeError: when HTML is None
         """
@@ -93,9 +94,9 @@ class Scraper:
 
     def relative_url(self) -> str:
         """
-        Makes relative URL from absolute url (cuts `self.BASE_URL` from URL)
+        Makes relative URL from absolute url (cuts `self.BASE_URL` from URL).
 
-        :return: relative URL
+        :return: Relative URL.
         """
         return "/".join(self._url.split("/")[3:])
 
@@ -105,7 +106,7 @@ class Scraper:
         from user defined relative URL. Is used for evaluating equality of
         objects and should be overridden by subclass.
 
-        :return: normalized URL
+        :return: Normalized URL.
         """
         return "/".join(self._decompose_url())
 
@@ -124,11 +125,11 @@ class Scraper:
         Creates JSON like dict with parsed data by calling all parsing methods.
         Keys in dict are methods names and values parsed data
 
-        :param exceptions_to_ignore: tuple of exceptions that should be
-        ignored, defaults to `(ExpectedParsingError)`
-        :param none_when_unavailable: whether to set dict value to None when
-        method raises ignored exception
-        :return: dict with parsing methods mapping to parsed data
+        :param exceptions_to_ignore: Tuple of exceptions that should be
+        ignored, defaults to `(ExpectedParsingError)`.
+        :param none_when_unavailable: Whether to set dict value to None when
+        method raises ignored exception.
+        :return: Dict with parsing methods mapping to parsed data.
         """
         parsing_methods = self._parsing_methods()
         parsed_data = {}
@@ -144,7 +145,7 @@ class Scraper:
         """
         Splits relative URL to list of strings.
 
-        :return: splitted relative URL without empty strings
+        :return: Splitted relative URL without empty strings.
         """
         splitted_url = self.relative_url().split("/")
         return [part for part in splitted_url if part]
@@ -154,7 +155,7 @@ class Scraper:
         Gets all parsing methods from a class. That are all public methods
         except of methods listed in `_public_nonparsing_methods`.
 
-        :return: list of tuples parsing methods names and parsing methods
+        :return: List of tuples parsing methods names and parsing methods.
         """
         methods = inspect.getmembers(self, predicate=inspect.ismethod)
         parsing_methods = []
@@ -167,10 +168,10 @@ class Scraper:
     def _make_url_absolute(self, url: str) -> str:
         """
         Makes absolute URL from given url (adds `self.base_url` to URL if
-        needed)
+        needed).
 
-        :param url: URL to format
-        :return: absolute URL
+        :param url: URL to format.
+        :return: Absolute URL.
         """
         if "https" not in url:
             if url[0] == "/":
@@ -190,7 +191,7 @@ class Scraper:
         Checks whether given HTML is valid based on some known invalid formats
         of invalid HTMLs.
 
-        :return: True if given HTML is valid, otherwise False
+        :return: True if given HTML is valid, otherwise False.
         """
         try:
             page_title = self.html.css_first(".page-title > .main > h1").text()

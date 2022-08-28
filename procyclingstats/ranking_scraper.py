@@ -39,93 +39,137 @@ class Ranking(Scraper):
             decomposed_url[0] = decomposed_url[0].split(".")[0]
         return "/".join(decomposed_url)
 
-    def individual_ranking(self, *args: str,
-                           available_fields: Tuple[str, ...] = (
-                               "rank",
-                               "prev_rank",
-                               "rider_name",
-                               "rider_url",
-                               "team_name",
-                               "team_url",
-                               "nationality",
-                               "points")) -> List[Dict[str, Any]]:
+    def individual_ranking(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses individual ranking from HTML
+        Parses individual ranking from HTML.
 
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :raises Exception: when object doesn't have individual ranking URL
-        :return: table represented as list of dicts
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's rank in the ranking.
+            - prev_rank: Rider's rank in previous ranking update.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - points:
+
+        :raises ExpectedParsingError: When ranking HTML is not an individual
+        points ranking.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
         """
+        available_fields = (
+            "rank",
+            "prev_rank",
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "nationality",
+            "points"
+        )
         if self._ranking_type() != "individual":
             raise ExpectedParsingError(
                 "This object doesn't support individual_ranking method, create"
                 "one with individual ranking URL to call this method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
-    def team_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
+    def team_ranking(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses team ranking from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - team_name:
+            - team_url:
+            - rank: Team's rank in the ranking.
+            - prev_rank: Team's rank in previous ranking update.
+            - nationality: Team's nationality as 2 chars long country code.
+            - class: Team's class, e.g. `WT`.
+            - points:
+
+        :raises ExpectedParsingError: When ranking HTML is not a team points
+        ranking.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rank",
             "prev_rank",
             "team_name",
             "team_url",
             "nationality",
             "class",
-            "points")) -> List[Dict[str, Any]]:
-        """
-        Parses team ranking from HTML
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :raises Exception: when object doesn't have teams ranking URL
-        :return: table represented as list of dicts
-        """
+            "points"
+        )
         if self._ranking_type() != "teams":
             raise ExpectedParsingError(
                 "This object doesn't support team_ranking method, "
                 "create one with teams ranking URL to call this method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
-    def nations_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
+    def nations_ranking(self, *args: str) -> List[Dict[str, Any]]:
+
+        """
+        Parses nations ranking from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - nation_name:
+            - nation_url:
+            - rank: Nation's rank in the ranking.
+            - prev_rank: Nation's rank in previous ranking update.
+            - nationality: Nation as 2 chars long country code.
+            - points:
+
+        :raises ExpectedParsingError: When ranking HTML is not a nationality
+        points ranking.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rank",
             "prev_rank",
             "nation_name",
             "nation_url",
             "nationality",
-            "points")) -> List[Dict[str, Any]]:
-        """
-        Parses nations ranking from HTML
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :raises Exception: when object doesn't have nations ranking URL
-        :return: table represented as list of dicts
-        """
+            "points"
+        )
         if self._ranking_type() != "nations":
             raise ExpectedParsingError(
                 "This object doesn't support nations_ranking method, create" +
                 "one with nations ranking URL to call this method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
-    def races_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
+    def races_ranking(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses race ranking from HTML. Race points are evaluated based on
+        startlist quality score.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - race_name:
+            - race_url:
+            - rank: Race's rank in the ranking.
+            - prev_rank: Race's rank in previous ranking update.
+            - nationality: Race's nationality as 2 chars long country code.
+            - class: Race's class, e.g. `WT`.
+            - points:
+
+        :raises ExpectedParsingError: When ranking HTML is not a race ranking.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rank",
             "prev_rank",
             "race_name",
             "race_url",
             "nationality",
             "class",
-            "points")) -> List[Dict[str, Any]]:
-        """
-        Parses races ranking from HTML
-
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :raises Exception: when object doesn't have races ranking URL
-        :return: table represented as list of dicts
-        """
+            "points"
+        )
         if self._ranking_type() != "races":
             raise ExpectedParsingError(
                 "This object doesn't support races_ranking method, create one"
@@ -145,78 +189,115 @@ class Ranking(Scraper):
         table_parser.rename_field("stage_url", "race_url")
         return table_parser.table
 
-    def individual_wins_ranking(self, *args: str,
-                                available_fields: Tuple[str, ...] = (
-                                    "rank",
-                                    "prev_rank",
-                                    "rider_name",
-                                    "rider_url",
-                                    "team_name",
-                                    "team_url",
-                                    "nationality",
-                                    "first_places",
-                                    "second_places",
-                                    "third_places"
-                                )) -> List[Dict[str, Any]]:
+    def individual_wins_ranking(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses individual wins ranking from HTML
+        Parses individual wins ranking from HTML.
 
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :raises Exception: when object doesn't have individual wins ranking URL
-        :return: table represented as list of dicts
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's rank in the ranking.
+            - prev_rank: Rider's rank in previous ranking update.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - first_places:
+            - second_places:
+            - third_places:
+
+        :raises ExpectedParsingError: When ranking HTML is not an individual
+        wins ranking.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
         """
+        available_fields = (
+            "rank",
+            "prev_rank",
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "nationality",
+            "first_places",
+            "second_places",
+            "third_places"
+        )
         if self._ranking_type() != "individual_wins":
             raise ExpectedParsingError(
                 "This object doesn't support races_ranking method, create one"
                 "with individual wins ranking URL to call this method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
-    def teams_wins_ranking(self, *args: str,
-                           available_fields: Tuple[str, ...] = (
-                               "rank",
-                               "prev_rank",
-                               "team_name",
-                               "team_url",
-                               "nationality",
-                               "class",
-                               "first_places",
-                               "second_places",
-                               "third_places")) -> List[Dict[str, Any]]:
+    def teams_wins_ranking(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses teams wins ranking from HTML
+        Parses team wins ranking from HTML.
 
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :raises Exception: when object doesn't have teams wins ranking URL
-        :return: table represented as list of dicts
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - team_name:
+            - team_url:
+            - rank: Team's rank in the ranking.
+            - prev_rank: Team's rank in previous ranking update.
+            - nationality: Team's nationality as 2 chars long country code.
+            - class: Team's class, e.g. `WT`.
+            - first_places:
+            - second_places:
+            - third_places:
+
+        :raises ExpectedParsingError: When ranking HTML is not a team wins
+        ranking.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
         """
+        available_fields = (
+            "rank",
+            "prev_rank",
+            "team_name",
+            "team_url",
+            "nationality",
+            "class",
+            "first_places",
+            "second_places",
+            "third_places"
+        )
         if self._ranking_type() != "team_wins":
             raise ExpectedParsingError(
                 "This object doesn't support teams_wins_ranking method, "
                 "create one with teams wins ranking URL to call this method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
-    def nations_wins_ranking(self, *args: str,
-                             available_fields: Tuple[str, ...] = (
-                                 "rank",
-                                 "prev_rank",
-                                 "nation_name",
-                                 "nation_url",
-                                 "nationality",
-                                 "first_places",
-                                 "second_places",
-                                 "third_places")) -> List[Dict[str, Any]]:
+    def nations_wins_ranking(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses nations wins ranking from HTML
+        Parses nations wins ranking from HTML.
 
-        :param *args: fields that should be contained in results table
-        :param available_fields: default fields, all available options
-        :raises Exception: when object doesn't have nations wins ranking URL
-        :return: table represented as list of dicts
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - nation_name:
+            - nation_url:
+            - rank: Nation's rank in the ranking.
+            - prev_rank: Nation's rank in previous ranking update.
+            - nationality: Nation as 2 chars long country code.
+            - first_places:
+            - second_places:
+            - third_places:
+
+        :raises ExpectedParsingError: When ranking HTML is not a nation wins
+        ranking.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
         """
+        available_fields = (
+            "rank",
+            "prev_rank",
+            "nation_name",
+            "nation_url",
+            "nationality",
+            "first_places",
+            "second_places",
+            "third_places"
+        )
+
         if self._ranking_type() != "nation_wins":
             raise ExpectedParsingError(
                 "This object doesn't support nations_wins_ranking method, " +
@@ -228,8 +309,8 @@ class Ranking(Scraper):
         """
         Parses dates select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "date"))
 
@@ -237,8 +318,8 @@ class Ranking(Scraper):
         """
         Parses nations select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "nation"))
 
@@ -246,8 +327,8 @@ class Ranking(Scraper):
         """
         Parses teams select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "team"))
 
@@ -255,8 +336,8 @@ class Ranking(Scraper):
         """
         Parses pages select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "offset"))
 
@@ -264,8 +345,8 @@ class Ranking(Scraper):
         """
         Parses team levels select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         return parse_select(select_menu_by_name(self.html, "teamlevel"))
 
@@ -281,29 +362,28 @@ class Ranking(Scraper):
         """
         Finds out what is the ranking type of the object based on URL
 
-        :return: ranking type
+        :return: Ranking type.
         """
         relative_url = self.relative_url()
         if len(relative_url.split("/")) < 3 and "?" not in relative_url:
             return "individual"
-        elif "races" in relative_url:
+        if "races" in relative_url:
             return "races"
-        elif "distance" in relative_url:
+        if "distance" in relative_url:
             return "distance"
-        elif "racedays" in relative_url:
+        if "racedays" in relative_url:
             return "racedays"
-        elif "wins-individual" in relative_url:
+        if "wins-individual" in relative_url:
             return "individual_wins"
-        elif "wins-teams" in relative_url:
+        if "wins-teams" in relative_url:
             return "team_wins"
-        elif "wins-nations" in relative_url:
+        if "wins-nations" in relative_url:
             return "nation_wins"
-        elif "nations" in relative_url:
+        if "nations" in relative_url:
             return "nations"
-        elif "teams" in relative_url:
+        if "teams" in relative_url:
             return "teams"
-        else:
-            return "individual"
+        return "individual"
 
     def _parse_regular_ranking_table(self,
             args: Tuple[str, ...],
@@ -311,9 +391,10 @@ class Ranking(Scraper):
         """
         Does general ranking parsing procedure using TableParser.
 
-        :param args: parsing method args
-        :param available_fields: available table fields for parsing method
-        :return: table represented as list of dicts
+        :param args: Parsing method args (only the ones that
+        `TableParser.parse` method is able to parse).
+        :param available_fields: Available table fields for parsing method
+        :return: Table with wanted fields.
         """
         fields = parse_table_fields_args(args, available_fields)
         html_table = self.html.css_first("table")

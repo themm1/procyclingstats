@@ -5,7 +5,7 @@ class ExpectedParsingError(Exception):
     """
     Exception to raise when data can't be parsed due to some known factor
 
-    :param message: exception message to print when raised
+    :param message: Exception message to print when raised.
     """
 
     def __init__(self, message: str) -> None:
@@ -19,7 +19,7 @@ class UnexpectedParsingError(Exception):
     """
     Exception to raise when data can't be parsed due to some unknown factor
 
-    :param message: exception message to print when raised
+    :param message: Exception message to print when raised.
     """
 
     def __init__(self,
@@ -34,7 +34,7 @@ class ParsedValueInvalidError(Exception):
     Exception to raise when parsed value didn't pass some kind of validity
     check.
 
-    :param message: exception message to print when raised
+    :param message: Exception message to print when raised.
     """
 
     def __init__(self, value: Any,

@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List
 
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -9,7 +9,7 @@ from .utils import (format_regex_str, normalize_race_url,
 class RaceStartlist(Scraper):
     """
     Scraper for race startlist HTML page. Example URL:
-    `race/tour-de-france/2022/startlist`
+    `race/tour-de-france/2022/startlist`.
     """
     _url_validation_regex = format_regex_str(
     f"""
@@ -31,22 +31,32 @@ class RaceStartlist(Scraper):
         """
         return normalize_race_url(self._decompose_url(), "startlist")
 
-    def startlist(self, *args: str, available_fields: Tuple[str, ...] = (
+    def startlist(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses startlist from HTML. When startlist is individual (without
+        teams) fields team name, team url and rider nationality are set to
+        None.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - nationality: Rider's nationality as 2 chars long country code.
+            - rider_number: Rider's ID number in the race.
+
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "rider_name",
             "rider_url",
             "team_name",
             "team_url",
             "nationality",
-            "rider_number")) -> List[Dict[str, Any]]:
-        """
-        Parses startlist from HTML. When startlist is individual (without
-        teams) fields team name, url and rider nationality are set to None.
-
-        :param *args: fields that should be contained in table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: startlist table represented as list of dicts
-        """
+            "rider_number"
+        )
         fields = parse_table_fields_args(args, available_fields)
         startlist_html = self.html.css_first(".startlist_v3")
         # startlist is individual startlist e.g.

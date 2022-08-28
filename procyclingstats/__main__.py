@@ -44,9 +44,9 @@ def get_scraper_obj_by_url(url: str,
     """
     Gets scraper class that can parse HTML from given URL.
 
-    :param url: pcs URL
-    :raises ValueError: When no scraping class is able to parse the URL
-    :return: object created from given URL
+    :param url: Procyclingstats URL.
+    :raises ValueError: When no scraping class is able to parse the URL.
+    :return: Object created from given URL.
     """
     for scraper_class in scraper_classes:
         try:
@@ -60,8 +60,8 @@ def run(args: argparse.Namespace) -> Scraper:
     """
     Runs CLI script with given arguments.
 
-    :param args: argparse arguments (currently url and fulltable)
-    :return: scraper object created from given URL
+    :param args: Argparse arguments (currently 'url' and 'fulltable').
+    :return: Scraper object created from given URL.
     """
     scraper_class = get_scraper_obj_by_url(args.url, scraper_classes)
     scraper_obj = scraper_class(args.url)
@@ -103,7 +103,7 @@ def tab(table: List[Dict[str, Any]]) -> None:
     Utility function for easier table tabulating when running in interactive
     mode.
 
-    :param table: table to tabulate
+    :param table: Table to tabulate.
     """
     print(tabulate(table, headers="keys"))
 

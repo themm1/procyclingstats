@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
@@ -34,35 +34,35 @@ class Race(Scraper):
 
     def year(self) -> int:
         """
-        Parse year when the race occured
+        Parse year when the race occured from HTML.
 
-        :return: year
+        :return: Year when the race occured.
         """
         return int(self.html.css_first("span.hideIfMobile").text())
 
     def display_name(self) -> str:
         """
-        Parses display name from HTML
+        Parses display name from HTML.
 
-        :return: display name e.g. `Tour de France`
+        :return: Display name e.g. `Tour de France`.
         """
         display_name_html = self.html.css_first(".page-title > .main > h1")
         return display_name_html.text()
 
     def is_one_day_race(self) -> bool:
         """
-        Parses whether race is one day race from HTML
+        Parses whether race is one day race from HTML.
 
-        :return: whether given race is one day race
+        :return: Whether given race is one day race.
         """
         one_day_race_html = self.html.css_first("div.sub > span.blue")
         return "stage" not in one_day_race_html.text().lower()
 
     def nationality(self) -> str:
         """
-        Parses race nationality from HTML
+        Parses race nationality from HTML.
 
-        :return: 2 chars long country code
+        :return: 2 chars long country code in uppercase.
         """
         nationality_html = self.html.css_first(
             ".page-title > .main > span.flag")
@@ -71,9 +71,9 @@ class Race(Scraper):
 
     def edition(self) -> int:
         """
-        Parses race edition year from HTML
+        Parses race edition year from HTML.
 
-        :return: edition as int
+        :return: edition as int.
         """
         edition_html = self.html.css_first(
             ".page-title > .main > span + font")
@@ -83,9 +83,9 @@ class Race(Scraper):
 
     def startdate(self) -> str:
         """
-        Parses race startdate from HTML
+        Parses race startdate from HTML.
 
-        :return: startdate in `DD-MM-YYYY` format
+        :return: Startdate in `DD-MM-YYYY` format.
         """
         startdate_html = self.html.css_first(
             ".infolist > li > div:nth-child(2)")
@@ -93,56 +93,66 @@ class Race(Scraper):
 
     def enddate(self) -> str:
         """
-        Parses race enddate from HTML
+        Parses race enddate from HTML.
 
-        :return: enddate in `DD-MM-YYYY` format
+        :return: Enddate in `DD-MM-YYYY` format.
         """
         enddate_html = self.html.css(".infolist > li > div:nth-child(2)")[1]
         return enddate_html.text()
 
     def category(self) -> str:
         """
-        Parses race category from HTML
+        Parses race category from HTML.
 
-        :return: race category e.g. `Men Elite`
+        :return: Race category e.g. `Men Elite`.
         """
         category_html = self.html.css(".infolist > li > div:nth-child(2)")[2]
         return category_html.text()
 
     def uci_tour(self) -> str:
         """
-        Parses UCI Tour of the race from HTML
+        Parses UCI Tour of the race from HTML.
 
-        :return: UCI Tour of the race e.g. `UCI Worldtour`
+        :return: UCI Tour of the race e.g. `UCI Worldtour`.
         """
         uci_tour_html = self.html.css(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text()
 
     def prev_editions(self) -> List[Dict[str, str]]:
         """
-        Parses previous race editions
+        Parses previous race editions from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         editions_select_html = self.html.css_first("form > select")
         return parse_select(editions_select_html)
 
-    def stages(self, *args: str, available_fields: Tuple[str, ...] = (
+    def stages(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses race stages from HTML (available only on stage races).
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - date: Date when the stage occured in 'MM-DD' format.
+            - profile_icon: Profile icon of the stage (p1, p2, ... p5).
+            - stage_name: Name of the stage, e.g
+                'Stage 2 | Roskilde - Nyborg'.
+            - stage_url: URL of the stage, e.g.
+                'race/tour-de-france/2022/stage-2'.
+            - distance: Stage distance in KMs as float.
+
+        :raises ExcpectedParsingError: When race is one day race.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "date",
             "profile_icon",
             "stage_name",
             "stage_url",
-            "distance")) -> List[Dict[str, Any]]:
-        """
-        Parses race stages from HTML (available only on stage races)
-
-        :param *args: fields that should be contained in results table,
-        available options are a all included in `fields` default value
-        :param available_fields: default fields, all available options
-        :raises Exception: when race is one day race
-        :return: table with wanted fields represented as list of dicts
-        """
+            "distance"
+        )
         if self.is_one_day_race():
             raise ExpectedParsingError(
                 "This method is available only on stage races")

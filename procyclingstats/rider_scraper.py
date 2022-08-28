@@ -1,5 +1,5 @@
 import calendar
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List
 
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -31,9 +31,9 @@ class Rider(Scraper):
 
     def birthdate(self) -> str:
         """
-        Parses rider's birthdate from HTML
+        Parses rider's birthdate from HTML.
 
-        :return: birthday of the rider in `YYYY-MM-DD` format
+        :return: birthday of the rider in `YYYY-MM-DD` format.
         """
         general_info_html = self.html.css_first(".rdr-info-cont")
         bd_string = general_info_html.text(separator=" ", deep=False)
@@ -46,7 +46,7 @@ class Rider(Scraper):
         """
         Parses rider's place of birth from HTML
 
-        :return: rider's place of birth (town only)
+        :return: rider's place of birth (town only).
         """
         # normal layout
         try:
@@ -61,17 +61,17 @@ class Rider(Scraper):
 
     def name(self) -> str:
         """
-        Parses rider's name from HTML
+        Parses rider's name from HTML.
 
-        :return: rider's name
+        :return: Rider's name.
         """
         return self.html.css_first(".page-title > .main > h1").text()
 
     def weight(self) -> int:
         """
-        Parses rider's current weight from HTML
+        Parses rider's current weight from HTML.
 
-        :return: rider's weigth
+        :return: Rider's weigth in kilograms.
         """
         # normal layout
         try:
@@ -84,9 +84,9 @@ class Rider(Scraper):
 
     def height(self) -> float:
         """
-        Parses rider's height from HTML
+        Parses rider's height from HTML.
 
-        :return: rider's height
+        :return: Rider's height in meters.
         """
         # normal layout
         try:
@@ -100,10 +100,10 @@ class Rider(Scraper):
 
     def nationality(self) -> str:
         """
-        Parses rider's nationality from HTML
+        Parses rider's nationality from HTML.
 
-        :return: rider's current nationality as 2 chars long country code in
-        uppercase
+        :return: Rider's current nationality as 2 chars long country code in
+        uppercase.
         """
         # normal layout
         nationality_html = self.html.css_first(".rdr-info-cont > .flag")
@@ -115,21 +115,32 @@ class Rider(Scraper):
         return flag_class.split(" ")[-1].upper() # type:ignore
 
 
-    def seasons_teams(self, *args: str, available_fields: Tuple[str, ...] = (
+    def seasons_teams(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses rider's team history throughout career.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - team_name:
+            - team_url:
+            - season:
+            - class: Team's class, e.g. `WT`.
+            - until: First day for rider in current season in the team, most of
+            the time 01-01.
+            - until: Last day for rider in current season in the team, most of
+            the time 12-31.
+
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "season",
             "since",
             "until",
             "team_name",
             "team_url",
-            "class")) -> List[Dict[str, Any]]:
-        """
-        Parses rider's teams per season from HTML
-
-        :param *args: fields that should be contained in table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: table represented as list of dicts
-        """
+            "class"
+        )
         fields = parse_table_fields_args(args, available_fields)
         seasons_html_table = self.html.css_first("ul.list.rdr-teams")
         table_parser = TableParser(seasons_html_table)
@@ -158,18 +169,24 @@ class Rider(Scraper):
                 row.pop("class")
         return table
 
-    def seasons_points(self, *args: str, available_fields: Tuple[str, ...] = (
+    def seasons_points(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses rider's points per season history.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - season:
+            - points: PCS points gained throughout the season.
+            - rank: PCS ranking position after the season.
+
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "season",
             "points",
-            "rank")) -> List[Dict[str, Any]]:
-        """
-        Parses rider's points per season from HTML
-
-        :param *args: fields that should be contained in table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: table represented as list of dicts
-        """
+            "rank"
+        )
         fields = parse_table_fields_args(args, available_fields)
         points_table_html = self.html.css_first("table.rdr-season-stats")
         table_parser = TableParser(points_table_html)

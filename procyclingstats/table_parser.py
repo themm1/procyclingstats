@@ -11,7 +11,7 @@ class TableParser:
     Parser for HTML tables. Parsed content is stored in `self.table`, which is
     represented as list of dicts.
 
-    :param html_table: HTML table to be parsed from
+    :param html_table: HTML table to be parsed from.
     """
 
     table_row_dict: Dict[str, str] = {
@@ -19,12 +19,12 @@ class TableParser:
         "table": "tr",
         "ul": "li"
     }
-    """Finds out what is the table row tag"""
+    """Finds out what is the table row tag."""
     row_column_tag_dict: Dict[str, str] = {
         "tr": "td",
         "li": "div"
     }
-    """Finds out what is the table row column tag"""
+    """Finds out what is the table row column tag."""
 
     def __init__(self, html_table: Node) -> None:
         self.table = []
@@ -48,11 +48,11 @@ class TableParser:
         """
         Parses HTML table to `self.table` (list of dicts) by calling given
         table parsing methods. Every parsed table row is dictionary with
-        `fields` keys
+        `fields` keys.
 
-        :param fields: table parsing methods of this class
-        :raises UnexpectedParsingError: when parsed field values aren't the
-        same size as table length
+        :param fields: Table parsing methods of this class.
+        :raises UnexpectedParsingError: When parsed field values aren't the
+        same size as table length.
 
         :regular fields options:
             - rider_url
@@ -114,9 +114,9 @@ class TableParser:
         """
         Add given values to table.
 
-        :param field_name: name for column that's being added
-        :param values: values which are being added
-        :raises ValueError: when values to add aren't the same length as table
+        :param field_name: Name for column that's being added.
+        :param values: Values which are being added.
+        :raises ValueError: When values to add aren't the same length as table.
         """
         if len(values) != self.table_length:
             raise ValueError(
@@ -130,20 +130,16 @@ class TableParser:
 
     def parse_extra_column(self, index_or_header_value: Union[int, str],
                      func: Callable = int,
-                     skip: Callable = lambda _: False,
                      separator: str = "") -> List[Any]:
         """
         Parses values from given column.
 
-        :param index_or_header_value: either index of column to parse (negative
+        :param index_or_header_value: Either index of column to parse (negative
         indexing works too) or column name from table header (table has to have
-        a header in that case)
-        :param func: function to call on parsed text value, defaults to int
-        :param skip: fucntion to call on every element that is going to be
-        parsed when returns True element isn't parsed, defaults to lambda _:
-        False
-        :param separator: separator for text attributes given to `func`
-        :return: list with parsed values
+        a header in that case).
+        :param func: Function to call on parsed text value, defaults to int.
+        :param separator: Separator for text attributes given to `func`.
+        :return: List with parsed values.
         """
         if isinstance(index_or_header_value, str):
             index = self._get_column_index_from_header(index_or_header_value)
@@ -157,8 +153,6 @@ class TableParser:
 
         values = []
         for element in elements:
-            if skip(element):
-                continue
             values.append(func(element.text(separator=separator)))
         return values
 
@@ -227,7 +221,7 @@ class TableParser:
         Parses all bonuses elements from the table. If there aren't any returns
         where every row has bonus 0.
 
-        :return: list of bonuses
+        :return: List of bonuses.
         """
         bonuses_elements = self.html_table.css(".bonis")
         bonuses = []
@@ -258,7 +252,7 @@ class TableParser:
         Parses all season elements text values from table. If value is not
         numeric sesaon is set to None.
 
-        :return: list of seasons
+        :return: List of seasons.
         """
         seasons_elements = self.html_table.css(".season")
         seasons = []
@@ -319,7 +313,7 @@ class TableParser:
         it won't be interchanged with class keyword. In parsed table underscore
         is removed.
 
-        :return: list of classes
+        :return: List of classes.
         """
         return self.parse_extra_column("Class", str)
 
@@ -346,8 +340,8 @@ class TableParser:
         """
         Renames field from table.
 
-        :param field_name: original field name
-        :param new_field_name: new name of original field
+        :param field_name: Original field name.
+        :param new_field_name: New name of original field.
         """
         for row in self.table:
             value = row.pop(field_name)
@@ -368,8 +362,8 @@ class TableParser:
         Sums all times from table with first time from table. Table has to have
         at least 2 rows.
 
-        :param time_field: field which represents wanted time, defaults to
-        `time`
+        :param time_field: Field which represents wanted time, defaults to
+        `time`.
         """
         first_time = self.table[0][time_field]
         for row in self.table[1:]:
@@ -381,10 +375,10 @@ class TableParser:
         Filters from all a elements these which has at the beggining of their
         href given keyword and gets their href or text.
 
-        :param keyword: keyword that element's href should have
-        :param get_href: whether to return the href of a element, when False
-        text is returned
-        :return: list of all a elements texts or hrefs with given keyword
+        :param keyword: Keyword that element's href should have.
+        :param get_href: Whether to return the href of a element, when False
+        text is returned.
+        :return: List of all a elements texts or hrefs with given keyword.
         """
         filtered_values = []
         for a_element in self.a_elements:

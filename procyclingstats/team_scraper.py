@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -28,18 +28,18 @@ class Team(Scraper):
 
     def display_name(self) -> str:
         """
-        Parses team display name from HTML
+        Parses team display name from HTML.
 
-        :return: display name e.g. `BORA - hansgrohe`
+        :return: Display name, e.g. `BORA - hansgrohe`.
         """
         display_name_html = self.html.css_first(".page-title > .main > h1")
         return display_name_html.text().split(" (")[0]
 
     def nationality(self) -> str:
         """
-        Parses team's nationality from HTML
+        Parses team's nationality from HTML.
 
-        :return: team's nationality as 2 chars long country code in uppercase
+        :return: Team's nationality as 2 chars long country code in uppercase.
         """
         nationality_html = self.html.css_first(
             ".page-title > .main > span.flag")
@@ -48,10 +48,10 @@ class Team(Scraper):
 
     def status(self) -> str:
         """
-        Parses team status (class) from HTML
+        Parses team status (class) from HTML.
 
-        :return: team status as 2 chars long code in uppercase e.g. `WT` (World
-        Tour)
+        :return: Team status as 2 chars long code in uppercase e.g. `WT` (World
+        Tour).
         """
         team_status_html = self.html.css_first(
             "div > ul.infolist > li:nth-child(1) > div:nth-child(2)")
@@ -59,10 +59,10 @@ class Team(Scraper):
 
     def abbreviation(self) -> str:
         """
-        Parses team abbreviation from HTML
+        Parses team abbreviation from HTML.
 
-        :return: team abbreviation as 3 chars long code in uppercase e.g. `BOH`
-        (BORA - hansgrohe)
+        :return: Team abbreviation as 3 chars long code in uppercase e.g. `BOH`
+        (BORA - hansgrohe).
         """
         abbreviation_html = self.html.css_first(
             "div > ul.infolist > li:nth-child(2) > div:nth-child(2)")
@@ -70,9 +70,9 @@ class Team(Scraper):
 
     def bike(self) -> str:
         """
-        Parses team's bike brand from HTML
+        Parses team's bike brand from HTML.
 
-        :return: bike brand e.g. `Specialized`
+        :return: Bike brand e.g. `Specialized`.
         """
         bike_html = self.html.css_first(
             "div > ul.infolist > li:nth-child(3) > div:nth-child(2)")
@@ -80,9 +80,9 @@ class Team(Scraper):
 
     def wins_count(self) -> int:
         """
-        Parses count of wins in corresponding season from HTML
+        Parses count of wins in corresponding season from HTML.
 
-        :return: count of wins in corresponding season
+        :return: Count of wins in corresponding season.
         """
         team_ranking_html = self.html.css_first(
             ".teamkpi > li:nth-child(1) > div:nth-child(2)")
@@ -90,9 +90,9 @@ class Team(Scraper):
 
     def ranking_position(self) -> Optional[int]:
         """
-        Parses team ranking position from HTML
+        Parses team ranking position from HTML.
 
-        :return: PCS team ranking position in corresponding year
+        :return: PCS team ranking position in corresponding year.
         """
         team_ranking_html = self.html.css_first(
             ".teamkpi > li:nth-child(2) > div:nth-child(2)")
@@ -105,13 +105,33 @@ class Team(Scraper):
         """
         Parses team seasons select menu from HTML.
 
-        :return: parsed select menu represented as list of dicts with keys
-        'text' and 'value'
+        :return: Parsed select menu represented as list of dicts with keys
+        `text` and `value`.
         """
         team_seasons_select_html = self.html.css_first("form > select")
         return parse_select(team_seasons_select_html)
 
-    def riders(self, *args: str, available_fields: Tuple[str, ...] = (
+    def riders(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses team riders in curresponding season from HTML.
+
+        :param *args: Fields that should be contained in returned table. When
+        no args are passed, all fields are parsed.
+            - rider_name
+            - rider_url
+            - nationality: Rider's nationality as 2 chars long country code.
+            - age: Rider's age.
+            - since: First rider's day in the team in corresponding season in
+            `MM-DD` format, most of the time `01-01`.
+            - until: Last rider's day in the team in corresponding season in
+            `MM-DD` format, most of the time `12-31`.
+            - ranking_points: Current rider's points in PCS ranking.
+            - ranking_position: Current rider's position in PCS ranking.
+
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
             "nationality",
             "rider_name",
             "rider_url",
@@ -120,15 +140,8 @@ class Team(Scraper):
             "since",
             "until",
             "ranking_points",
-            "ranking_position")) -> List[Dict[str, Any]]:
-        """
-        Parses team riders from HTML
-
-        :param *args: fields that should be contained in table
-        :param available_fields: default fields, all available options
-        :raises ValueError: when one of args is invalid
-        :return: table with riders represented as list of dicts
-        """
+            "ranking_position"
+        )
         casual_fields = [
             "nationality",
             "rider_name",
