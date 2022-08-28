@@ -1,7 +1,7 @@
+import argparse
 import sys
-# importing in case module is ran in interactive mode
 from pprint import pprint
-from typing import List, Type
+from typing import Any, Dict, List, Type
 
 from tabulate import tabulate
 
@@ -14,24 +14,37 @@ from .scraper import Scraper
 from .stage_scraper import Stage
 from .team_scraper import Team
 
+scraper_classes = (
+	Race,
+	RaceStartlist,
+	Ranking,
+	Rider,
+	Stage,
+	Team,
+	RiderResults
+)
 
-def tab(table: List[dict]) -> None:
-    """
-    Utility function for easier table tabulating when running in interactive
-    mode.
+def configure_parser():
+	parser = argparse.ArgumentParser(
+			prog="python -m procyclingstats",
+			description="CLI to procyclingstats package. Scraper object to parse " +
+			"given URL is evaluated automatically. When no scraper object is " +
+			"able to parse given URL ValueError is raised. When running in " +
+			"interactive mode, nothing is printed and scraper object ready " +
+			"for parsing is available as `obj`.")
+	parser.add_argument("url", metavar="url", type=str,
+						help="Absolute or relative URL of PCS page to parse.")
+	parser.add_argument("--fulltable", action="store_const", const=True,
+			default=False,
+			help="Whether to print full or shortened tables in output.")
+	return parser
 
-    :param table: table to tabulate
+def get_scraper_obj_by_url(url: str) -> Type[Scraper]:
     """
-    print(tabulate(table, headers="keys"))
-    
-
-def get_scraper_obj_by_url(scraper_classes: List[Type[Scraper]],
-                           url: str) -> Type[Scraper]:
-    """
-    Gets scraper class that can parse HTML from given URL
+    Gets scraper class that can parse HTML from given URL.
 
     :param url: pcs URL
-    :raises ValueError: When no class is able to parse the URL
+    :raises ValueError: When no scraping class is able to parse the URL
     :return: object created from given URL
     """
     for ScraperClass in scraper_classes:
@@ -42,100 +55,58 @@ def get_scraper_obj_by_url(scraper_classes: List[Type[Scraper]],
             pass
     raise ValueError(f"Invalid URL: {url}")
 
+def run(args: argparse.Namespace) -> Scraper:
+	"""
+	Runs CLI script with given arguments.
 
-class CLI:
+	:param args: argparse arguments (currently url and fulltable)
+	:return: scraper object created from given URL
+	"""
+	scraper_class = get_scraper_obj_by_url(args.url)
+	scraper_obj = scraper_class(args.url)
+	
+	# object created, so return when running in interactive mode
+	if sys.flags.interactive:
+		print(f"Scraper object `{scraper_obj}` can be accessed as `obj`.")
+		return scraper_obj
+
+	tables = {}
+	# print basic one line data
+	for key, value in scraper_obj.parse().items():
+		if isinstance(value, list) and value:
+			tables[key] = value
+		else:
+			print(key + ": " + str(value))
+
+	# print tables
+	for key, value in tables.items():
+		print()
+		print(key + ":")
+		# tabulate full table
+		if args.fulltable or len(value) <= 13:
+			print(tabulate(value, headers="keys"))
+		# tabulate shortened table (first and last 5 rows of table with dots
+		# inbetween
+		else:
+			shortened_table = value[:5]
+			for _ in range(3):
+				shortened_table.append({})
+				for key in shortened_table[0].keys():
+					shortened_table[-1][key] = "..."
+			shortened_table.extend(value[-5:])
+			print(tabulate(shortened_table, headers="keys"))
+	return scraper_obj
+
+def tab(table: List[Dict[str, Any]]) -> None:
     """
-    Command line interface for interacting with scraper classes. When module is
-    ran all parsed data from given URL are printed in nice format. When module
-    is ran in interactive mode, object named `obj` is created and user can call
-    methods manually. Fucntions for printing as `pprint` or `tabulate` are
-    imported too.
-    example usage: `python -m pcs rider/tadej-pogacar`
+    Utility function for easier table tabulating when running in interactive
+    mode.
 
-    Positional arguments:
-    - `url`: URL to be parsed from. When no parser object is able to parse data
-    from HTML of given URL ValueError is raised.
-
-    Optional args:
-    - `-fulltable`: whether to print full table or only first and last rows,
-    defaults to False
-    - `-notables`: whether to print tables parsed from the HTML, defaults
-    to False
+    :param table: table to tabulate
     """
-
-    scraper_classes = [
-        Race,
-        RaceStartlist,
-        Ranking,
-        Rider,
-        Stage,
-        Team,
-        RiderResults
-    ]
-    arg_error = ValueError("Please provide a URL")
-
-    def __init__(self):
-        self.args = sys.argv[1:]
-        self.set_url()
-        self.set_fulltable()
-        self.set_notables()
-        
-    def set_url(self):
-        for arg in self.args:
-            if arg != "-": 
-                self.url = arg
-                return
-        raise self.arg_error
-        
-    def set_fulltable(self):
-        if "-fulltable" in self.args:
-            self.fulltable = True
-        else:
-            self.fulltable = False
-            
-    def set_notables(self):
-        if "-notables" in self.args:
-            self.notables = True
-        else:
-            self.notables = False
-            
-    def run(self):
-        scraper_class = get_scraper_obj_by_url(self.scraper_classes, self.url)
-        scraper_obj = scraper_class(self.url, None, True)
-        
-        # object created, so return when running in interactive mode
-        if sys.flags.interactive:
-            return scraper_obj
-
-        tables = {}
-        # print basic one line data
-        for key, value in scraper_obj.parse().items():
-            if isinstance(value, list) and value:
-                tables[key] = value
-            else:
-                print(key + ": " + str(value))
-        if self.notables:
-            return
-
-        # print tables
-        for key, value in tables.items():
-            print()
-            print(key + ":")
-            # tabulate full table
-            if self.fulltable or len(value) <= 13:
-                print(tabulate(value, headers="keys"))
-            # tabulate shortened table (first and last 5 rows of table with dots
-            # inbetween
-            else:
-                shortened_table = value[:5]
-                for _ in range(3):
-                    shortened_table.append({})
-                    for key in shortened_table[0].keys():
-                        shortened_table[-1][key] = "..."
-                shortened_table.extend(value[-5:])
-                print(tabulate(shortened_table, headers="keys"))
-
+    print(tabulate(table, headers="keys"))
 
 if __name__ == "__main__":
-    c = CLI()
-    obj = c.run()
+	parser = configure_parser()
+	args = parser.parse_args()
+	obj = run(args)
