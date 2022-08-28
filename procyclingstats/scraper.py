@@ -68,7 +68,7 @@ class Scraper:
         return f"{type(self).__name__}(url='{self.normalized_relative_url()}')"
 
     def __eq__(self, other) -> bool:
-        if isinstance(self, other):
+        if isinstance(type(self), type(other)):
             return False
         return (self.normalized_relative_url() ==
                 other.normalized_relative_url())
