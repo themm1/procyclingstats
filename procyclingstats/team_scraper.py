@@ -25,7 +25,7 @@ class Team(Scraper):
         decomposed_url = self._decompose_url()
         team_id = decomposed_url[1]
         return f"team/{team_id}"
-   
+
     def display_name(self) -> str:
         """
         Parses team display name from HTML
@@ -109,7 +109,7 @@ class Team(Scraper):
         'text' and 'value'
         """
         team_seasons_select_html = self.html.css_first("form > select")
-        return parse_select(team_seasons_select_html)   
+        return parse_select(team_seasons_select_html)
 
     def riders(self, *args: str, available_fields: Tuple[str, ...] = (
             "nationality",
@@ -135,18 +135,18 @@ class Team(Scraper):
             "rider_url"]
         fields = parse_table_fields_args(args, available_fields)
         career_points_table_html = self.html.css_first("div.taba > ul.list")
-        tp = TableParser(career_points_table_html)
+        table_parser = TableParser(career_points_table_html)
         career_points_fields = [field for field in fields
                          if field in casual_fields]
         # add rider_url to the table for table joining purposes
         if "rider_url" not in career_points_fields:
             career_points_fields.append("rider_url")
-        tp.parse(career_points_fields)
+        table_parser.parse(career_points_fields)
         if "career_points" in fields:
-            career_points = tp.parse_extra_column(2,
+            career_points = table_parser.parse_extra_column(2,
                 lambda x: int(x) if x.isnumeric() else 0)
-            tp.extend_table("points", career_points)
-        table = tp.table        
+            table_parser.extend_table("points", career_points)
+        table = table_parser.table
 
         # add ages to the table if needed
         if "age" in fields:

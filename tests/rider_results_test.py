@@ -31,7 +31,7 @@ class TestRiderResults(ScraperTestBaseClass):
         self.equal(filter_url1, filter_url2)
         self.equal("rider/alberto-contador/results/ggff/",
                    "rider/alberto-contador/results")
-        
+
         self.unequal(filter_url1, filter_url2 + "&type=2")
         self.unequal("rider/alberto-contador/results",
                      "rider/alberto-contador/results/final-5k-analysis")

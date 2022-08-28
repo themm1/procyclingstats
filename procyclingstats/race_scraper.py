@@ -9,7 +9,7 @@ from .utils import (format_regex_str, get_day_month, normalize_race_url,
 
 class Race(Scraper):
     """
-    Scraper for race overview HTML page. Example URL: 
+    Scraper for race overview HTML page. Example URL:
     `race/tour-de-france/2022/overview`.
     """
     _url_validation_regex = format_regex_str(
@@ -160,17 +160,17 @@ class Race(Scraper):
             if not dist:
                 stage_e.remove()
 
-        tp = TableParser(stages_table_html)
+        table_parser = TableParser(stages_table_html)
         casual_f_to_parse = [f for f in fields if f in casual_fields]
         if casual_fields:
-            tp.parse(casual_f_to_parse)
+            table_parser.parse(casual_f_to_parse)
         # add stages dates to table if neede
         if "date" in fields:
-            dates = tp.parse_extra_column(0, lambda x: get_day_month(x))
-            tp.extend_table("date", dates)        
+            dates = table_parser.parse_extra_column(0, get_day_month)
+            table_parser.extend_table("date", dates)
         # add distances to table if needed
         if "distance" in fields:
-            distances = tp.parse_extra_column(4, lambda x:
+            distances = table_parser.parse_extra_column(4, lambda x:
                 float(x.split("k")[0].replace("(", "")) if x else None)
-            tp.extend_table("distance", distances)
-        return tp.table
+            table_parser.extend_table("distance", distances)
+        return table_parser.table

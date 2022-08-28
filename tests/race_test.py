@@ -31,5 +31,3 @@ class TestRace(ScraperTestBaseClass):
                      "race/tour-de-france/2010/overview")
         self.unequal("race/tour-de-france/2022/overview",
                      "race/tour-de-suisse/2022/overview")
-
-

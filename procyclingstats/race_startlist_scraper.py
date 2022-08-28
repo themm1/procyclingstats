@@ -1,6 +1,4 @@
-from typing import Any, Dict, List, Optional, Tuple
-
-from selectolax.parser import HTMLParser
+from typing import Any, Dict, List, Tuple
 
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -10,7 +8,7 @@ from .utils import (format_regex_str, normalize_race_url,
 
 class RaceStartlist(Scraper):
     """
-    Scraper for race startlist HTML page. Example URL: 
+    Scraper for race startlist HTML page. Example URL:
     `race/tour-de-france/2022/startlist`
     """
     _url_validation_regex = format_regex_str(
@@ -41,9 +39,9 @@ class RaceStartlist(Scraper):
             "nationality",
             "rider_number")) -> List[Dict[str, Any]]:
         """
-        Parses startlist from HTML. When startlist is individual (without 
+        Parses startlist from HTML. When startlist is individual (without
         teams) fields team name, url and rider nationality are set to None.
-        
+
         :param *args: fields that should be contained in table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
@@ -51,7 +49,7 @@ class RaceStartlist(Scraper):
         """
         fields = parse_table_fields_args(args, available_fields)
         startlist_html = self.html.css_first(".startlist_v3")
-        # startlist is individual startlist e.g. 
+        # startlist is individual startlist e.g.
         # race/tour-de-pologne/2009/gc/startlist
         if startlist_html.css_first("li.team") is None:
             startlist_html = self.html.css_first(".page-content > div")
@@ -85,26 +83,27 @@ class RaceStartlist(Scraper):
         table = []
         for team_html in startlist_html.css("li.team"):
             riders_table = team_html.css_first("ul")
-            tp = TableParser(riders_table)
+            table_parser = TableParser(riders_table)
             rider_f_to_parse = [f for f in casual_rider_fields if f in fields]
-            tp.parse(rider_f_to_parse)
+            table_parser.parse(rider_f_to_parse)
             # add rider numbers to the table if needed
             if "rider_number" in fields:
                 numbers = []
-                for li in riders_table.css("li"):
-                    num = li.text(deep=False).split(" ")[0]
+                for row in riders_table.css("li"):
+                    num = row.text(deep=False).split(" ")[0]
                     numbers.append(int(num))
-                tp.extend_table("rider_number", numbers)
+                table_parser.extend_table("rider_number", numbers)
             # add team names to the table if needed
             if "team_name" in fields:
                 team_name = team_html.css_first("a").text()
-                team_names = [team_name for _ in range(len(tp.table))]
-                tp.extend_table("team_name", team_names)
+                team_names = [team_name for _ in range(
+                    len(table_parser.table))]
+                table_parser.extend_table("team_name", team_names)
             # add team urls to the table if needed
             if "team_url" in fields:
                 team_url = team_html.css_first("a").attributes['href']
-                team_urls = [team_url for _ in range(len(tp.table))]
-                tp.extend_table("team_url", team_urls)
+                team_urls = [team_url for _ in range(len(table_parser.table))]
+                table_parser.extend_table("team_url", team_urls)
             # add team table to startlist table
-            table.extend(tp.table)
+            table.extend(table_parser.table)
         return table

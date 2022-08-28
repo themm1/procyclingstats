@@ -1,8 +1,6 @@
 import calendar
 from typing import Any, Dict, List, Tuple
 
-from selectolax.parser import HTMLParser
-
 from .scraper import Scraper
 from .table_parser import TableParser
 from .utils import (format_regex_str, get_day_month, parse_table_fields_args,
@@ -134,26 +132,26 @@ class Rider(Scraper):
         """
         fields = parse_table_fields_args(args, available_fields)
         seasons_html_table = self.html.css_first("ul.list.rdr-teams")
-        tp = TableParser(seasons_html_table)
+        table_parser = TableParser(seasons_html_table)
         casual_fields = [f for f in fields
                          if f in ("season", "team_name", "team_url")]
         if casual_fields:
-            tp.parse(casual_fields)
+            table_parser.parse(casual_fields)
         # add classes for row validity checking
-        classes = tp.parse_extra_column(2,
+        classes = table_parser.parse_extra_column(2,
             lambda x: x.replace("(", "").replace(")", "").replace(" ", "")
             if x and "retired" not in x else None)
-        tp.extend_table("class", classes)
+        table_parser.extend_table("class", classes)
         if "since" in fields:
-            until_dates = tp.parse_extra_column(-2,
+            until_dates = table_parser.parse_extra_column(-2,
                 lambda x: get_day_month(x) if "as from" in x else "01-01")
-            tp.extend_table("since", until_dates)
+            table_parser.extend_table("since", until_dates)
         if "until" in fields:
-            until_dates = tp.parse_extra_column(-2,
+            until_dates = table_parser.parse_extra_column(-2,
                 lambda x: get_day_month(x) if "until" in x else "12-31")
-            tp.extend_table("until", until_dates)
+            table_parser.extend_table("until", until_dates)
 
-        table = [row for row in tp.table if row['class']]
+        table = [row for row in table_parser.table if row['class']]
         # remove class field if isn't needed
         if "class" not in fields:
             for row in table:
@@ -174,6 +172,6 @@ class Rider(Scraper):
         """
         fields = parse_table_fields_args(args, available_fields)
         points_table_html = self.html.css_first("table.rdr-season-stats")
-        tp = TableParser(points_table_html)
-        tp.parse(fields)
-        return tp.table
+        table_parser = TableParser(points_table_html)
+        table_parser.parse(fields)
+        return table_parser.table

@@ -1,7 +1,5 @@
 from typing import Any, Dict, List, Tuple
 
-from selectolax.parser import HTMLParser
-
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -36,7 +34,7 @@ class RiderResults(Scraper):
         :return: True if given HTML is valid, otherwise False
         """
         try:
-            assert super()._html_valid() == True
+            assert super()._html_valid()
             page_title = self.html.css_first(".page-content > h2").text()
             assert (page_title == "All results" or
                     page_title == "Top results final 5k analysis")
@@ -82,8 +80,8 @@ class RiderResults(Scraper):
             "uci_points"
         )) -> List[Dict[str, Any]]:
         """
-        Parses rider's results table from HTML. 
-        
+        Parses rider's results table from HTML.
+
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
@@ -99,9 +97,9 @@ class RiderResults(Scraper):
 
         fields = parse_table_fields_args(args, available_fields)
         results_table_html = self.html.css_first("table")
-        tp = TableParser(results_table_html)
-        tp.parse(fields)
-        return tp.table
+        table_parser = TableParser(results_table_html)
+        table_parser.parse(fields)
+        return table_parser.table
 
     def final_n_km_results(self, *args: str,
                            available_fields: Tuple[str, ...] = (
@@ -114,8 +112,8 @@ class RiderResults(Scraper):
                                 "average_percentage"
                            )) -> List[Dict[str, Any]]:
         """
-        Parses rider's final N kms results table from HTML. 
-        
+        Parses rider's final N kms results table from HTML.
+
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
@@ -133,19 +131,19 @@ class RiderResults(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         casual_fields = [f for f in fields
             if f not in ("vertical_meters", "average_percentage")]
-        
+
         results_table_html = self.html.css_first("table")
-        tp = TableParser(results_table_html)
-        tp.parse(casual_fields)
+        table_parser = TableParser(results_table_html)
+        table_parser.parse(casual_fields)
         # add vertical meters column if needed
         if "vertical_meters" in fields:
-            vms = tp.parse_extra_column("Vertical meters", int)
-            tp.extend_table("vertical_meters", vms)
+            vms = table_parser.parse_extra_column("Vertical meters", int)
+            table_parser.extend_table("vertical_meters", vms)
         # add average percentages column if needed
         if "average_percentage" in fields:
-            percentages = tp.parse_extra_column("Avg. %", float)
-            tp.extend_table("average_percentage", percentages)
-        return tp.table
+            percentages = table_parser.parse_extra_column("Avg. %", float)
+            table_parser.extend_table("average_percentage", percentages)
+        return table_parser.table
 
     def seasons_select(self) -> List[Dict[str, str]]:
         """

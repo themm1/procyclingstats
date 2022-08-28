@@ -47,7 +47,8 @@ class Scraper:
         try:
             validate_string(url, regex=self._url_validation_regex)
         except ParsedValueInvalidError:
-            raise ValueError(f"Given URL is indvalid: '{url}'")
+            raise ValueError(f"Given URL is indvalid: '{url}'") \
+                # pylint: disable=raise-missing-from
 
         self._url = self._make_url_absolute(url)
         self._html = None
@@ -67,9 +68,9 @@ class Scraper:
         return f"{type(self).__name__}(url='{self.normalized_relative_url()}')"
 
     def __eq__(self, other) -> bool:
-        if type(self) != type(other):
+        if isinstance(self, other):
             return False
-        return (self.normalized_relative_url() == 
+        return (self.normalized_relative_url() ==
                 other.normalized_relative_url())
 
     @property
@@ -110,10 +111,10 @@ class Scraper:
 
     def update_html(self) -> None:
         """
-        Calls request to `self.url` and updates `self.html` to HTMLParser 
+        Calls request to `self.url` and updates `self.html` to HTMLParser
         object created from returned HTML.
         """
-        html_str = requests.get(self._url).text
+        html_str = requests.get(self._url, timeout=10).text
         self._html = HTMLParser(html_str)
 
     def parse(self,
@@ -183,7 +184,6 @@ class Scraper:
         Empty method that should be overridden by subclasses if it's needed to
         modify HTML before parsing.
         """
-        pass
 
     def _html_valid(self) -> bool:
         """

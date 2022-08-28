@@ -27,4 +27,3 @@ class TestStartlist(ScraperTestBaseClass):
 
         self.unequal("race/tour-de-france/2022/startlist",
                    "race/tour-france/2022/startlist")
-

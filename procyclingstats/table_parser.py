@@ -1,6 +1,6 @@
 from typing import Any, Callable, Dict, List, Literal, Optional, Tuple, Union
 
-from selectolax.parser import HTMLParser, Node
+from selectolax.parser import Node
 
 from .errors import ExpectedParsingError, UnexpectedParsingError
 from .utils import add_times, format_time
@@ -51,7 +51,7 @@ class TableParser:
         `fields` keys
 
         :param fields: table parsing methods of this class
-        :raises UnexpectedParsingError: when parsed field values aren't the 
+        :raises UnexpectedParsingError: when parsed field values aren't the
         same size as table length
 
         :regular fields options:
@@ -102,7 +102,7 @@ class TableParser:
 
             for row, parsed_value in zip(raw_table, parsed_field_list):
                 row[field] = parsed_value
- 
+
         # remove unwanted rows
         for row in raw_table:
             self.table.append(row)
@@ -127,7 +127,7 @@ class TableParser:
         else:
             for value in values:
                 self.table.append({field_name: value})
-            
+
     def parse_extra_column(self, index_or_header_value: Union[int, str],
                      func: Callable = int,
                      skip: Callable = lambda _: False,
@@ -140,7 +140,7 @@ class TableParser:
         a header in that case)
         :param func: function to call on parsed text value, defaults to int
         :param skip: fucntion to call on every element that is going to be
-        parsed when returns True element isn't parsed, defaults to lambda _: 
+        parsed when returns True element isn't parsed, defaults to lambda _:
         False
         :param separator: separator for text attributes given to `func`
         :return: list with parsed values
@@ -215,7 +215,7 @@ class TableParser:
                 if ",," not in time_line and "″" not in time_line:
                     rider_time = time_line
                     break
-            if rider_time == "-" or rider_time == None:
+            if rider_time == "-" or rider_time is None:
                 rider_time = None
             else:
                 rider_time = format_time(rider_time.replace(" ", ""))
@@ -269,13 +269,13 @@ class TableParser:
             else:
                 seasons.append(None)
         return seasons
-    
+
     def rank(self) -> List[Optional[int]]:
-        format_rank_func = lambda x: int(x) if x.isnumeric() else None
         possible_columns = ["Rnk", "pos", "Result", "#"]
         for column_name in possible_columns:
             try:
-                return self.parse_extra_column(column_name, format_rank_func)
+                return self.parse_extra_column(column_name,
+                    lambda x: int(x) if x.isnumeric() else None)
             except ValueError:
                 pass
         raise ValueError("Rank column wasn't found.")
@@ -299,21 +299,20 @@ class TableParser:
                 lambda x: float(x) if x else 0)
         except ValueError:
             return [0 for _ in range(self.table_length)]
-    
+
     def pcs_points(self) -> List[Optional[int]]:
-        format_points_func = lambda x: int(x) if x else 0
         try:
-            return self.parse_extra_column("Pnt", format_points_func)
+            return self.parse_extra_column("Pnt", lambda x: int(x) if x else 0)
         except ValueError:
             try:
                 return self.parse_extra_column("PCS points",
-                    format_points_func)
+                    lambda x: int(x) if x else 0)
             except ValueError:
                 return [0 for _ in range(self.table_length)]
-    
+
     def points(self) -> List[int]:
         return self.parse_extra_column("Points", float)
-    
+
     def class_(self) -> List[str]:
         """
         Parses classes from table with a header. Method is called class_ so
@@ -341,7 +340,7 @@ class TableParser:
             float(x) if x else None)
 
     def date(self) -> List[str]:
-        return self.parse_extra_column("Date", lambda x: str(x))
+        return self.parse_extra_column("Date", str)
 
     def rename_field(self, field_name: str, new_field_name: str) -> None:
         """

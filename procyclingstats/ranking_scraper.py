@@ -1,6 +1,4 @@
-from typing import Any, Dict, List, Literal, Tuple, Union
-
-from selectolax.parser import HTMLParser
+from typing import Any, Dict, List, Literal, Tuple
 
 from .errors import ExpectedParsingError
 from .scraper import Scraper
@@ -12,27 +10,13 @@ from .utils import (format_url_filter, parse_select, parse_table_fields_args,
 class Ranking(Scraper):
     """
     Scraper for rankings HTML page. Example URL: `rankings/me/individual`.
-    
+
     Always only one parsing method that parses ranking is availabe, the others
     raise `ExpectedParsingError`. E.g. for object created with example URL
     would be valid only `self.individual_ranking` parsing method and others
     methods that parse ranking (`self.team_ranking`, ...) would raise error.
     """
 
-    """
-    Scraper for HTML ranking page. Always only one method for ranking
-    parsing is available (based on ranking type). e.g. `self.individual_ranking`
-    for `rankings/me/season-individual` ranking
-
-    :param url: URL of ranking to be parsed from, either full or relative,
-    e.g. `rankings/me/season-individual` or URL with filters
-    :param html: HTML to be parsed from, defaults to None, when passing the
-    parameter, set `update_html` to False to prevent overriding or making
-    useless request
-    :param update_html: whether to make request to given URL and update
-    `self.html`, when False `self.update_html` method has to be called
-    manually to set HTML (when isn't passed), defaults to True
-    """
     _url_validation_regex = f"{reg.base_url}?rankings.*\\/*"
     """Regex for validating ranking URL."""
 
@@ -149,17 +133,17 @@ class Ranking(Scraper):
 
         fields = parse_table_fields_args(args, available_fields)
         html_table = self.html.css_first("table")
-        tp = TableParser(html_table)
+        table_parser = TableParser(html_table)
         # parse race name and url as stage name and url and rename it
         # afterwards
         if "race_name" in fields:
             fields[fields.index("race_name")] = "stage_name"
         if "race_url" in fields:
             fields[fields.index("race_url")] = "stage_url"
-        tp.parse(fields)
-        tp.rename_field("stage_name", "race_name")
-        tp.rename_field("stage_url", "race_url")
-        return tp.table
+        table_parser.parse(fields)
+        table_parser.rename_field("stage_name", "race_name")
+        table_parser.rename_field("stage_url", "race_url")
+        return table_parser.table
 
     def individual_wins_ranking(self, *args: str,
                                 available_fields: Tuple[str, ...] = (
@@ -243,7 +227,7 @@ class Ranking(Scraper):
     def dates_select(self) -> List[Dict[str, str]]:
         """
         Parses dates select menu from HTML.
-        
+
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
@@ -252,7 +236,7 @@ class Ranking(Scraper):
     def nations_select(self) -> List[Dict[str, str]]:
         """
         Parses nations select menu from HTML.
-        
+
         :return: parsed select menu represented as list of dicts with keys
         'text' and 'value'
         """
@@ -333,6 +317,6 @@ class Ranking(Scraper):
         """
         fields = parse_table_fields_args(args, available_fields)
         html_table = self.html.css_first("table")
-        tp = TableParser(html_table)
-        tp.parse(fields)
-        return tp.table
+        table_parser = TableParser(html_table)
+        table_parser.parse(fields)
+        return table_parser.table

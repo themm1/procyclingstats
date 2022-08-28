@@ -11,7 +11,7 @@ from .utils import (add_times, convert_date, format_regex_str, format_time,
 
 class Stage(Scraper):
     """
-    Scraper for stage results HTML page. Example URL: 
+    Scraper for stage results HTML page. Example URL:
     `race/tour-de-france/2022/stage-18`.
     """
     _url_validation_regex = format_regex_str(
@@ -64,12 +64,12 @@ class Stage(Scraper):
         if self.stage_type() != "TTT":
             return
         current_rank_node = None
-        for td in results_table_html.css("tr > td:first-child"):
-            rank = td.text()
+        for column in results_table_html.css("tr > td:first-child"):
+            rank = column.text()
             if rank:
-                current_rank_node = td
+                current_rank_node = column
             elif current_rank_node:
-                td.replace_with(current_rank_node) # type: ignore
+                column.replace_with(current_rank_node) # type: ignore
 
     def is_one_day_race(self) -> bool:
         """
@@ -150,7 +150,7 @@ class Stage(Scraper):
 
         :return: date when stage took place `YYYY-MM-DD`
         """
-        date_html = self.html.css_first(f".infolist > li > div:nth-child(2)")
+        date_html = self.html.css_first(".infolist > li > div:nth-child(2)")
         date = date_html.text().split(", ")[0]
         return convert_date(date)
 
@@ -203,7 +203,7 @@ class Stage(Scraper):
         categories = self.html.css(self._tables_path)
         results_table_html = categories[0]
         # Results table is empty
-        if (not results_table_html or 
+        if (not results_table_html or
             not results_table_html.css_first("tbody > tr")):
             raise ExpectedParsingError("Results table not in page HTML")
         # parse TTT table
@@ -218,13 +218,13 @@ class Stage(Scraper):
             gc_table_html = self._table_html("gc")
             if (not self.is_one_day_race() and gc_table_html and
                 ("nationality" in fields or "age" in fields)):
-                tp = TableParser(gc_table_html)
+                table_parser = TableParser(gc_table_html)
                 extra_fields = [f for f in fields
                                 if f in ("nationality", "age", "rider_url")]
                 # add rider_url for table joining purposes
                 extra_fields.append("rider_url")
-                tp.parse(extra_fields)
-                table = join_tables(table, tp.table, "rider_url")
+                table_parser.parse(extra_fields)
+                table = join_tables(table, table_parser.table, "rider_url")
             elif "nationality" in fields or "age" in fields:
                 for row in table:
                     row['nationality'] = None
@@ -234,12 +234,13 @@ class Stage(Scraper):
                 for row in table:
                     row.pop("rider_url")
         else:
-            tp = TableParser(results_table_html)
-            tp.parse(fields)
-            table = tp.table
+            table_parser = TableParser(results_table_html)
+            table_parser.parse(fields)
+            table = table_parser.table
         return table
 
-    def gc(self, *args: str, available_fields: Tuple[str, ...] = (
+    def gc(self, *args: str, available_fields: Tuple[str, ...] = ( \
+        # pylint: disable=invalid-name
             "rider_name",
             "rider_url",
             "team_name",
@@ -266,9 +267,9 @@ class Stage(Scraper):
         gc_table_html = self._table_html("gc")
         if not gc_table_html:
             raise ExpectedParsingError("GC table not in page HTML")
-        tp = TableParser(gc_table_html)
-        tp.parse(fields)
-        return tp.table
+        table_parser = TableParser(gc_table_html)
+        table_parser.parse(fields)
+        return table_parser.table
 
     def points(self, *args: str, available_fields: Tuple[str, ...] = (
             "rider_name",
@@ -297,9 +298,9 @@ class Stage(Scraper):
         points_table_html = self._table_html("points")
         if not points_table_html:
             raise ExpectedParsingError("Points table not in page HTML")
-        tp = TableParser(points_table_html)
-        tp.parse(fields)
-        return tp.table
+        table_parser = TableParser(points_table_html)
+        table_parser.parse(fields)
+        return table_parser.table
 
     def kom(self, *args: str, available_fields: Tuple[str, ...] = (
             "rider_name",
@@ -327,9 +328,9 @@ class Stage(Scraper):
         kom_table_html = self._table_html("kom")
         if not kom_table_html:
             raise ExpectedParsingError("KOM table not in page HTML")
-        tp = TableParser(kom_table_html)
-        tp.parse(fields)
-        return tp.table
+        table_parser = TableParser(kom_table_html)
+        table_parser.parse(fields)
+        return table_parser.table
 
     def youth(self, *args: str, available_fields: Tuple[str, ...] = (
             "rider_name",
@@ -356,9 +357,9 @@ class Stage(Scraper):
         youth_table_html = self._table_html("youth")
         if not youth_table_html:
             raise ExpectedParsingError("Youth table not in page HTML")
-        tp = TableParser(youth_table_html)
-        tp.parse(fields)
-        return tp.table
+        table_parser = TableParser(youth_table_html)
+        table_parser.parse(fields)
+        return table_parser.table
 
     def teams(self, *args: str, available_fields: Tuple[str, ...] = (
             "team_name",
@@ -374,16 +375,16 @@ class Stage(Scraper):
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
-        :return: youth classification results table represented as list of 
+        :return: youth classification results table represented as list of
         dicts
         """
         fields = parse_table_fields_args(args, available_fields)
         teams_table_html = self._table_html("teams")
         if not teams_table_html:
             raise ExpectedParsingError("Teams table not in page HTML")
-        tp = TableParser(teams_table_html)
-        tp.parse(fields)
-        return tp.table
+        table_parser = TableParser(teams_table_html)
+        table_parser.parse(fields)
+        return table_parser.table
 
     def _table_html(self, table: Literal[
             "stage",
@@ -453,8 +454,7 @@ class Stage(Scraper):
         riders_parser.parse(rider_fields_to_parse)
         # add time of every rider to the table
         if "time" in fields:
-            team_times = teams_parser.parse_extra_column("Time",
-                lambda x: format_time(x))
+            team_times = teams_parser.parse_extra_column("Time", format_time)
             # riders extra times from second HTML table column, if there is no
             # extra time, time is set to None
             riders_extra_times = riders_parser.parse_extra_column(1,

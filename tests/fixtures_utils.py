@@ -30,7 +30,7 @@ class FixturesUtils:
 
     def make_data_fixture(self, scraper_obj: Scraper) -> None:
         """
-        Makes data fixture from dict returned by scraper object's `parse` 
+        Makes data fixture from dict returned by scraper object's `parse`
         method
 
         :param scraper_obj: scraper object ready for HTML parsing
@@ -39,8 +39,8 @@ class FixturesUtils:
         filename = self._get_filename_for_parsing(scraper_obj)
         data = scraper_obj.parse()
         json_obj = json.dumps(data, indent=2)
-        with open(f"{self.fixtures_path}{filename}.json", "w") as f:
-            f.write(json_obj)
+        with open(f"{self.fixtures_path}{filename}.json", "w") as fixture:
+            fixture.write(json_obj)
 
     def make_html_fixture(self, scraper_obj: Scraper) -> None:
         """
@@ -50,8 +50,8 @@ class FixturesUtils:
         :raises ExpectedParsingError: when object's HTML is None
         """
         filename = self._get_filename_for_parsing(scraper_obj)
-        with open(f"{self.fixtures_path}{filename}.txt", "w") as f:
-            f.write(scraper_obj.html.html) # type: ignore
+        with open(f"{self.fixtures_path}{filename}.txt", "w") as fixture:
+            fixture.write(scraper_obj.html.html) # type: ignore
 
     def get_data_fixture(self, url: str) -> Optional[Dict[str, Any]]:
         """
@@ -63,8 +63,8 @@ class FixturesUtils:
         """
         filename = self.url_to_filename(url)
         try:
-            with open(f"{self.fixtures_path}{filename}.json", "r") as f:
-                return json.load(f)
+            with open(f"{self.fixtures_path}{filename}.json", "r") as fixture:
+                return json.load(fixture)
         except FileNotFoundError:
             return None
 
@@ -78,15 +78,15 @@ class FixturesUtils:
         """
         filename = self.url_to_filename(url)
         try:
-            with open(f"{self.fixtures_path}{filename}.txt", "r") as f:
-                return f.read()
+            with open(f"{self.fixtures_path}{filename}.txt", "r") as fixture:
+                return fixture.read()
         except FileNotFoundError:
             return None
 
     def get_scraper_objects_from_fixtures(
-            self, ScraperClass: Type[Scraper]) -> List[Scraper]:
+            self, scraper_class: Type[Scraper]) -> List[Scraper]:
         """
-        Creates scraper object of ScraperClass from every HTML fixture which 
+        Creates scraper object of ScraperClass from every HTML fixture which
         URL is valid for given ScraperClass
 
         :param ScraperClass: class to create objects from
@@ -98,13 +98,13 @@ class FixturesUtils:
         urls = [url for url in html_files_urls if url in json_files_urls]
         objects_to_test = []
         for url in urls:
-            # add scraper object that passes URL validity check of given 
+            # add scraper object that passes URL validity check of given
             # scraper class
             try:
                 # get HTML of scraper object from fixtures
                 html = self.get_html_fixture(url)
                 # add new scraper object that is ready for parsing to the list
-                objects_to_test.append(ScraperClass(url, html, False))
+                objects_to_test.append(scraper_class(url, html, False))
             except ValueError:
                 pass
         return objects_to_test

@@ -63,37 +63,38 @@ class CLI:
                 fixtures_path = arg.split("=")[1]
                 if not os.path.isdir(fixtures_path):
                     os.mkdir(fixtures_path)
-                self.f = FixturesUtils(fixtures_path)
+                self.f_utils = FixturesUtils(fixtures_path)
                 return
-        self.f = FixturesUtils()
+        self.f_utils = FixturesUtils()
 
     def run(self):
         if self.command in ("add", "add_html") and self.url:
             ScraperClass = get_scraper_obj_by_url(self.url, scraper_classes)
             obj = ScraperClass(self.url)
-            filename = self.f.url_to_filename(obj.normalized_relative_url())
+            filename = self.f_utils.url_to_filename(
+                obj.normalized_relative_url())
 
             if self.command == "add":
                 if self.logging:
                     print(f"Adding: {filename}.txt")
-                self.f.make_html_fixture(obj)
+                self.f_utils.make_html_fixture(obj)
                 if self.logging:
                     print(f"Adding: {filename}.json")
-                self.f.make_data_fixture(obj)
+                self.f_utils.make_data_fixture(obj)
 
             elif self.command == "add_html":
                 if self.logging:
                     print(f"Adding: {filename}.txt")
-                self.f.make_html_fixture(obj)
+                self.f_utils.make_html_fixture(obj)
 
         elif self.command == "update_htmls":
-            urls = self.f.get_urls_from_fixtures_dir("txt")
+            urls = self.f_utils.get_urls_from_fixtures_dir("txt")
             for url in urls:
                 if self.logging:
-                    print(f"Updating: {self.f.url_to_filename(url)}.txt")
+                    print(f"Updating: {self.f_utils.url_to_filename(url)}.txt")
                 ScraperClass = get_scraper_obj_by_url(url, scraper_classes)
                 scraper_obj = ScraperClass(url)
-                self.f.make_html_fixture(scraper_obj)
+                self.f_utils.make_html_fixture(scraper_obj)
         else:
             raise self.arg_error
 

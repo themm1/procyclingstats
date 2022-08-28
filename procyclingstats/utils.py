@@ -8,7 +8,7 @@ from selectolax.parser import HTMLParser, Node
 from .errors import ExpectedParsingError, ParsedValueInvalidError
 
 
-class reg:
+class reg: # pylint: disable=invalid-name
     """
     Class for storing regex of common procyclingstats URL parts
     """
@@ -137,7 +137,6 @@ def normalize_race_url(decomposed_url: List[str], addon: str) -> str:
     :param addon: extra part added after race normalized URL
     :return: normalized URL in `race/{race_id}/{year}/{addon}` format
     """
-    decomposed_url = decomposed_url
     decomposed_url.extend([""] * (3 - len(decomposed_url)))
     race_id = decomposed_url[1]
     if decomposed_url[2].isnumeric() and len(decomposed_url[2]) == 4:
@@ -172,7 +171,7 @@ def get_day_month(str_with_date: str) -> str:
     day, month = "", ""
     # loop through string and check whether next 5 characters are in wanted
     # date format `day/month` or `day-month`
-    for i, char in enumerate(str_with_date[:-4]):
+    for i, _ in enumerate(str_with_date[:-4]):
         if str_with_date[i:i + 2].isnumeric() and \
                 str_with_date[i + 3:i + 5].isnumeric():
             if str_with_date[i + 2] == "/":
@@ -307,17 +306,12 @@ def join_tables(table1: List[Dict[str, Any]],
     :param table2: table represented as list of dicts where every row has
     `join_key`
     :param join_key: field used for finding matching rows, e.g. `rider_url`
-    :raises ValueError: when matching row to one of table rows wasn't found
     :return: tables joined together into one table
     """
     table2_dict = {row[join_key]: row for row in table2}
     table = []
     for row in table1:
-        try:
-            table.append({**table2_dict[row[join_key]], **row})
-        except KeyError:
-            raise ValueError(f"Matching row to row with join key value \
-                '{row[join_key]}' wasn't found.")
+        table.append({**table2_dict[row[join_key]], **row})
     return table
 
 def parse_table_fields_args(args: Tuple[str],

@@ -19,8 +19,8 @@ class ScraperTestBaseClass:
 
         :param subtests: subtests module, passed by pytest
         """
-        f = FixturesUtils(fixtures_path="tests/fixtures/")
-        objects_to_test = f.get_scraper_objects_from_fixtures(
+        f_utils = FixturesUtils(fixtures_path="tests/fixtures/")
+        objects_to_test = f_utils.get_scraper_objects_from_fixtures(
             self.ScraperClass)
         parsed_data = []
         correct_data = []
@@ -29,7 +29,7 @@ class ScraperTestBaseClass:
             #     "ttt" in obj.url:
             #     continue
             parsed = obj.parse()
-            correct = f.get_data_fixture(obj.relative_url())
+            correct = f_utils.get_data_fixture(obj.relative_url())
             # dicts with parsed data has same keys
             assert parsed.keys() == correct.keys() # type: ignore
             parsed_data.append(parsed)
@@ -98,4 +98,3 @@ class ScraperTestBaseClass:
         """
         assert self.ScraperClass(url1, update_html=False) != self.ScraperClass(
             url2, update_html=False)
-

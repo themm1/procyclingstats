@@ -4,7 +4,7 @@ procyclingstats package
 
 Procyclingstats is a package for scraping https://www.procyclingstats.com/.
 Interface consists from scraping classes which are currently Race,
-RaceStartlist, Ranking, Rider, RiderResults, Stage and Team. 
+RaceStartlist, Ranking, Rider, RiderResults, Stage and Team.
 
 Basic Rider class usage:
     >>> from procyclingstats import Rider
