@@ -14,8 +14,8 @@ class TestRanking(ScraperTestBaseClass):
         self.url_invalid("ranking")
 
     def test_eq(self):
-        filter_url1 = "rankings.php?date=2021-12-31&nation=&age=&zage=&page=" +\
-        "smallerorequal&team=&offset=0&filter=Filter&p=me&s=season-individual"
+        filter_url1 = ("rankings.php?date=2021-12-31&nation=&age=&zage=&page="
+        "smallerorequal&team=&offset=0&filter=Filter&p=me&s=season-individual")
         filter_url2 = "rankings?date=2021-12-31&p=me&s=season-individual"
         self.equal(filter_url1, filter_url2)
         self.equal("rankings.php", "rankings/")

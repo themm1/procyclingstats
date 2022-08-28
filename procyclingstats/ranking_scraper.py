@@ -42,8 +42,8 @@ class Ranking(Scraper):
         used in __eq__ method). Ranking objects are equal when both have same
         URL or filter values are the same (empty filter values don't count).
 
-        :return: formatted relative URL or filter URL without uneccessary fields
-        e.g. `rankings.php?date=2021-12-31&p=we&s=season-individual`
+        :return: formatted relative URL or filter URL without uneccessary
+        fields e.g. `rankings.php?date=2021-12-31&p=we&s=season-individual`
         """
         relative_url = self.relative_url()
         # returns special normalized ranking filter URL
@@ -121,8 +121,8 @@ class Ranking(Scraper):
         """
         if self._ranking_type() != "nations":
             raise ExpectedParsingError(
-                "This object doesn't support nations_ranking method, create one"
-                "with nations ranking URL to call this method.")
+                "This object doesn't support nations_ranking method, create" +
+                "one with nations ranking URL to call this method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
     def races_ranking(self, *args: str, available_fields: Tuple[str, ...] = (
@@ -150,7 +150,8 @@ class Ranking(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         html_table = self.html.css_first("table")
         tp = TableParser(html_table)
-        # parse race name and url as stage name and url and rename it afterwards
+        # parse race name and url as stage name and url and rename it
+        # afterwards
         if "race_name" in fields:
             fields[fields.index("race_name")] = "stage_name"
         if "race_url" in fields:
@@ -210,8 +211,8 @@ class Ranking(Scraper):
         """
         if self._ranking_type() != "team_wins":
             raise ExpectedParsingError(
-                "This object doesn't support teams_wins_ranking method, create "
-                "one with teams wins ranking URL to call this method.")
+                "This object doesn't support teams_wins_ranking method, "
+                "create one with teams wins ranking URL to call this method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
     def nations_wins_ranking(self, *args: str,
@@ -234,8 +235,9 @@ class Ranking(Scraper):
         """
         if self._ranking_type() != "nation_wins":
             raise ExpectedParsingError(
-                "This object doesn't support nations_wins_ranking method, "
-                "create one with nations wins ranking URL to call this method.")
+                "This object doesn't support nations_wins_ranking method, " +
+                "create one with nations wins ranking URL to call this" +
+                "method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
     def dates_select(self) -> List[Dict[str, str]]:

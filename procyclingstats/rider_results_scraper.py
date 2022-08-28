@@ -12,7 +12,8 @@ from .utils import (format_regex_str, format_url_filter, parse_select,
 class RiderResults(Scraper):
     """
     Scraper for rider results HTML page. Example URL:
-    `rider/tadej-pogacar/results`. Supported is besides of default results table
+    `rider/tadej-pogacar/results`. Supported is besides of default results
+    table
     also final 5k results table which can be parsed using
     `self.final_n_km_results` method.
     """
@@ -125,8 +126,8 @@ class RiderResults(Scraper):
         if (self.html.css_first(".page-content > h2").text() !=
                 "Top results final 5k analysis"):
             error_msg = ("This object doesn't support 'final_n_km_results'" +
-            "method. Create one from rider's final n km results table to call" +
-            "this  method")
+            "method. Create one from rider's final n km results table to " +
+            " call this  method")
             raise ExpectedParsingError(error_msg)
 
         fields = parse_table_fields_args(args, available_fields)

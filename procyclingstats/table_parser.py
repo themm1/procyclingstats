@@ -51,8 +51,8 @@ class TableParser:
         `fields` keys
 
         :param fields: table parsing methods of this class
-        :raises UnexpectedParsingError: when parsed field values aren't the same
-        size as table length
+        :raises UnexpectedParsingError: when parsed field values aren't the 
+        same size as table length
 
         :regular fields options:
             - rider_url
@@ -152,7 +152,7 @@ class TableParser:
         if index < 0:
             index = self.row_length + index
         elements = self.html_table.css(
-            f"{self.table_row_tag} > {self.row_column_tag}:nth-child({index+1})"
+        f"{self.table_row_tag} > {self.row_column_tag}:nth-child({index+1})"
         )
 
         values = []
@@ -200,7 +200,8 @@ class TableParser:
         flags_elements = self.html_table.css(".flag")
         flags = []
         for flag_e in flags_elements:
-            if flag_e.attributes['class'] and " " in flag_e.attributes['class']:
+            if (flag_e.attributes['class'] and
+                    " " in flag_e.attributes['class']):
                 flags.append(flag_e.attributes['class'].split(" ")[1].upper())
         return flags
 
@@ -288,14 +289,14 @@ class TableParser:
     def prev_rank(self) -> List[Optional[int]]:
         try:
             return self.parse_extra_column("Prev",
-                                           lambda x: int(x) if x else None)
+                lambda x: int(x) if x else None)
         except ValueError:
             return [None for _ in range(self.table_length)]
 
     def uci_points(self) -> List[Optional[float]]:
         try:
             return self.parse_extra_column("UCI",
-                                           lambda x: float(x) if x else 0)
+                lambda x: float(x) if x else 0)
         except ValueError:
             return [0 for _ in range(self.table_length)]
     
@@ -305,7 +306,8 @@ class TableParser:
             return self.parse_extra_column("Pnt", format_points_func)
         except ValueError:
             try:
-                return self.parse_extra_column("PCS points", format_points_func)
+                return self.parse_extra_column("PCS points",
+                    format_points_func)
             except ValueError:
                 return [0 for _ in range(self.table_length)]
     
@@ -323,19 +325,20 @@ class TableParser:
         return self.parse_extra_column("Class", str)
 
     def first_places(self) -> List[Optional[int]]:
-        return self.parse_extra_column("Wins", lambda x: int(x) if x.isnumeric()
-                                       else 0)
+        return self.parse_extra_column("Wins", lambda x:
+            int(x) if x.isnumeric() else 0)
 
     def second_places(self) -> List[Optional[int]]:
-        return self.parse_extra_column("2nd", lambda x: int(x) if x.isnumeric()
-                                       else 0)
+        return self.parse_extra_column("2nd", lambda x:
+            int(x) if x.isnumeric() else 0)
 
     def third_places(self) -> List[Optional[int]]:
-        return self.parse_extra_column("3rd", lambda x: int(x) if x.isnumeric()
-                                       else 0)
+        return self.parse_extra_column("3rd", lambda x:
+            int(x) if x.isnumeric() else 0)
 
     def distance(self) -> List[float]:
-        return self.parse_extra_column("KMs", lambda x: float(x) if x else None)
+        return self.parse_extra_column("KMs", lambda x:
+            float(x) if x else None)
 
     def date(self) -> List[str]:
         return self.parse_extra_column("Date", lambda x: str(x))

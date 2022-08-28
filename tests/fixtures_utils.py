@@ -30,7 +30,8 @@ class FixturesUtils:
 
     def make_data_fixture(self, scraper_obj: Scraper) -> None:
         """
-        Makes data fixture from dict returned by scraper object's `parse` method
+        Makes data fixture from dict returned by scraper object's `parse` 
+        method
 
         :param scraper_obj: scraper object ready for HTML parsing
         :raises ExpectedParsingError: when object's HTML is None
@@ -85,8 +86,8 @@ class FixturesUtils:
     def get_scraper_objects_from_fixtures(
             self, ScraperClass: Type[Scraper]) -> List[Scraper]:
         """
-        Creates scraper object of ScraperClass from every HTML fixture which URL
-        is valid for given ScraperClass
+        Creates scraper object of ScraperClass from every HTML fixture which 
+        URL is valid for given ScraperClass
 
         :param ScraperClass: class to create objects from
         :return: list with scraper objects ready for HTML parsing
@@ -97,8 +98,8 @@ class FixturesUtils:
         urls = [url for url in html_files_urls if url in json_files_urls]
         objects_to_test = []
         for url in urls:
-            # add scraper object that passes URL validity check of given scraper
-            # class
+            # add scraper object that passes URL validity check of given 
+            # scraper class
             try:
                 # get HTML of scraper object from fixtures
                 html = self.get_html_fixture(url)

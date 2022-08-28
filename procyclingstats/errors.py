@@ -31,7 +31,8 @@ class UnexpectedParsingError(Exception):
 
 class ParsedValueInvalidError(Exception):
     """
-    Exception to raise when parsed value didn't pass some kind of validity check
+    Exception to raise when parsed value didn't pass some kind of validity
+    check.
 
     :param message: exception message to print when raised
     """

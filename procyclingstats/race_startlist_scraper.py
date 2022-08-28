@@ -41,8 +41,8 @@ class RaceStartlist(Scraper):
             "nationality",
             "rider_number")) -> List[Dict[str, Any]]:
         """
-        Parses startlist from HTML. When startlist is individual (without teams)
-        fields team name, url and rider nationality are set to None.
+        Parses startlist from HTML. When startlist is individual (without 
+        teams) fields team name, url and rider nationality are set to None.
         
         :param *args: fields that should be contained in table
         :param available_fields: default fields, all available options

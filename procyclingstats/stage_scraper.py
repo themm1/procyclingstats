@@ -374,7 +374,8 @@ class Stage(Scraper):
         :param *args: fields that should be contained in results table
         :param available_fields: default fields, all available options
         :raises ValueError: when one of args is invalid
-        :return: youth classification results table represented as list of dicts
+        :return: youth classification results table represented as list of 
+        dicts
         """
         fields = parse_table_fields_args(args, available_fields)
         teams_table_html = self._table_html("teams")
@@ -463,14 +464,16 @@ class Stage(Scraper):
             riders_parser.extend_table("rider_time", riders_extra_times)
             teams_parser.extend_table("time", team_times)
 
-            table = join_tables(riders_parser.table, teams_parser.table, "rank")
+            table = join_tables(riders_parser.table, teams_parser.table,
+                "rank")
             # add team times and rider_extra times together and remove
             # rider_time field from table
             for row in table:
                 rider_extra_time = row.pop('rider_time')
                 row['time'] = add_times(row['time'], rider_extra_time)
         else:
-            table = join_tables(riders_parser.table, teams_parser.table, "rank")
+            table = join_tables(riders_parser.table, teams_parser.table,
+                "rank")
         if "rank" not in fields:
             for row in table:
                 row.pop("rank")

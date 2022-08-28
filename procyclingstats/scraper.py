@@ -69,7 +69,8 @@ class Scraper:
     def __eq__(self, other) -> bool:
         if type(self) != type(other):
             return False
-        return self.normalized_relative_url() == other.normalized_relative_url()
+        return (self.normalized_relative_url() == 
+                other.normalized_relative_url())
 
     @property
     def url(self) -> str:
@@ -85,8 +86,8 @@ class Scraper:
         """
         if self._html is None:
             raise AttributeError(
-                "In order to access HTML, update it using `self.update_html` " +
-                "method.")
+                "In order to access HTML, update it using " +
+                "`self.update_html` method.")
         return self._html
 
     def relative_url(self) -> str:
@@ -109,8 +110,8 @@ class Scraper:
 
     def update_html(self) -> None:
         """
-        Calls request to `self.url` and updates `self.html` to HTMLParser object
-        created from returned HTML.
+        Calls request to `self.url` and updates `self.html` to HTMLParser 
+        object created from returned HTML.
         """
         html_str = requests.get(self._url).text
         self._html = HTMLParser(html_str)
@@ -122,8 +123,8 @@ class Scraper:
         Creates JSON like dict with parsed data by calling all parsing methods.
         Keys in dict are methods names and values parsed data
 
-        :param exceptions_to_ignore: tuple of exceptions that should be ignored,
-        defaults to `(ExpectedParsingError)`
+        :param exceptions_to_ignore: tuple of exceptions that should be
+        ignored, defaults to `(ExpectedParsingError)`
         :param none_when_unavailable: whether to set dict value to None when
         method raises ignored exception
         :return: dict with parsing methods mapping to parsed data
@@ -199,7 +200,8 @@ class Scraper:
             assert page_title2 != ("Due to technical difficulties this page " +
             "is temporarily unavailable.")
 
-            page_title3 = self.html.css_first(".page-title > .main > h1").text()
+            page_title3 = self.html.css_first(
+                ".page-title > .main > h1").text()
             assert page_title3 != "Start"
             return True
         except AssertionError:

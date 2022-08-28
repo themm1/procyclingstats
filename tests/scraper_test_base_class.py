@@ -20,7 +20,8 @@ class ScraperTestBaseClass:
         :param subtests: subtests module, passed by pytest
         """
         f = FixturesUtils(fixtures_path="tests/fixtures/")
-        objects_to_test = f.get_scraper_objects_from_fixtures(self.ScraperClass)
+        objects_to_test = f.get_scraper_objects_from_fixtures(
+            self.ScraperClass)
         parsed_data = []
         correct_data = []
         for obj in objects_to_test:
