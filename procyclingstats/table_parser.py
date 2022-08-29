@@ -305,7 +305,8 @@ class TableParser:
                 return [0 for _ in range(self.table_length)]
 
     def points(self) -> List[int]:
-        return self.parse_extra_column("Points", float)
+        return self.parse_extra_column("Points", lambda x:
+            float(x) if x else 0)
 
     def class_(self) -> List[str]:
         """
