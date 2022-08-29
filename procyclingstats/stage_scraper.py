@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Literal, Optional, Tuple
+from typing import Any, Dict, List, Literal, Optional
 
 from selectolax.parser import HTMLParser, Node
 
@@ -87,9 +87,8 @@ class Stage(Scraper):
 
         :return: Stage distance in kms.
         """
-        distance_html = self.html.css_first(
-            ".infolist > li:nth-child(5) > div:nth-child(2)")
-        return float(distance_html.text().split(" km")[0])
+        distance = self._stage_info_by_label("Distance")
+        return float(distance.split(" km")[0])
 
     def profile_icon(self) -> Literal["p0", "p1", "p2", "p3", "p4", "p5"]:
         """
@@ -113,27 +112,12 @@ class Stage(Scraper):
         stage_name2 = stage_name2_html.text()
         if "ITT" in stage_name or "ITT" in stage_name2:
             return "ITT"
-        elif "TTT" in stage_name or "TTT" in stage_name2:
+        if "TTT" in stage_name or "TTT" in stage_name2:
             return "TTT"
-        else:
-            return "RR"
+        return "RR"
 
-    def winning_attack_length(self,
-            when_none_or_unknown: float = 0.0) -> float:
-        """
-        Parses length of winning attack from HTML.
-
-        :param when_none_or_unknown: Value to return when there is no info
-        about winning attack, defaults to 0.0.
-        :return: Length of winning attack in KMs.
-        """
-        won_how_html = self.html.css_first(
-            ".infolist > li:nth-child(12) > div:nth-child(2)")
-        won_how = won_how_html.text()
-        if " km solo" in won_how:
-            return float(won_how.split(" km sol")[0])
-        else:
-            return when_none_or_unknown
+    def winning_attack_length(self):
+        return None
 
     def vertical_meters(self) -> Optional[int]:
         """
@@ -141,10 +125,10 @@ class Stage(Scraper):
 
         :return: Vertical meters.
         """
-        vertical_meters_html = self.html.css_first(
-            ".infolist > li:nth-child(9) > div:nth-child(2)")
-        vertical_meters = vertical_meters_html.text()
-        return int(vertical_meters) if vertical_meters else None
+        vert_meters = self._stage_info_by_label("Vert. meters")
+        if vert_meters:
+            return int(vert_meters)
+        return None
 
     def date(self) -> str:
         """
@@ -152,9 +136,8 @@ class Stage(Scraper):
 
         :return: Date when stage took place `YYYY-MM-DD`.
         """
-        date_html = self.html.css_first(".infolist > li > div:nth-child(2)")
-        date = date_html.text().split(", ")[0]
-        return convert_date(date)
+        date = self._stage_info_by_label("Date")
+        return convert_date(date.split(", ")[0])
 
     def departure(self) -> str:
         """
@@ -162,9 +145,7 @@ class Stage(Scraper):
 
         :return: Departure of the stage.
         """
-        departure_html = self.html.css_first(
-            ".infolist > li:nth-child(10) > div:nth-child(2)")
-        return departure_html.text()
+        return self._stage_info_by_label("Departure")
 
     def arrival(self) -> str:
         """
@@ -172,9 +153,52 @@ class Stage(Scraper):
 
         :return: Arrival of the stage.
         """
-        arrival_html = self.html.css_first(
-            ".infolist > li:nth-child(11) > div:nth-child(2)")
-        return arrival_html.text()
+        return self._stage_info_by_label("Arrival")
+
+    def won_how(self) -> str:
+        """
+        Parses won how label value from HTML.
+
+        :return: Won how string e.g `Sprint of small group`.
+        """
+        return self._stage_info_by_label("Won how")
+
+    def race_startlist_quality_score(self) -> int:
+        """
+        Parses race startlist quality score from HTML.
+
+        :return: Race startlist quality score.
+        """
+        return int(self._stage_info_by_label("Startlist quality score"))
+
+    def profile_score(self) -> Optional[int]:
+        """
+        Parses profile score from HTML.
+
+        :return: Profile score.
+        """
+        profile_score = self._stage_info_by_label("Profile")
+        if profile_score:
+            return int(profile_score)
+        return None
+
+
+    def pcs_points_scale(self) -> str:
+        """
+        Parses PCS points scale from HTML.
+
+        :return: PCS points scale, e.g. `GT.A.Stage`.
+        """
+        return self._stage_info_by_label("Points scale")
+
+    def uci_points_scale(self) -> str:
+        """
+        Parses UCI points scale from HTML.
+
+        :return: UCI points scale, e.g. `UCI scale`. Empty string when not
+        found.
+        """
+        return self._stage_info_by_label("UCI scale")
 
     def results(self, *args: str) -> List[Dict[str, Any]]:
         """
@@ -347,7 +371,7 @@ class Stage(Scraper):
         table_parser.parse(fields)
         return table_parser.table
 
-    def kom(self, *args: str, available_fields: Tuple[str, ...] = ()) -> List[Dict[str, Any]]:
+    def kom(self, *args: str) -> List[Dict[str, Any]]:
         """
         Parses results from KOM classification results table from HTML.
 
@@ -467,6 +491,21 @@ class Stage(Scraper):
         table_parser.parse(fields)
         return table_parser.table
 
+    def _stage_info_by_label(self, label: str) -> str:
+        """
+        Finds infolist value for given label.
+
+        :param label: Label to find value for.
+        :return: Value of given label. Empty string when label is not in
+        infolist.
+        """
+        for row in self.html.css("ul.infolist > li"):
+            row_text = row.text(separator="\n").split("\n")
+            row_text = [x for x in row_text if x != " "]
+            if label in row_text[0]:
+                return row_text[1]
+        return ""
+
     def _table_html(self, table: Literal[
             "stage",
             "gc",
@@ -484,6 +523,7 @@ class Stage(Scraper):
         for i, element in enumerate(self.html.css("ul.restabs > li > a")):
             if table in element.text().lower():
                 return categories[i].css_first("table")
+        return None
 
     @staticmethod
     def _ttt_results(results_table_html: Node,
