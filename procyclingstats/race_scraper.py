@@ -40,7 +40,7 @@ class Race(Scraper):
         """
         return int(self.html.css_first("span.hideIfMobile").text())
 
-    def display_name(self) -> str:
+    def name(self) -> str:
         """
         Parses display name from HTML.
 

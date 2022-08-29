@@ -156,12 +156,12 @@
 <ul class="list horizontal rdr-rankings" style=" "><li class=""><div class="title   "><a href="rankings/me/all-time">Specials | All Time Ranking</a></div><div class="rnk   ">29</div><div class="clear"></div></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal" style=" "><li class=""><div class="bold   ">Visits:</div><div><span class="delta-up">▲372</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
+<ul class="list horizontal" style=" "><li class=""><div class="bold   ">Visits:</div><div><span class="delta-down">▼171</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
 </ul></div>
 </span></span></div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-a-espana/2014/gc">Vuelta a España</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14, '12, '08)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-de-france/2010/gc">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('10, '09, '07)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-de-france/2009/gc">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('09, '07)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>4x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/itzulia-basque-country/2016/gc">Vuelta Ciclista al Pais Vasco</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16, '14, '09, '08)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/giro-d-italia/2015/gc">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15, '11, '08)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/giro-d-italia/2015/gc">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15, '08)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/paris-nice/2010/gc">Paris - Nice</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('10, '07)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>6x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-a-espana/2017/stage-20">Vuelta a España</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17, '14, '12, '08)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tirreno-adriatico/2014/gc">Tirreno-Adriatico</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14)</span></div></li>
@@ -169,7 +169,7 @@
 <li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2009/stage-18">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('09, '07)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>5x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/paris-nice/2010/stage-4">Paris - Nice</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('10, '09, '07)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-a-castilla-y-leon/2010/gc">Vuelta a Castilla y Leon</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('10, '08, '07)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/dauphine/2016/prologue">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16, '10)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/dauphine/2016/prologue">Criterium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16, '10)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
 <ul class="list rdr-teams moblist moblist " data-shortnr="4" style=" "><li class=" main "><div class="season   "></div><div class="name   "><a href="team/"></a></div><div>retired since 2017-09-10</div><div class="fs10   "></div><div class="clear"></div></li>
@@ -430,7 +430,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1408 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1741kb) peak (2740kb)</span></li></ul></li>
+<li><span>0.7174 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1739kb) peak (2681kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 

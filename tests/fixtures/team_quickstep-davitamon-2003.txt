@@ -186,34 +186,34 @@
 <li class=""><div>28</div><div><span class="flag be"></span> <a href="rider/kevin-desmedt">DESMEDT Kevin</a></div><div class="right   ">0</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabe">
-<ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>2</div><div><span class="flag be"></span> <a href="rider/kevin-desmedt">DESMEDT Kevin</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>3</div><div><span class="flag kz"></span> <a href="rider/andrey-kashechkin">KASHECHKIN Andrey</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>4</div><div><span class="flag it"></span> <a href="rider/domenico-passuello">PASSUELLO Domenico</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>5</div><div><span class="flag it"></span> <a href="rider/marco-rusconi">RUSCONI Marco</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>6</div><div><span class="flag be"></span> <a href="rider/kurt-van-de-wouwer">VAN DE WOUWER Kurt</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>7</div><div><span class="flag be"></span> <a href="rider/frank-vandenbroucke">VANDENBROUCKE Frank</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>8</div><div><span class="flag nz"></span> <a href="rider/jeremy-yates">YATES Jeremy</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>9</div><div><span class="flag pl"></span> <a href="rider/piotr-wadecki">WADECKI Piotr</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>10</div><div><span class="flag es"></span> <a href="rider/david-canada">CAÑADA David</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>11</div><div><span class="flag be"></span> <a href="rider/frederic-amorison">AMORISON Frédéric</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>12</div><div><span class="flag ch"></span> <a href="rider/aurelien-clerc">CLERC Aurélien</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>13</div><div><span class="flag be"></span> <a href="rider/johan-museeuw">MUSEEUW Johan</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>14</div><div><span class="flag be"></span> <a href="rider/sven-vanthourenhout">VANTHOURENHOUT Sven</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>15</div><div><span class="flag fr"></span> <a href="rider/richard-virenque">VIRENQUE Richard</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>16</div><div><span class="flag nl"></span> <a href="rider/bram-tankink">TANKINK Bram</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>17</div><div><span class="flag es"></span> <a href="rider/pedro-horrillo">HORRILLO Pedro</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>18</div><div><span class="flag be"></span> <a href="rider/nick-nuyens">NUYENS Nick</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>19</div><div><span class="flag nl"></span> <a href="rider/servais-knaven">KNAVEN Servais</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>20</div><div><span class="flag be"></span> <a href="rider/wilfried-cretskens">CRETSKENS Wilfried</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>21</div><div><span class="flag au"></span> <a href="rider/michael-rogers">ROGERS Michael</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>22</div><div><span class="flag it"></span> <a href="rider/paolo-bettini">BETTINI Paolo</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>23</div><div><span class="flag de"></span> <a href="rider/patrik-sinkewitz">SINKEWITZ Patrik</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>24</div><div><span class="flag it"></span> <a href="rider/luca-paolini">PAOLINI Luca</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>25</div><div><span class="flag fr"></span> <a href="rider/laszlo-bodrogi">BODROGI László</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>26</div><div><span class="flag be"></span> <a href="rider/jurgen-van-goolen">VAN GOOLEN Jurgen</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>27</div><div><span class="flag be"></span> <a href="rider/kevin-hulsmans">HULSMANS Kevin</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>28</div><div><span class="flag it"></span> <a href="rider/davide-bramati">BRAMATI Davide</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag kz"></span> <a href="rider/andrey-kashechkin">KASHECHKIN Andrey</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag it"></span> <a href="rider/domenico-passuello">PASSUELLO Domenico</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag it"></span> <a href="rider/marco-rusconi">RUSCONI Marco</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag be"></span> <a href="rider/kurt-van-de-wouwer">VAN DE WOUWER Kurt</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag be"></span> <a href="rider/frank-vandenbroucke">VANDENBROUCKE Frank</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag nz"></span> <a href="rider/jeremy-yates">YATES Jeremy</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag pl"></span> <a href="rider/piotr-wadecki">WADECKI Piotr</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag es"></span> <a href="rider/david-canada">CAÑADA David</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag be"></span> <a href="rider/frederic-amorison">AMORISON Frédéric</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag ch"></span> <a href="rider/aurelien-clerc">CLERC Aurélien</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag be"></span> <a href="rider/johan-museeuw">MUSEEUW Johan</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag be"></span> <a href="rider/sven-vanthourenhout">VANTHOURENHOUT Sven</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>13</div><div><span class="flag fr"></span> <a href="rider/richard-virenque">VIRENQUE Richard</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>14</div><div><span class="flag nl"></span> <a href="rider/bram-tankink">TANKINK Bram</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag es"></span> <a href="rider/pedro-horrillo">HORRILLO Pedro</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag be"></span> <a href="rider/nick-nuyens">NUYENS Nick</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag nl"></span> <a href="rider/servais-knaven">KNAVEN Servais</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag be"></span> <a href="rider/wilfried-cretskens">CRETSKENS Wilfried</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag au"></span> <a href="rider/michael-rogers">ROGERS Michael</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>20</div><div><span class="flag it"></span> <a href="rider/paolo-bettini">BETTINI Paolo</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>21</div><div><span class="flag de"></span> <a href="rider/patrik-sinkewitz">SINKEWITZ Patrik</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>22</div><div><span class="flag it"></span> <a href="rider/luca-paolini">PAOLINI Luca</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>23</div><div><span class="flag fr"></span> <a href="rider/laszlo-bodrogi">BODROGI László</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>24</div><div><span class="flag be"></span> <a href="rider/jurgen-van-goolen">VAN GOOLEN Jurgen</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>25</div><div><span class="flag be"></span> <a href="rider/kevin-hulsmans">HULSMANS Kevin</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>26</div><div><span class="flag it"></span> <a href="rider/davide-bramati">BRAMATI Davide</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>27</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>28</div><div><span class="flag be"></span> <a href="rider/kevin-desmedt">DESMEDT Kevin</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
 </ul></div>
 <div class="ttabs tabb">
 <ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag be"></span> <a href="rider/frederic-amorison">AMORISON Frédéric</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
@@ -277,28 +277,28 @@
 </ul></div>
 <div class="hide ttabs tabd">
 <ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag au"></span> <a href="rider/michael-rogers">ROGERS Michael</a></div><div class="clear"></div></li>
-<li class=""><div>2</div><div><span class="flag be"></span> <a href="rider/sven-vanthourenhout">VANTHOURENHOUT Sven</a></div><div class="clear"></div></li>
-<li class=""><div>3</div><div><span class="flag be"></span> <a href="rider/kevin-desmedt">DESMEDT Kevin</a></div><div class="clear"></div></li>
-<li class=""><div>4</div><div><span class="flag be"></span> <a href="rider/frederic-amorison">AMORISON Frédéric</a></div><div class="clear"></div></li>
-<li class=""><div>5</div><div><span class="flag be"></span> <a href="rider/kevin-hulsmans">HULSMANS Kevin</a></div><div class="clear"></div></li>
-<li class=""><div>6</div><div><span class="flag be"></span> <a href="rider/frank-vandenbroucke">VANDENBROUCKE Frank</a></div><div class="clear"></div></li>
-<li class=""><div>7</div><div><span class="flag be"></span> <a href="rider/johan-museeuw">MUSEEUW Johan</a></div><div class="clear"></div></li>
-<li class=""><div>8</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="clear"></div></li>
-<li class=""><div>9</div><div><span class="flag be"></span> <a href="rider/nick-nuyens">NUYENS Nick</a></div><div class="clear"></div></li>
-<li class=""><div>10</div><div><span class="flag be"></span> <a href="rider/jurgen-van-goolen">VAN GOOLEN Jurgen</a></div><div class="clear"></div></li>
-<li class=""><div>11</div><div><span class="flag be"></span> <a href="rider/kurt-van-de-wouwer">VAN DE WOUWER Kurt</a></div><div class="clear"></div></li>
-<li class=""><div>12</div><div><span class="flag be"></span> <a href="rider/wilfried-cretskens">CRETSKENS Wilfried</a></div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag be"></span> <a href="rider/wilfried-cretskens">CRETSKENS Wilfried</a></div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag be"></span> <a href="rider/sven-vanthourenhout">VANTHOURENHOUT Sven</a></div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag be"></span> <a href="rider/kevin-desmedt">DESMEDT Kevin</a></div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag be"></span> <a href="rider/frank-vandenbroucke">VANDENBROUCKE Frank</a></div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag be"></span> <a href="rider/frederic-amorison">AMORISON Frédéric</a></div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag be"></span> <a href="rider/kevin-hulsmans">HULSMANS Kevin</a></div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag be"></span> <a href="rider/johan-museeuw">MUSEEUW Johan</a></div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag be"></span> <a href="rider/kurt-van-de-wouwer">VAN DE WOUWER Kurt</a></div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag be"></span> <a href="rider/nick-nuyens">NUYENS Nick</a></div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag be"></span> <a href="rider/jurgen-van-goolen">VAN GOOLEN Jurgen</a></div><div class="clear"></div></li>
 <li class=""><div>13</div><div><span class="flag ch"></span> <a href="rider/aurelien-clerc">CLERC Aurélien</a></div><div class="clear"></div></li>
 <li class=""><div>14</div><div><span class="flag de"></span> <a href="rider/patrik-sinkewitz">SINKEWITZ Patrik</a></div><div class="clear"></div></li>
-<li class=""><div>15</div><div><span class="flag es"></span> <a href="rider/david-canada">CAÑADA David</a></div><div class="clear"></div></li>
-<li class=""><div>16</div><div><span class="flag es"></span> <a href="rider/pedro-horrillo">HORRILLO Pedro</a></div><div class="clear"></div></li>
-<li class=""><div>17</div><div><span class="flag fr"></span> <a href="rider/richard-virenque">VIRENQUE Richard</a></div><div class="clear"></div></li>
-<li class=""><div>18</div><div><span class="flag fr"></span> <a href="rider/laszlo-bodrogi">BODROGI László</a></div><div class="clear"></div></li>
-<li class=""><div>19</div><div><span class="flag it"></span> <a href="rider/paolo-bettini">BETTINI Paolo</a></div><div class="clear"></div></li>
-<li class=""><div>20</div><div><span class="flag it"></span> <a href="rider/luca-paolini">PAOLINI Luca</a></div><div class="clear"></div></li>
-<li class=""><div>21</div><div><span class="flag it"></span> <a href="rider/domenico-passuello">PASSUELLO Domenico</a></div><div class="clear"></div></li>
-<li class=""><div>22</div><div><span class="flag it"></span> <a href="rider/davide-bramati">BRAMATI Davide</a></div><div class="clear"></div></li>
-<li class=""><div>23</div><div><span class="flag it"></span> <a href="rider/marco-rusconi">RUSCONI Marco</a></div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag es"></span> <a href="rider/pedro-horrillo">HORRILLO Pedro</a></div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag es"></span> <a href="rider/david-canada">CAÑADA David</a></div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag fr"></span> <a href="rider/laszlo-bodrogi">BODROGI László</a></div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag fr"></span> <a href="rider/richard-virenque">VIRENQUE Richard</a></div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag it"></span> <a href="rider/davide-bramati">BRAMATI Davide</a></div><div class="clear"></div></li>
+<li class=""><div>20</div><div><span class="flag it"></span> <a href="rider/marco-rusconi">RUSCONI Marco</a></div><div class="clear"></div></li>
+<li class=""><div>21</div><div><span class="flag it"></span> <a href="rider/paolo-bettini">BETTINI Paolo</a></div><div class="clear"></div></li>
+<li class=""><div>22</div><div><span class="flag it"></span> <a href="rider/domenico-passuello">PASSUELLO Domenico</a></div><div class="clear"></div></li>
+<li class=""><div>23</div><div><span class="flag it"></span> <a href="rider/luca-paolini">PAOLINI Luca</a></div><div class="clear"></div></li>
 <li class=""><div>24</div><div><span class="flag kz"></span> <a href="rider/andrey-kashechkin">KASHECHKIN Andrey</a></div><div class="clear"></div></li>
 <li class=""><div>25</div><div><span class="flag nl"></span> <a href="rider/servais-knaven">KNAVEN Servais</a></div><div class="clear"></div></li>
 <li class=""><div>26</div><div><span class="flag nl"></span> <a href="rider/bram-tankink">TANKINK Bram</a></div><div class="clear"></div></li>
@@ -449,7 +449,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0989 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1342kb) peak (1482kb)</span></li></ul></li>
+<li><span>0.1228 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1342kb) peak (1482kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="2101"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 

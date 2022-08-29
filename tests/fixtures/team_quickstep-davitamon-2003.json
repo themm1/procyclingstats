@@ -1,7 +1,109 @@
 {
   "abbreviation": "QSD",
   "bike": "Time",
-  "display_name": "Quickstep - Davitamon",
+  "history_select": [
+    {
+      "text": "2027 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2027/overview/"
+    },
+    {
+      "text": "2026 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2026/overview/"
+    },
+    {
+      "text": "2025 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2025/overview/"
+    },
+    {
+      "text": "2024 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2024/overview/"
+    },
+    {
+      "text": "2023 | Soudal - Quick Step",
+      "value": "team/soudal-quick-step-2023/overview/"
+    },
+    {
+      "text": "2022 | Quick-Step Alpha Vinyl Team",
+      "value": "team/quick-step-alpha-vinyl-2022/overview/"
+    },
+    {
+      "text": "2021 | Deceuninck - Quick Step",
+      "value": "team/deceuninck-quick-step-2021/overview/"
+    },
+    {
+      "text": "2020 | Deceuninck - Quick Step",
+      "value": "team/deceuninck-quick-step-2020/overview/"
+    },
+    {
+      "text": "2019 | Deceuninck - Quick Step",
+      "value": "team/deceuninck-quick-step-2019/overview/"
+    },
+    {
+      "text": "2018 | Quick-Step Floors",
+      "value": "team/quick-step-floors-2018/overview/"
+    },
+    {
+      "text": "2017 | Quick-Step Floors",
+      "value": "team/quick-step-floors-2017/overview/"
+    },
+    {
+      "text": "2016 | Etixx - Quick Step",
+      "value": "team/etixx-quick-step-2016/overview/"
+    },
+    {
+      "text": "2015 | Etixx - Quick Step",
+      "value": "team/etixx-quick-step-2015/overview/"
+    },
+    {
+      "text": "2014 | Omega Pharma - Quick-Step",
+      "value": "team/omega-pharma-quick-step-2014/overview/"
+    },
+    {
+      "text": "2013 | Omega Pharma - Quick-Step",
+      "value": "team/omega-pharma-quick-step-2013/overview/"
+    },
+    {
+      "text": "2012 | Omega Pharma - Quick-Step",
+      "value": "team/omega-pharma-quick-step-2012/overview/"
+    },
+    {
+      "text": "2011 | Quickstep Cycling Team",
+      "value": "team/quickstep-cycling-team-2011/overview/"
+    },
+    {
+      "text": "2010 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2010/overview/"
+    },
+    {
+      "text": "2009 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2009/overview/"
+    },
+    {
+      "text": "2008 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2008/overview/"
+    },
+    {
+      "text": "2007 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2007/overview/"
+    },
+    {
+      "text": "2006 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2006/overview/"
+    },
+    {
+      "text": "2005 | Quickstep - Innergetic",
+      "value": "team/quickstep-innergetic-2005/overview/"
+    },
+    {
+      "text": "2004 | Quickstep - Davitamon",
+      "value": "team/quickstep-davitamon-2004/overview/"
+    },
+    {
+      "text": "2003 | Quickstep - Davitamon",
+      "value": "team/quickstep-davitamon-2003/overview/"
+    }
+  ],
+  "name": "Quickstep - Davitamon",
   "nationality": "BE",
   "normalized_relative_url": "team/quickstep-davitamon-2003",
   "ranking_position": null,
@@ -285,108 +387,6 @@
       "age": 22,
       "nationality": "BE",
       "rider_name": "DESMEDT Kevin"
-    }
-  ],
-  "seasons_select": [
-    {
-      "text": "2027 | Soudal - Quick Step",
-      "value": "team/soudal-quick-step-2027/overview/"
-    },
-    {
-      "text": "2026 | Soudal - Quick Step",
-      "value": "team/soudal-quick-step-2026/overview/"
-    },
-    {
-      "text": "2025 | Soudal - Quick Step",
-      "value": "team/soudal-quick-step-2025/overview/"
-    },
-    {
-      "text": "2024 | Soudal - Quick Step",
-      "value": "team/soudal-quick-step-2024/overview/"
-    },
-    {
-      "text": "2023 | Soudal - Quick Step",
-      "value": "team/soudal-quick-step-2023/overview/"
-    },
-    {
-      "text": "2022 | Quick-Step Alpha Vinyl Team",
-      "value": "team/quick-step-alpha-vinyl-2022/overview/"
-    },
-    {
-      "text": "2021 | Deceuninck - Quick Step",
-      "value": "team/deceuninck-quick-step-2021/overview/"
-    },
-    {
-      "text": "2020 | Deceuninck - Quick Step",
-      "value": "team/deceuninck-quick-step-2020/overview/"
-    },
-    {
-      "text": "2019 | Deceuninck - Quick Step",
-      "value": "team/deceuninck-quick-step-2019/overview/"
-    },
-    {
-      "text": "2018 | Quick-Step Floors",
-      "value": "team/quick-step-floors-2018/overview/"
-    },
-    {
-      "text": "2017 | Quick-Step Floors",
-      "value": "team/quick-step-floors-2017/overview/"
-    },
-    {
-      "text": "2016 | Etixx - Quick Step",
-      "value": "team/etixx-quick-step-2016/overview/"
-    },
-    {
-      "text": "2015 | Etixx - Quick Step",
-      "value": "team/etixx-quick-step-2015/overview/"
-    },
-    {
-      "text": "2014 | Omega Pharma - Quick-Step",
-      "value": "team/omega-pharma-quick-step-2014/overview/"
-    },
-    {
-      "text": "2013 | Omega Pharma - Quick-Step",
-      "value": "team/omega-pharma-quick-step-2013/overview/"
-    },
-    {
-      "text": "2012 | Omega Pharma - Quick-Step",
-      "value": "team/omega-pharma-quick-step-2012/overview/"
-    },
-    {
-      "text": "2011 | Quickstep Cycling Team",
-      "value": "team/quickstep-cycling-team-2011/overview/"
-    },
-    {
-      "text": "2010 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2010/overview/"
-    },
-    {
-      "text": "2009 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2009/overview/"
-    },
-    {
-      "text": "2008 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2008/overview/"
-    },
-    {
-      "text": "2007 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2007/overview/"
-    },
-    {
-      "text": "2006 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2006/overview/"
-    },
-    {
-      "text": "2005 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2005/overview/"
-    },
-    {
-      "text": "2004 | Quickstep - Davitamon",
-      "value": "team/quickstep-davitamon-2004/overview/"
-    },
-    {
-      "text": "2003 | Quickstep - Davitamon",
-      "value": "team/quickstep-davitamon-2003/overview/"
     }
   ],
   "status": "TT1",

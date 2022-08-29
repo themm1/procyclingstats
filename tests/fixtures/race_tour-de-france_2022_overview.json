@@ -1,9 +1,9 @@
 {
   "category": "Men Elite",
-  "display_name": "Tour de France",
   "edition": 109,
   "enddate": "2022-07-24",
   "is_one_day_race": false,
+  "name": "Tour de France",
   "nationality": "FR",
   "normalized_relative_url": "race/tour-de-france/2022/overview",
   "prev_editions": [

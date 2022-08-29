@@ -76,13 +76,13 @@ class Scraper:
 
     @property
     def url(self) -> str:
-        """Absolute object's URL."""
+        """Absolute URL from URL that was passed when constructing."""
         return self._url
 
     @property
     def html(self) -> HTMLParser:
         """
-        Object's HTML.
+        HTML that is used for parsing.
 
         :raises AttributeError: when HTML is None
         """

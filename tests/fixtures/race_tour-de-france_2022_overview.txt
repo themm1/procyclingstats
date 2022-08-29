@@ -240,7 +240,7 @@
 <li class=""><div class="mg_rp10   "><a href="race/tour-de-france/2013">2013</a></div><div><span class="flag gb"></span> <a href="rider/christopher-froome">FROOME Chris</a></div><div class="clear"></div></li>
 </ul></div>
 </div>
-<div class="desktop-ad below-content race"></div><div class="mob-ad below-content race"></div></div><div class="page-nav default "><ul class="menu-tree "><li><span>Menu</span><ul><li class="cur" style=" "><a href="race/tour-de-france/2022/gc/overview/overview">Overview</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/general">General statistics</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/gc-contenders">GC Contenders</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/sprinters">Sprinters</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/time-trial-specialists">Time trial specialists</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/teams">Teams</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/parcours">Parcours</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/climbers">Climbers</a></li></ul></li></ul></div><div style="clear: both; "></div>  
+<div class="desktop-ad below-content race"></div><div class="mob-ad below-content race"></div></div><div class="page-nav default "><ul class="menu-tree "><li><span>Menu</span><ul><li class="cur" style=" "><a href="race/tour-de-france/2022/gc/overview/overview">Overview</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/general">General statistics</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/gc-contenders">GC Contenders</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/sprinters">Sprinters</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/time-trial-specialists">Time trial specialists</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/teams">Teams</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/parcours">Parcours</a></li><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/climbers">Climbers</a></li></ul></li><li><span>About the race</span><ul><li class="" style=" "><a href="race/tour-de-france/2022/gc/overview/race-ranking">Race ranking</a></li></ul></li></ul></div><div style="clear: both; "></div>  
   </div>
   
   <div class="push"></div>
@@ -280,7 +280,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1129 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1301kb) peak (1439kb)</span></li></ul></li>
+<li><span>0.0754 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1305kb) peak (1444kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 

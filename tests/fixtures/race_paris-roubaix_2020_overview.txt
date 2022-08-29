@@ -184,7 +184,7 @@ Originally planned from 2020-04-12 - 2020-04-12.</div></div>
 <li class=""><div class="mg_rp10   "><a href="race/paris-roubaix/2012">2012</a></div><div><span class="flag be"></span> <a href="rider/tom-boonen">BOONEN Tom</a></div><div class="clear"></div></li>
 </ul></div>
 </div>
-<div class="desktop-ad below-content race"></div><div class="mob-ad below-content race"></div></div><div class="page-nav default "><ul class="menu-tree "><li><span>Menu</span><ul><li class="cur" style=" "><a href="race/paris-roubaix/2020/result/overview/overview">Overview</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/general">General statistics</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/gc-contenders">GC Contenders</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/sprinters">Sprinters</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/time-trial-specialists">Time trial specialists</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/teams">Teams</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/parcours">Parcours</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/climbers">Climbers</a></li></ul></li></ul></div><div style="clear: both; "></div>  
+<div class="desktop-ad below-content race"></div><div class="mob-ad below-content race"></div></div><div class="page-nav default "><ul class="menu-tree "><li><span>Menu</span><ul><li class="cur" style=" "><a href="race/paris-roubaix/2020/result/overview/overview">Overview</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/general">General statistics</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/gc-contenders">GC Contenders</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/sprinters">Sprinters</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/time-trial-specialists">Time trial specialists</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/teams">Teams</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/parcours">Parcours</a></li><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/climbers">Climbers</a></li></ul></li><li><span>About the race</span><ul><li class="" style=" "><a href="race/paris-roubaix/2020/result/overview/race-ranking">Race ranking</a></li></ul></li></ul></div><div style="clear: both; "></div>  
   </div>
   
   <div class="push"></div>
@@ -224,7 +224,7 @@ Originally planned from 2020-04-12 - 2020-04-12.</div></div>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0318 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1235kb) peak (1384kb)</span></li></ul></li>
+<li><span>0.0285 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1239kb) peak (1389kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 

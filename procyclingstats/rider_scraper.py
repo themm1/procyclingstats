@@ -115,7 +115,7 @@ class Rider(Scraper):
         return flag_class.split(" ")[-1].upper() # type:ignore
 
 
-    def seasons_teams(self, *args: str) -> List[Dict[str, Any]]:
+    def teams_history(self, *args: str) -> List[Dict[str, Any]]:
         """
         Parses rider's team history throughout career.
 
@@ -169,7 +169,7 @@ class Rider(Scraper):
                 row.pop("class")
         return table
 
-    def seasons_points(self, *args: str) -> List[Dict[str, Any]]:
+    def points_per_season_history(self, *args: str) -> List[Dict[str, Any]]:
         """
         Parses rider's points per season history.
 

@@ -3,9 +3,9 @@
   "height": 1.76,
   "name": "David  Ca\u00f1ada",
   "nationality": "ES",
-  "place_of_birth": "Zaragoza",
   "normalized_relative_url": "rider/david-canada",
-  "seasons_points": [
+  "place_of_birth": "Zaragoza",
+  "points_per_season_history": [
     {
       "season": 2008,
       "points": 92.0,
@@ -72,7 +72,7 @@
       "rank": 1104
     }
   ],
-  "seasons_teams": [
+  "teams_history": [
     {
       "season": 2009,
       "team_name": "Fuji-Servetto",

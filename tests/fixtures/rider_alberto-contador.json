@@ -3,9 +3,9 @@
   "height": 1.76,
   "name": "Alberto  Contador",
   "nationality": "ES",
-  "place_of_birth": "Pinto",
   "normalized_relative_url": "rider/alberto-contador",
-  "seasons_points": [
+  "place_of_birth": "Pinto",
+  "points_per_season_history": [
     {
       "season": 2017,
       "points": 1708.0,
@@ -87,7 +87,7 @@
       "rank": 1422
     }
   ],
-  "seasons_teams": [
+  "teams_history": [
     {
       "season": 2017,
       "team_name": "Trek - Segafredo",

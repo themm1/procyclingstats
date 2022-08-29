@@ -54,8 +54,8 @@ class Ranking(Scraper):
             - nationality: Rider's nationality as 2 chars long country code.
             - points:
 
-        :raises ExpectedParsingError: When ranking HTML is not an individual
-        points ranking.
+        :raises ExpectedParsingError: When the table from HTML is not an
+        individual points ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -89,8 +89,8 @@ class Ranking(Scraper):
             - class: Team's class, e.g. `WT`.
             - points:
 
-        :raises ExpectedParsingError: When ranking HTML is not a team points
-        ranking.
+        :raises ExpectedParsingError: When the table from HTML is not a team
+        points ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -123,8 +123,8 @@ class Ranking(Scraper):
             - nationality: Nation as 2 chars long country code.
             - points:
 
-        :raises ExpectedParsingError: When ranking HTML is not a nationality
-        points ranking.
+        :raises ExpectedParsingError: When the table from HTML is not a
+        nationality points ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -157,7 +157,8 @@ class Ranking(Scraper):
             - class: Race's class, e.g. `WT`.
             - points:
 
-        :raises ExpectedParsingError: When ranking HTML is not a race ranking.
+        :raises ExpectedParsingError: When the table from HTML is not a race
+        ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -206,8 +207,8 @@ class Ranking(Scraper):
             - second_places:
             - third_places:
 
-        :raises ExpectedParsingError: When ranking HTML is not an individual
-        wins ranking.
+        :raises ExpectedParsingError: When the table from HTML is not an
+        individual wins ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -245,8 +246,8 @@ class Ranking(Scraper):
             - second_places:
             - third_places:
 
-        :raises ExpectedParsingError: When ranking HTML is not a team wins
-        ranking.
+        :raises ExpectedParsingError: When the table from HTML is not a team
+        wins ranking.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -282,8 +283,8 @@ class Ranking(Scraper):
             - second_places:
             - third_places:
 
-        :raises ExpectedParsingError: When ranking HTML is not a nation wins
-        ranking.
+        :raises ExpectedParsingError: When the table from HTML is not a nation
+        wins ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """

@@ -26,7 +26,7 @@ class Team(Scraper):
         team_id = decomposed_url[1]
         return f"team/{team_id}"
 
-    def display_name(self) -> str:
+    def name(self) -> str:
         """
         Parses team display name from HTML.
 
@@ -101,7 +101,7 @@ class Team(Scraper):
         else:
             return None
 
-    def seasons_select(self) -> List[Dict[str, str]]:
+    def history_select(self) -> List[Dict[str, str]]:
         """
         Parses team seasons select menu from HTML.
 

@@ -36,8 +36,8 @@ class RiderResults(Scraper):
         try:
             assert super()._html_valid()
             page_title = self.html.css_first(".page-content > h2").text()
-            assert (page_title == "All results" or
-                    page_title == "Top results final 5k analysis")
+            assert page_title in ("All results",
+                "Top results final 5k analysis")
             return True
         except AssertionError:
             return False
@@ -85,8 +85,8 @@ class RiderResults(Scraper):
             - pcs_points:
             - uci_points:
 
-        :raises ExpecterParsingError: When general results table is not
-        contained in the HTML.
+        :raises ExpecterParsingError: When the table from HTML isn't a results
+        table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -128,8 +128,8 @@ class RiderResults(Scraper):
             - vertical_meters: Vertical meters gained in final n KMs.
             - average_percentage: Average percentage of last n KMs.
 
-        :raises ExpecterParsingError: When final n KMs results table is not
-        contained in the HTML.
+        :raises ExpecterParsingError: When the table from HTML isn't a final n
+        KMs results table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
