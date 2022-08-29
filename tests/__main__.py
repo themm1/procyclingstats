@@ -33,8 +33,9 @@ def configure_parser() -> argparse.ArgumentParser:
         help="Absolute or relative URL of PCS page which HTML should be " +
         "copied to .txt file with name of given URL.")
 
-    subparsers.add_parser("update_htmls",
-        help="Updates all HTML fixtures from fixtures directory.")
+    subparsers.add_parser("update_htmls", help="Updates HTML fixtures " +
+        "from fixtures directory if parsing results of old HTML differ to " +
+        "parsing results of the current one.")
 
     return parser
 
@@ -63,11 +64,19 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
     elif args.command == "update_htmls":
         urls = f_utils.get_urls_from_fixtures_dir("txt")
         for url in urls:
-            if not args.quiet:
-                print(f"Updating: {f_utils.url_to_filename(url)}.txt")
             ScraperClass = get_scraper_obj_by_url(url, scraper_classes)
-            scraper_obj = ScraperClass(url)
-            f_utils.make_html_fixture(scraper_obj)
+            # create scraping object from both old and new HTML
+            new_scraper_obj = ScraperClass(url)
+            old_html = f_utils.get_html_fixture(new_scraper_obj.relative_url())
+            old_scraper_obj = ScraperClass(url, old_html, False)
+            # checks whether old HTML is same as new HTML based on parse
+            # method return
+            if new_scraper_obj.parse() != old_scraper_obj.parse():
+                if not args.quiet:
+                    print(f"Updating: {f_utils.url_to_filename(url)}.txt")
+                f_utils.make_html_fixture(new_scraper_obj)
+            elif not args.quiet:
+                print(f"HTML up to date: {f_utils.url_to_filename(url)}.txt")
 
 
 if __name__ == "__main__":
