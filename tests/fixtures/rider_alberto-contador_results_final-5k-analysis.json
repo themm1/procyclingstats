@@ -205,7 +205,7 @@
       "stage_url": "race/tirreno-adriatico/2014/stage-5",
       "stage_name": "Tirreno-Adriatico | Stage 5",
       "class": "2.UWT",
-      "vertical_meters": 225,
+      "vertical_meters": 227,
       "average_percentage": 4.5
     },
     {
@@ -277,8 +277,8 @@
       "stage_url": "race/vuelta-a-espana/2012/stage-8",
       "stage_name": "Vuelta a Espa\u00f1a | Stage 8",
       "class": "WT",
-      "vertical_meters": 601,
-      "average_percentage": 12.0
+      "vertical_meters": 603,
+      "average_percentage": 12.1
     },
     {
       "date": "2011-07-22",
@@ -322,7 +322,7 @@
       "stage_url": "race/giro-d-italia/2011/stage-14",
       "stage_name": "Giro d'Italia | Stage 14",
       "class": "WT",
-      "vertical_meters": 833,
+      "vertical_meters": 834,
       "average_percentage": 16.7
     },
     {
@@ -385,8 +385,8 @@
       "stage_url": "race/tour-de-france/2009/stage-15",
       "stage_name": "Tour de France | Stage 15",
       "class": "2.HC",
-      "vertical_meters": 396,
-      "average_percentage": 7.9
+      "vertical_meters": 398,
+      "average_percentage": 8.0
     },
     {
       "date": "2008-09-14",
