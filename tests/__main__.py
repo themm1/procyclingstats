@@ -21,16 +21,21 @@ def configure_parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(help="Command types available.",
         dest="command", required=True)
 
-    add_parser = subparsers.add_parser("add")
-    add_html_parser = subparsers.add_parser("add_html")
-    subparsers.add_parser("update_htmls")
-
-    add_html_parser.add_argument("url", metavar="url", type=str,
-        help="Absolute or relative URL of PCS page which HTML should be " +
-        "copied to .txt file with name of given URL.")
+    add_parser = subparsers.add_parser("add", help="Adds HTML and data " +
+        "fixture created from given URL to fixtures directory.")
     add_parser.add_argument("url", metavar="url", type=str,
         help="Absolute or relative URL of PCS page which HTML and parsed " +
         "data should be copied to .txt and .json file with name of given URL.")
+
+    add_html_parser = subparsers.add_parser("add_html",
+        help="Adds HTML fixture created from given URL to fixtures directory.")
+    add_html_parser.add_argument("url", metavar="url", type=str,
+        help="Absolute or relative URL of PCS page which HTML should be " +
+        "copied to .txt file with name of given URL.")
+
+    subparsers.add_parser("update_htmls",
+        help="Updates all HTML fixtures from fixtures directory.")
+
     return parser
 
 
