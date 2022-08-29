@@ -1,104 +1,70 @@
-import os
-import sys
+import argparse
 
 from procyclingstats.__main__ import get_scraper_obj_by_url, scraper_classes
 
 from .fixtures_utils import FixturesUtils
 
 
-class CLI:
+def configure_parser() -> argparse.ArgumentParser:
     """
-    Command line interface for adding and modifiing fixtures.
-    example usage: `python -m tests add rider rider/peter-sagan`
+    Configures the parser and parses the arguments.
 
-    Positional args:
-    - `add {url}`: adds parsed data and HTML from the URL to default fixtures
-    directory, data are parsed using scraper class for which the URL is valid
-    - `add_html {url}`: adds HTML fixture to default fixtures directory
-    - `update_htmls`: updates HTMLs of all HTML fixtures in fixtures directory
-
-    Optional args:
-    - `-nologging`: turn off logging, defaults to True
-    - `-fixtures_path={fixtures_path}`: fixtures directory path, defaults to
-    "tests/fixtures/"
+    :return: Configured arguments parser ready to parse arguments.
     """
+    parser = argparse.ArgumentParser(
+        prog="python -m tests",
+        description="CLI for tests fixtures modifiing.")
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-q", "--quiet", action="store_true",
+        help="Turns off logging.")
+    subparsers = parser.add_subparsers(help="Command types available.",
+        dest="command", required=True)
+
+    add_parser = subparsers.add_parser("add")
+    add_html_parser = subparsers.add_parser("add_html")
+    subparsers.add_parser("update_htmls")
+
+    add_html_parser.add_argument("url", metavar="url", type=str,
+        help="Absolute or relative URL of PCS page which HTML should be " +
+        "copied to .txt file with name of given URL.")
+    add_parser.add_argument("url", metavar="url", type=str,
+        help="Absolute or relative URL of PCS page which HTML and parsed " +
+        "data should be copied to .txt and .json file with name of given URL.")
+    return parser
 
 
-    command_types = ["add", "add_html", "update_htmls"]
-    arg_error = ValueError(
-        "Please provide valid arguments, example usage: " +
-        "'python -m tests add rider rider/peter-sagan -nologging " +
-        "-fixtures_path=fixtures/'")
+def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
+    f_utils = FixturesUtils(fixturer_path)
+    if args.command in ("add", "add_html"):
+        ScraperClass = get_scraper_obj_by_url(args.url, scraper_classes)
+        obj = ScraperClass(args.url)
+        filename = f_utils.url_to_filename(
+            obj.normalized_relative_url())
 
-    def __init__(self):
-        self.args = sys.argv[1:]
-        if not self.args:
-            raise self.arg_error
-        self.set_command()
-        self.set_url()
-        self.set_logging()
-        self.set_f()
+        if args.command == "add":
+            if not args.quiet:
+                print(f"Adding: {filename}.txt")
+            f_utils.make_html_fixture(obj)
+            if not args.quiet:
+                print(f"Adding: {filename}.json")
+            f_utils.make_data_fixture(obj)
 
-    def set_command(self):
-        if self.args:
-            if self.args[0] not in self.command_types:
-                raise self.arg_error
-            self.command = self.args[0]
+        elif args.command == "add_html":
+            if not args.quiet:
+                print(f"Adding: {filename}.txt")
+            f_utils.make_html_fixture(obj)
 
-    def set_url(self):
-        if len(self.args) >= 2:
-            self.url = self.args[1]
-        else:
-            self.url = None
-
-    def set_logging(self):
-        if "-nologging" in self.args:
-            self.logging = False
-        else:
-            self.logging = True
-
-    def set_f(self):
-        for arg in self.args:
-            if "-fixtures_path=" in arg:
-                fixtures_path = arg.split("=")[1]
-                if not os.path.isdir(fixtures_path):
-                    os.mkdir(fixtures_path)
-                self.f_utils = FixturesUtils(fixtures_path)
-                return
-        self.f_utils = FixturesUtils()
-
-    def run(self):
-        if self.command in ("add", "add_html") and self.url:
-            ScraperClass = get_scraper_obj_by_url(self.url, scraper_classes)
-            obj = ScraperClass(self.url)
-            filename = self.f_utils.url_to_filename(
-                obj.normalized_relative_url())
-
-            if self.command == "add":
-                if self.logging:
-                    print(f"Adding: {filename}.txt")
-                self.f_utils.make_html_fixture(obj)
-                if self.logging:
-                    print(f"Adding: {filename}.json")
-                self.f_utils.make_data_fixture(obj)
-
-            elif self.command == "add_html":
-                if self.logging:
-                    print(f"Adding: {filename}.txt")
-                self.f_utils.make_html_fixture(obj)
-
-        elif self.command == "update_htmls":
-            urls = self.f_utils.get_urls_from_fixtures_dir("txt")
-            for url in urls:
-                if self.logging:
-                    print(f"Updating: {self.f_utils.url_to_filename(url)}.txt")
-                ScraperClass = get_scraper_obj_by_url(url, scraper_classes)
-                scraper_obj = ScraperClass(url)
-                self.f_utils.make_html_fixture(scraper_obj)
-        else:
-            raise self.arg_error
+    elif args.command == "update_htmls":
+        urls = f_utils.get_urls_from_fixtures_dir("txt")
+        for url in urls:
+            if not args.quiet:
+                print(f"Updating: {f_utils.url_to_filename(url)}.txt")
+            ScraperClass = get_scraper_obj_by_url(url, scraper_classes)
+            scraper_obj = ScraperClass(url)
+            f_utils.make_html_fixture(scraper_obj)
 
 
 if __name__ == "__main__":
-    cli = CLI()
-    cli.run()
+    parser_args = configure_parser().parse_args()
+    run(parser_args)
