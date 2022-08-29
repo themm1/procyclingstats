@@ -79,14 +79,14 @@
       "rider_url": "rider/nairo-quintana",
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
-      "rank": 6,
+      "rank": null,
       "prev_rank": 6,
       "age": 32,
       "nationality": "CO",
       "time": "79:49:53",
       "bonus": 6,
-      "pcs_points": 260,
-      "uci_points": 400.0
+      "pcs_points": 0,
+      "uci_points": 0
     },
     {
       "rider_name": "BARDET Romain",
@@ -2188,7 +2188,7 @@
       "rider_url": "rider/nairo-quintana",
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
-      "rank": 23,
+      "rank": null,
       "prev_rank": 23,
       "points": 11.0,
       "age": 32,
@@ -2652,6 +2652,8 @@
       "uci_points": 0
     }
   ],
+  "normalized_relative_url": "race/tour-de-france/2022/stage-21",
+  "pcs_points_scale": "GT.A.Stage",
   "points": [
     {
       "rider_name": "VAN AERT Wout",
@@ -2970,7 +2972,7 @@
       "rider_url": "rider/nairo-quintana",
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
-      "rank": 25,
+      "rank": null,
       "prev_rank": 25,
       "points": 55.0,
       "age": 32,
@@ -4215,7 +4217,8 @@
     }
   ],
   "profile_icon": "p1",
-  "normalized_relative_url": "race/tour-de-france/2022/stage-21",
+  "profile_score": 13,
+  "race_startlist_quality_score": 1550,
   "results": [
     {
       "rider_name": "PHILIPSEN Jasper",
@@ -4418,8 +4421,8 @@
       "rider_url": "rider/nairo-quintana",
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
-      "rank": 15,
-      "status": "DF",
+      "rank": null,
+      "status": "\u00a015\u00a0",
       "age": 32,
       "nationality": "CO",
       "time": "2:58:32",
@@ -6329,8 +6332,10 @@
       "nationality": "BE"
     }
   ],
+  "uci_points_scale": "UCI.WR.GT.A.Stage",
   "vertical_meters": 748,
-  "winning_attack_length": 0.0,
+  "winning_attack_length": null,
+  "won_how": "Sprint of large group",
   "youth": [
     {
       "rider_name": "POGA\u010cAR Tadej",

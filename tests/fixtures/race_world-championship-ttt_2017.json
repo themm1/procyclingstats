@@ -6,9 +6,12 @@
   "gc": null,
   "is_one_day_race": true,
   "kom": null,
+  "normalized_relative_url": "race/world-championship-ttt/2017",
+  "pcs_points_scale": "Worlds.TTT",
   "points": null,
   "profile_icon": "p0",
-  "normalized_relative_url": "race/world-championship-ttt/2017",
+  "profile_score": null,
+  "race_startlist_quality_score": 612,
   "results": [
     {
       "rank": 1,
@@ -1441,7 +1444,9 @@
   ],
   "stage_type": "TTT",
   "teams": null,
+  "uci_points_scale": "UCI.WR.Worlds.TTT",
   "vertical_meters": null,
-  "winning_attack_length": 0.0,
+  "winning_attack_length": null,
+  "won_how": "Time Trial",
   "youth": null
 }

@@ -154,7 +154,7 @@
 <div class="mt20">
 <table class="basic" style=""><thead><tr><th style="width: 11.1%; ">Date</th><th style="width: 11.1%; ">Result</th><th style="width: 44.4%; ">Race</th><th style="width: 11.1%; ">Class</th><th style="width: 11.1%; ">Vertical meters</th><th style="width: 11.1%; ">Avg. %</th></tr></thead><tbody>
 <tr><td>2017-09-09</td><td>1</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2017/stage-20">Vuelta a España | Stage 20</a></td><td>2.UWT</td><td>590</td><td>11.8</td></tr>
-<tr><td>2017-09-06</td><td>2</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2017/stage-17">Vuelta a España | Stage 17</a></td><td>2.UWT</td><td>581</td><td>11.6</td></tr>
+<tr><td>2017-09-06</td><td>2</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2017/stage-17">Vuelta a España | Stage 17</a></td><td>2.UWT</td><td>583</td><td>11.7</td></tr>
 <tr><td>2017-07-14</td><td>3</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2017/stage-13">Tour de France | Stage 13</a></td><td>2.UWT</td><td>11</td><td>0.2</td></tr>
 <tr><td>2017-03-24</td><td>3</td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2017/stage-5">Volta Ciclista a Catalunya | Stage 5</a></td><td>2.UWT</td><td>463</td><td>9.3</td></tr>
 <tr><td>2017-03-12</td><td>2</td><td><span class="flag fr"></span> <a href="race/paris-nice/2017/stage-8">Paris - Nice | Stage 8</a></td><td>2.UWT</td><td>10</td><td>0.2</td></tr>
@@ -188,11 +188,11 @@
 <tr><td>2011-07-05</td><td>2</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2011/stage-4">Tour de France | Stage 4</a></td><td>WT</td><td>209</td><td>4.2</td></tr>
 <tr><td>2011-05-27</td><td>2</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2011/stage-19">Giro d'Italia | Stage 19</a></td><td>WT</td><td>425</td><td>8.5</td></tr>
 <tr><td>2011-05-22</td><td>3</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2011/stage-15">Giro d'Italia | Stage 15</a></td><td>WT</td><td>598</td><td>12.0</td></tr>
-<tr><td>2011-05-21</td><td>2</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2011/stage-14">Giro d'Italia | Stage 14</a></td><td>WT</td><td>833</td><td>16.7</td></tr>
+<tr><td>2011-05-21</td><td>2</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2011/stage-14">Giro d'Italia | Stage 14</a></td><td>WT</td><td>844</td><td>16.9</td></tr>
 <tr><td>2011-05-20</td><td>2</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2011/stage-13">Giro d'Italia | Stage 13</a></td><td>WT</td><td>299</td><td>6.0</td></tr>
 <tr><td>2011-05-15</td><td>1</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2011/stage-9">Giro d'Italia | Stage 9</a></td><td>WT</td><td>238</td><td>4.8</td></tr>
 <tr><td>2011-05-14</td><td>2</td><td><span class="flag it"></span> <a href="race/giro-d-italia/2011/stage-8">Giro d'Italia | Stage 8</a></td><td>WT</td><td>69</td><td>1.4</td></tr>
-<tr><td>2010-07-22</td><td>2</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2010/stage-17">Tour de France | Stage 17</a></td><td>2.HC</td><td>636</td><td>12.7</td></tr>
+<tr><td>2010-07-22</td><td>2</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2010/stage-17">Tour de France | Stage 17</a></td><td>2.HC</td><td>637</td><td>12.7</td></tr>
 <tr><td>2010-07-16</td><td>2</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2010/stage-12">Tour de France | Stage 12</a></td><td>2.HC</td><td>332</td><td>6.6</td></tr>
 <tr><td>2009-07-22</td><td>2</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2009/stage-17">Tour de France | Stage 17</a></td><td>2.HC</td><td>42</td><td>0.8</td></tr>
 <tr><td>2009-07-19</td><td>1</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2009/stage-15">Tour de France | Stage 15</a></td><td>2.HC</td><td>396</td><td>7.9</td></tr>
@@ -244,7 +244,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.8009 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1179kb) peak (1337kb)</span></li></ul></li>
+<li><span>0.1309 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1179kb) peak (1337kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="4179"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
