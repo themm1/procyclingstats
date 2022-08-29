@@ -6,7 +6,7 @@ from .scraper_test_base_class import ScraperTestBaseClass
 class TestRider(ScraperTestBaseClass):
     ScraperClass = Rider
 
-    def test_init(self):
+    def test_init(self) -> None:
         self.url_valid("rider/tadej-pogacar/")
         self.url_valid("rider/tadej-pogacar/overview/ifqa")
         self.url_valid("rider/tadej-pogacar/2022")

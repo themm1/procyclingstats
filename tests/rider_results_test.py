@@ -6,7 +6,7 @@ from .scraper_test_base_class import ScraperTestBaseClass
 class TestRiderResults(ScraperTestBaseClass):
     ScraperClass = RiderResults
 
-    def test_init(self):
+    def test_init(self) -> None:
         self.url_valid("rider.php?anything")
         self.url_valid("rider/tadej-pogacar/results/")
         self.url_valid("rider/tadej-pogacar/results/ggff")
@@ -15,7 +15,7 @@ class TestRiderResults(ScraperTestBaseClass):
         self.url_invalid("rider/tadej-pogacar/re/")
         self.url_invalid("rider/tadej-pogacar/final-5k-analysis")
 
-    def test_eq(self):
+    def test_eq(self) -> None:
         filter_url1 = ("rider.php?xseason=2022&zxseason=&pxseason=equal&sort" +
         "=date&race=&km1=&zkm1=&pkm1=equal&limit=100&offset=0&topx=&ztopx=" +
         "&ptopx=smallerorequal&type=&znation=&continent=&pnts=&zpnts=&ppnts=" +

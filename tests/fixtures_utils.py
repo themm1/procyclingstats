@@ -21,8 +21,8 @@ class FixturesUtils:
     created from this fixture's URL and HTML, so making request to PCS isn't
     needed.
 
-    :param fixtures_path: path to fixtures directory, defaults to
-    "tests/fixtures/"
+    :param fixtures_path: Path to fixtures directory, defaults to
+    "tests/fixtures/".
     """
 
     def __init__(self, fixtures_path: str = "tests/fixtures/") -> None:
@@ -33,8 +33,8 @@ class FixturesUtils:
         Makes data fixture from dict returned by scraper object's `parse`
         method
 
-        :param scraper_obj: scraper object ready for HTML parsing
-        :raises ExpectedParsingError: when object's HTML is None
+        :param scraper_obj: Scraper object ready for HTML parsing.
+        :raises ExpectedParsingError: When object's HTML is None.
         """
         filename = self._get_filename_for_parsing(scraper_obj)
         data = scraper_obj.parse()
@@ -44,10 +44,10 @@ class FixturesUtils:
 
     def make_html_fixture(self, scraper_obj: Scraper) -> None:
         """
-        Makes HTML fixture from scraper object's `url` and `html`
+        Makes HTML fixture from scraper object's `url` and `html`.
 
-        :param scraper_obj: scraper object ready for HTML parsing
-        :raises ExpectedParsingError: when object's HTML is None
+        :param scraper_obj: Scraper object ready for HTML parsing.
+        :raises ExpectedParsingError: When object's HTML is None.
         """
         filename = self._get_filename_for_parsing(scraper_obj)
         with open(f"{self.fixtures_path}{filename}.txt", "w") as fixture:
@@ -55,9 +55,9 @@ class FixturesUtils:
 
     def get_data_fixture(self, url: str) -> Optional[Dict[str, Any]]:
         """
-        Gets data fixture with wanted URL
+        Gets data fixture with wanted URL.
 
-        :param url: URL of wanted fixture
+        :param url: URL of wanted fixture.
         :return: Fixture file content as dict. If file wasn't found None is
         returned.
         """
@@ -70,9 +70,9 @@ class FixturesUtils:
 
     def get_html_fixture(self, url: str) -> Optional[str]:
         """
-        Gets HTML fixture with wanted URL
+        Gets HTML fixture with wanted URL.
 
-        :param url: URL of wanted fixture
+        :param url: URL of wanted fixture.
         :return: Fixture file content as a string. If file wasn't found None is
         returned.
         """
@@ -87,10 +87,10 @@ class FixturesUtils:
             self, scraper_class: Type[Scraper]) -> List[Scraper]:
         """
         Creates scraper object of ScraperClass from every HTML fixture which
-        URL is valid for given ScraperClass
+        URL is valid for given ScraperClass.
 
-        :param ScraperClass: class to create objects from
-        :return: list with scraper objects ready for HTML parsing
+        :param ScraperClass: Class to create objects from.
+        :return: List with scraper objects ready for HTML parsing.
         """
         html_files_urls = self.get_urls_from_fixtures_dir("txt")
         json_files_urls = self.get_urls_from_fixtures_dir("json")
@@ -111,10 +111,10 @@ class FixturesUtils:
 
     def get_urls_from_fixtures_dir(self, file_type: str) -> List[str]:
         """
-        Converts filesnames with wanted type to relative URLs
+        Converts filesnames with wanted type to relative URLs.
 
-        :param file_type: file type (`txt`/`json` for now)
-        :return: list of relative URLs
+        :param file_type: File type (`txt`/`json` for now).
+        :return: List of relative URLs.
         """
         html_file_paths = glob.glob(f"{self.fixtures_path}*.{file_type}")
         html_files = [f.split("/")[-1] for f in html_file_paths]
@@ -126,20 +126,20 @@ class FixturesUtils:
     @staticmethod
     def url_to_filename(url: str) -> str:
         """
-        Converts URL to filename (replaces slashes with underscores)
+        Converts URL to filename (replaces slashes with underscores).
 
-        :param url: relative URL to convert filename from
-        :return: filename without file type
+        :param url: Relative URL to convert filename from.
+        :return: Filename without file type.
         """
         return url.replace("/", "_")
 
     @staticmethod
     def filename_to_url(filename: str) -> str:
         """
-        Converts filename to relative URL (replaces underscores with slashes)
+        Converts filename to relative URL (replaces underscores with slashes).
 
-        :param filename: filename to convert URL from (can be with file type)
-        :return: relative URL
+        :param filename: Filename to convert URL from (can be with file type)
+        :return: relative URL.
         """
         if "." in filename:
             filename = ".".join(filename.split(".")[:-1])
@@ -148,12 +148,12 @@ class FixturesUtils:
     @staticmethod
     def _get_filename_for_parsing(scraper_obj: Scraper) -> str:
         """
-        Gets filename for given scraper object from it's URL
+        Gets filename for given scraper object from it's URL.
 
-        :param scraper_obj: scraper object with URL ready for HTML parsing
-        :raises ExpectedParsingError: when given scraper object isn't ready
-        for HTML parsing
-        :return: filename for given scraper object
+        :param scraper_obj: Scraper object with URL ready for HTML parsing.
+        :raises ExpectedParsingError: When given scraper object isn't ready
+        for HTML parsing.
+        :return: Filename for given scraper object.
         """
         if scraper_obj.html is None:
             raise ExpectedParsingError("Object is not ready for HTML parsing")

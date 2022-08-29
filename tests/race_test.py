@@ -6,7 +6,7 @@ from .scraper_test_base_class import ScraperTestBaseClass
 class TestRace(ScraperTestBaseClass):
     ScraperClass = Race
 
-    def test_init(self):
+    def test_init(self) -> None:
         self.url_valid("race/tour-de-france/2022/overview/")
         self.url_valid("race/paris-roubaix/2021/overview/fga/ak")
         self.url_valid("race/tour-de-france/2022/stage-3/overview/ff")
@@ -21,7 +21,7 @@ class TestRace(ScraperTestBaseClass):
         self.url_invalid("race/tour-de-france/2022/stage-1")
         self.url_invalid("race/cyclassics-hamburg/2022/result/ff")
 
-    def test_eq(self):
+    def test_eq(self) -> None:
         self.equal("race/tour-de-france/2022/overview",
                    "race/tour-de-france/2022/overview/ggff/")
         self.equal("race/tour-de-france/2022/overview",

@@ -17,7 +17,7 @@ class ScraperTestBaseClass:
         that are created by instances of current `ScraperClass`. HTML is always
         loaded from corresponding HTML fixture.
 
-        :param subtests: subtests module, passed by pytest
+        :param subtests: Subtests module, passed by pytest.
         """
         f_utils = FixturesUtils(fixtures_path="tests/fixtures/")
         objects_to_test = f_utils.get_scraper_objects_from_fixtures(
@@ -88,8 +88,8 @@ class ScraperTestBaseClass:
         """
         Checks equality of two scraper objects created from given URLs.
 
-        :param url1: URL of first object
-        :param url2: URL of second object
+        :param url1: URL of first object.
+        :param url2: URL of second object.
         """
         assert self.ScraperClass(url1, update_html=False) == self.ScraperClass(
             url2, update_html=False)
@@ -98,8 +98,8 @@ class ScraperTestBaseClass:
         """
         Checks unequality of two scraper objects created from given URLs.
 
-        :param url1: URL of first object
-        :param url2: URL of second object
+        :param url1: URL of first object.
+        :param url2: URL of second object.
         """
         assert self.ScraperClass(url1, update_html=False) != self.ScraperClass(
             url2, update_html=False)
