@@ -244,7 +244,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1708 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1179kb) peak (1337kb)</span></li></ul></li>
+<li><span>0.2455 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1179kb) peak (1337kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="4179"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 

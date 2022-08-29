@@ -78,6 +78,7 @@ class RiderResults(Scraper):
             - stage_url:
             - stage_name:
             - distance:
+            - nationality: Nationality of the stage race.
             - date: Date when the stage occured in `YYYY-MM-DD` format.
             - rank: Rider's result in the stage.
             - class: Class of the stage's race, e.g. `2.UWT`.
@@ -94,6 +95,7 @@ class RiderResults(Scraper):
             "rank",
             "stage_url",
             "stage_name",
+            "nationality",
             "class",
             "distance",
             "pcs_points",
@@ -119,6 +121,7 @@ class RiderResults(Scraper):
         no args are passed, all fields are parsed.
             - stage_url:
             - stage_name:
+            - nationality: Nationality of the stage race.
             - date: Date when the stage occured in `YYYY-MM-DD` format.
             - rank: Rider's result in the stage.
             - class: Class of the stage's race, e.g. `2.UWT`.
@@ -135,6 +138,7 @@ class RiderResults(Scraper):
             "rank",
             "stage_url",
             "stage_name",
+            "nationality",
             "class",
             "vertical_meters",
             "average_percentage"

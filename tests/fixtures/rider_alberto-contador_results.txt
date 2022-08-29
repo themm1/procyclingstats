@@ -165,7 +165,7 @@
 <li><div class="label">Racename</div><div><input type="text" class="" name="name" value="" autocomplete="off"></div><div><select name="pname" class="selectOperator hide" style=" padding: 1px; "><option value="contains" selected="">Contains ..</option></select><span style="display: inline-block; padding: 2px; ">(Contains ..)</span></div></li>
 <li><div class="label">Category</div><div><select class="" name="category"><option value="" selected="">-</option><option value="1">ME - Men Elite</option><option value="2">WE - Women Elite</option><option value="3">MU - Men U23</option><option value="4">MJ - Men Juniors</option><option value="6">WJ - Women Juniors</option><option value="0">-</option><option value="7">WU - Women U23</option><option value="8">ME + WE</option></select></div></li>
 <li><div class="label">ProfileScore</div><div><input type="text" class="" name="profile_score" value="" autocomplete="off"><input type="text" class="hide" name="zprofile_score" value="" autocomplete="off"></div><div><select name="pprofile_score" class="selectOperator " style=" padding: 1px; "><option value="largerorequal" selected="">&gt;=</option><option value="smallerorequal">&lt;=</option><option value="between">Between</option></select></div></li>
-</ul><input type="submit" name="filter" value="Filter"><input type="hidden" name="id" value="alberto-contador"><input type="hidden" name="p" value="results"><input type="hidden" name="s" value=""></form>
+</ul><input type="submit" name="filter" value="Filter"><input type="hidden" name="id" value="alberto-contador"><input type="hidden" name="p" value="results"></form>
 
 <table class="basic" style=""><thead><tr><th style="width: 3.1%; ">#</th><th style="width: 10.2%; ">Date</th><th style="width: 5.1%; ">Result</th><th style="width: 40.8%; ">Race</th><th class="cu600  " style="width: 10.2%; ">Class</th><th class="cu600  " style="width: 10.2%; ">KMs</th><th style="width: 10.2%; ">PCS points</th><th class="cu600  " style="width: 10.2%; ">UCI points</th></tr></thead><tbody>
 <tr><td>1</td><td>2017-09-10</td><td>9</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2017/kom">Vuelta a España | Mountains classification</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>-</td><td class="cu600  ">-</td></tr>
@@ -311,7 +311,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0965 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1429kb) peak (1576kb)</span></li></ul></li>
+<li><span>0.1478 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1429kb) peak (1575kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1285"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
