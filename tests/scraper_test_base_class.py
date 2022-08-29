@@ -40,6 +40,11 @@ class ScraperTestBaseClass:
             with subtests.test(msg=method):
                 for parsed, correct in zip(parsed_data, correct_data):
                     print(parsed['normalized_relative_url'])
+                    # remove first date because it's different based on
+                    # time when was the HTML obtained
+                    if method == "dates_select":
+                        parsed[method].pop(0)
+                        correct[method].pop(0)
                     if isinstance(correct[method], list):
                         for parsed_row, correct_row in zip(
                                 parsed[method], correct[method]):
