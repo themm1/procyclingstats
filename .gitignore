@@ -5,3 +5,4 @@ __pycache__/
 scripts/
 .pytest_cache/
 TODO.txt
+docs/build/
