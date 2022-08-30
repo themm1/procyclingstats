@@ -1,4 +1,2 @@
-Overview
-========
 
-Overview TODO
+.. include:: ../../README.rst
