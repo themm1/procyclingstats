@@ -28,7 +28,7 @@ class Race(Scraper):
         used in __eq__ method).
 
         :return: Normalized URL in ``race/{race_id}/{year}/overview`` format.
-        When year isn't contained in user defined URL, year is skipped.
+            When year isn't contained in user defined URL, year is skipped.
         """
         return normalize_race_url(self._decompose_url(), "overview")
 
@@ -132,7 +132,7 @@ class Race(Scraper):
         """
         Parses race stages from HTML (available only on stage races).
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - date: Date when the stage occured in ``MM-DD`` format.

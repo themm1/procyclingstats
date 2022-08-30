@@ -116,17 +116,17 @@ class Team(Scraper):
         """
         Parses team riders in curresponding season from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name
             - rider_url
             - nationality: Rider's nationality as 2 chars long country code.
             - age: Rider's age.
-            - since: First rider's day in the team in corresponding season in \
-                ``MM-DD`` format, most of the time ``01-01``.
-            - until: Last rider's day in the team in corresponding season in \
-                ``MM-DD`` format, most of the time ``12-31``.
+            - since: First rider's day in the team in corresponding season in
+              ``MM-DD`` format, most of the time ``01-01``.
+            - until: Last rider's day in the team in corresponding season in
+              ``MM-DD`` format, most of the time ``12-31``.
             - ranking_points: Current rider's points in PCS ranking.
             - ranking_position: Current rider's position in PCS ranking.
 

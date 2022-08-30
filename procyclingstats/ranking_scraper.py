@@ -44,7 +44,7 @@ class Ranking(Scraper):
         """
         Parses individual ranking from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name:
@@ -81,7 +81,7 @@ class Ranking(Scraper):
         """
         Parses team ranking from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - team_name:
@@ -117,7 +117,7 @@ class Ranking(Scraper):
         """
         Parses nations ranking from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - nation_name:
@@ -151,7 +151,7 @@ class Ranking(Scraper):
         Parses race ranking from HTML. Race points are evaluated based on
             startlist quality score.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - race_name:
@@ -199,7 +199,7 @@ class Ranking(Scraper):
         """
         Parses individual wins ranking from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name:
@@ -240,7 +240,7 @@ class Ranking(Scraper):
         """
         Parses team wins ranking from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - team_name:
@@ -279,7 +279,7 @@ class Ranking(Scraper):
         """
         Parses nations wins ranking from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - nation_name:

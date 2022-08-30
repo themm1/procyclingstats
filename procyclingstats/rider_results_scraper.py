@@ -73,7 +73,7 @@ class RiderResults(Scraper):
         """
         Parses general rider's results table from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - stage_url:
@@ -118,7 +118,7 @@ class RiderResults(Scraper):
         """
         Parses rider's final n KMs results table from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - stage_url:

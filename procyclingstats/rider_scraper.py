@@ -119,17 +119,17 @@ class Rider(Scraper):
         """
         Parses rider's team history throughout career.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - team_name:
             - team_url:
             - season:
             - class: Team's class, e.g. ``WT``.
-            - since: First day for rider in current season in the team in \
-                ``MM-DD` format, most of the time ``01-01``.
-            - until: Last day for rider in current season in the team in \
-                ``MM-DD` format, most of the time ``12-31``.
+            - since: First day for rider in current season in the team in
+              ``MM-DD` format, most of the time ``01-01``.
+            - until: Last day for rider in current season in the team in
+              ``MM-DD` format, most of the time ``12-31``.
 
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
@@ -174,7 +174,7 @@ class Rider(Scraper):
         """
         Parses rider's points per season history.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - season:

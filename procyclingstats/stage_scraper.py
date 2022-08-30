@@ -31,8 +31,8 @@ class Stage(Scraper):
         used in `__eq__` method).
 
         :return: Normalized URL in ``race/{race_id}/{year}/{stage_id}`` format.
-        When year or stage_id aren't contained in user defined URL, they are
-        skipped.
+            When year or stage_id aren't contained in user defined URL, they
+            are skipped.
         """
         decomposed_url = self._decompose_url()
         decomposed_url.extend([""] * (4 - len(decomposed_url)))
@@ -196,7 +196,7 @@ class Stage(Scraper):
         Parses UCI points scale from HTML.
 
         :return: UCI points scale, e.g. ``UCI scale``. Empty string when not
-        found.
+            found.
         """
         return self._stage_info_by_label("UCI scale")
 
@@ -206,7 +206,7 @@ class Stage(Scraper):
         race, fields `age` and `nationality` are set to None if are requested,
         because they aren't contained in the HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name:
@@ -286,7 +286,7 @@ class Stage(Scraper):
         """
         Parses GC results table from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name:
@@ -333,7 +333,7 @@ class Stage(Scraper):
         """
         Parses points classification results table from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name:
@@ -378,7 +378,7 @@ class Stage(Scraper):
         """
         Parses KOM classification results table from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name:
@@ -423,7 +423,7 @@ class Stage(Scraper):
         """
         Parses youth classification results table from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name:
@@ -467,7 +467,7 @@ class Stage(Scraper):
         """
         Parses teams classification results table from HTML.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - team_name:
@@ -503,7 +503,7 @@ class Stage(Scraper):
 
         :param label: Label to find value for.
         :return: Value of given label. Empty string when label is not in
-        infolist.
+            infolist.
         """
         for row in self.html.css("ul.infolist > li"):
             row_text = row.text(separator="\n").split("\n")
@@ -539,7 +539,8 @@ class Stage(Scraper):
 
         :param results_table_html: TTT results table HTML.
         :param fields: Fields that returned table should have. Available are
-        all `results` table fields with the exception of age and nationality.
+            all `results` table fields with the exception of age and
+            nationality.
         :return: Table with wanted fields.
         """
         team_fields = [

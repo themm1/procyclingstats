@@ -10,7 +10,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath('../../'))
-sys.path.append("../../procyclingstats/stage_scraper.py")
+# sys.path.append("../../procyclingstats/stage_scraper.py")
 project = 'procyclingstats'
 copyright = '2022, themm1'
 author = 'themm1'
@@ -36,4 +36,14 @@ autodoc_default_options = {
     'member-order': 'bysource',
     'special-members': '__init__',
     'undoc-members': True,
+}
+
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',
+        'searchbox.html',
+        'donate.html',
+    ]
 }

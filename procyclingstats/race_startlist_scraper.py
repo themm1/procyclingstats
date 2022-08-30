@@ -37,7 +37,7 @@ class RaceStartlist(Scraper):
         teams) fields team name, team url and rider nationality are set to
         None.
 
-        :param *args: Fields that should be contained in returned table. When
+        :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - rider_name:
