@@ -9,8 +9,8 @@ from .utils import (format_regex_str, get_day_month, normalize_race_url,
 
 class Race(Scraper):
     """
-    Scraper for race overview HTML page. Example URL:
-    `race/tour-de-france/2022/overview`.
+    Scraper for race overview HTML page. Example URL:\
+        ``race/tour-de-france/2022/overview``.
     """
     _url_validation_regex = format_regex_str(
     f"""
@@ -27,7 +27,7 @@ class Race(Scraper):
         Creates normalized relative URL. Determines equality of objects (is
         used in __eq__ method).
 
-        :return: Normalized URL in `race/{race_id}/{year}/overview` format.
+        :return: Normalized URL in ``race/{race_id}/{year}/overview`` format.
         When year isn't contained in user defined URL, year is skipped.
         """
         return normalize_race_url(self._decompose_url(), "overview")
@@ -44,7 +44,7 @@ class Race(Scraper):
         """
         Parses display name from HTML.
 
-        :return: Display name e.g. `Tour de France`.
+        :return: Name of the race, e.g. ``Tour de France``.
         """
         display_name_html = self.html.css_first(".page-title > .main > h1")
         return display_name_html.text()
@@ -73,7 +73,7 @@ class Race(Scraper):
         """
         Parses race edition year from HTML.
 
-        :return: edition as int.
+        :return: Edition as int.
         """
         edition_html = self.html.css_first(
             ".page-title > .main > span + font")
@@ -85,7 +85,7 @@ class Race(Scraper):
         """
         Parses race startdate from HTML.
 
-        :return: Startdate in `DD-MM-YYYY` format.
+        :return: Startdate in ``DD-MM-YYYY`` format.
         """
         startdate_html = self.html.css_first(
             ".infolist > li > div:nth-child(2)")
@@ -95,7 +95,7 @@ class Race(Scraper):
         """
         Parses race enddate from HTML.
 
-        :return: Enddate in `DD-MM-YYYY` format.
+        :return: Enddate in ``DD-MM-YYYY`` format.
         """
         enddate_html = self.html.css(".infolist > li > div:nth-child(2)")[1]
         return enddate_html.text()
@@ -104,7 +104,7 @@ class Race(Scraper):
         """
         Parses race category from HTML.
 
-        :return: Race category e.g. `Men Elite`.
+        :return: Race category e.g. ``Men Elite``.
         """
         category_html = self.html.css(".infolist > li > div:nth-child(2)")[2]
         return category_html.text()
@@ -113,7 +113,7 @@ class Race(Scraper):
         """
         Parses UCI Tour of the race from HTML.
 
-        :return: UCI Tour of the race e.g. `UCI Worldtour`.
+        :return: UCI Tour of the race e.g. ``UCI Worldtour``.
         """
         uci_tour_html = self.html.css(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text()
@@ -123,7 +123,7 @@ class Race(Scraper):
         Parses previous race editions from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         editions_select_html = self.html.css_first("form > select")
         return parse_select(editions_select_html)
@@ -133,13 +133,14 @@ class Race(Scraper):
         Parses race stages from HTML (available only on stage races).
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
-            - date: Date when the stage occured in 'MM-DD' format.
+            no args are passed, all fields are parsed.
+
+            - date: Date when the stage occured in ``MM-DD`` format.
             - profile_icon: Profile icon of the stage (p1, p2, ... p5).
-            - stage_name: Name of the stage, e.g
-                'Stage 2 | Roskilde - Nyborg'.
-            - stage_url: URL of the stage, e.g.
-                'race/tour-de-france/2022/stage-2'.
+            - stage_name: Name of the stage, e.g \
+                ``Stage 2 | Roskilde - Nyborg``.
+            - stage_url: URL of the stage, e.g. \
+                ``race/tour-de-france/2022/stage-2``.
             - distance: Stage distance in KMs as float.
 
         :raises ExcpectedParsingError: When race is one day race.

@@ -8,8 +8,8 @@ from .utils import (format_regex_str, normalize_race_url,
 
 class RaceStartlist(Scraper):
     """
-    Scraper for race startlist HTML page. Example URL:
-    `race/tour-de-france/2022/startlist`.
+    Scraper for race startlist HTML page. Example URL: \
+    ``race/tour-de-france/2022/startlist``.
     """
     _url_validation_regex = format_regex_str(
     f"""
@@ -26,8 +26,8 @@ class RaceStartlist(Scraper):
         Creates normalized relative URL. Determines equality of objects (is
         used in __eq__ method).
 
-        :return: Normalized URL in `race/{race_id}/{year}/startlist` format.
-        When year isn't contained in user defined URL, year is skipped.
+        :return: Normalized URL in ``race/{race_id}/{year}/startlist`` format.
+            When year isn't contained in user defined URL, year is skipped.
         """
         return normalize_race_url(self._decompose_url(), "startlist")
 
@@ -38,7 +38,8 @@ class RaceStartlist(Scraper):
         None.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name:
             - rider_url:
             - team_name:

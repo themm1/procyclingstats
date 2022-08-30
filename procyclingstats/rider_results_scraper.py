@@ -10,7 +10,7 @@ from .utils import (format_regex_str, format_url_filter, parse_select,
 class RiderResults(Scraper):
     """
     Scraper for rider results HTML page. Example URL:
-    `rider/tadej-pogacar/results`. Supported is besides of default results
+    ``rider/tadej-pogacar/results``. Supported is besides of default results
     table
     also final 5k results table which can be parsed using
     `self.final_n_km_results` method.
@@ -45,12 +45,12 @@ class RiderResults(Scraper):
     def normalized_relative_url(self) -> str:
         """
         Creates normalized relative URL. Determines equality of objects (is
-        used in __eq__ method). Rider results objects are equal when both have
+        used in `__eq__` method). Rider results objects are equal when both have
         same URL or filter values are the same (empty filter values don't
         count).
 
-        :return: normalized filter URL or URL in `rider/{rider_id}/results'
-        format
+        :return: normalized filter URL or URL in ``rider/{rider_id}/results``
+            format
         """
         relative_url = self.relative_url()
         if "?" in relative_url:
@@ -74,19 +74,20 @@ class RiderResults(Scraper):
         Parses general rider's results table from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - stage_url:
             - stage_name:
             - distance:
             - nationality: Nationality of the stage race.
-            - date: Date when the stage occured in `YYYY-MM-DD` format.
+            - date: Date when the stage occured in ``YYYY-MM-DD`` format.
             - rank: Rider's result in the stage.
-            - class: Class of the stage's race, e.g. `2.UWT`.
+            - class: Class of the stage's race, e.g. ``2.UWT``.
             - pcs_points:
             - uci_points:
 
         :raises ExpecterParsingError: When the table from HTML isn't a results
-        table.
+            table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -118,18 +119,19 @@ class RiderResults(Scraper):
         Parses rider's final n KMs results table from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - stage_url:
             - stage_name:
             - nationality: Nationality of the stage race.
-            - date: Date when the stage occured in `YYYY-MM-DD` format.
+            - date: Date when the stage occured in ``YYYY-MM-DD`` format.
             - rank: Rider's result in the stage.
-            - class: Class of the stage's race, e.g. `2.UWT`.
+            - class: Class of the stage's race, e.g. ``2.UWT``.
             - vertical_meters: Vertical meters gained in final n KMs.
             - average_percentage: Average percentage of last n KMs.
 
         :raises ExpecterParsingError: When the table from HTML isn't a final n
-        KMs results table.
+            KMs results table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -172,7 +174,7 @@ class RiderResults(Scraper):
         Parses seasons select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "xseason"))
 
@@ -181,7 +183,7 @@ class RiderResults(Scraper):
         Parses race select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "race"))
 
@@ -190,7 +192,7 @@ class RiderResults(Scraper):
         Parses race select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "offset"))
 
@@ -199,7 +201,7 @@ class RiderResults(Scraper):
         Parses stage types select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "type"))
 
@@ -208,7 +210,7 @@ class RiderResults(Scraper):
         Parses nations select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "znation"))
 
@@ -217,6 +219,6 @@ class RiderResults(Scraper):
         Parses categories select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "category"))

@@ -1,5 +1,5 @@
 import inspect
-from typing import Any, Callable, Dict, List, Literal, Optional, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple, Type
 
 import requests
 from selectolax.parser import HTMLParser
@@ -9,9 +9,8 @@ from .utils import validate_string
 
 
 class Scraper:
-    """Base class for scraping classes."""
-    BASE_URL: Literal["https://www.procyclingstats.com/"] = \
-        "https://www.procyclingstats.com/"
+    """Base class for all scraping classes."""
+    BASE_URL: str = "https://www.procyclingstats.com/"
 
     _public_nonparsing_methods = (
         "update_html",
@@ -30,18 +29,18 @@ class Scraper:
         parsing methods to parse data from HTML.
 
         :param url: URL of procyclingstats page to parse. Either absolute or
-        relative.
+            relative.
         :param html: HTML to be parsed from, defaults to None. When passing the
-        parameter, set `update_html` to False to prevent overriding or making
-        useless request.
+            parameter, set `update_html` to False to prevent overriding or
+            making useless request.
         :param update_html: Whether to make request to given URL and update
-        `self.html`. When False `self.update_html` method has to be called
-        manually to make object ready for parsing. Defaults to True.
+            `self.html`. When False `self.update_html` method has to be called
+            manually to make object ready for parsing. Defaults to True.
 
         :raises ValueError: When given URL isn't valid for current scraping
-        class.
+            class.
         :raises ValueError: When given HTML or HTML from given URL is invalid,
-        e.g. 'Page not found' is contained in the HTML.
+            e.g. 'Page not found' is contained in the HTML.
         """
         # validate given URL
         try:
@@ -119,16 +118,17 @@ class Scraper:
         self._html = HTMLParser(html_str)
 
     def parse(self,
-              exceptions_to_ignore: Tuple[Any, ...] = (ExpectedParsingError,),
-              none_when_unavailable: bool = True) -> Dict[str, Any]:
+            exceptions_to_ignore: Tuple[
+            Type[Exception], ...] = (ExpectedParsingError,),
+            none_when_unavailable: bool = True) -> Dict[str, Any]:
         """
         Creates JSON like dict with parsed data by calling all parsing methods.
         Keys in dict are methods names and values parsed data
 
         :param exceptions_to_ignore: Tuple of exceptions that should be
-        ignored, defaults to `(ExpectedParsingError)`.
+            ignored, defaults to ``(ExpectedParsingError,)``.
         :param none_when_unavailable: Whether to set dict value to None when
-        method raises ignored exception.
+            method raises ignored exception.
         :return: Dict with parsing methods mapping to parsed data.
         """
         parsing_methods = self._parsing_methods()

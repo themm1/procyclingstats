@@ -11,8 +11,8 @@ from .utils import (add_times, convert_date, format_regex_str, format_time,
 
 class Stage(Scraper):
     """
-    Scraper for stage results HTML page. Example URL:
-    `race/tour-de-france/2022/stage-18`.
+    Scraper for stage results HTML page. Example URL: \
+        ``race/tour-de-france/2022/stage-18``.
     """
     _url_validation_regex = format_regex_str(
     f"""
@@ -30,7 +30,7 @@ class Stage(Scraper):
         Creates normalized relative URL. Determines equality of objects (is
         used in `__eq__` method).
 
-        :return: Normalized URL in `race/{race_id}/{year}/{stage_id}` format.
+        :return: Normalized URL in ``race/{race_id}/{year}/{stage_id}`` format.
         When year or stage_id aren't contained in user defined URL, they are
         skipped.
         """
@@ -94,8 +94,8 @@ class Stage(Scraper):
         """
         Parses profile icon from HTML.
 
-        :return: Profile icon e.g. `p4`, the higher the number is the more
-        difficult the profile is.
+        :return: Profile icon e.g. ``p4``, the higher the number is the more
+            difficult the profile is.
         """
         profile_html = self.html.css_first("span.icon")
         return profile_html.attributes['class'].split(" ")[2] # type: ignore
@@ -104,7 +104,7 @@ class Stage(Scraper):
         """
         Parses stage type from HTML.
 
-        :return: Stage type, e.g. `ITT`.
+        :return: Stage type, e.g. ``ITT``.
         """
         stage_name_html = self.html.css_first(".sub > .blue")
         stage_name2_html = self.html.css_first("div.main > h1")
@@ -134,7 +134,7 @@ class Stage(Scraper):
         """
         Parses date when stage took place from HTML.
 
-        :return: Date when stage took place `YYYY-MM-DD`.
+        :return: Date when stage took place in ``YYYY-MM-DD`` format.
         """
         date = self._stage_info_by_label("Date")
         return convert_date(date.split(", ")[0])
@@ -157,9 +157,9 @@ class Stage(Scraper):
 
     def won_how(self) -> str:
         """
-        Parses won how label value from HTML.
+        Parses won how string from HTML.
 
-        :return: Won how string e.g `Sprint of small group`.
+        :return: Won how string e.g ``Sprint of small group``.
         """
         return self._stage_info_by_label("Won how")
 
@@ -187,7 +187,7 @@ class Stage(Scraper):
         """
         Parses PCS points scale from HTML.
 
-        :return: PCS points scale, e.g. `GT.A.Stage`.
+        :return: PCS points scale, e.g. ``GT.A.Stage``.
         """
         return self._stage_info_by_label("Points scale")
 
@@ -195,7 +195,7 @@ class Stage(Scraper):
         """
         Parses UCI points scale from HTML.
 
-        :return: UCI points scale, e.g. `UCI scale`. Empty string when not
+        :return: UCI points scale, e.g. ``UCI scale``. Empty string when not
         found.
         """
         return self._stage_info_by_label("UCI scale")
@@ -207,13 +207,14 @@ class Stage(Scraper):
         because they aren't contained in the HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name:
             - rider_url:
             - team_name:
             - team_url:
             - rank: Rider's result in the stage.
-            - status: `DF`, `DNF`, `DNS`, `OTL` or `DSQ`.
+            - status: ``DF``, ``DNF``, ``DNS``, ``OTL`` or ``DSQ``.
             - age: Rider's age.
             - nationality: Rider's nationality as 2 chars long country code.
             - time: Rider's time in the stage.
@@ -283,10 +284,11 @@ class Stage(Scraper):
     def gc(self, *args: str) -> List[Dict[str, Any]]: \
         # pylint: disable=invalid-name
         """
-        Parses results from GC results table from HTML.
+        Parses GC results table from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name:
             - rider_url:
             - team_name:
@@ -329,10 +331,11 @@ class Stage(Scraper):
 
     def points(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses results from points classification results table from HTML.
+        Parses points classification results table from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name:
             - rider_url:
             - team_name:
@@ -373,10 +376,11 @@ class Stage(Scraper):
 
     def kom(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses results from KOM classification results table from HTML.
+        Parses KOM classification results table from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name:
             - rider_url:
             - team_name:
@@ -417,10 +421,11 @@ class Stage(Scraper):
 
     def youth(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses results from youth classification results table from HTML.
+        Parses youth classification results table from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name:
             - rider_url:
             - team_name:
@@ -460,10 +465,11 @@ class Stage(Scraper):
 
     def teams(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses results from teams classification results table from HTML.
+        Parses teams classification results table from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - team_name:
             - team_url:
             - rank: Teams's classif. rank after the stage.

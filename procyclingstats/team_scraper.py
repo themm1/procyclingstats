@@ -7,7 +7,9 @@ from .utils import (format_regex_str, get_day_month, join_tables, parse_select,
 
 
 class Team(Scraper):
-    """Scraper for team HTML page. Example URL: `team/bora-hansgrohe-2022`."""
+    """
+    Scraper for team HTML page. Example URL: ``team/bora-hansgrohe-2022``.
+    """
     _url_validation_regex = format_regex_str(
     f"""
         {reg.base_url}?team{reg.team_url_str}
@@ -20,7 +22,7 @@ class Team(Scraper):
         Creates normalized relative URL. Determines equality of objects (is
         used in __eq__ method).
 
-        :return: Normalized URL in `team/{team_id}` format.
+        :return: Normalized URL in ``team/{team_id}`` format.
         """
         decomposed_url = self._decompose_url()
         team_id = decomposed_url[1]
@@ -30,7 +32,7 @@ class Team(Scraper):
         """
         Parses team display name from HTML.
 
-        :return: Display name, e.g. `BORA - hansgrohe`.
+        :return: Display name, e.g. ``BORA - hansgrohe``.
         """
         display_name_html = self.html.css_first(".page-title > .main > h1")
         return display_name_html.text().split(" (")[0]
@@ -50,8 +52,7 @@ class Team(Scraper):
         """
         Parses team status (class) from HTML.
 
-        :return: Team status as 2 chars long code in uppercase e.g. `WT` (World
-        Tour).
+        :return: Team status as 2 chars long code in uppercase, e.g. ``WT``.
         """
         team_status_html = self.html.css_first(
             "div > ul.infolist > li:nth-child(1) > div:nth-child(2)")
@@ -61,8 +62,8 @@ class Team(Scraper):
         """
         Parses team abbreviation from HTML.
 
-        :return: Team abbreviation as 3 chars long code in uppercase e.g. `BOH`
-        (BORA - hansgrohe).
+        :return: Team abbreviation as 3 chars long code in uppercase, e.g.
+            ``BOH``
         """
         abbreviation_html = self.html.css_first(
             "div > ul.infolist > li:nth-child(2) > div:nth-child(2)")
@@ -72,7 +73,7 @@ class Team(Scraper):
         """
         Parses team's bike brand from HTML.
 
-        :return: Bike brand e.g. `Specialized`.
+        :return: Bike brand e.g. ``Specialized``.
         """
         bike_html = self.html.css_first(
             "div > ul.infolist > li:nth-child(3) > div:nth-child(2)")
@@ -106,7 +107,7 @@ class Team(Scraper):
         Parses team seasons select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         team_seasons_select_html = self.html.css_first("form > select")
         return parse_select(team_seasons_select_html)
@@ -116,15 +117,16 @@ class Team(Scraper):
         Parses team riders in curresponding season from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name
             - rider_url
             - nationality: Rider's nationality as 2 chars long country code.
             - age: Rider's age.
-            - since: First rider's day in the team in corresponding season in
-            `MM-DD` format, most of the time `01-01`.
-            - until: Last rider's day in the team in corresponding season in
-            `MM-DD` format, most of the time `12-31`.
+            - since: First rider's day in the team in corresponding season in \
+                ``MM-DD`` format, most of the time ``01-01``.
+            - until: Last rider's day in the team in corresponding season in \
+                ``MM-DD`` format, most of the time ``12-31``.
             - ranking_points: Current rider's points in PCS ranking.
             - ranking_position: Current rider's position in PCS ranking.
 

@@ -8,7 +8,7 @@ from .utils import (format_regex_str, get_day_month, parse_table_fields_args,
 
 
 class Rider(Scraper):
-    """Scraper for rider HTML page. Example URL: `rider/tadej-pogacar`."""
+    """Scraper for rider HTML page. Example URL: ``rider/tadej-pogacar``."""
     _url_validation_regex = format_regex_str(
     f"""
         {reg.base_url}?rider
@@ -23,7 +23,7 @@ class Rider(Scraper):
         Creates normalized relative URL. Determines equality of objects (is
         used in __eq__ method).
 
-        :return: Normalized URL in `rider/{rider_id}` format.
+        :return: Normalized URL in ``rider/{rider_id}`` format.
         """
         decomposed_url = self._decompose_url()
         rider_id = decomposed_url[1]
@@ -33,7 +33,7 @@ class Rider(Scraper):
         """
         Parses rider's birthdate from HTML.
 
-        :return: birthday of the rider in `YYYY-MM-DD` format.
+        :return: birthday of the rider in ``YYYY-MM-DD`` format.
         """
         general_info_html = self.html.css_first(".rdr-info-cont")
         bd_string = general_info_html.text(separator=" ", deep=False)
@@ -103,7 +103,7 @@ class Rider(Scraper):
         Parses rider's nationality from HTML.
 
         :return: Rider's current nationality as 2 chars long country code in
-        uppercase.
+            uppercase.
         """
         # normal layout
         nationality_html = self.html.css_first(".rdr-info-cont > .flag")
@@ -120,15 +120,16 @@ class Rider(Scraper):
         Parses rider's team history throughout career.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - team_name:
             - team_url:
             - season:
-            - class: Team's class, e.g. `WT`.
-            - until: First day for rider in current season in the team, most of
-            the time 01-01.
-            - until: Last day for rider in current season in the team, most of
-            the time 12-31.
+            - class: Team's class, e.g. ``WT``.
+            - since: First day for rider in current season in the team in \
+                ``MM-DD` format, most of the time ``01-01``.
+            - until: Last day for rider in current season in the team in \
+                ``MM-DD` format, most of the time ``12-31``.
 
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
@@ -174,7 +175,8 @@ class Rider(Scraper):
         Parses rider's points per season history.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - season:
             - points: PCS points gained throughout the season.
             - rank: PCS ranking position after the season.

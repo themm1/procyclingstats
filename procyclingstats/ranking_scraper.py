@@ -9,7 +9,7 @@ from .utils import (format_url_filter, parse_select, parse_table_fields_args,
 
 class Ranking(Scraper):
     """
-    Scraper for rankings HTML page. Example URL: `rankings/me/individual`.
+    Scraper for rankings HTML page. Example URL: ``rankings/me/individual``.
 
     Always only one parsing method that parses ranking is availabe, the others
     raise `ExpectedParsingError`. E.g. for object created with example URL
@@ -23,11 +23,12 @@ class Ranking(Scraper):
     def normalized_relative_url(self) -> str:
         """
         Creates normalized relative URL. Determines equality of objects (is
-        used in __eq__ method). Ranking objects are equal when both have same
+        used in `__eq__` method). Ranking objects are equal when both have same
         URL or filter values are the same (empty filter values don't count).
 
-        :return: formatted relative URL or filter URL without uneccessary
-        fields e.g. `rankings.php?date=2021-12-31&p=we&s=season-individual`
+        :return: Formatted relative URL or filter URL without uneccessary
+            fields e.g. \
+            ``rankings.php?date=2021-12-31&p=we&s=season-individual``.
         """
         relative_url = self.relative_url()
         # returns special normalized ranking filter URL
@@ -44,7 +45,8 @@ class Ranking(Scraper):
         Parses individual ranking from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name:
             - rider_url:
             - team_name:
@@ -55,7 +57,7 @@ class Ranking(Scraper):
             - points:
 
         :raises ExpectedParsingError: When the table from HTML is not an
-        individual points ranking table.
+            individual points ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -80,17 +82,18 @@ class Ranking(Scraper):
         Parses team ranking from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - team_name:
             - team_url:
             - rank: Team's rank in the ranking.
             - prev_rank: Team's rank in previous ranking update.
             - nationality: Team's nationality as 2 chars long country code.
-            - class: Team's class, e.g. `WT`.
+            - class: Team's class, e.g. ``WT``.
             - points:
 
         :raises ExpectedParsingError: When the table from HTML is not a team
-        points ranking table.
+            points ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -115,7 +118,8 @@ class Ranking(Scraper):
         Parses nations ranking from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - nation_name:
             - nation_url:
             - rank: Nation's rank in the ranking.
@@ -124,7 +128,7 @@ class Ranking(Scraper):
             - points:
 
         :raises ExpectedParsingError: When the table from HTML is not a
-        nationality points ranking table.
+            nationality points ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -145,20 +149,21 @@ class Ranking(Scraper):
     def races_ranking(self, *args: str) -> List[Dict[str, Any]]:
         """
         Parses race ranking from HTML. Race points are evaluated based on
-        startlist quality score.
+            startlist quality score.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - race_name:
             - race_url:
             - rank: Race's rank in the ranking.
             - prev_rank: Race's rank in previous ranking update.
             - nationality: Race's nationality as 2 chars long country code.
-            - class: Race's class, e.g. `WT`.
+            - class: Race's class, e.g. ``WT``.
             - points:
 
         :raises ExpectedParsingError: When the table from HTML is not a race
-        ranking table.
+            ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -195,7 +200,8 @@ class Ranking(Scraper):
         Parses individual wins ranking from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - rider_name:
             - rider_url:
             - team_name:
@@ -208,7 +214,7 @@ class Ranking(Scraper):
             - third_places:
 
         :raises ExpectedParsingError: When the table from HTML is not an
-        individual wins ranking table.
+            individual wins ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -235,19 +241,20 @@ class Ranking(Scraper):
         Parses team wins ranking from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - team_name:
             - team_url:
             - rank: Team's rank in the ranking.
             - prev_rank: Team's rank in previous ranking update.
             - nationality: Team's nationality as 2 chars long country code.
-            - class: Team's class, e.g. `WT`.
+            - class: Team's class, e.g. ``WT``.
             - first_places:
             - second_places:
             - third_places:
 
         :raises ExpectedParsingError: When the table from HTML is not a team
-        wins ranking.
+            wins ranking.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -273,7 +280,8 @@ class Ranking(Scraper):
         Parses nations wins ranking from HTML.
 
         :param *args: Fields that should be contained in returned table. When
-        no args are passed, all fields are parsed.
+            no args are passed, all fields are parsed.
+
             - nation_name:
             - nation_url:
             - rank: Nation's rank in the ranking.
@@ -284,7 +292,7 @@ class Ranking(Scraper):
             - third_places:
 
         :raises ExpectedParsingError: When the table from HTML is not a nation
-        wins ranking table.
+            wins ranking table.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -311,7 +319,7 @@ class Ranking(Scraper):
         Parses dates select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "date"))
 
@@ -320,7 +328,7 @@ class Ranking(Scraper):
         Parses nations select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "nation"))
 
@@ -329,7 +337,7 @@ class Ranking(Scraper):
         Parses teams select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "team"))
 
@@ -338,7 +346,7 @@ class Ranking(Scraper):
         Parses pages select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "offset"))
 
@@ -347,7 +355,7 @@ class Ranking(Scraper):
         Parses team levels select menu from HTML.
 
         :return: Parsed select menu represented as list of dicts with keys
-        `text` and `value`.
+            ``text`` and ``value``.
         """
         return parse_select(select_menu_by_name(self.html, "teamlevel"))
 
@@ -393,7 +401,7 @@ class Ranking(Scraper):
         Does general ranking parsing procedure using TableParser.
 
         :param args: Parsing method args (only the ones that
-        `TableParser.parse` method is able to parse).
+            `TableParser.parse` method is able to parse).
         :param available_fields: Available table fields for parsing method
         :return: Table with wanted fields.
         """
