@@ -114,7 +114,8 @@ class Scraper:
         Calls request to `self.url` and updates `self.html` to HTMLParser
         object created from returned HTML.
         """
-        html_str = requests.get(self._url, timeout=10).text
+        html_str = requests.get(self._url).text \
+            # pylint: disable=missing-timeout
         self._html = HTMLParser(html_str)
 
     def parse(self,

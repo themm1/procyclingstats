@@ -581,6 +581,7 @@ class Stage(Scraper):
         teams_parser.parse(team_fields_to_parse)
         riders_parser = TableParser(riders_table)
         riders_parser.parse(rider_fields_to_parse)
+
         # add time of every rider to the table
         if "time" in fields:
             team_times = teams_parser.parse_extra_column("Time", format_time)
@@ -603,7 +604,14 @@ class Stage(Scraper):
         else:
             table = join_tables(riders_parser.table, teams_parser.table,
                 "rank")
+        # sort by name for consistent testing results (url is in fields by
+        # default)
+        table.sort(key = lambda x: x['rider_url'])
+        # sort by rank to get default rank order
+        table.sort(key = lambda x: x['rank'])
         if "rank" not in fields:
             for row in table:
                 row.pop("rank")
+        # for row in table:
+        #     print(row['rider_url'])
         return table
