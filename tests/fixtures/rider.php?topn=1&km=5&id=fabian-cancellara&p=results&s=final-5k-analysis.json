@@ -1,0 +1,82 @@
+{
+  "categories_select": null,
+  "final_n_km_results": [
+    {
+      "date": "2016-03-05",
+      "rank": 1,
+      "stage_url": "race/strade-bianche/2016/result",
+      "stage_name": "Strade Bianche",
+      "nationality": "IT",
+      "class": "1.HC",
+      "vertical_meters": 83,
+      "average_percentage": 1.7
+    },
+    {
+      "date": "2014-04-06",
+      "rank": 1,
+      "stage_url": "race/ronde-van-vlaanderen/2014/result",
+      "stage_name": "Ronde van Vlaanderen / Tour des Flandres ME",
+      "nationality": "BE",
+      "class": "1.UWT",
+      "vertical_meters": 4,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2013-04-07",
+      "rank": 1,
+      "stage_url": "race/paris-roubaix/2013/result",
+      "stage_name": "Paris - Roubaix",
+      "nationality": "FR",
+      "class": "WT",
+      "vertical_meters": 0,
+      "average_percentage": 0.0
+    },
+    {
+      "date": "2013-03-31",
+      "rank": 1,
+      "stage_url": "race/ronde-van-vlaanderen/2013/result",
+      "stage_name": "Ronde van Vlaanderen / Tour des Flandres ME",
+      "nationality": "BE",
+      "class": "WT",
+      "vertical_meters": 7,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2013-03-22",
+      "rank": 1,
+      "stage_url": "race/e3-harelbeke/2013/result",
+      "stage_name": "E3 Prijs Vlaanderen - Harelbeke",
+      "nationality": "BE",
+      "class": "WT",
+      "vertical_meters": 3,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2012-03-03",
+      "rank": 1,
+      "stage_url": "race/strade-bianche/2012/result",
+      "stage_name": "Montepaschi Strade Bianche - Eroica Toscana",
+      "nationality": "IT",
+      "class": "1.1",
+      "vertical_meters": 83,
+      "average_percentage": 1.7
+    },
+    {
+      "date": "2007-07-10",
+      "rank": 1,
+      "stage_url": "race/tour-de-france/2007/stage-3",
+      "stage_name": "Tour de France | Stage 3",
+      "nationality": "FR",
+      "class": "2.PT",
+      "vertical_meters": 15,
+      "average_percentage": 0.3
+    }
+  ],
+  "nations_select": null,
+  "normalized_relative_url": "rider.php?topn=1&km=5&id=fabian-cancellara&p=results&s=final-5k-analysis",
+  "pages_select": null,
+  "races_select": null,
+  "results": null,
+  "seasons_select": null,
+  "stage_types_select": null
+}

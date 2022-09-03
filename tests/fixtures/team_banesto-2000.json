@@ -1,0 +1,448 @@
+{
+  "abbreviation": "BAN",
+  "bike": "Pinarello",
+  "history_select": [
+    {
+      "text": "2025 | Movistar Team",
+      "value": "team/movistar-team-2025/overview/"
+    },
+    {
+      "text": "2024 | Movistar Team",
+      "value": "team/movistar-team-2024/overview/"
+    },
+    {
+      "text": "2023 | Movistar Team",
+      "value": "team/movistar-team-2023/overview/"
+    },
+    {
+      "text": "2022 | Movistar Team",
+      "value": "team/movistar-team-2022/overview/"
+    },
+    {
+      "text": "2021 | Movistar Team",
+      "value": "team/movistar-team-2021/overview/"
+    },
+    {
+      "text": "2020 | Movistar Team",
+      "value": "team/movistar-team-2020/overview/"
+    },
+    {
+      "text": "2019 | Movistar Team",
+      "value": "team/movistar-team-2019/overview/"
+    },
+    {
+      "text": "2018 | Movistar Team",
+      "value": "team/movistar-team-2018/overview/"
+    },
+    {
+      "text": "2017 | Movistar Team",
+      "value": "team/movistar-team-20172/overview/"
+    },
+    {
+      "text": "2016 | Movistar Team",
+      "value": "team/movistar-team-20162/overview/"
+    },
+    {
+      "text": "2015 | Movistar Team",
+      "value": "team/movistar-team-20152/overview/"
+    },
+    {
+      "text": "2014 | Movistar Team",
+      "value": "team/movistar-team-2014/overview/"
+    },
+    {
+      "text": "2013 | Movistar Team",
+      "value": "team/movistar-team-2013/overview/"
+    },
+    {
+      "text": "2012 | Movistar Team",
+      "value": "team/movistar-team-2012/overview/"
+    },
+    {
+      "text": "2011 | Movistar Team",
+      "value": "team/movistar-team-2011/overview/"
+    },
+    {
+      "text": "2010 | Caisse d'Epargne",
+      "value": "team/caisse-d-epargne-2010/overview/"
+    },
+    {
+      "text": "2009 | Caisse d'Epargne",
+      "value": "team/caisse-d-epargne-2009/overview/"
+    },
+    {
+      "text": "2008 | Caisse d'Epargne",
+      "value": "team/caisse-d-epargne-2008/overview/"
+    },
+    {
+      "text": "2007 | Caisse d'Epargne",
+      "value": "team/caisse-d-epargne-2007/overview/"
+    },
+    {
+      "text": "2006 | Caisse d'Epargne - Illes Balears",
+      "value": "team/caisse-d-epargne-illes-balears-2006/overview/"
+    },
+    {
+      "text": "2005 | Illes Balears - Caisse d'Epargne",
+      "value": "team/illes-balears-caisse-d-epargne-2005/overview/"
+    },
+    {
+      "text": "2004 | Illes Balears - Banesto",
+      "value": "team/illes-balears-banesto-2004/overview/"
+    },
+    {
+      "text": "2003 | iBanesto.com",
+      "value": "team/ibanesto.com-2003/overview/"
+    },
+    {
+      "text": "2002 | iBanesto.com",
+      "value": "team/ibanesto.com-2002/overview/"
+    },
+    {
+      "text": "2001 | iBanesto.com",
+      "value": "team/ibanesto.com-2001/overview/"
+    },
+    {
+      "text": "2000 | Banesto",
+      "value": "team/banesto-2000/overview/"
+    },
+    {
+      "text": "1999 | Banesto",
+      "value": "team/banesto-1999/overview/"
+    },
+    {
+      "text": "1998 | Banesto",
+      "value": "team/banesto-1998/overview/"
+    },
+    {
+      "text": "1997 | Banesto",
+      "value": "team/banesto-1997/overview/"
+    },
+    {
+      "text": "1996 | Banesto",
+      "value": "team/banesto-1996/overview/"
+    },
+    {
+      "text": "1995 | Banesto",
+      "value": "team/banesto-1995/overview/"
+    },
+    {
+      "text": "1994 | Banesto",
+      "value": "team/banesto-1994/overview/"
+    },
+    {
+      "text": "1993 | Banesto",
+      "value": "team/banesto-1993/overview/"
+    },
+    {
+      "text": "1992 | Banesto",
+      "value": "team/banesto-1992/overview/"
+    },
+    {
+      "text": "1991 | Banesto",
+      "value": "team/banesto-1991/overview/"
+    },
+    {
+      "text": "1990 | Banesto",
+      "value": "team/banesto-1990/overview/"
+    },
+    {
+      "text": "1989 | Reynolds - Banesto",
+      "value": "team/reynolds-banesto-1989/overview/"
+    },
+    {
+      "text": "1988 | Reynolds",
+      "value": "team/reynolds-1988/overview/"
+    },
+    {
+      "text": "1987 | Reynolds - Seur",
+      "value": "team/reynolds-1987/overview/"
+    },
+    {
+      "text": "1986 | Reynolds",
+      "value": "team/reynolds-1986/overview/"
+    },
+    {
+      "text": "1985 | Reynolds",
+      "value": "team/reynolds-1985/overview/"
+    },
+    {
+      "text": "1984 | Reynolds",
+      "value": "team/reynolds-1984/overview/"
+    },
+    {
+      "text": "1983 | Reynolds",
+      "value": "team/reynolds-1983/overview/"
+    },
+    {
+      "text": "1982 | Reynolds - Galli",
+      "value": "team/reynolds-galli-1982/overview/"
+    },
+    {
+      "text": "1981 | Reynolds - Galli ",
+      "value": "team/reynolds-galli-1981/overview/"
+    },
+    {
+      "text": "1980 | Reynolds - Benotto ",
+      "value": "team/reynolds-benotto-1980/overview/"
+    }
+  ],
+  "name": "Banesto",
+  "nationality": "ES",
+  "normalized_relative_url": "team/banesto-2000",
+  "ranking_position": null,
+  "riders": [
+    {
+      "rider_url": "rider/alex-zulle",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 31,
+      "nationality": "CH",
+      "rider_name": "Z\u00dcLLE Alex"
+    },
+    {
+      "rider_url": "rider/francisco-mancebo",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "24",
+      "ranking_position": 1050,
+      "age": 24,
+      "nationality": "ES",
+      "rider_name": "MANCEBO Francisco"
+    },
+    {
+      "rider_url": "rider/denis-menchov",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 22,
+      "nationality": "RU",
+      "rider_name": "MENCHOV Denis"
+    },
+    {
+      "rider_url": "rider/leonardo-piepoli",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 28,
+      "nationality": "IT",
+      "rider_name": "PIEPOLI Leonardo"
+    },
+    {
+      "rider_url": "rider/jose-maria-jimenez",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 29,
+      "nationality": "ES",
+      "rider_name": "JIM\u00c9NEZ Jos\u00e9 Mar\u00eda"
+    },
+    {
+      "rider_url": "rider/aitor-garmendia",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 32,
+      "nationality": "ES",
+      "rider_name": "GARMENDIA Aitor"
+    },
+    {
+      "rider_url": "rider/pablo-lastras",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 24,
+      "nationality": "ES",
+      "rider_name": "LASTRAS Pablo"
+    },
+    {
+      "rider_url": "rider/candido-barbosa",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 25,
+      "nationality": "PT",
+      "rider_name": "BARBOSA C\u00e2ndido"
+    },
+    {
+      "rider_url": "rider/marzio-bruseghin",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 26,
+      "nationality": "IT",
+      "rider_name": "BRUSEGHIN Marzio"
+    },
+    {
+      "rider_url": "rider/aitor-osa",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 26,
+      "nationality": "ES",
+      "rider_name": "OSA Aitor"
+    },
+    {
+      "rider_url": "rider/eladio-jimenez",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 24,
+      "nationality": "ES",
+      "rider_name": "JIM\u00c9NEZ Eladio"
+    },
+    {
+      "rider_url": "rider/koldo-gil-perez",
+      "since": "09-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 22,
+      "nationality": "ES",
+      "rider_name": "GIL Koldo"
+    },
+    {
+      "rider_url": "rider/unai-osa",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 25,
+      "nationality": "ES",
+      "rider_name": "OSA Unai"
+    },
+    {
+      "rider_url": "rider/jose-vicente-garcia-acosta",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 27,
+      "nationality": "ES",
+      "rider_name": "GARC\u00cdA ACOSTA Jos\u00e9 Vicente"
+    },
+    {
+      "rider_url": "rider/orlando-sergio-rodrigues",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 30,
+      "nationality": "PT",
+      "rider_name": "RODRIGUES Orlando Sergio"
+    },
+    {
+      "rider_url": "rider/dariusz-baranowski",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 28,
+      "nationality": "PL",
+      "rider_name": "BARANOWSKI Dariusz"
+    },
+    {
+      "rider_url": "rider/jose-luis-arrieta",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 29,
+      "nationality": "ES",
+      "rider_name": "ARRIETA Jos\u00e9 Luis"
+    },
+    {
+      "rider_url": "rider/tomasz-brozyna",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 29,
+      "nationality": "PL",
+      "rider_name": "BRO\u017bYNA Tomasz"
+    },
+    {
+      "rider_url": "rider/xabier-zandio",
+      "since": "09-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 23,
+      "nationality": "ES",
+      "rider_name": "ZANDIO Xabier"
+    },
+    {
+      "rider_url": "rider/jon-odriozola",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 29,
+      "nationality": "ES",
+      "rider_name": "ODRIOZOLA Jon"
+    },
+    {
+      "rider_url": "rider/david-latasa-lasa",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 26,
+      "nationality": "ES",
+      "rider_name": "LATASA David"
+    },
+    {
+      "rider_url": "rider/jon-bru",
+      "since": "09-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 22,
+      "nationality": "ES",
+      "rider_name": "BRU Jon"
+    },
+    {
+      "rider_url": "rider/cesar-solaun",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 29,
+      "nationality": "ES",
+      "rider_name": "SOLAUN C\u00e9sar"
+    },
+    {
+      "rider_url": "rider/alberto-benito",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 25,
+      "nationality": "ES",
+      "rider_name": "BENITO Alberto"
+    },
+    {
+      "rider_url": "rider/david-navas",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 26,
+      "nationality": "ES",
+      "rider_name": "NAVAS David"
+    }
+  ],
+  "status": "TT1",
+  "wins_count": 24
+}

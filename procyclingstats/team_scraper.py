@@ -173,7 +173,7 @@ class Team(Scraper):
             table = join_tables(table, ages_tp.table, "rider_url")
 
         # add ranking points and positions to the table if needed
-        if "ranking_position" or "ranking_points" in fields:
+        if "ranking_position" in fields or "ranking_points" in fields:
             ranking_table_html = self.html.css_first("div.tabe > ul.list")
             ranking_tp = TableParser(ranking_table_html)
             ranking_tp.parse(["rider_url"])
