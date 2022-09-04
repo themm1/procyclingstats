@@ -189,48 +189,28 @@
   ],
   "name": "Banesto",
   "nationality": "ES",
-  "normalized_relative_url": "team/banesto-2000",
+  "normalized_relative_url": "team/banesto-1997",
   "ranking_position": null,
   "riders": [
     {
-      "rider_url": "rider/alex-zulle",
+      "rider_url": "rider/abraham-olano-manzano",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 31,
-      "nationality": "CH",
-      "rider_name": "Z\u00dcLLE Alex"
-    },
-    {
-      "rider_url": "rider/francisco-mancebo",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": "24",
-      "ranking_position": 1050,
-      "age": 24,
+      "age": 27,
       "nationality": "ES",
-      "rider_name": "MANCEBO Francisco"
+      "rider_name": "OLANO Abraham"
     },
     {
-      "rider_url": "rider/denis-menchov",
+      "rider_url": "rider/manuel-beltran",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 22,
-      "nationality": "RU",
-      "rider_name": "MENCHOV Denis"
-    },
-    {
-      "rider_url": "rider/leonardo-piepoli",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": "0",
-      "ranking_position": null,
-      "age": 28,
-      "nationality": "IT",
-      "rider_name": "PIEPOLI Leonardo"
+      "age": 26,
+      "nationality": "ES",
+      "rider_name": "BELTR\u00c1N Manuel"
     },
     {
       "rider_url": "rider/jose-maria-jimenez",
@@ -238,9 +218,19 @@
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 29,
+      "age": 26,
       "nationality": "ES",
       "rider_name": "JIM\u00c9NEZ Jos\u00e9 Mar\u00eda"
+    },
+    {
+      "rider_url": "rider/armand-de-las-cuevas",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 29,
+      "nationality": "FR",
+      "rider_name": "DE LAS CUEVAS Armand"
     },
     {
       "rider_url": "rider/aitor-garmendia",
@@ -248,39 +238,29 @@
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 32,
+      "age": 29,
       "nationality": "ES",
       "rider_name": "GARMENDIA Aitor"
     },
     {
       "rider_url": "rider/pablo-lastras",
+      "since": "09-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 21,
+      "nationality": "ES",
+      "rider_name": "LASTRAS Pablo"
+    },
+    {
+      "rider_url": "rider/angel-luis-casero",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
       "age": 24,
       "nationality": "ES",
-      "rider_name": "LASTRAS Pablo"
-    },
-    {
-      "rider_url": "rider/candido-barbosa",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": "0",
-      "ranking_position": null,
-      "age": 25,
-      "nationality": "PT",
-      "rider_name": "BARBOSA C\u00e2ndido"
-    },
-    {
-      "rider_url": "rider/marzio-bruseghin",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": "0",
-      "ranking_position": null,
-      "age": 26,
-      "nationality": "IT",
-      "rider_name": "BRUSEGHIN Marzio"
+      "rider_name": "CASERO \u00c1ngel Luis"
     },
     {
       "rider_url": "rider/aitor-osa",
@@ -288,29 +268,29 @@
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 26,
+      "age": 23,
       "nationality": "ES",
       "rider_name": "OSA Aitor"
     },
     {
-      "rider_url": "rider/eladio-jimenez",
+      "rider_url": "rider/jeremy-hunt",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 24,
-      "nationality": "ES",
-      "rider_name": "JIM\u00c9NEZ Eladio"
+      "age": 23,
+      "nationality": "GB",
+      "rider_name": "HUNT Jeremy"
     },
     {
-      "rider_url": "rider/koldo-gil-perez",
-      "since": "09-01",
+      "rider_url": "rider/santiago-blanco",
+      "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 22,
+      "age": 23,
       "nationality": "ES",
-      "rider_name": "GIL Koldo"
+      "rider_name": "BLANCO Santiago"
     },
     {
       "rider_url": "rider/unai-osa",
@@ -318,7 +298,7 @@
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 25,
+      "age": 22,
       "nationality": "ES",
       "rider_name": "OSA Unai"
     },
@@ -328,7 +308,7 @@
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 27,
+      "age": 24,
       "nationality": "ES",
       "rider_name": "GARC\u00cdA ACOSTA Jos\u00e9 Vicente"
     },
@@ -338,19 +318,9 @@
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 30,
+      "age": 27,
       "nationality": "PT",
       "rider_name": "RODRIGUES Orlando Sergio"
-    },
-    {
-      "rider_url": "rider/dariusz-baranowski",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": "0",
-      "ranking_position": null,
-      "age": 28,
-      "nationality": "PL",
-      "rider_name": "BARANOWSKI Dariusz"
     },
     {
       "rider_url": "rider/jose-luis-arrieta",
@@ -358,91 +328,91 @@
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 29,
+      "age": 26,
       "nationality": "ES",
       "rider_name": "ARRIETA Jos\u00e9 Luis"
     },
     {
-      "rider_url": "rider/tomasz-brozyna",
+      "rider_url": "rider/marino-alonso",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 29,
-      "nationality": "PL",
-      "rider_name": "BRO\u017bYNA Tomasz"
-    },
-    {
-      "rider_url": "rider/xabier-zandio",
-      "since": "09-01",
-      "until": "12-31",
-      "ranking_points": "0",
-      "ranking_position": null,
-      "age": 23,
+      "age": 31,
       "nationality": "ES",
-      "rider_name": "ZANDIO Xabier"
+      "rider_name": "ALONSO Marino"
     },
     {
-      "rider_url": "rider/jon-odriozola",
+      "rider_url": "rider/ramon-gonzalez-arrieta",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 29,
+      "age": 30,
       "nationality": "ES",
-      "rider_name": "ODRIOZOLA Jon"
+      "rider_name": "GONZ\u00c1LEZ ARRIETA Jos\u00e9 Ram\u00f3n"
     },
     {
-      "rider_url": "rider/david-latasa-lasa",
+      "rider_url": "rider/jose-ramon-uriarte",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 26,
+      "age": 30,
       "nationality": "ES",
-      "rider_name": "LATASA David"
+      "rider_name": "URIARTE Jos\u00e9 Ram\u00f3n"
     },
     {
-      "rider_url": "rider/jon-bru",
-      "since": "09-01",
-      "until": "12-31",
-      "ranking_points": "0",
-      "ranking_position": null,
-      "age": 22,
-      "nationality": "ES",
-      "rider_name": "BRU Jon"
-    },
-    {
-      "rider_url": "rider/cesar-solaun",
+      "rider_url": "rider/vicente-aparicio",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
-      "age": 29,
+      "age": 27,
       "nationality": "ES",
-      "rider_name": "SOLAUN C\u00e9sar"
+      "rider_name": "APARICIO Vicente"
     },
     {
-      "rider_url": "rider/alberto-benito",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": "0",
-      "ranking_position": null,
-      "age": 25,
-      "nationality": "ES",
-      "rider_name": "BENITO Alberto"
-    },
-    {
-      "rider_url": "rider/david-navas",
+      "rider_url": "rider/manuel-fernandez-gines",
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "0",
       "ranking_position": null,
       "age": 26,
       "nationality": "ES",
-      "rider_name": "NAVAS David"
+      "rider_name": "FERN\u00c1NDEZ GIN\u00c9S Manuel"
+    },
+    {
+      "rider_url": "rider/miguel-angel-pena",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 26,
+      "nationality": "ES",
+      "rider_name": "PE\u00d1A Miguel \u00c1ngel"
+    },
+    {
+      "rider_url": "rider/carmelo-miranda",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 27,
+      "nationality": "ES",
+      "rider_name": "MIRANDA Carmelo"
+    },
+    {
+      "rider_url": "rider/prudencio-indurain",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": "0",
+      "ranking_position": null,
+      "age": 29,
+      "nationality": "ES",
+      "rider_name": "INDURAIN Prudencio"
     }
   ],
   "status": "TT1",
-  "wins_count": 24
+  "wins_count": 38
 }
