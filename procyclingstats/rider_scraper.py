@@ -127,9 +127,9 @@ class Rider(Scraper):
             - season:
             - class: Team's class, e.g. ``WT``.
             - since: First day for rider in current season in the team in
-              ``MM-DD` format, most of the time ``01-01``.
+              ``MM-DD`` format, most of the time ``01-01``.
             - until: Last day for rider in current season in the team in
-              ``MM-DD` format, most of the time ``12-31``.
+              ``MM-DD`` format, most of the time ``12-31``.
 
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
