@@ -1,0 +1,4059 @@
+{
+  "dates_select": [
+    {
+      "text": "2021-12-31",
+      "value": "2021-12-31"
+    },
+    {
+      "text": "2020-12-31",
+      "value": "2020-12-31"
+    },
+    {
+      "text": "2022-09-05",
+      "value": "2022-09-05"
+    }
+  ],
+  "individual_ranking": null,
+  "individual_wins_ranking": null,
+  "nations_ranking": null,
+  "nations_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "Albania",
+      "value": "al"
+    },
+    {
+      "text": "Algeria",
+      "value": "dz"
+    },
+    {
+      "text": "Angola",
+      "value": "ao"
+    },
+    {
+      "text": "Argentina",
+      "value": "ar"
+    },
+    {
+      "text": "Australia",
+      "value": "au"
+    },
+    {
+      "text": "Austria",
+      "value": "at"
+    },
+    {
+      "text": "Azerbaijan",
+      "value": "az"
+    },
+    {
+      "text": "Belarus",
+      "value": "by"
+    },
+    {
+      "text": "Belgium",
+      "value": "be"
+    },
+    {
+      "text": "Belize",
+      "value": "bz"
+    },
+    {
+      "text": "Bermuda",
+      "value": "bm"
+    },
+    {
+      "text": "Botswana",
+      "value": "bw"
+    },
+    {
+      "text": "Brazil",
+      "value": "br"
+    },
+    {
+      "text": "Bulgaria",
+      "value": "bg"
+    },
+    {
+      "text": "Burkina Faso",
+      "value": "bf"
+    },
+    {
+      "text": "Cameroon",
+      "value": "cm"
+    },
+    {
+      "text": "Canada",
+      "value": "ca"
+    },
+    {
+      "text": "Chile",
+      "value": "cl"
+    },
+    {
+      "text": "China",
+      "value": "cn"
+    },
+    {
+      "text": "Colombia",
+      "value": "co"
+    },
+    {
+      "text": "Costa Rica",
+      "value": "cr"
+    },
+    {
+      "text": "Croatia",
+      "value": "hr"
+    },
+    {
+      "text": "Cuba",
+      "value": "cu"
+    },
+    {
+      "text": "Curacao",
+      "value": "cw"
+    },
+    {
+      "text": "Cyprus",
+      "value": "cy"
+    },
+    {
+      "text": "Czech Republic",
+      "value": "cz"
+    },
+    {
+      "text": "Denmark",
+      "value": "dk"
+    },
+    {
+      "text": "Dominican Republic",
+      "value": "do"
+    },
+    {
+      "text": "Ecuador",
+      "value": "ec"
+    },
+    {
+      "text": "El Salvador",
+      "value": "sv"
+    },
+    {
+      "text": "Eritrea",
+      "value": "er"
+    },
+    {
+      "text": "Estonia",
+      "value": "ee"
+    },
+    {
+      "text": "Ethiopia",
+      "value": "et"
+    },
+    {
+      "text": "Finland",
+      "value": "fi"
+    },
+    {
+      "text": "France",
+      "value": "fr"
+    },
+    {
+      "text": "Georgia",
+      "value": "ge"
+    },
+    {
+      "text": "Germany",
+      "value": "de"
+    },
+    {
+      "text": "Great Britain",
+      "value": "gb"
+    },
+    {
+      "text": "Greece",
+      "value": "gr"
+    },
+    {
+      "text": "Guatemala",
+      "value": "gt"
+    },
+    {
+      "text": "Hongkong",
+      "value": "hk"
+    },
+    {
+      "text": "Hungary",
+      "value": "hu"
+    },
+    {
+      "text": "India",
+      "value": "in"
+    },
+    {
+      "text": "Indonesia",
+      "value": "id"
+    },
+    {
+      "text": "Iran",
+      "value": "ir"
+    },
+    {
+      "text": "Ireland",
+      "value": "ie"
+    },
+    {
+      "text": "Israel",
+      "value": "il"
+    },
+    {
+      "text": "Italy",
+      "value": "it"
+    },
+    {
+      "text": "Ivory Coast",
+      "value": "ci"
+    },
+    {
+      "text": "Japan",
+      "value": "jp"
+    },
+    {
+      "text": "Kazakhstan",
+      "value": "kz"
+    },
+    {
+      "text": "Kenya",
+      "value": "ke"
+    },
+    {
+      "text": "Kosovo",
+      "value": "xk"
+    },
+    {
+      "text": "Kuwait",
+      "value": "kw"
+    },
+    {
+      "text": "Laos",
+      "value": "la"
+    },
+    {
+      "text": "Latvia",
+      "value": "lv"
+    },
+    {
+      "text": "Lebanon",
+      "value": "lb"
+    },
+    {
+      "text": "Lithuania",
+      "value": "lt"
+    },
+    {
+      "text": "Luxembourg",
+      "value": "lu"
+    },
+    {
+      "text": "Malaysia",
+      "value": "my"
+    },
+    {
+      "text": "Mauritius",
+      "value": "mu"
+    },
+    {
+      "text": "Mexico",
+      "value": "mx"
+    },
+    {
+      "text": "Moldova",
+      "value": "md"
+    },
+    {
+      "text": "Mongolia",
+      "value": "mn"
+    },
+    {
+      "text": "Montenegro",
+      "value": "me"
+    },
+    {
+      "text": "Morocco",
+      "value": "ma"
+    },
+    {
+      "text": "Namibia",
+      "value": "na"
+    },
+    {
+      "text": "Netherlands",
+      "value": "nl"
+    },
+    {
+      "text": "New Zealand",
+      "value": "nz"
+    },
+    {
+      "text": "North Macedonia",
+      "value": "mk"
+    },
+    {
+      "text": "Norway",
+      "value": "no"
+    },
+    {
+      "text": "Pakistan",
+      "value": "pk"
+    },
+    {
+      "text": "Panama",
+      "value": "pa"
+    },
+    {
+      "text": "Philippines",
+      "value": "ph"
+    },
+    {
+      "text": "Poland",
+      "value": "pl"
+    },
+    {
+      "text": "Portugal",
+      "value": "pt"
+    },
+    {
+      "text": "Puerto Rico",
+      "value": "pr"
+    },
+    {
+      "text": "Romania",
+      "value": "ro"
+    },
+    {
+      "text": "Russia",
+      "value": "ru"
+    },
+    {
+      "text": "Rwanda",
+      "value": "rw"
+    },
+    {
+      "text": "Serbia",
+      "value": "rs"
+    },
+    {
+      "text": "Singapore",
+      "value": "sg"
+    },
+    {
+      "text": "Slovakia",
+      "value": "sk"
+    },
+    {
+      "text": "Slovenia",
+      "value": "si"
+    },
+    {
+      "text": "South Africa",
+      "value": "za"
+    },
+    {
+      "text": "South Korea",
+      "value": "kr"
+    },
+    {
+      "text": "Spain",
+      "value": "es"
+    },
+    {
+      "text": "Sweden",
+      "value": "se"
+    },
+    {
+      "text": "Switzerland",
+      "value": "ch"
+    },
+    {
+      "text": "Syria",
+      "value": "sy"
+    },
+    {
+      "text": "Taiwan",
+      "value": "tw"
+    },
+    {
+      "text": "Thailand",
+      "value": "th"
+    },
+    {
+      "text": "Tunisia",
+      "value": "tn"
+    },
+    {
+      "text": "Turkey",
+      "value": "tr"
+    },
+    {
+      "text": "Ukraine",
+      "value": "ua"
+    },
+    {
+      "text": "United Arab Emirates",
+      "value": "ae"
+    },
+    {
+      "text": "United States",
+      "value": "us"
+    },
+    {
+      "text": "Uruguay",
+      "value": "uy"
+    },
+    {
+      "text": "Uzbekistan",
+      "value": "uz"
+    },
+    {
+      "text": "Venezuela",
+      "value": "ve"
+    }
+  ],
+  "nations_wins_ranking": null,
+  "normalized_relative_url": "rankings.php?date=2020-12-31&p=me&s=races",
+  "pages_select": [
+    {
+      "text": "1-100",
+      "value": "0"
+    },
+    {
+      "text": "101-200",
+      "value": "100"
+    },
+    {
+      "text": "201-300",
+      "value": "200"
+    },
+    {
+      "text": "301-400",
+      "value": "300"
+    },
+    {
+      "text": "401-500",
+      "value": "400"
+    },
+    {
+      "text": "501-510",
+      "value": "500"
+    }
+  ],
+  "races_ranking": [
+    {
+      "rank": 1,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.UWT",
+      "points": 1550.0,
+      "race_name": "Tour de France",
+      "race_url": "race/tour-de-france/2022"
+    },
+    {
+      "rank": 2,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "WC",
+      "points": 1357.0,
+      "race_name": "World Championships - Road Race",
+      "race_url": "race/world-championship/2021"
+    },
+    {
+      "rank": 3,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.UWT",
+      "points": 1183.0,
+      "race_name": "Paris - Nice",
+      "race_url": "race/paris-nice/2022"
+    },
+    {
+      "rank": 4,
+      "prev_rank": null,
+      "nationality": "JP",
+      "class": "Olympics",
+      "points": 1181.0,
+      "race_name": "Olympic Games Road Race",
+      "race_url": "race/olympic-games/2021"
+    },
+    {
+      "rank": 5,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 1101.0,
+      "race_name": "Li\u00e8ge-Bastogne-Li\u00e8ge",
+      "race_url": "race/liege-bastogne-liege/2022"
+    },
+    {
+      "rank": 6,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.UWT",
+      "points": 1069.0,
+      "race_name": "Il Lombardia",
+      "race_url": "race/il-lombardia/2021"
+    },
+    {
+      "rank": 7,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.UWT",
+      "points": 1061.0,
+      "race_name": "Tirreno-Adriatico",
+      "race_url": "race/tirreno-adriatico/2022"
+    },
+    {
+      "rank": 8,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 974.0,
+      "race_name": "La Fl\u00e8che Wallonne",
+      "race_url": "race/la-fleche-wallone/2022"
+    },
+    {
+      "rank": 9,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.UWT",
+      "points": 970.0,
+      "race_name": "La Vuelta ciclista a Espa\u00f1a",
+      "race_url": "race/vuelta-a-espana/2022"
+    },
+    {
+      "rank": 10,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.UWT",
+      "points": 936.0,
+      "race_name": "Milano-Sanremo",
+      "race_url": "race/milano-sanremo/2022"
+    },
+    {
+      "rank": 11,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 838.0,
+      "race_name": "Gent-Wevelgem in Flanders Fields ME",
+      "race_url": "race/gent-wevelgem/2022"
+    },
+    {
+      "rank": 12,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.UWT",
+      "points": 816.0,
+      "race_name": "Giro d'Italia",
+      "race_url": "race/giro-d-italia/2022"
+    },
+    {
+      "rank": 13,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.UWT",
+      "points": 812.0,
+      "race_name": "Bretagne Classic - Ouest-France",
+      "race_url": "race/bretagne-classic/2022"
+    },
+    {
+      "rank": 14,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.UWT",
+      "points": 788.0,
+      "race_name": "Crit\u00e9rium du Dauphin\u00e9",
+      "race_url": "race/dauphine/2022"
+    },
+    {
+      "rank": 15,
+      "prev_rank": null,
+      "nationality": "CH",
+      "class": "2.UWT",
+      "points": 767.0,
+      "race_name": "Tour de Suisse",
+      "race_url": "race/tour-de-suisse/2022"
+    },
+    {
+      "rank": 16,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 759.0,
+      "race_name": "Ronde van Vlaanderen - Tour des Flandres ME",
+      "race_url": "race/ronde-van-vlaanderen/2022"
+    },
+    {
+      "rank": 17,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 759.0,
+      "race_name": "Giro dell'Emilia",
+      "race_url": "race/giro-dell-emilia/2021"
+    },
+    {
+      "rank": 18,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.UWT",
+      "points": 752.0,
+      "race_name": "Paris-Roubaix",
+      "race_url": "race/paris-roubaix/2022"
+    },
+    {
+      "rank": 19,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 749.0,
+      "race_name": "Omloop Het Nieuwsblad ME",
+      "race_url": "race/omloop-het-nieuwsblad/2022"
+    },
+    {
+      "rank": 20,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.UWT",
+      "points": 742.0,
+      "race_name": "Itzulia Basque Country",
+      "race_url": "race/itzulia-basque-country/2022"
+    },
+    {
+      "rank": 21,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.UWT",
+      "points": 724.0,
+      "race_name": "Donostia San Sebastian Klasikoa",
+      "race_url": "race/san-sebastian/2022"
+    },
+    {
+      "rank": 22,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.UWT",
+      "points": 722.0,
+      "race_name": "Volta Ciclista a Catalunya",
+      "race_url": "race/volta-a-catalunya/2022"
+    },
+    {
+      "rank": 23,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 718.0,
+      "race_name": "Kuurne - Bruxelles - Kuurne",
+      "race_url": "race/kuurne-brussel-kuurne/2022"
+    },
+    {
+      "rank": 24,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.UWT",
+      "points": 702.0,
+      "race_name": "Amstel Gold Race",
+      "race_url": "race/amstel-gold-race/2022"
+    },
+    {
+      "rank": 25,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.UWT",
+      "points": 662.0,
+      "race_name": "Strade Bianche",
+      "race_url": "race/strade-bianche/2022"
+    },
+    {
+      "rank": 26,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "1.UWT",
+      "points": 651.0,
+      "race_name": "BEMER Cyclassics",
+      "race_url": "race/cyclassics-hamburg/2022"
+    },
+    {
+      "rank": 27,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 647.0,
+      "race_name": "Dwars door Vlaanderen - A travers la Flandre ME",
+      "race_url": "race/dwars-door-vlaanderen/2022"
+    },
+    {
+      "rank": 28,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 636.0,
+      "race_name": "E3 Saxo Bank Classic",
+      "race_url": "race/e3-harelbeke/2022"
+    },
+    {
+      "rank": 29,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 611.0,
+      "race_name": "Tre Valli Varesine",
+      "race_url": "race/tre-valli-varesine/2021"
+    },
+    {
+      "rank": 30,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.Pro",
+      "points": 610.0,
+      "race_name": "Volta a la Comunitat Valenciana",
+      "race_url": "race/vuelta-a-la-comunidad-valenciana/2022"
+    },
+    {
+      "rank": 31,
+      "prev_rank": null,
+      "nationality": "AE",
+      "class": "2.UWT",
+      "points": 607.0,
+      "race_name": "UAE Tour",
+      "race_url": "race/uae-tour/2022"
+    },
+    {
+      "rank": 32,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 534.0,
+      "race_name": "De Brabantse Pijl - La Fl\u00e8che Braban\u00e7onne",
+      "race_url": "race/brabantse-pijl/2022"
+    },
+    {
+      "rank": 33,
+      "prev_rank": null,
+      "nationality": "CH",
+      "class": "2.UWT",
+      "points": 506.0,
+      "race_name": "Tour de Romandie",
+      "race_url": "race/tour-de-romandie/2022"
+    },
+    {
+      "rank": 34,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "2.Pro",
+      "points": 502.0,
+      "race_name": "Volta ao Algarve em Bicicleta",
+      "race_url": "race/volta-ao-algarve/2022"
+    },
+    {
+      "rank": 35,
+      "prev_rank": null,
+      "nationality": "JP",
+      "class": "Olympics",
+      "points": 487.0,
+      "race_name": "Olympic Games - ITT",
+      "race_url": "race/olympic-games-itt/2021"
+    },
+    {
+      "rank": 36,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "2.UWT",
+      "points": 467.0,
+      "race_name": "Tour de Pologne",
+      "race_url": "race/tour-de-pologne/2022"
+    },
+    {
+      "rank": 37,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 464.0,
+      "race_name": "Dr\u00f4me Classic",
+      "race_url": "race/la-drome-classic/2022"
+    },
+    {
+      "rank": 38,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 459.0,
+      "race_name": "Minerva Classic Brugge-De Panne",
+      "race_url": "race/oxyclean-classic-brugge-de-panne/2022"
+    },
+    {
+      "rank": 39,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "2.Pro",
+      "points": 458.0,
+      "race_name": "Deutschland Tour",
+      "race_url": "race/deutschland-tour/2022"
+    },
+    {
+      "rank": 40,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 458.0,
+      "race_name": "Paris - Tours Elite",
+      "race_url": "race/paris-tours/2021"
+    },
+    {
+      "rank": 41,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "CC",
+      "points": 455.0,
+      "race_name": "European Continental Championships - Road Race",
+      "race_url": "race/uec-road-european-championships/2022"
+    },
+    {
+      "rank": 42,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 453.0,
+      "race_name": "Faun-Ard\u00e8che Classic",
+      "race_url": "race/faun-ardeche-classic/2022"
+    },
+    {
+      "rank": 43,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.Pro",
+      "points": 423.0,
+      "race_name": "Vuelta a Andalucia Ruta Ciclista Del Sol",
+      "race_url": "race/ruta-del-sol/2022"
+    },
+    {
+      "rank": 44,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 413.0,
+      "race_name": "Primus Classic",
+      "race_url": "race/gp-impanis-van-petegem/2021"
+    },
+    {
+      "rank": 45,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "NC",
+      "points": 409.0,
+      "race_name": "National Championships Belgium - Road Race",
+      "race_url": "race/nc-belgium/2022"
+    },
+    {
+      "rank": 46,
+      "prev_rank": null,
+      "nationality": "LU",
+      "class": "2.Pro",
+      "points": 407.0,
+      "race_name": "Skoda-Tour de Luxembourg",
+      "race_url": "race/tour-de-luxembourg/2021"
+    },
+    {
+      "rank": 47,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 405.0,
+      "race_name": "Milano - Torino",
+      "race_url": "race/milano-torino/2022"
+    },
+    {
+      "rank": 48,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "NC",
+      "points": 400.0,
+      "race_name": "National Championships France - Road Race",
+      "race_url": "race/nc-france/2022"
+    },
+    {
+      "rank": 49,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 396.0,
+      "race_name": "Coppa Bernocchi - GP BPM",
+      "race_url": "race/coppa-bernocchi/2021"
+    },
+    {
+      "rank": 50,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 394.0,
+      "race_name": "Gran Piemonte",
+      "race_url": "race/gran-piemonte/2021"
+    },
+    {
+      "rank": 51,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 389.0,
+      "race_name": "Druivenkoers - Overijse",
+      "race_url": "race/druivenkoers-overijse/2022"
+    },
+    {
+      "rank": 52,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "2.Pro",
+      "points": 384.0,
+      "race_name": "Baloise Belgium Tour",
+      "race_url": "race/tour-of-belgium/2022"
+    },
+    {
+      "rank": 53,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "2.Pro",
+      "points": 378.0,
+      "race_name": "Ethias-Tour de Wallonie",
+      "race_url": "race/tour-de-wallonie/2022"
+    },
+    {
+      "rank": 54,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.Pro",
+      "points": 372.0,
+      "race_name": "Gran Premio Miguel Indurain",
+      "race_url": "race/gp-miguel-indurain/2022"
+    },
+    {
+      "rank": 55,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 366.0,
+      "race_name": "Trofeo Pollen\u00e7a - Port d'Andratx",
+      "race_url": "race/trofeo-andratx-mirador-d-es-colomer/2022"
+    },
+    {
+      "rank": 56,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 366.0,
+      "race_name": "Etoile de Bess\u00e8ges - Tour du Gard",
+      "race_url": "race/etoile-de-besseges/2022"
+    },
+    {
+      "rank": 57,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "WC",
+      "points": 363.0,
+      "race_name": "World Championships - ITT",
+      "race_url": "race/world-championship-itt/2021"
+    },
+    {
+      "rank": 58,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 362.0,
+      "race_name": "Brussels Cycling Classic",
+      "race_url": "race/brussels-cycling-classic/2022"
+    },
+    {
+      "rank": 59,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.Pro",
+      "points": 356.0,
+      "race_name": "Vuelta a Burgos",
+      "race_url": "race/vuelta-a-burgos/2022"
+    },
+    {
+      "rank": 60,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 352.0,
+      "race_name": "Trofeo Serra de Tramuntana",
+      "race_url": "race/deia-trophy/2022"
+    },
+    {
+      "rank": 61,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 344.0,
+      "race_name": "Circuit Franco-Belge",
+      "race_url": "race/circuit-franco-belge/2022"
+    },
+    {
+      "rank": 62,
+      "prev_rank": null,
+      "nationality": "CH",
+      "class": "1.1",
+      "points": 338.0,
+      "race_name": "Grosser Preis des Kantons Aargau",
+      "race_url": "race/gp-du-canton-d-argovie/2022"
+    },
+    {
+      "rank": 63,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 335.0,
+      "race_name": "Tour du Limousin - Nouvelle Aquitaine",
+      "race_url": "race/tour-du-limousin/2022"
+    },
+    {
+      "rank": 64,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 331.0,
+      "race_name": "Scheldeprijs",
+      "race_url": "race/scheldeprijs/2022"
+    },
+    {
+      "rank": 65,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 325.0,
+      "race_name": "Grand Prix Cycliste de Marseille La Marseillaise",
+      "race_url": "race/gp-d-ouverture/2022"
+    },
+    {
+      "rank": 66,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 320.0,
+      "race_name": "Trofeo Laigueglia",
+      "race_url": "race/trofeo-laigueglia/2022"
+    },
+    {
+      "rank": 67,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.Pro",
+      "points": 318.0,
+      "race_name": "Tour de la Provence",
+      "race_url": "race/tour-cycliste-international-la-provence/2022"
+    },
+    {
+      "rank": 68,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 314.0,
+      "race_name": "Tour du Doubs",
+      "race_url": "race/tour-du-doubs/2022"
+    },
+    {
+      "rank": 69,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 312.0,
+      "race_name": "Ronde van Limburg",
+      "race_url": "race/ronde-van-limburg/2022"
+    },
+    {
+      "rank": 70,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "1.UWT",
+      "points": 309.0,
+      "race_name": "Eschborn-Frankfurt",
+      "race_url": "race/Eschborn-Frankfurt/2022"
+    },
+    {
+      "rank": 71,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 305.0,
+      "race_name": "Trofeo Calvia",
+      "race_url": "race/trofeo-calvia/2022"
+    },
+    {
+      "rank": 72,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 303.0,
+      "race_name": "Trofeo Playa de Palma - Palma",
+      "race_url": "race/trofeo-palma/2022"
+    },
+    {
+      "rank": 73,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 303.0,
+      "race_name": "Giro della Toscana - Memorial Alfredo Martini",
+      "race_url": "race/giro-di-toscana/2021"
+    },
+    {
+      "rank": 74,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 298.0,
+      "race_name": "La Route d'Occitanie - La D\u00e9p\u00eache du Midi",
+      "race_url": "race/la-route-d-occitanie/2022"
+    },
+    {
+      "rank": 75,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 298.0,
+      "race_name": "Le Samyn",
+      "race_url": "race/gp-samyn/2022"
+    },
+    {
+      "rank": 76,
+      "prev_rank": null,
+      "nationality": "DK",
+      "class": "2.Pro",
+      "points": 296.0,
+      "race_name": "PostNord Danmark Rundt - Tour of Denmark",
+      "race_url": "race/tour-of-denmark/2022"
+    },
+    {
+      "rank": 77,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 293.0,
+      "race_name": "Egmont Cycling Race",
+      "race_url": "race/gp-stad-zottegem/2022"
+    },
+    {
+      "rank": 78,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 292.0,
+      "race_name": "Tour des Alpes Maritimes et du Var",
+      "race_url": "race/tour-des-alpes-maritimes-et-du-var/2022"
+    },
+    {
+      "rank": 79,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 288.0,
+      "race_name": "Grand Prix de Wallonie",
+      "race_url": "race/gp-de-wallonie/2021"
+    },
+    {
+      "rank": 80,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "2.Pro",
+      "points": 282.0,
+      "race_name": "Tour of Norway",
+      "race_url": "race/tour-of-norway/2022"
+    },
+    {
+      "rank": 81,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 276.0,
+      "race_name": "Circuito de Getxo - Memorial Hermanos Otxoa",
+      "race_url": "race/circuito-de-getxo/2022"
+    },
+    {
+      "rank": 82,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 276.0,
+      "race_name": "Coppa Sabatini - Gran Premio citt\u00e0 di Peccioli",
+      "race_url": "race/gp-citta-di-peccioli/2021"
+    },
+    {
+      "rank": 83,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 272.0,
+      "race_name": "Trofeo Alc\u00fadia - Port d'Alc\u00fadia",
+      "race_url": "race/trofeo-alcudia/2022"
+    },
+    {
+      "rank": 84,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 267.0,
+      "race_name": "Paris - Bourges",
+      "race_url": "race/paris-bourges/2021"
+    },
+    {
+      "rank": 85,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 265.0,
+      "race_name": "Tour of Leuven - Memorial Jef Scherens",
+      "race_url": "race/gp-jef-scherens/2022"
+    },
+    {
+      "rank": 86,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 260.0,
+      "race_name": "Mont Ventoux D\u00e9nivel\u00e9 Challenge",
+      "race_url": "race/mont-ventoux-denivele-challenge/2022"
+    },
+    {
+      "rank": 87,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.Pro",
+      "points": 257.0,
+      "race_name": "Tour of the Alps",
+      "race_url": "race/tour-of-the-alps/2022"
+    },
+    {
+      "rank": 88,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.1",
+      "points": 253.0,
+      "race_name": "Settimana Internazionale Coppi e Bartali",
+      "race_url": "race/settimana-internazionale-coppi-e-bartali/2022"
+    },
+    {
+      "rank": 89,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 252.0,
+      "race_name": "Grand Prix de Denain - Porte du Hainaut",
+      "race_url": "race/gp-de-denain/2022"
+    },
+    {
+      "rank": 90,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 250.0,
+      "race_name": "Elfstedenronde Brugge",
+      "race_url": "race/circuit-des-xi-villes/2022"
+    },
+    {
+      "rank": 91,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 248.0,
+      "race_name": "Coppa Agostoni - Giro delle Brianze",
+      "race_url": "race/coppa-agostoni/2021"
+    },
+    {
+      "rank": 92,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 247.0,
+      "race_name": "Mercan'Tour Classic Alpes-Maritimes",
+      "race_url": "race/mercan-tour-classic-alpes-maritimes/2022"
+    },
+    {
+      "rank": 93,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 247.0,
+      "race_name": "Tro-Bro L\u00e9on",
+      "race_url": "race/tro-bro-leon/2022"
+    },
+    {
+      "rank": 94,
+      "prev_rank": null,
+      "nationality": "SI",
+      "class": "2.Pro",
+      "points": 245.0,
+      "race_name": "Tour of Slovenia",
+      "race_url": "race/tour-of-slovenia/2022"
+    },
+    {
+      "rank": 95,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 239.0,
+      "race_name": "Circuit Cycliste Sarthe - Pays de la Loire",
+      "race_url": "race/circuit-sarthe/2022"
+    },
+    {
+      "rank": 96,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 234.0,
+      "race_name": "Dwars door het Hageland",
+      "race_url": "race/dwars-door-het-hageland/2022"
+    },
+    {
+      "rank": 97,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 232.0,
+      "race_name": "Memorial Marco Pantani",
+      "race_url": "race/memorial-marco-pantani/2021"
+    },
+    {
+      "rank": 98,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 230.0,
+      "race_name": "Bredene Koksijde Classic",
+      "race_url": "race/bredene-koksijde-classic/2022"
+    },
+    {
+      "rank": 99,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 229.0,
+      "race_name": "Danilith Nokere Koerse",
+      "race_url": "race/nokere-koers/2022"
+    },
+    {
+      "rank": 100,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 229.0,
+      "race_name": "La Polynormande",
+      "race_url": "race/la-poly-normande/2022"
+    },
+    {
+      "rank": 101,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 226.0,
+      "race_name": "Binche -  Chimay - Binche / M\u00e9morial Frank Vandenbroucke",
+      "race_url": "race/memorial-frank-vandenbroucke/2021"
+    },
+    {
+      "rank": 102,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.Pro",
+      "points": 224.0,
+      "race_name": "Clasica de Almeria",
+      "race_url": "race/clasica-de-almeria/2022"
+    },
+    {
+      "rank": 103,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 220.0,
+      "race_name": "Kampioenschap van Vlaanderen",
+      "race_url": "race/kampioenschap-van-vlaanderen/2021"
+    },
+    {
+      "rank": 104,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 218.0,
+      "race_name": "GP de Fourmies / La Voix du Nord",
+      "race_url": "race/gp-de-fourmies/2021"
+    },
+    {
+      "rank": 105,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.1",
+      "points": 215.0,
+      "race_name": "Gran Cami\u00f1o",
+      "race_url": "race/gran-camino/2022"
+    },
+    {
+      "rank": 106,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 213.0,
+      "race_name": "Grand Prix d'Isbergues - Pas de Calais",
+      "race_url": "race/gp-d-isbergues/2021"
+    },
+    {
+      "rank": 107,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 210.0,
+      "race_name": "Heylen Vastgoed Heistse Pijl",
+      "race_url": "race/heist-op-den-berg/2022"
+    },
+    {
+      "rank": 108,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "2.Pro",
+      "points": 209.0,
+      "race_name": "Presidential Cycling Tour of T\u00fcrkiye",
+      "race_url": "race/tour-of-turkey/2022"
+    },
+    {
+      "rank": 109,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "NC",
+      "points": 202.0,
+      "race_name": "National Championships Italy - Road Race",
+      "race_url": "race/nc-italy/2022"
+    },
+    {
+      "rank": 110,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 202.0,
+      "race_name": "Classique Paris-Chauny",
+      "race_url": "race/paris-chauny-classique/2021"
+    },
+    {
+      "rank": 111,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "1.1",
+      "points": 199.0,
+      "race_name": "Rund um K\u00f6ln",
+      "race_url": "race/rund-um-koln/2022"
+    },
+    {
+      "rank": 112,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 198.0,
+      "race_name": "Tour de l'Ain",
+      "race_url": "race/tour-de-l-ain/2022"
+    },
+    {
+      "rank": 113,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 197.0,
+      "race_name": "Vuelta Ciclista a la Region de Murcia Costa Calida",
+      "race_url": "race/vuelta-ciclista-a-la-region-de-murcia/2022"
+    },
+    {
+      "rank": 114,
+      "prev_rank": null,
+      "nationality": "SA",
+      "class": "2.1",
+      "points": 195.0,
+      "race_name": "Saudi Tour",
+      "race_url": "race/tour-de-saudi-arabia/2022"
+    },
+    {
+      "rank": 115,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 193.0,
+      "race_name": "Giro del Veneto",
+      "race_url": "race/giro-del-veneto/2021"
+    },
+    {
+      "rank": 116,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 193.0,
+      "race_name": "Grand Prix du Morbihan",
+      "race_url": "race/gp-de-plumelec/2022"
+    },
+    {
+      "rank": 117,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 189.0,
+      "race_name": "Veneto Classic",
+      "race_url": "race/veneto-classic/2021"
+    },
+    {
+      "rank": 118,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 182.0,
+      "race_name": "Tour Poitou - Charentes en Nouvelle Aquitaine",
+      "race_url": "race/tour-du-poitou-charentes-et-de-la-vienne/2022"
+    },
+    {
+      "rank": 119,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.Pro",
+      "points": 177.0,
+      "race_name": "Boucles de la Mayenne - Cr\u00e9dit Mutuel",
+      "race_url": "race/boucles-de-la-mayenne/2022"
+    },
+    {
+      "rank": 120,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "2.UWT",
+      "points": 176.0,
+      "race_name": "Benelux Tour",
+      "race_url": "race/benelux-tour/2022"
+    },
+    {
+      "rank": 121,
+      "prev_rank": null,
+      "nationality": "HU",
+      "class": "2.1",
+      "points": 175.0,
+      "race_name": "Tour de Hongrie",
+      "race_url": "race/tour-de-hongrie/2022"
+    },
+    {
+      "rank": 122,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 166.0,
+      "race_name": "Cl\u00e1sica Ja\u00e9n Paraiso Interior",
+      "race_url": "race/clasica-jaen-paraiso-interior/2022"
+    },
+    {
+      "rank": 123,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "1.Pro",
+      "points": 163.0,
+      "race_name": "Sparkassen M\u00fcnsterland Giro",
+      "race_url": "race/munsterland-giro/2021"
+    },
+    {
+      "rank": 124,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 163.0,
+      "race_name": "Gooikse Pijl",
+      "race_url": "race/gooikse-pijl/2021"
+    },
+    {
+      "rank": 125,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.Pro",
+      "points": 159.0,
+      "race_name": "4 Jours de Dunkerque / Grand Prix des Hauts de France",
+      "race_url": "race/4-jours-de-dunkerque/2022"
+    },
+    {
+      "rank": 126,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "2.Pro",
+      "points": 158.0,
+      "race_name": "Arctic Race of Norway",
+      "race_url": "race/arctic-race-of-norway/2022"
+    },
+    {
+      "rank": 127,
+      "prev_rank": null,
+      "nationality": "GB",
+      "class": "2.Pro",
+      "points": 154.0,
+      "race_name": "Tour of Britain",
+      "race_url": "race/tour-of-britain/2022"
+    },
+    {
+      "rank": 128,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 151.0,
+      "race_name": "Prueba Villafranca - Ordiziako Klasika",
+      "race_url": "race/prueba-villafranca/2022"
+    },
+    {
+      "rank": 129,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 151.0,
+      "race_name": "Trofeo Matteotti",
+      "race_url": "race/trofeo-matteotti/2021"
+    },
+    {
+      "rank": 130,
+      "prev_rank": null,
+      "nationality": "HR",
+      "class": "2.1",
+      "points": 147.0,
+      "race_name": "Cro Race",
+      "race_url": "race/tour-of-croatia/2021"
+    },
+    {
+      "rank": 131,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 145.0,
+      "race_name": "Classic Grand Besan\u00e7on Doubs",
+      "race_url": "race/classic-grand-besancon-doubs/2022"
+    },
+    {
+      "rank": 132,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 144.0,
+      "race_name": "Omloop van het Houtland Middelkerke-Lichtervelde",
+      "race_url": "race/omloop-van-het-houtland-lichtervelde/2021"
+    },
+    {
+      "rank": 133,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 143.0,
+      "race_name": "Marcel Kint Classic",
+      "race_url": "race/grote-prijs-marcel-kint/2022"
+    },
+    {
+      "rank": 134,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 142.0,
+      "race_name": "Tour du Jura Cycliste",
+      "race_url": "race/tour-du-jura-cycliste/2022"
+    },
+    {
+      "rank": 135,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.1",
+      "points": 141.0,
+      "race_name": "Vuelta a Castilla y Leon",
+      "race_url": "race/vuelta-a-castilla-y-leon/2022"
+    },
+    {
+      "rank": 136,
+      "prev_rank": null,
+      "nationality": "OM",
+      "class": "2.Pro",
+      "points": 140.0,
+      "race_name": "Tour of Oman",
+      "race_url": "race/tour-of-oman/2022"
+    },
+    {
+      "rank": 137,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 137.0,
+      "race_name": "Tour du Finist\u00e8re",
+      "race_url": "race/tour-du-finistere/2022"
+    },
+    {
+      "rank": 138,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "NC",
+      "points": 134.0,
+      "race_name": "National Championships Netherlands - Road Race",
+      "race_url": "race/nc-netherlands/2022"
+    },
+    {
+      "rank": 139,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 133.0,
+      "race_name": "GP Industria ",
+      "race_url": "race/gp-industria-artigianato/2022"
+    },
+    {
+      "rank": 140,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 133.0,
+      "race_name": "Boucles de l'Aulne - Ch\u00e2teaulin",
+      "race_url": "race/boucles-de-l-aulne/2022"
+    },
+    {
+      "rank": 141,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 130.0,
+      "race_name": "Circuit de Wallonie",
+      "race_url": "race/circuit-de-wallonie/2022"
+    },
+    {
+      "rank": 142,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 130.0,
+      "race_name": "La Route Ad\u00e9lie de Vitr\u00e9",
+      "race_url": "race/route-adelie-de-vitre/2022"
+    },
+    {
+      "rank": 143,
+      "prev_rank": null,
+      "nationality": "SK",
+      "class": "2.1",
+      "points": 124.0,
+      "race_name": "Okolo Slovenska / Tour de Slovaquie",
+      "race_url": "race/okolo-slovenska/2021"
+    },
+    {
+      "rank": 144,
+      "prev_rank": null,
+      "nationality": "CZ",
+      "class": "2.1",
+      "points": 124.0,
+      "race_name": "Sazka Tour",
+      "race_url": "race/sazka-tour/2022"
+    },
+    {
+      "rank": 145,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 122.0,
+      "race_name": "La Roue Tourangelle Centre Val de Loire - Troph\u00e9e Groupama Paris Val de Loire",
+      "race_url": "race/la-roue-tourangelle/2022"
+    },
+    {
+      "rank": 146,
+      "prev_rank": null,
+      "nationality": "US",
+      "class": "1.Pro",
+      "points": 118.0,
+      "race_name": "Maryland Cycling Classic, presented by UnitedHealthcare",
+      "race_url": "race/maryland-cycling-classic/2022"
+    },
+    {
+      "rank": 147,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.1",
+      "points": 117.0,
+      "race_name": "Veenendaal-Veenendaal Classic",
+      "race_url": "race/veenendaal-veenendaal/2022"
+    },
+    {
+      "rank": 148,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 112.0,
+      "race_name": "Grote Prijs Jean-Pierre Monser\u00e9",
+      "race_url": "race/grote-prijs-jean-pierre-monsere/2022"
+    },
+    {
+      "rank": 149,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "2.1",
+      "points": 109.0,
+      "race_name": "Vuelta Asturias Julio Alvarez Mendo",
+      "race_url": "race/vuelta-asturias/2022"
+    },
+    {
+      "rank": 150,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 108.0,
+      "race_name": "Paris - Camembert",
+      "race_url": "race/paris-camembert/2022"
+    },
+    {
+      "rank": 151,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 105.0,
+      "race_name": "Tour de Vend\u00e9e",
+      "race_url": "race/tour-de-vendee/2021"
+    },
+    {
+      "rank": 152,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.1",
+      "points": 104.0,
+      "race_name": "Giro di Sicilia - Tour of Sicily",
+      "race_url": "race/giro-di-sicilia/2022"
+    },
+    {
+      "rank": 153,
+      "prev_rank": null,
+      "nationality": "DK",
+      "class": "NC",
+      "points": 101.0,
+      "race_name": "National Championships Denmark - Road Race",
+      "race_url": "race/danish-championships/2022"
+    },
+    {
+      "rank": 154,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 98.0,
+      "race_name": "Classic Loire Atlantique",
+      "race_url": "race/classic-loire-atlantique/2022"
+    },
+    {
+      "rank": 155,
+      "prev_rank": null,
+      "nationality": "CH",
+      "class": "NC",
+      "points": 98.0,
+      "race_name": "National Championships Switzerland - Road Race",
+      "race_url": "race/nc-switserland/2022"
+    },
+    {
+      "rank": 156,
+      "prev_rank": null,
+      "nationality": "GB",
+      "class": "NC",
+      "points": 96.0,
+      "race_name": "National Championships Great Britain - Road Race",
+      "race_url": "race/ncgreat-britain/2022"
+    },
+    {
+      "rank": 157,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "NC",
+      "points": 95.0,
+      "race_name": "National Championships Spain - Road Race",
+      "race_url": "race/nc-spain/2022"
+    },
+    {
+      "rank": 158,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.1",
+      "points": 94.0,
+      "race_name": "Volta Limburg Classic",
+      "race_url": "race/hel-van-het-mergelland/2022"
+    },
+    {
+      "rank": 159,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 93.0,
+      "race_name": "Schaal Sels Merksem/ Johan Museeuw Classic",
+      "race_url": "race/schaal-schels/2022"
+    },
+    {
+      "rank": 160,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 92.0,
+      "race_name": "Giro dell'Appennino",
+      "race_url": "race/giro-del-appennino/2022"
+    },
+    {
+      "rank": 161,
+      "prev_rank": null,
+      "nationality": "GB",
+      "class": "JR",
+      "points": 90.0,
+      "race_name": "Commonwealth Games - Road Race",
+      "race_url": "race/commonwealth-games/2022"
+    },
+    {
+      "rank": 162,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "CC",
+      "points": 90.0,
+      "race_name": "European Continental Championships - ITT",
+      "race_url": "race/uec-road-european-championships-itt/2022"
+    },
+    {
+      "rank": 163,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.1",
+      "points": 87.0,
+      "race_name": "Albert Achterhes Profronde van Drenthe",
+      "race_url": "race/ronde-van-drenthe/2022"
+    },
+    {
+      "rank": 164,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "WC",
+      "points": 86.0,
+      "race_name": "World Championships U23 - Road Race",
+      "race_url": "race/world-championships-u23/2021"
+    },
+    {
+      "rank": 165,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 83.0,
+      "race_name": "Cholet - Pays de la Loire",
+      "race_url": "race/cholet-pays-de-loire/2022"
+    },
+    {
+      "rank": 166,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 82.0,
+      "race_name": "Per Sempre Alfredo",
+      "race_url": "race/per-sempre-alfredo/2022"
+    },
+    {
+      "rank": 167,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "NC",
+      "points": 80.0,
+      "race_name": "National Championships Belgium - ITT",
+      "race_url": "race/nc-belgium-itt/2022"
+    },
+    {
+      "rank": 168,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "2.Pro",
+      "points": 80.0,
+      "race_name": "ZLM Tour",
+      "race_url": "race/zlm-tour/2022"
+    },
+    {
+      "rank": 169,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 79.0,
+      "race_name": "Chrono des Nations",
+      "race_url": "race/chrono-des-nations/2021"
+    },
+    {
+      "rank": 170,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "NC",
+      "points": 79.0,
+      "race_name": "National Championships Norway - Road Race",
+      "race_url": "race/nc-norway/2022"
+    },
+    {
+      "rank": 171,
+      "prev_rank": null,
+      "nationality": "RO",
+      "class": "2.1",
+      "points": 77.0,
+      "race_name": "Sibiu Cycling Tour",
+      "race_url": "race/sibiu-cycling-tour/2022"
+    },
+    {
+      "rank": 172,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "NC",
+      "points": 74.0,
+      "race_name": "National Championships Germany - Road Race",
+      "race_url": "race/nc-germany/2022"
+    },
+    {
+      "rank": 173,
+      "prev_rank": null,
+      "nationality": "DK",
+      "class": "NC",
+      "points": 67.0,
+      "race_name": "National Championships Denmark - ITT",
+      "race_url": "race/nc-denmark-itt/2022"
+    },
+    {
+      "rank": 174,
+      "prev_rank": null,
+      "nationality": "CH",
+      "class": "NC",
+      "points": 62.0,
+      "race_name": "National Championships Switzerland - ITT",
+      "race_url": "race/nc-switzerland-itt/2022"
+    },
+    {
+      "rank": 175,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "2.1",
+      "points": 62.0,
+      "race_name": "Tour of Antalya",
+      "race_url": "race/tour-of-antalya/2022"
+    },
+    {
+      "rank": 176,
+      "prev_rank": null,
+      "nationality": "GR",
+      "class": "2.1",
+      "points": 62.0,
+      "race_name": "International Tour of Hellas",
+      "race_url": "race/international-tour-of-hellas/2022"
+    },
+    {
+      "rank": 177,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 61.0,
+      "race_name": "Antwerp Port Epic / Sels Trophy",
+      "race_url": "race/antwerp-port-epic/2022"
+    },
+    {
+      "rank": 178,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "1.2",
+      "points": 59.0,
+      "race_name": "Cl\u00e0ssica Comunitat Valenciana 1969 - Gran Premi Val\u00e8ncia",
+      "race_url": "race/gp-de-valence/2022"
+    },
+    {
+      "rank": 179,
+      "prev_rank": null,
+      "nationality": "SI",
+      "class": "NC",
+      "points": 58.0,
+      "race_name": "National Championships Slovenia - ITT",
+      "race_url": "race/nc-slovenia-itt/2022"
+    },
+    {
+      "rank": 180,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.1",
+      "points": 57.0,
+      "race_name": "Adriatica Ionica Race / Sulle Rotte della Serenissima",
+      "race_url": "race/adriatica-ionica-race/2022"
+    },
+    {
+      "rank": 181,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.Ncup",
+      "points": 54.0,
+      "race_name": "Tour de l'Avenir",
+      "race_url": "race/tour-de-l-avenir/2022"
+    },
+    {
+      "rank": 182,
+      "prev_rank": null,
+      "nationality": "ES",
+      "class": "NC",
+      "points": 48.0,
+      "race_name": "National Championships Spain - ITT",
+      "race_url": "race/nc-spain-itt/2022"
+    },
+    {
+      "rank": 183,
+      "prev_rank": null,
+      "nationality": "GB",
+      "class": "JR",
+      "points": 48.0,
+      "race_name": "Commonwealth Games - ITT",
+      "race_url": "race/commonwealth-games-itt2/2022"
+    },
+    {
+      "rank": 184,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "NC",
+      "points": 46.0,
+      "race_name": "National Championships Portugal - Road Race",
+      "race_url": "race/nc-portugal2/2022"
+    },
+    {
+      "rank": 185,
+      "prev_rank": null,
+      "nationality": "EC",
+      "class": "NC",
+      "points": 41.0,
+      "race_name": "National Championships Ecuador - Road Race",
+      "race_url": "race/nc-ecuador/2022"
+    },
+    {
+      "rank": 186,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "NC",
+      "points": 41.0,
+      "race_name": "National Championships Netherlands - ITT",
+      "race_url": "race/nc-netherlands-itt/2022"
+    },
+    {
+      "rank": 187,
+      "prev_rank": null,
+      "nationality": "EE",
+      "class": "2.1",
+      "points": 41.0,
+      "race_name": "Tour of Estonia",
+      "race_url": "race/tour-of-estonia/2022"
+    },
+    {
+      "rank": 188,
+      "prev_rank": null,
+      "nationality": "DK",
+      "class": "1.2",
+      "points": 40.0,
+      "race_name": "Grand Prix Herning",
+      "race_url": "race/gp-herning/2022"
+    },
+    {
+      "rank": 189,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "NC",
+      "points": 40.0,
+      "race_name": "National Championships Italy - ITT",
+      "race_url": "race/nc-italy-itt/2022"
+    },
+    {
+      "rank": 190,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "NC",
+      "points": 39.0,
+      "race_name": "National Championships Portugal - ITT",
+      "race_url": "race/nc-portugal/2022"
+    },
+    {
+      "rank": 191,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 39.0,
+      "race_name": "Tour Alsace",
+      "race_url": "race/tour-alsace/2022"
+    },
+    {
+      "rank": 192,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 37.0,
+      "race_name": "Le Tour de Bretagne Cycliste",
+      "race_url": "race/le-tour-de-bretagne/2022"
+    },
+    {
+      "rank": 193,
+      "prev_rank": null,
+      "nationality": "DK",
+      "class": "1.2",
+      "points": 36.0,
+      "race_name": "Fyen Rundt - Tour of Funen",
+      "race_url": "race/albani-classic-fyen-rundt/2022"
+    },
+    {
+      "rank": 194,
+      "prev_rank": null,
+      "nationality": "HR",
+      "class": "2.2",
+      "points": 35.0,
+      "race_name": "Istarsko Prolje\u0107e - Istrian Spring Trophy",
+      "race_url": "race/istarsko-proljece-istrian-spring-trophy/2022"
+    },
+    {
+      "rank": 195,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "NC",
+      "points": 35.0,
+      "race_name": "National Championships France - ITT",
+      "race_url": "race/nc-france-itt/2022"
+    },
+    {
+      "rank": 196,
+      "prev_rank": null,
+      "nationality": "EC",
+      "class": "NC",
+      "points": 35.0,
+      "race_name": "National Championships Ecuador - ITT",
+      "race_url": "race/nc-ecuador-itt/2022"
+    },
+    {
+      "rank": 197,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 35.0,
+      "race_name": "Alpes Is\u00e8re Tour",
+      "race_url": "race/rhone-alpes-isere-tour/2022"
+    },
+    {
+      "rank": 198,
+      "prev_rank": null,
+      "nationality": "ER",
+      "class": "NC",
+      "points": 35.0,
+      "race_name": "National Championships Eritrea - Road Race",
+      "race_url": "race/nc-eritrea/2022"
+    },
+    {
+      "rank": 199,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "NC",
+      "points": 34.0,
+      "race_name": "National Championships Germany - ITT",
+      "race_url": "race/nc-germany-itt/2022"
+    },
+    {
+      "rank": 200,
+      "prev_rank": null,
+      "nationality": "RW",
+      "class": "2.1",
+      "points": 33.0,
+      "race_name": "Tour du Rwanda",
+      "race_url": "race/tour-of-rwanda/2022"
+    },
+    {
+      "rank": 201,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.2",
+      "points": 32.0,
+      "race_name": "Grand Prix de la ville de P\u00e9renchies",
+      "race_url": "race/grand-prix-de-la-ville-de-perenchies/2022"
+    },
+    {
+      "rank": 202,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 31.0,
+      "race_name": "Circuit des Ardennes",
+      "race_url": "race/circuit-des-ardennes-international/2022"
+    },
+    {
+      "rank": 203,
+      "prev_rank": null,
+      "nationality": "RO",
+      "class": "2.1",
+      "points": 31.0,
+      "race_name": "Turul Romaniei",
+      "race_url": "race/romanian-cycling-tour/2021"
+    },
+    {
+      "rank": 204,
+      "prev_rank": null,
+      "nationality": "BA",
+      "class": "2.1",
+      "points": 29.0,
+      "race_name": "Belgrade Banjaluka",
+      "race_url": "race/banja-luka-belgrade-i/2022"
+    },
+    {
+      "rank": 205,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 28.0,
+      "race_name": "Ronde de l'Oise",
+      "race_url": "race/ronde-de-l-oise/2022"
+    },
+    {
+      "rank": 206,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "WC",
+      "points": 28.0,
+      "race_name": "World Championships U23 - ITT",
+      "race_url": "race/world-championships-itt-u23/2021"
+    },
+    {
+      "rank": 207,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.2",
+      "points": 28.0,
+      "race_name": "Dorpenomloop Rucphen",
+      "race_url": "race/dorpenomloop-rucphen/2022"
+    },
+    {
+      "rank": 208,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "CC",
+      "points": 28.0,
+      "race_name": "European Continental Championships U23 - Road Race",
+      "race_url": "race/european-championships/2022"
+    },
+    {
+      "rank": 209,
+      "prev_rank": null,
+      "nationality": "GB",
+      "class": "NC",
+      "points": 27.0,
+      "race_name": "National Championships Great Britain - ITT",
+      "race_url": "race/nc-great-britain-itt/2022"
+    },
+    {
+      "rank": 210,
+      "prev_rank": null,
+      "nationality": "ER",
+      "class": "NC",
+      "points": 26.0,
+      "race_name": "National Championships Eritrea - ITT",
+      "race_url": "race/nc-eritrea-itt/2022"
+    },
+    {
+      "rank": 211,
+      "prev_rank": null,
+      "nationality": "AT",
+      "class": "NC",
+      "points": 26.0,
+      "race_name": "National Championships Austria - Road Race",
+      "race_url": "race/nc-austria/2022"
+    },
+    {
+      "rank": 212,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.2",
+      "points": 26.0,
+      "race_name": "Visit Friesland Elfsteden Race",
+      "race_url": "race/visit-friesland-elfsteden-race/2022"
+    },
+    {
+      "rank": 213,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 26.0,
+      "race_name": "A Travers les Hauts de France",
+      "race_url": "race/paris-arras-tour/2021"
+    },
+    {
+      "rank": 214,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 26.0,
+      "race_name": "Kreiz Breizh Elites",
+      "race_url": "race/kreiz-breizh-elites/2022"
+    },
+    {
+      "rank": 215,
+      "prev_rank": null,
+      "nationality": "AT",
+      "class": "2.2",
+      "points": 25.0,
+      "race_name": "Raiffeisen Ober\u00f6sterreich Rundfahrt",
+      "race_url": "race/oberosterreichrundfahrt/2022"
+    },
+    {
+      "rank": 216,
+      "prev_rank": null,
+      "nationality": "CZ",
+      "class": "NC",
+      "points": 24.0,
+      "race_name": "National Championships Czech Republic - Road Race",
+      "race_url": "race/nc-czech-republic/2022"
+    },
+    {
+      "rank": 217,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "2.2",
+      "points": 24.0,
+      "race_name": "GP Internacional Torres Vedras - Trofeu Joaquim Agostinho",
+      "race_url": "race/gp-int-torres-vedras/2022"
+    },
+    {
+      "rank": 218,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.2U",
+      "points": 23.0,
+      "race_name": "Giro d'Italia Giovani Under 23",
+      "race_url": "race/giro-ciclistico-d-italia/2022"
+    },
+    {
+      "rank": 219,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "2.2",
+      "points": 23.0,
+      "race_name": "Dooko\u0142a Mazowsza",
+      "race_url": "race/dookola-mazowsza/2022"
+    },
+    {
+      "rank": 220,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.2",
+      "points": 23.0,
+      "race_name": "Ronde van de Achterhoek",
+      "race_url": "race/ronde-van-de-achterhoek/2022"
+    },
+    {
+      "rank": 221,
+      "prev_rank": null,
+      "nationality": "BG",
+      "class": "2.2",
+      "points": 23.0,
+      "race_name": "Tour of Bulgaria",
+      "race_url": "race/tour-of-bulgaria/2022"
+    },
+    {
+      "rank": 222,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "2.2",
+      "points": 23.0,
+      "race_name": "Volta ao Alentejo",
+      "race_url": "race/volta-ao-alentejo/2022"
+    },
+    {
+      "rank": 223,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "1.2",
+      "points": 23.0,
+      "race_name": "Classica da Arrabida - Cyclin'Portugal",
+      "race_url": "race/classica-da-arrabida-cylin-portugal/2022"
+    },
+    {
+      "rank": 224,
+      "prev_rank": null,
+      "nationality": "HR",
+      "class": "1.2",
+      "points": 23.0,
+      "race_name": "Trofej Pore\u010d - Pore\u010d Trophy",
+      "race_url": "race/porec-trophy-trofej-porec/2022"
+    },
+    {
+      "rank": 225,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "1.2",
+      "points": 23.0,
+      "race_name": "Grand Prix Nasielsk-Serock",
+      "race_url": "race/grand-prix-nasielsk-serock/2022"
+    },
+    {
+      "rank": 226,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.2U",
+      "points": 22.0,
+      "race_name": "Paris - Tours Espoirs",
+      "race_url": "race/paris-tours-espoirs/2021"
+    },
+    {
+      "rank": 227,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 22.0,
+      "race_name": "Tour de Normandie",
+      "race_url": "race/tour-de-normadie/2022"
+    },
+    {
+      "rank": 228,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.2",
+      "points": 22.0,
+      "race_name": "Ronde van Overijssel",
+      "race_url": "race/ronde-van-overijssel2/2022"
+    },
+    {
+      "rank": 229,
+      "prev_rank": null,
+      "nationality": "HR",
+      "class": "1.2",
+      "points": 21.0,
+      "race_name": "Trofej Umag - Umag Trophy",
+      "race_url": "race/trofej-umag-umag-trophy/2022"
+    },
+    {
+      "rank": 230,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "1.2",
+      "points": 21.0,
+      "race_name": "Grand Prix Wyszk\u00f3w",
+      "race_url": "race/grand-prix-wyszkow/2022"
+    },
+    {
+      "rank": 231,
+      "prev_rank": null,
+      "nationality": "HU",
+      "class": "1.2",
+      "points": 21.0,
+      "race_name": "Visegrad 4 Kerekparverseny",
+      "race_url": "race/visegrad-4-bicycle-race-gp-hungary/2022"
+    },
+    {
+      "rank": 232,
+      "prev_rank": null,
+      "nationality": "CZ",
+      "class": "2.Ncup",
+      "points": 21.0,
+      "race_name": "Course de la Paix Grand Prix Jesen\u00edky",
+      "race_url": "race/course-de-la-paix-u23/2022"
+    },
+    {
+      "rank": 233,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "2.2",
+      "points": 21.0,
+      "race_name": "Tour of Malopolska",
+      "race_url": "race/tour-of-malopolska/2022"
+    },
+    {
+      "rank": 234,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "2.2",
+      "points": 20.0,
+      "race_name": "Olympia's Tour",
+      "race_url": "race/olympias-tour/2022"
+    },
+    {
+      "rank": 235,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "1.2",
+      "points": 20.0,
+      "race_name": "Memoria\u0142 Andrzeja Trochanowskiego",
+      "race_url": "race/memorial-andrzeja-trochanowskiego/2022"
+    },
+    {
+      "rank": 236,
+      "prev_rank": null,
+      "nationality": "CO",
+      "class": "NC",
+      "points": 20.0,
+      "race_name": "National Championships Colombia - Road Race",
+      "race_url": "race/nc-colombia/2022"
+    },
+    {
+      "rank": 237,
+      "prev_rank": null,
+      "nationality": "BG",
+      "class": "2.2",
+      "points": 20.0,
+      "race_name": "In the footsteps of the Romans",
+      "race_url": "race/in-the-footsteps-of-the-romans/2022"
+    },
+    {
+      "rank": 238,
+      "prev_rank": null,
+      "nationality": "DZ",
+      "class": "JR",
+      "points": 20.0,
+      "race_name": "Mediterranean Games - Road Race",
+      "race_url": "race/mersin-mediterranean-games/2022"
+    },
+    {
+      "rank": 239,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "NC",
+      "points": 19.0,
+      "race_name": "National Championships Poland - Road Race",
+      "race_url": "race/nc-poland/2022"
+    },
+    {
+      "rank": 240,
+      "prev_rank": null,
+      "nationality": "SK",
+      "class": "1.2",
+      "points": 19.0,
+      "race_name": "Visegrad 4 Bicycle Race - GP Slovakia",
+      "race_url": "race/visegrad-4-bicycle-race-gp-slovakia/2022"
+    },
+    {
+      "rank": 241,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "1.2",
+      "points": 19.0,
+      "race_name": "Puchar MON",
+      "race_url": "race/puchar-ministra-obrony-narodowej/2022"
+    },
+    {
+      "rank": 242,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "2.2",
+      "points": 19.0,
+      "race_name": "Course Cycliste de Solidarnosc et des Champions Olympiques",
+      "race_url": "race/course-cycliste-de-solidarnosc/2022"
+    },
+    {
+      "rank": 243,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "1.2",
+      "points": 18.0,
+      "race_name": "Visegrad 4 Bicycle Race Grand Prix Poland",
+      "race_url": "race/visegrad-4-bicycle-race-gp-polski-via-odra/2022"
+    },
+    {
+      "rank": 244,
+      "prev_rank": null,
+      "nationality": "TH",
+      "class": "2.1",
+      "points": 18.0,
+      "race_name": "The Princess Maha Chakri Sirindhorns Cup Tour of Thailand",
+      "race_url": "race/tour-of-thailand/2022"
+    },
+    {
+      "rank": 245,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.2U",
+      "points": 18.0,
+      "race_name": "Giro Ciclistico della Valle d'Aosta - Mont Blanc",
+      "race_url": "race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2022"
+    },
+    {
+      "rank": 246,
+      "prev_rank": null,
+      "nationality": "CO",
+      "class": "NC",
+      "points": 18.0,
+      "race_name": "National Championships Colombia - ITT",
+      "race_url": "race/nc-colombia-itt/2022"
+    },
+    {
+      "rank": 247,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 18.0,
+      "race_name": "Le Tour de Savoie Mont Blanc",
+      "race_url": "race/tour-des-pays-de-savoie/2021"
+    },
+    {
+      "rank": 248,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.2",
+      "points": 18.0,
+      "race_name": "Grand Prix de la Ville de Lillers Souvenir Bruno Comini",
+      "race_url": "race/gp-de-la-ville-de-lillers/2022"
+    },
+    {
+      "rank": 249,
+      "prev_rank": null,
+      "nationality": "CZ",
+      "class": "2.2",
+      "points": 18.0,
+      "race_name": "Okolo ji\u017en\u00edch \u010cech / Tour of South Bohemia",
+      "race_url": "race/okolo-jiznich-cech/2021"
+    },
+    {
+      "rank": 250,
+      "prev_rank": null,
+      "nationality": "SI",
+      "class": "1.2",
+      "points": 17.0,
+      "race_name": "GP Gorenjska",
+      "race_url": "race/gp-gorenjska/2022"
+    },
+    {
+      "rank": 251,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 17.0,
+      "race_name": "Grand Prix Mediterrennean",
+      "race_url": "race/grand-prix-mediterrennean/2022"
+    },
+    {
+      "rank": 252,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 17.0,
+      "race_name": "Grand Prix Alanya",
+      "race_url": "race/grand-prix-alanya/2022"
+    },
+    {
+      "rank": 253,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 17.0,
+      "race_name": "Grand Prix Gazipa\u015fa ME",
+      "race_url": "race/grand-prix-gazipasa/2022"
+    },
+    {
+      "rank": 254,
+      "prev_rank": null,
+      "nationality": "AR",
+      "class": "CC",
+      "points": 17.0,
+      "race_name": "Campeonato Panamericano de Ruta - Road Race",
+      "race_url": "race/panamerican-championships/2022"
+    },
+    {
+      "rank": 255,
+      "prev_rank": null,
+      "nationality": "AU",
+      "class": "NC",
+      "points": 16.0,
+      "race_name": "National Championships Australia - Road Race",
+      "race_url": "race/nc-australia/2022"
+    },
+    {
+      "rank": 256,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "2.1",
+      "points": 16.0,
+      "race_name": "Volta a Portugal em Bicicleta",
+      "race_url": "race/volta-a-portugal/2022"
+    },
+    {
+      "rank": 257,
+      "prev_rank": null,
+      "nationality": "CZ",
+      "class": "1.2",
+      "points": 16.0,
+      "race_name": "Visegrad 4 Bicycle Race - GP Czech Republic",
+      "race_url": "race/gp-czech-republic/2022"
+    },
+    {
+      "rank": 258,
+      "prev_rank": null,
+      "nationality": "SI",
+      "class": "1.2",
+      "points": 15.0,
+      "race_name": "GP Slovenian Istria",
+      "race_url": "race/gp-izola-butan-plin/2022"
+    },
+    {
+      "rank": 259,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.2",
+      "points": 15.0,
+      "race_name": "Paris - Troyes",
+      "race_url": "race/paris-troyes/2022"
+    },
+    {
+      "rank": 260,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 15.0,
+      "race_name": "Grand Prix G\u00fcndo\u011fmu\u015f",
+      "race_url": "race/grand-prix-gundogmus-me/2022"
+    },
+    {
+      "rank": 261,
+      "prev_rank": null,
+      "nationality": "GR",
+      "class": "2.2",
+      "points": 15.0,
+      "race_name": "International Tour of Rhodes",
+      "race_url": "race/tour-of-rhodes/2022"
+    },
+    {
+      "rank": 262,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "2.2",
+      "points": 15.0,
+      "race_name": "Tour of Sakarya",
+      "race_url": "race/tour-of-sakarya/2022"
+    },
+    {
+      "rank": 263,
+      "prev_rank": null,
+      "nationality": "RS",
+      "class": "2.2",
+      "points": 15.0,
+      "race_name": "Tour de Serbie",
+      "race_url": "race/tour-de-serbie/2021"
+    },
+    {
+      "rank": 264,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 15.0,
+      "race_name": "Tour du Loir et Cher",
+      "race_url": "race/tour-du-loir-et-cher-e.-provost-/2022"
+    },
+    {
+      "rank": 265,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 15.0,
+      "race_name": "Gran Premio Sportivi di Poggiana - Trofeo Bonin Costruzioni",
+      "race_url": "race/gp-di-poggiana/2022"
+    },
+    {
+      "rank": 266,
+      "prev_rank": null,
+      "nationality": "US",
+      "class": "NC",
+      "points": 15.0,
+      "race_name": "National Championships United States - Road Race",
+      "race_url": "race/nc-united-states/2022"
+    },
+    {
+      "rank": 267,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "Grand Prix Manavgat Side",
+      "race_url": "race/grand-prix-manavgat-side/2022"
+    },
+    {
+      "rank": 268,
+      "prev_rank": null,
+      "nationality": "SI",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "GP Kranj",
+      "race_url": "race/vn-kranja-memorijal-filipa-majcna/2022"
+    },
+    {
+      "rank": 269,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "Fl\u00e8che Ardennaise",
+      "race_url": "race/fleche-ardennaise/2022"
+    },
+    {
+      "rank": 270,
+      "prev_rank": null,
+      "nationality": "SI",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "GP Adria Mobil",
+      "race_url": "race/gp-adria-mobil/2022"
+    },
+    {
+      "rank": 271,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "Grand Prix Velo Alanya",
+      "race_url": "race/grand-prix-velo-alanya/2022"
+    },
+    {
+      "rank": 272,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "Grand Prix Cappadocia",
+      "race_url": "race/grand-prix-cappadocia/2022"
+    },
+    {
+      "rank": 273,
+      "prev_rank": null,
+      "nationality": "NZ",
+      "class": "NC",
+      "points": 14.0,
+      "race_name": "National Championships New Zealand  - Road Race",
+      "race_url": "race/nc-new-zealand/2022"
+    },
+    {
+      "rank": 274,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "Grand Prix Justiniano Race",
+      "race_url": "race/grand-prix-justiniano-hotels/2022"
+    },
+    {
+      "rank": 275,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "Circuito del Porto - Trofeo Arvedi",
+      "race_url": "race/circuito-del-porto-trofeo-arvedi/2022"
+    },
+    {
+      "rank": 276,
+      "prev_rank": null,
+      "nationality": "GR",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "International Rhodes Grand Prix",
+      "race_url": "race/international-rhodes-gp/2022"
+    },
+    {
+      "rank": 277,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 14.0,
+      "race_name": "Grand Prix Velo Erciyes ME",
+      "race_url": "race/grand-prix-velo-erciyes-me/2021"
+    },
+    {
+      "rank": 278,
+      "prev_rank": null,
+      "nationality": "AE",
+      "class": "2.2",
+      "points": 13.0,
+      "race_name": "Tour of Sharjah",
+      "race_url": "race/tour-of-sharjah/2022"
+    },
+    {
+      "rank": 279,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 13.0,
+      "race_name": "Il Piccolo Lombardia",
+      "race_url": "race/piccolo-giro-di-lombardia/2021"
+    },
+    {
+      "rank": 280,
+      "prev_rank": null,
+      "nationality": "EE",
+      "class": "2.2",
+      "points": 13.0,
+      "race_name": "Baltic Chain Tour",
+      "race_url": "race/baltic-chain-tour/2022"
+    },
+    {
+      "rank": 281,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "2.2",
+      "points": 13.0,
+      "race_name": "Giro della Regione Friuli Venezia Giulia",
+      "race_url": "race/giro-della-regione-friuli-venezia-giulia/2022"
+    },
+    {
+      "rank": 282,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "1.2",
+      "points": 13.0,
+      "race_name": "Lillehammer GP",
+      "race_url": "race/lillehammer-gp/2022"
+    },
+    {
+      "rank": 283,
+      "prev_rank": null,
+      "nationality": "LU",
+      "class": "2.2",
+      "points": 13.0,
+      "race_name": "Fl\u00e8che du Sud",
+      "race_url": "race/fleche-du-sud/2022"
+    },
+    {
+      "rank": 284,
+      "prev_rank": null,
+      "nationality": "DK",
+      "class": "1.2",
+      "points": 13.0,
+      "race_name": "GP Himmerland Rundt",
+      "race_url": "race/himmerland-rundt/2021"
+    },
+    {
+      "rank": 285,
+      "prev_rank": null,
+      "nationality": "SI",
+      "class": "1.2",
+      "points": 13.0,
+      "race_name": "GP Vipava Valley & Crossborder Gori\u0161ka",
+      "race_url": "race/gp-vipava-valley/2022"
+    },
+    {
+      "rank": 286,
+      "prev_rank": null,
+      "nationality": "EE",
+      "class": "NC",
+      "points": 13.0,
+      "race_name": "National Championships Estonia - Road Race",
+      "race_url": "race/nc-estonia/2022"
+    },
+    {
+      "rank": 287,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "JR",
+      "points": 13.0,
+      "race_name": "Islamic Solidarity Games ME - Road Race",
+      "race_url": "race/islamic-solidarity-games-me-road-race/2022"
+    },
+    {
+      "rank": 288,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.2U",
+      "points": 13.0,
+      "race_name": "Li\u00e8ge - Bastogne - Li\u00e8ge U23",
+      "race_url": "race/liege-bastogne-liege-u23/2022"
+    },
+    {
+      "rank": 289,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 13.0,
+      "race_name": "Grand Prix Develi",
+      "race_url": "race/grand-prix-develi/2022"
+    },
+    {
+      "rank": 290,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.2",
+      "points": 12.0,
+      "race_name": "Arno Wallaard Memorial",
+      "race_url": "race/arno-wallaard-memorial/2022"
+    },
+    {
+      "rank": 291,
+      "prev_rank": null,
+      "nationality": "GR",
+      "class": "2.2",
+      "points": 12.0,
+      "race_name": "South Aegean Tour",
+      "race_url": "race/south-aegean-tour/2022"
+    },
+    {
+      "rank": 292,
+      "prev_rank": null,
+      "nationality": "EG",
+      "class": "CC",
+      "points": 12.0,
+      "race_name": "African Continental Championships ME - Road Race",
+      "race_url": "race/african-championships/2022"
+    },
+    {
+      "rank": 293,
+      "prev_rank": null,
+      "nationality": "DK",
+      "class": "1.2",
+      "points": 12.0,
+      "race_name": "Rent Liv L\u00f8bet Skive",
+      "race_url": "race/skive-lobet/2021"
+    },
+    {
+      "rank": 294,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 12.0,
+      "race_name": "GP Capodarco Comunita Di Capodarco",
+      "race_url": "race/gp-capodarco/2022"
+    },
+    {
+      "rank": 295,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 12.0,
+      "race_name": "Grand Prix Kapuzba\u015f\u0131",
+      "race_url": "race/grand-prix-kapuzbasi/2022"
+    },
+    {
+      "rank": 296,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2",
+      "points": 12.0,
+      "race_name": "Trofeo Alcide Degasperi",
+      "race_url": "race/trofeo-alcide-degasperi/2022"
+    },
+    {
+      "rank": 297,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 12.0,
+      "race_name": "Grand Prix Yahyal\u0131",
+      "race_url": "race/grand-prix-yahyali/2022"
+    },
+    {
+      "rank": 298,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "1.2",
+      "points": 12.0,
+      "race_name": "Gylne Gutuer",
+      "race_url": "race/gylne-gutuer/2022"
+    },
+    {
+      "rank": 299,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.2",
+      "points": 12.0,
+      "race_name": "Districtenpijl - Ekeren-Deurne",
+      "race_url": "race/2-districtenpijl-ekeren-deurne-me/2022"
+    },
+    {
+      "rank": 300,
+      "prev_rank": null,
+      "nationality": "PT",
+      "class": "CC",
+      "points": 11.0,
+      "race_name": "European Continental Championships U23 - ITT",
+      "race_url": "race/european-continental-championships-u23-itt/2022"
+    },
+    {
+      "rank": 301,
+      "prev_rank": null,
+      "nationality": "IE",
+      "class": "NC",
+      "points": 11.0,
+      "race_name": "National Championships Ireland - Road Race",
+      "race_url": "race/nc-ireland/2022"
+    },
+    {
+      "rank": 302,
+      "prev_rank": null,
+      "nationality": "HU",
+      "class": "2.2",
+      "points": 11.0,
+      "race_name": "Gemenc Grand Prix",
+      "race_url": "race/gp-cycliste-de-gemenc/2022"
+    },
+    {
+      "rank": 303,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.2",
+      "points": 11.0,
+      "race_name": "Grand Prix International de la ville de Nogent-sur-Oise",
+      "race_url": "race/gp-de-la-ville-de-nogent-sur-oise/2022"
+    },
+    {
+      "rank": 304,
+      "prev_rank": null,
+      "nationality": "CO",
+      "class": "CC",
+      "points": 11.0,
+      "race_name": "Juegos Bolivarianos ME - Road Race",
+      "race_url": "race/juegos-bolivarianos-me-road-race/2022"
+    },
+    {
+      "rank": 305,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.Ncup",
+      "points": 10.0,
+      "race_name": "Gent-Wevelgem / Kattekoers-Ieper",
+      "race_url": "race/kattekoers/2022"
+    },
+    {
+      "rank": 306,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.Ncup",
+      "points": 10.0,
+      "race_name": "L'Etoile d'Or",
+      "race_url": "race/l-etoile-d-or/2021"
+    },
+    {
+      "rank": 307,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "2.2U",
+      "points": 10.0,
+      "race_name": "Flanders Tomorrow Tour",
+      "race_url": "race/flanders-tomorrow-tour/2022"
+    },
+    {
+      "rank": 308,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 10.0,
+      "race_name": "Grand Prix Tomarza",
+      "race_url": "race/grand-prix-tomarza/2022"
+    },
+    {
+      "rank": 309,
+      "prev_rank": null,
+      "nationality": "TJ",
+      "class": "CC",
+      "points": 10.0,
+      "race_name": "Asian Cycling Championships - Road Race",
+      "race_url": "race/asian-championships/2022"
+    },
+    {
+      "rank": 310,
+      "prev_rank": null,
+      "nationality": "AT",
+      "class": "NC",
+      "points": 10.0,
+      "race_name": "National Championships Austria - ITT",
+      "race_url": "race/nc-austria-itt/2022"
+    },
+    {
+      "rank": 311,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 10.0,
+      "race_name": "Tour du Pays de Montb\u00e9liard",
+      "race_url": "race/tour-du-pays-de-montbeliard/2022"
+    },
+    {
+      "rank": 312,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 10.0,
+      "race_name": "Tour d'Eure-et-Loir",
+      "race_url": "race/tour-d-eure-et-loir/2022"
+    },
+    {
+      "rank": 313,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 10.0,
+      "race_name": "Tour de la Mirabelle",
+      "race_url": "race/tour-de-la-mirabelle/2022"
+    },
+    {
+      "rank": 314,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.2",
+      "points": 10.0,
+      "race_name": "Grand Prix Criquielion",
+      "race_url": "race/grand-prix-criquielion/2022"
+    },
+    {
+      "rank": 315,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "1.2",
+      "points": 9.0,
+      "race_name": "Memorial Henryka \u0141asaka",
+      "race_url": "race/memorial-henryka-lasaka/2022"
+    },
+    {
+      "rank": 316,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "NC",
+      "points": 9.0,
+      "race_name": "National Championships France U23 - Road Race",
+      "race_url": "race/nc-france-u23/2022"
+    },
+    {
+      "rank": 317,
+      "prev_rank": null,
+      "nationality": "EG",
+      "class": "CC",
+      "points": 9.0,
+      "race_name": "African Continental Championships ME - TTT",
+      "race_url": "race/african-cycling-championships-ttt/2022"
+    },
+    {
+      "rank": 318,
+      "prev_rank": null,
+      "nationality": "NZ",
+      "class": "2.2",
+      "points": 9.0,
+      "race_name": "New Zealand Cycle Classic",
+      "race_url": "race/tour-of-wellington/2022"
+    },
+    {
+      "rank": 319,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 9.0,
+      "race_name": "Grand Prix Kayseri",
+      "race_url": "race/grand-prix-kayseri-me/2022"
+    },
+    {
+      "rank": 320,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2U",
+      "points": 9.0,
+      "race_name": "Ronde de l'Isard",
+      "race_url": "race/ronde-de-l-isard/2021"
+    },
+    {
+      "rank": 321,
+      "prev_rank": null,
+      "nationality": "HU",
+      "class": "NC",
+      "points": 9.0,
+      "race_name": "National Championships Hungary - Road Race",
+      "race_url": "race/nc-hungary/2022"
+    },
+    {
+      "rank": 322,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.2",
+      "points": 9.0,
+      "race_name": "PWZ Zuidenveld Tour",
+      "race_url": "race/zodc-zuidenveld-tour/2022"
+    },
+    {
+      "rank": 323,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 9.0,
+      "race_name": "Grand Prix Megasaray",
+      "race_url": "race/grand-prix-megasaray/2022"
+    },
+    {
+      "rank": 324,
+      "prev_rank": null,
+      "nationality": "HU",
+      "class": "NC",
+      "points": 9.0,
+      "race_name": "National Championships Hungary - ITT",
+      "race_url": "race/nc-hungary-itt/2022"
+    },
+    {
+      "rank": 325,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "1.2",
+      "points": 9.0,
+      "race_name": "Grand Prix Erciyes",
+      "race_url": "race/grand-prix-erciyes-mimar-sinan-me/2022"
+    },
+    {
+      "rank": 326,
+      "prev_rank": null,
+      "nationality": "AR",
+      "class": "2.2",
+      "points": 9.0,
+      "race_name": "Vuelta a Formosa Internacional",
+      "race_url": "race/vuelta-a-formosa-internacional/2022"
+    },
+    {
+      "rank": 327,
+      "prev_rank": null,
+      "nationality": "AU",
+      "class": "NC",
+      "points": 8.0,
+      "race_name": "National championships Australia  - ITT",
+      "race_url": "race/australian-open-road-championships-itt/2022"
+    },
+    {
+      "rank": 328,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 8.0,
+      "race_name": "G.P. Palio del Recioto - Trofeo C",
+      "race_url": "race/gp-palio-del-recioto/2022"
+    },
+    {
+      "rank": 329,
+      "prev_rank": null,
+      "nationality": "JP",
+      "class": "2.2",
+      "points": 8.0,
+      "race_name": "Tour of Japan",
+      "race_url": "race/tour-of-japan/2022"
+    },
+    {
+      "rank": 330,
+      "prev_rank": null,
+      "nationality": "CO",
+      "class": "1.2",
+      "points": 8.0,
+      "race_name": "Pan American Youth Games Road Race U23",
+      "race_url": "race/pan-american-youth-games-rr-u23/2021"
+    },
+    {
+      "rank": 331,
+      "prev_rank": null,
+      "nationality": "SV",
+      "class": "1.2",
+      "points": 8.0,
+      "race_name": "Elite Road Central American Championships - ME - IRR",
+      "race_url": "race/elite-road-central-american-championships-road-rac/2021"
+    },
+    {
+      "rank": 332,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2",
+      "points": 8.0,
+      "race_name": "Trofeo Citt\u00e0 di Meldola \u2013 G.P. AWC Event",
+      "race_url": "race/trofeo-citta-di-meldola-g.p.-awc-event/2022"
+    },
+    {
+      "rank": 333,
+      "prev_rank": null,
+      "nationality": "VE",
+      "class": "2.2",
+      "points": 8.0,
+      "race_name": "Vuelta Ciclista a Venezuela",
+      "race_url": "race/vuelta-ciclista-a-venezuela/2022"
+    },
+    {
+      "rank": 334,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "1.2",
+      "points": 8.0,
+      "race_name": "Midden-Brabant Poort Omloop",
+      "race_url": "race/midden-brabant-poort-omloop/2022"
+    },
+    {
+      "rank": 335,
+      "prev_rank": null,
+      "nationality": "VE",
+      "class": "2.2",
+      "points": 8.0,
+      "race_name": "Vuelta al Tachira en Bicicleta",
+      "race_url": "race/vuelta-al-tachira/2022"
+    },
+    {
+      "rank": 336,
+      "prev_rank": null,
+      "nationality": "EE",
+      "class": "NC",
+      "points": 8.0,
+      "race_name": "National Championships Estonia - ITT",
+      "race_url": "race/nc-estonia-itt/2022"
+    },
+    {
+      "rank": 337,
+      "prev_rank": null,
+      "nationality": "SI",
+      "class": "NC",
+      "points": 8.0,
+      "race_name": "National Championships Slovenia - Road Race",
+      "race_url": "race/nc-slovenia/2022"
+    },
+    {
+      "rank": 338,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.2",
+      "points": 8.0,
+      "race_name": "Grand Prix de la Somme Conseil D\u00e9partemental 80",
+      "race_url": "race/gp-de-la-somme/2021"
+    },
+    {
+      "rank": 339,
+      "prev_rank": null,
+      "nationality": "PL",
+      "class": "1.2",
+      "points": 7.0,
+      "race_name": "Memoria\u0142 Jana Magiery ",
+      "race_url": "race/memorial_jana_magiery_2022/2022"
+    },
+    {
+      "rank": 340,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "NC",
+      "points": 7.0,
+      "race_name": "National Championships Norway - ITT",
+      "race_url": "race/nc-norway-itt/2022"
+    },
+    {
+      "rank": 341,
+      "prev_rank": null,
+      "nationality": "DZ",
+      "class": "JR",
+      "points": 7.0,
+      "race_name": "Mediterranean Games - ITT",
+      "race_url": "race/mediterranean-games-itt/2022"
+    },
+    {
+      "rank": 342,
+      "prev_rank": null,
+      "nationality": "NZ",
+      "class": "NC",
+      "points": 7.0,
+      "race_name": "National championships New Zealand  - ITT",
+      "race_url": "race/nc-new-zealand-itt/2022"
+    },
+    {
+      "rank": 343,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 7.0,
+      "race_name": "Strade Bianche di Romagna",
+      "race_url": "race/strade-bianche-di-romagna/2022"
+    },
+    {
+      "rank": 344,
+      "prev_rank": null,
+      "nationality": "CZ",
+      "class": "NC",
+      "points": 7.0,
+      "race_name": "National Championships Czech Republic - ITT",
+      "race_url": "race/nc-czech-republic-itt/2022"
+    },
+    {
+      "rank": 345,
+      "prev_rank": null,
+      "nationality": "LU",
+      "class": "NC",
+      "points": 7.0,
+      "race_name": "National Championships Luxembourg - Road Race",
+      "race_url": "race/nc-luxembourg/2022"
+    },
+    {
+      "rank": 346,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "1.2",
+      "points": 7.0,
+      "race_name": "Sundvolden GP",
+      "race_url": "race/hadeland-gp/2022"
+    },
+    {
+      "rank": 347,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "2.2",
+      "points": 7.0,
+      "race_name": "Tour Cycliste International de la Guadeloupe",
+      "race_url": "race/tour-cycliste-international-de-la-guadeloupe/2022"
+    },
+    {
+      "rank": 348,
+      "prev_rank": null,
+      "nationality": "RO",
+      "class": "2.2",
+      "points": 7.0,
+      "race_name": "Tour of Szeklerland",
+      "race_url": "race/tour-of-szeklerland/2022"
+    },
+    {
+      "rank": 349,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 7.0,
+      "race_name": "Ruota d'Oro - GP Festa del Perdono",
+      "race_url": "race/ruota-d-oro-gp-festa-del-perdono/2021"
+    },
+    {
+      "rank": 350,
+      "prev_rank": null,
+      "nationality": "TR",
+      "class": "JR",
+      "points": 7.0,
+      "race_name": "Islamic Solidarity Games ME - ITT",
+      "race_url": "race/islamic-solidarity-games-me-itt/2022"
+    },
+    {
+      "rank": 351,
+      "prev_rank": null,
+      "nationality": "AR",
+      "class": "CC",
+      "points": 7.0,
+      "race_name": "Campeonato Panamericano de Ruta ME - ITT",
+      "race_url": "race/panamerican-champ-itt/2022"
+    },
+    {
+      "rank": 352,
+      "prev_rank": null,
+      "nationality": "US",
+      "class": "2.2",
+      "points": 7.0,
+      "race_name": "Joe Martin Stage Race ME",
+      "race_url": "race/joe-martin-stage-race-me/2022"
+    },
+    {
+      "rank": 353,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.2U",
+      "points": 7.0,
+      "race_name": "Youngster Coast Challenge",
+      "race_url": "race/youngster-coast-challenge/2022"
+    },
+    {
+      "rank": 354,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "NC",
+      "points": 6.0,
+      "race_name": "National Championships France U23 - ITT",
+      "race_url": "race/nc-france-itt-u23/2022"
+    },
+    {
+      "rank": 355,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 6.0,
+      "race_name": "Trofeo Piva",
+      "race_url": "race/trofeo-piva/2022"
+    },
+    {
+      "rank": 356,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2",
+      "points": 6.0,
+      "race_name": "Trofeo Citt\u00e0 di Brescia",
+      "race_url": "race/trofeo-citta-di-brescia/2022"
+    },
+    {
+      "rank": 357,
+      "prev_rank": null,
+      "nationality": "AL",
+      "class": "2.2",
+      "points": 6.0,
+      "race_name": "Tour of Albania",
+      "race_url": "race/tour-of-albania/2022"
+    },
+    {
+      "rank": 358,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "1.2",
+      "points": 6.0,
+      "race_name": "Ringerike GP",
+      "race_url": "race/ringerike-gp/2022"
+    },
+    {
+      "rank": 359,
+      "prev_rank": null,
+      "nationality": "SK",
+      "class": "NC",
+      "points": 6.0,
+      "race_name": "National Championships Slovakia - Road Race",
+      "race_url": "race/nc-slovakia/2022"
+    },
+    {
+      "rank": 360,
+      "prev_rank": null,
+      "nationality": "JP",
+      "class": "2.2",
+      "points": 6.0,
+      "race_name": "Tour de Kumano",
+      "race_url": "race/tour-de-kumano/2022"
+    },
+    {
+      "rank": 361,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 6.0,
+      "race_name": "Coppa Zappi - Trofeo Hotel Antico Borgo",
+      "race_url": "race/coppa-zappi-trofeo-hotel-antico-borgo/2022"
+    },
+    {
+      "rank": 362,
+      "prev_rank": null,
+      "nationality": "CO",
+      "class": "CC",
+      "points": 6.0,
+      "race_name": "Juegos Bolivarianos ME - ITT",
+      "race_url": "race/juegos-bolivarianos-me-itt/2022"
+    },
+    {
+      "rank": 363,
+      "prev_rank": null,
+      "nationality": "CA",
+      "class": "NC",
+      "points": 6.0,
+      "race_name": "National Championships Canada - Road Race",
+      "race_url": "race/nc-canada/2022"
+    },
+    {
+      "rank": 364,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 6.0,
+      "race_name": "Coppa della Pace - Trofeo F.lli Anelli",
+      "race_url": "race/coppa-della-pace-trofeo-flli-anelli/2022"
+    },
+    {
+      "rank": 365,
+      "prev_rank": null,
+      "nationality": "US",
+      "class": "NC",
+      "points": 6.0,
+      "race_name": "National Championships United States - ITT",
+      "race_url": "race/nc-usa-itt/2022"
+    },
+    {
+      "rank": 366,
+      "prev_rank": null,
+      "nationality": "TJ",
+      "class": "CC",
+      "points": 6.0,
+      "race_name": "Asian Cycling Championships - ITT",
+      "race_url": "race/asian-cycling-championships-itt/2022"
+    },
+    {
+      "rank": 367,
+      "prev_rank": null,
+      "nationality": "CA",
+      "class": "NC",
+      "points": 6.0,
+      "race_name": "National Championships Canada - ITT",
+      "race_url": "race/nc-canada-itt/2022"
+    },
+    {
+      "rank": 368,
+      "prev_rank": null,
+      "nationality": "LV",
+      "class": "NC",
+      "points": 6.0,
+      "race_name": "National Championships Latvia - Road Race",
+      "race_url": "race/nc-latvia/2022"
+    },
+    {
+      "rank": 369,
+      "prev_rank": null,
+      "nationality": "TJ",
+      "class": "CC",
+      "points": 6.0,
+      "race_name": "Asian Cycling Championships - TTT",
+      "race_url": "race/asian-continental-championships-ttt/2022"
+    },
+    {
+      "rank": 370,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2",
+      "points": 6.0,
+      "race_name": "Giro del Medio Brenta",
+      "race_url": "race/giro-del-medio-brenta/2022"
+    },
+    {
+      "rank": 371,
+      "prev_rank": null,
+      "nationality": "EG",
+      "class": "CC",
+      "points": 5.0,
+      "race_name": "African Continental Championships ME - ITT",
+      "race_url": "race/african-continental-championships-itt/2022"
+    },
+    {
+      "rank": 372,
+      "prev_rank": null,
+      "nationality": "JP",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Japan - Road Race",
+      "race_url": "race/nc-japan/2022"
+    },
+    {
+      "rank": 373,
+      "prev_rank": null,
+      "nationality": "LU",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Luxembourg - ITT",
+      "race_url": "race/nc-luxembourg-itt/2022"
+    },
+    {
+      "rank": 374,
+      "prev_rank": null,
+      "nationality": "SV",
+      "class": "1.2",
+      "points": 5.0,
+      "race_name": "Elite Road Central American Championships - ME - ITT",
+      "race_url": "race/elite-road-central-american-championships-itt/2021"
+    },
+    {
+      "rank": 375,
+      "prev_rank": null,
+      "nationality": "NL",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Netherlands U23 - Road Race",
+      "race_url": "race/nc-netherlands-u23/2022"
+    },
+    {
+      "rank": 376,
+      "prev_rank": null,
+      "nationality": "VE",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Venezuela - Road Race",
+      "race_url": "race/nc-venezuela/2022"
+    },
+    {
+      "rank": 377,
+      "prev_rank": null,
+      "nationality": "GB",
+      "class": "1.2",
+      "points": 5.0,
+      "race_name": "Rutland-Melton CiCLE Classic",
+      "race_url": "race/east-midlands-international-cicle-classic/2022"
+    },
+    {
+      "rank": 378,
+      "prev_rank": null,
+      "nationality": "NO",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Norway U23 - Road Race",
+      "race_url": "race/nc-norway-u23/2022"
+    },
+    {
+      "rank": 379,
+      "prev_rank": null,
+      "nationality": "LV",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Latvia - ITT",
+      "race_url": "race/nc-latvia-itt/2022"
+    },
+    {
+      "rank": 380,
+      "prev_rank": null,
+      "nationality": "KZ",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Kazakhstan - Road Race",
+      "race_url": "race/nc-kazakhstan/2022"
+    },
+    {
+      "rank": 381,
+      "prev_rank": null,
+      "nationality": "JP",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Japan - ITT",
+      "race_url": "race/nc-japan-itt/2022"
+    },
+    {
+      "rank": 382,
+      "prev_rank": null,
+      "nationality": "IE",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Ireland - ITT",
+      "race_url": "race/nc-ireland-itt/2022"
+    },
+    {
+      "rank": 383,
+      "prev_rank": null,
+      "nationality": "RO",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Romania - ITT",
+      "race_url": "race/nc-romania-itt/2022"
+    },
+    {
+      "rank": 384,
+      "prev_rank": null,
+      "nationality": "EC",
+      "class": "2.2",
+      "points": 5.0,
+      "race_name": "Vuelta al Ecuador",
+      "race_url": "race/vuelta-a-ecuador/2021"
+    },
+    {
+      "rank": 385,
+      "prev_rank": null,
+      "nationality": "SE",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Sweden - Road Race",
+      "race_url": "race/nc-sweden/2022"
+    },
+    {
+      "rank": 386,
+      "prev_rank": null,
+      "nationality": "RO",
+      "class": "NC",
+      "points": 5.0,
+      "race_name": "National Championships Romania - Road Race",
+      "race_url": "race/nc-romania/2022"
+    },
+    {
+      "rank": 387,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 5.0,
+      "race_name": "Gran Premio Industrie del Marmo",
+      "race_url": "race/gp-industrie-del-marmo/2022"
+    },
+    {
+      "rank": 388,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "2.2U",
+      "points": 5.0,
+      "race_name": "Le Triptyque des Monts et Ch\u00e2teaux",
+      "race_url": "race/le-triptyque-des-monts-et-chateaux/2022"
+    },
+    {
+      "rank": 389,
+      "prev_rank": null,
+      "nationality": "CM",
+      "class": "2.2",
+      "points": 4.0,
+      "race_name": "Grand Prix Chantal Biya",
+      "race_url": "race/grand-prix-chantal-biya/2021"
+    },
+    {
+      "rank": 390,
+      "prev_rank": null,
+      "nationality": "AR",
+      "class": "2.2",
+      "points": 4.0,
+      "race_name": "Vuelta del Porvenir San Luis",
+      "race_url": "race/vuelta-del-porvenir/2022"
+    },
+    {
+      "rank": 391,
+      "prev_rank": null,
+      "nationality": "BE",
+      "class": "1.2",
+      "points": 4.0,
+      "race_name": "Memorial Philippe Van Coningsloo",
+      "race_url": "race/memorial-philippe-van-coningsloo/2022"
+    },
+    {
+      "rank": 392,
+      "prev_rank": null,
+      "nationality": "DE",
+      "class": "NC",
+      "points": 4.0,
+      "race_name": "National Championships Germany U23 - Road Race",
+      "race_url": "race/nc-germany-u23/2022"
+    },
+    {
+      "rank": 393,
+      "prev_rank": null,
+      "nationality": "GB",
+      "class": "NC",
+      "points": 4.0,
+      "race_name": "National Championships Great Britain U23 - ITT",
+      "race_url": "race/nc-great-britain-u23-itt/2022"
+    },
+    {
+      "rank": 394,
+      "prev_rank": null,
+      "nationality": "IL",
+      "class": "NC",
+      "points": 4.0,
+      "race_name": "National Championships Israel - Road Race",
+      "race_url": "race/nc-israel/2022"
+    },
+    {
+      "rank": 395,
+      "prev_rank": null,
+      "nationality": "BF",
+      "class": "2.2",
+      "points": 4.0,
+      "race_name": "Tour du Faso",
+      "race_url": "race/tour-du-faso/2021"
+    },
+    {
+      "rank": 396,
+      "prev_rank": null,
+      "nationality": "MN",
+      "class": "NC",
+      "points": 4.0,
+      "race_name": "National Championships Mongolia  - Road Race",
+      "race_url": "race/nc-mongolia/2022"
+    },
+    {
+      "rank": 397,
+      "prev_rank": null,
+      "nationality": "CO",
+      "class": "2.2",
+      "points": 4.0,
+      "race_name": "Vuelta a Colombia",
+      "race_url": "race/vuelta-pilsen-a-colombia/2022"
+    },
+    {
+      "rank": 398,
+      "prev_rank": null,
+      "nationality": "IT",
+      "class": "1.2U",
+      "points": 4.0,
+      "race_name": "Trofeo Citt\u00e0 di San Vendemiano - Gran Premio Industria e Commercio",
+      "race_url": "race/gp-industria-e-commercio2/2022"
+    },
+    {
+      "rank": 399,
+      "prev_rank": null,
+      "nationality": "MN",
+      "class": "NC",
+      "points": 4.0,
+      "race_name": "National Championships Mongolia - ITT",
+      "race_url": "race/nc-mongolia-itt/2022"
+    },
+    {
+      "rank": 400,
+      "prev_rank": null,
+      "nationality": "DO",
+      "class": "1.2",
+      "points": 4.0,
+      "race_name": "Road Elite Caribbean Championships - Road Race",
+      "race_url": "race/elite-road-caribbean-championships-road-race/2021"
+    }
+  ],
+  "team_ranking": null,
+  "teamlevels_select": null,
+  "teams_select": null,
+  "teams_wins_ranking": null
+}
