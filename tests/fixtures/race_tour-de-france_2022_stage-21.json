@@ -1,5 +1,11 @@
 {
   "arrival": "Paris (Champs-\u00c9lys\u00e9es)",
+  "climbs": [
+    {
+      "climb_name": "C\u00f4te du Pav\u00e9 des Gardes",
+      "climb_url": "location/cote-du-pave-des-gardes"
+    }
+  ],
   "date": "2022-07-24",
   "departure": "Paris La D\u00e9fense",
   "distance": 115.6,

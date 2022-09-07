@@ -478,7 +478,8 @@
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
 <li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
-<li><a href="race/binckbank-tour">Binckbank Tour</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
 </ul></li>
 <li class="group"><h3>Rankings &amp; Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="statistics/start/points-per-age">Points per age</a></li>
@@ -496,7 +497,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1331 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2640kb) peak (2854kb)</span></li></ul></li>
+<li><span>0.0831 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2641kb) peak (2854kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 

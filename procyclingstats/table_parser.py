@@ -186,6 +186,24 @@ class TableParser:
         return [text for text in nations_texts
                 if not text.isnumeric() and text != "-"]
 
+    def climb_url(self) -> List[str]:
+        """
+        Parses all location elements hrefs from HTML. NOT only climbs, but for
+        ease of use method is called climb name.
+
+        :return: List of all climb URLs from table.
+        """
+        return self._filter_a_elements("location", True)
+
+    def climb_name(self) -> List[str]:
+        """
+        Parses all location elements text values from HTML. NOT only climbs,
+        but for ease of use method is called climb name.
+
+        :return: List of all climb names from table.
+        """
+        return self._filter_a_elements("location", False)
+
     def age(self) -> List[int]:
         ages_elements = self.html_table.css(".age")
         return [int(age_e.text()) for age_e in ages_elements]

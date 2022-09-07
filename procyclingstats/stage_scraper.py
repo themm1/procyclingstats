@@ -200,6 +200,33 @@ class Stage(Scraper):
         """
         return self._stage_info_by_label("UCI scale")
 
+    def climbs(self, *args: str) -> List[Dict[str, str]]:
+        """
+        Parses listed climbs from the stage.
+
+        :param args: Fields that should be contained in returned table. When
+            no args are passed, all fields are parsed.
+
+            - climb_name:
+            - climb_url: URL of the location of the climb, NOT the climb itself
+
+        :raises ValueError: When one of args is of invalid value.
+        :raises ExpectedParsingError: When climbs are listed not in the HTML.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
+            "climb_name",
+            "climb_url"
+        )
+        fields = parse_table_fields_args(args, available_fields)
+        climbs_html = self.html.css_first("div > ul.list.circle")
+        if climbs_html is None:
+            raise ExpectedParsingError("Climbs aren't listed in the HTML.")
+
+        table_parser = TableParser(climbs_html)
+        table_parser.parse(fields)
+        return table_parser.table
+
     def results(self, *args: str) -> List[Dict[str, Any]]:
         """
         Parses main results table from HTML. If results table is TTT one day
