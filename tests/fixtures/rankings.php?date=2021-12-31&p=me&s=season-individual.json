@@ -1,8 +1,8 @@
 {
   "dates_select": [
     {
-      "text": "2022-08-24",
-      "value": "2022-08-24"
+      "text": "2022-09-07",
+      "value": "2022-09-07"
     },
     {
       "text": "2021-12-31",
@@ -2006,6 +2006,906 @@
     {
       "text": "-",
       "value": null
+    },
+    {
+      "text": "AG2R Citro\u00ebn Team",
+      "value": "1060"
+    },
+    {
+      "text": "Astana Qazaqstan Team",
+      "value": "1375"
+    },
+    {
+      "text": "Bahrain - Victorious",
+      "value": "3814"
+    },
+    {
+      "text": "BORA - hansgrohe",
+      "value": "1411"
+    },
+    {
+      "text": "Cofidis",
+      "value": "1136"
+    },
+    {
+      "text": "EF Education-EasyPost",
+      "value": "4000"
+    },
+    {
+      "text": "Groupama - FDJ",
+      "value": "1187"
+    },
+    {
+      "text": "INEOS Grenadiers",
+      "value": "1423"
+    },
+    {
+      "text": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "value": "1490"
+    },
+    {
+      "text": "Israel - Premier Tech",
+      "value": "2738"
+    },
+    {
+      "text": "Jumbo-Visma",
+      "value": "1330"
+    },
+    {
+      "text": "Lotto Soudal",
+      "value": "2088"
+    },
+    {
+      "text": "Movistar Team",
+      "value": "2040"
+    },
+    {
+      "text": "Quick-Step Alpha Vinyl Team",
+      "value": "1328"
+    },
+    {
+      "text": "Team BikeExchange - Jayco",
+      "value": "1207"
+    },
+    {
+      "text": "Team DSM",
+      "value": "1360"
+    },
+    {
+      "text": "Trek - Segafredo",
+      "value": "1258"
+    },
+    {
+      "text": "UAE Team Emirates",
+      "value": "1253"
+    },
+    {
+      "text": "Alpecin-Deceuninck",
+      "value": "1100"
+    },
+    {
+      "text": "Alpecin-Fenix",
+      "value": "1100"
+    },
+    {
+      "text": "B&B Hotels - KTM",
+      "value": "4627"
+    },
+    {
+      "text": "Bardiani-CSF-Faizan\u00e8",
+      "value": "3345"
+    },
+    {
+      "text": "Bingoal Pauwels Sauces WB",
+      "value": "1482"
+    },
+    {
+      "text": "Burgos-BH",
+      "value": "1109"
+    },
+    {
+      "text": "Caja Rural - Seguros RGA",
+      "value": "1111"
+    },
+    {
+      "text": "Drone Hopper -  Androni Giocattoli",
+      "value": "2925"
+    },
+    {
+      "text": "EOLO-Kometa",
+      "value": "4723"
+    },
+    {
+      "text": "Equipo Kern Pharma",
+      "value": "7807"
+    },
+    {
+      "text": "Euskaltel - Euskadi",
+      "value": "4831"
+    },
+    {
+      "text": "Gazprom - RusVelo",
+      "value": "1508"
+    },
+    {
+      "text": "Human Powered Health",
+      "value": "1235"
+    },
+    {
+      "text": "Sport Vlaanderen - Baloise",
+      "value": "1453"
+    },
+    {
+      "text": "Team Ark\u00e9a Samsic",
+      "value": "1107"
+    },
+    {
+      "text": "Team Novo Nordisk",
+      "value": "1430"
+    },
+    {
+      "text": "TotalEnergies",
+      "value": "1175"
+    },
+    {
+      "text": "Uno-X Pro Cycling Team",
+      "value": "1420"
+    },
+    {
+      "text": "7 Eleven Cliqq - Air21 by Road Bike Philippines",
+      "value": "1797"
+    },
+    {
+      "text": "ABLOC CT",
+      "value": "2364"
+    },
+    {
+      "text": "ABTF Bet\u00e3o - Feirense",
+      "value": "4860"
+    },
+    {
+      "text": "AC Sparta Praha",
+      "value": "1053"
+    },
+    {
+      "text": "Adria Mobil",
+      "value": "1058"
+    },
+    {
+      "text": "Agrupaci\u00f3n Virgen de Fatima - San Juan Biker Motos",
+      "value": "3931"
+    },
+    {
+      "text": "Aisan Racing Team",
+      "value": "1062"
+    },
+    {
+      "text": "Allinq Continental Cycling Team",
+      "value": "8989"
+    },
+    {
+      "text": "Almaty Cycling Team",
+      "value": "4928"
+    },
+    {
+      "text": "Alpecin-Deceuninck Development Team",
+      "value": "8393"
+    },
+    {
+      "text": "Alpecin-Fenix Development Team",
+      "value": "8393"
+    },
+    {
+      "text": "ARA Pro Racing Sunshine Coast",
+      "value": "4892"
+    },
+    {
+      "text": "Arvich Shargh Omidnia",
+      "value": "4950"
+    },
+    {
+      "text": "Astana Qazaqstan Development Team",
+      "value": "9295"
+    },
+    {
+      "text": "ATT Investments",
+      "value": "6458"
+    },
+    {
+      "text": "Atum general / Tavira / Maria Nova Hotel",
+      "value": "4825"
+    },
+    {
+      "text": "Aviludo - Louletano - Loul\u00e9 Concelho",
+      "value": "1121"
+    },
+    {
+      "text": "Azad University Team",
+      "value": "1082"
+    },
+    {
+      "text": "Bahrain Cycling Academy",
+      "value": "6017"
+    },
+    {
+      "text": "BAI - Sicasal - Petro de Luanda",
+      "value": "4995"
+    },
+    {
+      "text": "Baloise - Trek Lions\t",
+      "value": "1440"
+    },
+    {
+      "text": "BEAT Cycling",
+      "value": "4861"
+    },
+    {
+      "text": "Beltrami TSA - Tre Colli",
+      "value": "3588"
+    },
+    {
+      "text": "Benediction Ignite",
+      "value": "5640"
+    },
+    {
+      "text": "BHS - PL Beton Bornholm",
+      "value": "2708"
+    },
+    {
+      "text": "Biesse - Carrera ",
+      "value": "6362"
+    },
+    {
+      "text": "Bike Aid",
+      "value": "2405"
+    },
+    {
+      "text": "Bingoal Pauwels Sauces WB Development Team",
+      "value": "1533"
+    },
+    {
+      "text": "Bolton Equities Black Spoke Pro Cycling",
+      "value": "6723"
+    },
+    {
+      "text": "Carnovali - Rime",
+      "value": "5641"
+    },
+    {
+      "text": "CCN Factory Racing",
+      "value": "5653"
+    },
+    {
+      "text": "Chimbas Te Quiero",
+      "value": "9325"
+    },
+    {
+      "text": "China Glory Continental Cycling Team",
+      "value": "9469"
+    },
+    {
+      "text": "Colombia Tierra de Atletas - GW Bicicletas - Shimano",
+      "value": "6363"
+    },
+    {
+      "text": "Cross Team Legendre",
+      "value": "8851"
+    },
+    {
+      "text": "Cycling Team Friuli ASD",
+      "value": "6076"
+    },
+    {
+      "text": "Cycling Team Kranj",
+      "value": "7143"
+    },
+    {
+      "text": "D'Amico - UM Tools",
+      "value": "2420"
+    },
+    {
+      "text": "Development Team DSM",
+      "value": "3831"
+    },
+    {
+      "text": "Dukla Banska Bystrica",
+      "value": "1165"
+    },
+    {
+      "text": "EF Education-NIPPO Development Team",
+      "value": "8001"
+    },
+    {
+      "text": "Efapel Cycling",
+      "value": "9198"
+    },
+    {
+      "text": "Electro 3 - Gremios por el Deporte",
+      "value": "9326"
+    },
+    {
+      "text": "Electro Hiper Europa - Caldas",
+      "value": "7902"
+    },
+    {
+      "text": "Elkov - Kasper",
+      "value": "1325"
+    },
+    {
+      "text": "Equipe continentale Groupama-FDJ",
+      "value": "5638"
+    },
+    {
+      "text": "Equipo Continental Municipalidad de Pocito",
+      "value": "3903"
+    },
+    {
+      "text": "Equipo Continental San Luis",
+      "value": "6490"
+    },
+    {
+      "text": "Eurocar Grawe Ukraine",
+      "value": "7900"
+    },
+    {
+      "text": "EuroCyclingTrips Pro Cycling Team",
+      "value": "6187"
+    },
+    {
+      "text": "EvoPro Racing",
+      "value": "5643"
+    },
+    {
+      "text": "Ferei - CCN Metalac",
+      "value": "2462"
+    },
+    {
+      "text": "Ferei Mongolia Development Team",
+      "value": "9467"
+    },
+    {
+      "text": "Gallina Ecotek Lucchini Colosio",
+      "value": "4120"
+    },
+    {
+      "text": "Gapyeong Cycling Team",
+      "value": "3904"
+    },
+    {
+      "text": "General Store - Essegibi - F.Lli Curia",
+      "value": "6075"
+    },
+    {
+      "text": "Geofco-Doltcini Materiel Velo.com",
+      "value": "9244"
+    },
+    {
+      "text": "Geumsan Insam Cello",
+      "value": "1200"
+    },
+    {
+      "text": "Giant Cycling Team",
+      "value": "2427"
+    },
+    {
+      "text": "Giotti Victoria - Savini Due",
+      "value": "4912"
+    },
+    {
+      "text": "Glassdrive Q8 Anicolor",
+      "value": "1089"
+    },
+    {
+      "text": "Global 6 Cycling",
+      "value": "8234"
+    },
+    {
+      "text": "Go For Gold Philippines",
+      "value": "4359"
+    },
+    {
+      "text": "Go Sport - Roubaix Lille M\u00e9tropole",
+      "value": "1346"
+    },
+    {
+      "text": "Grant Thornton - Bike Zone",
+      "value": "7839"
+    },
+    {
+      "text": "Hagens Berman Axeon",
+      "value": "1458"
+    },
+    {
+      "text": "Henan Bodywrap Cycling Team",
+      "value": "9489"
+    },
+    {
+      "text": "Hengxiang Cycling Team",
+      "value": "1213"
+    },
+    {
+      "text": "HKSI Pro Cycling Team",
+      "value": "2454"
+    },
+    {
+      "text": "HRE Mazowsze Serce Polski",
+      "value": "3934"
+    },
+    {
+      "text": "Hrinkow Advarics Cycleang",
+      "value": "2745"
+    },
+    {
+      "text": "Israel Cycling Academy",
+      "value": "6694"
+    },
+    {
+      "text": "Java Kiwi Atl\u00e1ntico",
+      "value": "5091"
+    },
+    {
+      "text": "Jumbo-Visma Development Team",
+      "value": "6016"
+    },
+    {
+      "text": "Kaunas Cycling Team",
+      "value": "9466"
+    },
+    {
+      "text": "Kelly / Simoldes / UDO ",
+      "value": "3143"
+    },
+    {
+      "text": "Kinan Cycling Team",
+      "value": "2737"
+    },
+    {
+      "text": "Korail Cycling Team",
+      "value": "2440"
+    },
+    {
+      "text": "KSPO Professional",
+      "value": "1245"
+    },
+    {
+      "text": "Kuwait Pro Cycling Team",
+      "value": "8821"
+    },
+    {
+      "text": "L.A. Alum\u00ednios / Credibom / Marcos Car",
+      "value": "1250"
+    },
+    {
+      "text": "L39ION of Los Angeles",
+      "value": "8200"
+    },
+    {
+      "text": "Leopard Pro Cycling",
+      "value": "1513"
+    },
+    {
+      "text": "Li Ning Star Cycling Team",
+      "value": "6843"
+    },
+    {
+      "text": "Ljubljana Gusto Santic",
+      "value": "1333"
+    },
+    {
+      "text": "LX Cycling Team",
+      "value": "3061"
+    },
+    {
+      "text": "Maloja Pushbikers",
+      "value": "1493"
+    },
+    {
+      "text": "Manuela Fundaci\u00f3n Continental",
+      "value": "9294"
+    },
+    {
+      "text": "Massi Vivo - Conecta",
+      "value": "2778"
+    },
+    {
+      "text": "Matrix Powertag",
+      "value": "1273"
+    },
+    {
+      "text": "May Stars Cycling",
+      "value": "9670"
+    },
+    {
+      "text": "MEIYO CCN Pro Cycling Team",
+      "value": "4045"
+    },
+    {
+      "text": "MENtoRISE Elite Team CFX",
+      "value": "9490"
+    },
+    {
+      "text": "Meridiana Kamen Team",
+      "value": "1277"
+    },
+    {
+      "text": "Metec - SOLARWATT p/b Mantel",
+      "value": "1268"
+    },
+    {
+      "text": "Mg.K Vis-Color for Peace-VPM",
+      "value": "2735"
+    },
+    {
+      "text": "Minerva Cycling",
+      "value": "9173"
+    },
+    {
+      "text": "Minsk Cycling Club",
+      "value": "2580"
+    },
+    {
+      "text": "MitoQ - NZ Cycling Project",
+      "value": "6839"
+    },
+    {
+      "text": "Motala AIF Serneke Allebike",
+      "value": "9448"
+    },
+    {
+      "text": "Movistar - Best PC",
+      "value": "7157"
+    },
+    {
+      "text": "MULA",
+      "value": "4128"
+    },
+    {
+      "text": "Municipalidad de Rawson",
+      "value": "3906"
+    },
+    {
+      "text": "Nasu Blasen",
+      "value": "2438"
+    },
+    {
+      "text": "Nero Continental",
+      "value": "6698"
+    },
+    {
+      "text": "Nice M\u00e9tropole C\u00f4te d'Azur",
+      "value": "8850"
+    },
+    {
+      "text": "Ningxia Sports Lottery Cycling Team",
+      "value": "2458"
+    },
+    {
+      "text": "P&S Benotti",
+      "value": "4051"
+    },
+    {
+      "text": "Panam\u00e1 es Cultura y Valores",
+      "value": "8395"
+    },
+    {
+      "text": "Pardus Cycling Team",
+      "value": "8398"
+    },
+    {
+      "text": "Pauwels Sauzen - Bingoal",
+      "value": "1366"
+    },
+    {
+      "text": "Pingtan International Tourism Island Cycling Team",
+      "value": "9528"
+    },
+    {
+      "text": "Pio Rico Cycling Team",
+      "value": "8836"
+    },
+    {
+      "text": "Premier Tech U23 Cycling Project",
+      "value": "9364"
+    },
+    {
+      "text": "ProTouch",
+      "value": "5033"
+    },
+    {
+      "text": "Rad-Net Rose Team",
+      "value": "2171"
+    },
+    {
+      "text": "R\u00e1dio Popular - Paredes - Boavista",
+      "value": "1270"
+    },
+    {
+      "text": "Restaurant Suri - Carl Ras",
+      "value": "7967"
+    },
+    {
+      "text": "Ribble Weldtite Pro Cycling",
+      "value": "5609"
+    },
+    {
+      "text": "Riwal Cycling Team",
+      "value": "1382"
+    },
+    {
+      "text": "Roojai Cycling Team",
+      "value": "6754"
+    },
+    {
+      "text": "Saint Piran",
+      "value": "8202"
+    },
+    {
+      "text": "Sakarya BB Pro Team",
+      "value": "6917"
+    },
+    {
+      "text": "Santic - Wibatech",
+      "value": "1774"
+    },
+    {
+      "text": "Saris Rouvy Sauerland Team",
+      "value": "3032"
+    },
+    {
+      "text": "Seoul Cycling Team",
+      "value": "1355"
+    },
+    {
+      "text": "Shenzhen Xidesheng Cycling Team",
+      "value": "1642"
+    },
+    {
+      "text": "Shimano Racing Team",
+      "value": "1357"
+    },
+    {
+      "text": "Sidi Ali - Unlock Team",
+      "value": "6819"
+    },
+    {
+      "text": "Sindicato de Empleados P\u00fablicos of San Juan",
+      "value": "2732"
+    },
+    {
+      "text": "Spor Toto Cycling Team",
+      "value": "6722"
+    },
+    {
+      "text": "St George Continental Cycling Team",
+      "value": "3053"
+    },
+    {
+      "text": "St Michel - Auber93",
+      "value": "1096"
+    },
+    {
+      "text": "Start Cycling Team",
+      "value": "1721"
+    },
+    {
+      "text": "Sweet Nice Continental",
+      "value": "8060"
+    },
+    {
+      "text": "Swift Carbon Pro Cycling Brasil",
+      "value": "9491"
+    },
+    {
+      "text": "Swiss Racing Academy",
+      "value": "5649"
+    },
+    {
+      "text": "Tarteletto - Isorex",
+      "value": "1644"
+    },
+    {
+      "text": "Tashkent City Professional Cycling Team",
+      "value": "9492"
+    },
+    {
+      "text": "Tavfer-Mort\u00e1gua-Ovos Matinados",
+      "value": "4882"
+    },
+    {
+      "text": "Team Ampler - Tartu2024",
+      "value": "6209"
+    },
+    {
+      "text": "Team Banco Guayaquil - Ecuador",
+      "value": "9511"
+    },
+    {
+      "text": "Team BridgeLane",
+      "value": "4890"
+    },
+    {
+      "text": "Team Bridgestone Cycling",
+      "value": "1378"
+    },
+    {
+      "text": "Team ColoQuick",
+      "value": "1383"
+    },
+    {
+      "text": "Team Colpack Ballan",
+      "value": "2214"
+    },
+    {
+      "text": "Team Coop",
+      "value": "1363"
+    },
+    {
+      "text": "Team Corratec",
+      "value": "9468"
+    },
+    {
+      "text": "Team Dauner | Akkon",
+      "value": "3891"
+    },
+    {
+      "text": "Team Elevate p/b Home Solution Soenens",
+      "value": "4980"
+    },
+    {
+      "text": "Team Felbermayr - Simplon Wels",
+      "value": "1337"
+    },
+    {
+      "text": "Team Illuminate",
+      "value": "2407"
+    },
+    {
+      "text": "Team Lotto - Kern Haus",
+      "value": "2663"
+    },
+    {
+      "text": "Team Medellin - EPM",
+      "value": "3925"
+    },
+    {
+      "text": "Team Nov\u00e1k",
+      "value": "4954"
+    },
+    {
+      "text": "Team Novo Nordisk Development",
+      "value": "2417"
+    },
+    {
+      "text": "Team Qhubeka",
+      "value": "3105"
+    },
+    {
+      "text": "Team Sapura Cycling",
+      "value": "3933"
+    },
+    {
+      "text": "Team Skyline",
+      "value": "5651"
+    },
+    {
+      "text": "Team U Nantes Atlantique",
+      "value": "2121"
+    },
+    {
+      "text": "Team UKYO",
+      "value": "1773"
+    },
+    {
+      "text": "Team Vorarlberg",
+      "value": "1436"
+    },
+    {
+      "text": "Terengganu Polygon Cycling Team",
+      "value": "1443"
+    },
+    {
+      "text": "Thailand Continental Cycling Team",
+      "value": "3928"
+    },
+    {
+      "text": "The Hurricane & Thunder Cycling Team",
+      "value": "9494"
+    },
+    {
+      "text": "Tianyoude Hotel Cycling Team",
+      "value": "1653"
+    },
+    {
+      "text": "Tirol KTM Cycling Team",
+      "value": "1461"
+    },
+    {
+      "text": "Toronto Hustle",
+      "value": "7138"
+    },
+    {
+      "text": "Trinity Racing",
+      "value": "7750"
+    },
+    {
+      "text": "Tudor Pro Cycling Team",
+      "value": "5649"
+    },
+    {
+      "text": "TUFO - Pardus Prost\u011bjov",
+      "value": "2170"
+    },
+    {
+      "text": "UijeongBu Cycling Team",
+      "value": "4953"
+    },
+    {
+      "text": "Union Raiffeisen Radteam Tirol",
+      "value": "3590"
+    },
+    {
+      "text": "Uno-X Dare Development Team",
+      "value": "7701"
+    },
+    {
+      "text": "Utsunomiya Blitzen",
+      "value": "1101"
+    },
+    {
+      "text": "Victoire Hiroshima",
+      "value": "6844"
+    },
+    {
+      "text": "Vino SKO Team",
+      "value": "2422"
+    },
+    {
+      "text": "VolkerWessels Cycling Team",
+      "value": "5693"
+    },
+    {
+      "text": "Voltas Cycling Team",
+      "value": "9543"
+    },
+    {
+      "text": "Voster ATS Team",
+      "value": "3512"
+    },
+    {
+      "text": "Vozrozhdenie",
+      "value": "9425"
+    },
+    {
+      "text": "W52 / FC Porto ",
+      "value": "1800"
+    },
+    {
+      "text": "Wildlife Generation Pro Cycling",
+      "value": "1227"
+    },
+    {
+      "text": "WiV SunGod",
+      "value": "3894"
+    },
+    {
+      "text": "Work Service Vitalcare Vega",
+      "value": "6456"
+    },
+    {
+      "text": "WSA KTM Graz p/b Leomo",
+      "value": "5760"
+    },
+    {
+      "text": "XSpeed United Continental",
+      "value": "5642"
+    },
+    {
+      "text": "Yoeleo Test Team p/b 4Mind",
+      "value": "8176"
+    },
+    {
+      "text": "Zalf Euromobil Fior",
+      "value": "6251"
     }
   ],
   "teams_wins_ranking": null
