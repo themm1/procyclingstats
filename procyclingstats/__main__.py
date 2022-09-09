@@ -7,8 +7,8 @@ from tabulate import tabulate
 
 # imports all scraping classes that are listed in `scraper_classes` tuple and
 # Scraper class
-from .__init__ import (Race, RaceStartlist, Ranking, Rider, RiderResults,
-                       Scraper, Stage, Team)
+from .__init__ import (Race, RaceClimbs, RaceStartlist, Ranking, Rider,
+                       RiderResults, Scraper, Stage, Team)
 
 scraper_classes = (
     Race,
@@ -17,7 +17,8 @@ scraper_classes = (
     Rider,
     Stage,
     Team,
-    RiderResults
+    RiderResults,
+    RaceClimbs
 )
 
 def configure_parser():

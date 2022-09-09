@@ -1,0 +1,501 @@
+{
+  "climbs": [
+    {
+      "climb_name": "Muur van Geraardsbergen",
+      "climb_url": "location/muur-van-geraardsbergen",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Bosberg",
+      "climb_url": "location/bosberg",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Mutigny",
+      "climb_url": "location/cote-de-mutigny",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te d'Hautvillers",
+      "climb_url": "location/cote-d-hautvillers",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Champillon",
+      "climb_url": "location/cote-de-champillon",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Nanteuil-la-For\u00eat",
+      "climb_url": "location/cote-de-nanteuil-la-foret",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Marron",
+      "climb_url": "location/cote-de-marron",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te des Rosieres",
+      "climb_url": "location/cote-des-rosieres",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te des Trois-\u00c9pis",
+      "climb_url": "location/cote-des-trois-epis",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te du Haut-K\u0153nigsbourg",
+      "climb_url": "location/cote-du-haut-koenigsbourg",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Grendelbruch",
+      "climb_url": "location/cote-de-grendelbruch",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te des Cinq Ch\u00e2teaux",
+      "climb_url": "location/cote-des-cinq-chateaux",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "La Planche des Belles Filles",
+      "climb_url": "location/la-planche-des-belles-filles",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Ballon d'Alsace",
+      "climb_url": "location/ballon-d-alsace",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Le Markstein",
+      "climb_url": "location/le-markstein",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col des Chevr\u00e8res",
+      "climb_url": "location/col-des-chevreres",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col du Hundsruck",
+      "climb_url": "location/col-du-hundsruck",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col des Croix",
+      "climb_url": "location/col-des-croix",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Le Grand Ballon",
+      "climb_url": "location/le-grand-ballon",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Chassagne-Saint-Denis",
+      "climb_url": "location/cote-de-chassagne-saint-denis",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de Ferriere",
+      "climb_url": "location/col-de-ferriere",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Nans-sous-Sainte-Anne",
+      "climb_url": "location/cote-de-nans-sous-sainte-anne",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de la Croix Montmain",
+      "climb_url": "location/col-de-la-croix-montmain",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de la Croix Paquet",
+      "climb_url": "location/col-de-la-croix-paquet",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de la Croix-de-Thel",
+      "climb_url": "location/col-de-la-croix-de-thel",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te d'Aveize",
+      "climb_url": "location/cote-d-aveize",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de la Croix de Pars",
+      "climb_url": "location/cote-de-la-croix-de-part",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te d'Affoux",
+      "climb_url": "location/cote-d-affoux",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de la Jaill\u00e8re",
+      "climb_url": "location/cote-de-la-jailllere",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Mur d'Aurec-sur-Loire",
+      "climb_url": "location/mur-d-aurec-sur-loire",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Saint-Just",
+      "climb_url": "location/cote-de-saint-just",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te des Guillaumanches",
+      "climb_url": "location/cote-des-guillaumanches",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te d'Espailon",
+      "climb_url": "location/cote-d-espailon",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Chaudes-Aigues",
+      "climb_url": "location/cote-de-chaudes-aigues",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te De La Malric",
+      "climb_url": "location/cote-de-la-malric",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Mallet",
+      "climb_url": "location/cote-de-mallet",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Tonnac",
+      "climb_url": "location/cote-de-tonnac",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Castelnau-de-Montmiral",
+      "climb_url": "location/cote-de-castelnau-de-montmiral",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de Peyresourde",
+      "climb_url": "location/col-de-peyresourde",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Hourquette d'Ancizan",
+      "climb_url": "location/hourquette-d-ancizan",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Montoulieu-Saint-Bernard",
+      "climb_url": "location/cote-de-montoulieu-saint-bernard",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col du Tourmalet",
+      "climb_url": "location/col-du-tourmalet",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col du Soulor",
+      "climb_url": "location/col-du-soulor",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f6te de Labatmale",
+      "climb_url": "location/cote-de-labatmale",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Port de Lers",
+      "climb_url": "location/port-de-lers",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Prat D'Albis",
+      "climb_url": "location/prat-d-albis",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Mur de P\u00e9gu\u00e8re",
+      "climb_url": "location/mur-de-peguere",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de Monts\u00e9gur",
+      "climb_url": "location/col-de-montsegur",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Saint-Jean-du-Pin",
+      "climb_url": "location/cote-de-saint-jean-du-pin",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de la Sentinelle",
+      "climb_url": "location/col-de-la-sentinelle",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de la Rochette-du-Buis",
+      "climb_url": "location/cote-de-la-rochette-du-buis",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de Vars",
+      "climb_url": "location/col-de-vars",
+      "length": 9.3,
+      "steepness": 7.1,
+      "top": 0,
+      "km_before_finnish": 125
+    },
+    {
+      "climb_name": "Col d'Izoard",
+      "climb_url": "location/col-d-izoard",
+      "length": 14.2,
+      "steepness": 7.0,
+      "top": 0,
+      "km_before_finnish": 75
+    },
+    {
+      "climb_name": "Col du Galibier",
+      "climb_url": "location/col-du-galibier",
+      "length": 23.0,
+      "steepness": 5.1,
+      "top": 0,
+      "km_before_finnish": 20
+    },
+    {
+      "climb_name": "Les Thuiles",
+      "climb_url": "location/les-thuiles",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te des Demoiselles Coiff\u00e9es",
+      "climb_url": "location/cote-des-demoiselles-coiffees",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col d'Iseran",
+      "climb_url": "location/col-d-iseran",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Mont\u00e9e d'Aussois",
+      "climb_url": "location/montee-d-aussois",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Saint-Andr\u00e9",
+      "climb_url": "location/cote-de-saint-andre",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "Col de la Madeleine",
+      "climb_url": "location/col-de-la-madeleine3",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Saint-R\u00e9my-L\u00e8s-Chevreuse",
+      "climb_url": "location/cote-de-saint-remy-les-chevreuse",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    },
+    {
+      "climb_name": "C\u00f4te de Ch\u00e2teaufort",
+      "climb_url": "location/cote-de-chateaufort",
+      "length": 0.0,
+      "steepness": 0.0,
+      "top": 0,
+      "km_before_finnish": null
+    }
+  ],
+  "normalized_relative_url": "race/tour-de-france/2019/stages/climbs-ranked"
+}

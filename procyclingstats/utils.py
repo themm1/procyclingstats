@@ -31,6 +31,7 @@ class reg: # pylint: disable=invalid-name
     """example match `/bora-hansgrohe-2022` or `/movistar-team-20152`"""
     anything = "(\\/+.*)"
     """example match `/ffefwf//fwefw/aa`"""
+    climbs = "(\\/+stages\\/+climbs-ranked)"
 
 
 # validation functions
@@ -84,7 +85,7 @@ def format_url_filter(url_filter: str) -> str:
     :return: Formatted URL filter.
     """
     splitted_url = url_filter.split("?")
-    if splitted_url[1] == "":
+    if splitted_url[1] == "" and "rankings" in splitted_url[0]:
         return "rankings"
     if splitted_url[0] == "rankings":
         splitted_url[0] = "rankings.php"
