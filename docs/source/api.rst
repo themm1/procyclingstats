@@ -24,6 +24,14 @@ RaceStartlist
    :undoc-members:
    :show-inheritance:
 
+RaceClimbs
+------------------------------------------------------
+
+.. autoclass:: procyclingstats.race_climbs_scraper.RaceClimbs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Ranking
 ----------------------------------------
 
