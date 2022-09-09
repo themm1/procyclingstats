@@ -22,14 +22,20 @@ class RaceClimbs(Scraper):
             {reg.climbs})
         )
         |
-        race\\?
+        race.php\\?.*id\\d=climbs-ranked.*
         )
     """)
     """Regex for validating race climbs URL."""
 
     def normalized_relative_url(self) -> str:
-        if "race.php?" in self.url and "id3=climbs-ranked" in self.url:
-            return format_url_filter(self.url)
+        """
+        Creates normalized relative URL by removing extra slashes and also
+        removing stage id if necessary.
+
+        :return: Normalized relative URL.
+        """
+        if "race.php?" in self.url:
+            return format_url_filter(self.relative_url())
 
         decomposed_url = self._decompose_url()
         # remove stage id from normalized URL if needed
