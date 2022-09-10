@@ -314,6 +314,114 @@ class Ranking(Scraper):
                 "method.")
         return self._parse_regular_ranking_table(args, available_fields)
 
+    def distance_ranking(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses ranking with riders ridden distances from HTML.
+
+        :param args: Fields that should be contained in returned table. When
+            no args are passed, all fields are parsed.
+
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's rank in the ranking.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - distance: Rider's ridden distance in the season as KMs.
+            - prev_season_distance: Rider's ridden distance in previous season.
+
+        :raises ExpectedParsingError: When the table from HTML is not a
+            distance ranking table.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "rank",
+            "nationality",
+            "distance",
+            "prev_season_distance"
+        )
+        if self._ranking_type() != "distance":
+            raise ExpectedParsingError(
+                "This object doesn't support distance_ranking method, " +
+                "create one with distance ranking URL to call this" +
+                "method.")
+        fields = parse_table_fields_args(args, available_fields)
+        casual_fields = [f for f in fields
+            if f not in ("distance", "prev_season_distance")]
+
+        distance_ranking_table_html = self.html.css_first("div > table")
+        table_parser = TableParser(distance_ranking_table_html)
+        table_parser.parse(casual_fields)
+
+        if "distance" in fields:
+            distances = table_parser.parse_extra_column("KMs",
+                lambda x: int(x) if x else 0)
+            table_parser.extend_table("distance", distances)
+        if "prev_season_distance" in fields:
+            distances = table_parser.parse_extra_column("Prev. season",
+                lambda x: int(x) if x else 0)
+            table_parser.extend_table("prev_season_distance", distances)
+        return table_parser.table
+
+    def racedays_ranking(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses ranking with riders ridden racedays from HTML.
+
+        :param args: Fields that should be contained in returned table. When
+            no args are passed, all fields are parsed.
+
+            - rider_name:
+            - rider_url:
+            - team_name:
+            - team_url:
+            - rank: Rider's rank in the ranking.
+            - nationality: Rider's nationality as 2 chars long country code.
+            - racedays: Rider's ridden racedays in the season.
+            - prev_season_racedays: Rider's ridden racedays in previous season.
+
+        :raises ExpectedParsingError: When the table from HTML is not a
+            racedays ranking table.
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
+            "rider_name",
+            "rider_url",
+            "team_name",
+            "team_url",
+            "rank",
+            "nationality",
+            "racedays",
+            "prev_season_racedays"
+        )
+        if self._ranking_type() != "racedays":
+            raise ExpectedParsingError(
+                "This object doesn't support distance_ranking method, " +
+                "create one with distance ranking URL to call this" +
+                "method.")
+        fields = parse_table_fields_args(args, available_fields)
+        casual_fields = [f for f in fields
+            if f not in ("racedays", "prev_season_racedays")]
+
+        distance_ranking_table_html = self.html.css_first("div > table")
+        table_parser = TableParser(distance_ranking_table_html)
+        table_parser.parse(casual_fields)
+
+        if "racedays" in fields:
+            racedays = table_parser.parse_extra_column("Racedays",
+                lambda x: int(x) if x else 0)
+            table_parser.extend_table("racedays", racedays)
+        if "prev_season_racedays" in fields:
+            racedays = table_parser.parse_extra_column("Prev. season",
+                lambda x: int(x) if x else 0)
+            table_parser.extend_table("prev_season_racedays", racedays)
+        return table_parser.table
+
     def dates_select(self) -> List[Dict[str, str]]:
         """
         Parses dates select menu from HTML.

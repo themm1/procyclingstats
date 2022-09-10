@@ -141,7 +141,7 @@
 <li data-n="1"><a href="rankings/we/wwt">Women's World Tour (WWT)</a></li>
 <li data-n="2"><a href="rankings/mj/individual">Junior men - Individual</a></li></ul></li></ul><div class="clear"></div></div><div class="page-title "><a class="mobileMenuLink showIfMobile menu-toggle" href="">menu</a><div class="main"><h1 class="">PCS Wins</h1><span class="hideIfMobile">»</span><span class="red hideIfMobile">Nations</span></div><div class="sub"><span class="red showIfMobile">Nations</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div><div class="page-content page-object default " data-no_menu="0"><h2></h2><div class="">
 <div class="text-regular">Total number of wins, including level 2 races. First tiebreaker is number of 2nd places, then number of 3rd places.</div>
-<form action="rankings.php"><ul class="filter"><li><div class="label">Date</div><div><select class="" name="date"><option value="2022-09-03">2022-09-03</option><option value="2021-12-31">2021-12-31</option><option value="2020-12-31" selected="">2020-12-31</option><option value="2019-12-31">2019-12-31</option><option value="2018-12-31">2018-12-31</option><option value="2017-12-31">2017-12-31</option><option value="2016-12-31">2016-12-31</option><option value="2015-12-31">2015-12-31</option><option value="2014-12-31">2014-12-31</option><option value="2013-12-31">2013-12-31</option><option value="2012-12-31">2012-12-31</option><option value="2011-12-31">2011-12-31</option><option value="2010-12-31">2010-12-31</option><option value="2009-12-31">2009-12-31</option><option value="2008-12-31">2008-12-31</option><option value="2007-12-31">2007-12-31</option><option value="2006-12-31">2006-12-31</option><option value="2005-12-31">2005-12-31</option><option value="2004-12-31">2004-12-31</option><option value="2003-12-31">2003-12-31</option></select></div></li>
+<form action="rankings.php"><ul class="filter"><li><div class="label">Date</div><div><select class="" name="date"><option value="2022-09-10">2022-09-10</option><option value="2021-12-31">2021-12-31</option><option value="2020-12-31" selected="">2020-12-31</option><option value="2019-12-31">2019-12-31</option><option value="2018-12-31">2018-12-31</option><option value="2017-12-31">2017-12-31</option><option value="2016-12-31">2016-12-31</option><option value="2015-12-31">2015-12-31</option><option value="2014-12-31">2014-12-31</option><option value="2013-12-31">2013-12-31</option><option value="2012-12-31">2012-12-31</option><option value="2011-12-31">2011-12-31</option><option value="2010-12-31">2010-12-31</option><option value="2009-12-31">2009-12-31</option><option value="2008-12-31">2008-12-31</option><option value="2007-12-31">2007-12-31</option><option value="2006-12-31">2006-12-31</option><option value="2005-12-31">2005-12-31</option><option value="2004-12-31">2004-12-31</option><option value="2003-12-31">2003-12-31</option></select></div></li>
 </ul><input type="submit" name="filter" value="Filter"><input type="hidden" name="p" value="me"><input type="hidden" name="s" value="wins-nations"></form>
 <b>86/86</b> results.
 <table class="basic" style="max-width: 600px; "><thead><tr><th style="width: 9.1%; ">#</th><th class="cu600 fs10  " style="width: 9.1%; ">Prev.</th><th class="fs10  " style="width: 9.1%; ">Diff.</th><th style="width: 36.4%; ">Country</th><th style="width: 9.1%; ">Wins</th><th style="width: 9.1%; ">2nd</th><th style="width: 9.1%; ">3rd</th><th class="fs11  " style="width: 9.1%; "></th></tr></thead><tbody>
@@ -255,7 +255,8 @@
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
 <li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
-<li><a href="race/binckbank-tour">Binckbank Tour</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
 </ul></li>
 <li class="group"><h3>Rankings &amp; Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="statistics/start/points-per-age">Points per age</a></li>
@@ -273,7 +274,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0358 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1234kb) peak (1364kb)</span></li></ul></li>
+<li><span>0.0433 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1234kb) peak (1364kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="704"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 

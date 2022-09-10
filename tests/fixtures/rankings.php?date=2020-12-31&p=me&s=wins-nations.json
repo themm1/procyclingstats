@@ -1,8 +1,8 @@
 {
   "dates_select": [
     {
-      "text": "2022-09-03",
-      "value": "2022-09-03"
+      "text": "2022-09-10",
+      "value": "2022-09-10"
     },
     {
       "text": "2021-12-31",
@@ -81,6 +81,7 @@
       "value": "2003-12-31"
     }
   ],
+  "distance_ranking": null,
   "individual_ranking": null,
   "individual_wins_ranking": null,
   "nations_ranking": null,
@@ -949,6 +950,7 @@
   ],
   "normalized_relative_url": "rankings.php?date=2020-12-31&p=me&s=wins-nations",
   "pages_select": null,
+  "racedays_ranking": null,
   "races_ranking": null,
   "team_ranking": null,
   "teamlevels_select": null,

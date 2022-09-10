@@ -1,8 +1,8 @@
 {
   "dates_select": [
     {
-      "text": "2022-09-07",
-      "value": "2022-09-07"
+      "text": "2022-09-10",
+      "value": "2022-09-10"
     },
     {
       "text": "2021-12-31",
@@ -493,6 +493,7 @@
       "value": "1900-12-31"
     }
   ],
+  "distance_ranking": null,
   "individual_ranking": [
     {
       "rank": 1,
@@ -1999,6 +2000,7 @@
       "value": "2200"
     }
   ],
+  "racedays_ranking": null,
   "races_ranking": null,
   "team_ranking": null,
   "teamlevels_select": null,
