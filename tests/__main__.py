@@ -23,14 +23,14 @@ def configure_parser() -> argparse.ArgumentParser:
 
     add_parser = subparsers.add_parser("add", help="Adds HTML and data " +
         "fixture created from given URL to fixtures directory.")
-    add_parser.add_argument("url", metavar="url", type=str,
-        help="Absolute or relative URL of PCS page which HTML and parsed " +
+    add_parser.add_argument("urls", metavar="url", type=str, nargs="+",
+        help="Absolute or relative URLs of PCS pages which HTML and parsed " +
         "data should be copied to .txt and .json file with name of given URL.")
 
     add_html_parser = subparsers.add_parser("add_html",
         help="Adds HTML fixture created from given URL to fixtures directory.")
-    add_html_parser.add_argument("url", metavar="url", type=str,
-        help="Absolute or relative URL of PCS page which HTML should be " +
+    add_html_parser.add_argument("urls", metavar="url", type=str, nargs="+",
+        help="Absolute or relative URLs of PCS pages which HTML should be " +
         "copied to .txt file with name of given URL.")
 
     subparsers.add_parser("update_htmls", help="Updates HTML fixtures " +
@@ -43,23 +43,24 @@ def configure_parser() -> argparse.ArgumentParser:
 def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
     f_utils = FixturesUtils(fixturer_path)
     if args.command in ("add", "add_html"):
-        ScraperClass = get_scraper_obj_by_url(args.url, scraper_classes)
-        obj = ScraperClass(args.url)
-        filename = f_utils.url_to_filename(
-            obj.normalized_relative_url())
+        for url in args.urls:
+            ScraperClass = get_scraper_obj_by_url(url, scraper_classes)
+            obj = ScraperClass(url)
+            filename = f_utils.url_to_filename(
+                obj.normalized_relative_url())
 
-        if args.command == "add":
-            if not args.quiet:
-                print(f"Adding: {filename}.txt")
-            f_utils.make_html_fixture(obj)
-            if not args.quiet:
-                print(f"Adding: {filename}.json")
-            f_utils.make_data_fixture(obj)
+            if args.command == "add":
+                if not args.quiet:
+                    print(f"Adding: {filename}.txt")
+                f_utils.make_html_fixture(obj)
+                if not args.quiet:
+                    print(f"Adding: {filename}.json")
+                f_utils.make_data_fixture(obj)
 
-        elif args.command == "add_html":
-            if not args.quiet:
-                print(f"Adding: {filename}.txt")
-            f_utils.make_html_fixture(obj)
+            elif args.command == "add_html":
+                if not args.quiet:
+                    print(f"Adding: {filename}.txt")
+                f_utils.make_html_fixture(obj)
 
     elif args.command == "update_htmls":
         urls = f_utils.get_urls_from_fixtures_dir("txt")
