@@ -9,11 +9,50 @@ from .utils import (format_regex_str, format_url_filter, parse_select,
 
 class RiderResults(Scraper):
     """
-    Scraper for rider results HTML page. Example URL:
-    ``rider/tadej-pogacar/results``. Supported is besides of default results
-    table
-    also final 5k results table which can be parsed using
-    `self.final_n_km_results` method.
+    Scraper for rider results HTML page.
+
+    Supported is besides of default results table also final 5k results table
+    which can be parsed using ``final_n_km_results`` method.
+
+    Usage:
+
+    >>> from procyclingstats import RiderResults
+    >>> rider_results = RiderResults("rider/alberto-contador/results/final-5k-analysis")
+    >>> # for normal results table use "rider/alberto-contador/results" URL
+    >>> rider_results.final_n_km_results()
+    [
+        {
+            'average_percentage': 11.8,
+            'class': '2.UWT',
+            'date': '2017-09-09',
+            'nationality': 'ES',
+            'rank': 1,
+            'stage_name': 'Vuelta a España | Stage 20',
+            'stage_url': 'race/vuelta-a-espana/2017/stage-20',
+            'vertical_meters': 590},
+        },
+        ...
+    ]
+    >>> rider_results.parse()
+    {
+        'categories_select': None,
+        'final_n_km_results': [
+            {
+                'average_percentage': 11.8,
+                'class': '2.UWT',
+                'date': '2017-09-09',
+                'nationality': 'ES',
+                'rank': 1,
+                'stage_name': 'Vuelta a España | Stage 20',
+                'stage_url': 'race/vuelta-a-espana/2017/stage-20',
+                'vertical_meters': 590},
+            },
+            ...
+        ],
+        'nations_select': None,
+        'normalized_relative_url': 'rider/alberto-contador/results/final-5k-analysis',
+        ...
+    }
     """
     _url_validation_regex = format_regex_str(
     f"""
@@ -25,7 +64,7 @@ class RiderResults(Scraper):
         {reg.url_str}\\/*results{reg.anything}?
         \\/*)
     """)
-    """Regex for validating rider results URL."""
+    """regex for validating rider results url."""
 
     def _html_valid(self) -> bool:
         """

@@ -9,8 +9,23 @@ from .utils import (format_regex_str, get_day_month, normalize_race_url,
 
 class Race(Scraper):
     """
-    Scraper for race overview HTML page. Example URL:\
-        ``race/tour-de-france/2022/overview``.
+    Scraper for race overview HTML page.
+
+    Usage:
+
+    >>> from procyclingstats import Race
+    >>> race = Race("race/tour-de-france/2022/overview")
+    >>> race.enddate()
+    '2022-07-24'
+    >>> race.parse()
+    {
+        'category': 'Men Elite',
+        'edition': 109,
+        'enddate': '2022-07-24',
+        'is_one_day_race': False,
+        ...
+    }
+
     """
     _url_validation_regex = format_regex_str(
     f"""

@@ -9,8 +9,41 @@ from .utils import (format_regex_str, format_url_filter,
 
 class RaceClimbs(Scraper):
     """
-    Scraper for race climbs HTML page. Example URL: \
-    ``race/tour-de-france/2022/gc/stages/climbs-ranked``.
+    Scraper for race climbs HTML page.
+
+    Usage:
+
+    >>> from procyclingstats import RaceClimbs
+    >>> race_climbs = RaceClimbs("race/tour-de-france/2022/gc/stages/climbs-ranked")
+    >>> race_climbs.climbs()
+    [
+        {
+            'climb_name': "Côte d'Asnæs Indelukke",
+            'climb_url': 'location/cote-d-asnaes-indelukke',
+            'km_before_finnish': 140,
+            'length': 1.1,
+            'steepness': 5.3,
+            'top': 63
+        },
+        ...
+    ]
+    >>> race_climbs.parse()
+    {
+        'climbs': [
+            {
+                'climb_name': "	Côte d'Asnæs Indelukke",
+                'climb_url': 'location/cote-d-asnaes-indelukke',
+                'km_before_finnish': 140,
+                'length': 1.1,
+                'steepness': 5.3,
+                'top': 63
+            },
+            ...
+        ]
+        'normalized_relative_url': 'race/tour-de-france/2022/stages/climbs-ranked'
+    }
+
+
     """
     _url_validation_regex = format_regex_str(
     f"""

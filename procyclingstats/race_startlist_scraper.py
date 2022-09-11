@@ -8,8 +8,39 @@ from .utils import (format_regex_str, normalize_race_url,
 
 class RaceStartlist(Scraper):
     """
-    Scraper for race startlist HTML page. Example URL: \
-    ``race/tour-de-france/2022/startlist``.
+    Scraper for race startlist HTML page.
+
+    Usage:
+
+    >>> from procyclingstats import RaceStartlist
+    >>> race_startlist = RaceStartlist("race/tour-de-france/2022/startlist")
+    >>> race_startlist.startlist()
+    [
+        {
+            'nationality': 'SI',
+            'rider_name': 'POGAČAR Tadej',
+            'rider_number': 1,
+            'rider_url': 'rider/tadej-pogacar',
+            'team_name': 'UAE Team Emirates',
+            'team_url': 'team/uae-team-emirates-2022'}
+        },
+        ...
+    ]
+    >>> race_startlist.parse()
+    {
+        'normalized_relative_url': 'race/tour-de-france/2022/startlist',
+        'startlist': [
+            {
+                'nationality': 'SI',
+                'rider_name': 'POGAČAR Tadej',
+                'rider_number': 1,
+                'rider_url': 'rider/tadej-pogacar',
+                'team_name': 'UAE Team Emirates',
+                'team_url': 'team/uae-team-emirates-2022'}
+            },
+            ...
+        ]
+    }
     """
     _url_validation_regex = format_regex_str(
     f"""

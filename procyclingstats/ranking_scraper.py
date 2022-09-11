@@ -9,12 +9,56 @@ from .utils import (format_url_filter, parse_select, parse_table_fields_args,
 
 class Ranking(Scraper):
     """
-    Scraper for rankings HTML page. Example URL: ``rankings/me/individual``.
+    Scraper for rankings HTML page.
 
     Always only one parsing method that parses ranking is availabe, the others
     raise `ExpectedParsingError`. E.g. for object created with example URL
     would be valid only `self.individual_ranking` parsing method and others
     methods that parse ranking (`self.team_ranking`, ...) would raise error.
+
+    Usage:
+
+    >>> from procyclingstats import Ranking
+    >>> ranking = Ranking("rankings/me/individual")
+    >>> ranking.individual_ranking()
+    [
+        {
+            'nationality': 'SI',
+            'points': 2981.0,
+            'prev_rank': 1,
+            'rank': 1,
+            'rider_name': 'Pogačar Tadej',
+            'rider_url': 'rider/tadej-pogacar',
+            'team_name': 'UAE Team Emirates',
+            'team_url': 'team/uae-team-emirates-2022'
+        },
+        ...
+    ]
+    >>> ranking.parse()
+    {
+        'dates_select': [
+            {'text': '2022-09-11', 'value': '2022-09-11'},
+            {'text': '2021-12-31', 'value': '2021-12-31'},
+            {'text': '2019-12-31', 'value': '2019-12-31'},
+            ...
+        ],
+        'distance_ranking': None,
+        'individual_ranking': [
+            {
+                'nationality': 'SI',
+                'points': 2981.0,
+                'prev_rank': 1,
+                'rank': 1,
+                'rider_name': 'Pogačar Tadej',
+                'rider_url': 'rider/tadej-pogacar',
+                'team_name': 'UAE Team Emirates',
+                'team_url': 'team/uae-team-emirates-2022'
+            },
+            ...
+        ],
+        'individual_wins_ranking': None,
+        ...
+    }
     """
 
     _url_validation_regex = f"{reg.base_url}?rankings.*\\/*"

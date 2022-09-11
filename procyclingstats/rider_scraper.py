@@ -8,7 +8,24 @@ from .utils import (format_regex_str, get_day_month, parse_table_fields_args,
 
 
 class Rider(Scraper):
-    """Scraper for rider HTML page. Example URL: ``rider/tadej-pogacar``."""
+    """
+    Scraper for rider HTML page.
+
+    Usage:
+
+    >>> from procyclingstats import Rider
+    >>> rider = Rider("rider/tadej-pogacar")
+    >>> rider.birthdate()
+    '1998-9-21'
+    >>> rider.parse()
+    {
+        'birthdate': '1998-9-21',
+        'height': 1.76,
+        'name': 'Tadej  Pogačar',
+        'nationality': 'SI',
+        ...
+    }
+    """
     _url_validation_regex = format_regex_str(
     f"""
         {reg.base_url}?rider

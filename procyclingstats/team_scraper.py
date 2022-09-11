@@ -8,7 +8,28 @@ from .utils import (format_regex_str, get_day_month, join_tables, parse_select,
 
 class Team(Scraper):
     """
-    Scraper for team HTML page. Example URL: ``team/bora-hansgrohe-2022``.
+    Scraper for team HTML page.
+
+    Usage:
+
+    >>> from procyclingstats import Team
+    >>> team = Team("team/bora-hansgrohe-2022")
+    >>> team.abbreviation()
+    'BOH'
+    >>> team.parse()
+    {
+        'abbreviation': 'BOH',
+        'bike': 'Specialized',
+        'history_select': [
+            {
+                'text': '2027 | BORA - hansgrohe',
+                'value': 'team/bora-hansgrohe-2027/overview/'
+            },
+            ...
+        ],
+        'name': 'BORA - hansgrohe',
+        ...
+    }
     """
     _url_validation_regex = format_regex_str(
     f"""

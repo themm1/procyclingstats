@@ -11,8 +11,39 @@ from .utils import (add_times, convert_date, format_regex_str, format_time,
 
 class Stage(Scraper):
     """
-    Scraper for stage results HTML page. Example URL: \
-        ``race/tour-de-france/2022/stage-18``.
+    Scraper for stage results HTML page.
+
+    Usage:
+
+    >>> from procyclingstats import Stage
+    >>> stage = Stage("race/tour-de-france/2022/stage-18")
+    >>> stage.date()
+    '2022-07-21'
+    >>> stage.parse()
+    {
+        'arrival': Hautacam
+        'date': '2022-07-21'
+        'departure': 'Lourdes'
+        'distance': 143.2
+        'gc': [
+            {
+                'age': 25,
+                'bonus': 32,
+                'nationality': 'DK',
+                'pcs_points': 0,
+                'prev_rank': 1,
+                'rank': 1,
+                'rider_name': 'VINGEGAARD Jonas',
+                'rider_url': 'rider/jonas-vingegaard-rasmussen',
+                'team_name': 'Jumbo-Visma',
+                'team_url': 'team/team-jumbo-visma-2022',
+                'time': '71:53:34',
+                'uci_points': 25.0
+            },
+            ...
+        ],
+        ...
+    }
     """
     _url_validation_regex = format_regex_str(
     f"""
