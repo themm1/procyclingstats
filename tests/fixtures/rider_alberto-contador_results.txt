@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php">
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css">
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a135.css">
 
-<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s59.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico">
 </head>
@@ -69,24 +69,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
-<li><a href="team/movistar-team-2022">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/movistar-team-2022">Movistar Team</a></li>
 <li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
 <li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
-<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
 <li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
 <li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
 <li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,10 +95,9 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
-<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
-<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+<li class="more4 blue"><a class="reg" href="calendar/worlds-program">Worlds</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="calendar/worlds-program">Program</a></li>
+<li><a href="race/world-championship/2022/result/startlist">Startlist ME</a></li>
+<li><a href="race/world-championship-we/2022/result/startlist">Startlist WE</a></li>
 </ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
@@ -149,7 +148,7 @@
 </ul></li></ul><div class="clear"></div></div><div class="page-title "><a class="mobileMenuLink showIfMobile menu-toggle" href="">menu</a><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Alberto  Contador</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="0"><h2>All results</h2><div class="">
 <form action="rider.php"><ul class="filter"><li><div class="label">Season</div><div><select class="" name="xseason"><option value="" selected="">-</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option></select><select class="hide" name="zxseason"><option value="" selected="">-</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option></select></div><div><select name="pxseason" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="largerorequal">&gt;=</option><option value="smallerorequal">&lt;=</option><option value="between">Between</option></select></div></li>
 <li><div class="label">Sort by </div><div><select class="" name="sort"><option value="date" selected="">Date</option><option value="pnt">PCS points</option><option value="rnk">Result</option><option value="km">Distance</option></select></div></li>
-<li><div class="label">Race</div><div><select class="" name="race"><option value="" selected="">-</option><option value="5588">Abu Dhabi Tour</option><option value="1033">Amstel Gold Race</option><option value="1064">Brussels Cycling Classic</option><option value="3319">Trofeo Calvia</option><option value="1126">Circuito de Getxo</option><option value="1311">Circuito Montañes</option><option value="2561">Clasica a los Puertos</option><option value="1028">Clasica Ciclista San Sebastian</option><option value="3540">Clásica Internacional Alcobendas</option><option value="1034">Critérium du Dauphiné Libéré</option><option value="1082">Critérium International</option><option value="1043">Deutschland Tour</option><option value="1054">Eneco Tour</option><option value="7253">European Championships U23 - ITT</option><option value="1786">European Championships U23 - Road Race</option><option value="1039">Giro d'Italia</option><option value="1026">Il Lombardia</option><option value="1089">GP de Fourmies / La Voix du Nord</option><option value="1108">GP Nobili Rubinetterie-Coppa Papà Carlo-Coppa Città di Stresa</option><option value="1048">GP Ouest France - Plouay</option><option value="1678">GP Villafranca de Ordizia</option><option value="1229">Gran Premio Bruno Beghelli</option><option value="1073">Gran Premio Miguel Indurain</option><option value="1057">Grand Prix Cycliste de Montréal</option><option value="1055">Grand Prix Cycliste de Québec</option><option value="1066">Jacob's Creek Tour Down Under</option><option value="1165">Klasika Primavera de Amorebieta</option><option value="1027">La Flèche Wallonne</option><option value="1047">Liège - Bastogne - Liège</option><option value="4779">Memorial Galera - Ciudad de Armilla</option><option value="1080">Milano-Torino</option><option value="1488">National Championships Spain - ITT</option><option value="1483">National Championships Spain - Road Race</option><option value="2127">National Championships Spain U23 - ITT</option><option value="2128">National Championships Spain U23 - Road Race</option><option value="1068">Olympic Games - ITT</option><option value="1053">Olympic Games Road Race</option><option value="1135">Paris - Corrèze</option><option value="1058">Paris - Nice</option><option value="1230">Route du Sud Cycliste - La Dépêche du Midi</option><option value="1403">Ruban Granitier Breton</option><option value="1711">Setmana-Catalana</option><option value="3205">Subida al Naranco</option><option value="1025">Tirreno-Adriatico</option><option value="1049">Tour de France</option><option value="1041">Tour de Pologne</option><option value="1032">Tour de Romandie</option><option value="1207">Tour de San Luis</option><option value="1044">Tour de Suisse</option><option value="1042">Tour of Missouri</option><option value="1256">Tour of Oman</option><option value="1719">Trofeo Alcudia</option><option value="1509">Trofeo Cala: Cala Millor - Son Servera</option><option value="1824">Trofeo Luis Puig</option><option value="1112">Trofeo Mallorca</option><option value="3320">Trofeo Manacor</option><option value="2555">Trofeo Pollença</option><option value="3316">Trofeo Sóller</option><option value="3260">Urkiola Igoera - Subida Urkiola</option><option value="1251">Volta ao Algarve em Bicicleta</option><option value="1037">Volta Ciclista a Catalunya</option><option value="1191">Vuelta a Andalucia Ruta Ciclista Del Sol</option><option value="1714">Vuelta a Aragon</option><option value="1086">Vuelta a Burgos</option><option value="1175">Vuelta a Castilla y Leon</option><option value="1051">Vuelta a España</option><option value="1060">Vuelta Ciclista al Pais Vasco</option><option value="1101">Vuelta Ciclista a la Comunidad Valenciana</option><option value="1202">Vuelta ciclista a la region de Murcia</option><option value="1522">Vuelta Ciclista a la Rioja</option><option value="1062">World Championships - ITT</option><option value="1021">World Championships - Road Race</option><option value="1698">World Championships U23 - ITT</option></select></div></li>
+<li><div class="label">Race</div><div><select class="" name="race"><option value="" selected="">-</option><option value="5588">Abu Dhabi Tour</option><option value="1033">Amstel Gold Race</option><option value="1064">Brussels Cycling Classic</option><option value="3319">Trofeo Calvia</option><option value="1126">Circuito de Getxo</option><option value="1311">Circuito Montañes</option><option value="2561">Clasica a los Puertos</option><option value="1028">Clasica Ciclista San Sebastian</option><option value="3540">Clásica Internacional Alcobendas</option><option value="1034">Critérium du Dauphiné Libéré</option><option value="1082">Critérium International</option><option value="1043">Deutschland Tour</option><option value="1054">Eneco Tour</option><option value="7253">European Championships U23 - ITT</option><option value="1786">European Championships U23 - Road Race</option><option value="1039">Giro d'Italia</option><option value="1026">Il Lombardia</option><option value="1089">GP de Fourmies / La Voix du Nord</option><option value="1108">GP Nobili Rubinetterie-Coppa Papà Carlo-Coppa Città di Stresa</option><option value="1048">GP Ouest France - Plouay</option><option value="1678">GP Villafranca de Ordizia</option><option value="1229">Gran Premio Bruno Beghelli</option><option value="1073">Gran Premio Miguel Indurain</option><option value="1057">Grand Prix Cycliste de Montréal</option><option value="1055">Grand Prix Cycliste de Québec</option><option value="1066">Jacob's Creek Tour Down Under</option><option value="1165">Klasika Primavera de Amorebieta</option><option value="1027">La Flèche Wallonne</option><option value="1047">Liège - Bastogne - Liège</option><option value="4779">Memorial Galera - Ciudad de Armilla</option><option value="1080">Milano-Torino</option><option value="1488">National Championships Spain - ITT</option><option value="1483">National Championships Spain - Road Race</option><option value="2127">National Championships Spain U23 - ITT</option><option value="2128">National Championships Spain U23 - Road Race</option><option value="1068">Olympic Games - ITT</option><option value="1053">Olympic Games Road Race</option><option value="1135">Paris - Corrèze</option><option value="1058">Paris - Nice</option><option value="1230">Route du Sud Cycliste - La Dépêche du Midi</option><option value="1403">Ruban Granitier Breton</option><option value="1711">Setmana-Catalana</option><option value="3205">Subida al Naranco</option><option value="1025">Tirreno-Adriatico</option><option value="1049">Tour de France</option><option value="1041">Tour de Pologne</option><option value="1032">Tour de Romandie</option><option value="1207">Tour de San Luis</option><option value="1044">Tour de Suisse</option><option value="1042">Tour of Missouri</option><option value="1256">Tour of Oman</option><option value="1719">Trofeo Alcudia</option><option value="1509">Trofeo Cala: Cala Millor - Son Servera</option><option value="1824">Trofeo Luis Puig</option><option value="1112">Trofeo Mallorca</option><option value="3320">Trofeo Manacor</option><option value="2555">Trofeo Pollença</option><option value="3316">Trofeo Sóller</option><option value="3260">Urkiola Igoera - Subida Urkiola</option><option value="1251">Volta ao Algarve em Bicicleta</option><option value="1037">Volta Ciclista a Catalunya</option><option value="1191">Vuelta a Andalucia Ruta Ciclista Del Sol</option><option value="1714">Vuelta a Aragon</option><option value="1086">Vuelta a Burgos</option><option value="1175">Vuelta a Castilla y Leon</option><option value="1051">Vuelta a España</option><option value="1060">Vuelta Ciclista al Pais Vasco</option><option value="1101">Vuelta Ciclista a la Comunidad Valenciana</option><option value="1202">Vuelta ciclista a la region de Murcia</option><option value="1522">Vuelta Ciclista a la Rioja</option><option value="1062">World Championships ME - ITT</option><option value="1021">World Championships ME - Road Race</option><option value="1698">World Championships U23 - ITT</option></select></div></li>
 <li><div class="label">Distance</div><div><input type="text" class="" name="km1" value="" autocomplete="off"><input type="text" class="hide" name="zkm1" value="" autocomplete="off"></div><div><select name="pkm1" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="smallerorequal">&lt;=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
 <li><div class="label">Results per page</div><div><select class="" name="limit"><option value="50">50</option><option value="100" selected="">100</option><option value="200">200</option></select></div></li>
 <li><div class="label">Page</div><div><select class="" name="offset"><option value="0" selected="">1-100</option><option value="100">101-200</option><option value="200">201-300</option><option value="300">301-400</option><option value="400">401-500</option><option value="500">501-600</option><option value="600">601-700</option><option value="700">701-800</option><option value="800">801-900</option><option value="900">901-1000</option><option value="1000">1001-1100</option><option value="1100">1101-1123</option></select></div></li>
@@ -293,7 +292,8 @@
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
 <li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
-<li><a href="race/binckbank-tour">Binckbank Tour</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
 </ul></li>
 <li class="group"><h3>Rankings &amp; Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="statistics/start/points-per-age">Points per age</a></li>
@@ -311,12 +311,12 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1478 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1429kb) peak (1575kb)</span></li></ul></li>
+<li><span>0.1119 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1430kb) peak (1576kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1285"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
  
  
-<script src="search_list3.js"></script>
+<script src="search_list4.js"></script>
   
 </body></html>
