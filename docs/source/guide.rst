@@ -70,11 +70,15 @@ created from a page with one day race, the
 ``ExpectedParsingError`` because one day races don't have general
 classification.
 
-
-Parsing whole page
+Parsing all available data
 ------------------
 
-TODO
+When it's needed to get all parsable data from the page, use the 
+:class:`parse <procyclingstats.scraper.Scraper.parse>` method. It calls all
+the scraping methods of the scraping class and returns dictionary where keys
+are called scraping methods and values are returned parsed values. See the
+:class:`parse <procyclingstats.scraper.Scraper.parse>` method for more
+information.
 
 Comparing scraping objects
 --------------------------

@@ -127,9 +127,11 @@ class Scraper:
         Keys in dict are methods names and values parsed data
 
         :param exceptions_to_ignore: Tuple of exceptions that should be
-            ignored, defaults to ``(ExpectedParsingError,)``.
+            ignored when raised by parsing methods. Defaults to
+            ``(ExpectedParsingError,)``
         :param none_when_unavailable: Whether to set dict value to None when
-            method raises ignored exception.
+            method raises ignored exception. When False the key value pair is
+            skipped. Defaults to True.
         :return: Dict with parsing methods mapping to parsed data.
         """
         parsing_methods = self._parsing_methods()
