@@ -12,14 +12,14 @@ Using pip (NOT AVAILABLE YET):
 
 .. code-block:: text
 
-    pip install procyclingstats
+    $ pip install procyclingstats
 
 Manual (for development):
 
 .. code-block:: text
 
-    git clone https://github.com/themm1/procyclingstats.git
-    pip install -r requirements_dev.txt
+    $ git clone https://github.com/themm1/procyclingstats.git
+    $ pip install -r procyclingstats/requirements_dev.txt
 
 Basic usage
 -----------
