@@ -103,7 +103,8 @@ class Scraper:
         """
         Creates normalized relative URL. By default only removes extra slashes
         from user defined relative URL. Is used for evaluating equality of
-        objects and should be overridden by subclass.
+        objects and should be overridden by subclass. In general this method
+        should remove unnecessary information from the URL.
 
         :return: Normalized URL.
         """

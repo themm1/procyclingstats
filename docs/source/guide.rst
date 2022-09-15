@@ -71,7 +71,7 @@ created from a page with one day race, the
 classification.
 
 Parsing all available data
-------------------
+--------------------------
 
 When it's needed to get all parsable data from the page, use the 
 :class:`parse <procyclingstats.scraper.Scraper.parse>` method. It calls all
@@ -83,4 +83,13 @@ information.
 Comparing scraping objects
 --------------------------
 
-TODO
+Objects are equal when URLs returned by
+:class:`normalized_relative_url <procyclingstats.scraper.Scraper.normalized_relative_url>`
+are the same. When objects are equal, it means that the
+:class:`parse <procyclingstats.scraper.Scraper.parse>` method of both objects
+should return the same dictionary. However when objects aren't equal, dicts
+returned by their :class:`parse <procyclingstats.scraper.Scraper.parse>`
+methods may also be the same in some cases. For example 
+``Race("race/tour-de-france") != Race("race/tour-de-france/2022")`` is `True`
+even if in 2022 URLs of both objects point to the same page. The equality is
+determined solely from URL, so HTML isn't needed for comparing objects.
