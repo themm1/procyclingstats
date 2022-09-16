@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php">
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css">
-
-<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a135.css">
+	
+<script src="https://www.procyclingstats.com/pcs_s59.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico">
 </head>
@@ -69,24 +69,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
-<li><a href="team/movistar-team-2022">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/movistar-team-2022">Movistar Team</a></li>
 <li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
 <li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
-<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
 <li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
 <li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
 <li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,10 +95,9 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
-<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
-<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+<li class="more4 blue"><a class="reg" href="calendar/worlds-program">Worlds</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="calendar/worlds-program">Program</a></li>
+<li><a href="race/world-championship/2022/result/startlist">Startlist ME</a></li>
+<li><a href="race/world-championship-we/2022/result/startlist">Startlist WE</a></li>
 </ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
@@ -741,12 +740,12 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1418 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2829kb) peak (3079kb)</span></li></ul></li>
+<li><span>0.0956 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2829kb) peak (3080kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
  
  
-<script src="search_list3.js"></script>
+<script src="search_list4.js"></script>
   
 </body></html>

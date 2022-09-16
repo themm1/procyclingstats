@@ -233,7 +233,8 @@ class Stage(Scraper):
 
     def climbs(self, *args: str) -> List[Dict[str, str]]:
         """
-        Parses listed climbs from the stage.
+        Parses listed climbs from the stage. When climbs aren't listed returns
+        empty list.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
@@ -242,7 +243,6 @@ class Stage(Scraper):
             - climb_url: URL of the location of the climb, NOT the climb itself
 
         :raises ValueError: When one of args is of invalid value.
-        :raises ExpectedParsingError: When climbs are listed not in the HTML.
         :return: Table with wanted fields.
         """
         available_fields = (
@@ -252,7 +252,7 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         climbs_html = self.html.css_first("div > ul.list.circle")
         if climbs_html is None:
-            raise ExpectedParsingError("Climbs aren't listed in the HTML.")
+            return []
 
         table_parser = TableParser(climbs_html)
         table_parser.parse(fields)
@@ -342,7 +342,8 @@ class Stage(Scraper):
     def gc(self, *args: str) -> List[Dict[str, Any]]: \
         # pylint: disable=invalid-name
         """
-        Parses GC results table from HTML.
+        Parses GC results table from HTML. When GC is unavailable, empty list
+        is returned.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
@@ -360,7 +361,6 @@ class Stage(Scraper):
             - pcs_points:
             - uci_points:
 
-        :raises ExcpectedParsingError: When general classif. is unavailable.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -382,14 +382,15 @@ class Stage(Scraper):
         # remove other result tables from html
         gc_table_html = self._table_html("gc")
         if not gc_table_html:
-            raise ExpectedParsingError("GC table not in page HTML")
+            return []
         table_parser = TableParser(gc_table_html)
         table_parser.parse(fields)
         return table_parser.table
 
     def points(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses points classification results table from HTML.
+        Parses points classification results table from HTML. When points
+        classif. is unavailable empty list is returned.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
@@ -406,7 +407,6 @@ class Stage(Scraper):
             - pcs_points:
             - uci_points:
 
-        :raises ExcpectedParsingError: When points classif. is unavailable.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -427,14 +427,15 @@ class Stage(Scraper):
         # remove other result tables from html
         points_table_html = self._table_html("points")
         if not points_table_html:
-            raise ExpectedParsingError("Points table not in page HTML")
+            return []
         table_parser = TableParser(points_table_html)
         table_parser.parse(fields)
         return table_parser.table
 
     def kom(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses KOM classification results table from HTML.
+        Parses KOM classification results table from HTML. When KOM classif. is
+        unavailable empty list is returned.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
@@ -451,7 +452,6 @@ class Stage(Scraper):
             - pcs_points:
             - uci_points:
 
-        :raises ExcpectedParsingError: When KOM classif. is unavailable.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -472,14 +472,15 @@ class Stage(Scraper):
         # remove other result tables from html
         kom_table_html = self._table_html("kom")
         if not kom_table_html:
-            raise ExpectedParsingError("KOM table not in page HTML")
+            return []
         table_parser = TableParser(kom_table_html)
         table_parser.parse(fields)
         return table_parser.table
 
     def youth(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses youth classification results table from HTML.
+        Parses youth classification results table from HTML. When youth classif
+        is unavailable empty list is returned.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
@@ -496,7 +497,6 @@ class Stage(Scraper):
             - pcs_points:
             - uci_points:
 
-        :raises ExcpectedParsingError: When youth classif. is unavailable.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -516,14 +516,15 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         youth_table_html = self._table_html("youth")
         if not youth_table_html:
-            raise ExpectedParsingError("Youth table not in page HTML")
+            return []
         table_parser = TableParser(youth_table_html)
         table_parser.parse(fields)
         return table_parser.table
 
     def teams(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses teams classification results table from HTML.
+        Parses teams classification results table from HTML. When teams
+        classif. is unavailable empty list is returned.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
@@ -535,7 +536,6 @@ class Stage(Scraper):
             - time: Team's total GC time after the stage.
             - nationality: Team's nationality as 2 chars long country code.
 
-        :raises ExcpectedParsingError: When teams classif. is unavailable.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -550,7 +550,7 @@ class Stage(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         teams_table_html = self._table_html("teams")
         if not teams_table_html:
-            raise ExpectedParsingError("Teams table not in page HTML")
+            return []
         table_parser = TableParser(teams_table_html)
         table_parser.parse(fields)
         return table_parser.table

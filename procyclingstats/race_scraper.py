@@ -145,7 +145,8 @@ class Race(Scraper):
 
     def stages(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses race stages from HTML (available only on stage races).
+        Parses race stages from HTML (available only on stage races). When
+        race is one day race, empty list is returned.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
@@ -158,7 +159,6 @@ class Race(Scraper):
                 ``race/tour-de-france/2022/stage-2``.
             - distance: Stage distance in KMs as float.
 
-        :raises ExcpectedParsingError: When race is one day race.
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
@@ -170,8 +170,7 @@ class Race(Scraper):
             "distance"
         )
         if self.is_one_day_race():
-            raise ExpectedParsingError(
-                "This method is available only on stage races")
+            return []
 
         fields = parse_table_fields_args(args, available_fields)
         casual_fields = (

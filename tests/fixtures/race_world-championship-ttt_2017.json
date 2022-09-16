@@ -4,12 +4,12 @@
   "date": "2017-09-17",
   "departure": "Ravnanger",
   "distance": 42.5,
-  "gc": null,
+  "gc": [],
   "is_one_day_race": true,
-  "kom": null,
+  "kom": [],
   "normalized_relative_url": "race/world-championship-ttt/2017",
   "pcs_points_scale": "Worlds.TTT",
-  "points": null,
+  "points": [],
   "profile_icon": "p0",
   "profile_score": null,
   "race_startlist_quality_score": 612,
@@ -1444,10 +1444,10 @@
     }
   ],
   "stage_type": "TTT",
-  "teams": null,
+  "teams": [],
   "uci_points_scale": "UCI.WR.Worlds.TTT",
   "vertical_meters": null,
   "winning_attack_length": null,
   "won_how": "Time Trial",
-  "youth": null
+  "youth": []
 }
