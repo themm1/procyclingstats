@@ -64,11 +64,13 @@ methods:
 
 Some parsing methods might be unavailable with some HTMLs. In that case the
 method raises ``ExpectedParsingError`` after being called. For an example, when
-a :class:`Stage <procyclingstats.stage_scraper.Stage>` scraping object is
-created from a page with one day race, the
-:meth:`Stage.gc <procyclingstats.stage_scraper.Stage.gc>` method raises
-``ExpectedParsingError`` because one day races don't have general
-classification.
+a :class:`Ranking <procyclingstats.ranking_scraper.Ranking>` scraping object is
+created from a URL that points to a page with team ranking
+:meth:`Ranking.individual_ranking <procyclingstats.stage_scraper.Stage.individual_ranking>`
+method raises ``ExpectedParsingError``, because the ranking on the page isn't
+an individual ranking. Use instead 
+:meth:`Ranking.team_ranking <procyclingstats.stage_scraper.Stage.team_ranking>`
+method to get the ranking.
 
 Parsing all available data
 --------------------------
