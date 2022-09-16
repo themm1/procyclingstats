@@ -8,5 +8,11 @@ page.
 
 Grouping climbs by stages
 -------------------------
+
 .. literalinclude:: ../../examples/climbs_by_stages.py
+   :language: python
+   
+Async usage
+-------------------------
+.. literalinclude:: ../../examples/async_usage.py
    :language: python
