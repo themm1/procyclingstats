@@ -1,8 +1,8 @@
 {
   "dates_select": [
     {
-      "text": "2022-09-10",
-      "value": "2022-09-10"
+      "text": "2022-10-07",
+      "value": "2022-10-07"
     },
     {
       "text": "2021-12-31",
@@ -576,7 +576,7 @@
       "nationality": "IT",
       "class": "WC",
       "points": 1233.0,
-      "race_name": "World Championships - Road Race",
+      "race_name": "World Championships ME - Road Race",
       "race_url": "race/world-championship/2020"
     },
     {
@@ -1107,7 +1107,7 @@
       "nationality": "IT",
       "class": "WC",
       "points": 233.0,
-      "race_name": "World Championships - ITT",
+      "race_name": "World Championships ME - ITT",
       "race_url": "race/world-championship-itt/2020"
     },
     {

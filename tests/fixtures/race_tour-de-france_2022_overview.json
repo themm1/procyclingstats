@@ -8,6 +8,10 @@
   "normalized_relative_url": "race/tour-de-france/2022/overview",
   "prev_editions": [
     {
+      "text": "2023",
+      "value": "race/tour-de-france/2023/overview/overview"
+    },
+    {
       "text": "2022",
       "value": "race/tour-de-france/2022/overview/overview"
     },

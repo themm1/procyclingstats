@@ -8,6 +8,10 @@
   "normalized_relative_url": "race/paris-roubaix/2020/overview",
   "prev_editions": [
     {
+      "text": "2023",
+      "value": "race/paris-roubaix/2023/overview/overview"
+    },
+    {
       "text": "2022",
       "value": "race/paris-roubaix/2022/overview/overview"
     },
