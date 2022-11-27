@@ -169,7 +169,7 @@ class Rider(Scraper):
         # add classes for row validity checking
         classes = table_parser.parse_extra_column(2,
             lambda x: x.replace("(", "").replace(")", "").replace(" ", "")
-            if x and "retired" not in x else None)
+            if x and "retired" not in x.lower() else None)
         table_parser.extend_table("class", classes)
         if "since" in fields:
             until_dates = table_parser.parse_extra_column(-2,

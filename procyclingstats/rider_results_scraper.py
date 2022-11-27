@@ -195,7 +195,7 @@ class RiderResults(Scraper):
         casual_fields = [f for f in fields
             if f not in ("vertical_meters", "average_percentage")]
 
-        results_table_html = self.html.css_first("table")
+        results_table_html = self.html.css_first("div:nth-child(4) table")
         table_parser = TableParser(results_table_html)
         table_parser.parse(casual_fields)
         # add vertical meters column if needed

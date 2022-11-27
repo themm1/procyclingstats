@@ -113,7 +113,7 @@ class RaceClimbs(Scraper):
             "km_before_finnish"
         )
         fields = parse_table_fields_args(args, available_fields)
-        table_html = self.html.css_first("div > table")
+        table_html = self.html.css_first("table.basic")
         if table_html.css_first("tbody > tr") is None:
             raise ExpectedParsingError("Climbs aren't listed on the page.")
         table_parser = TableParser(table_html)

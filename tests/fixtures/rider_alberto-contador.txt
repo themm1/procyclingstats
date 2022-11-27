@@ -34,15 +34,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php">
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css">
-
-<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a137.css">
+	
+<script src="https://www.procyclingstats.com/pcs_s62.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico">
 </head>
 <body>
 <div class="wrapper">
-  <header class="  ">
+  <header class="">
     <div class="cont">
     	<a class="logo4" href="index.php"><ul><li class="r">P</li><li class="r">C</li><li class="z">S</li></ul></a>
 
@@ -69,24 +69,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
-<li><a href="team/movistar-team-2022">Movistar Team</a></li>
-<li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
-<li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
-<li><a href="team/team-dsm-2022">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
 <li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
-<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
 <li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
 <li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
+<li><a href="team/movistar-team-2022">Movistar Team</a></li>
+<li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
+<li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,19 +95,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
-<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
-<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/about-us">About us</a></li>
-<li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -118,13 +113,14 @@
 			 </div>
 			 <a class="user4" data-logged="0" href="login.php"><span>❖</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>✱</span><font>settings</font></a>    </div>
   </header>  
-<div class="content  "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/alberto-contador">Overview</a></li>
+<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/alberto-contador">Overview</a></li>
 <li class="reg "><a class="" href="rider/alberto-contador/statistics">Statistics▼</a><ul><li><a href="rider/alberto-contador/statistics/overview">Overview</a></li>
 <li><a href="rider/alberto-contador/statistics/wins">Wins</a></li>
 <li><a href="rider/alberto-contador/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/alberto-contador/statistics/most-starts-by-race">Most starts by race</a></li>
 <li><a href="rider/alberto-contador/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/alberto-contador/statistics/grand-tour-starts">Grand tour starts</a></li>
+<li><a href="rider/alberto-contador/statistics/injury-history">Injury history</a></li>
 </ul></li>
 <li class="reg "><a class="" href="rider/alberto-contador/results">Results</a></li>
 <li class="reg "><a class="" href="rider/alberto-contador/head-to-head">Head to head</a></li>
@@ -141,23 +137,24 @@
 <li data-n="1"><a href="rider/alberto-contador/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/alberto-contador/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/alberto-contador/statistics/grand-tour-starts">Grand tour starts</a></li>
+<li data-n="1"><a href="rider/alberto-contador/statistics/injury-history">Injury history</a></li>
 <li data-n="2"><a href="rider/alberto-contador/results/all">Results - All results</a></li><li data-n="3"><a href="rider/alberto-contador/head-to-head/start">Head to head - Head-to-head</a></li><li data-n="4"><a href="rider/alberto-contador/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/alberto-contador/contribute/contribute-info">More - Contribute info</a></li><li data-n="5"><a href="rider/alberto-contador/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/alberto-contador/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/alberto-contador/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/alberto-contador/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/alberto-contador/contribute/embed-rider-results">Embed rider results</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title "><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Alberto  Contador</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1"><h2></h2><div class="">
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/alberto-contador/statistics/overview"><img src="images/riders/bp/da/alberto-contador-2017.jpg"></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 6<sup>th</sup> December 1982 (39)<br><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br><span><b>Weight:</b> 61 kg &nbsp; <span><b>Height:</b> 1.76 m<br><b>Place of birth:</b> <a href="location.php?id=5786">Pinto</a><br><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 6.758535943123%; height: 100%;  "></div></div><div class="pnt">770</div><div class="title"><a href="rider/alberto-contador/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">11393</div><div class="title"><a href="rider/alberto-contador/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 46.677784604582%; height: 100%;  "></div></div><div class="pnt">5318</div><div class="title"><a href="rider/alberto-contador/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 9.5321688756254%; height: 100%;  "></div></div><div class="pnt">1086</div><div class="title"><a href="rider/alberto-contador/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 68.805406828754%; height: 100%;  "></div></div><div class="pnt">7839</div><div class="title"><a href="rider/alberto-contador/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/alberto-contador/statistics/overview"><img src="images/riders/bp/da/alberto-contador-2017.jpg"></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 6<sup>th</sup> December 1982 (39)<br><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br><span><b>Weight:</b> 61 kg &nbsp; <span><b>Height:</b> 1.76 m<br><b>Place of birth:</b> <a href="location.php?id=5786">Pinto</a><br><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 6.758535943123%; height: 100%;  "></div></div><div class="pnt">770</div><div class="title"><a href="rider/alberto-contador/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">11393</div><div class="title"><a href="rider/alberto-contador/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 53.155446326692%; height: 100%;  "></div></div><div class="pnt">6056</div><div class="title"><a href="rider/alberto-contador/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 10.848766786623%; height: 100%;  "></div></div><div class="pnt">1236</div><div class="title"><a href="rider/alberto-contador/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 82.524357061353%; height: 100%;  "></div></div><div class="pnt">9402</div><div class="title"><a href="rider/alberto-contador/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a target="_blank" class="" href="https://twitter.com/albertocontador">twitter</a></li>
 <li><span class="icon strava left"></span><a target="_blank" class="" href="https://www.strava.com/athletes/24030059">strava</a></li>
 <li><span class="icon instagram left"></span><a target="_blank" class="" href="https://www.instagram.com/acontadoroficial/">instagram</a></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal rdr-rankings" style=" "><li class=""><div class="title   "><a href="rankings/me/all-time">Specials | All Time Ranking</a></div><div class="rnk   ">29</div><div class="clear"></div></li>
-</ul></div>
+<span class="table-cont"><ul class="list horizontal rdr-rankings" style=" "><li class=""><div class="title   "><a href="rankings/me/all-time">All time</a></div><div class="rnk   ">29</div><div class="clear"></div></li>
+</ul></span></div>
 <div class="">
-<ul class="list horizontal" style=" "><li class=""><div class="bold   ">Visits:</div><div><span class="delta-down">▼171</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
-</ul></div>
+<span class="table-cont"><ul class="list horizontal" style=" "><li class=""><div class="bold   ">Visits:</div><div><span class="delta-down">▼95</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
+</ul></span></div>
 </span></span></div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-a-espana/2014/gc">Vuelta a España</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14, '12, '08)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-de-france/2009/gc">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('09, '07)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>4x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/itzulia-basque-country/2016/gc">Vuelta Ciclista al Pais Vasco</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16, '14, '09, '08)</span></div></li>
@@ -169,10 +166,10 @@
 <li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2009/stage-18">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('09, '07)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>5x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/paris-nice/2010/stage-4">Paris - Nice</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('10, '09, '07)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-a-castilla-y-leon/2010/gc">Vuelta a Castilla y Leon</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('10, '08, '07)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/dauphine/2016/prologue">Criterium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16, '10)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/dauphine/2016/prologue">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16, '10)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<ul class="list rdr-teams moblist moblist " data-shortnr="4" style=" "><li class=" main "><div class="season   "></div><div class="name   "><a href="team/"></a></div><div>retired since 2017-09-10</div><div class="fs10   "></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4" style=" "><li class=" main "><div class="season   "></div><div class="name   "><a href="team/"></a></div><div>Retired since 2017-09-10</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2017</div><div class="name   "><a href="team/trek-segafredo-2017">Trek - Segafredo</a></div><div> (WT)</div><div class="fs10   "> until 10/09</div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2016</div><div class="name   "><a href="team/tinkoff-2016">Tinkoff</a></div><div> (WT)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2015</div><div class="name   "><a href="team/tinkoff-saxo-2015">Tinkoff - Saxo</a></div><div> (WT)</div><div class="fs10   "></div><div class="clear"></div></li>
@@ -184,12 +181,12 @@
 <li class=" main "><div class="season   ">2009</div><div class="name   "><a href="team/astana-pro-team-2009">Astana</a></div><div> (WT)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2008</div><div class="name   "><a href="team/astana-2008">Astana</a></div><div> (PT)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2007</div><div class="name   "><a href="team/discovery-channel-2007">Discovery Channel </a></div><div> (PT)</div><div class="fs10   "></div><div class="clear"></div></li>
-<li class=" main "><div class="season   ">2006</div><div class="name   "><a href="team/astana-2006">Astana</a></div><div> (PT)</div><div class="fs10   "></div><div class="clear"></div></li>
+<li class=" main "><div class="season   ">2006</div><div class="name   "><a href="team/liberty-seguros-wurth-2006">Liberty Seguros - Würth</a></div><div> (PT)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2005</div><div class="name   "><a href="team/liberty-seguros-wurth-team-2005">Liberty Seguros - Würth Team</a></div><div> (PT)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2004</div><div class="name   "><a href="team/liberty-seguros-2004">Liberty Seguros</a></div><div> (TT1)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2003</div><div class="name   "><a href="team/o.n.c.e.-eroski-2003">O.N.C.E. - Eroski</a></div><div> (TT1)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">2002</div><div class="name   "><a href="team/o.n.c.e.-eroski-2002">O.N.C.E. - Eroski</a></div><div> (TT1)</div><div class="fs10   ">&nbsp;trainee as from 01/09</div><div class="clear"></div></li>
-</ul><a class="showFullList hide showIfMobile" href="">show more</a></div>
+</ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2017" class="cur"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=""><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=""><a class="seasonResults" data-season="2012" href="">2012</a></li><li data-season="2011" class=""><a class="seasonResults" data-season="2011" href="">2011</a></li><li data-season="2010" class=""><a class="seasonResults" data-season="2010" href="">2010</a></li><li data-season="2009" class=""><a class="seasonResults" data-season="2009" href="">2009</a></li><li data-season="2008" class=""><a class="seasonResults" data-season="2008" href="">2008</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=" "><a class="seasonResults" data-season="2012" href="">2012</a></li><li data-season="2011" class=" "><a class="seasonResults" data-season="2011" href="">2011</a></li><li data-season="2010" class=" "><a class="seasonResults" data-season="2010" href="">2010</a></li><li data-season="2009" class=" "><a class="seasonResults" data-season="2009" href="">2009</a></li><li data-season="2008" class=" "><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=" "><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=" "><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=" "><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=" "><a class="seasonResults" data-season="2004" href="">2004</a></li><li data-season="2003" class=" "><a class="seasonResults" data-season="2003" href="">2003</a></li><li data-season="2002" class=" "><a class="seasonResults" data-season="2002" href="">2002</a></li><li data-season="2001" class=" "><a class="seasonResults" data-season="2001" href="">2001</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br>Date</th><th style="width: 4%;"><br>Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br>Race</th><th class="cu600 " style="width: 8%;"><br>Distance</th><th class="cu600" style="width: 8%;">Points<br>PCS</th><th class="cu600 " style="width: 8%;">Points<br>UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
 <tr data-main="1"><td>19.08 » 10.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2017/kom">Vuelta a España <span>(2.UWT)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=137456&amp;p=statistics&amp;s=statistics-in-race&amp;race=1051">more</a></td></tr>
@@ -301,33 +298,33 @@
 <tr data-main="0"><td>17.02</td><td>3</td><td class="gc cu600">2</td><td style="padding: 0; "><span class="icon chrono"></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2017/stage-3">Stage 3 (ITT) - Lucena › Córdoba</a> </td><td class="cu600 ">12</td><td class="cu600">12</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider.php?id=137456&amp;p=statistics&amp;s=statistics-in-race&amp;race=1191">more</a></td></tr>
 <tr data-main="0"><td>16.02</td><td>2</td><td class="gc cu600">1</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2017/stage-2">Stage 2 - Torredonjimeno › Alto Peña del Águila, Mancha Real (Jaén)</a> </td><td class="cu600 ">177.9</td><td class="cu600">18</td><td class="cu600 ">10<span style="font-size: 10px; letter-spacing: -0.5px; color:#d1b934; ">&nbsp;+5</span></td><td class="cu600"><a class="more" href="rider.php?id=137456&amp;p=statistics&amp;s=statistics-in-race&amp;race=1191">more</a></td></tr>
 <tr data-main="0"><td>15.02</td><td>6</td><td class="gc cu600">6</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2017/stage-1">Stage 1 - Rincón de la Victoria (Málaga) › Granada</a> </td><td class="cu600 ">155.4</td><td class="cu600">3</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=137456&amp;p=statistics&amp;s=statistics-in-race&amp;race=1191">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum"><div>12462 km in <b>80</b> days | PCS points: <b>1708</b> |  UCI points: <b>2157</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<ul class="rider-kpi" style=" "><li class=""><div class="nr   ">68</div><div class="title   "><a href="rider/alberto-contador/statistics/wins">Wins</a></div><div class="info fs11   ">GC (22)</div><div class="info fs11   ">Oneday races (2)</div><div class="info fs11   ">ITT (13)</div><div class="info fs11   "></div><div class="info fs11   "></div><div class="clear"></div></li>
+</tbody></table><div class="rdrResultsSum"><div>12462 km in <b>80</b> days | PCS points: <b>1708</b> |  UCI points: <b>2157</b></div></div></div><div style="float: right; margin-top: 8px; "><span style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"></path><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"></path></g></svg> = number of kilometres in a group before the peloton</span></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi" style=" "><li class=""><div class="nr   ">68</div><div class="title   "><a href="rider/alberto-contador/statistics/wins">Wins</a></div><div class="info fs11   ">GC (22)</div><div class="info fs11   ">Oneday races (2)</div><div class="info fs11   ">ITT (13)</div><div class="info fs11   "></div><div class="info fs11   "></div><div class="clear"></div></li>
 <li class=""><div class="nr   ">18</div><div class="title   "><a href="rider/alberto-contador/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   ">tour (10) giro (3) vuelta(5)</div><div class="info fs11   "></div><div class="info fs11   "></div><div class="info fs11   "></div><div class="info fs11   "></div><div class="clear"></div></li>
 <li class=""><div class="nr   ">8</div><div class="title   "><a href="rider/alberto-contador/statistics/top-classic-results">Classics</a></div><div class="info fs11   ">RBX(0)</div><div class="info fs11   ">MSR(0)</div><div class="info fs11   ">RVV(0)</div><div class="info fs11   ">LBL(4)</div><div class="info fs11   ">LOM(4)</div><div class="clear"></div></li>
-</ul></div>
+</ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
-<table class="basic rdr-season-stats" style=""><thead><tr><th class="season  " style="width: 16.7%; "></th><th class="bar  " style="width: 66.7%; ">Points</th><th class="ac  " style="width: 16.7%; ">position</th></tr></thead><tbody>
+<span class="table-cont"><table class="basic rdr-season-stats" style=""><thead><tr><th class="season  " style="width: 16.7%; "></th><th class="bar  " style="width: 66.7%; ">Points</th><th class="ac  " style="width: 16.7%; ">position</th></tr></thead><tbody>
 <tr><td class="season  ">2017</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 63%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1708</span></div></td><td class="ac  ">9</td></tr>
 <tr><td class="season  ">2016</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 58.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1595</span></div></td><td class="ac  ">8</td></tr>
 <tr><td class="season  ">2015</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 57%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1546</span></div></td><td class="ac  ">10</td></tr>
 <tr><td class="season  ">2014</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">2170</span></div></td><td class="ac  ">2</td></tr>
 <tr><td class="season  ">2013</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 46%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1248</span></div></td><td class="ac  ">17</td></tr>
 <tr><td class="season  ">2012</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 43.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1170</span></div></td><td class="ac  ">18</td></tr>
-<tr><td class="season  ">2011</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 3.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">100</span></div></td><td class="ac  ">539</td></tr>
+<tr><td class="season  ">2011</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 3.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">100</span></div></td><td class="ac  ">537</td></tr>
 <tr><td class="season  ">2010</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 39.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1076</span></div></td><td class="ac  ">22</td></tr>
 <tr><td class="season  ">2009</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 71%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1926</span></div></td><td class="ac  ">2</td></tr>
 <tr><td class="season  ">2008</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 77.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">2113</span></div></td><td class="ac  ">2</td></tr>
 <tr><td class="season  ">2007</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 59%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1601</span></div></td><td class="ac  ">6</td></tr>
 <tr><td class="season  ">2006</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 21.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">589</span></div></td><td class="ac  ">73</td></tr>
 <tr><td class="season  ">2005</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 29.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">811</span></div></td><td class="ac  ">36</td></tr>
-<tr><td class="season  ">2004</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 4.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">121</span></div></td><td class="ac  ">462</td></tr>
-<tr><td class="season  ">2003</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 3.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">103</span></div></td><td class="ac  ">489</td></tr>
-<tr><td class="season  ">2002</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 0.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">6</span></div></td><td class="ac  ">1422</td></tr>
-</tbody></table></div>
+<tr><td class="season  ">2004</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 4.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">121</span></div></td><td class="ac  ">459</td></tr>
+<tr><td class="season  ">2003</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 3.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">103</span></div></td><td class="ac  ">490</td></tr>
+<tr><td class="season  ">2002</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 0.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">6</span></div></td><td class="ac  ">1416</td></tr>
+</tbody></table></span></div>
 <div class="mt30"><h3>Family</h3>
-<ul class="list" style=" "><li class=""><div><a href="rider/francisco-javier-contador">Francisco Javier  Contador</a></div><div>&nbsp;(Brother)</div><div class="clear"></div></li>
-</ul></div>
+<span class="table-cont"><ul class="list" style=" "><li class=""><div><a href="rider/francisco-javier-contador">Francisco Javier  Contador</a></div><div>&nbsp;(Brother)</div><div class="clear"></div></li>
+</ul></span></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
   var id = 137456; 
@@ -343,7 +340,7 @@ $(document).ready(function(){
     e.preventDefault();        
     discipline = $(this).attr('data-discipline');
     id = $(this).attr('data-rid');
-    //console.log('dis: '+discipline+', id: '+$(this).attr('data-rid')+', season: '+$(this).attr('data-season'));
+    console.log('dis: '+discipline+', id: '+$(this).attr('data-rid')+', season: '+$(this).attr('data-season'));
     $('.rdrSeasonNav').hide();
     $('.rdrSeasonNav[data-discipline="'+discipline+'"]').show(); 
     $(".rdrSeasonNav li").removeClass('cur');
@@ -412,7 +409,8 @@ $(document).ready(function(){
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
 <li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
-<li><a href="race/binckbank-tour">Binckbank Tour</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
 </ul></li>
 <li class="group"><h3>Rankings &amp; Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="statistics/start/points-per-age">Points per age</a></li>
@@ -430,12 +428,12 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.7174 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1739kb) peak (2681kb)</span></li></ul></li>
+<li><span>0.1200 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1772kb) peak (2722kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
  
  
-<script src="search_list3.js"></script>
+<script src="search_list4.js"></script>
   
 </body></html>

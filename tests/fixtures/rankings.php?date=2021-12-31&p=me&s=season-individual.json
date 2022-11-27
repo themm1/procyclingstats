@@ -1,8 +1,8 @@
 {
   "dates_select": [
     {
-      "text": "2022-09-10",
-      "value": "2022-09-10"
+      "text": "2022-11-20",
+      "value": "2022-11-20"
     },
     {
       "text": "2021-12-31",
@@ -513,7 +513,7 @@
       "team_name": "Team Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2021",
       "nationality": "BE",
-      "points": 2820.0
+      "points": 2812.8
     },
     {
       "rank": 3,
@@ -533,7 +533,7 @@
       "team_name": "Deceuninck - Quick Step",
       "team_url": "team/deceuninck-quick-step-2021",
       "nationality": "FR",
-      "points": 1975.0
+      "points": 1965.0
     },
     {
       "rank": 5,
@@ -653,7 +653,7 @@
       "team_name": "Israel Start-Up Nation",
       "team_url": "team/israel-start-up-nation-2021",
       "nationality": "CA",
-      "points": 1222.0
+      "points": 1217.0
     },
     {
       "rank": 17,
@@ -673,7 +673,7 @@
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2021",
       "nationality": "NL",
-      "points": 1195.0
+      "points": 1170.0
     },
     {
       "rank": 19,
@@ -707,13 +707,13 @@
     },
     {
       "rank": 22,
-      "prev_rank": 1004,
+      "prev_rank": 993,
       "rider_name": "Cavendish Mark",
       "rider_url": "rider/mark-cavendish",
       "team_name": "Deceuninck - Quick Step",
       "team_url": "team/deceuninck-quick-step-2021",
       "nationality": "GB",
-      "points": 1127.0
+      "points": 1112.2
     },
     {
       "rank": 23,
@@ -733,7 +733,7 @@
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2021",
       "nationality": "CH",
-      "points": 1077.0
+      "points": 1072.0
     },
     {
       "rank": 25,
@@ -753,7 +753,7 @@
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2021",
       "nationality": "GB",
-      "points": 1043.0
+      "points": 1028.8
     },
     {
       "rank": 27,
@@ -873,7 +873,7 @@
       "team_name": "Deceuninck - Quick Step",
       "team_url": "team/deceuninck-quick-step-2021",
       "nationality": "DK",
-      "points": 862.0
+      "points": 847.2
     },
     {
       "rank": 39,
@@ -957,16 +957,6 @@
     },
     {
       "rank": 47,
-      "prev_rank": 9,
-      "rider_name": "Porte Richie",
-      "rider_url": "rider/richie-porte",
-      "team_name": "INEOS Grenadiers",
-      "team_url": "team/ineos-grenadiers-2021",
-      "nationality": "AU",
-      "points": 797.0
-    },
-    {
-      "rank": 48,
       "prev_rank": 108,
       "rider_name": "Izagirre Ion",
       "rider_url": "rider/ion-izagirre",
@@ -976,7 +966,7 @@
       "points": 792.0
     },
     {
-      "rank": 49,
+      "rank": 48,
       "prev_rank": 14,
       "rider_name": "Ackermann Pascal",
       "rider_url": "rider/pascal-ackermann",
@@ -984,6 +974,16 @@
       "team_url": "team/bora-hansgrohe-2021",
       "nationality": "DE",
       "points": 785.0
+    },
+    {
+      "rank": 49,
+      "prev_rank": 9,
+      "rider_name": "Porte Richie",
+      "rider_url": "rider/richie-porte",
+      "team_name": "INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2021",
+      "nationality": "AU",
+      "points": 784.5
     },
     {
       "rank": 50,
@@ -1027,16 +1027,6 @@
     },
     {
       "rank": 54,
-      "prev_rank": 24,
-      "rider_name": "Ganna Filippo",
-      "rider_url": "rider/filippo-ganna",
-      "team_name": "INEOS Grenadiers",
-      "team_url": "team/ineos-grenadiers-2021",
-      "nationality": "IT",
-      "points": 716.0
-    },
-    {
-      "rank": 55,
       "prev_rank": 99,
       "rider_name": "Viviani Elia",
       "rider_url": "rider/elia-viviani",
@@ -1046,7 +1036,7 @@
       "points": 707.0
     },
     {
-      "rank": 56,
+      "rank": 55,
       "prev_rank": 91,
       "rider_name": "Chaves Esteban",
       "rider_url": "rider/johan-esteban-chaves",
@@ -1056,7 +1046,7 @@
       "points": 701.0
     },
     {
-      "rank": 57,
+      "rank": 56,
       "prev_rank": 100,
       "rider_name": "Ur\u00e1n Rigoberto",
       "rider_url": "rider/rigoberto-uran",
@@ -1066,8 +1056,8 @@
       "points": 700.0
     },
     {
-      "rank": 58,
-      "prev_rank": 128,
+      "rank": 57,
+      "prev_rank": 129,
       "rider_name": "Jakobsen Fabio",
       "rider_url": "rider/fabio-jakobsen",
       "team_name": "Deceuninck - Quick Step",
@@ -1076,8 +1066,8 @@
       "points": 700.0
     },
     {
-      "rank": 59,
-      "prev_rank": 486,
+      "rank": 58,
+      "prev_rank": 485,
       "rider_name": "Pidcock Thomas",
       "rider_url": "rider/thomas-pidcock",
       "team_name": "INEOS Grenadiers",
@@ -1086,7 +1076,7 @@
       "points": 695.0
     },
     {
-      "rank": 60,
+      "rank": 59,
       "prev_rank": 50,
       "rider_name": "Cosnefroy Beno\u00eet",
       "rider_url": "rider/benoit-cosnefroy",
@@ -1094,6 +1084,16 @@
       "team_url": "team/ag2r-citroen-team-2021",
       "nationality": "FR",
       "points": 690.0
+    },
+    {
+      "rank": 60,
+      "prev_rank": 24,
+      "rider_name": "Ganna Filippo",
+      "rider_url": "rider/filippo-ganna",
+      "team_name": "INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2021",
+      "nationality": "IT",
+      "points": 686.0
     },
     {
       "rank": 61,
@@ -1113,20 +1113,10 @@
       "team_name": "Israel Start-Up Nation",
       "team_url": "team/israel-start-up-nation-2021",
       "nationality": "BE",
-      "points": 672.0
+      "points": 663.4
     },
     {
       "rank": 63,
-      "prev_rank": 37,
-      "rider_name": "Lampaert Yves",
-      "rider_url": "rider/yves-lampaert",
-      "team_name": "Deceuninck - Quick Step",
-      "team_url": "team/deceuninck-quick-step-2021",
-      "nationality": "BE",
-      "points": 657.0
-    },
-    {
-      "rank": 64,
       "prev_rank": 67,
       "rider_name": "Wellens Tim",
       "rider_url": "rider/tim-wellens",
@@ -1134,6 +1124,16 @@
       "team_url": "team/lotto-soudal-2021",
       "nationality": "BE",
       "points": 648.0
+    },
+    {
+      "rank": 64,
+      "prev_rank": 37,
+      "rider_name": "Lampaert Yves",
+      "rider_url": "rider/yves-lampaert",
+      "team_name": "Deceuninck - Quick Step",
+      "team_url": "team/deceuninck-quick-step-2021",
+      "nationality": "BE",
+      "points": 647.0
     },
     {
       "rank": 65,
@@ -1247,7 +1247,7 @@
     },
     {
       "rank": 76,
-      "prev_rank": 321,
+      "prev_rank": 320,
       "rider_name": "Politt Nils",
       "rider_url": "rider/nils-politt",
       "team_name": "BORA - hansgrohe",
@@ -1273,7 +1273,7 @@
       "team_name": "Israel Start-Up Nation",
       "team_url": "team/israel-start-up-nation-2021",
       "nationality": "IE",
-      "points": 595.0
+      "points": 590.0
     },
     {
       "rank": 79,
@@ -1307,16 +1307,6 @@
     },
     {
       "rank": 82,
-      "prev_rank": 48,
-      "rider_name": "Kwiatkowski Micha\u0142",
-      "rider_url": "rider/michal-kwiatkowski",
-      "team_name": "INEOS Grenadiers",
-      "team_url": "team/ineos-grenadiers-2021",
-      "nationality": "PL",
-      "points": 562.0
-    },
-    {
-      "rank": 83,
       "prev_rank": 30,
       "rider_name": "Landa Mikel",
       "rider_url": "rider/mikel-landa",
@@ -1326,7 +1316,7 @@
       "points": 560.0
     },
     {
-      "rank": 84,
+      "rank": 83,
       "prev_rank": 63,
       "rider_name": "Benoot Tiesj",
       "rider_url": "rider/tiesj-benoot",
@@ -1336,7 +1326,7 @@
       "points": 559.0
     },
     {
-      "rank": 85,
+      "rank": 84,
       "prev_rank": 245,
       "rider_name": "M\u00e4der Gino",
       "rider_url": "rider/gino-mader",
@@ -1344,6 +1334,16 @@
       "team_url": "team/bahrain-victorious-2021",
       "nationality": "CH",
       "points": 557.0
+    },
+    {
+      "rank": 85,
+      "prev_rank": 48,
+      "rider_name": "Kwiatkowski Micha\u0142",
+      "rider_url": "rider/michal-kwiatkowski",
+      "team_name": "INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2021",
+      "nationality": "PL",
+      "points": 549.5
     },
     {
       "rank": 86,
@@ -1357,16 +1357,6 @@
     },
     {
       "rank": 87,
-      "prev_rank": 545,
-      "rider_name": "Bonnamour Franck",
-      "rider_url": "rider/franck-bonnamour",
-      "team_name": "B&B Hotels p/b KTM",
-      "team_url": "team/b-b-hotels-pb-ktm-2021",
-      "nationality": "FR",
-      "points": 532.0
-    },
-    {
-      "rank": 88,
       "prev_rank": 127,
       "rider_name": "Turgis Anthony",
       "rider_url": "rider/anthony-turgis",
@@ -1376,13 +1366,23 @@
       "points": 532.0
     },
     {
-      "rank": 89,
+      "rank": 88,
       "prev_rank": 56,
       "rider_name": "Carthy Hugh",
       "rider_url": "rider/hugh-carthy",
       "team_name": "EF Education - Nippo",
       "team_url": "team/ef-education-nippo-2021",
       "nationality": "GB",
+      "points": 532.0
+    },
+    {
+      "rank": 89,
+      "prev_rank": 543,
+      "rider_name": "Bonnamour Franck",
+      "rider_url": "rider/franck-bonnamour",
+      "team_name": "B&B Hotels p/b KTM",
+      "team_url": "team/b-b-hotels-pb-ktm-2021",
+      "nationality": "FR",
       "points": 532.0
     },
     {
@@ -1397,7 +1397,7 @@
     },
     {
       "rank": 91,
-      "prev_rank": 483,
+      "prev_rank": 482,
       "rider_name": "Swift Connor",
       "rider_url": "rider/connor-swift",
       "team_name": "Team Ark\u00e9a Samsic",
@@ -1447,7 +1447,7 @@
     },
     {
       "rank": 96,
-      "prev_rank": 417,
+      "prev_rank": 419,
       "rider_name": "Moscon Gianni",
       "rider_url": "rider/gianni-moscon",
       "team_name": "INEOS Grenadiers",
@@ -1487,13 +1487,13 @@
     },
     {
       "rank": 100,
-      "prev_rank": 106,
-      "rider_name": "Ballerini Davide",
-      "rider_url": "rider/davide-ballerini",
-      "team_name": "Deceuninck - Quick Step",
-      "team_url": "team/deceuninck-quick-step-2021",
-      "nationality": "IT",
-      "points": 507.0
+      "prev_rank": 75,
+      "rider_name": "Higuita Sergio",
+      "rider_url": "rider/sergio-higuita",
+      "team_name": "EF Education - Nippo",
+      "team_url": "team/ef-education-nippo-2021",
+      "nationality": "CO",
+      "points": 506.0
     }
   ],
   "individual_wins_ranking": null,
@@ -1996,7 +1996,7 @@
       "value": "2100"
     },
     {
-      "text": "2201-2245",
+      "text": "2201-2250",
       "value": "2200"
     }
   ],
@@ -2738,7 +2738,7 @@
       "value": "2214"
     },
     {
-      "text": "Team Coop",
+      "text": "Team Coop ",
       "value": "1363"
     },
     {

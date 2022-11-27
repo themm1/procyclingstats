@@ -178,7 +178,7 @@ class Race(Scraper):
             "stage_name",
             "stage_url"
         )
-        stages_table_html = self.html.css_first("div:nth-child(3) > ul.list")
+        stages_table_html = self.html.css_first("div.mt20 ul.list")
         # remove rest day table rows
         for stage_e in stages_table_html.css("li"):
             dist = stage_e.css_first("div:nth-child(5)").text()

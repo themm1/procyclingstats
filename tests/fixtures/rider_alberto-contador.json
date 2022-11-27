@@ -39,7 +39,7 @@
     {
       "season": 2011,
       "points": 100.0,
-      "rank": 539
+      "rank": 537
     },
     {
       "season": 2010,
@@ -74,17 +74,17 @@
     {
       "season": 2004,
       "points": 121.0,
-      "rank": 462
+      "rank": 459
     },
     {
       "season": 2003,
       "points": 103.0,
-      "rank": 489
+      "rank": 490
     },
     {
       "season": 2002,
       "points": 6.0,
-      "rank": 1422
+      "rank": 1416
     }
   ],
   "teams_history": [
@@ -178,8 +178,8 @@
     },
     {
       "season": 2006,
-      "team_name": "Astana",
-      "team_url": "team/astana-2006",
+      "team_name": "Liberty Seguros - W\u00fcrth",
+      "team_url": "team/liberty-seguros-wurth-2006",
       "class": "PT",
       "since": "01-01",
       "until": "12-31"

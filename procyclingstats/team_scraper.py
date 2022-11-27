@@ -170,7 +170,7 @@ class Team(Scraper):
             "rider_name",
             "rider_url"]
         fields = parse_table_fields_args(args, available_fields)
-        career_points_table_html = self.html.css_first("div.taba > ul.list")
+        career_points_table_html = self.html.css_first("div.taba ul.list")
         table_parser = TableParser(career_points_table_html)
         career_points_fields = [field for field in fields
                          if field in casual_fields]
@@ -186,7 +186,7 @@ class Team(Scraper):
 
         # add ages to the table if needed
         if "age" in fields:
-            ages_table_html = self.html.css_first("div.tabc > ul.list")
+            ages_table_html = self.html.css_first("div.tabc ul.list")
             ages_tp = TableParser(ages_table_html)
             ages_tp.parse(["rider_url"])
             ages = ages_tp.parse_extra_column(2)
@@ -195,7 +195,7 @@ class Team(Scraper):
 
         # add ranking points and positions to the table if needed
         if "ranking_position" in fields or "ranking_points" in fields:
-            ranking_table_html = self.html.css_first("div.tabe > ul.list")
+            ranking_table_html = self.html.css_first("div.tabe ul.list")
             ranking_tp = TableParser(ranking_table_html)
             ranking_tp.parse(["rider_url"])
             if "ranking_points" in fields:
@@ -210,7 +210,7 @@ class Team(Scraper):
 
         # add rider's since and until dates to the table if needed
         if "since" in fields or "until" in fields:
-            since_until_html_table = self.html.css_first("div.tabb > ul.list")
+            since_until_html_table = self.html.css_first("div.tabb ul.list")
             since_tp = TableParser(since_until_html_table)
             since_tp.parse(["rider_url"])
             if "since" in fields:
