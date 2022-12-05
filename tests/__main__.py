@@ -71,14 +71,17 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
             old_html = f_utils.get_html_fixture(new_scraper_obj.relative_url())
             old_scraper_obj = ScraperClass(url, old_html, False)
 
-            parsed_obj1 = new_scraper_obj.parse()
-            parsed_obj2 = old_scraper_obj.parse()
-            # remove dates select menu first item that differs based on on
-            # what day was the HTML requested
-            if "dates_select" in parsed_obj1:
-                parsed_obj1["dates_select"].pop(0)
-            if "dates_select" in parsed_obj2:
-                parsed_obj2["dates_select"].pop(0)
+            parsed_obj1_full = new_scraper_obj.parse()
+            parsed_obj2_full = old_scraper_obj.parse()
+            # remove select methods results, because their values are often
+            # changed
+
+            parsed_obj1 = {}
+            parsed_obj2 = {}
+            for key in parsed_obj1_full.keys():
+                if "select" not in key:
+                    parsed_obj1[key] = parsed_obj1_full[key]
+                    parsed_obj2[key] = parsed_obj2_full[key]
 
             # checks whether old HTML is same as new HTML based on parse
             # method return
