@@ -106,22 +106,49 @@ class Team(Scraper):
 
         :return: Count of wins in corresponding season.
         """
-        team_ranking_html = self.html.css_first(
-            ".teamkpi > li:nth-child(1) > div:nth-child(2)")
-        return int(team_ranking_html.text())
-
-    def ranking_position(self) -> Optional[int]:
+        wins_count_html = self.html.css_first(".team-kpi > li.nr")
+        return int(wins_count_html.text())
+    
+    def pcs_points(self) -> Optional[int]:
         """
-        Parses team ranking position from HTML.
+        Parses team's PCS points from HTML.
+
+        :return: PCS points gained throughout corresponding year.
+        """
+        team_ranking_html = self.html.css_first(
+            ".team-kpi > li.nr:nth-child(4)")
+        if team_ranking_html.text().isnumeric():
+            return int(team_ranking_html.text())
+        else:
+            return None
+   
+
+    def pcs_ranking_position(self) -> Optional[int]:
+        """
+        Parses team's PCS ranking position from HTML.
 
         :return: PCS team ranking position in corresponding year.
         """
         team_ranking_html = self.html.css_first(
-            ".teamkpi > li:nth-child(2) > div:nth-child(2)")
-        if team_ranking_html.text():
+            ".team-kpi > li.nr:nth-child(6)")
+        if team_ranking_html.text().isnumeric():
             return int(team_ranking_html.text())
         else:
             return None
+        
+    def uci_ranking_position(self) -> Optional[int]:
+        """
+        Parses team's UCI ranking position from HTML.
+
+        :return: UCI team ranking position in corresponding year.
+        """
+        team_ranking_html = self.html.css_first(
+            ".team-kpi > li.nr:nth-child(8)")
+        if team_ranking_html.text().isnumeric():
+            return int(team_ranking_html.text())
+        else:
+            return None
+   
 
     def history_select(self) -> List[Dict[str, str]]:
         """

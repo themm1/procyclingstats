@@ -190,7 +190,8 @@
   "name": "Banesto",
   "nationality": "ES",
   "normalized_relative_url": "team/banesto-1997",
-  "ranking_position": null,
+  "pcs_points": null,
+  "pcs_ranking_position": 6,
   "riders": [
     {
       "rider_url": "rider/abraham-olano-manzano",
@@ -414,5 +415,6 @@
     }
   ],
   "status": "TT1",
+  "uci_ranking_position": null,
   "wins_count": 38
 }

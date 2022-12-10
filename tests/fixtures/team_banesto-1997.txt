@@ -34,20 +34,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a137.css">
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a146.css">
 	
-<script src="https://www.procyclingstats.com/pcs_s62.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s64.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
-<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon.ico">
+ 
 </head>
 <body>
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a class="logo4" href="index.php"><ul><li class="r">P</li><li class="r">C</li><li class="z">S</li></ul></a>
-
+    	<a class="logo" href="index.php"></a>  
     	<form action="search.php" class="msearch"><input type="hidden" id="term">
-    		<input type="text" name="term" id="search" data-nav="team/-id-/" data-page="team" class="search4" placeholder="search"></form> 
+    		<input type="text" name="term" id="search" data-nav="team/-id-/" data-nav2="" data-page="team" class="search4" placeholder="search"></form> 
     	<div class="menuCont">
       	<a class="mobMenu" href="">Menu▼</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
@@ -115,15 +118,18 @@
   </header>  
 <div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav "><div><form style="  "><select style="" onchange="window.location.href=this.value; "><option value="team/movistar-team-2025/overview/">2025 | Movistar Team</option><option value="team/movistar-team-2024/overview/">2024 | Movistar Team</option><option value="team/movistar-team-2023/overview/">2023 | Movistar Team</option><option value="team/movistar-team-2022/overview/">2022 | Movistar Team</option><option value="team/movistar-team-2021/overview/">2021 | Movistar Team</option><option value="team/movistar-team-2020/overview/">2020 | Movistar Team</option><option value="team/movistar-team-2019/overview/">2019 | Movistar Team</option><option value="team/movistar-team-2018/overview/">2018 | Movistar Team</option><option value="team/movistar-team-20172/overview/">2017 | Movistar Team</option><option value="team/movistar-team-20162/overview/">2016 | Movistar Team</option><option value="team/movistar-team-20152/overview/">2015 | Movistar Team</option><option value="team/movistar-team-2014/overview/">2014 | Movistar Team</option><option value="team/movistar-team-2013/overview/">2013 | Movistar Team</option><option value="team/movistar-team-2012/overview/">2012 | Movistar Team</option><option value="team/movistar-team-2011/overview/">2011 | Movistar Team</option><option value="team/caisse-d-epargne-2010/overview/">2010 | Caisse d'Epargne</option><option value="team/caisse-d-epargne-2009/overview/">2009 | Caisse d'Epargne</option><option value="team/caisse-d-epargne-2008/overview/">2008 | Caisse d'Epargne</option><option value="team/caisse-d-epargne-2007/overview/">2007 | Caisse d'Epargne</option><option value="team/caisse-d-epargne-illes-balears-2006/overview/">2006 | Caisse d'Epargne - Illes Balears</option><option value="team/illes-balears-caisse-d-epargne-2005/overview/">2005 | Illes Balears - Caisse d'Epargne</option><option value="team/illes-balears-banesto-2004/overview/">2004 | Illes Balears - Banesto</option><option value="team/ibanesto.com-2003/overview/">2003 | iBanesto.com</option><option value="team/ibanesto.com-2002/overview/">2002 | iBanesto.com</option><option value="team/ibanesto.com-2001/overview/">2001 | iBanesto.com</option><option value="team/banesto-2000/overview/">2000 | Banesto</option><option value="team/banesto-1999/overview/">1999 | Banesto</option><option value="team/banesto-1998/overview/">1998 | Banesto</option><option value="team/banesto-1997/overview/" selected="">1997 | Banesto</option><option value="team/banesto-1996/overview/">1996 | Banesto</option><option value="team/banesto-1995/overview/">1995 | Banesto</option><option value="team/banesto-1994/overview/">1994 | Banesto</option><option value="team/banesto-1993/overview/">1993 | Banesto</option><option value="team/banesto-1992/overview/">1992 | Banesto</option><option value="team/banesto-1991/overview/">1991 | Banesto</option><option value="team/banesto-1990/overview/">1990 | Banesto</option><option value="team/reynolds-banesto-1989/overview/">1989 | Reynolds - Banesto</option><option value="team/reynolds-1988/overview/">1988 | Reynolds</option><option value="team/reynolds-1987/overview/">1987 | Reynolds - Seur</option><option value="team/reynolds-1986/overview/">1986 | Reynolds</option><option value="team/reynolds-1985/overview/">1985 | Reynolds</option><option value="team/reynolds-1984/overview/">1984 | Reynolds</option><option value="team/reynolds-1983/overview/">1983 | Reynolds</option><option value="team/reynolds-galli-1982/overview/">1982 | Reynolds - Galli</option><option value="team/reynolds-galli-1981/overview/">1981 | Reynolds - Galli </option><option value="team/reynolds-benotto-1980/overview/">1980 | Reynolds - Benotto </option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="team/banesto-1997">Start</a></li>
 <li class="reg "><a class="" href="team/banesto-1997/statistics">Statistics▼</a><ul><li><a href="team/banesto-1997/statistics/overview">Overview</a></li>
-<li><a href="team/banesto-1997/statistics/races-per-nation">Races per nation</a></li>
-<li><a href="team/banesto-1997/statistics/riders-per-country">#Riders per country</a></li>
-<li><a href="team/banesto-1997/statistics/points-per-rider">Points per rider</a></li>
-<li><a href="team/banesto-1997/statistics/most-racedays">Most racedays</a></li>
 <li><a href="team/banesto-1997/statistics/most-succesfull-rider">Most succesfull rider</a></li>
-<li><a href="team/banesto-1997/statistics/wins-per-season">Wins per season</a></li>
 </ul></li>
-<li class="reg "><a class="" href="team/banesto-1997/analysis">Analysis</a></li>
-<li class="reg "><a class="" href="team/banesto-1997/wins">Wins</a></li>
+<li class="reg "><a class="" href="team/banesto-1997/season">Season▼</a><ul><li><a href="team/banesto-1997/season/overview">Overview</a></li>
+<li><a href="team/banesto-1997/season/analysis">Analysis</a></li>
+<li><a href="team/banesto-1997/season/points-per-rider">Points per rider</a></li>
+<li><a href="team/banesto-1997/season/most-racedays">Most racedays</a></li>
+<li><a href="team/banesto-1997/season/races-per-nation">Races per nation</a></li>
+<li><a href="team/banesto-1997/season/riders-per-country">Riders per country</a></li>
+</ul></li>
+<li class="reg "><a class="" href="team/banesto-1997/wins">Wins▼</a><ul><li><a href="team/banesto-1997/wins/victories">Victories</a></li>
+<li><a href="team/banesto-1997/wins/wins-per-season">Wins per season</a></li>
+</ul></li>
 <li class="reg "><a class="" href="team/banesto-1997/results">Results</a></li>
 <li class="reg "><a class="" href="team/banesto-1997/transfers">Transfers</a></li>
 <li class="reg "><a class="" href="team/banesto-1997/program">Program</a></li>
@@ -132,21 +138,22 @@
 <li><a href="team/banesto-1997/more/contribute-link">Contribute socials</a></li>
 <li><a href="team/banesto-1997/more/submit-program">Contribute program</a></li>
 </ul></li>
-<li class="more"><a href="team/banesto-1997">More</a><ul><li data-n="0"><a href="team/banesto-1997/overview/">Start - Start</a></li><li data-n="1"><a href="team/banesto-1997/statistics/overview">Statistics - Overview</a></li><li data-n="1"><a href="team/banesto-1997/statistics/races-per-nation">Races per nation</a></li>
-<li data-n="1"><a href="team/banesto-1997/statistics/riders-per-country">#Riders per country</a></li>
-<li data-n="1"><a href="team/banesto-1997/statistics/points-per-rider">Points per rider</a></li>
-<li data-n="1"><a href="team/banesto-1997/statistics/most-racedays">Most racedays</a></li>
+<li class="more"><a href="team/banesto-1997">More</a><ul><li data-n="0"><a href="team/banesto-1997/overview/overview">Start - Start</a></li><li data-n="1"><a href="team/banesto-1997/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="team/banesto-1997/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="team/banesto-1997/statistics/most-succesfull-rider">Most succesfull rider</a></li>
-<li data-n="1"><a href="team/banesto-1997/statistics/wins-per-season">Wins per season</a></li>
-<li data-n="2"><a href="team/banesto-1997/analysis/start">Analysis - Analysis</a></li><li data-n="3"><a href="team/banesto-1997/wins/">Wins - Victories</a></li><li data-n="4"><a href="team/banesto-1997/results/latest-results">Results - Latest results</a></li><li data-n="5"><a href="team/banesto-1997/transfers/">Transfers - Transfers</a></li><li data-n="6"><a href="team/banesto-1997/program/program">Program - Program</a></li><li data-n="7"><a href="team/banesto-1997/more/report">More - Report</a></li><li data-n="7"><a href="team/banesto-1997/more/gear">Gear</a></li>
+<li data-n="2"><a href="team/banesto-1997/season/season">Season - Season</a></li><li data-n="2"><a href="team/banesto-1997/season/overview">Overview</a></li>
+<li data-n="2"><a href="team/banesto-1997/season/analysis">Analysis</a></li>
+<li data-n="2"><a href="team/banesto-1997/season/points-per-rider">Points per rider</a></li>
+<li data-n="2"><a href="team/banesto-1997/season/most-racedays">Most racedays</a></li>
+<li data-n="2"><a href="team/banesto-1997/season/races-per-nation">Races per nation</a></li>
+<li data-n="2"><a href="team/banesto-1997/season/riders-per-country">Riders per country</a></li>
+<li data-n="3"><a href="team/banesto-1997/wins/wins">Wins - Wins</a></li><li data-n="3"><a href="team/banesto-1997/wins/victories">Victories</a></li>
+<li data-n="3"><a href="team/banesto-1997/wins/wins-per-season">Wins per season</a></li>
+<li data-n="4"><a href="team/banesto-1997/results/results">Results - Results</a></li><li data-n="5"><a href="team/banesto-1997/transfers/transfers">Transfers - Transfers</a></li><li data-n="6"><a href="team/banesto-1997/program/program">Program - Program</a></li><li data-n="7"><a href="team/banesto-1997/more/more">More - More</a></li><li data-n="7"><a href="team/banesto-1997/more/report">Report</a></li>
+<li data-n="7"><a href="team/banesto-1997/more/gear">Gear</a></li>
 <li data-n="7"><a href="team/banesto-1997/more/contribute-link">Contribute socials</a></li>
 <li data-n="7"><a href="team/banesto-1997/more/submit-program">Contribute program</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title "><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Banesto (TT1)</h1><span class="hideIfMobile center">»</span><span class="red hideIfMobile">1997</span></div><div class="sub"><span class="red showIfMobile">1997</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1"><h2></h2><div class="w100">
-<ul class="list horizontal teamkpi" style=""><li><div>wins</div> <div><a href="team/banesto-1997/wins">38</a></div></li>
-<li><div>ranking</div> <div><a href="rankings/me/teams"></a></div></li>
-<li><div>incoming transfers</div> <div><a href="team/banesto-1997/transfers">1</a></div></li>
-</ul>
-<div class="mt20"><div class="w70 left mb_w100"><ul class="photos" data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/fa/abraham-olano-manzano-2002.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/abraham-olano-manzano"></a><span>OLANO Abraham</span></li><li><a style="background: url(images/riders/bp/cd/manuel-beltran-martinez-2006.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/manuel-beltran"></a><span>BELTRÁN Manuel</span></li><li><a style="background: url(images/riders/bp/af/jose-maria-jimenez-sastre-2001.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/jose-maria-jimenez"></a><span>JIMÉNEZ José María</span></li><li><a style="background: url(images/riders/bp/da/armand-de-las-cuevas-1998.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/armand-de-las-cuevas"></a><span>DE LAS CUEVAS Armand</span></li><li><a style="background: url(images/riders/bp/ad/aitor-garmendia-arbilla-2003.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/aitor-garmendia"></a><span>GARMENDIA Aitor</span></li><li><a style="background: url(images/riders/bp/fb/pablo-lastras-2015.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/pablo-lastras"></a><span>LASTRAS Pablo</span></li><li><a style="background: url(images/riders/bp/bd/angel-luis-casero-moreno-2005.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/angel-luis-casero"></a><span>CASERO Ángel Luis</span></li><li><a style="background: url(images/riders/bp/ee/jeremy-hunt-2012.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/jeremy-hunt"></a><span>HUNT Jeremy</span></li><li><a style="background: url(images/riders/bp/db/jose-vicente-garcia-acosta-2009.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/jose-vicente-garcia-acosta"></a><span>GARCÍA ACOSTA José Vicente</span></li><li><a style="background: url(images/riders/bp/cb/jose-luis-arrieta-lujambio-2009.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/jose-luis-arrieta"></a><span>ARRIETA José Luis</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba"><a class="taba" href="#">career points</a></li>
+</ul></li></ul><div class="clear"></div></div><div class="page-title "><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Banesto (TT1)</h1><span class="hideIfMobile center">»</span><span class="red hideIfMobile">1997</span></div><div class="sub"><span class="red showIfMobile">1997</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1"><h2></h2><div class="w100 ">
+<div class="mt20"><ul class="team-kpi"><li class="title"><a href="team/banesto-1997/wins">Victories</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/banesto-1997/wins">38</a></span></li><li class="title"><a href="team/banesto-1997/season/points-per-rider">Points</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/banesto-1997/season/points-per-rider">-</a></span></li><li class="title"><a href="rankings/me/season-teams">PCS#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/season-teams">6</a></span></li><li class="title"><a href="rankings/me/uci-teams">UCI#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/uci-teams">-</a></span></li><li class="title"><a href="team/banesto-1997/transfers/this-year">Transfers in</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/banesto-1997/transfers/this-year">7</a></span></li><li class="title"><a href="team/banesto-1997/transfers/this-year">Transfers out</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/banesto-1997/transfers/this-year">4</a></span></li></ul><div class="w70 left mb_w100"><ul class="photos" data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/fa/abraham-olano-manzano-2002.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/abraham-olano-manzano"></a><span>OLANO Abraham</span></li><li><a style="background: url(images/riders/bp/cd/manuel-beltran-martinez-2006.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/manuel-beltran"></a><span>BELTRÁN Manuel</span></li><li><a style="background: url(images/riders/bp/af/jose-maria-jimenez-sastre-2001.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/jose-maria-jimenez"></a><span>JIMÉNEZ José María</span></li><li><a style="background: url(images/riders/bp/da/armand-de-las-cuevas-1998.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/armand-de-las-cuevas"></a><span>DE LAS CUEVAS Armand</span></li><li><a style="background: url(images/riders/bp/ad/aitor-garmendia-arbilla-2003.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/aitor-garmendia"></a><span>GARMENDIA Aitor</span></li><li><a style="background: url(images/riders/bp/fb/pablo-lastras-2015.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/pablo-lastras"></a><span>LASTRAS Pablo</span></li><li><a style="background: url(images/riders/bp/bd/angel-luis-casero-moreno-2005.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/angel-luis-casero"></a><span>CASERO Ángel Luis</span></li><li><a style="background: url(images/riders/bp/ee/jeremy-hunt-2012.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/jeremy-hunt"></a><span>HUNT Jeremy</span></li><li><a style="background: url(images/riders/bp/db/jose-vicente-garcia-acosta-2009.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/jose-vicente-garcia-acosta"></a><span>GARCÍA ACOSTA José Vicente</span></li><li><a style="background: url(images/riders/bp/cb/jose-luis-arrieta-lujambio-2009.jpg) no-repeat -10px 0; background-size: 110px; " href="rider/jose-luis-arrieta"></a><span>ARRIETA José Luis</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba"><a class="taba" href="#">career points</a></li>
 <li class="tabb cur"><a class="tabb cur" href="#">name</a></li>
 <li class="tabe"><a class="tabe" href="#">ranking</a></li>
 <li class="tabc"><a class="tabc" href="#">age</a></li>
@@ -177,28 +184,28 @@
 <li class=""><div>22</div><div><span class="flag es"></span> <a href="rider/prudencio-indurain">INDURAIN Prudencio</a></div><div class="right   ">501</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="hide ttabs tabe">
-<span class="table-cont"><ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag es"></span> <a href="rider/jose-ramon-uriarte">URIARTE José Ramón</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>2</div><div><span class="flag es"></span> <a href="rider/angel-luis-casero">CASERO Ángel Luis</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>3</div><div><span class="flag es"></span> <a href="rider/santiago-blanco">BLANCO Santiago</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>4</div><div><span class="flag es"></span> <a href="rider/vicente-aparicio">APARICIO Vicente</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>5</div><div><span class="flag es"></span> <a href="rider/abraham-olano-manzano">OLANO Abraham</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>6</div><div><span class="flag es"></span> <a href="rider/marino-alonso">ALONSO Marino</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>7</div><div><span class="flag fr"></span> <a href="rider/armand-de-las-cuevas">DE LAS CUEVAS Armand</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>8</div><div><span class="flag es"></span> <a href="rider/manuel-fernandez-gines">FERNÁNDEZ GINÉS Manuel</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>9</div><div><span class="flag es"></span> <a href="rider/miguel-angel-pena">PEÑA Miguel Ángel</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>10</div><div><span class="flag gb"></span> <a href="rider/jeremy-hunt">HUNT Jeremy</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>11</div><div><span class="flag es"></span> <a href="rider/manuel-beltran">BELTRÁN Manuel</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>12</div><div><span class="flag es"></span> <a href="rider/aitor-osa">OSA Aitor</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>13</div><div><span class="flag es"></span> <a href="rider/jose-luis-arrieta">ARRIETA José Luis</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>14</div><div><span class="flag es"></span> <a href="rider/jose-vicente-garcia-acosta">GARCÍA ACOSTA José Vicente</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>15</div><div><span class="flag es"></span> <a href="rider/aitor-garmendia">GARMENDIA Aitor</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>16</div><div><span class="flag es"></span> <a href="rider/jose-maria-jimenez">JIMÉNEZ José María</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>17</div><div><span class="flag pt"></span> <a href="rider/orlando-sergio-rodrigues">RODRIGUES Orlando Sergio</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>18</div><div><span class="flag es"></span> <a href="rider/unai-osa">OSA Unai</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>19</div><div><span class="flag es"></span> <a href="rider/carmelo-miranda">MIRANDA Carmelo</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>20</div><div><span class="flag es"></span> <a href="rider/pablo-lastras">LASTRAS Pablo</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>21</div><div><span class="flag es"></span> <a href="rider/prudencio-indurain">INDURAIN Prudencio</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
-<li class=""><div>22</div><div><span class="flag es"></span> <a href="rider/ramon-gonzalez-arrieta">GONZÁLEZ José Ramón</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag es"></span> <a href="rider/manuel-beltran">BELTRÁN Manuel</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag es"></span> <a href="rider/aitor-osa">OSA Aitor</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag es"></span> <a href="rider/jose-luis-arrieta">ARRIETA José Luis</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag es"></span> <a href="rider/jose-vicente-garcia-acosta">GARCÍA ACOSTA José Vicente</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag es"></span> <a href="rider/aitor-garmendia">GARMENDIA Aitor</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag es"></span> <a href="rider/jose-maria-jimenez">JIMÉNEZ José María</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag pt"></span> <a href="rider/orlando-sergio-rodrigues">RODRIGUES Orlando Sergio</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag es"></span> <a href="rider/unai-osa">OSA Unai</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag es"></span> <a href="rider/carmelo-miranda">MIRANDA Carmelo</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag es"></span> <a href="rider/pablo-lastras">LASTRAS Pablo</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag es"></span> <a href="rider/prudencio-indurain">INDURAIN Prudencio</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag es"></span> <a href="rider/ramon-gonzalez-arrieta">GONZÁLEZ José Ramón</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>13</div><div><span class="flag es"></span> <a href="rider/jose-ramon-uriarte">URIARTE José Ramón</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>14</div><div><span class="flag es"></span> <a href="rider/angel-luis-casero">CASERO Ángel Luis</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag es"></span> <a href="rider/santiago-blanco">BLANCO Santiago</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag es"></span> <a href="rider/vicente-aparicio">APARICIO Vicente</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag es"></span> <a href="rider/abraham-olano-manzano">OLANO Abraham</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag es"></span> <a href="rider/marino-alonso">ALONSO Marino</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag fr"></span> <a href="rider/armand-de-las-cuevas">DE LAS CUEVAS Armand</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>20</div><div><span class="flag es"></span> <a href="rider/manuel-fernandez-gines">FERNÁNDEZ GINÉS Manuel</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>21</div><div><span class="flag es"></span> <a href="rider/miguel-angel-pena">PEÑA Miguel Ángel</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
+<li class=""><div>22</div><div><span class="flag gb"></span> <a href="rider/jeremy-hunt">HUNT Jeremy</a></div><div class="right ar w12 fs11 clr555   ">(0)</div><div class="right ac   ">-</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="ttabs tabb">
 <span class="table-cont"><ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag es"></span> <a href="rider/marino-alonso">ALONSO Marino</a></div><div class="fs11 clr999   "></div><div class="clear"></div></li>
@@ -249,25 +256,25 @@
 <li class=""><div>22</div><div><span class="flag es"></span> <a href="rider/marino-alonso">ALONSO Marino</a></div><div class="right   ">31</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="hide ttabs tabd">
-<span class="table-cont"><ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag es"></span> <a href="rider/angel-luis-casero">CASERO Ángel Luis</a></div><div class="clear"></div></li>
-<li class=""><div>2</div><div><span class="flag es"></span> <a href="rider/unai-osa">OSA Unai</a></div><div class="clear"></div></li>
-<li class=""><div>3</div><div><span class="flag es"></span> <a href="rider/prudencio-indurain">INDURAIN Prudencio</a></div><div class="clear"></div></li>
-<li class=""><div>4</div><div><span class="flag es"></span> <a href="rider/aitor-garmendia">GARMENDIA Aitor</a></div><div class="clear"></div></li>
-<li class=""><div>5</div><div><span class="flag es"></span> <a href="rider/vicente-aparicio">APARICIO Vicente</a></div><div class="clear"></div></li>
-<li class=""><div>6</div><div><span class="flag es"></span> <a href="rider/aitor-osa">OSA Aitor</a></div><div class="clear"></div></li>
-<li class=""><div>7</div><div><span class="flag es"></span> <a href="rider/jose-ramon-uriarte">URIARTE José Ramón</a></div><div class="clear"></div></li>
-<li class=""><div>8</div><div><span class="flag es"></span> <a href="rider/miguel-angel-pena">PEÑA Miguel Ángel</a></div><div class="clear"></div></li>
-<li class=""><div>9</div><div><span class="flag es"></span> <a href="rider/pablo-lastras">LASTRAS Pablo</a></div><div class="clear"></div></li>
-<li class=""><div>10</div><div><span class="flag es"></span> <a href="rider/marino-alonso">ALONSO Marino</a></div><div class="clear"></div></li>
-<li class=""><div>11</div><div><span class="flag es"></span> <a href="rider/jose-vicente-garcia-acosta">GARCÍA ACOSTA José Vicente</a></div><div class="clear"></div></li>
-<li class=""><div>12</div><div><span class="flag es"></span> <a href="rider/santiago-blanco">BLANCO Santiago</a></div><div class="clear"></div></li>
-<li class=""><div>13</div><div><span class="flag es"></span> <a href="rider/manuel-beltran">BELTRÁN Manuel</a></div><div class="clear"></div></li>
-<li class=""><div>14</div><div><span class="flag es"></span> <a href="rider/ramon-gonzalez-arrieta">GONZÁLEZ José Ramón</a></div><div class="clear"></div></li>
-<li class=""><div>15</div><div><span class="flag es"></span> <a href="rider/manuel-fernandez-gines">FERNÁNDEZ GINÉS Manuel</a></div><div class="clear"></div></li>
-<li class=""><div>16</div><div><span class="flag es"></span> <a href="rider/jose-maria-jimenez">JIMÉNEZ José María</a></div><div class="clear"></div></li>
-<li class=""><div>17</div><div><span class="flag es"></span> <a href="rider/carmelo-miranda">MIRANDA Carmelo</a></div><div class="clear"></div></li>
-<li class=""><div>18</div><div><span class="flag es"></span> <a href="rider/abraham-olano-manzano">OLANO Abraham</a></div><div class="clear"></div></li>
-<li class=""><div>19</div><div><span class="flag es"></span> <a href="rider/jose-luis-arrieta">ARRIETA José Luis</a></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list pad2" style=" "><li class=""><div>1</div><div><span class="flag es"></span> <a href="rider/jose-ramon-uriarte">URIARTE José Ramón</a></div><div class="clear"></div></li>
+<li class=""><div>2</div><div><span class="flag es"></span> <a href="rider/miguel-angel-pena">PEÑA Miguel Ángel</a></div><div class="clear"></div></li>
+<li class=""><div>3</div><div><span class="flag es"></span> <a href="rider/pablo-lastras">LASTRAS Pablo</a></div><div class="clear"></div></li>
+<li class=""><div>4</div><div><span class="flag es"></span> <a href="rider/marino-alonso">ALONSO Marino</a></div><div class="clear"></div></li>
+<li class=""><div>5</div><div><span class="flag es"></span> <a href="rider/jose-vicente-garcia-acosta">GARCÍA ACOSTA José Vicente</a></div><div class="clear"></div></li>
+<li class=""><div>6</div><div><span class="flag es"></span> <a href="rider/santiago-blanco">BLANCO Santiago</a></div><div class="clear"></div></li>
+<li class=""><div>7</div><div><span class="flag es"></span> <a href="rider/manuel-beltran">BELTRÁN Manuel</a></div><div class="clear"></div></li>
+<li class=""><div>8</div><div><span class="flag es"></span> <a href="rider/ramon-gonzalez-arrieta">GONZÁLEZ José Ramón</a></div><div class="clear"></div></li>
+<li class=""><div>9</div><div><span class="flag es"></span> <a href="rider/manuel-fernandez-gines">FERNÁNDEZ GINÉS Manuel</a></div><div class="clear"></div></li>
+<li class=""><div>10</div><div><span class="flag es"></span> <a href="rider/jose-maria-jimenez">JIMÉNEZ José María</a></div><div class="clear"></div></li>
+<li class=""><div>11</div><div><span class="flag es"></span> <a href="rider/carmelo-miranda">MIRANDA Carmelo</a></div><div class="clear"></div></li>
+<li class=""><div>12</div><div><span class="flag es"></span> <a href="rider/abraham-olano-manzano">OLANO Abraham</a></div><div class="clear"></div></li>
+<li class=""><div>13</div><div><span class="flag es"></span> <a href="rider/jose-luis-arrieta">ARRIETA José Luis</a></div><div class="clear"></div></li>
+<li class=""><div>14</div><div><span class="flag es"></span> <a href="rider/angel-luis-casero">CASERO Ángel Luis</a></div><div class="clear"></div></li>
+<li class=""><div>15</div><div><span class="flag es"></span> <a href="rider/unai-osa">OSA Unai</a></div><div class="clear"></div></li>
+<li class=""><div>16</div><div><span class="flag es"></span> <a href="rider/prudencio-indurain">INDURAIN Prudencio</a></div><div class="clear"></div></li>
+<li class=""><div>17</div><div><span class="flag es"></span> <a href="rider/aitor-garmendia">GARMENDIA Aitor</a></div><div class="clear"></div></li>
+<li class=""><div>18</div><div><span class="flag es"></span> <a href="rider/vicente-aparicio">APARICIO Vicente</a></div><div class="clear"></div></li>
+<li class=""><div>19</div><div><span class="flag es"></span> <a href="rider/aitor-osa">OSA Aitor</a></div><div class="clear"></div></li>
 <li class=""><div>20</div><div><span class="flag fr"></span> <a href="rider/armand-de-las-cuevas">DE LAS CUEVAS Armand</a></div><div class="clear"></div></li>
 <li class=""><div>21</div><div><span class="flag gb"></span> <a href="rider/jeremy-hunt">HUNT Jeremy</a></div><div class="clear"></div></li>
 <li class=""><div>22</div><div><span class="flag pt"></span> <a href="rider/orlando-sergio-rodrigues">RODRIGUES Orlando Sergio</a></div><div class="clear"></div></li>
@@ -275,6 +282,9 @@
 <div class="fs10 clr999"><div class="">In historical seasons, age is taken at July 1.</div></div>
 <div class="mt20"><h3>Quick links</h3><ul class="list fs14"><li class="blue"><a class="blue" href="compare_teams.php?id=27977">Compare to other teams </a></li>
 </ul></div>
+<div class="mt20"><h3>Related teams</h3>
+<span class="table-cont"><ul class="list fs14" style=" "><li class=""><div class="blue   "><a href="team/movistar-women-team-2022">Movistar Team (WTW)</a></div><div class="clear"></div></li>
+</ul></span></div>
 <div class="mt20"><h3>Info</h3><ul class="infolist" style=""><li><div>Team status:</div> <div>TT1</div></li>
 <li><div>Abbreviation: </div> <div>BAN</div></li>
 <li><div>Bike:</div> <div><a href="brand/pinarello">Pinarello</a></div></li>
@@ -288,14 +298,6 @@
 <div class="mt20"><h3>Staff</h3>
 <span class="table-cont"><table class="basic" style=""><thead><tr><th style="width: 50%; ">Name</th><th style="width: 50%; ">Functions</th></tr></thead><tbody>
 </tbody></table></span></div>
-<div class="mt30"><h3>Points per season</h3>
-<span class="table-cont"><table class="basic" style=""><thead><tr><th style="width: 20%; ">year</th><th class="bar  " style="width: 60%; ">points</th><th class="ac  " style="width: 20%; ">position</th></tr></thead><tbody>
-<tr><td>2022</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 64.5%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">5599</span></div></td><td class="ac  ">10</td></tr>
-<tr><td>2021</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 57%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">4950</span></div></td><td class="ac  ">8</td></tr>
-<tr><td>2020</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 33.9%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">2942</span></div></td><td class="ac  ">18</td></tr>
-<tr><td>2019</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">6945</span></div></td><td class="ac  ">7</td></tr>
-<tr><td>2018</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 78.6%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">6822</span></div></td><td class="ac  ">5</td></tr>
-</tbody></table></span></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <span class="table-cont"><table class="basic" style=""><thead><tr><th class="cu600  " style="width: 13%; ">Date</th><th class="cs600 hide  " style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  " style="width: 34.8%; ">Riders</th></tr></thead><tbody>
 <tr><td class="cu600  ">17/01 - 22/01</td><td class="cs600 hide  ">17/01 - 22/01</td><td><span class="flag au"></span> <a href="race/tour-down-under/2023">Santos Tour Down Under</a></td><td class="cu600 fs10 clr555  "></td></tr>
@@ -308,7 +310,7 @@
 <tr class=" hide"><td class="cu600  ">18/03</td><td class="cs600 hide  ">18/03</td><td><span class="flag it"></span> <a href="race/milano-sanremo/2023">Milano-Sanremo</a></td><td class="cu600 fs10 clr555  "></td></tr>
 <tr class=" hide"><td class="cu600  ">20/03 - 26/03</td><td class="cs600 hide  ">20/03 - 26/03</td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2023">Volta Ciclista a Catalunya</a></td><td class="cu600 fs10 clr555  "></td></tr>
 <tr class=" hide"><td class="cu600  ">22/03</td><td class="cs600 hide  ">22/03</td><td><span class="flag be"></span> <a href="race/oxyclean-classic-brugge-de-panne/2023">Classic Brugge-De Panne</a></td><td class="cu600 fs10 clr555  "></td></tr>
-<tr class=" hide"><td class="cu600  ">24/03</td><td class="cs600 hide  ">24/03</td><td><span class="flag be"></span> <a href="race/e3-harelbeke/2023">E3 Saxo Bank Classic</a></td><td class="cu600 fs10 clr555  "></td></tr>
+<tr class=" hide"><td class="cu600  ">24/03</td><td class="cs600 hide  ">24/03</td><td><span class="flag be"></span> <a href="race/e3-harelbeke/2023">E3 Saxo Classic</a></td><td class="cu600 fs10 clr555  "></td></tr>
 <tr class=" hide"><td class="cu600  ">26/03</td><td class="cs600 hide  ">26/03</td><td><span class="flag be"></span> <a href="race/gent-wevelgem/2023">Gent-Wevelgem in Flanders Fields</a></td><td class="cu600 fs10 clr555  "></td></tr>
 <tr class=" hide"><td class="cu600  ">29/03</td><td class="cs600 hide  ">29/03</td><td><span class="flag be"></span> <a href="race/dwars-door-vlaanderen/2023">Dwars door Vlaanderen - A travers la Flandre</a></td><td class="cu600 fs10 clr555  "></td></tr>
 <tr class=" hide"><td class="cu600  ">02/04</td><td class="cs600 hide  ">02/04</td><td><span class="flag be"></span> <a href="race/ronde-van-vlaanderen/2023">Ronde van Vlaanderen - Tour des Flandres</a></td><td class="cu600 fs10 clr555  "></td></tr>
@@ -406,11 +408,11 @@
   </script>
   </div>
 </div>
-<div class="w80 left">
+<div class="w80 left ">
 </div>
-<div class="w20 right">
+<div class="w20 right ">
 </div>
-<div class="w80 left">
+<div class="w80 left ">
 </div>
 <div class="desktop-ad below-content team"></div><div class="mob-ad below-content team"></div></div><div style="clear: both; "></div>  
   </div>
@@ -421,15 +423,7 @@
   <div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
-</ul></li>
-<li class="group"><h3>One day races</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
-<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
-<li><a href="race/il-lombardia">Il Lombardia</a></li>
-<li><a href="race/world-championship">World Championships</a></li>
-</ul></li>
-<li class="group"><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+</ul><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
@@ -437,23 +431,59 @@
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
 </ul></li>
-<li class="group"><h3>Rankings &amp; Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
-<li><a href="statistics/start/points-per-age">Points per age</a></li>
-<li><a href="statistics/start/injuries">Injuries</a></li>
-<li><a href="rankings/me/world-ranking/individual">UCI World Ranking</a></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/biniam-girmay">Biniam Girmay</a></li>
+<li><a href="rider/peter-sagan">Peter Sagan</a></li>
+<li><a href="rider/annemiek-van-vleuten">Annemiek van Vleuten</a></li>
+<li><a href="rider/elisa-longo-borghini">Elisa Longo Borghini</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+</ul></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
 </ul></li>
 <li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
 <li><a href="info/procyclinggame">ProCyclingGame</a></li>
-</ul></li>
-<li class="group"><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+</ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0815 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1398kb) peak (1521kb)</span></li></ul></li>
+<li><span>Pageload 0.0991s</span></li>
+</ul></li>
 </ul><input type="hidden" id="pageid" value="2101"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
