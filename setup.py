@@ -9,5 +9,6 @@ setup(
     packages=['procyclingstats'],
     install_requires=[
         'requests',
+        'selectolax'
     ],
 )
