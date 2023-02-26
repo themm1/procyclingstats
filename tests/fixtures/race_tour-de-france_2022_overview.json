@@ -6,7 +6,11 @@
   "name": "Tour de France",
   "nationality": "FR",
   "normalized_relative_url": "race/tour-de-france/2022/overview",
-  "prev_editions": [
+  "prev_editions_select": [
+    {
+      "text": "2024",
+      "value": "race/tour-de-france/2024/overview/overview"
+    },
     {
       "text": "2023",
       "value": "race/tour-de-france/2023/overview/overview"

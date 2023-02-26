@@ -229,7 +229,10 @@ class Stage(Scraper):
         :return: UCI points scale, e.g. ``UCI scale``. Empty string when not
             found.
         """
-        return self._stage_info_by_label("UCI scale")
+        scale_str = self._stage_info_by_label("UCI scale")
+        if scale_str:
+            return scale_str.split()[0]
+        return scale_str
 
     def climbs(self, *args: str) -> List[Dict[str, str]]:
         """

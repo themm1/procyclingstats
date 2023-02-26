@@ -163,10 +163,12 @@ class TableParser:
         return self._filter_a_elements("rider", False)
 
     def team_url(self) -> List[str]:
-        return self._filter_a_elements("team", True)
+        return self._filter_a_elements("team", True,
+            lambda x: True if x.text() != "view" else False)
 
     def team_name(self) -> List[str]:
-        return self._filter_a_elements("team", False)
+        return self._filter_a_elements("team", False,
+            lambda x: True if x.text() != "view" else False)
 
     def stage_url(self) -> List[str]:
         return self._filter_a_elements("race", True)
@@ -389,7 +391,8 @@ class TableParser:
             if row[time_field]:
                 row[time_field] = add_times(first_time, row['time'])
 
-    def _filter_a_elements(self, keyword: str, get_href: bool) -> List[str]:
+    def _filter_a_elements(self, keyword: str, get_href: bool,
+            validator: Callable = lambda x: True) -> List[str]:
         """
         Filters from all a elements these which has at the beggining of their
         href given keyword and gets their href or text.
@@ -397,12 +400,14 @@ class TableParser:
         :param keyword: Keyword that element's href should have.
         :param get_href: Whether to return the href of a element, when False
         text is returned.
+        :param validator: Function to call on every a element. When returns
+        True element is added to result list, otherwise not.
         :return: List of all a elements texts or hrefs with given keyword.
         """
         filtered_values = []
         for a_element in self.a_elements:
             href = a_element.attributes['href']
-            if href and href.split("/")[0] == keyword:
+            if href and href.split("/")[0] == keyword and validator(a_element):
                 if get_href:
                     filtered_values.append(href)
                 else:

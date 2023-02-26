@@ -133,7 +133,7 @@ class Race(Scraper):
         uci_tour_html = self.html.css(".infolist > li > div:nth-child(2)")[3]
         return uci_tour_html.text()
 
-    def prev_editions(self) -> List[Dict[str, str]]:
+    def prev_editions_select(self) -> List[Dict[str, str]]:
         """
         Parses previous race editions from HTML.
 

@@ -372,7 +372,6 @@ class Ranking(Scraper):
             - rank: Rider's rank in the ranking.
             - nationality: Rider's nationality as 2 chars long country code.
             - distance: Rider's ridden distance in the season as KMs.
-            - prev_season_distance: Rider's ridden distance in previous season.
 
         :raises ExpectedParsingError: When the table from HTML is not a
             distance ranking table.
@@ -387,7 +386,6 @@ class Ranking(Scraper):
             "rank",
             "nationality",
             "distance",
-            "prev_season_distance"
         )
         if self._ranking_type() != "distance":
             raise ExpectedParsingError(
@@ -395,8 +393,7 @@ class Ranking(Scraper):
                 "create one with distance ranking URL to call this" +
                 "method.")
         fields = parse_table_fields_args(args, available_fields)
-        casual_fields = [f for f in fields
-            if f not in ("distance", "prev_season_distance")]
+        casual_fields = [f for f in fields if f not in ("distance")]
 
         distance_ranking_table_html = self.html.css_first("span > table")
         table_parser = TableParser(distance_ranking_table_html)
@@ -406,10 +403,6 @@ class Ranking(Scraper):
             distances = table_parser.parse_extra_column("KMs",
                 lambda x: int(x) if x else 0)
             table_parser.extend_table("distance", distances)
-        if "prev_season_distance" in fields:
-            distances = table_parser.parse_extra_column("Prev. season",
-                lambda x: int(x) if x else 0)
-            table_parser.extend_table("prev_season_distance", distances)
         return table_parser.table
 
     def racedays_ranking(self, *args: str) -> List[Dict[str, Any]]:
@@ -426,7 +419,6 @@ class Ranking(Scraper):
             - rank: Rider's rank in the ranking.
             - nationality: Rider's nationality as 2 chars long country code.
             - racedays: Rider's ridden racedays in the season.
-            - prev_season_racedays: Rider's ridden racedays in previous season.
 
         :raises ExpectedParsingError: When the table from HTML is not a
             racedays ranking table.
@@ -441,7 +433,6 @@ class Ranking(Scraper):
             "rank",
             "nationality",
             "racedays",
-            "prev_season_racedays"
         )
         if self._ranking_type() != "racedays":
             raise ExpectedParsingError(
@@ -449,8 +440,7 @@ class Ranking(Scraper):
                 "create one with distance ranking URL to call this" +
                 "method.")
         fields = parse_table_fields_args(args, available_fields)
-        casual_fields = [f for f in fields
-            if f not in ("racedays", "prev_season_racedays")]
+        casual_fields = [f for f in fields if f not in ("racedays")]
 
         distance_ranking_table_html = self.html.css_first("span > table")
         table_parser = TableParser(distance_ranking_table_html)
@@ -460,10 +450,6 @@ class Ranking(Scraper):
             racedays = table_parser.parse_extra_column("Racedays",
                 lambda x: int(x) if x else 0)
             table_parser.extend_table("racedays", racedays)
-        if "prev_season_racedays" in fields:
-            racedays = table_parser.parse_extra_column("Prev. season",
-                lambda x: int(x) if x else 0)
-            table_parser.extend_table("prev_season_racedays", racedays)
         return table_parser.table
 
     def dates_select(self) -> List[Dict[str, str]]:

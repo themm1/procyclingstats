@@ -1,47 +1,6 @@
 {
   "arrival": "Oudenaarde",
-  "climbs": [
-    {
-      "climb_name": "Oude Kwaremont",
-      "climb_url": "location/oude-kwaremont"
-    },
-    {
-      "climb_name": "Kortekeer",
-      "climb_url": "location/kortekeer"
-    },
-    {
-      "climb_name": "Achterberg",
-      "climb_url": "location/achterberg"
-    },
-    {
-      "climb_name": "Wolvenberg",
-      "climb_url": "location/wolvenberg"
-    },
-    {
-      "climb_name": "Molenberg",
-      "climb_url": "location/molenberg"
-    },
-    {
-      "climb_name": "Marlboroughstraat",
-      "climb_url": "location/marlboroughstraat"
-    },
-    {
-      "climb_name": "Berendries",
-      "climb_url": "location/berendries"
-    },
-    {
-      "climb_name": "Valkenberg",
-      "climb_url": "location/valkenberg"
-    },
-    {
-      "climb_name": "Berg Ten Houte",
-      "climb_url": "location/berg-ten-houte"
-    },
-    {
-      "climb_name": "Kanarieberg",
-      "climb_url": "location/kanarieberg"
-    }
-  ],
+  "climbs": [],
   "date": "2022-04-03",
   "departure": "Antwerp",
   "distance": 272.5,
@@ -2114,7 +2073,7 @@
       "uci_points": 0
     },
     {
-      "rider_name": "LEVY William Blume",
+      "rider_name": "BLUME LEVY William",
       "rider_url": "rider/william-blume-levy",
       "team_name": "Uno-X Pro Cycling Team",
       "team_url": "team/uno-x-pro-cycling-team-2022",
