@@ -8,7 +8,7 @@ the website before using this package.
 Instalation
 -----------
 
-Using pip (NOT AVAILABLE YET):
+Using pip:
 
 .. code-block:: text
 
