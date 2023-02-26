@@ -71,8 +71,12 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
             old_html = f_utils.get_html_fixture(new_scraper_obj.relative_url())
             old_scraper_obj = ScraperClass(url, old_html, False)
 
-            parsed_obj1_full = new_scraper_obj.parse()
-            parsed_obj2_full = old_scraper_obj.parse()
+            try:
+                parsed_obj1_full = new_scraper_obj.parse()
+                parsed_obj2_full = old_scraper_obj.parse()
+            except Exception as e:
+                print(f"Exception raised: {url}")
+                raise(e)
             # remove select methods results, because their values are often
             # changed
 
