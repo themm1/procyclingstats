@@ -49,8 +49,11 @@ Links
 -----
 
 - GitHub_
-- Read the Docs (soon)
+- PyPI_
+- Documentation_
 
 .. _GitHub: https://github.com/themm1/procyclingstats
+.. _PyPI: https://pypi.org/project/procyclingstats
+.. _Documentation: https://procyclingstats.readthedocs.io/en/latest
 .. _procyclingstats.com: https://www.procyclingstats.com
 .. _selectolax: https://github.com/rushter/selectolax
