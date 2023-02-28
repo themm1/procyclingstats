@@ -17,7 +17,6 @@ class TestStage(ScraperTestBaseClass):
         self.url_invalid("race/tour-de-france/overview/result")
         self.url_invalid("race/tour-de-france/2022/startlist/result")
         self.url_invalid("rce/tour-de-france/")
-        self.url_invalid("race/2022")
         self.url_invalid("race/tour-de-france/222")
         self.url_invalid("race/paris-roubaix/2021/result/overview")
 

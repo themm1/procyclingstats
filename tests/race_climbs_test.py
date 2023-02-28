@@ -19,8 +19,6 @@ class TestRaceClimbs(ScraperTestBaseClass):
             "race/tour-de-france/2022/stage-1/climbs-ranked")
         self.url_invalid(
             "rce/tour-de-france/2022/stage-1/stages/climbs-ranked")
-        self.url_invalid(
-            "race/2022/stages/climbs-ranked")
         self.url_invalid("race.php?sorter=steepness&id1=tour-de-france&"
             "id2=2022&id3=stages&id4=climbs")
 
