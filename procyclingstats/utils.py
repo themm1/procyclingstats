@@ -14,7 +14,7 @@ class reg: # pylint: disable=invalid-name
     """
     base_url = "(https:\\/\\/www.procyclingstats.com\\/+)"
     """example match `https://www.procyclingstats.com/`"""
-    url_str = "(\\/+([a-zA-Z]+-)*([a-zA-Z]+))"
+    url_str = "(\\/+([a-zA-Z0-9]+-)*([a-zA-Z0-9]+))"
     """example match `/This-is-url-StriNg`"""
     year = "(\\/+\\d{4})"
     """example match `/1111`"""
