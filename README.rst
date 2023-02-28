@@ -2,7 +2,7 @@ procyclingstats
 ===============
 
 Procyclingstats is a Python package for scraping `procyclingstats.com`_,
-which is a website with cycling stats. It's reccomended to get familiar with
+which is a website with cycling stats. It's recommended to get familiar with
 the website before using this package.
 
 Instalation
