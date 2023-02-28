@@ -13,6 +13,7 @@ class TestRace(ScraperTestBaseClass):
         self.url_valid("race/tour-de-france/2022/gc/overview/")
         self.url_valid("race/tour-de-france/overview/gggg/ggg")
         self.url_valid("race/cyclassics-hamburg/2022/result/overview")
+        self.url_valid("race/e3-harelbeke/2019/overview")
 
         self.url_invalid("race/tour-de-france")
         self.url_invalid("race/tour-de-france/gc/overview")

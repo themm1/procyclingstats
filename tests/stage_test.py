@@ -13,6 +13,7 @@ class TestStage(ScraperTestBaseClass):
         self.url_valid("race/okolo-slovenska/2021/prologue/result/fg")
         self.url_valid("race/tour-de-france/result/ffa/")
         self.url_valid("race/paris-roubaix/2021/result/result/fff")
+        self.url_valid("race/e3-harelbeke/2019")
 
         self.url_invalid("race/tour-de-france/overview/result")
         self.url_invalid("race/tour-de-france/2022/startlist/result")

@@ -91,6 +91,8 @@ class Stage(Scraper):
         # add team ranks to every rider's first td element, so it's possible
         # to map teams to riders based on their rank
         categories = self.html.css(self._tables_path)
+        if not categories:
+            return
         results_table_html = categories[0]
         if self.stage_type() != "TTT":
             return

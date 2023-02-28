@@ -104,6 +104,8 @@ class RiderResults(Scraper):
     def _set_up_html(self):
         """Overrides Scraper method. Removes last table row with sum stats."""
         results_table_html = self.html.css_first("table")
+        if not results_table_html:
+            return
         for row in results_table_html.css("tr"):
             if "class" in row.attributes and row.attributes['class'] == "sum":
                 row.decompose()
