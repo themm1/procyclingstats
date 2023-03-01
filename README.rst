@@ -6,7 +6,7 @@ which is a website with cycling stats. It's recommended to get familiar with
 the website before using this package.
 
 Installation
------------
+------------
 
 Using pip:
 
