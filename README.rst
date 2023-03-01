@@ -45,6 +45,17 @@ Interface consists from scraping classes which are currently ``Race``,
 the only difference among them are parsing methods as is for example
 ``birthdate`` in Rider class usage example.
 
+Unexpected behaviour and parsing errors
+---------------------------------------
+
+Since the project is a web scraper which parses HTML, it's difficult to make
+it reliable and it's common to encounter some HTML parsing problems. After
+getting some kind of unexpected behaviour or parsing errors, it's recommended
+to update the package on your system using
+``pip install procyclingstats --upgrade``. If the problem proceeds, see the
+GitHub issues_ page and if the issue hasn't been opened yet, don't hesitate to
+open one!
+
 Links
 -----
 
@@ -57,3 +68,4 @@ Links
 .. _Documentation: https://procyclingstats.readthedocs.io/en/latest
 .. _procyclingstats.com: https://www.procyclingstats.com
 .. _selectolax: https://github.com/rushter/selectolax
+.. _issues: https://github.com/themm1/procyclingstats/issues
