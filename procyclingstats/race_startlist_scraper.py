@@ -76,7 +76,9 @@ class RaceStartlist(Scraper):
             - team_name:
             - team_url:
             - nationality: Rider's nationality as 2 chars long country code.
-            - rider_number: Rider's ID number in the race.
+            - rider_number: Rider's ID number in the race. For races without
+                numbered participants (e.g. the ones that haven't occured yet)
+                is every rider's ID None.
 
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
@@ -133,7 +135,10 @@ class RaceStartlist(Scraper):
                 numbers = []
                 for row in riders_table.css("li"):
                     num = row.text(deep=False).split(" ")[0]
-                    numbers.append(int(num))
+                    if num.isnumeric():
+                        numbers.append(int(num))
+                    else:
+                        numbers.append(None)
                 table_parser.extend_table("rider_number", numbers)
             # add team names to the table if needed
             if "team_name" in fields:
