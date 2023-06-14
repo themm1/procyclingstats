@@ -47,10 +47,9 @@ class Stage(Scraper):
     """
     _url_validation_regex = format_regex_str(
     f"""
-        {reg.base_url}?race{reg.url_str}
-        ({reg.year}{reg.stage}({reg.result}{reg.anything}?)?|
-        ({reg.year}{reg.result}?({reg.result}{reg.result}{reg.anything})?)|
-        ({reg.result}{reg.anything}))?
+        {reg.base_url}?race{reg.url_str}{reg.year}
+        ({reg.stage}({reg.result}{reg.anything}?)?|
+        ({reg.result}{reg.result}?{reg.result}?{reg.anything}?))
         \\/*
     """)
     """Regex for validating stage URL."""
@@ -68,19 +67,16 @@ class Stage(Scraper):
         decomposed_url = self._decompose_url()
         decomposed_url.extend([""] * (4 - len(decomposed_url)))
         race_id = decomposed_url[1]
-        if decomposed_url[2].isnumeric() and len(decomposed_url[2]) == 4:
-            year = decomposed_url[2]
-        else:
-            year = None
-        if "stage" in decomposed_url[3] or "prologue" in decomposed_url[3]:
+        year = decomposed_url[2]
+        if "stage" in decomposed_url[3] or "prologue" in decomposed_url[3] or \
+            "gc" in decomposed_url[3]:
             stage_id = decomposed_url[3]
         else:
             stage_id = None
-        normalized_url = f"race/{race_id}"
-        if year is not None:
-            normalized_url += f"/{year}"
-            if stage_id is not None:
-                normalized_url += f"/{stage_id}"
+        normalized_url = f"race/{race_id}/{year}"
+        if stage_id is not None:
+            normalized_url += f"/{stage_id}"
+        print(normalized_url)
         return normalized_url
 
     def _set_up_html(self) -> None:
@@ -256,6 +252,7 @@ class Stage(Scraper):
         )
         fields = parse_table_fields_args(args, available_fields)
         climbs_html = self.html.css_first("ul.list.circle")
+        print(climbs_html)
         if climbs_html is None:
             return []
 
