@@ -14,7 +14,7 @@ class RaceClimbs(Scraper):
     Usage:
 
     >>> from procyclingstats import RaceClimbs
-    >>> race_climbs = RaceClimbs("race/tour-de-france/2022/gc/stages/climbs-ranked")
+    >>> race_climbs = RaceClimbs("race/tour-de-france/2022/gc/route/climbs")
     >>> race_climbs.climbs()
     [
         {
@@ -40,23 +40,14 @@ class RaceClimbs(Scraper):
             },
             ...
         ]
-        'normalized_relative_url': 'race/tour-de-france/2022/stages/climbs-ranked'
+        'normalized_relative_url': 'race/tour-de-france/2022/route/climbs'
     }
 
 
     """
     _url_validation_regex = format_regex_str(
     f"""
-        {reg.base_url}?
-        (
-        (race{reg.url_str}
-            (({reg.year}{reg.stage}{reg.climbs})|
-            ({reg.year}{reg.climbs})|
-            {reg.climbs})
-        )
-        |
-        race.php\\?.*id\\d=climbs-ranked.*
-        )
+        {reg.base_url}?race{reg.url_str}{reg.year}/+route/+climbs{reg.anything}?
     """)
     """Regex for validating race climbs URL."""
 
@@ -67,15 +58,8 @@ class RaceClimbs(Scraper):
 
         :return: Normalized relative URL.
         """
-        if "race.php?" in self.url:
-            return format_url_filter(self.relative_url())
-
         decomposed_url = self._decompose_url()
-        # remove stage id from normalized URL if needed
-        if (decomposed_url[3] != "stages" and
-            decomposed_url[3] != "climbs-ranked"):
-            decomposed_url.pop(3)
-        return "/".join(decomposed_url)
+        return "/".join(decomposed_url[:5])
 
     def _html_valid(self) -> bool:
         """
