@@ -70,8 +70,12 @@ class Race(Scraper):
 
         :return: Whether given race is one day race.
         """
-        one_day_race_html = self.html.css_first("div.sub > span.blue")
-        return "stage" not in one_day_race_html.text().lower()
+        titles = self.html.css("div > div > h3")
+        titles = [] if not titles else titles
+        for title_html in titles:
+            if "Stages" in title_html.text():
+                return False
+        return True
 
     def nationality(self) -> str:
         """
@@ -151,13 +155,15 @@ class Race(Scraper):
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
+            - rider_url: Winner's URL.
+            - rider_name: Winner's name.
+            - nationality: Winner's nationality as 2 chars long country code.
             - date: Date when the stage occured in ``MM-DD`` format.
             - profile_icon: Profile icon of the stage (p1, p2, ... p5).
             - stage_name: Name of the stage, e.g \
                 ``Stage 2 | Roskilde - Nyborg``.
             - stage_url: URL of the stage, e.g. \
                 ``race/tour-de-france/2022/stage-2``.
-            - distance: Stage distance in KMs as float.
 
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
@@ -167,35 +173,28 @@ class Race(Scraper):
             "profile_icon",
             "stage_name",
             "stage_url",
-            "distance"
+            "rider_url",
+            "rider_name",
+            "nationality"
         )
         if self.is_one_day_race():
             return []
 
         fields = parse_table_fields_args(args, available_fields)
-        casual_fields = (
-            "profile_icon",
-            "stage_name",
-            "stage_url"
-        )
-        stages_table_html = self.html.css_first("div.mt20 ul.list")
+        stages_table_html = self.html.css_first("div:not(.mg_r2) > div > \
+            span > table.basic")
         # remove rest day table rows
-        for stage_e in stages_table_html.css("li"):
-            dist = stage_e.css_first("div:nth-child(5)").text()
-            if not dist:
+        for stage_e in stages_table_html.css("tr"):
+            not_p_icon = stage_e.css_first(".icon.profile.p")
+            if not_p_icon:
                 stage_e.remove()
 
+        print(len(stages_table_html.css("tr")))
         table_parser = TableParser(stages_table_html)
-        casual_f_to_parse = [f for f in fields if f in casual_fields]
-        if casual_fields:
-            table_parser.parse(casual_f_to_parse)
+        casual_f_to_parse = [f for f in fields if f != "date"]
+        table_parser.parse(casual_f_to_parse)
         # add stages dates to table if neede
         if "date" in fields:
             dates = table_parser.parse_extra_column(0, get_day_month)
             table_parser.extend_table("date", dates)
-        # add distances to table if needed
-        if "distance" in fields:
-            distances = table_parser.parse_extra_column(4, lambda x:
-                float(x.split("k")[0].replace("(", "")) if x else None)
-            table_parser.extend_table("distance", distances)
         return table_parser.table
