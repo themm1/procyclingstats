@@ -14,7 +14,7 @@ class Race(Scraper):
     Usage:
 
     >>> from procyclingstats import Race
-    >>> race = Race("race/tour-de-france/2022/overview")
+    >>> race = Race("race/tour-de-france/2022")
     >>> race.enddate()
     '2022-07-24'
     >>> race.parse()
@@ -29,11 +29,7 @@ class Race(Scraper):
     """
     _url_validation_regex = format_regex_str(
     f"""
-        {reg.base_url}?race{reg.url_str}
-        (({reg.year}{reg.stage}{reg.overview}{reg.anything}?)|
-        ({reg.year}{reg.result}?{reg.overview}{reg.anything}?)|
-        {reg.overview}{reg.anything}?)
-        \\/*
+        {reg.base_url}?race{reg.url_str}{reg.year}.*
     """)
     """Regex for validating race overview URL."""
 
@@ -45,7 +41,7 @@ class Race(Scraper):
         :return: Normalized URL in ``race/{race_id}/{year}/overview`` format.
             When year isn't contained in user defined URL, year is skipped.
         """
-        return normalize_race_url(self._decompose_url(), "overview")
+        return "/".join(self._decompose_url()[:3])
 
     def year(self) -> int:
         """
