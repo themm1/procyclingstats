@@ -6,7 +6,7 @@
       "rider_url": "rider/tadej-pogacar",
       "nationality": "SI",
       "rider_number": 1,
-      "team_name": "UAE Team Emirates",
+      "team_name": "UAE Team Emirates (WT)",
       "team_url": "team/uae-team-emirates-2022"
     },
     {
@@ -14,7 +14,7 @@
       "rider_url": "rider/george-bennett",
       "nationality": "NZ",
       "rider_number": 2,
-      "team_name": "UAE Team Emirates",
+      "team_name": "UAE Team Emirates (WT)",
       "team_url": "team/uae-team-emirates-2022"
     },
     {
@@ -22,7 +22,7 @@
       "rider_url": "rider/mikkel-bjerg",
       "nationality": "DK",
       "rider_number": 3,
-      "team_name": "UAE Team Emirates",
+      "team_name": "UAE Team Emirates (WT)",
       "team_url": "team/uae-team-emirates-2022"
     },
     {
@@ -30,7 +30,7 @@
       "rider_url": "rider/vegard-stake-laengen",
       "nationality": "NO",
       "rider_number": 4,
-      "team_name": "UAE Team Emirates",
+      "team_name": "UAE Team Emirates (WT)",
       "team_url": "team/uae-team-emirates-2022"
     },
     {
@@ -38,7 +38,7 @@
       "rider_url": "rider/rafal-majka",
       "nationality": "PL",
       "rider_number": 5,
-      "team_name": "UAE Team Emirates",
+      "team_name": "UAE Team Emirates (WT)",
       "team_url": "team/uae-team-emirates-2022"
     },
     {
@@ -46,7 +46,7 @@
       "rider_url": "rider/brandon-mcnulty",
       "nationality": "US",
       "rider_number": 6,
-      "team_name": "UAE Team Emirates",
+      "team_name": "UAE Team Emirates (WT)",
       "team_url": "team/uae-team-emirates-2022"
     },
     {
@@ -54,7 +54,7 @@
       "rider_url": "rider/marc-soler",
       "nationality": "ES",
       "rider_number": 7,
-      "team_name": "UAE Team Emirates",
+      "team_name": "UAE Team Emirates (WT)",
       "team_url": "team/uae-team-emirates-2022"
     },
     {
@@ -62,7 +62,7 @@
       "rider_url": "rider/marc-hirschi",
       "nationality": "CH",
       "rider_number": 8,
-      "team_name": "UAE Team Emirates",
+      "team_name": "UAE Team Emirates (WT)",
       "team_url": "team/uae-team-emirates-2022"
     },
     {
@@ -70,7 +70,7 @@
       "rider_url": "rider/primoz-roglic",
       "nationality": "SI",
       "rider_number": 11,
-      "team_name": "Jumbo-Visma",
+      "team_name": "Jumbo-Visma (WT)",
       "team_url": "team/team-jumbo-visma-2022"
     },
     {
@@ -78,7 +78,7 @@
       "rider_url": "rider/tiesj-benoot",
       "nationality": "BE",
       "rider_number": 12,
-      "team_name": "Jumbo-Visma",
+      "team_name": "Jumbo-Visma (WT)",
       "team_url": "team/team-jumbo-visma-2022"
     },
     {
@@ -86,7 +86,7 @@
       "rider_url": "rider/steven-kruijswijk",
       "nationality": "NL",
       "rider_number": 13,
-      "team_name": "Jumbo-Visma",
+      "team_name": "Jumbo-Visma (WT)",
       "team_url": "team/team-jumbo-visma-2022"
     },
     {
@@ -94,7 +94,7 @@
       "rider_url": "rider/sepp-kuss",
       "nationality": "US",
       "rider_number": 14,
-      "team_name": "Jumbo-Visma",
+      "team_name": "Jumbo-Visma (WT)",
       "team_url": "team/team-jumbo-visma-2022"
     },
     {
@@ -102,7 +102,7 @@
       "rider_url": "rider/christophe-laporte",
       "nationality": "FR",
       "rider_number": 15,
-      "team_name": "Jumbo-Visma",
+      "team_name": "Jumbo-Visma (WT)",
       "team_url": "team/team-jumbo-visma-2022"
     },
     {
@@ -110,7 +110,7 @@
       "rider_url": "rider/wout-van-aert",
       "nationality": "BE",
       "rider_number": 16,
-      "team_name": "Jumbo-Visma",
+      "team_name": "Jumbo-Visma (WT)",
       "team_url": "team/team-jumbo-visma-2022"
     },
     {
@@ -118,7 +118,7 @@
       "rider_url": "rider/nathan-van-hooydonck",
       "nationality": "BE",
       "rider_number": 17,
-      "team_name": "Jumbo-Visma",
+      "team_name": "Jumbo-Visma (WT)",
       "team_url": "team/team-jumbo-visma-2022"
     },
     {
@@ -126,7 +126,7 @@
       "rider_url": "rider/jonas-vingegaard-rasmussen",
       "nationality": "DK",
       "rider_number": 18,
-      "team_name": "Jumbo-Visma",
+      "team_name": "Jumbo-Visma (WT)",
       "team_url": "team/team-jumbo-visma-2022"
     },
     {
@@ -134,7 +134,7 @@
       "rider_url": "rider/geraint-thomas",
       "nationality": "GB",
       "rider_number": 21,
-      "team_name": "INEOS Grenadiers",
+      "team_name": "INEOS Grenadiers (WT)",
       "team_url": "team/ineos-grenadiers-2022"
     },
     {
@@ -142,7 +142,7 @@
       "rider_url": "rider/daniel-felipe-martinez",
       "nationality": "CO",
       "rider_number": 22,
-      "team_name": "INEOS Grenadiers",
+      "team_name": "INEOS Grenadiers (WT)",
       "team_url": "team/ineos-grenadiers-2022"
     },
     {
@@ -150,7 +150,7 @@
       "rider_url": "rider/jonathan-castroviejo",
       "nationality": "ES",
       "rider_number": 23,
-      "team_name": "INEOS Grenadiers",
+      "team_name": "INEOS Grenadiers (WT)",
       "team_url": "team/ineos-grenadiers-2022"
     },
     {
@@ -158,7 +158,7 @@
       "rider_url": "rider/filippo-ganna",
       "nationality": "IT",
       "rider_number": 24,
-      "team_name": "INEOS Grenadiers",
+      "team_name": "INEOS Grenadiers (WT)",
       "team_url": "team/ineos-grenadiers-2022"
     },
     {
@@ -166,7 +166,7 @@
       "rider_url": "rider/thomas-pidcock",
       "nationality": "GB",
       "rider_number": 25,
-      "team_name": "INEOS Grenadiers",
+      "team_name": "INEOS Grenadiers (WT)",
       "team_url": "team/ineos-grenadiers-2022"
     },
     {
@@ -174,7 +174,7 @@
       "rider_url": "rider/luke-rowe",
       "nationality": "GB",
       "rider_number": 26,
-      "team_name": "INEOS Grenadiers",
+      "team_name": "INEOS Grenadiers (WT)",
       "team_url": "team/ineos-grenadiers-2022"
     },
     {
@@ -182,7 +182,7 @@
       "rider_url": "rider/dylan-van-baarle",
       "nationality": "NL",
       "rider_number": 27,
-      "team_name": "INEOS Grenadiers",
+      "team_name": "INEOS Grenadiers (WT)",
       "team_url": "team/ineos-grenadiers-2022"
     },
     {
@@ -190,7 +190,7 @@
       "rider_url": "rider/adam-yates",
       "nationality": "GB",
       "rider_number": 28,
-      "team_name": "INEOS Grenadiers",
+      "team_name": "INEOS Grenadiers (WT)",
       "team_url": "team/ineos-grenadiers-2022"
     },
     {
@@ -198,7 +198,7 @@
       "rider_url": "rider/ben-o-connor",
       "nationality": "AU",
       "rider_number": 31,
-      "team_name": "AG2R Citro\u00ebn Team",
+      "team_name": "AG2R Citro\u00ebn Team (WT)",
       "team_url": "team/ag2r-citroen-team-2022"
     },
     {
@@ -206,7 +206,7 @@
       "rider_url": "rider/geoffrey-bouchard",
       "nationality": "FR",
       "rider_number": 32,
-      "team_name": "AG2R Citro\u00ebn Team",
+      "team_name": "AG2R Citro\u00ebn Team (WT)",
       "team_url": "team/ag2r-citroen-team-2022"
     },
     {
@@ -214,7 +214,7 @@
       "rider_url": "rider/mikael-cherel",
       "nationality": "FR",
       "rider_number": 33,
-      "team_name": "AG2R Citro\u00ebn Team",
+      "team_name": "AG2R Citro\u00ebn Team (WT)",
       "team_url": "team/ag2r-citroen-team-2022"
     },
     {
@@ -222,7 +222,7 @@
       "rider_url": "rider/benoit-cosnefroy",
       "nationality": "FR",
       "rider_number": 34,
-      "team_name": "AG2R Citro\u00ebn Team",
+      "team_name": "AG2R Citro\u00ebn Team (WT)",
       "team_url": "team/ag2r-citroen-team-2022"
     },
     {
@@ -230,7 +230,7 @@
       "rider_url": "rider/stan-dewulf",
       "nationality": "BE",
       "rider_number": 35,
-      "team_name": "AG2R Citro\u00ebn Team",
+      "team_name": "AG2R Citro\u00ebn Team (WT)",
       "team_url": "team/ag2r-citroen-team-2022"
     },
     {
@@ -238,7 +238,7 @@
       "rider_url": "rider/bob-jungels",
       "nationality": "LU",
       "rider_number": 36,
-      "team_name": "AG2R Citro\u00ebn Team",
+      "team_name": "AG2R Citro\u00ebn Team (WT)",
       "team_url": "team/ag2r-citroen-team-2022"
     },
     {
@@ -246,7 +246,7 @@
       "rider_url": "rider/oliver-naesen",
       "nationality": "BE",
       "rider_number": 37,
-      "team_name": "AG2R Citro\u00ebn Team",
+      "team_name": "AG2R Citro\u00ebn Team (WT)",
       "team_url": "team/ag2r-citroen-team-2022"
     },
     {
@@ -254,7 +254,7 @@
       "rider_url": "rider/aurelien-paret-peintre",
       "nationality": "FR",
       "rider_number": 38,
-      "team_name": "AG2R Citro\u00ebn Team",
+      "team_name": "AG2R Citro\u00ebn Team (WT)",
       "team_url": "team/ag2r-citroen-team-2022"
     },
     {
@@ -262,7 +262,7 @@
       "rider_url": "rider/aleksandr-vlasov",
       "nationality": "RU",
       "rider_number": 41,
-      "team_name": "BORA - hansgrohe",
+      "team_name": "BORA - hansgrohe (WT)",
       "team_url": "team/bora-hansgrohe-2022"
     },
     {
@@ -270,7 +270,7 @@
       "rider_url": "rider/felix-grossschartner",
       "nationality": "AT",
       "rider_number": 42,
-      "team_name": "BORA - hansgrohe",
+      "team_name": "BORA - hansgrohe (WT)",
       "team_url": "team/bora-hansgrohe-2022"
     },
     {
@@ -278,7 +278,7 @@
       "rider_url": "rider/marco-haller",
       "nationality": "AT",
       "rider_number": 43,
-      "team_name": "BORA - hansgrohe",
+      "team_name": "BORA - hansgrohe (WT)",
       "team_url": "team/bora-hansgrohe-2022"
     },
     {
@@ -286,7 +286,7 @@
       "rider_url": "rider/lennard-kamna",
       "nationality": "DE",
       "rider_number": 44,
-      "team_name": "BORA - hansgrohe",
+      "team_name": "BORA - hansgrohe (WT)",
       "team_url": "team/bora-hansgrohe-2022"
     },
     {
@@ -294,7 +294,7 @@
       "rider_url": "rider/patrick-konrad",
       "nationality": "AT",
       "rider_number": 45,
-      "team_name": "BORA - hansgrohe",
+      "team_name": "BORA - hansgrohe (WT)",
       "team_url": "team/bora-hansgrohe-2022"
     },
     {
@@ -302,7 +302,7 @@
       "rider_url": "rider/nils-politt",
       "nationality": "DE",
       "rider_number": 46,
-      "team_name": "BORA - hansgrohe",
+      "team_name": "BORA - hansgrohe (WT)",
       "team_url": "team/bora-hansgrohe-2022"
     },
     {
@@ -310,7 +310,7 @@
       "rider_url": "rider/maximilian-schachmann",
       "nationality": "DE",
       "rider_number": 47,
-      "team_name": "BORA - hansgrohe",
+      "team_name": "BORA - hansgrohe (WT)",
       "team_url": "team/bora-hansgrohe-2022"
     },
     {
@@ -318,7 +318,7 @@
       "rider_url": "rider/danny-van-poppel",
       "nationality": "NL",
       "rider_number": 48,
-      "team_name": "BORA - hansgrohe",
+      "team_name": "BORA - hansgrohe (WT)",
       "team_url": "team/bora-hansgrohe-2022"
     },
     {
@@ -326,7 +326,7 @@
       "rider_url": "rider/fabio-jakobsen",
       "nationality": "NL",
       "rider_number": 51,
-      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_name": "Quick-Step Alpha Vinyl Team (WT)",
       "team_url": "team/quick-step-alpha-vinyl-2022"
     },
     {
@@ -334,7 +334,7 @@
       "rider_url": "rider/kasper-asgreen",
       "nationality": "DK",
       "rider_number": 52,
-      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_name": "Quick-Step Alpha Vinyl Team (WT)",
       "team_url": "team/quick-step-alpha-vinyl-2022"
     },
     {
@@ -342,7 +342,7 @@
       "rider_url": "rider/andrea-bagioli",
       "nationality": "IT",
       "rider_number": 53,
-      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_name": "Quick-Step Alpha Vinyl Team (WT)",
       "team_url": "team/quick-step-alpha-vinyl-2022"
     },
     {
@@ -350,7 +350,7 @@
       "rider_url": "rider/mattia-cattaneo",
       "nationality": "IT",
       "rider_number": 54,
-      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_name": "Quick-Step Alpha Vinyl Team (WT)",
       "team_url": "team/quick-step-alpha-vinyl-2022"
     },
     {
@@ -358,7 +358,7 @@
       "rider_url": "rider/mikkel-honore",
       "nationality": "DK",
       "rider_number": 55,
-      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_name": "Quick-Step Alpha Vinyl Team (WT)",
       "team_url": "team/quick-step-alpha-vinyl-2022"
     },
     {
@@ -366,7 +366,7 @@
       "rider_url": "rider/yves-lampaert",
       "nationality": "BE",
       "rider_number": 56,
-      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_name": "Quick-Step Alpha Vinyl Team (WT)",
       "team_url": "team/quick-step-alpha-vinyl-2022"
     },
     {
@@ -374,7 +374,7 @@
       "rider_url": "rider/michael-morkov",
       "nationality": "DK",
       "rider_number": 57,
-      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_name": "Quick-Step Alpha Vinyl Team (WT)",
       "team_url": "team/quick-step-alpha-vinyl-2022"
     },
     {
@@ -382,7 +382,7 @@
       "rider_url": "rider/florian-senechal",
       "nationality": "FR",
       "rider_number": 58,
-      "team_name": "Quick-Step Alpha Vinyl Team",
+      "team_name": "Quick-Step Alpha Vinyl Team (WT)",
       "team_url": "team/quick-step-alpha-vinyl-2022"
     },
     {
@@ -390,7 +390,7 @@
       "rider_url": "rider/enric-mas",
       "nationality": "ES",
       "rider_number": 61,
-      "team_name": "Movistar Team",
+      "team_name": "Movistar Team (WT)",
       "team_url": "team/movistar-team-2022"
     },
     {
@@ -398,7 +398,7 @@
       "rider_url": "rider/imanol-erviti",
       "nationality": "ES",
       "rider_number": 62,
-      "team_name": "Movistar Team",
+      "team_name": "Movistar Team (WT)",
       "team_url": "team/movistar-team-2022"
     },
     {
@@ -406,7 +406,7 @@
       "rider_url": "rider/gorka-izagirre",
       "nationality": "ES",
       "rider_number": 63,
-      "team_name": "Movistar Team",
+      "team_name": "Movistar Team (WT)",
       "team_url": "team/movistar-team-2022"
     },
     {
@@ -414,7 +414,7 @@
       "rider_url": "rider/matteo-jorgenson",
       "nationality": "US",
       "rider_number": 64,
-      "team_name": "Movistar Team",
+      "team_name": "Movistar Team (WT)",
       "team_url": "team/movistar-team-2022"
     },
     {
@@ -422,7 +422,7 @@
       "rider_url": "rider/gregor-muhlberger",
       "nationality": "AT",
       "rider_number": 65,
-      "team_name": "Movistar Team",
+      "team_name": "Movistar Team (WT)",
       "team_url": "team/movistar-team-2022"
     },
     {
@@ -430,7 +430,7 @@
       "rider_url": "rider/nelson-oliveira",
       "nationality": "PT",
       "rider_number": 66,
-      "team_name": "Movistar Team",
+      "team_name": "Movistar Team (WT)",
       "team_url": "team/movistar-team-2022"
     },
     {
@@ -438,7 +438,7 @@
       "rider_url": "rider/albert-torres",
       "nationality": "ES",
       "rider_number": 67,
-      "team_name": "Movistar Team",
+      "team_name": "Movistar Team (WT)",
       "team_url": "team/movistar-team-2022"
     },
     {
@@ -446,7 +446,7 @@
       "rider_url": "rider/carlos-verona",
       "nationality": "ES",
       "rider_number": 68,
-      "team_name": "Movistar Team",
+      "team_name": "Movistar Team (WT)",
       "team_url": "team/movistar-team-2022"
     },
     {
@@ -454,7 +454,7 @@
       "rider_url": "rider/guillaume-martin",
       "nationality": "FR",
       "rider_number": 71,
-      "team_name": "Cofidis",
+      "team_name": "Cofidis (WT)",
       "team_url": "team/cofidis-2022"
     },
     {
@@ -462,7 +462,7 @@
       "rider_url": "rider/pierre-luc-perichon",
       "nationality": "FR",
       "rider_number": 72,
-      "team_name": "Cofidis",
+      "team_name": "Cofidis (WT)",
       "team_url": "team/cofidis-2022"
     },
     {
@@ -470,7 +470,7 @@
       "rider_url": "rider/simon-geschke",
       "nationality": "DE",
       "rider_number": 73,
-      "team_name": "Cofidis",
+      "team_name": "Cofidis (WT)",
       "team_url": "team/cofidis-2022"
     },
     {
@@ -478,7 +478,7 @@
       "rider_url": "rider/ion-izagirre",
       "nationality": "ES",
       "rider_number": 74,
-      "team_name": "Cofidis",
+      "team_name": "Cofidis (WT)",
       "team_url": "team/cofidis-2022"
     },
     {
@@ -486,7 +486,7 @@
       "rider_url": "rider/victor-lafay",
       "nationality": "FR",
       "rider_number": 75,
-      "team_name": "Cofidis",
+      "team_name": "Cofidis (WT)",
       "team_url": "team/cofidis-2022"
     },
     {
@@ -494,7 +494,7 @@
       "rider_url": "rider/anthony-perez",
       "nationality": "FR",
       "rider_number": 76,
-      "team_name": "Cofidis",
+      "team_name": "Cofidis (WT)",
       "team_url": "team/cofidis-2022"
     },
     {
@@ -502,7 +502,7 @@
       "rider_url": "rider/benjamin-thomas-2",
       "nationality": "FR",
       "rider_number": 77,
-      "team_name": "Cofidis",
+      "team_name": "Cofidis (WT)",
       "team_url": "team/cofidis-2022"
     },
     {
@@ -510,7 +510,7 @@
       "rider_url": "rider/max-walscheid",
       "nationality": "DE",
       "rider_number": 78,
-      "team_name": "Cofidis",
+      "team_name": "Cofidis (WT)",
       "team_url": "team/cofidis-2022"
     },
     {
@@ -518,7 +518,7 @@
       "rider_url": "rider/jack-haig",
       "nationality": "AU",
       "rider_number": 81,
-      "team_name": "Bahrain - Victorious",
+      "team_name": "Bahrain - Victorious (WT)",
       "team_url": "team/bahrain-victorious-2022"
     },
     {
@@ -526,7 +526,7 @@
       "rider_url": "rider/damiano-caruso",
       "nationality": "IT",
       "rider_number": 82,
-      "team_name": "Bahrain - Victorious",
+      "team_name": "Bahrain - Victorious (WT)",
       "team_url": "team/bahrain-victorious-2022"
     },
     {
@@ -534,7 +534,7 @@
       "rider_url": "rider/kamil-gradek",
       "nationality": "PL",
       "rider_number": 83,
-      "team_name": "Bahrain - Victorious",
+      "team_name": "Bahrain - Victorious (WT)",
       "team_url": "team/bahrain-victorious-2022"
     },
     {
@@ -542,7 +542,7 @@
       "rider_url": "rider/matej-mohoric",
       "nationality": "SI",
       "rider_number": 84,
-      "team_name": "Bahrain - Victorious",
+      "team_name": "Bahrain - Victorious (WT)",
       "team_url": "team/bahrain-victorious-2022"
     },
     {
@@ -550,7 +550,7 @@
       "rider_url": "rider/luis-leon-sanchez",
       "nationality": "ES",
       "rider_number": 85,
-      "team_name": "Bahrain - Victorious",
+      "team_name": "Bahrain - Victorious (WT)",
       "team_url": "team/bahrain-victorious-2022"
     },
     {
@@ -558,7 +558,7 @@
       "rider_url": "rider/dylan-teuns",
       "nationality": "BE",
       "rider_number": 86,
-      "team_name": "Bahrain - Victorious",
+      "team_name": "Bahrain - Victorious (WT)",
       "team_url": "team/bahrain-victorious-2022"
     },
     {
@@ -566,7 +566,7 @@
       "rider_url": "rider/jan-tratnik",
       "nationality": "SI",
       "rider_number": 87,
-      "team_name": "Bahrain - Victorious",
+      "team_name": "Bahrain - Victorious (WT)",
       "team_url": "team/bahrain-victorious-2022"
     },
     {
@@ -574,7 +574,7 @@
       "rider_url": "rider/alfred-wright",
       "nationality": "GB",
       "rider_number": 88,
-      "team_name": "Bahrain - Victorious",
+      "team_name": "Bahrain - Victorious (WT)",
       "team_url": "team/bahrain-victorious-2022"
     },
     {
@@ -582,7 +582,7 @@
       "rider_url": "rider/david-gaudu",
       "nationality": "FR",
       "rider_number": 91,
-      "team_name": "Groupama - FDJ",
+      "team_name": "Groupama - FDJ (WT)",
       "team_url": "team/groupama-fdj-2022"
     },
     {
@@ -590,7 +590,7 @@
       "rider_url": "rider/antoine-duchesne",
       "nationality": "CA",
       "rider_number": 92,
-      "team_name": "Groupama - FDJ",
+      "team_name": "Groupama - FDJ (WT)",
       "team_url": "team/groupama-fdj-2022"
     },
     {
@@ -598,7 +598,7 @@
       "rider_url": "rider/kevin-geniets",
       "nationality": "LU",
       "rider_number": 93,
-      "team_name": "Groupama - FDJ",
+      "team_name": "Groupama - FDJ (WT)",
       "team_url": "team/groupama-fdj-2022"
     },
     {
@@ -606,7 +606,7 @@
       "rider_url": "rider/stefan-kung",
       "nationality": "CH",
       "rider_number": 94,
-      "team_name": "Groupama - FDJ",
+      "team_name": "Groupama - FDJ (WT)",
       "team_url": "team/groupama-fdj-2022"
     },
     {
@@ -614,7 +614,7 @@
       "rider_url": "rider/olivier-le-gac",
       "nationality": "FR",
       "rider_number": 95,
-      "team_name": "Groupama - FDJ",
+      "team_name": "Groupama - FDJ (WT)",
       "team_url": "team/groupama-fdj-2022"
     },
     {
@@ -622,7 +622,7 @@
       "rider_url": "rider/valentin-madouas",
       "nationality": "FR",
       "rider_number": 96,
-      "team_name": "Groupama - FDJ",
+      "team_name": "Groupama - FDJ (WT)",
       "team_url": "team/groupama-fdj-2022"
     },
     {
@@ -630,7 +630,7 @@
       "rider_url": "rider/thibaut-pinot",
       "nationality": "FR",
       "rider_number": 97,
-      "team_name": "Groupama - FDJ",
+      "team_name": "Groupama - FDJ (WT)",
       "team_url": "team/groupama-fdj-2022"
     },
     {
@@ -638,7 +638,7 @@
       "rider_url": "rider/michael-storer",
       "nationality": "AU",
       "rider_number": 98,
-      "team_name": "Groupama - FDJ",
+      "team_name": "Groupama - FDJ (WT)",
       "team_url": "team/groupama-fdj-2022"
     },
     {
@@ -646,7 +646,7 @@
       "rider_url": "rider/mathieu-van-der-poel",
       "nationality": "NL",
       "rider_number": 101,
-      "team_name": "Alpecin-Deceuninck",
+      "team_name": "Alpecin-Deceuninck (PRT)",
       "team_url": "team/alpecin-deceuninck-2022"
     },
     {
@@ -654,7 +654,7 @@
       "rider_url": "rider/silvan-dillier",
       "nationality": "CH",
       "rider_number": 102,
-      "team_name": "Alpecin-Deceuninck",
+      "team_name": "Alpecin-Deceuninck (PRT)",
       "team_url": "team/alpecin-deceuninck-2022"
     },
     {
@@ -662,7 +662,7 @@
       "rider_url": "rider/michael-gogl",
       "nationality": "AT",
       "rider_number": 103,
-      "team_name": "Alpecin-Deceuninck",
+      "team_name": "Alpecin-Deceuninck (PRT)",
       "team_url": "team/alpecin-deceuninck-2022"
     },
     {
@@ -670,7 +670,7 @@
       "rider_url": "rider/alexander-krieger",
       "nationality": "DE",
       "rider_number": 104,
-      "team_name": "Alpecin-Deceuninck",
+      "team_name": "Alpecin-Deceuninck (PRT)",
       "team_url": "team/alpecin-deceuninck-2022"
     },
     {
@@ -678,7 +678,7 @@
       "rider_url": "rider/jasper-philipsen",
       "nationality": "BE",
       "rider_number": 105,
-      "team_name": "Alpecin-Deceuninck",
+      "team_name": "Alpecin-Deceuninck (PRT)",
       "team_url": "team/alpecin-deceuninck-2022"
     },
     {
@@ -686,7 +686,7 @@
       "rider_url": "rider/edward-planckaert",
       "nationality": "BE",
       "rider_number": 106,
-      "team_name": "Alpecin-Deceuninck",
+      "team_name": "Alpecin-Deceuninck (PRT)",
       "team_url": "team/alpecin-deceuninck-2022"
     },
     {
@@ -694,7 +694,7 @@
       "rider_url": "rider/kristian-sbaragli",
       "nationality": "IT",
       "rider_number": 107,
-      "team_name": "Alpecin-Deceuninck",
+      "team_name": "Alpecin-Deceuninck (PRT)",
       "team_url": "team/alpecin-deceuninck-2022"
     },
     {
@@ -702,7 +702,7 @@
       "rider_url": "rider/guillaume-van-keirsbulck",
       "nationality": "BE",
       "rider_number": 108,
-      "team_name": "Alpecin-Deceuninck",
+      "team_name": "Alpecin-Deceuninck (PRT)",
       "team_url": "team/alpecin-deceuninck-2022"
     },
     {
@@ -710,7 +710,7 @@
       "rider_url": "rider/romain-bardet",
       "nationality": "FR",
       "rider_number": 111,
-      "team_name": "Team DSM",
+      "team_name": "Team DSM (WT)",
       "team_url": "team/team-dsm-2022"
     },
     {
@@ -718,7 +718,7 @@
       "rider_url": "rider/alberto-dainese",
       "nationality": "IT",
       "rider_number": 112,
-      "team_name": "Team DSM",
+      "team_name": "Team DSM (WT)",
       "team_url": "team/team-dsm-2022"
     },
     {
@@ -726,7 +726,7 @@
       "rider_url": "rider/john-degenkolb",
       "nationality": "DE",
       "rider_number": 113,
-      "team_name": "Team DSM",
+      "team_name": "Team DSM (WT)",
       "team_url": "team/team-dsm-2022"
     },
     {
@@ -734,7 +734,7 @@
       "rider_url": "rider/nils-eekhoff",
       "nationality": "NL",
       "rider_number": 114,
-      "team_name": "Team DSM",
+      "team_name": "Team DSM (WT)",
       "team_url": "team/team-dsm-2022"
     },
     {
@@ -742,7 +742,7 @@
       "rider_url": "rider/chris-hamilton",
       "nationality": "AU",
       "rider_number": 115,
-      "team_name": "Team DSM",
+      "team_name": "Team DSM (WT)",
       "team_url": "team/team-dsm-2022"
     },
     {
@@ -750,7 +750,7 @@
       "rider_url": "rider/andreas-leknessund",
       "nationality": "NO",
       "rider_number": 116,
-      "team_name": "Team DSM",
+      "team_name": "Team DSM (WT)",
       "team_url": "team/team-dsm-2022"
     },
     {
@@ -758,7 +758,7 @@
       "rider_url": "rider/martijn-tusveld",
       "nationality": "NL",
       "rider_number": 117,
-      "team_name": "Team DSM",
+      "team_name": "Team DSM (WT)",
       "team_url": "team/team-dsm-2022"
     },
     {
@@ -766,7 +766,7 @@
       "rider_url": "rider/kevin-vermaerke",
       "nationality": "US",
       "rider_number": 118,
-      "team_name": "Team DSM",
+      "team_name": "Team DSM (WT)",
       "team_url": "team/team-dsm-2022"
     },
     {
@@ -774,7 +774,7 @@
       "rider_url": "rider/alexander-kristoff",
       "nationality": "NO",
       "rider_number": 121,
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux (WT)",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022"
     },
     {
@@ -782,7 +782,7 @@
       "rider_url": "rider/sven-erik-bystrom",
       "nationality": "NO",
       "rider_number": 122,
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux (WT)",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022"
     },
     {
@@ -790,7 +790,7 @@
       "rider_url": "rider/kobe-goossens",
       "nationality": "BE",
       "rider_number": 123,
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux (WT)",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022"
     },
     {
@@ -798,7 +798,7 @@
       "rider_url": "rider/louis-meintjes",
       "nationality": "ZA",
       "rider_number": 124,
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux (WT)",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022"
     },
     {
@@ -806,7 +806,7 @@
       "rider_url": "rider/andrea-pasqualon",
       "nationality": "IT",
       "rider_number": 125,
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux (WT)",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022"
     },
     {
@@ -814,7 +814,7 @@
       "rider_url": "rider/adrien-petit",
       "nationality": "FR",
       "rider_number": 126,
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux (WT)",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022"
     },
     {
@@ -822,7 +822,7 @@
       "rider_url": "rider/taco-van-der-hoorn",
       "nationality": "NL",
       "rider_number": 127,
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux (WT)",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022"
     },
     {
@@ -830,7 +830,7 @@
       "rider_url": "rider/georg-zimmermann",
       "nationality": "DE",
       "rider_number": 128,
-      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
+      "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux (WT)",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022"
     },
     {
@@ -838,7 +838,7 @@
       "rider_url": "rider/aleksey-lutsenko",
       "nationality": "KZ",
       "rider_number": 131,
-      "team_name": "Astana Qazaqstan Team",
+      "team_name": "Astana Qazaqstan Team (WT)",
       "team_url": "team/astana-qazaqstan-team-2022"
     },
     {
@@ -846,7 +846,7 @@
       "rider_url": "rider/alexandr-riabushenko",
       "nationality": "BY",
       "rider_number": 132,
-      "team_name": "Astana Qazaqstan Team",
+      "team_name": "Astana Qazaqstan Team (WT)",
       "team_url": "team/astana-qazaqstan-team-2022"
     },
     {
@@ -854,7 +854,7 @@
       "rider_url": "rider/joe-dombrowski",
       "nationality": "US",
       "rider_number": 133,
-      "team_name": "Astana Qazaqstan Team",
+      "team_name": "Astana Qazaqstan Team (WT)",
       "team_url": "team/astana-qazaqstan-team-2022"
     },
     {
@@ -862,7 +862,7 @@
       "rider_url": "rider/fabio-felline",
       "nationality": "IT",
       "rider_number": 134,
-      "team_name": "Astana Qazaqstan Team",
+      "team_name": "Astana Qazaqstan Team (WT)",
       "team_url": "team/astana-qazaqstan-team-2022"
     },
     {
@@ -870,7 +870,7 @@
       "rider_url": "rider/dmitriy-gruzdev",
       "nationality": "KZ",
       "rider_number": 135,
-      "team_name": "Astana Qazaqstan Team",
+      "team_name": "Astana Qazaqstan Team (WT)",
       "team_url": "team/astana-qazaqstan-team-2022"
     },
     {
@@ -878,7 +878,7 @@
       "rider_url": "rider/gianni-moscon",
       "nationality": "IT",
       "rider_number": 136,
-      "team_name": "Astana Qazaqstan Team",
+      "team_name": "Astana Qazaqstan Team (WT)",
       "team_url": "team/astana-qazaqstan-team-2022"
     },
     {
@@ -886,7 +886,7 @@
       "rider_url": "rider/simone-velasco",
       "nationality": "IT",
       "rider_number": 137,
-      "team_name": "Astana Qazaqstan Team",
+      "team_name": "Astana Qazaqstan Team (WT)",
       "team_url": "team/astana-qazaqstan-team-2022"
     },
     {
@@ -894,7 +894,7 @@
       "rider_url": "rider/andrey-zeits",
       "nationality": "KZ",
       "rider_number": 138,
-      "team_name": "Astana Qazaqstan Team",
+      "team_name": "Astana Qazaqstan Team (WT)",
       "team_url": "team/astana-qazaqstan-team-2022"
     },
     {
@@ -902,7 +902,7 @@
       "rider_url": "rider/rigoberto-uran",
       "nationality": "CO",
       "rider_number": 141,
-      "team_name": "EF Education-EasyPost",
+      "team_name": "EF Education-EasyPost (WT)",
       "team_url": "team/ef-education-easypost-2022"
     },
     {
@@ -910,7 +910,7 @@
       "rider_url": "rider/ruben-guerreiro",
       "nationality": "PT",
       "rider_number": 142,
-      "team_name": "EF Education-EasyPost",
+      "team_name": "EF Education-EasyPost (WT)",
       "team_url": "team/ef-education-easypost-2022"
     },
     {
@@ -918,7 +918,7 @@
       "rider_url": "rider/alberto-bettiol",
       "nationality": "IT",
       "rider_number": 143,
-      "team_name": "EF Education-EasyPost",
+      "team_name": "EF Education-EasyPost (WT)",
       "team_url": "team/ef-education-easypost-2022"
     },
     {
@@ -926,7 +926,7 @@
       "rider_url": "rider/stefan-bissegger",
       "nationality": "CH",
       "rider_number": 144,
-      "team_name": "EF Education-EasyPost",
+      "team_name": "EF Education-EasyPost (WT)",
       "team_url": "team/ef-education-easypost-2022"
     },
     {
@@ -934,7 +934,7 @@
       "rider_url": "rider/owain-doull",
       "nationality": "GB",
       "rider_number": 145,
-      "team_name": "EF Education-EasyPost",
+      "team_name": "EF Education-EasyPost (WT)",
       "team_url": "team/ef-education-easypost-2022"
     },
     {
@@ -942,7 +942,7 @@
       "rider_url": "rider/magnus-cort-nielsen",
       "nationality": "DK",
       "rider_number": 146,
-      "team_name": "EF Education-EasyPost",
+      "team_name": "EF Education-EasyPost (WT)",
       "team_url": "team/ef-education-easypost-2022"
     },
     {
@@ -950,7 +950,7 @@
       "rider_url": "rider/neilson-powless",
       "nationality": "US",
       "rider_number": 147,
-      "team_name": "EF Education-EasyPost",
+      "team_name": "EF Education-EasyPost (WT)",
       "team_url": "team/ef-education-easypost-2022"
     },
     {
@@ -958,7 +958,7 @@
       "rider_url": "rider/jonas-rutsch",
       "nationality": "DE",
       "rider_number": 148,
-      "team_name": "EF Education-EasyPost",
+      "team_name": "EF Education-EasyPost (WT)",
       "team_url": "team/ef-education-easypost-2022"
     },
     {
@@ -966,7 +966,7 @@
       "rider_url": "rider/nairo-quintana",
       "nationality": "CO",
       "rider_number": 151,
-      "team_name": "Team Ark\u00e9a Samsic",
+      "team_name": "Team Ark\u00e9a Samsic (PRT)",
       "team_url": "team/team-arkea-samsic-2022"
     },
     {
@@ -974,7 +974,7 @@
       "rider_url": "rider/warren-barguil",
       "nationality": "FR",
       "rider_number": 152,
-      "team_name": "Team Ark\u00e9a Samsic",
+      "team_name": "Team Ark\u00e9a Samsic (PRT)",
       "team_url": "team/team-arkea-samsic-2022"
     },
     {
@@ -982,7 +982,7 @@
       "rider_url": "rider/maxime-bouet",
       "nationality": "FR",
       "rider_number": 153,
-      "team_name": "Team Ark\u00e9a Samsic",
+      "team_name": "Team Ark\u00e9a Samsic (PRT)",
       "team_url": "team/team-arkea-samsic-2022"
     },
     {
@@ -990,7 +990,7 @@
       "rider_url": "rider/amaury-capiot",
       "nationality": "BE",
       "rider_number": 154,
-      "team_name": "Team Ark\u00e9a Samsic",
+      "team_name": "Team Ark\u00e9a Samsic (PRT)",
       "team_url": "team/team-arkea-samsic-2022"
     },
     {
@@ -998,7 +998,7 @@
       "rider_url": "rider/hugo-hofstetter",
       "nationality": "FR",
       "rider_number": 155,
-      "team_name": "Team Ark\u00e9a Samsic",
+      "team_name": "Team Ark\u00e9a Samsic (PRT)",
       "team_url": "team/team-arkea-samsic-2022"
     },
     {
@@ -1006,7 +1006,7 @@
       "rider_url": "rider/matis-louvel",
       "nationality": "FR",
       "rider_number": 156,
-      "team_name": "Team Ark\u00e9a Samsic",
+      "team_name": "Team Ark\u00e9a Samsic (PRT)",
       "team_url": "team/team-arkea-samsic-2022"
     },
     {
@@ -1014,7 +1014,7 @@
       "rider_url": "rider/lukasz-owsian",
       "nationality": "PL",
       "rider_number": 157,
-      "team_name": "Team Ark\u00e9a Samsic",
+      "team_name": "Team Ark\u00e9a Samsic (PRT)",
       "team_url": "team/team-arkea-samsic-2022"
     },
     {
@@ -1022,7 +1022,7 @@
       "rider_url": "rider/connor-swift",
       "nationality": "GB",
       "rider_number": 158,
-      "team_name": "Team Ark\u00e9a Samsic",
+      "team_name": "Team Ark\u00e9a Samsic (PRT)",
       "team_url": "team/team-arkea-samsic-2022"
     },
     {
@@ -1030,7 +1030,7 @@
       "rider_url": "rider/caleb-ewan",
       "nationality": "AU",
       "rider_number": 161,
-      "team_name": "Lotto Soudal",
+      "team_name": "Lotto Soudal (WT)",
       "team_url": "team/lotto-soudal-2022"
     },
     {
@@ -1038,7 +1038,7 @@
       "rider_url": "rider/frederik-frison",
       "nationality": "BE",
       "rider_number": 162,
-      "team_name": "Lotto Soudal",
+      "team_name": "Lotto Soudal (WT)",
       "team_url": "team/lotto-soudal-2022"
     },
     {
@@ -1046,7 +1046,7 @@
       "rider_url": "rider/philippe-gilbert",
       "nationality": "BE",
       "rider_number": 163,
-      "team_name": "Lotto Soudal",
+      "team_name": "Lotto Soudal (WT)",
       "team_url": "team/lotto-soudal-2022"
     },
     {
@@ -1054,7 +1054,7 @@
       "rider_url": "rider/reinardt-janse-van-rensburg",
       "nationality": "ZA",
       "rider_number": 164,
-      "team_name": "Lotto Soudal",
+      "team_name": "Lotto Soudal (WT)",
       "team_url": "team/lotto-soudal-2022"
     },
     {
@@ -1062,7 +1062,7 @@
       "rider_url": "rider/andreas-kron",
       "nationality": "DK",
       "rider_number": 165,
-      "team_name": "Lotto Soudal",
+      "team_name": "Lotto Soudal (WT)",
       "team_url": "team/lotto-soudal-2022"
     },
     {
@@ -1070,7 +1070,7 @@
       "rider_url": "rider/brent-van-moer",
       "nationality": "BE",
       "rider_number": 166,
-      "team_name": "Lotto Soudal",
+      "team_name": "Lotto Soudal (WT)",
       "team_url": "team/lotto-soudal-2022"
     },
     {
@@ -1078,7 +1078,7 @@
       "rider_url": "rider/florian-vermeersch",
       "nationality": "BE",
       "rider_number": 167,
-      "team_name": "Lotto Soudal",
+      "team_name": "Lotto Soudal (WT)",
       "team_url": "team/lotto-soudal-2022"
     },
     {
@@ -1086,7 +1086,7 @@
       "rider_url": "rider/tim-wellens",
       "nationality": "BE",
       "rider_number": 168,
-      "team_name": "Lotto Soudal",
+      "team_name": "Lotto Soudal (WT)",
       "team_url": "team/lotto-soudal-2022"
     },
     {
@@ -1094,7 +1094,7 @@
       "rider_url": "rider/mads-pedersen",
       "nationality": "DK",
       "rider_number": 171,
-      "team_name": "Trek - Segafredo",
+      "team_name": "Trek - Segafredo (WT)",
       "team_url": "team/trek-segafredo-2022"
     },
     {
@@ -1102,7 +1102,7 @@
       "rider_url": "rider/giulio-ciccone",
       "nationality": "IT",
       "rider_number": 172,
-      "team_name": "Trek - Segafredo",
+      "team_name": "Trek - Segafredo (WT)",
       "team_url": "team/trek-segafredo-2022"
     },
     {
@@ -1110,7 +1110,7 @@
       "rider_url": "rider/tony-gallopin",
       "nationality": "FR",
       "rider_number": 173,
-      "team_name": "Trek - Segafredo",
+      "team_name": "Trek - Segafredo (WT)",
       "team_url": "team/trek-segafredo-2022"
     },
     {
@@ -1118,7 +1118,7 @@
       "rider_url": "rider/alex-kirsch",
       "nationality": "LU",
       "rider_number": 174,
-      "team_name": "Trek - Segafredo",
+      "team_name": "Trek - Segafredo (WT)",
       "team_url": "team/trek-segafredo-2022"
     },
     {
@@ -1126,7 +1126,7 @@
       "rider_url": "rider/bauke-mollema",
       "nationality": "NL",
       "rider_number": 175,
-      "team_name": "Trek - Segafredo",
+      "team_name": "Trek - Segafredo (WT)",
       "team_url": "team/trek-segafredo-2022"
     },
     {
@@ -1134,7 +1134,7 @@
       "rider_url": "rider/quinn-simmons",
       "nationality": "US",
       "rider_number": 176,
-      "team_name": "Trek - Segafredo",
+      "team_name": "Trek - Segafredo (WT)",
       "team_url": "team/trek-segafredo-2022"
     },
     {
@@ -1142,7 +1142,7 @@
       "rider_url": "rider/toms-skujins",
       "nationality": "LV",
       "rider_number": 177,
-      "team_name": "Trek - Segafredo",
+      "team_name": "Trek - Segafredo (WT)",
       "team_url": "team/trek-segafredo-2022"
     },
     {
@@ -1150,7 +1150,7 @@
       "rider_url": "rider/jasper-stuyven",
       "nationality": "BE",
       "rider_number": 178,
-      "team_name": "Trek - Segafredo",
+      "team_name": "Trek - Segafredo (WT)",
       "team_url": "team/trek-segafredo-2022"
     },
     {
@@ -1158,7 +1158,7 @@
       "rider_url": "rider/peter-sagan",
       "nationality": "SK",
       "rider_number": 181,
-      "team_name": "TotalEnergies",
+      "team_name": "TotalEnergies (PRT)",
       "team_url": "team/team-totalenergies-2022"
     },
     {
@@ -1166,7 +1166,7 @@
       "rider_url": "rider/edvald-boasson-hagen",
       "nationality": "NO",
       "rider_number": 182,
-      "team_name": "TotalEnergies",
+      "team_name": "TotalEnergies (PRT)",
       "team_url": "team/team-totalenergies-2022"
     },
     {
@@ -1174,7 +1174,7 @@
       "rider_url": "rider/maciej-bodnar",
       "nationality": "PL",
       "rider_number": 183,
-      "team_name": "TotalEnergies",
+      "team_name": "TotalEnergies (PRT)",
       "team_url": "team/team-totalenergies-2022"
     },
     {
@@ -1182,7 +1182,7 @@
       "rider_url": "rider/mathieu-burgaudeau",
       "nationality": "FR",
       "rider_number": 184,
-      "team_name": "TotalEnergies",
+      "team_name": "TotalEnergies (PRT)",
       "team_url": "team/team-totalenergies-2022"
     },
     {
@@ -1190,7 +1190,7 @@
       "rider_url": "rider/pierre-latour",
       "nationality": "FR",
       "rider_number": 185,
-      "team_name": "TotalEnergies",
+      "team_name": "TotalEnergies (PRT)",
       "team_url": "team/team-totalenergies-2022"
     },
     {
@@ -1198,7 +1198,7 @@
       "rider_url": "rider/daniel-oss",
       "nationality": "IT",
       "rider_number": 186,
-      "team_name": "TotalEnergies",
+      "team_name": "TotalEnergies (PRT)",
       "team_url": "team/team-totalenergies-2022"
     },
     {
@@ -1206,7 +1206,7 @@
       "rider_url": "rider/anthony-turgis",
       "nationality": "FR",
       "rider_number": 187,
-      "team_name": "TotalEnergies",
+      "team_name": "TotalEnergies (PRT)",
       "team_url": "team/team-totalenergies-2022"
     },
     {
@@ -1214,7 +1214,7 @@
       "rider_url": "rider/alexis-vuillermoz",
       "nationality": "FR",
       "rider_number": 188,
-      "team_name": "TotalEnergies",
+      "team_name": "TotalEnergies (PRT)",
       "team_url": "team/team-totalenergies-2022"
     },
     {
@@ -1222,7 +1222,7 @@
       "rider_url": "rider/christopher-froome",
       "nationality": "GB",
       "rider_number": 191,
-      "team_name": "Israel - Premier Tech",
+      "team_name": "Israel - Premier Tech (WT)",
       "team_url": "team/israel-premier-tech-2022"
     },
     {
@@ -1230,7 +1230,7 @@
       "rider_url": "rider/guillaume-boivin",
       "nationality": "CA",
       "rider_number": 192,
-      "team_name": "Israel - Premier Tech",
+      "team_name": "Israel - Premier Tech (WT)",
       "team_url": "team/israel-premier-tech-2022"
     },
     {
@@ -1238,7 +1238,7 @@
       "rider_url": "rider/simon-clarke",
       "nationality": "AU",
       "rider_number": 193,
-      "team_name": "Israel - Premier Tech",
+      "team_name": "Israel - Premier Tech (WT)",
       "team_url": "team/israel-premier-tech-2022"
     },
     {
@@ -1246,7 +1246,7 @@
       "rider_url": "rider/jakob-fuglsang",
       "nationality": "DK",
       "rider_number": 194,
-      "team_name": "Israel - Premier Tech",
+      "team_name": "Israel - Premier Tech (WT)",
       "team_url": "team/israel-premier-tech-2022"
     },
     {
@@ -1254,7 +1254,7 @@
       "rider_url": "rider/guy-niv",
       "nationality": "IL",
       "rider_number": 195,
-      "team_name": "Israel - Premier Tech",
+      "team_name": "Israel - Premier Tech (WT)",
       "team_url": "team/israel-premier-tech-2022"
     },
     {
@@ -1262,7 +1262,7 @@
       "rider_url": "rider/hugo-houle",
       "nationality": "CA",
       "rider_number": 196,
-      "team_name": "Israel - Premier Tech",
+      "team_name": "Israel - Premier Tech (WT)",
       "team_url": "team/israel-premier-tech-2022"
     },
     {
@@ -1270,7 +1270,7 @@
       "rider_url": "rider/krists-neilands",
       "nationality": "LV",
       "rider_number": 197,
-      "team_name": "Israel - Premier Tech",
+      "team_name": "Israel - Premier Tech (WT)",
       "team_url": "team/israel-premier-tech-2022"
     },
     {
@@ -1278,7 +1278,7 @@
       "rider_url": "rider/michael-woods",
       "nationality": "CA",
       "rider_number": 198,
-      "team_name": "Israel - Premier Tech",
+      "team_name": "Israel - Premier Tech (WT)",
       "team_url": "team/israel-premier-tech-2022"
     },
     {
@@ -1286,7 +1286,7 @@
       "rider_url": "rider/michael-matthews",
       "nationality": "AU",
       "rider_number": 201,
-      "team_name": "Team BikeExchange - Jayco",
+      "team_name": "Team BikeExchange - Jayco (WT)",
       "team_url": "team/team-bikeexchange-jayco-2022"
     },
     {
@@ -1294,7 +1294,7 @@
       "rider_url": "rider/jack-bauer",
       "nationality": "NZ",
       "rider_number": 202,
-      "team_name": "Team BikeExchange - Jayco",
+      "team_name": "Team BikeExchange - Jayco (WT)",
       "team_url": "team/team-bikeexchange-jayco-2022"
     },
     {
@@ -1302,7 +1302,7 @@
       "rider_url": "rider/luke-durbridge",
       "nationality": "AU",
       "rider_number": 203,
-      "team_name": "Team BikeExchange - Jayco",
+      "team_name": "Team BikeExchange - Jayco (WT)",
       "team_url": "team/team-bikeexchange-jayco-2022"
     },
     {
@@ -1310,7 +1310,7 @@
       "rider_url": "rider/dylan-groenewegen",
       "nationality": "NL",
       "rider_number": 204,
-      "team_name": "Team BikeExchange - Jayco",
+      "team_name": "Team BikeExchange - Jayco (WT)",
       "team_url": "team/team-bikeexchange-jayco-2022"
     },
     {
@@ -1318,7 +1318,7 @@
       "rider_url": "rider/amund-grondahl-jansen",
       "nationality": "NO",
       "rider_number": 205,
-      "team_name": "Team BikeExchange - Jayco",
+      "team_name": "Team BikeExchange - Jayco (WT)",
       "team_url": "team/team-bikeexchange-jayco-2022"
     },
     {
@@ -1326,7 +1326,7 @@
       "rider_url": "rider/christopher-juul-jensen",
       "nationality": "DK",
       "rider_number": 206,
-      "team_name": "Team BikeExchange - Jayco",
+      "team_name": "Team BikeExchange - Jayco (WT)",
       "team_url": "team/team-bikeexchange-jayco-2022"
     },
     {
@@ -1334,7 +1334,7 @@
       "rider_url": "rider/luka-mezgec",
       "nationality": "SI",
       "rider_number": 207,
-      "team_name": "Team BikeExchange - Jayco",
+      "team_name": "Team BikeExchange - Jayco (WT)",
       "team_url": "team/team-bikeexchange-jayco-2022"
     },
     {
@@ -1342,7 +1342,7 @@
       "rider_url": "rider/nick-schultz",
       "nationality": "AU",
       "rider_number": 208,
-      "team_name": "Team BikeExchange - Jayco",
+      "team_name": "Team BikeExchange - Jayco (WT)",
       "team_url": "team/team-bikeexchange-jayco-2022"
     },
     {
@@ -1350,7 +1350,7 @@
       "rider_url": "rider/franck-bonnamour",
       "nationality": "FR",
       "rider_number": 211,
-      "team_name": "B&B Hotels - KTM",
+      "team_name": "B&B Hotels - KTM (PRT)",
       "team_url": "team/b-b-hotels-ktm-2022"
     },
     {
@@ -1358,7 +1358,7 @@
       "rider_url": "rider/cyril-barthe",
       "nationality": "FR",
       "rider_number": 212,
-      "team_name": "B&B Hotels - KTM",
+      "team_name": "B&B Hotels - KTM (PRT)",
       "team_url": "team/b-b-hotels-ktm-2022"
     },
     {
@@ -1366,7 +1366,7 @@
       "rider_url": "rider/alexis-gougeard",
       "nationality": "FR",
       "rider_number": 213,
-      "team_name": "B&B Hotels - KTM",
+      "team_name": "B&B Hotels - KTM (PRT)",
       "team_url": "team/b-b-hotels-ktm-2022"
     },
     {
@@ -1374,7 +1374,7 @@
       "rider_url": "rider/jeremy-lecroq",
       "nationality": "FR",
       "rider_number": 214,
-      "team_name": "B&B Hotels - KTM",
+      "team_name": "B&B Hotels - KTM (PRT)",
       "team_url": "team/b-b-hotels-ktm-2022"
     },
     {
@@ -1382,7 +1382,7 @@
       "rider_url": "rider/cyril-lemoine",
       "nationality": "FR",
       "rider_number": 215,
-      "team_name": "B&B Hotels - KTM",
+      "team_name": "B&B Hotels - KTM (PRT)",
       "team_url": "team/b-b-hotels-ktm-2022"
     },
     {
@@ -1390,7 +1390,7 @@
       "rider_url": "rider/luca-mozzato",
       "nationality": "IT",
       "rider_number": 216,
-      "team_name": "B&B Hotels - KTM",
+      "team_name": "B&B Hotels - KTM (PRT)",
       "team_url": "team/b-b-hotels-ktm-2022"
     },
     {
@@ -1398,7 +1398,7 @@
       "rider_url": "rider/pierre-rolland",
       "nationality": "FR",
       "rider_number": 217,
-      "team_name": "B&B Hotels - KTM",
+      "team_name": "B&B Hotels - KTM (PRT)",
       "team_url": "team/b-b-hotels-ktm-2022"
     },
     {
@@ -1406,7 +1406,7 @@
       "rider_url": "rider/sebastian-schonberger",
       "nationality": "AT",
       "rider_number": 218,
-      "team_name": "B&B Hotels - KTM",
+      "team_name": "B&B Hotels - KTM (PRT)",
       "team_url": "team/b-b-hotels-ktm-2022"
     }
   ]

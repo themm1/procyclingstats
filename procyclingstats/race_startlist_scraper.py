@@ -92,40 +92,28 @@ class RaceStartlist(Scraper):
             "rider_number"
         )
         fields = parse_table_fields_args(args, available_fields)
-        startlist_html = self.html.css_first(".startlist_v3")
-        # startlist is individual startlist e.g.
-        # race/tour-de-pologne/2009/gc/startlist
-        if startlist_html.css_first("li.team") is None:
-            startlist_html = self.html.css_first(".page-content > div")
-            startlist_table = []
-            for i, rider_a in enumerate(startlist_html.css("a:not([class])")):
-                startlist_table.append({})
-                for field in fields:
-                    startlist_table[-1][field] = None
+        startlist_html = self.html.css_first("table.basic")
 
-                if "rider_url" in fields:
-                    startlist_table[-1]['rider_url'] = rider_a.\
-                        attributes['href']
-                if "rider_name" in fields:
-                    startlist_table[-1]['rider_name'] = rider_a.text()
-                if "rider_number" in fields:
-                    startlist_table[-1]['rider_number'] = i + 1
-                if "team_name" in fields:
-                    startlist_table[-1]['team_name'] = None
-                if "team_url" in fields:
-                    startlist_table[-1]['team_url'] = None
-                if "nationality" in fields:
-                    startlist_table[-1]['nationality'] = None
-            return startlist_table
+        # if startlist is a table
+        if startlist_html:
+            startlist_parser = TableParser(startlist_html)
+            casual_fields = [f for f in fields if f != "rider_number"]
+            startlist_parser.parse(casual_fields)
+            # adds rider number to table if needed
+            if "rider_number" in fields:
+                numbers = startlist_parser.parse_extra_column(0,
+                    lambda x: int(x) if x else None)
+                startlist_parser.extend_table("rider_number", numbers)
+            return startlist_parser.table
 
         casual_rider_fields = [
             "rider_name",
             "rider_url",
             "nationality"
         ]
-
         table = []
-        for team_html in startlist_html.css("li.team"):
+        startlist_html = self.html.css_first(".startlist_v4")
+        for team_html in startlist_html.css(".ridersCont"):
             riders_table = team_html.css_first("ul")
             table_parser = TableParser(riders_table)
             rider_f_to_parse = [f for f in casual_rider_fields if f in fields]
@@ -133,7 +121,7 @@ class RaceStartlist(Scraper):
             # add rider numbers to the table if needed
             if "rider_number" in fields:
                 numbers = []
-                for row in riders_table.css("li"):
+                for row in riders_table.css("li > .bib"):
                     num = row.text(deep=False).split(" ")[0]
                     if num.isnumeric():
                         numbers.append(int(num))
