@@ -189,7 +189,6 @@ class Race(Scraper):
             if not_p_icon:
                 stage_e.remove()
 
-        print(len(stages_table_html.css("tr")))
         table_parser = TableParser(stages_table_html)
         casual_f_to_parse = [f for f in fields if f != "date"]
         table_parser.parse(casual_f_to_parse)

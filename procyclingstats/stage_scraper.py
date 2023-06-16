@@ -76,7 +76,6 @@ class Stage(Scraper):
         normalized_url = f"race/{race_id}/{year}"
         if stage_id is not None:
             normalized_url += f"/{stage_id}"
-        print(normalized_url)
         return normalized_url
 
     def _set_up_html(self) -> None:
@@ -252,7 +251,6 @@ class Stage(Scraper):
         )
         fields = parse_table_fields_args(args, available_fields)
         climbs_html = self.html.css_first("ul.list.circle")
-        print(climbs_html)
         if climbs_html is None:
             return []
 
