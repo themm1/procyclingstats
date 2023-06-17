@@ -162,6 +162,8 @@ class Race(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         stages_table_html = self.html.css_first("div:not(.mg_r2) > div > \
             span > table.basic")
+        if not stages_table_html:
+            return []
         # remove rest day table rows
         for stage_e in stages_table_html.css("tr"):
             not_p_icon = stage_e.css_first(".icon.profile.p")

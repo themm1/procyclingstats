@@ -5,7 +5,6 @@
   "is_one_day_race": false,
   "name": "Tour de France",
   "nationality": "FR",
-  "normalized_relative_url": "race/tour-de-france/2022/overview",
   "prev_editions_select": [
     {
       "text": "2024",

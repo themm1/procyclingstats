@@ -37,6 +37,7 @@ class ScraperTestBaseClass:
         for method in correct_data[0].keys():
             # method subtest
             with subtests.test(msg=method):
+                print(f"\nMethod: {method}")
                 for parsed, correct, url in zip(parsed_data, correct_data,
                         urls):
                     print(url)
