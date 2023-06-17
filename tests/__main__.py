@@ -1,6 +1,6 @@
 import argparse
 
-from procyclingstats.__main__ import get_scraper_obj_by_url, scraper_classes
+from procyclingstats.__main__ import get_corresponding_scraping_class
 
 from .fixtures_utils import FixturesUtils
 
@@ -13,7 +13,7 @@ def configure_parser() -> argparse.ArgumentParser:
     """
     parser = argparse.ArgumentParser(
         prog="python -m tests",
-        description="CLI for tests fixtures modifiing.")
+        description="CLI for modifiing tests fixtures.")
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-q", "--quiet", action="store_true",
@@ -44,7 +44,7 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
     f_utils = FixturesUtils(fixturer_path)
     if args.command in ("add", "add_html"):
         for url in args.urls:
-            ScraperClass = get_scraper_obj_by_url(url, scraper_classes)
+            ScraperClass = get_corresponding_scraping_class(url)
             obj = ScraperClass(url)
             filename = f_utils.url_to_filename(
                 obj.normalized_relative_url())
@@ -65,7 +65,7 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
     elif args.command == "update_htmls":
         urls = f_utils.get_urls_from_fixtures_dir("txt")
         for url in urls:
-            ScraperClass = get_scraper_obj_by_url(url, scraper_classes)
+            ScraperClass = get_corresponding_scraping_class(url)
             # create scraping object from both old and new HTML
             new_scraper_obj = ScraperClass(url)
             old_html = f_utils.get_html_fixture(new_scraper_obj.relative_url())

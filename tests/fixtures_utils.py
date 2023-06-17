@@ -3,6 +3,7 @@ import json
 from typing import Any, Dict, List, Optional, Type
 
 from procyclingstats import Scraper
+from procyclingstats.__main__ import get_corresponding_scraping_class
 from procyclingstats.errors import ExpectedParsingError
 
 
@@ -98,15 +99,12 @@ class FixturesUtils:
         urls = [url for url in html_files_urls if url in json_files_urls]
         objects_to_test = []
         for url in urls:
-            # add scraper object that passes URL validity check of given
-            # scraper class
-            try:
+            # add scraper object if current fixture is it's fixture
+            if get_corresponding_scraping_class(url) == scraper_class:
                 # get HTML of scraper object from fixtures
                 html = self.get_html_fixture(url)
                 # add new scraper object that is ready for parsing to the list
                 objects_to_test.append(scraper_class(url, html, False))
-            except ValueError:
-                pass
         return objects_to_test
 
     def get_urls_from_fixtures_dir(self, file_type: str) -> List[str]:
@@ -158,5 +156,5 @@ class FixturesUtils:
         if scraper_obj.html is None:
             raise ExpectedParsingError("Object is not ready for HTML parsing")
         filename = FixturesUtils.url_to_filename(
-            scraper_obj.normalized_relative_url())
+            scraper_obj.relative_url())
         return filename

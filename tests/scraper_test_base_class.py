@@ -24,22 +24,22 @@ class ScraperTestBaseClass:
             self.ScraperClass)
         parsed_data = []
         correct_data = []
+        urls = []
         for obj in objects_to_test:
-            # if "race/tour-de-france/2018/stage-3" in obj.url or\
-            #     "ttt" in obj.url:
-            #     continue
             parsed = obj.parse()
             correct = f_utils.get_data_fixture(obj.relative_url())
             # dicts with parsed data has same keys
             assert parsed.keys() == correct.keys() # type: ignore
             parsed_data.append(parsed)
             correct_data.append(correct)
+            urls.append(obj.relative_url())
 
         for method in correct_data[0].keys():
             # method subtest
             with subtests.test(msg=method):
-                for parsed, correct in zip(parsed_data, correct_data):
-                    print(parsed['normalized_relative_url'])
+                for parsed, correct, url in zip(parsed_data, correct_data,
+                        urls):
+                    print(url)
                     # select methods aren't tested because their values are
                     # changed often
                     if "select" in method:
@@ -50,55 +50,3 @@ class ScraperTestBaseClass:
                             assert parsed_row == correct_row
                     else:
                         assert parsed[method] == correct[method]
-
-    def url_valid(self, url: str) -> None:
-        """
-        Checks whether instance of current scraper class can be created when
-        given URL is passed.
-
-        :param url: URL that should be valid for current scraper class
-        constructor.
-        """
-        passed = True
-        try:
-            self.ScraperClass(url, update_html=False)
-        except ValueError:
-            passed = False
-        if not passed:
-            assert False, f"'{url}' didn't pass when should"
-
-    def url_invalid(self, url: str) -> None:
-        """
-        Checks whether current scraper class constructor raises an
-        ValueError when given URL is passed.
-
-        :param url: URL that should be invalid for current scraper class
-        constructor.
-        """
-        passed = True
-        try:
-            self.ScraperClass(url, update_html=False)
-        except ValueError:
-            passed = False
-        if passed:
-            assert False, f"'{url}' passed when shouldn't"
-
-    def equal(self, url1: str, url2: str) -> None:
-        """
-        Checks equality of two scraper objects created from given URLs.
-
-        :param url1: URL of first object.
-        :param url2: URL of second object.
-        """
-        assert self.ScraperClass(url1, update_html=False) == self.ScraperClass(
-            url2, update_html=False)
-
-    def unequal(self, url1: str, url2: str) -> None:
-        """
-        Checks unequality of two scraper objects created from given URLs.
-
-        :param url1: URL of first object.
-        :param url2: URL of second object.
-        """
-        assert self.ScraperClass(url1, update_html=False) != self.ScraperClass(
-            url2, update_html=False)

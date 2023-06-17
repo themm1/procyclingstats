@@ -50,8 +50,9 @@ def get_corresponding_scraping_class(relative_url: str) -> Any:
         return RiderResults
     elif splitted_url[0] == "rider":
         return Rider
-    elif splitted_url[0] == "race" and ("stage" in splitted_url[3] or
-        "gc" in splitted_url[3] or "prologue" in splitted_url[3]):
+    elif len(splitted_url) >= 4 and splitted_url[0] == "race" and \
+        ("stage" in splitted_url[3] or "gc" in splitted_url[3] or "prologue" \
+        in splitted_url[3]):
         return Stage
     elif "rankings" in relative_url:
         return Ranking
