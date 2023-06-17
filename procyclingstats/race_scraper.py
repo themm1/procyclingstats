@@ -1,6 +1,6 @@
 from typing import Any, Dict, List
 
-from .errors import ExpectedParsingError
+from .errors import ExpectedParsingError, UnexpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
 from .utils import (format_regex_str, get_day_month, normalize_race_url,
@@ -187,7 +187,22 @@ class Race(Scraper):
 
         table_parser = TableParser(stages_table_html)
         casual_f_to_parse = [f for f in fields if f != "date"]
-        table_parser.parse(casual_f_to_parse)
+        try:
+            table_parser.parse(casual_f_to_parse)
+        # if nationalities don't fit stages winners
+        except UnexpectedParsingError:
+            casual_f_to_parse.remove("nationality")
+            table_parser.parse(casual_f_to_parse)
+            nats = table_parser.nationality()
+            j = 0
+            for i in range(len(table_parser.table)):
+                if j < len(nats) and \
+                    table_parser.table[i]['rider_url'].split("/")[1]:
+                    table_parser.table[i]['nationality'] = nats[j]
+                    j += 1
+                else:
+                    table_parser.table[i]['nationality'] = None
+
         # add stages dates to table if neede
         if "date" in fields:
             dates = table_parser.parse_extra_column(0, get_day_month)
