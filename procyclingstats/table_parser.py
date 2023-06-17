@@ -310,7 +310,7 @@ class TableParser:
     def uci_points(self) -> List[Optional[float]]:
         try:
             return self.parse_extra_column("UCI",
-                lambda x: float(x) if x else 0)
+                lambda x: float(x) if x and x.replace('.', '', 1).isdigit() else 0)
         except ValueError:
             return [0 for _ in range(self.table_length)]
 
@@ -320,7 +320,7 @@ class TableParser:
         except ValueError:
             try:
                 return self.parse_extra_column("PCS points",
-                    lambda x: int(x) if x else 0)
+                    lambda x: int(x) if x  and x.isdigit() else 0)
             except ValueError:
                 return [0 for _ in range(self.table_length)]
 
