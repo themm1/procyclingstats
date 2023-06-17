@@ -3,8 +3,7 @@ from typing import Any, Dict, List, Literal, Tuple
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (format_url_filter, parse_select, parse_table_fields_args,
-                    reg, select_menu_by_name)
+from .utils import parse_select, parse_table_fields_args, select_menu_by_name
 
 
 class Ranking(Scraper):
@@ -60,30 +59,6 @@ class Ranking(Scraper):
         ...
     }
     """
-
-    _url_validation_regex = f"{reg.base_url}?rankings.*\\/*"
-    """Regex for validating ranking URL."""
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL. Determines equality of objects (is
-        used in `__eq__` method). Ranking objects are equal when both have same
-        URL or filter values are the same (empty filter values don't count).
-
-        :return: Formatted relative URL or filter URL without uneccessary
-            fields e.g. \
-            ``rankings.php?date=2021-12-31&p=we&s=season-individual``.
-        """
-        relative_url = self.relative_url()
-        # returns special normalized ranking filter URL
-        if "?" in relative_url:
-            return format_url_filter(relative_url)
-        decomposed_url = self._decompose_url()
-        # remove .php from rankings URL if it is not a filter URL
-        if "." in decomposed_url[0]:
-            decomposed_url[0] = decomposed_url[0].split(".")[0]
-        return "/".join(decomposed_url)
-
     def individual_ranking(self, *args: str) -> List[Dict[str, Any]]:
         """
         Parses individual ranking from HTML.

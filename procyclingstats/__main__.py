@@ -38,24 +38,32 @@ def configure_parser():
             help="Whether to print full or shortened tables in output.")
     return parser
 
-def get_scraper_obj_by_url(url: str,
-        scraper_classes: Tuple[Type[Scraper], ...] \
-            # pylint: disable=redefined-outer-name
-        ) -> Type[Scraper]:
+def get_corresponding_scraping_class(relative_url: str) -> Any:
     """
-    Gets scraper class that can parse HTML from given URL.
+    Returns scraping class for given URL (!!!does not work 100% of times!!!).
 
-    :param url: Procyclingstats URL.
-    :raises ValueError: When no scraping class is able to parse the URL.
-    :return: Object created from given URL.
+    :param relative_url: Relative URL of some PCS page.
+    :return: Scraping class for the URL. None when not found.
     """
-    for scraper_class in scraper_classes:
-        try:
-            scraper_class(url, update_html=False)
-            return scraper_class
-        except ValueError:
-            pass
-    raise ValueError(f"Invalid URL: {url}")
+    splitted_url = relative_url.split("/")
+    if splitted_url[0] == "rider" and "results" in splitted_url:  
+        return RiderResults
+    elif splitted_url[0] == "rider":
+        return Rider
+    elif splitted_url[0] == "race" and ("stage" in splitted_url[3] or
+        "gc" in splitted_url[3] or "prologue" in splitted_url[3]):
+        return Stage
+    elif "rankings" in relative_url:
+        return Ranking
+    elif splitted_url[0] == "race" and "startlist" in splitted_url:
+        return RaceStartlist
+    elif "team" == splitted_url[0]:
+        return Team
+    elif splitted_url[0] == "race" and "climbs" in splitted_url:
+        return RaceClimbs
+    elif splitted_url[0] == "race":
+        return Race
+    return None
 
 def run(args: argparse.Namespace) -> Scraper:
     """
@@ -64,7 +72,7 @@ def run(args: argparse.Namespace) -> Scraper:
     :param args: Argparse arguments (currently 'url' and 'fulltable').
     :return: Scraper object created from given URL.
     """
-    scraper_class = get_scraper_obj_by_url(args.url, scraper_classes)
+    scraper_class = get_corresponding_scraping_class(args.url)
     scraper_obj = scraper_class(args.url)
 
     # object created, so return when running in interactive mode

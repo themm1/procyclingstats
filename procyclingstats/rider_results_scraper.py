@@ -3,8 +3,7 @@ from typing import Any, Dict, List
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (format_regex_str, format_url_filter, parse_select,
-                    parse_table_fields_args, reg, select_menu_by_name)
+from .utils import parse_select, parse_table_fields_args, select_menu_by_name
 
 
 class RiderResults(Scraper):
@@ -50,22 +49,9 @@ class RiderResults(Scraper):
             ...
         ],
         'nations_select': None,
-        'normalized_relative_url': 'rider/alberto-contador/results/final-5k-analysis',
         ...
     }
     """
-    _url_validation_regex = format_regex_str(
-    f"""
-        {reg.base_url}?
-        (rider.php\\?.*
-        \\/*
-        |
-        rider
-        {reg.url_str}\\/*results{reg.anything}?
-        \\/*)
-    """)
-    """regex for validating rider results url."""
-
     def _html_valid(self) -> bool:
         """
         Extends Scraper method for validating HTMLs.
@@ -80,26 +66,6 @@ class RiderResults(Scraper):
             return True
         except AssertionError:
             return False
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL. Determines equality of objects (is
-        used in `__eq__` method). Rider results objects are equal when both have
-        same URL or filter values are the same (empty filter values don't
-        count).
-
-        :return: normalized filter URL or URL in ``rider/{rider_id}/results``
-            format
-        """
-        relative_url = self.relative_url()
-        if "?" in relative_url:
-            return format_url_filter(relative_url)
-        decomposed_url = self._decompose_url()
-        rider_id = decomposed_url[1]
-        if (len(decomposed_url) >= 4 and
-                decomposed_url[3] == "final-5k-analysis"):
-            return f"rider/{rider_id}/results/final-5k-analysis"
-        return f"rider/{rider_id}/results"
 
     def _set_up_html(self):
         """Overrides Scraper method. Removes last table row with sum stats."""

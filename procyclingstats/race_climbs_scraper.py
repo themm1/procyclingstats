@@ -3,8 +3,7 @@ from typing import Any, Dict, List
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (format_regex_str, format_url_filter,
-                    parse_table_fields_args, reg)
+from .utils import parse_table_fields_args
 
 
 class RaceClimbs(Scraper):
@@ -40,27 +39,9 @@ class RaceClimbs(Scraper):
             },
             ...
         ]
-        'normalized_relative_url': 'race/tour-de-france/2022/route/climbs'
     }
 
-
     """
-    _url_validation_regex = format_regex_str(
-    f"""
-        {reg.base_url}?race{reg.url_str}{reg.year}/+route/+climbs{reg.anything}?
-    """)
-    """Regex for validating race climbs URL."""
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL by removing extra slashes and also
-        removing stage id if necessary.
-
-        :return: Normalized relative URL.
-        """
-        decomposed_url = self._decompose_url()
-        return "/".join(decomposed_url[:5])
-
     def _html_valid(self) -> bool:
         """
         Extends Scraper method for validating HTMLs.

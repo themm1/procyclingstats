@@ -3,8 +3,7 @@ from typing import Any, Dict, List
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (format_regex_str, get_day_month, parse_table_fields_args,
-                    reg)
+from .utils import get_day_month, parse_table_fields_args
 
 
 class Rider(Scraper):
@@ -26,26 +25,6 @@ class Rider(Scraper):
         ...
     }
     """
-    _url_validation_regex = format_regex_str(
-    f"""
-        {reg.base_url}?rider
-        {reg.url_str}({reg.overview}{reg.anything}?|
-        {reg.year}{reg.anything}?)?
-        \\/*
-    """)
-    """Regex for validating rider URL."""
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL. Determines equality of objects (is
-        used in __eq__ method).
-
-        :return: Normalized URL in ``rider/{rider_id}`` format.
-        """
-        decomposed_url = self._decompose_url()
-        rider_id = decomposed_url[1]
-        return f"rider/{rider_id}"
-
     def birthdate(self) -> str:
         """
         Parses rider's birthdate from HTML.

@@ -2,8 +2,8 @@ from typing import Any, Dict, List, Optional
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (format_regex_str, get_day_month, join_tables, parse_select,
-                    parse_table_fields_args, reg)
+from .utils import (get_day_month, join_tables, parse_select,
+                    parse_table_fields_args)
 
 
 class Team(Scraper):
@@ -31,24 +31,6 @@ class Team(Scraper):
         ...
     }
     """
-    _url_validation_regex = format_regex_str(
-    f"""
-        {reg.base_url}?team{reg.team_url_str}
-        ({reg.overview}{reg.anything}?)?\\/*
-    """)
-    """Regex for validating team URL."""
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL. Determines equality of objects (is
-        used in __eq__ method).
-
-        :return: Normalized URL in ``team/{team_id}`` format.
-        """
-        decomposed_url = self._decompose_url()
-        team_id = decomposed_url[1]
-        return f"team/{team_id}"
-
     def name(self) -> str:
         """
         Parses team display name from HTML.

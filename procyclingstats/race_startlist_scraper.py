@@ -2,8 +2,7 @@ from typing import Any, Dict, List
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (format_regex_str, normalize_race_url,
-                    parse_table_fields_args, reg)
+from .utils import parse_table_fields_args
 
 
 class RaceStartlist(Scraper):
@@ -28,7 +27,6 @@ class RaceStartlist(Scraper):
     ]
     >>> race_startlist.parse()
     {
-        'normalized_relative_url': 'race/tour-de-france/2022/startlist',
         'startlist': [
             {
                 'nationality': 'SI',
@@ -42,26 +40,6 @@ class RaceStartlist(Scraper):
         ]
     }
     """
-    _url_validation_regex = format_regex_str(
-    f"""
-        {reg.base_url}?race{reg.url_str}
-        (({reg.year}{reg.stage}{reg.startlist}{reg.anything}?)|
-        ({reg.year}{reg.result}?{reg.startlist}{reg.anything}?)|
-        {reg.startlist}{reg.anything}?)
-        \\/*
-    """)
-    """Regex for validating race startlist URL."""
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL. Determines equality of objects (is
-        used in __eq__ method).
-
-        :return: Normalized URL in ``race/{race_id}/{year}/startlist`` format.
-            When year isn't contained in user defined URL, year is skipped.
-        """
-        return normalize_race_url(self._decompose_url(), "startlist")
-
     def startlist(self, *args: str) -> List[Dict[str, Any]]:
         """
         Parses startlist from HTML. When startlist is individual (without

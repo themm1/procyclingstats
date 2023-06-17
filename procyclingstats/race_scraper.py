@@ -3,8 +3,7 @@ from typing import Any, Dict, List
 from .errors import ExpectedParsingError, UnexpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (format_regex_str, get_day_month, normalize_race_url,
-                    parse_select, parse_table_fields_args, reg)
+from .utils import get_day_month, parse_select, parse_table_fields_args
 
 
 class Race(Scraper):
@@ -27,22 +26,6 @@ class Race(Scraper):
     }
 
     """
-    _url_validation_regex = format_regex_str(
-    f"""
-        {reg.base_url}?race{reg.url_str}{reg.year}.*
-    """)
-    """Regex for validating race overview URL."""
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL. Determines equality of objects (is
-        used in __eq__ method).
-
-        :return: Normalized URL in ``race/{race_id}/{year}/overview`` format.
-            When year isn't contained in user defined URL, year is skipped.
-        """
-        return "/".join(self._decompose_url()[:3])
-
     def year(self) -> int:
         """
         Parse year when the race occured from HTML.

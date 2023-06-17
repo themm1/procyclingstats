@@ -5,8 +5,8 @@ from selectolax.parser import HTMLParser, Node
 from .errors import ExpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import (add_times, convert_date, format_regex_str, format_time,
-                    join_tables, parse_table_fields_args, reg)
+from .utils import (add_times, convert_date, format_time, join_tables,
+                    parse_table_fields_args)
 
 
 class Stage(Scraper):
@@ -45,38 +45,7 @@ class Stage(Scraper):
         ...
     }
     """
-    _url_validation_regex = format_regex_str(
-    f"""
-        {reg.base_url}?race{reg.url_str}{reg.year}
-        ({reg.stage}({reg.result}{reg.anything}?)?|
-        ({reg.result}{reg.result}?{reg.result}?{reg.anything}?))
-        \\/*
-    """)
-    """Regex for validating stage URL."""
     _tables_path = ".result-cont table"
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL. Determines equality of objects (is
-        used in `__eq__` method).
-
-        :return: Normalized URL in ``race/{race_id}/{year}/{stage_id}`` format.
-            When year or stage_id aren't contained in user defined URL, they
-            are skipped.
-        """
-        decomposed_url = self._decompose_url()
-        decomposed_url.extend([""] * (4 - len(decomposed_url)))
-        race_id = decomposed_url[1]
-        year = decomposed_url[2]
-        if "stage" in decomposed_url[3] or "prologue" in decomposed_url[3] or \
-            "gc" in decomposed_url[3]:
-            stage_id = decomposed_url[3]
-        else:
-            stage_id = None
-        normalized_url = f"race/{race_id}/{year}"
-        if stage_id is not None:
-            normalized_url += f"/{stage_id}"
-        return normalized_url
 
     def _set_up_html(self) -> None:
         """

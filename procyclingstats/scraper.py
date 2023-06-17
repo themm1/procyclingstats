@@ -4,8 +4,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple, Type
 import requests
 from selectolax.parser import HTMLParser
 
-from .errors import ExpectedParsingError, ParsedValueInvalidError
-from .utils import validate_string
+from .errors import ExpectedParsingError
 
 
 class Scraper:
@@ -19,11 +18,8 @@ class Scraper:
     )
     """Public methods that aren't called by `parse` method."""
 
-    _url_validation_regex = ".*"
-    """Regex for validating URL. Should be overridden by subclass."""
-
     def __init__(self, url: str, html: Optional[str] = None,
-                 update_html: bool = True, validate_url: bool = True) -> None:
+                 update_html: bool = True) -> None:
         """
         Creates scraper object that is by default ready for HTML parsing. Call
         parsing methods to parse data from HTML.
@@ -36,25 +32,11 @@ class Scraper:
         :param update_html: Whether to make request to given URL and update
             `self.html`. When False `self.update_html` method has to be called
             manually to make object ready for parsing. Defaults to True.
-        :param validate_url: Whether to validate passed URL by current scraping
-            class regex. Defaults to True and is strongly recomended to leave
-            as is. Setting to False might result in unexpected behaviour of
-            some methods that use the URL or obtaining wrong HTML, which is
-            not possible to parse correctly.
 
-        :raises ValueError: When given URL isn't valid for current scraping
-            class.
         :raises ValueError: When given HTML or HTML from given URL is invalid,
             e.g. 'Page not found' is contained in the HTML.
         """
         # validate given URL
-        try:
-            if validate_url:
-                validate_string(url, regex=self._url_validation_regex)
-        except ParsedValueInvalidError:
-            raise ValueError(f"Given URL is indvalid: '{url}'") \
-                # pylint: disable=raise-missing-from
-
         self._url = self._make_url_absolute(url)
         self._html = None
         if html:
@@ -70,14 +52,7 @@ class Scraper:
             self._set_up_html()
 
     def __repr__(self) -> str:
-        return f"{type(self).__name__}(url='{self.normalized_relative_url()}')"
-
-    def __eq__(self, other) -> bool:
-        """Compares two classes based on their `normalized_relative_url`."""
-        if isinstance(type(self), type(other)):
-            return False
-        return (self.normalized_relative_url() ==
-                other.normalized_relative_url())
+        return f"{type(self).__name__}(url='{self.url}')"
 
     @property
     def url(self) -> str:
@@ -104,17 +79,6 @@ class Scraper:
         :return: Relative URL.
         """
         return "/".join(self._url.split("/")[3:])
-
-    def normalized_relative_url(self) -> str:
-        """
-        Creates normalized relative URL. By default only removes extra slashes
-        from user defined relative URL. Is used for evaluating equality of
-        objects and should be overridden by subclass. In general this method
-        should remove unnecessary information from the URL.
-
-        :return: Normalized URL.
-        """
-        return "/".join(self._decompose_url())
 
     def update_html(self) -> None:
         """

@@ -1,138 +1,14 @@
 import datetime
 import math
 import re
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Tuple, Union
 
 from selectolax.parser import HTMLParser, Node
 
-from .errors import ExpectedParsingError, ParsedValueInvalidError
+from .errors import ExpectedParsingError
 
 
-class reg: # pylint: disable=invalid-name
-    """
-    Class for storing regex of common procyclingstats URL parts.
-    """
-    base_url = "(https:\\/\\/www.procyclingstats.com\\/+)"
-    """example match `https://www.procyclingstats.com/`"""
-    url_str = "(\\/+([a-zA-Z0-9]+-)*([a-zA-Z0-9]+))"
-    """example match `/This-is-url-StriNg`"""
-    year = "(\\/+\\d{4})"
-    """example match `/1111`"""
-    stage = "(\\/+(((stage-([1-9]([0-9])?([a-z])?)|prologue)"\
-            "(\\/gc|-points|-kom|-youth|-teams)?)|gc))"
-    """example match `/stage-20/gc` or `/prologue-youth`"""
-    result = "(\\/+result)"
-    """example match `/result`"""
-    overview = "(\\/+overview)"
-    """example match `/overview`"""
-    startlist = "(\\/+startlist)"
-    """example match `/startlist`"""
-    team_url_str = "(\\/(([a-zA-Z0-9]+-)+)\\d{4,5})"
-    """example match `/bora-hansgrohe-2022` or `/movistar-team-20152`"""
-    anything = "(\\/+.*)"
-    """example match `/ffefwf//fwefw/aa`"""
-    climbs = "(\\/+stages\\/+climbs-ranked)"
-
-
-# validation functions
-def validate_string(string: str,
-                    min_length: int = 0,
-                    max_length: int = math.inf, # type: ignore
-                    regex: str = "",
-                    options: Optional[List[str]] = None,
-                    can_be_none: bool = False,
-                    error: Any = None) -> None:
-    """
-    Validates string based on given constraints.
-
-    :param string: String to be validated.
-    :param min_length: Minimal string length, defaults to 0.
-    :param max_length: Maximal string length, defaults to math.inf.
-    :param regex: Regex that has to string full match, spaces and newlines are
-    removed from given regex, defaults to "".
-    :param can_be_none: Whether string is valid when is None.
-    :param options: Possible options that string could be, defaults to None.
-    :param error: Constructed exception object to raise if string is not valid,
-    when None raises ParsedValueInvalidError with given string.
-    :raises: Given error when string is not valid.
-    """
-    valid = True
-    if not can_be_none and string is None:
-        valid = False
-
-    if options and string not in options:
-        valid = False
-
-    if len(string) < min_length or len(string) > max_length:
-        valid = False
-
-    if regex:
-        if re.fullmatch(regex, string) is None:
-            valid = False
-    if not valid:
-        if not error:
-            raise ParsedValueInvalidError(string)
-        else:
-            raise error
-
-
-# strings and URLs manipulation functions
-def format_url_filter(url_filter: str) -> str:
-    """
-    Removes uneccessarry filters from URL filter string.
-
-    :param url_filter: URL filter string.
-    :return: Formatted URL filter.
-    """
-    splitted_url = url_filter.split("?")
-    if splitted_url[1] == "" and "rankings" in splitted_url[0]:
-        return "rankings"
-    if splitted_url[0] == "rankings":
-        splitted_url[0] = "rankings.php"
-    url_filter = splitted_url[1]
-    filter_ = url_filter.split("&")
-    formatted_url_filter = []
-    for part in filter_:
-        if part == "":
-            continue
-        [key, value] = part.split("=")
-        if (key == "page" or value == "" or (key == "offset" and value == "0")
-                or key == "filter"):
-            continue
-        formatted_url_filter.append(f"{key}={value}")
-    formatted_filter = "&".join(formatted_url_filter)
-    return f"{splitted_url[0]}?{formatted_filter}"
-
-def normalize_race_url(decomposed_url: List[str], addon: str) -> str:
-    """
-    Creates normalized race URL.
-
-    :param decomposed_url: List of URL strings.
-    :param addon: Extra part added after race normalized URL.
-    :return: Normalized URL in `race/{race_id}/{year}/{addon}` format.
-    """
-    decomposed_url.extend([""] * (3 - len(decomposed_url)))
-    race_id = decomposed_url[1]
-    if decomposed_url[2].isnumeric() and len(decomposed_url[2]) == 4:
-        year = decomposed_url[2]
-    else:
-        year = None
-    normalized_url = f"race/{race_id}"
-    if year is not None:
-        normalized_url += f"/{year}/{addon}"
-    else:
-        normalized_url += f"/{addon}"
-    return normalized_url
-
-def format_regex_str(regex: str) -> str:
-    """
-    Formats given regex (removes newlines and spaces).
-
-    :param regex: Regex to format.
-    :return: Regex without newlines and spaces.
-    """
-    return "".join([char for char in regex if char not in ("\n", " ")])
-
+# date and time manipulation functions
 def get_day_month(str_with_date: str) -> str:
     """
     Gets day and month from string containing day/month or day-month.
@@ -159,8 +35,6 @@ def get_day_month(str_with_date: str) -> str:
     raise ValueError(
         "Given string doesn't contain day and month in wanted format")
 
-
-# date and time manipulation functions
 def convert_date(date: str) -> str:
     """
     Converts given date to `YYYY-MM-DD` format.
