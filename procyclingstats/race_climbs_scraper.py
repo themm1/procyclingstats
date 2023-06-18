@@ -13,7 +13,7 @@ class RaceClimbs(Scraper):
     Usage:
 
     >>> from procyclingstats import RaceClimbs
-    >>> race_climbs = RaceClimbs("race/tour-de-france/2022/gc/route/climbs")
+    >>> race_climbs = RaceClimbs("race/tour-de-france/2022/route/climbs")
     >>> race_climbs.climbs()
     [
         {

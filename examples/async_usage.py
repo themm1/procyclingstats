@@ -4,8 +4,9 @@ import time
 from concurrent.futures import as_completed
 from pprint import pprint
 
-from procyclingstats import Ranking, Rider
 from requests_futures.sessions import FuturesSession
+
+from procyclingstats import Ranking, Rider
 
 
 def main():
@@ -38,7 +39,7 @@ def ranking_heights_future(ranking):
     for i, future_session in enumerate(future_sessions):
         html = future_session.result().text
         rider = Rider(ranking[i]['rider_url'], html=html, update_html=False)
-        riders_heights[rider.normalized_relative_url()] = rider.height()
+        riders_heights[rider.relative_url()] = rider.height()
     print("With requests_futures package:", time.time() - t1)
     return riders_heights
     
@@ -47,7 +48,7 @@ def ranking_heights(ranking):
     riders_heights = {}
     for row in ranking[:50]:
         rider = Rider(row['rider_url'])
-        riders_heights[rider.normalized_relative_url()] = rider.height()
+        riders_heights[rider.relative_url()] = rider.height()
     print("Without requests_futures package:", time.time() - t1)
     return riders_heights
 

@@ -14,20 +14,13 @@ Creating scraping objects
 All scraping classes have the 
 :meth:`Scraper constructor <procyclingstats.scraper.Scraper.__init__>`. The 
 easiest way to create scraping object that is ready for parsing is by passing
-the URL (either relative or absolute). When the URL is valid for the scraping
-class (e.g. URLs in ``"rider/{rider_id}"`` format are valid for the
-:class:`Rider <procyclingstats.rider_scraper.Rider>` class), the object is
-created successfully. Otherwise ``ValueError`` is raised. Passed URL doesn't
-have to be only in this format, because every scraping class has it's own regex
-for validating URLs. So for the
-:class:`Rider <procyclingstats.rider_scraper.Rider>` class valid URLs are also
-``"rider/{rider_id}/"`` or ``"rider/{rider_id}/overview"``. Basically every URL
-that points to page with parsable HTML should be valid.
-For some classes (:class:`Ranking <procyclingstats.ranking_scraper.Ranking>`, 
-:class:`RiderResults <procyclingstats.rider_results_scraper.RiderResults>`) are
-valid also filter URLs. E.g. for
-:class:`Ranking <procyclingstats.ranking_scraper.Ranking>` class is
-``"rankings.php?date=2021-12-31&p=me&s=season-individual"`` a valid URL. 
+the URL (either relative or absolute). In order for the scraping class to work
+correctly, the passed URL has to be in valid format (e.g.
+``"rider/tadej-pogacar"`` for the :class:`Rider <procyclingstats.rider_scraper.Rider>`
+class). There is an example of valid URL for each scraping class in it's
+documentation. URL validating is no longer supported so it's only up to you to
+decide whether valid HTML will be obtained from passed URL. If HTML from passed
+URL isn't valid, the parsing methods won't work correctly.
 
 To create an object ready for parsing without making request it's needed to
 pass the HTML of the page as ``html`` parameter. URL has to be passed in that
@@ -35,7 +28,7 @@ case too. Passed HTML should be a string that is HTML from procyclingstats
 page. You should also set the ``update_html`` parameter to ``False`` so request
 to given URL isn't made. HTML that was passed or obtained from the page might
 be also invalid in some cases. Invalid HTML looks usually like `this one`_.
-When that is the case ``ValueError`` is raised.
+When that is the case, ``ValueError`` is raised.
 
 Parsing methods
 ---------------
@@ -59,7 +52,7 @@ methods:
 - Select menu parsing methods
     Parses select menu from HTML and returns it as list of dicts where dict
     keys are always ``"text"`` and ``"value"``. See 
-    :meth:`Race.prev_editions <procyclingstats.race_scraper.Race.prev_editions>`
+    :meth:`Race.prev_editions_select <procyclingstats.race_scraper.Race.prev_editions_select>`
     method for an example.
 
 Some parsing methods might be unavailable with some HTMLs. In that case the
@@ -82,16 +75,3 @@ are called scraping methods and values are returned parsed values. See the
 :class:`parse <procyclingstats.scraper.Scraper.parse>` method for more
 information.
 
-Comparing scraping objects
---------------------------
-
-Objects are equal when URLs returned by
-:class:`normalized_relative_url <procyclingstats.scraper.Scraper.normalized_relative_url>`
-are the same. When objects are equal, it means that the
-:class:`parse <procyclingstats.scraper.Scraper.parse>` method of both objects
-should return the same dictionary. However when objects aren't equal, dicts
-returned by their :class:`parse <procyclingstats.scraper.Scraper.parse>`
-methods may also be the same in some cases. For example 
-``Race("race/tour-de-france") != Race("race/tour-de-france/2022")`` is `True`
-even if in 2022 URLs of both objects point to the same page. The equality is
-determined solely from URL, so HTML isn't needed for comparing objects.
