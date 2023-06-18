@@ -22,10 +22,11 @@
 
   gtag('config', 'G-2MNJ20S7SJ');
 </script>
-<title>All results | ProCyclingStats</title>
+<title>Results for Alberto  Contador</title>
 <base href="https://www.procyclingstats.com/rider.php">
 <link rel="canonical" href="https://www.procyclingstats.com/rider/alberto-contador/results/all">
-<script async="" src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="">
+<script async="" src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="robots" content="noindex">
+<meta name="description" content="Career results for Alberto Contador with filter options on distance, date, type of race and vertical meters.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8"> 
@@ -34,20 +35,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php">
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a135.css">
-
-<script src="https://www.procyclingstats.com/pcs_s59.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a183.css">
+	
+<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
-<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon.ico">
+ 
 </head>
 <body>
 <div class="wrapper">
-  <header class="  ">
+  <header class="">
     <div class="cont">
-    	<a class="logo4" href="index.php"><ul><li class="r">P</li><li class="r">C</li><li class="z">S</li></ul></a>
-
+    	<a class="logo" href="index.php"></a>  
     	<form action="search.php" class="msearch"><input type="hidden" id="term">
-    		<input type="text" name="term" id="search" data-nav="rider/-id-/results/all" data-page="rider" class="search4" placeholder="search"></form> 
+    		<input type="text" name="term" id="search" data-nav="rider/-id-/results/all" data-nav2="" data-page="rider" class="search4" placeholder="search"></form> 
     	<div class="menuCont">
       	<a class="mobMenu" href="">Menu▼</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
@@ -69,24 +73,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/movistar-team-2022">Movistar Team</a></li>
-<li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
-<li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
-<li><a href="team/team-dsm-2022">Team DSM</a></li>
-<li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
-<li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
-<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
-<li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2022">Cofidis</a></li>
-<li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
+<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,12 +99,7 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 blue"><a class="reg" href="calendar/worlds-program">Worlds</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="calendar/worlds-program">Program</a></li>
-<li><a href="race/world-championship/2022/result/startlist">Startlist ME</a></li>
-<li><a href="race/world-championship-we/2022/result/startlist">Startlist WE</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
-<li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
@@ -115,18 +114,19 @@
  
 				 </ul> 
 			 </div>
-			 <a class="user4" data-logged="0" href="login.php"><span>❖</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>✱</span><font>settings</font></a>    </div>
+			 <a class="user4" data-logged="0" href="account.php"><span>❖</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>✱</span><font>settings</font></a>    </div>
   </header>  
-<div class="content  "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="" href="rider/alberto-contador">Overview</a></li>
+<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="" href="rider/alberto-contador">Overview</a></li>
 <li class="reg "><a class="" href="rider/alberto-contador/statistics">Statistics▼</a><ul><li><a href="rider/alberto-contador/statistics/overview">Overview</a></li>
-<li><a href="rider/alberto-contador/statistics/wins">Wins</a></li>
 <li><a href="rider/alberto-contador/statistics/season-statistics">Statistics by season</a></li>
-<li><a href="rider/alberto-contador/statistics/most-starts-by-race">Most starts by race</a></li>
 <li><a href="rider/alberto-contador/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li><a href="rider/alberto-contador/statistics/grand-tour-starts">Grand tour starts</a></li>
+<li><a href="rider/alberto-contador/statistics/wins">Wins</a></li>
+<li><a href="rider/alberto-contador/statistics/most-starts-by-race">Most starts by race</a></li>
+<li><a href="rider/alberto-contador/statistics/grand-tour-starts">Starts and results</a></li>
+<li><a href="rider/alberto-contador/statistics/injury-history">Injury history</a></li>
 </ul></li>
 <li class="reg "><a class="cur" href="rider/alberto-contador/results">Results</a></li>
-<li class="reg "><a class="" href="rider/alberto-contador/head-to-head">Head to head</a></li>
+<li class="reg "><a class="" href="rider/alberto-contador/head-to-head">H2H</a></li>
 <li class="reg "><a class="" href="rider/alberto-contador/calendar">Calendar</a></li>
 <li class="reg "><a class="" href="rider/alberto-contador/contribute">More▼</a><ul><li><a href="rider/alberto-contador/contribute/contribute-info">Contribute info</a></li>
 <li><a href="rider/alberto-contador/contribute/submit-program">Submit program</a></li>
@@ -135,38 +135,46 @@
 <li><a href="rider/alberto-contador/contribute/contribute-family">Family</a></li>
 <li><a href="rider/alberto-contador/contribute/embed-rider-results">Embed rider results</a></li>
 </ul></li>
-<li class="more"><a href="rider/alberto-contador">More</a><ul><li data-n="0"><a href="rider/alberto-contador/overview/start">Overview - Start</a></li><li data-n="1"><a href="rider/alberto-contador/statistics/overview">Statistics - Overview</a></li><li data-n="1"><a href="rider/alberto-contador/statistics/wins">Wins</a></li>
+<li class="reg "><a class="" href="rider/alberto-contador/specialties">Specialties▼</a><ul><li><a href="rider/alberto-contador/specialties/top-gc-results">Top GC results</a></li>
+<li><a href="rider/alberto-contador/specialties/fastest-tt">Fastest TT</a></li>
+</ul></li>
+<li class="more"><a href="rider/alberto-contador">More</a><ul><li data-n="1"><a href="rider/alberto-contador/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/alberto-contador/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/alberto-contador/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/alberto-contador/statistics/season-statistics">Statistics by season</a></li>
-<li data-n="1"><a href="rider/alberto-contador/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/alberto-contador/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li data-n="1"><a href="rider/alberto-contador/statistics/grand-tour-starts">Grand tour starts</a></li>
-<li data-n="2"><a href="rider/alberto-contador/results/all">Results - All results</a></li><li data-n="3"><a href="rider/alberto-contador/head-to-head/start">Head to head - Head-to-head</a></li><li data-n="4"><a href="rider/alberto-contador/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/alberto-contador/contribute/contribute-info">More - Contribute info</a></li><li data-n="5"><a href="rider/alberto-contador/contribute/submit-program">Submit program</a></li>
+<li data-n="1"><a href="rider/alberto-contador/statistics/wins">Wins</a></li>
+<li data-n="1"><a href="rider/alberto-contador/statistics/most-starts-by-race">Most starts by race</a></li>
+<li data-n="1"><a href="rider/alberto-contador/statistics/grand-tour-starts">Starts and results</a></li>
+<li data-n="1"><a href="rider/alberto-contador/statistics/injury-history">Injury history</a></li>
+<li data-n="3"><a href="rider/alberto-contador/results/results">Results - Results</a></li><li data-n="4"><a href="rider/alberto-contador/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/alberto-contador/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/alberto-contador/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/alberto-contador/contribute/contribute-info">Contribute info</a></li>
+<li data-n="5"><a href="rider/alberto-contador/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/alberto-contador/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/alberto-contador/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/alberto-contador/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/alberto-contador/contribute/embed-rider-results">Embed rider results</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title "><a class="mobileMenuLink showIfMobile menu-toggle" href="">menu</a><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Alberto  Contador</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="0"><h2>All results</h2><div class="">
-<form action="rider.php"><ul class="filter"><li><div class="label">Season</div><div><select class="" name="xseason"><option value="" selected="">-</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option></select><select class="hide" name="zxseason"><option value="" selected="">-</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option></select></div><div><select name="pxseason" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="largerorequal">&gt;=</option><option value="smallerorequal">&lt;=</option><option value="between">Between</option></select></div></li>
-<li><div class="label">Sort by </div><div><select class="" name="sort"><option value="date" selected="">Date</option><option value="pnt">PCS points</option><option value="rnk">Result</option><option value="km">Distance</option></select></div></li>
-<li><div class="label">Race</div><div><select class="" name="race"><option value="" selected="">-</option><option value="5588">Abu Dhabi Tour</option><option value="1033">Amstel Gold Race</option><option value="1064">Brussels Cycling Classic</option><option value="3319">Trofeo Calvia</option><option value="1126">Circuito de Getxo</option><option value="1311">Circuito Montañes</option><option value="2561">Clasica a los Puertos</option><option value="1028">Clasica Ciclista San Sebastian</option><option value="3540">Clásica Internacional Alcobendas</option><option value="1034">Critérium du Dauphiné Libéré</option><option value="1082">Critérium International</option><option value="1043">Deutschland Tour</option><option value="1054">Eneco Tour</option><option value="7253">European Championships U23 - ITT</option><option value="1786">European Championships U23 - Road Race</option><option value="1039">Giro d'Italia</option><option value="1026">Il Lombardia</option><option value="1089">GP de Fourmies / La Voix du Nord</option><option value="1108">GP Nobili Rubinetterie-Coppa Papà Carlo-Coppa Città di Stresa</option><option value="1048">GP Ouest France - Plouay</option><option value="1678">GP Villafranca de Ordizia</option><option value="1229">Gran Premio Bruno Beghelli</option><option value="1073">Gran Premio Miguel Indurain</option><option value="1057">Grand Prix Cycliste de Montréal</option><option value="1055">Grand Prix Cycliste de Québec</option><option value="1066">Jacob's Creek Tour Down Under</option><option value="1165">Klasika Primavera de Amorebieta</option><option value="1027">La Flèche Wallonne</option><option value="1047">Liège - Bastogne - Liège</option><option value="4779">Memorial Galera - Ciudad de Armilla</option><option value="1080">Milano-Torino</option><option value="1488">National Championships Spain - ITT</option><option value="1483">National Championships Spain - Road Race</option><option value="2127">National Championships Spain U23 - ITT</option><option value="2128">National Championships Spain U23 - Road Race</option><option value="1068">Olympic Games - ITT</option><option value="1053">Olympic Games Road Race</option><option value="1135">Paris - Corrèze</option><option value="1058">Paris - Nice</option><option value="1230">Route du Sud Cycliste - La Dépêche du Midi</option><option value="1403">Ruban Granitier Breton</option><option value="1711">Setmana-Catalana</option><option value="3205">Subida al Naranco</option><option value="1025">Tirreno-Adriatico</option><option value="1049">Tour de France</option><option value="1041">Tour de Pologne</option><option value="1032">Tour de Romandie</option><option value="1207">Tour de San Luis</option><option value="1044">Tour de Suisse</option><option value="1042">Tour of Missouri</option><option value="1256">Tour of Oman</option><option value="1719">Trofeo Alcudia</option><option value="1509">Trofeo Cala: Cala Millor - Son Servera</option><option value="1824">Trofeo Luis Puig</option><option value="1112">Trofeo Mallorca</option><option value="3320">Trofeo Manacor</option><option value="2555">Trofeo Pollença</option><option value="3316">Trofeo Sóller</option><option value="3260">Urkiola Igoera - Subida Urkiola</option><option value="1251">Volta ao Algarve em Bicicleta</option><option value="1037">Volta Ciclista a Catalunya</option><option value="1191">Vuelta a Andalucia Ruta Ciclista Del Sol</option><option value="1714">Vuelta a Aragon</option><option value="1086">Vuelta a Burgos</option><option value="1175">Vuelta a Castilla y Leon</option><option value="1051">Vuelta a España</option><option value="1060">Vuelta Ciclista al Pais Vasco</option><option value="1101">Vuelta Ciclista a la Comunidad Valenciana</option><option value="1202">Vuelta ciclista a la region de Murcia</option><option value="1522">Vuelta Ciclista a la Rioja</option><option value="1062">World Championships ME - ITT</option><option value="1021">World Championships ME - Road Race</option><option value="1698">World Championships U23 - ITT</option></select></div></li>
-<li><div class="label">Distance</div><div><input type="text" class="" name="km1" value="" autocomplete="off"><input type="text" class="hide" name="zkm1" value="" autocomplete="off"></div><div><select name="pkm1" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="smallerorequal">&lt;=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
-<li><div class="label">Results per page</div><div><select class="" name="limit"><option value="50">50</option><option value="100" selected="">100</option><option value="200">200</option></select></div></li>
-<li><div class="label">Page</div><div><select class="" name="offset"><option value="0" selected="">1-100</option><option value="100">101-200</option><option value="200">201-300</option><option value="300">301-400</option><option value="400">401-500</option><option value="500">501-600</option><option value="600">601-700</option><option value="700">701-800</option><option value="800">801-900</option><option value="900">901-1000</option><option value="1000">1001-1100</option><option value="1100">1101-1123</option></select></div></li>
-<li><div class="label">Top-x results</div><div><input type="text" class="" name="topx" value="" autocomplete="off"><input type="text" class="hide" name="ztopx" value="" autocomplete="off"></div><div><select name="ptopx" class="selectOperator " style=" padding: 1px; "><option value="smallerorequal" selected="">&lt;=</option><option value="equal">=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
-<li><div class="label">Type</div><div><select class="" name="type"><option value="" selected="">-</option><option value="1">Stage</option><option value="2">Prologue</option><option value="3">Time Trial</option><option value="4">General classification</option><option value="5">Points classification</option><option value="6">Youth classification</option><option value="7">Mountains classification</option><option value="8">One day race</option><option value="9">Criterium</option><option value="10">Teams classification</option></select></div></li>
-<li><div class="label">Nation</div><div><select class="" name="znation"><option value="" selected="">-</option><option value="ar">Argentina</option><option value="au">Australia</option><option value="be">Belgium</option><option value="ca">Canada</option><option value="cn">China</option><option value="fr">France</option><option value="de">Germany</option><option value="it">Italy</option><option value="nl">Netherlands</option><option value="om">Oman</option><option value="pl">Poland</option><option value="pt">Portugal</option><option value="es">Spain</option><option value="ch">Switzerland</option><option value="ae">United Arab Emirates</option><option value="us">United States</option></select></div></li>
-<li><div class="label">Continent</div><div><select class="" name="continent"><option value="" selected="">-</option><option value="EU">Europe</option><option value="OC">Oceania</option><option value="AS">Asia</option><option value="NA">North-America</option><option value="AF">Africa</option><option value="SA">South-America</option><option value="AN">Antartica</option></select></div></li>
-<li><div class="label">PCS Points</div><div><input type="text" class="" name="pnts" value="" autocomplete="off"><input type="text" class="hide" name="zpnts" value="" autocomplete="off"></div><div><select name="ppnts" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="smallerorequal">&lt;=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
-<li><div class="label">Race level</div><div><select class="" name="level"><option value="" selected="">-</option><option value="pro">Level 1 and higher</option><option value="hc">HC and higher</option><option value="wt">WorldTour</option></select></div></li>
-<li><div class="label">Result</div><div><input type="text" class="" name="rnk" value="" autocomplete="off"><input type="text" class="hide" name="zrnk" value="" autocomplete="off"></div><div><select name="prnk" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="smallerorequal">&lt;=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
+<li data-n="7"><a href="rider/alberto-contador/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/alberto-contador/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="6"><a href="rider/alberto-contador/specialties/fastest-tt">Fastest TT</a></li>
+</ul></li></ul><div class="clear"></div></div><div class="page-title "><a class="mobileMenuLink showIfMobile menu-toggle" href="">menu</a><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Alberto  Contador</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="0"><h2>All results</h2><div class=" ">
+<form action="rider.php"><ul class="filter "><li><div class="label">Season</div><div><select class="" name="xseason" style=""><option value="" selected="">-</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option></select><select class="hide" name="zxseason" style=""><option value="" selected="">-</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option></select></div><div><select name="pxseason" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="largerorequal">&gt;=</option><option value="smallerorequal">&lt;=</option><option value="between">Between</option></select></div></li>
+<li><div class="label">Sort by </div><div><select class="" name="sort" style=""><option value="date" selected="">Date</option><option value="pnt">PCS points</option><option value="rnk">Result</option><option value="km">Distance</option></select></div></li>
+<li><div class="label">Race</div><div><select class="" name="race" style=""><option value="" selected="">-</option><option value="5588">Abu Dhabi Tour</option><option value="1033">Amstel Gold Race</option><option value="1064">Brussels Cycling Classic</option><option value="3319">Challenge Illes Balears - Trofeo Calvia</option><option value="1126">Circuito de Getxo</option><option value="1311">Circuito Montañes</option><option value="2561">Clasica a los Puertos</option><option value="1028">Clasica Ciclista San Sebastian</option><option value="3540">Clásica Internacional Alcobendas</option><option value="1034">Critérium du Dauphiné Libéré</option><option value="1082">Critérium International</option><option value="1043">Deutschland Tour</option><option value="1054">Eneco Tour</option><option value="7253">European Championships U23 - ITT</option><option value="1786">European Championships U23 - Road Race</option><option value="1039">Giro d'Italia</option><option value="1026">Giro di Lombardia</option><option value="1089">GP de Fourmies / La Voix du Nord</option><option value="1108">GP Nobili Rubinetterie-Coppa Papà Carlo-Coppa Città di Stresa</option><option value="1048">GP Ouest France - Plouay</option><option value="1678">GP Villafranca de Ordizia</option><option value="1229">Gran Premio Bruno Beghelli</option><option value="1073">Gran Premio Miguel Indurain</option><option value="1057">Grand Prix Cycliste de Montréal</option><option value="1055">Grand Prix Cycliste de Québec</option><option value="1066">Jacob's Creek Tour Down Under</option><option value="1165">Klasika Primavera</option><option value="1027">La Flèche Wallonne</option><option value="1047">Liège - Bastogne - Liège</option><option value="4779">Memorial Galera - Ciudad de Armilla</option><option value="1080">Milano-Torino</option><option value="1488">National Championships Spain - ITT</option><option value="1483">National Championships Spain - Road Race</option><option value="2127">National Championships Spain U23 - ITT</option><option value="2128">National Championships Spain U23 - Road Race</option><option value="1068">Olympic Games - ITT</option><option value="1053">Olympic Games Road Race</option><option value="1135">Paris - Corrèze</option><option value="1058">Paris - Nice</option><option value="1230">Route du Sud Cycliste - La Dépêche du Midi</option><option value="1403">Ruban Granitier Breton</option><option value="1711">Setmana-Catalana</option><option value="3205">Subida al Naranco</option><option value="1025">Tirreno-Adriatico</option><option value="1049">Tour de France</option><option value="1041">Tour de Pologne</option><option value="1032">Tour de Romandie</option><option value="1207">Tour de San Luis</option><option value="1044">Tour de Suisse</option><option value="1042">Tour of Missouri</option><option value="1256">Tour of Oman</option><option value="1719">Trofeo Alcudia</option><option value="1509">Trofeo Cala: Cala Bona - Cala Rajada</option><option value="1824">Trofeo Luis Puig</option><option value="1112">Trofeo Mallorca</option><option value="3320">Trofeo Manacor</option><option value="2555">Trofeo Pollença</option><option value="3316">Trofeo Sóller</option><option value="3260">Urkiola Igoera - Subida Urkiola</option><option value="1251">Volta ao Algarve</option><option value="1037">Volta Ciclista a Catalunya</option><option value="1191">Vuelta a Andalucia Ruta Ciclista Del Sol</option><option value="1714">Vuelta a Aragon</option><option value="1086">Vuelta a Burgos</option><option value="1175">Vuelta a Castilla y Leon</option><option value="1051">Vuelta a España</option><option value="1060">Vuelta al País Vasco</option><option value="1101">Vuelta Ciclista a la Comunidad Valenciana</option><option value="1202">Vuelta ciclista a la region de Murcia</option><option value="1522">Vuelta Ciclista a la Rioja</option><option value="1062">World Championships ME - ITT</option><option value="1021">World Championships ME - Road Race</option><option value="1698">World Championships U23 - ITT</option></select></div></li>
+<li><div class="label">Distance</div><div><input type="text" class="" name="km1" value="" style="" autocomplete="off"><input type="text" class="hide" name="zkm1" value="" style="" autocomplete="off"></div><div><select name="pkm1" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="smallerorequal">&lt;=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
+<li><div class="label">Results per page</div><div><select class="" name="limit" style=""><option value="50">50</option><option value="100" selected="">100</option><option value="200">200</option></select></div></li>
+<li><div class="label">Page</div><div><select class="" name="offset" style=""></select></div></li>
+<li><div class="label">Top-x results</div><div><input type="text" class="" name="topx" value="" style="" autocomplete="off"><input type="text" class="hide" name="ztopx" value="" style="" autocomplete="off"></div><div><select name="ptopx" class="selectOperator " style=" padding: 1px; "><option value="smallerorequal" selected="">&lt;=</option><option value="equal">=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
+<li><div class="label">Type</div><div><select class="" name="type" style=""><option value="" selected="">-</option><option value="1">Stage</option><option value="2">Prologue</option><option value="3">Time Trial</option><option value="4">General classification</option><option value="5">Points classification</option><option value="6">Youth classification</option><option value="7">Mountains classification</option><option value="8">One day race</option><option value="9">Criterium</option><option value="10">Teams classification</option></select></div></li>
+<li><div class="label">Nation</div><div><select class="" name="znation" style=""><option value="" selected="">-</option><option value="al">Albania</option><option value="dz">Algeria</option><option value="ao">Angola</option><option value="ar">Argentina</option><option value="au">Australia</option><option value="at">Austria</option><option value="az">Azerbaijan</option><option value="by">Belarus</option><option value="be">Belgium</option><option value="bz">Belize</option><option value="bm">Bermuda</option><option value="bw">Botswana</option><option value="br">Brazil</option><option value="bg">Bulgaria</option><option value="bf">Burkina Faso</option><option value="cm">Cameroon</option><option value="ca">Canada</option><option value="cl">Chile</option><option value="cn">China</option><option value="co">Colombia</option><option value="cr">Costa Rica</option><option value="hr">Croatia</option><option value="cu">Cuba</option><option value="cw">Curacao</option><option value="cy">Cyprus</option><option value="cz">Czech Republic</option><option value="dk">Denmark</option><option value="do">Dominican Republic</option><option value="ec">Ecuador</option><option value="sv">El Salvador</option><option value="er">Eritrea</option><option value="ee">Estonia</option><option value="et">Ethiopia</option><option value="fi">Finland</option><option value="fr">France</option><option value="ge">Georgia</option><option value="de">Germany</option><option value="gb">Great Britain</option><option value="gr">Greece</option><option value="gt">Guatemala</option><option value="hk">Hongkong</option><option value="hu">Hungary</option><option value="in">India</option><option value="id">Indonesia</option><option value="ir">Iran</option><option value="ie">Ireland</option><option value="il">Israel</option><option value="it">Italy</option><option value="ci">Ivory Coast</option><option value="jp">Japan</option><option value="kz">Kazakhstan</option><option value="ke">Kenya</option><option value="xk">Kosovo</option><option value="kw">Kuwait</option><option value="la">Laos</option><option value="lv">Latvia</option><option value="lb">Lebanon</option><option value="lt">Lithuania</option><option value="lu">Luxembourg</option><option value="my">Malaysia</option><option value="mu">Mauritius</option><option value="mx">Mexico</option><option value="md">Moldova</option><option value="mn">Mongolia</option><option value="me">Montenegro</option><option value="ma">Morocco</option><option value="na">Namibia</option><option value="nl">Netherlands</option><option value="nz">New Zealand</option><option value="mk">North Macedonia</option><option value="no">Norway</option><option value="pk">Pakistan</option><option value="pa">Panama</option><option value="ph">Philippines</option><option value="pl">Poland</option><option value="pt">Portugal</option><option value="pr">Puerto Rico</option><option value="ro">Romania</option><option value="ru">Russia</option><option value="rw">Rwanda</option><option value="rs">Serbia</option><option value="sg">Singapore</option><option value="sk">Slovakia</option><option value="si">Slovenia</option><option value="za">South Africa</option><option value="kr">South Korea</option><option value="es">Spain</option><option value="se">Sweden</option><option value="ch">Switzerland</option><option value="sy">Syria</option><option value="tw">Taiwan</option><option value="th">Thailand</option><option value="tn">Tunisia</option><option value="tr">Turkey</option><option value="ug">Uganda</option><option value="ua">Ukraine</option><option value="ae">United Arab Emirates</option><option value="us">United States</option><option value="uy">Uruguay</option><option value="uz">Uzbekistan</option><option value="ve">Venezuela</option></select></div></li>
+<li><div class="label">Continent</div><div><select class="" name="continent" style=""><option value="" selected="">-</option><option value="EU">Europe</option><option value="OC">Oceania</option><option value="AS">Asia</option><option value="NA">North-America</option><option value="AF">Africa</option><option value="SA">South-America</option><option value="AN">Antartica</option></select></div></li>
+<li><div class="label">PCS Points</div><div><input type="text" class="" name="pnts" value="" style="" autocomplete="off"><input type="text" class="hide" name="zpnts" value="" style="" autocomplete="off"></div><div><select name="ppnts" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="smallerorequal">&lt;=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
+<li><div class="label">Race level</div><div><select class="" name="level" style=""><option value="" selected="">-</option><option value="pro">Level 1 and higher</option><option value="hc">HC and higher</option><option value="wt">WorldTour</option></select></div></li>
+<li><div class="label">Result</div><div><input type="text" class="" name="rnk" value="" style="" autocomplete="off"><input type="text" class="hide" name="zrnk" value="" style="" autocomplete="off"></div><div><select name="prnk" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="smallerorequal">&lt;=</option><option value="largerorequal">&gt;=</option><option value="smaller">&lt;</option><option value="larger">&gt;</option><option value="between">Between</option></select></div></li>
 <li><div class="label">Exclude TTT</div><div><input type="hidden" name="exclude_tt" value="0"><input type="checkbox" name="exclude_tt" value="1"></div></li>
 <li><div class="label">Racedate</div><div><input type="text" class="datepickerNormal " name="racedate" value="" autocomplete="off"><input type="text" class="datepickerNormal hide" name="zracedate" value="" autocomplete="off"></div><div><select name="pracedate" class="selectOperator " style=" padding: 1px; "><option value="equal" selected="">=</option><option value="smallerorequal">&lt;=</option><option value="largerorequal">&gt;=</option><option value="between">Between</option></select></div></li>
-<li><div class="label">Racename</div><div><input type="text" class="" name="name" value="" autocomplete="off"></div><div><select name="pname" class="selectOperator hide" style=" padding: 1px; "><option value="contains" selected="">Contains ..</option></select><span style="display: inline-block; padding: 2px; ">(Contains ..)</span></div></li>
-<li><div class="label">Category</div><div><select class="" name="category"><option value="" selected="">-</option><option value="1">ME - Men Elite</option><option value="2">WE - Women Elite</option><option value="3">MU - Men U23</option><option value="4">MJ - Men Juniors</option><option value="6">WJ - Women Juniors</option><option value="0">-</option><option value="7">WU - Women U23</option><option value="8">ME + WE</option></select></div></li>
-<li><div class="label">ProfileScore</div><div><input type="text" class="" name="profile_score" value="" autocomplete="off"><input type="text" class="hide" name="zprofile_score" value="" autocomplete="off"></div><div><select name="pprofile_score" class="selectOperator " style=" padding: 1px; "><option value="largerorequal" selected="">&gt;=</option><option value="smallerorequal">&lt;=</option><option value="between">Between</option></select></div></li>
-</ul><input type="submit" name="filter" value="Filter"><input type="hidden" name="id" value="alberto-contador"><input type="hidden" name="p" value="results"></form>
+<li><div class="label">Racename</div><div><input type="text" class="" name="name" value="" style="" autocomplete="off"></div><div><select name="pname" class="selectOperator hide" style=" padding: 1px; "><option value="contains" selected="">Contains ..</option></select><span style="display: inline-block; padding: 2px; ">(Contains ..)</span></div></li>
+<li><div class="label">Category</div><div><select class="" name="category" style=""><option value="" selected="">-</option><option value="1">ME - Men Elite</option><option value="2">WE - Women Elite</option><option value="3">MU - Men U23</option><option value="4">MJ - Men Juniors</option><option value="6">WJ - Women Juniors</option><option value="0">-</option><option value="7">WU - Women U23</option><option value="8">ME + WE</option></select></div></li>
+<li><div class="label">ProfileScore</div><div><input type="text" class="" name="profile_score" value="" style="" autocomplete="off"><input type="text" class="hide" name="zprofile_score" value="" style="" autocomplete="off"></div><div><select name="pprofile_score" class="selectOperator " style=" padding: 1px; "><option value="largerorequal" selected="">&gt;=</option><option value="smallerorequal">&lt;=</option><option value="between">Between</option></select></div></li>
+<li><div><input type="submit" name="filter" value="Filter"></div></li></ul><input type="hidden" name="id" value="alberto-contador"><input type="hidden" name="p" value="results"></form>
 
-<table class="basic" style=""><thead><tr><th style="width: 3.1%; ">#</th><th style="width: 10.2%; ">Date</th><th style="width: 5.1%; ">Result</th><th style="width: 40.8%; ">Race</th><th class="cu600  " style="width: 10.2%; ">Class</th><th class="cu600  " style="width: 10.2%; ">KMs</th><th style="width: 10.2%; ">PCS points</th><th class="cu600  " style="width: 10.2%; ">UCI points</th></tr></thead><tbody>
+<span class="table-cont"><table class="basic" style=""><thead><tr><th style="width: 3.1%; ">#</th><th style="width: 10.2%; ">Date</th><th style="width: 5.1%; ">Result</th><th style="width: 40.8%; ">Race</th><th class="cu600  " style="width: 10.2%; ">Class</th><th class="cu600  " style="width: 10.2%; ">KMs</th><th style="width: 10.2%; ">PCS points</th><th class="cu600  " style="width: 10.2%; ">UCI points</th></tr></thead><tbody>
 <tr><td>1</td><td>2017-09-10</td><td>9</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2017/kom">Vuelta a España | Mountains classification</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>-</td><td class="cu600  ">-</td></tr>
 <tr><td>2</td><td>2017-09-10</td><td>4</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2017/points">Vuelta a España | Points classification</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>-</td><td class="cu600  ">-</td></tr>
 <tr><td>3</td><td>2017-09-10</td><td>5</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2017/gc">Vuelta a España</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>200</td><td class="cu600  ">380.0</td></tr>
@@ -226,15 +234,15 @@
 <tr><td>57</td><td>2017-06-06</td><td>82</td><td><span class="flag fr"></span> <a href="race/dauphine/2017/stage-3">Critérium du Dauphiné | Stage 3</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">184</td><td>-</td><td class="cu600  ">-</td></tr>
 <tr><td>58</td><td>2017-06-05</td><td>98</td><td><span class="flag fr"></span> <a href="race/dauphine/2017/stage-2">Critérium du Dauphiné | Stage 2</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">171</td><td>-</td><td class="cu600  ">-</td></tr>
 <tr><td>59</td><td>2017-06-04</td><td>39</td><td><span class="flag fr"></span> <a href="race/dauphine/2017/stage-1">Critérium du Dauphiné | Stage 1</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">170</td><td>-</td><td class="cu600  ">-</td></tr>
-<tr><td>60</td><td>2017-04-08</td><td>22</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/kom">Vuelta al Pais Vasco | Mountains classification</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>-</td><td class="cu600  ">-</td></tr>
-<tr><td>61</td><td>2017-04-08</td><td>15</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/points">Vuelta al Pais Vasco | Points classification</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>-</td><td class="cu600  ">-</td></tr>
-<tr><td>62</td><td>2017-04-08</td><td>2</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/gc">Vuelta al Pais Vasco</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>190</td><td class="cu600  ">320.0</td></tr>
-<tr><td>63</td><td>2017-04-08</td><td>4</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-6">Vuelta al Pais Vasco | Stage 6 (ITT)</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">27.7</td><td>13</td><td class="cu600  ">-</td></tr>
-<tr><td>64</td><td>2017-04-07</td><td>6</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-5">Vuelta al Pais Vasco | Stage 5</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">139.8</td><td>7</td><td class="cu600  ">-</td></tr>
-<tr><td>65</td><td>2017-04-06</td><td>38</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-4">Vuelta al Pais Vasco | Stage 4</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">174.1</td><td>-</td><td class="cu600  ">-</td></tr>
-<tr><td>66</td><td>2017-04-05</td><td>33</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-3">Vuelta al Pais Vasco | Stage 3</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">160.5</td><td>-</td><td class="cu600  ">-</td></tr>
-<tr><td>67</td><td>2017-04-04</td><td>86</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-2">Vuelta al Pais Vasco | Stage 2</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">173.4</td><td>-</td><td class="cu600  ">-</td></tr>
-<tr><td>68</td><td>2017-04-03</td><td>136</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-1">Vuelta al Pais Vasco | Stage 1</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">153.3</td><td>-</td><td class="cu600  ">-</td></tr>
+<tr><td>60</td><td>2017-04-08</td><td>22</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/kom">Vuelta al País Vasco | Mountains classification</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>-</td><td class="cu600  ">-</td></tr>
+<tr><td>61</td><td>2017-04-08</td><td>15</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/points">Vuelta al País Vasco | Points classification</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>-</td><td class="cu600  ">-</td></tr>
+<tr><td>62</td><td>2017-04-08</td><td>2</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/gc">Vuelta al País Vasco</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>190</td><td class="cu600  ">320.0</td></tr>
+<tr><td>63</td><td>2017-04-08</td><td>4</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-6">Vuelta al País Vasco | Stage 6 (ITT)</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">27.7</td><td>13</td><td class="cu600  ">-</td></tr>
+<tr><td>64</td><td>2017-04-07</td><td>6</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-5">Vuelta al País Vasco | Stage 5</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">139.8</td><td>7</td><td class="cu600  ">-</td></tr>
+<tr><td>65</td><td>2017-04-06</td><td>38</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-4">Vuelta al País Vasco | Stage 4</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">174.1</td><td>-</td><td class="cu600  ">-</td></tr>
+<tr><td>66</td><td>2017-04-05</td><td>33</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-3">Vuelta al País Vasco | Stage 3</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">160.5</td><td>-</td><td class="cu600  ">-</td></tr>
+<tr><td>67</td><td>2017-04-04</td><td>86</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-2">Vuelta al País Vasco | Stage 2</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">173.4</td><td>-</td><td class="cu600  ">-</td></tr>
+<tr><td>68</td><td>2017-04-03</td><td>136</td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2017/stage-1">Vuelta al País Vasco | Stage 1</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">153.3</td><td>-</td><td class="cu600  ">-</td></tr>
 <tr><td>69</td><td>2017-03-26</td><td>4</td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2017/kom">Volta Ciclista a Catalunya | Mountains classification</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>-</td><td class="cu600  ">-</td></tr>
 <tr><td>70</td><td>2017-03-26</td><td>2</td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2017/gc">Volta Ciclista a Catalunya</a></td><td class="cu600  ">2.UWT</td><td class="cu600  "></td><td>190</td><td class="cu600  ">320.0</td></tr>
 <tr><td>71</td><td>2017-03-26</td><td>15</td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2017/stage-7">Volta Ciclista a Catalunya | Stage 7</a></td><td class="cu600  ">2.UWT</td><td class="cu600  ">138.7</td><td>-</td><td class="cu600  ">-</td></tr>
@@ -268,9 +276,9 @@
 <tr><td>99</td><td>2017-02-17</td><td>3</td><td><span class="flag es"></span> <a href="race/ruta-del-sol/2017/stage-3">Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 3 (ITT)</a></td><td class="cu600  ">2.HC</td><td class="cu600  ">12</td><td>12</td><td class="cu600  ">5.0</td></tr>
 <tr><td>100</td><td>2017-02-16</td><td>2</td><td><span class="flag es"></span> <a href="race/ruta-del-sol/2017/stage-2">Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 2</a></td><td class="cu600  ">2.HC</td><td class="cu600  ">177.9</td><td>18</td><td class="cu600  ">10.0</td></tr>
 
-</tbody></table>
+</tbody></table></span>
 </div>
-<div class="desktop-ad below-content rider"></div><div class="mob-ad below-content rider"></div></div><div class="page-nav default "><ul class="menu-tree "><li><span>Results</span><ul><li class="cur" style=" "><a href="rider/alberto-contador/results/all">All results</a></li><li class="" style=" "><a href="rider/alberto-contador/results/subclassification-wins">Wins in subclassifications</a></li><li class="" style=" "><a href="rider/alberto-contador/results/overview">Overview</a></li><li class="" style=" "><a href="rider/alberto-contador/results/leader-jerseys">Leader jerseys</a></li><li class="" style=" "><a href="rider/alberto-contador/results/participations">Participations</a></li><li class="" style=" "><a href="rider/alberto-contador/results/results-with-special-filters">Results with special filters</a></li><li class="" style=" "><a href="rider/alberto-contador/results/final-5k-analysis">Top results final 5k analysis</a></li></ul></li><li><span>TT</span><ul><li class="" style=" "><a href="rider/alberto-contador/results/last-tt-results">Last TT results</a></li><li class="" style=" "><a href="rider/alberto-contador/results/time-lost-on-gc-riders">Time lost on GC riders</a></li></ul></li><li><span>Rankings</span><ul><li class="" style=" "><a href="rider/alberto-contador/results/pcs-ranking">PCS Ranking</a></li><li class="" style=" "><a href="rider/alberto-contador/results/pcs-wins">Wins ranking</a></li><li class="" style=" "><a href="rider/alberto-contador/results/pcs-season-ranking">PCS Season ranking</a></li><li class="" style=" "><a href="rider/alberto-contador/results/uci-world-ranking">UCI World Ranking</a></li><li class="" style=" "><a href="rider/alberto-contador/results/all-time-ranking">All time ranking breakdown</a></li><li class="" style=" "><a href="rider/alberto-contador/results/uci-one-day-races">UCI One day races</a></li><li class="" style=" "><a href="rider/alberto-contador/results/tt-ranking">Time trial ranking</a></li><li class="" style=" "><a href="rider/alberto-contador/results/sprinters-ranking">Sprinters ranking</a></li><li class="" style=" "><a href="rider/alberto-contador/results/one-day-races-ranking">One day races ranking</a></li></ul></li><li><span>Breakdowns</span><ul><li class="" style=" "><a href="rider/alberto-contador/results/career-points-sprint">Sprint points</a></li><li class="" style=" "><a href="rider/alberto-contador/results/career-points-climbers">Climber points</a></li><li class="" style=" "><a href="rider/alberto-contador/results/career-points-gc">GC points</a></li><li class="" style=" "><a href="rider/alberto-contador/results/career-points-time-trial">Time trial points</a></li><li class="" style=" "><a href="rider/alberto-contador/results/career-points-one-day-races">One day races points</a></li></ul></li></ul></div><div style="clear: both; "></div>  
+<div class="desktop-ad below-content rider"></div><div class="mob-ad below-content rider"></div></div><div class="page-nav default "><ul class="menu-tree  "><li><span>Results</span><ul><li class="cur " data-pro="0" style=" "><a href="rider/alberto-contador/results/all">All results</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/subclassification-wins">Wins in subclassifications</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/leader-jerseys">Leader jerseys</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/participations">Participations</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/results-with-special-filters">Results with special filters</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/final-5k-analysis">Top results final 5k analysis</a></li><li class=" hide" data-pro="1" style=" "><a href="rider/alberto-contador/results/dnfs">DNFs</a></li></ul><div class="showPremiumCont"><a class="showPremiumMenu" href="">PCS Pro (1)</a></div></li><li><span>TT</span><ul><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/last-tt-results">Last TT results</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/time-lost-on-gc-riders">Time lost on GC riders</a></li></ul></li><li><span>Victories</span><ul><li class=" hide" data-pro="1" style=" "><a href="rider/alberto-contador/results/solo-victories">Solo victories</a></li><li class=" hide" data-pro="1" style=" "><a href="rider/alberto-contador/results/won-how">Won how</a></li></ul><div class="showPremiumCont"><a class="showPremiumMenu" href="">PCS Pro (2)</a></div></li><li><span>Rankings</span><ul><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/pcs-ranking">PCS Ranking</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/pcs-wins">Wins ranking</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/pcs-season-ranking">PCS Season ranking</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/uci-world-ranking">UCI World Ranking</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/all-time-ranking">All time ranking breakdown</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/uci-one-day-races">UCI One day races</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/tt-ranking">Time trial ranking</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/sprinters-ranking">Sprinters ranking</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/one-day-races-ranking">One day races ranking</a></li></ul></li><li><span>Breakdowns</span><ul><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/career-points-sprint">Sprint points</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/career-points-climbers">Climber points</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/career-points-gc">GC points</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/career-points-time-trial">Time trial points</a></li><li class=" " data-pro="0" style=" "><a href="rider/alberto-contador/results/career-points-one-day-races">One day races points</a></li></ul></li></ul></div><div style="clear: both; "></div>  
   </div>
   
   <div class="push"></div>
@@ -279,15 +287,7 @@
   <div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
-</ul></li>
-<li class="group"><h3>One day races</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
-<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
-<li><a href="race/il-lombardia">Il Lombardia</a></li>
-<li><a href="race/world-championship">World Championships</a></li>
-</ul></li>
-<li class="group"><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+</ul><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
@@ -295,28 +295,68 @@
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
 </ul></li>
-<li class="group"><h3>Rankings &amp; Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
-<li><a href="statistics/start/points-per-age">Points per age</a></li>
-<li><a href="statistics/start/injuries">Injuries</a></li>
-<li><a href="rankings/me/world-ranking/individual">UCI World Ranking</a></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/biniam-girmay">Biniam Girmay</a></li>
+<li><a href="rider/peter-sagan">Peter Sagan</a></li>
+<li><a href="rider/annemiek-van-vleuten">Annemiek van Vleuten</a></li>
+<li><a href="rider/elisa-longo-borghini">Elisa Longo Borghini</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+</ul></li>
+<li class="group"><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
+</ul><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
 </ul></li>
 <li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
 <li><a href="info/procyclinggame">ProCyclingGame</a></li>
-</ul></li>
-<li class="group"><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+</ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1119 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1430kb) peak (1576kb)</span></li></ul></li>
+<li><span>Pageload 0.1501s</span></li>
+</ul></li>
 </ul><input type="hidden" id="pageid" value="1285"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
  
  
-<script src="search_list4.js"></script>
-  
-</body></html>
+<script src="search_list6.js"></script>  
+		<script>
+		var riderid = 137456;		$(document).ready(function() { 	RVC(riderid);  	  });
+		</script>
+		</body></html>

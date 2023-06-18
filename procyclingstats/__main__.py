@@ -46,7 +46,8 @@ def get_corresponding_scraping_class(relative_url: str) -> Any:
     :return: Scraping class for the URL. None when not found.
     """
     splitted_url = relative_url.split("/")
-    if splitted_url[0] == "rider" and "results" in splitted_url:  
+    if (splitted_url[0] == "rider" and "results" in splitted_url) or \
+        (relative_url[:9] == "rider.php"):  
         return RiderResults
     elif splitted_url[0] == "rider":
         return Rider

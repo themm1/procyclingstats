@@ -44,6 +44,18 @@
       "value": null
     },
     {
+      "text": "Albania",
+      "value": "al"
+    },
+    {
+      "text": "Algeria",
+      "value": "dz"
+    },
+    {
+      "text": "Angola",
+      "value": "ao"
+    },
+    {
       "text": "Argentina",
       "value": "ar"
     },
@@ -52,36 +64,280 @@
       "value": "au"
     },
     {
+      "text": "Austria",
+      "value": "at"
+    },
+    {
+      "text": "Azerbaijan",
+      "value": "az"
+    },
+    {
+      "text": "Belarus",
+      "value": "by"
+    },
+    {
       "text": "Belgium",
       "value": "be"
+    },
+    {
+      "text": "Belize",
+      "value": "bz"
+    },
+    {
+      "text": "Bermuda",
+      "value": "bm"
+    },
+    {
+      "text": "Botswana",
+      "value": "bw"
+    },
+    {
+      "text": "Brazil",
+      "value": "br"
+    },
+    {
+      "text": "Bulgaria",
+      "value": "bg"
+    },
+    {
+      "text": "Burkina Faso",
+      "value": "bf"
+    },
+    {
+      "text": "Cameroon",
+      "value": "cm"
     },
     {
       "text": "Canada",
       "value": "ca"
     },
     {
+      "text": "Chile",
+      "value": "cl"
+    },
+    {
       "text": "China",
       "value": "cn"
+    },
+    {
+      "text": "Colombia",
+      "value": "co"
+    },
+    {
+      "text": "Costa Rica",
+      "value": "cr"
+    },
+    {
+      "text": "Croatia",
+      "value": "hr"
+    },
+    {
+      "text": "Cuba",
+      "value": "cu"
+    },
+    {
+      "text": "Curacao",
+      "value": "cw"
+    },
+    {
+      "text": "Cyprus",
+      "value": "cy"
+    },
+    {
+      "text": "Czech Republic",
+      "value": "cz"
+    },
+    {
+      "text": "Denmark",
+      "value": "dk"
+    },
+    {
+      "text": "Dominican Republic",
+      "value": "do"
+    },
+    {
+      "text": "Ecuador",
+      "value": "ec"
+    },
+    {
+      "text": "El Salvador",
+      "value": "sv"
+    },
+    {
+      "text": "Eritrea",
+      "value": "er"
+    },
+    {
+      "text": "Estonia",
+      "value": "ee"
+    },
+    {
+      "text": "Ethiopia",
+      "value": "et"
+    },
+    {
+      "text": "Finland",
+      "value": "fi"
     },
     {
       "text": "France",
       "value": "fr"
     },
     {
+      "text": "Georgia",
+      "value": "ge"
+    },
+    {
       "text": "Germany",
       "value": "de"
+    },
+    {
+      "text": "Great Britain",
+      "value": "gb"
+    },
+    {
+      "text": "Greece",
+      "value": "gr"
+    },
+    {
+      "text": "Guatemala",
+      "value": "gt"
+    },
+    {
+      "text": "Hongkong",
+      "value": "hk"
+    },
+    {
+      "text": "Hungary",
+      "value": "hu"
+    },
+    {
+      "text": "India",
+      "value": "in"
+    },
+    {
+      "text": "Indonesia",
+      "value": "id"
+    },
+    {
+      "text": "Iran",
+      "value": "ir"
+    },
+    {
+      "text": "Ireland",
+      "value": "ie"
+    },
+    {
+      "text": "Israel",
+      "value": "il"
     },
     {
       "text": "Italy",
       "value": "it"
     },
     {
+      "text": "Ivory Coast",
+      "value": "ci"
+    },
+    {
+      "text": "Japan",
+      "value": "jp"
+    },
+    {
+      "text": "Kazakhstan",
+      "value": "kz"
+    },
+    {
+      "text": "Kenya",
+      "value": "ke"
+    },
+    {
+      "text": "Kosovo",
+      "value": "xk"
+    },
+    {
+      "text": "Kuwait",
+      "value": "kw"
+    },
+    {
+      "text": "Laos",
+      "value": "la"
+    },
+    {
+      "text": "Latvia",
+      "value": "lv"
+    },
+    {
+      "text": "Lebanon",
+      "value": "lb"
+    },
+    {
+      "text": "Lithuania",
+      "value": "lt"
+    },
+    {
+      "text": "Luxembourg",
+      "value": "lu"
+    },
+    {
+      "text": "Malaysia",
+      "value": "my"
+    },
+    {
+      "text": "Mauritius",
+      "value": "mu"
+    },
+    {
+      "text": "Mexico",
+      "value": "mx"
+    },
+    {
+      "text": "Moldova",
+      "value": "md"
+    },
+    {
+      "text": "Mongolia",
+      "value": "mn"
+    },
+    {
+      "text": "Montenegro",
+      "value": "me"
+    },
+    {
+      "text": "Morocco",
+      "value": "ma"
+    },
+    {
+      "text": "Namibia",
+      "value": "na"
+    },
+    {
       "text": "Netherlands",
       "value": "nl"
     },
     {
-      "text": "Oman",
-      "value": "om"
+      "text": "New Zealand",
+      "value": "nz"
+    },
+    {
+      "text": "North Macedonia",
+      "value": "mk"
+    },
+    {
+      "text": "Norway",
+      "value": "no"
+    },
+    {
+      "text": "Pakistan",
+      "value": "pk"
+    },
+    {
+      "text": "Panama",
+      "value": "pa"
+    },
+    {
+      "text": "Philippines",
+      "value": "ph"
     },
     {
       "text": "Poland",
@@ -92,12 +348,84 @@
       "value": "pt"
     },
     {
+      "text": "Puerto Rico",
+      "value": "pr"
+    },
+    {
+      "text": "Romania",
+      "value": "ro"
+    },
+    {
+      "text": "Russia",
+      "value": "ru"
+    },
+    {
+      "text": "Rwanda",
+      "value": "rw"
+    },
+    {
+      "text": "Serbia",
+      "value": "rs"
+    },
+    {
+      "text": "Singapore",
+      "value": "sg"
+    },
+    {
+      "text": "Slovakia",
+      "value": "sk"
+    },
+    {
+      "text": "Slovenia",
+      "value": "si"
+    },
+    {
+      "text": "South Africa",
+      "value": "za"
+    },
+    {
+      "text": "South Korea",
+      "value": "kr"
+    },
+    {
       "text": "Spain",
       "value": "es"
     },
     {
+      "text": "Sweden",
+      "value": "se"
+    },
+    {
       "text": "Switzerland",
       "value": "ch"
+    },
+    {
+      "text": "Syria",
+      "value": "sy"
+    },
+    {
+      "text": "Taiwan",
+      "value": "tw"
+    },
+    {
+      "text": "Thailand",
+      "value": "th"
+    },
+    {
+      "text": "Tunisia",
+      "value": "tn"
+    },
+    {
+      "text": "Turkey",
+      "value": "tr"
+    },
+    {
+      "text": "Uganda",
+      "value": "ug"
+    },
+    {
+      "text": "Ukraine",
+      "value": "ua"
     },
     {
       "text": "United Arab Emirates",
@@ -106,59 +434,21 @@
     {
       "text": "United States",
       "value": "us"
+    },
+    {
+      "text": "Uruguay",
+      "value": "uy"
+    },
+    {
+      "text": "Uzbekistan",
+      "value": "uz"
+    },
+    {
+      "text": "Venezuela",
+      "value": "ve"
     }
   ],
-  "normalized_relative_url": "rider/alberto-contador/results",
-  "pages_select": [
-    {
-      "text": "1-100",
-      "value": "0"
-    },
-    {
-      "text": "101-200",
-      "value": "100"
-    },
-    {
-      "text": "201-300",
-      "value": "200"
-    },
-    {
-      "text": "301-400",
-      "value": "300"
-    },
-    {
-      "text": "401-500",
-      "value": "400"
-    },
-    {
-      "text": "501-600",
-      "value": "500"
-    },
-    {
-      "text": "601-700",
-      "value": "600"
-    },
-    {
-      "text": "701-800",
-      "value": "700"
-    },
-    {
-      "text": "801-900",
-      "value": "800"
-    },
-    {
-      "text": "901-1000",
-      "value": "900"
-    },
-    {
-      "text": "1001-1100",
-      "value": "1000"
-    },
-    {
-      "text": "1101-1123",
-      "value": "1100"
-    }
-  ],
+  "pages_select": [],
   "races_select": [
     {
       "text": "-",
@@ -177,7 +467,7 @@
       "value": "1064"
     },
     {
-      "text": "Trofeo Calvia",
+      "text": "Challenge Illes Balears - Trofeo Calvia",
       "value": "3319"
     },
     {
@@ -229,7 +519,7 @@
       "value": "1039"
     },
     {
-      "text": "Il Lombardia",
+      "text": "Giro di Lombardia",
       "value": "1026"
     },
     {
@@ -269,7 +559,7 @@
       "value": "1066"
     },
     {
-      "text": "Klasika Primavera de Amorebieta",
+      "text": "Klasika Primavera",
       "value": "1165"
     },
     {
@@ -373,7 +663,7 @@
       "value": "1719"
     },
     {
-      "text": "Trofeo Cala: Cala Millor - Son Servera",
+      "text": "Trofeo Cala: Cala Bona - Cala Rajada",
       "value": "1509"
     },
     {
@@ -401,7 +691,7 @@
       "value": "3260"
     },
     {
-      "text": "Volta ao Algarve em Bicicleta",
+      "text": "Volta ao Algarve",
       "value": "1251"
     },
     {
@@ -429,7 +719,7 @@
       "value": "1051"
     },
     {
-      "text": "Vuelta Ciclista al Pais Vasco",
+      "text": "Vuelta al Pa\u00eds Vasco",
       "value": "1060"
     },
     {
@@ -488,8 +778,8 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": null,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 200,
+      "uci_points": 380.0
     },
     {
       "date": "2017-09-10",
@@ -510,8 +800,8 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 117.5,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 80,
+      "uci_points": 100.0
     },
     {
       "date": "2017-09-08",
@@ -543,8 +833,8 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 180.5,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 50,
+      "uci_points": 40.0
     },
     {
       "date": "2017-09-05",
@@ -554,8 +844,8 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 40.2,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 18,
+      "uci_points": 4.0
     },
     {
       "date": "2017-09-03",
@@ -565,7 +855,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 129.4,
-      "pcs_points": 0,
+      "pcs_points": 3,
       "uci_points": 0
     },
     {
@@ -576,7 +866,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 175.0,
-      "pcs_points": 0,
+      "pcs_points": 12,
       "uci_points": 0
     },
     {
@@ -587,7 +877,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 198.4,
-      "pcs_points": 0,
+      "pcs_points": 8,
       "uci_points": 0
     },
     {
@@ -598,7 +888,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 160.1,
-      "pcs_points": 0,
+      "pcs_points": 3,
       "uci_points": 0
     },
     {
@@ -609,7 +899,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 187.5,
-      "pcs_points": 0,
+      "pcs_points": 15,
       "uci_points": 0
     },
     {
@@ -631,7 +921,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 174.0,
-      "pcs_points": 0,
+      "pcs_points": 15,
       "uci_points": 0
     },
     {
@@ -642,7 +932,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 199.5,
-      "pcs_points": 0,
+      "pcs_points": 3,
       "uci_points": 0
     },
     {
@@ -675,7 +965,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 157.7,
-      "pcs_points": 0,
+      "pcs_points": 3,
       "uci_points": 0
     },
     {
@@ -752,8 +1042,8 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": null,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 210,
+      "uci_points": 225.0
     },
     {
       "date": "2017-07-23",
@@ -774,7 +1064,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 22.5,
-      "pcs_points": 0,
+      "pcs_points": 26,
       "uci_points": 0
     },
     {
@@ -796,7 +1086,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 179.5,
-      "pcs_points": 0,
+      "pcs_points": 10,
       "uci_points": 0
     },
     {
@@ -807,7 +1097,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 183.0,
-      "pcs_points": 0,
+      "pcs_points": 18,
       "uci_points": 0
     },
     {
@@ -851,8 +1141,8 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 101.0,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 50,
+      "uci_points": 25.0
     },
     {
       "date": "2017-07-13",
@@ -862,7 +1152,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 214.5,
-      "pcs_points": 0,
+      "pcs_points": 2,
       "uci_points": 0
     },
     {
@@ -939,7 +1229,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 160.5,
-      "pcs_points": 0,
+      "pcs_points": 18,
       "uci_points": 0
     },
     {
@@ -1016,8 +1306,8 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": null,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 60,
+      "uci_points": 70.0
     },
     {
       "date": "2017-06-11",
@@ -1038,7 +1328,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 167.5,
-      "pcs_points": 0,
+      "pcs_points": 2,
       "uci_points": 0
     },
     {
@@ -1049,7 +1339,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 145.5,
-      "pcs_points": 0,
+      "pcs_points": 2,
       "uci_points": 0
     },
     {
@@ -1071,7 +1361,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 23.5,
-      "pcs_points": 0,
+      "pcs_points": 4,
       "uci_points": 0
     },
     {
@@ -1111,7 +1401,7 @@
       "date": "2017-04-08",
       "rank": 22,
       "stage_url": "race/itzulia-basque-country/2017/kom",
-      "stage_name": "Vuelta al Pais Vasco | Mountains classification",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | Mountains classification",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": null,
@@ -1122,7 +1412,7 @@
       "date": "2017-04-08",
       "rank": 15,
       "stage_url": "race/itzulia-basque-country/2017/points",
-      "stage_name": "Vuelta al Pais Vasco | Points classification",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | Points classification",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": null,
@@ -1133,40 +1423,40 @@
       "date": "2017-04-08",
       "rank": 2,
       "stage_url": "race/itzulia-basque-country/2017/gc",
-      "stage_name": "Vuelta al Pais Vasco",
+      "stage_name": "Vuelta al Pa\u00eds Vasco",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": null,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 190,
+      "uci_points": 320.0
     },
     {
       "date": "2017-04-08",
       "rank": 4,
       "stage_url": "race/itzulia-basque-country/2017/stage-6",
-      "stage_name": "Vuelta al Pais Vasco | Stage 6 (ITT)",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | Stage 6 (ITT)",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 27.7,
-      "pcs_points": 0,
+      "pcs_points": 13,
       "uci_points": 0
     },
     {
       "date": "2017-04-07",
       "rank": 6,
       "stage_url": "race/itzulia-basque-country/2017/stage-5",
-      "stage_name": "Vuelta al Pais Vasco | Stage 5",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | Stage 5",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 139.8,
-      "pcs_points": 0,
+      "pcs_points": 7,
       "uci_points": 0
     },
     {
       "date": "2017-04-06",
       "rank": 38,
       "stage_url": "race/itzulia-basque-country/2017/stage-4",
-      "stage_name": "Vuelta al Pais Vasco | Stage 4",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | Stage 4",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 174.1,
@@ -1177,7 +1467,7 @@
       "date": "2017-04-05",
       "rank": 33,
       "stage_url": "race/itzulia-basque-country/2017/stage-3",
-      "stage_name": "Vuelta al Pais Vasco | Stage 3",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | Stage 3",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 160.5,
@@ -1188,7 +1478,7 @@
       "date": "2017-04-04",
       "rank": 86,
       "stage_url": "race/itzulia-basque-country/2017/stage-2",
-      "stage_name": "Vuelta al Pais Vasco | Stage 2",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | Stage 2",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 173.4,
@@ -1199,7 +1489,7 @@
       "date": "2017-04-03",
       "rank": 136,
       "stage_url": "race/itzulia-basque-country/2017/stage-1",
-      "stage_name": "Vuelta al Pais Vasco | Stage 1",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | Stage 1",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 153.3,
@@ -1225,8 +1515,8 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": null,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 190,
+      "uci_points": 320.0
     },
     {
       "date": "2017-03-26",
@@ -1258,8 +1548,8 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 182.0,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 18,
+      "uci_points": 8.0
     },
     {
       "date": "2017-03-23",
@@ -1280,7 +1570,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 188.3,
-      "pcs_points": 0,
+      "pcs_points": 4,
       "uci_points": 0
     },
     {
@@ -1291,7 +1581,7 @@
       "nationality": "ES",
       "class": "2.UWT",
       "distance": 41.3,
-      "pcs_points": 0,
+      "pcs_points": 8,
       "uci_points": 0
     },
     {
@@ -1335,8 +1625,8 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": null,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 190,
+      "uci_points": 400.0
     },
     {
       "date": "2017-03-12",
@@ -1346,8 +1636,8 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 115.5,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 30,
+      "uci_points": 25.0
     },
     {
       "date": "2017-03-11",
@@ -1357,8 +1647,8 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 177.0,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 30,
+      "uci_points": 25.0
     },
     {
       "date": "2017-03-10",
@@ -1368,7 +1658,7 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 193.5,
-      "pcs_points": 0,
+      "pcs_points": 3,
       "uci_points": 0
     },
     {
@@ -1390,8 +1680,8 @@
       "nationality": "FR",
       "class": "2.UWT",
       "distance": 14.5,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 30,
+      "uci_points": 25.0
     },
     {
       "date": "2017-03-07",
@@ -1434,8 +1724,8 @@
       "nationality": "AE",
       "class": "2.UWT",
       "distance": null,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 40,
+      "uci_points": 20.0
     },
     {
       "date": "2017-02-26",
@@ -1511,8 +1801,8 @@
       "nationality": "ES",
       "class": "2.HC",
       "distance": null,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 110,
+      "uci_points": 150.0
     },
     {
       "date": "2017-02-19",
@@ -1544,8 +1834,8 @@
       "nationality": "ES",
       "class": "2.HC",
       "distance": 12.0,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 12,
+      "uci_points": 5.0
     },
     {
       "date": "2017-02-16",
@@ -1555,8 +1845,8 @@
       "nationality": "ES",
       "class": "2.HC",
       "distance": 177.9,
-      "pcs_points": 0,
-      "uci_points": 0
+      "pcs_points": 18,
+      "uci_points": 10.0
     }
   ],
   "seasons_select": [

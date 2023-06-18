@@ -10,7 +10,7 @@ class TestRaceClimbs(ScraperTestBaseClass):
 class TestStage(ScraperTestBaseClass):
     ScraperClass = Stage   
 
-class TestStartlist(ScraperTestBaseClass):
+class TestRaceStartlist(ScraperTestBaseClass):
     ScraperClass = RaceStartlist
     
 class TestRanking(ScraperTestBaseClass):
