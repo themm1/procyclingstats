@@ -2883,7 +2883,6 @@
       "uci_points": 0
     }
   ],
-  "normalized_relative_url": "race/tour-de-france/2018/stage-19",
   "pcs_points_scale": "GT.A.Stage",
   "points": [
     {
@@ -4462,7 +4461,7 @@
   ],
   "profile_icon": "p4",
   "profile_score": 290,
-  "race_startlist_quality_score": 1680,
+  "race_startlist_quality_score": 1689,
   "results": [
     {
       "rider_name": "ROGLI\u010c Primo\u017e",

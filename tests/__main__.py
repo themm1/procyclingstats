@@ -47,7 +47,7 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
             ScraperClass = get_corresponding_scraping_class(url)
             obj = ScraperClass(url)
             filename = f_utils.url_to_filename(
-                obj.normalized_relative_url())
+                obj.relative_url())
 
             if args.command == "add":
                 if not args.quiet:

@@ -2471,7 +2471,6 @@
       "uci_points": 0
     }
   ],
-  "normalized_relative_url": "race/tour-de-france/2018/stage-3",
   "pcs_points_scale": "2.WT.TTT",
   "points": [
     {
@@ -2945,7 +2944,7 @@
   ],
   "profile_icon": "p1",
   "profile_score": 13,
-  "race_startlist_quality_score": 1680,
+  "race_startlist_quality_score": 1689,
   "results": [
     {
       "rider_url": "rider/damiano-caruso",
