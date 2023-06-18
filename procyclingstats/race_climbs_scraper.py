@@ -66,7 +66,6 @@ class RaceClimbs(Scraper):
             - km_before_finnish: KMs to finnish from the top of the climb.
 
         :raises ValueError: When one of args is of invalid value.
-        :raises ExpectedParsingError: When climbs aren't listed on the page.
         :return: Table with wanted fields.
         """
         available_fields = (
