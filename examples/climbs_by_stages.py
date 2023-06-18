@@ -5,7 +5,7 @@ from procyclingstats import Race, RaceClimbs, Stage
 # RACE_URL can be replaced with any valid stage race URL
 RACE_URL = "race/tour-de-france/2022"
 race = Race(f"{RACE_URL}/overview")
-race_climbs = RaceClimbs(f"{RACE_URL}/gc/stages/climbs-ranked")
+race_climbs = RaceClimbs(f"{RACE_URL}/route/climbs")
 
 stages = race.stages()
 climbs_table = race_climbs.climbs()
