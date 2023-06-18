@@ -69,6 +69,7 @@ class TableParser:
             - bonus
             - profile_icon
             - season
+            - rider_number
 
         :fields options for tables with a header:
             - rank
@@ -283,6 +284,11 @@ class TableParser:
             else:
                 seasons.append(None)
         return seasons
+    
+    def rider_number(self) -> List[Optional[int]]:
+        bibs_elements = self.html_table.css(".bibs")
+        return [int(bib_e.text()) if bib_e.text().isnumeric() else None \
+            for bib_e in bibs_elements]
 
     def rank(self) -> List[Optional[int]]:
         possible_columns = ["Rnk", "pos", "Result", "#"]

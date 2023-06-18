@@ -13,6 +13,7 @@
     {
       "rider_name": "VINGEGAARD Jonas",
       "rider_url": "rider/jonas-vingegaard-rasmussen",
+      "rider_number": 18,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 1,
@@ -27,6 +28,7 @@
     {
       "rider_name": "POGA\u010cAR Tadej",
       "rider_url": "rider/tadej-pogacar",
+      "rider_number": 1,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 2,
@@ -41,6 +43,7 @@
     {
       "rider_name": "THOMAS Geraint",
       "rider_url": "rider/geraint-thomas",
+      "rider_number": 21,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 3,
@@ -55,6 +58,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 91,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 4,
@@ -69,6 +73,7 @@
     {
       "rider_name": "VLASOV Aleksandr",
       "rider_url": "rider/aleksandr-vlasov",
+      "rider_number": 41,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 5,
@@ -83,6 +88,7 @@
     {
       "rider_name": "QUINTANA Nairo",
       "rider_url": "rider/nairo-quintana",
+      "rider_number": 151,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": null,
@@ -97,6 +103,7 @@
     {
       "rider_name": "BARDET Romain",
       "rider_url": "rider/romain-bardet",
+      "rider_number": 111,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 6,
@@ -111,6 +118,7 @@
     {
       "rider_name": "MEINTJES Louis",
       "rider_url": "rider/louis-meintjes",
+      "rider_number": 124,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 7,
@@ -125,6 +133,7 @@
     {
       "rider_name": "LUTSENKO Alexey",
       "rider_url": "rider/aleksey-lutsenko",
+      "rider_number": 131,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 8,
@@ -139,6 +148,7 @@
     {
       "rider_name": "YATES Adam",
       "rider_url": "rider/adam-yates",
+      "rider_number": 28,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 9,
@@ -153,6 +163,7 @@
     {
       "rider_name": "MADOUAS Valentin",
       "rider_url": "rider/valentin-madouas",
+      "rider_number": 96,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 10,
@@ -167,6 +178,7 @@
     {
       "rider_name": "JUNGELS Bob",
       "rider_url": "rider/bob-jungels",
+      "rider_number": 36,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 11,
@@ -181,6 +193,7 @@
     {
       "rider_name": "POWLESS Neilson",
       "rider_url": "rider/neilson-powless",
+      "rider_number": 147,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 12,
@@ -195,6 +208,7 @@
     {
       "rider_name": "S\u00c1NCHEZ Luis Le\u00f3n",
       "rider_url": "rider/luis-leon-sanchez",
+      "rider_number": 85,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 13,
@@ -209,6 +223,7 @@
     {
       "rider_name": "PINOT Thibaut",
       "rider_url": "rider/thibaut-pinot",
+      "rider_number": 97,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 14,
@@ -223,6 +238,7 @@
     {
       "rider_name": "KONRAD Patrick",
       "rider_url": "rider/patrick-konrad",
+      "rider_number": 45,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 15,
@@ -237,6 +253,7 @@
     {
       "rider_name": "PIDCOCK Thomas",
       "rider_url": "rider/thomas-pidcock",
+      "rider_number": 25,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 16,
@@ -251,6 +268,7 @@
     {
       "rider_name": "KUSS Sepp",
       "rider_url": "rider/sepp-kuss",
+      "rider_number": 14,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 17,
@@ -265,6 +283,7 @@
     {
       "rider_name": "TEUNS Dylan",
       "rider_url": "rider/dylan-teuns",
+      "rider_number": 86,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 18,
@@ -279,6 +298,7 @@
     {
       "rider_name": "MCNULTY Brandon",
       "rider_url": "rider/brandon-mcnulty",
+      "rider_number": 6,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 19,
@@ -293,6 +313,7 @@
     {
       "rider_name": "JORGENSON Matteo",
       "rider_url": "rider/matteo-jorgenson",
+      "rider_number": 64,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 20,
@@ -307,6 +328,7 @@
     {
       "rider_name": "VAN AERT Wout",
       "rider_url": "rider/wout-van-aert",
+      "rider_number": 16,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 21,
@@ -321,6 +343,7 @@
     {
       "rider_name": "SCHULTZ Nick",
       "rider_url": "rider/nick-schultz",
+      "rider_number": 208,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 22,
@@ -335,6 +358,7 @@
     {
       "rider_name": "HOULE Hugo",
       "rider_url": "rider/hugo-houle",
+      "rider_number": 196,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 23,
@@ -349,6 +373,7 @@
     {
       "rider_name": "MOLLEMA Bauke",
       "rider_url": "rider/bauke-mollema",
+      "rider_number": 175,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 24,
@@ -363,6 +388,7 @@
     {
       "rider_name": "UR\u00c1N Rigoberto",
       "rider_url": "rider/rigoberto-uran",
+      "rider_number": 141,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 25,
@@ -377,6 +403,7 @@
     {
       "rider_name": "VERONA Carlos",
       "rider_url": "rider/carlos-verona",
+      "rider_number": 68,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 26,
@@ -391,6 +418,7 @@
     {
       "rider_name": "LEKNESSUND Andreas",
       "rider_url": "rider/andreas-leknessund",
+      "rider_number": 116,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 27,
@@ -405,6 +433,7 @@
     {
       "rider_name": "M\u00dcHLBERGER Gregor",
       "rider_url": "rider/gregor-muhlberger",
+      "rider_number": 65,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 28,
@@ -419,6 +448,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 22,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 29,
@@ -433,6 +463,7 @@
     {
       "rider_name": "VELASCO Simone",
       "rider_url": "rider/simone-velasco",
+      "rider_number": 137,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 30,
@@ -447,6 +478,7 @@
     {
       "rider_name": "VAN BAARLE Dylan",
       "rider_url": "rider/dylan-van-baarle",
+      "rider_number": 27,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 31,
@@ -461,6 +493,7 @@
     {
       "rider_name": "K\u00dcNG Stefan",
       "rider_url": "rider/stefan-kung",
+      "rider_number": 94,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 32,
@@ -475,6 +508,7 @@
     {
       "rider_name": "SCH\u00d6NBERGER Sebastian",
       "rider_url": "rider/sebastian-schonberger",
+      "rider_number": 218,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 33,
@@ -489,6 +523,7 @@
     {
       "rider_name": "STORER Michael",
       "rider_url": "rider/michael-storer",
+      "rider_number": 98,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 34,
@@ -503,6 +538,7 @@
     {
       "rider_name": "BENOOT Tiesj",
       "rider_url": "rider/tiesj-benoot",
+      "rider_number": 12,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 35,
@@ -517,6 +553,7 @@
     {
       "rider_name": "GALLOPIN Tony",
       "rider_url": "rider/tony-gallopin",
+      "rider_number": 173,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 36,
@@ -531,6 +568,7 @@
     {
       "rider_name": "HAMILTON Chris",
       "rider_url": "rider/chris-hamilton",
+      "rider_number": 115,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 37,
@@ -545,6 +583,7 @@
     {
       "rider_name": "ZEITS Andrey",
       "rider_url": "rider/andrey-zeits",
+      "rider_number": 138,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 38,
@@ -559,6 +598,7 @@
     {
       "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
+      "rider_number": 74,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 39,
@@ -573,6 +613,7 @@
     {
       "rider_name": "BETTIOL Alberto",
       "rider_url": "rider/alberto-bettiol",
+      "rider_number": 143,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 40,
@@ -587,6 +628,7 @@
     {
       "rider_name": "OWSIAN \u0141ukasz",
       "rider_url": "rider/lukasz-owsian",
+      "rider_number": 157,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 41,
@@ -601,6 +643,7 @@
     {
       "rider_name": "DOMBROWSKI Joe",
       "rider_url": "rider/joe-dombrowski",
+      "rider_number": 133,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 42,
@@ -615,6 +658,7 @@
     {
       "rider_name": "ZIMMERMANN Georg",
       "rider_url": "rider/georg-zimmermann",
+      "rider_number": 128,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 43,
@@ -629,6 +673,7 @@
     {
       "rider_name": "GESCHKE Simon",
       "rider_url": "rider/simon-geschke",
+      "rider_number": 73,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 44,
@@ -643,6 +688,7 @@
     {
       "rider_name": "SCHACHMANN Maximilian",
       "rider_url": "rider/maximilian-schachmann",
+      "rider_number": 47,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 45,
@@ -657,6 +703,7 @@
     {
       "rider_name": "GOOSSENS Kobe",
       "rider_url": "rider/kobe-goossens",
+      "rider_number": 123,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 46,
@@ -671,6 +718,7 @@
     {
       "rider_name": "GENIETS Kevin",
       "rider_url": "rider/kevin-geniets",
+      "rider_number": 93,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 47,
@@ -685,6 +733,7 @@
     {
       "rider_name": "CASTROVIEJO Jonathan",
       "rider_url": "rider/jonathan-castroviejo",
+      "rider_number": 23,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 48,
@@ -699,6 +748,7 @@
     {
       "rider_name": "BOUET Maxime",
       "rider_url": "rider/maxime-bouet",
+      "rider_number": 153,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 49,
@@ -713,6 +763,7 @@
     {
       "rider_name": "PASQUALON Andrea",
       "rider_url": "rider/andrea-pasqualon",
+      "rider_number": 125,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 50,
@@ -727,6 +778,7 @@
     {
       "rider_name": "OLIVEIRA Nelson",
       "rider_url": "rider/nelson-oliveira",
+      "rider_number": 66,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 51,
@@ -741,6 +793,7 @@
     {
       "rider_name": "GRO\u00dfSCHARTNER Felix",
       "rider_url": "rider/felix-grossschartner",
+      "rider_number": 42,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 52,
@@ -755,6 +808,7 @@
     {
       "rider_name": "THOMAS Benjamin",
       "rider_url": "rider/benjamin-thomas-2",
+      "rider_number": 77,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 53,
@@ -769,6 +823,7 @@
     {
       "rider_name": "WRIGHT Fred",
       "rider_url": "rider/alfred-wright",
+      "rider_number": 88,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 54,
@@ -783,6 +838,7 @@
     {
       "rider_name": "POLITT Nils",
       "rider_url": "rider/nils-politt",
+      "rider_number": 46,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 55,
@@ -797,6 +853,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 185,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 56,
@@ -811,6 +868,7 @@
     {
       "rider_name": "BOASSON HAGEN Edvald",
       "rider_url": "rider/edvald-boasson-hagen",
+      "rider_number": 182,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 57,
@@ -825,6 +883,7 @@
     {
       "rider_name": "CICCONE Giulio",
       "rider_url": "rider/giulio-ciccone",
+      "rider_number": 172,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 58,
@@ -839,6 +898,7 @@
     {
       "rider_name": "DILLIER Silvan",
       "rider_url": "rider/silvan-dillier",
+      "rider_number": 102,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 59,
@@ -853,6 +913,7 @@
     {
       "rider_name": "SKUJI\u0145\u0160 Toms",
       "rider_url": "rider/toms-skujins",
+      "rider_number": 177,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 60,
@@ -867,6 +928,7 @@
     {
       "rider_name": "DUCHESNE Antoine",
       "rider_url": "rider/antoine-duchesne",
+      "rider_number": 92,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 61,
@@ -881,6 +943,7 @@
     {
       "rider_name": "P\u00c9RICHON Pierre-Luc",
       "rider_url": "rider/pierre-luc-perichon",
+      "rider_number": 72,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 62,
@@ -895,6 +958,7 @@
     {
       "rider_name": "TUSVELD Martijn",
       "rider_url": "rider/martijn-tusveld",
+      "rider_number": 117,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 63,
@@ -909,6 +973,7 @@
     {
       "rider_name": "DEWULF Stan",
       "rider_url": "rider/stan-dewulf",
+      "rider_number": 35,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 64,
@@ -923,6 +988,7 @@
     {
       "rider_name": "BONNAMOUR Franck",
       "rider_url": "rider/franck-bonnamour",
+      "rider_number": 211,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 65,
@@ -937,6 +1003,7 @@
     {
       "rider_name": "SIMMONS Quinn",
       "rider_url": "rider/quinn-simmons",
+      "rider_number": 176,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 66,
@@ -951,6 +1018,7 @@
     {
       "rider_name": "BURGAUDEAU Mathieu",
       "rider_url": "rider/mathieu-burgaudeau",
+      "rider_number": 184,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 67,
@@ -965,6 +1033,7 @@
     {
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
+      "rider_number": 217,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 68,
@@ -979,6 +1048,7 @@
     {
       "rider_name": "SWIFT Connor",
       "rider_url": "rider/connor-swift",
+      "rider_number": 158,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 69,
@@ -993,6 +1063,7 @@
     {
       "rider_name": "SBARAGLI Kristian",
       "rider_url": "rider/kristian-sbaragli",
+      "rider_number": 107,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 70,
@@ -1007,6 +1078,7 @@
     {
       "rider_name": "TRATNIK Jan",
       "rider_url": "rider/jan-tratnik",
+      "rider_number": 87,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 71,
@@ -1021,6 +1093,7 @@
     {
       "rider_name": "KRON Andreas",
       "rider_url": "rider/andreas-kron",
+      "rider_number": 165,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 72,
@@ -1035,6 +1108,7 @@
     {
       "rider_name": "LOUVEL Matis",
       "rider_url": "rider/matis-louvel",
+      "rider_number": 156,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 73,
@@ -1049,6 +1123,7 @@
     {
       "rider_name": "LAPORTE Christophe",
       "rider_url": "rider/christophe-laporte",
+      "rider_number": 15,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 74,
@@ -1063,6 +1138,7 @@
     {
       "rider_name": "GILBERT Philippe",
       "rider_url": "rider/philippe-gilbert",
+      "rider_number": 163,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 75,
@@ -1077,6 +1153,7 @@
     {
       "rider_name": "NIV Guy",
       "rider_url": "rider/guy-niv",
+      "rider_number": 195,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 76,
@@ -1091,6 +1168,7 @@
     {
       "rider_name": "MATTHEWS Michael",
       "rider_url": "rider/michael-matthews",
+      "rider_number": 201,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 77,
@@ -1105,6 +1183,7 @@
     {
       "rider_name": "NEILANDS Krists",
       "rider_url": "rider/krists-neilands",
+      "rider_number": 197,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 78,
@@ -1119,6 +1198,7 @@
     {
       "rider_name": "BARTHE Cyril",
       "rider_url": "rider/cyril-barthe",
+      "rider_number": 212,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 79,
@@ -1133,6 +1213,7 @@
     {
       "rider_name": "STUYVEN Jasper",
       "rider_url": "rider/jasper-stuyven",
+      "rider_number": 178,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 80,
@@ -1147,6 +1228,7 @@
     {
       "rider_name": "HOFSTETTER Hugo",
       "rider_url": "rider/hugo-hofstetter",
+      "rider_number": 155,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 81,
@@ -1161,6 +1243,7 @@
     {
       "rider_name": "BISSEGGER Stefan",
       "rider_url": "rider/stefan-bissegger",
+      "rider_number": 144,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 82,
@@ -1175,6 +1258,7 @@
     {
       "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
+      "rider_number": 76,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 83,
@@ -1189,6 +1273,7 @@
     {
       "rider_name": "CAPIOT Amaury",
       "rider_url": "rider/amaury-capiot",
+      "rider_number": 154,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 84,
@@ -1203,6 +1288,7 @@
     {
       "rider_name": "MOHORI\u010c Matej",
       "rider_url": "rider/matej-mohoric",
+      "rider_number": 84,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 85,
@@ -1217,6 +1303,7 @@
     {
       "rider_name": "HALLER Marco",
       "rider_url": "rider/marco-haller",
+      "rider_number": 43,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 86,
@@ -1231,6 +1318,7 @@
     {
       "rider_name": "LE GAC Olivier",
       "rider_url": "rider/olivier-le-gac",
+      "rider_number": 95,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 87,
@@ -1245,6 +1333,7 @@
     {
       "rider_name": "GOUGEARD Alexis",
       "rider_url": "rider/alexis-gougeard",
+      "rider_number": 213,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 88,
@@ -1259,6 +1348,7 @@
     {
       "rider_name": "DOULL Owain",
       "rider_url": "rider/owain-doull",
+      "rider_number": 145,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 89,
@@ -1273,6 +1363,7 @@
     {
       "rider_name": "COSNEFROY Beno\u00eet",
       "rider_url": "rider/benoit-cosnefroy",
+      "rider_number": 34,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 90,
@@ -1287,6 +1378,7 @@
     {
       "rider_name": "PHILIPSEN Jasper",
       "rider_url": "rider/jasper-philipsen",
+      "rider_number": 105,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 91,
@@ -1301,6 +1393,7 @@
     {
       "rider_name": "BYSTR\u00d8M Sven Erik",
       "rider_url": "rider/sven-erik-bystrom",
+      "rider_number": 122,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 92,
@@ -1315,6 +1408,7 @@
     {
       "rider_name": "RUTSCH Jonas",
       "rider_url": "rider/jonas-rutsch",
+      "rider_number": 148,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 93,
@@ -1329,6 +1423,7 @@
     {
       "rider_name": "GANNA Filippo",
       "rider_url": "rider/filippo-ganna",
+      "rider_number": 24,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 94,
@@ -1343,6 +1438,7 @@
     {
       "rider_name": "CATTANEO Mattia",
       "rider_url": "rider/mattia-cattaneo",
+      "rider_number": 54,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 95,
@@ -1357,6 +1453,7 @@
     {
       "rider_name": "RIABUSHENKO Alexandr",
       "rider_url": "rider/alexandr-riabushenko",
+      "rider_number": 132,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 96,
@@ -1371,6 +1468,7 @@
     {
       "rider_name": "BAGIOLI Andrea",
       "rider_url": "rider/andrea-bagioli",
+      "rider_number": 53,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 97,
@@ -1385,6 +1483,7 @@
     {
       "rider_name": "PEDERSEN Mads",
       "rider_url": "rider/mads-pedersen",
+      "rider_number": 171,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 98,
@@ -1399,6 +1498,7 @@
     {
       "rider_name": "DAINESE Alberto",
       "rider_url": "rider/alberto-dainese",
+      "rider_number": 112,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 99,
@@ -1413,6 +1513,7 @@
     {
       "rider_name": "MEZGEC Luka",
       "rider_url": "rider/luka-mezgec",
+      "rider_number": 207,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 100,
@@ -1427,6 +1528,7 @@
     {
       "rider_name": "KRISTOFF Alexander",
       "rider_url": "rider/alexander-kristoff",
+      "rider_number": 121,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 101,
@@ -1441,6 +1543,7 @@
     {
       "rider_name": "MOZZATO Luca",
       "rider_url": "rider/luca-mozzato",
+      "rider_number": 216,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 102,
@@ -1455,6 +1558,7 @@
     {
       "rider_name": "KRIEGER Alexander",
       "rider_url": "rider/alexander-krieger",
+      "rider_number": 104,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 103,
@@ -1469,6 +1573,7 @@
     {
       "rider_name": "DEGENKOLB John",
       "rider_url": "rider/john-degenkolb",
+      "rider_number": 113,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 104,
@@ -1483,6 +1588,7 @@
     {
       "rider_name": "ROWE Luke",
       "rider_url": "rider/luke-rowe",
+      "rider_number": 26,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 105,
@@ -1497,6 +1603,7 @@
     {
       "rider_name": "S\u00c9N\u00c9CHAL Florian",
       "rider_url": "rider/florian-senechal",
+      "rider_number": 58,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 106,
@@ -1511,6 +1618,7 @@
     {
       "rider_name": "VERMEERSCH Florian",
       "rider_url": "rider/florian-vermeersch",
+      "rider_number": 167,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 107,
@@ -1525,6 +1633,7 @@
     {
       "rider_name": "VAN POPPEL Danny",
       "rider_url": "rider/danny-van-poppel",
+      "rider_number": 48,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 108,
@@ -1539,6 +1648,7 @@
     {
       "rider_name": "PLANCKAERT Edward",
       "rider_url": "rider/edward-planckaert",
+      "rider_number": 106,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 109,
@@ -1553,6 +1663,7 @@
     {
       "rider_name": "PETIT Adrien",
       "rider_url": "rider/adrien-petit",
+      "rider_number": 126,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 110,
@@ -1567,6 +1678,7 @@
     {
       "rider_name": "HONOR\u00c9 Mikkel Fr\u00f8lich",
       "rider_url": "rider/mikkel-honore",
+      "rider_number": 55,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 111,
@@ -1581,6 +1693,7 @@
     {
       "rider_name": "LEMOINE Cyril",
       "rider_url": "rider/cyril-lemoine",
+      "rider_number": 215,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 112,
@@ -1595,6 +1708,7 @@
     {
       "rider_name": "GRUZDEV Dmitriy",
       "rider_url": "rider/dmitriy-gruzdev",
+      "rider_number": 135,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 113,
@@ -1609,6 +1723,7 @@
     {
       "rider_name": "BODNAR Maciej",
       "rider_url": "rider/maciej-bodnar",
+      "rider_number": 183,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 114,
@@ -1623,6 +1738,7 @@
     {
       "rider_name": "SAGAN Peter",
       "rider_url": "rider/peter-sagan",
+      "rider_number": 181,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 115,
@@ -1637,6 +1753,7 @@
     {
       "rider_name": "GROENEWEGEN Dylan",
       "rider_url": "rider/dylan-groenewegen",
+      "rider_number": 204,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 116,
@@ -1651,6 +1768,7 @@
     {
       "rider_name": "GRADEK Kamil",
       "rider_url": "rider/kamil-gradek",
+      "rider_number": 83,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 117,
@@ -1665,6 +1783,7 @@
     {
       "rider_name": "EEKHOFF Nils",
       "rider_url": "rider/nils-eekhoff",
+      "rider_number": 114,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 118,
@@ -1679,6 +1798,7 @@
     {
       "rider_name": "LAMPAERT Yves",
       "rider_url": "rider/yves-lampaert",
+      "rider_number": 56,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 119,
@@ -1693,6 +1813,7 @@
     {
       "rider_name": "VAN MOER Brent",
       "rider_url": "rider/brent-van-moer",
+      "rider_number": 166,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 120,
@@ -1707,6 +1828,7 @@
     {
       "rider_name": "BAUER Jack",
       "rider_url": "rider/jack-bauer",
+      "rider_number": 202,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 121,
@@ -1721,6 +1843,7 @@
     {
       "rider_name": "VAN KEIRSBULCK Guillaume",
       "rider_url": "rider/guillaume-van-keirsbulck",
+      "rider_number": 108,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 122,
@@ -1735,6 +1858,7 @@
     {
       "rider_name": "BJERG Mikkel",
       "rider_url": "rider/mikkel-bjerg",
+      "rider_number": 3,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 123,
@@ -1749,6 +1873,7 @@
     {
       "rider_name": "VAN DER HOORN Taco",
       "rider_url": "rider/taco-van-der-hoorn",
+      "rider_number": 127,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 124,
@@ -1763,6 +1888,7 @@
     {
       "rider_name": "LECROQ J\u00e9r\u00e9my",
       "rider_url": "rider/jeremy-lecroq",
+      "rider_number": 214,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 125,
@@ -1777,6 +1903,7 @@
     {
       "rider_name": "HIRSCHI Marc",
       "rider_url": "rider/marc-hirschi",
+      "rider_number": 8,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 126,
@@ -1791,6 +1918,7 @@
     {
       "rider_name": "JUUL-JENSEN Christopher",
       "rider_url": "rider/christopher-juul-jensen",
+      "rider_number": 206,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 127,
@@ -1805,6 +1933,7 @@
     {
       "rider_name": "TURGIS Anthony",
       "rider_url": "rider/anthony-turgis",
+      "rider_number": 187,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 128,
@@ -1819,6 +1948,7 @@
     {
       "rider_name": "JAKOBSEN Fabio",
       "rider_url": "rider/fabio-jakobsen",
+      "rider_number": 51,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 129,
@@ -1833,6 +1963,7 @@
     {
       "rider_name": "FRISON Frederik",
       "rider_url": "rider/frederik-frison",
+      "rider_number": 162,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 130,
@@ -1847,6 +1978,7 @@
     {
       "rider_name": "JANSE VAN RENSBURG Reinardt",
       "rider_url": "rider/reinardt-janse-van-rensburg",
+      "rider_number": 164,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 131,
@@ -1861,6 +1993,7 @@
     {
       "rider_name": "JANSEN Amund Gr\u00f8ndahl",
       "rider_url": "rider/amund-grondahl-jansen",
+      "rider_number": 205,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 132,
@@ -1875,6 +2008,7 @@
     {
       "rider_name": "TORRES Albert",
       "rider_url": "rider/albert-torres",
+      "rider_number": 67,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 133,
@@ -1889,6 +2023,7 @@
     {
       "rider_name": "EWAN Caleb",
       "rider_url": "rider/caleb-ewan",
+      "rider_number": 161,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 134,
@@ -1906,6 +2041,7 @@
     {
       "rider_name": "VINGEGAARD Jonas",
       "rider_url": "rider/jonas-vingegaard-rasmussen",
+      "rider_number": 18,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 1,
@@ -1919,6 +2055,7 @@
     {
       "rider_name": "GESCHKE Simon",
       "rider_url": "rider/simon-geschke",
+      "rider_number": 73,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 2,
@@ -1932,6 +2069,7 @@
     {
       "rider_name": "CICCONE Giulio",
       "rider_url": "rider/giulio-ciccone",
+      "rider_number": 172,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 3,
@@ -1945,6 +2083,7 @@
     {
       "rider_name": "POGA\u010cAR Tadej",
       "rider_url": "rider/tadej-pogacar",
+      "rider_number": 1,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 4,
@@ -1958,6 +2097,7 @@
     {
       "rider_name": "VAN AERT Wout",
       "rider_url": "rider/wout-van-aert",
+      "rider_number": 16,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 5,
@@ -1971,6 +2111,7 @@
     {
       "rider_name": "PINOT Thibaut",
       "rider_url": "rider/thibaut-pinot",
+      "rider_number": 97,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 6,
@@ -1984,6 +2125,7 @@
     {
       "rider_name": "MEINTJES Louis",
       "rider_url": "rider/louis-meintjes",
+      "rider_number": 124,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 7,
@@ -1997,6 +2139,7 @@
     {
       "rider_name": "POWLESS Neilson",
       "rider_url": "rider/neilson-powless",
+      "rider_number": 147,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 8,
@@ -2010,6 +2153,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 185,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 9,
@@ -2023,6 +2167,7 @@
     {
       "rider_name": "THOMAS Geraint",
       "rider_url": "rider/geraint-thomas",
+      "rider_number": 21,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 10,
@@ -2036,6 +2181,7 @@
     {
       "rider_name": "LUTSENKO Alexey",
       "rider_url": "rider/aleksey-lutsenko",
+      "rider_number": 131,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 11,
@@ -2049,6 +2195,7 @@
     {
       "rider_name": "PIDCOCK Thomas",
       "rider_url": "rider/thomas-pidcock",
+      "rider_number": 25,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 12,
@@ -2062,6 +2209,7 @@
     {
       "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
+      "rider_number": 76,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 13,
@@ -2075,6 +2223,7 @@
     {
       "rider_name": "JUNGELS Bob",
       "rider_url": "rider/bob-jungels",
+      "rider_number": 36,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 14,
@@ -2088,6 +2237,7 @@
     {
       "rider_name": "MCNULTY Brandon",
       "rider_url": "rider/brandon-mcnulty",
+      "rider_number": 6,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 15,
@@ -2101,6 +2251,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 22,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 16,
@@ -2114,6 +2265,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 91,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 17,
@@ -2127,6 +2279,7 @@
     {
       "rider_name": "HOULE Hugo",
       "rider_url": "rider/hugo-houle",
+      "rider_number": 196,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 18,
@@ -2140,6 +2293,7 @@
     {
       "rider_name": "MADOUAS Valentin",
       "rider_url": "rider/valentin-madouas",
+      "rider_number": 96,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 19,
@@ -2153,6 +2307,7 @@
     {
       "rider_name": "BARDET Romain",
       "rider_url": "rider/romain-bardet",
+      "rider_number": 111,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 20,
@@ -2166,6 +2321,7 @@
     {
       "rider_name": "VERONA Carlos",
       "rider_url": "rider/carlos-verona",
+      "rider_number": 68,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 21,
@@ -2179,6 +2335,7 @@
     {
       "rider_name": "JORGENSON Matteo",
       "rider_url": "rider/matteo-jorgenson",
+      "rider_number": 64,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 22,
@@ -2192,6 +2349,7 @@
     {
       "rider_name": "QUINTANA Nairo",
       "rider_url": "rider/nairo-quintana",
+      "rider_number": 151,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": null,
@@ -2205,6 +2363,7 @@
     {
       "rider_name": "TEUNS Dylan",
       "rider_url": "rider/dylan-teuns",
+      "rider_number": 86,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 23,
@@ -2218,6 +2377,7 @@
     {
       "rider_name": "MATTHEWS Michael",
       "rider_url": "rider/michael-matthews",
+      "rider_number": 201,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 24,
@@ -2231,6 +2391,7 @@
     {
       "rider_name": "SIMMONS Quinn",
       "rider_url": "rider/quinn-simmons",
+      "rider_number": 176,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 25,
@@ -2244,6 +2405,7 @@
     {
       "rider_name": "SCH\u00d6NBERGER Sebastian",
       "rider_url": "rider/sebastian-schonberger",
+      "rider_number": 218,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 26,
@@ -2257,6 +2419,7 @@
     {
       "rider_name": "OLIVEIRA Nelson",
       "rider_url": "rider/nelson-oliveira",
+      "rider_number": 66,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 27,
@@ -2270,6 +2433,7 @@
     {
       "rider_name": "BENOOT Tiesj",
       "rider_url": "rider/tiesj-benoot",
+      "rider_number": 12,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 28,
@@ -2283,6 +2447,7 @@
     {
       "rider_name": "GOOSSENS Kobe",
       "rider_url": "rider/kobe-goossens",
+      "rider_number": 123,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 29,
@@ -2296,6 +2461,7 @@
     {
       "rider_name": "PEDERSEN Mads",
       "rider_url": "rider/mads-pedersen",
+      "rider_number": 171,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 30,
@@ -2309,6 +2475,7 @@
     {
       "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
+      "rider_number": 74,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 31,
@@ -2322,6 +2489,7 @@
     {
       "rider_name": "S\u00c1NCHEZ Luis Le\u00f3n",
       "rider_url": "rider/luis-leon-sanchez",
+      "rider_number": 85,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 32,
@@ -2335,6 +2503,7 @@
     {
       "rider_name": "YATES Adam",
       "rider_url": "rider/adam-yates",
+      "rider_number": 28,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 33,
@@ -2348,6 +2517,7 @@
     {
       "rider_name": "CASTROVIEJO Jonathan",
       "rider_url": "rider/jonathan-castroviejo",
+      "rider_number": 23,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 34,
@@ -2361,6 +2531,7 @@
     {
       "rider_name": "K\u00dcNG Stefan",
       "rider_url": "rider/stefan-kung",
+      "rider_number": 94,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 35,
@@ -2374,6 +2545,7 @@
     {
       "rider_name": "GANNA Filippo",
       "rider_url": "rider/filippo-ganna",
+      "rider_number": 24,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 36,
@@ -2387,6 +2559,7 @@
     {
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
+      "rider_number": 217,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 37,
@@ -2400,6 +2573,7 @@
     {
       "rider_name": "CATTANEO Mattia",
       "rider_url": "rider/mattia-cattaneo",
+      "rider_number": 54,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 38,
@@ -2413,6 +2587,7 @@
     {
       "rider_name": "GOUGEARD Alexis",
       "rider_url": "rider/alexis-gougeard",
+      "rider_number": 213,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 39,
@@ -2426,6 +2601,7 @@
     {
       "rider_name": "BETTIOL Alberto",
       "rider_url": "rider/alberto-bettiol",
+      "rider_number": 143,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 40,
@@ -2439,6 +2615,7 @@
     {
       "rider_name": "SCHULTZ Nick",
       "rider_url": "rider/nick-schultz",
+      "rider_number": 208,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 41,
@@ -2452,6 +2629,7 @@
     {
       "rider_name": "KUSS Sepp",
       "rider_url": "rider/sepp-kuss",
+      "rider_number": 14,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 42,
@@ -2465,6 +2643,7 @@
     {
       "rider_name": "POLITT Nils",
       "rider_url": "rider/nils-politt",
+      "rider_number": 46,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 43,
@@ -2478,6 +2657,7 @@
     {
       "rider_name": "THOMAS Benjamin",
       "rider_url": "rider/benjamin-thomas-2",
+      "rider_number": 77,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 44,
@@ -2491,6 +2671,7 @@
     {
       "rider_name": "BISSEGGER Stefan",
       "rider_url": "rider/stefan-bissegger",
+      "rider_number": 144,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 45,
@@ -2504,6 +2685,7 @@
     {
       "rider_name": "FRISON Frederik",
       "rider_url": "rider/frederik-frison",
+      "rider_number": 162,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 46,
@@ -2517,6 +2699,7 @@
     {
       "rider_name": "LOUVEL Matis",
       "rider_url": "rider/matis-louvel",
+      "rider_number": 156,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 47,
@@ -2530,6 +2713,7 @@
     {
       "rider_name": "MOHORI\u010c Matej",
       "rider_url": "rider/matej-mohoric",
+      "rider_number": 84,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 48,
@@ -2543,6 +2727,7 @@
     {
       "rider_name": "HAMILTON Chris",
       "rider_url": "rider/chris-hamilton",
+      "rider_number": 115,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 49,
@@ -2556,6 +2741,7 @@
     {
       "rider_name": "JUUL-JENSEN Christopher",
       "rider_url": "rider/christopher-juul-jensen",
+      "rider_number": 206,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 50,
@@ -2569,6 +2755,7 @@
     {
       "rider_name": "VAN BAARLE Dylan",
       "rider_url": "rider/dylan-van-baarle",
+      "rider_number": 27,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 51,
@@ -2582,6 +2769,7 @@
     {
       "rider_name": "P\u00c9RICHON Pierre-Luc",
       "rider_url": "rider/pierre-luc-perichon",
+      "rider_number": 72,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 52,
@@ -2595,6 +2783,7 @@
     {
       "rider_name": "KONRAD Patrick",
       "rider_url": "rider/patrick-konrad",
+      "rider_number": 45,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 53,
@@ -2608,6 +2797,7 @@
     {
       "rider_name": "STORER Michael",
       "rider_url": "rider/michael-storer",
+      "rider_number": 98,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 54,
@@ -2621,6 +2811,7 @@
     {
       "rider_name": "HONOR\u00c9 Mikkel Fr\u00f8lich",
       "rider_url": "rider/mikkel-honore",
+      "rider_number": 55,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 55,
@@ -2634,6 +2825,7 @@
     {
       "rider_name": "BURGAUDEAU Mathieu",
       "rider_url": "rider/mathieu-burgaudeau",
+      "rider_number": 184,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": null,
@@ -2647,6 +2839,7 @@
     {
       "rider_name": "EWAN Caleb",
       "rider_url": "rider/caleb-ewan",
+      "rider_number": 161,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": null,
@@ -2663,6 +2856,7 @@
     {
       "rider_name": "VAN AERT Wout",
       "rider_url": "rider/wout-van-aert",
+      "rider_number": 16,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 1,
@@ -2676,6 +2870,7 @@
     {
       "rider_name": "PHILIPSEN Jasper",
       "rider_url": "rider/jasper-philipsen",
+      "rider_number": 105,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 2,
@@ -2689,6 +2884,7 @@
     {
       "rider_name": "POGA\u010cAR Tadej",
       "rider_url": "rider/tadej-pogacar",
+      "rider_number": 1,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 3,
@@ -2702,6 +2898,7 @@
     {
       "rider_name": "LAPORTE Christophe",
       "rider_url": "rider/christophe-laporte",
+      "rider_number": 15,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 4,
@@ -2715,6 +2912,7 @@
     {
       "rider_name": "JAKOBSEN Fabio",
       "rider_url": "rider/fabio-jakobsen",
+      "rider_number": 51,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 5,
@@ -2728,6 +2926,7 @@
     {
       "rider_name": "PEDERSEN Mads",
       "rider_url": "rider/mads-pedersen",
+      "rider_number": 171,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 6,
@@ -2741,6 +2940,7 @@
     {
       "rider_name": "VINGEGAARD Jonas",
       "rider_url": "rider/jonas-vingegaard-rasmussen",
+      "rider_number": 18,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 7,
@@ -2754,6 +2954,7 @@
     {
       "rider_name": "MATTHEWS Michael",
       "rider_url": "rider/michael-matthews",
+      "rider_number": 201,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 8,
@@ -2767,6 +2968,7 @@
     {
       "rider_name": "SAGAN Peter",
       "rider_url": "rider/peter-sagan",
+      "rider_number": 181,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 9,
@@ -2780,6 +2982,7 @@
     {
       "rider_name": "GROENEWEGEN Dylan",
       "rider_url": "rider/dylan-groenewegen",
+      "rider_number": 204,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 10,
@@ -2793,6 +2996,7 @@
     {
       "rider_name": "WRIGHT Fred",
       "rider_url": "rider/alfred-wright",
+      "rider_number": 88,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 11,
@@ -2806,6 +3010,7 @@
     {
       "rider_name": "THOMAS Geraint",
       "rider_url": "rider/geraint-thomas",
+      "rider_number": 21,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 12,
@@ -2819,6 +3024,7 @@
     {
       "rider_name": "HOULE Hugo",
       "rider_url": "rider/hugo-houle",
+      "rider_number": 196,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 13,
@@ -2832,6 +3038,7 @@
     {
       "rider_name": "JORGENSON Matteo",
       "rider_url": "rider/matteo-jorgenson",
+      "rider_number": 64,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 14,
@@ -2845,6 +3052,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 91,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 15,
@@ -2858,6 +3066,7 @@
     {
       "rider_name": "POLITT Nils",
       "rider_url": "rider/nils-politt",
+      "rider_number": 46,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 16,
@@ -2871,6 +3080,7 @@
     {
       "rider_name": "BETTIOL Alberto",
       "rider_url": "rider/alberto-bettiol",
+      "rider_number": 143,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 17,
@@ -2884,6 +3094,7 @@
     {
       "rider_name": "POWLESS Neilson",
       "rider_url": "rider/neilson-powless",
+      "rider_number": 147,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 18,
@@ -2897,6 +3108,7 @@
     {
       "rider_name": "VAN POPPEL Danny",
       "rider_url": "rider/danny-van-poppel",
+      "rider_number": 48,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 19,
@@ -2910,6 +3122,7 @@
     {
       "rider_name": "VAN DER HOORN Taco",
       "rider_url": "rider/taco-van-der-hoorn",
+      "rider_number": 127,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 20,
@@ -2923,6 +3136,7 @@
     {
       "rider_name": "GANNA Filippo",
       "rider_url": "rider/filippo-ganna",
+      "rider_number": 24,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 21,
@@ -2936,6 +3150,7 @@
     {
       "rider_name": "GESCHKE Simon",
       "rider_url": "rider/simon-geschke",
+      "rider_number": 73,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 22,
@@ -2949,6 +3164,7 @@
     {
       "rider_name": "S\u00c1NCHEZ Luis Le\u00f3n",
       "rider_url": "rider/luis-leon-sanchez",
+      "rider_number": 85,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 23,
@@ -2962,6 +3178,7 @@
     {
       "rider_name": "KRISTOFF Alexander",
       "rider_url": "rider/alexander-kristoff",
+      "rider_number": 121,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 24,
@@ -2975,6 +3192,7 @@
     {
       "rider_name": "QUINTANA Nairo",
       "rider_url": "rider/nairo-quintana",
+      "rider_number": 151,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": null,
@@ -2988,6 +3206,7 @@
     {
       "rider_name": "DAINESE Alberto",
       "rider_url": "rider/alberto-dainese",
+      "rider_number": 112,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 25,
@@ -3001,6 +3220,7 @@
     {
       "rider_name": "VLASOV Aleksandr",
       "rider_url": "rider/aleksandr-vlasov",
+      "rider_number": 41,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 26,
@@ -3014,6 +3234,7 @@
     {
       "rider_name": "PINOT Thibaut",
       "rider_url": "rider/thibaut-pinot",
+      "rider_number": 97,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 27,
@@ -3027,6 +3248,7 @@
     {
       "rider_name": "K\u00dcNG Stefan",
       "rider_url": "rider/stefan-kung",
+      "rider_number": 94,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 28,
@@ -3040,6 +3262,7 @@
     {
       "rider_name": "MOZZATO Luca",
       "rider_url": "rider/luca-mozzato",
+      "rider_number": 216,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 29,
@@ -3053,6 +3276,7 @@
     {
       "rider_name": "BARDET Romain",
       "rider_url": "rider/romain-bardet",
+      "rider_number": 111,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 30,
@@ -3066,6 +3290,7 @@
     {
       "rider_name": "THOMAS Benjamin",
       "rider_url": "rider/benjamin-thomas-2",
+      "rider_number": 77,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 31,
@@ -3079,6 +3304,7 @@
     {
       "rider_name": "BOASSON HAGEN Edvald",
       "rider_url": "rider/edvald-boasson-hagen",
+      "rider_number": 182,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 32,
@@ -3092,6 +3318,7 @@
     {
       "rider_name": "EWAN Caleb",
       "rider_url": "rider/caleb-ewan",
+      "rider_number": 161,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 33,
@@ -3105,6 +3332,7 @@
     {
       "rider_name": "PIDCOCK Thomas",
       "rider_url": "rider/thomas-pidcock",
+      "rider_number": 25,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 34,
@@ -3118,6 +3346,7 @@
     {
       "rider_name": "SCHULTZ Nick",
       "rider_url": "rider/nick-schultz",
+      "rider_number": 208,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 35,
@@ -3131,6 +3360,7 @@
     {
       "rider_name": "KRON Andreas",
       "rider_url": "rider/andreas-kron",
+      "rider_number": 165,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 36,
@@ -3144,6 +3374,7 @@
     {
       "rider_name": "HOFSTETTER Hugo",
       "rider_url": "rider/hugo-hofstetter",
+      "rider_number": 155,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 37,
@@ -3157,6 +3388,7 @@
     {
       "rider_name": "JUNGELS Bob",
       "rider_url": "rider/bob-jungels",
+      "rider_number": 36,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 38,
@@ -3170,6 +3402,7 @@
     {
       "rider_name": "HONOR\u00c9 Mikkel Fr\u00f8lich",
       "rider_url": "rider/mikkel-honore",
+      "rider_number": 55,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 39,
@@ -3183,6 +3416,7 @@
     {
       "rider_name": "MEINTJES Louis",
       "rider_url": "rider/louis-meintjes",
+      "rider_number": 124,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 40,
@@ -3196,6 +3430,7 @@
     {
       "rider_name": "STUYVEN Jasper",
       "rider_url": "rider/jasper-stuyven",
+      "rider_number": 178,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 41,
@@ -3209,6 +3444,7 @@
     {
       "rider_name": "TEUNS Dylan",
       "rider_url": "rider/dylan-teuns",
+      "rider_number": 86,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 42,
@@ -3222,6 +3458,7 @@
     {
       "rider_name": "YATES Adam",
       "rider_url": "rider/adam-yates",
+      "rider_number": 28,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 43,
@@ -3235,6 +3472,7 @@
     {
       "rider_name": "S\u00c9N\u00c9CHAL Florian",
       "rider_url": "rider/florian-senechal",
+      "rider_number": 58,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 44,
@@ -3248,6 +3486,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 22,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 45,
@@ -3261,6 +3500,7 @@
     {
       "rider_name": "LECROQ J\u00e9r\u00e9my",
       "rider_url": "rider/jeremy-lecroq",
+      "rider_number": 214,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 46,
@@ -3274,6 +3514,7 @@
     {
       "rider_name": "DEWULF Stan",
       "rider_url": "rider/stan-dewulf",
+      "rider_number": 35,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 47,
@@ -3287,6 +3528,7 @@
     {
       "rider_name": "GOUGEARD Alexis",
       "rider_url": "rider/alexis-gougeard",
+      "rider_number": 213,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 48,
@@ -3300,6 +3542,7 @@
     {
       "rider_name": "TRATNIK Jan",
       "rider_url": "rider/jan-tratnik",
+      "rider_number": 87,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 49,
@@ -3313,6 +3556,7 @@
     {
       "rider_name": "GILBERT Philippe",
       "rider_url": "rider/philippe-gilbert",
+      "rider_number": 163,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 50,
@@ -3326,6 +3570,7 @@
     {
       "rider_name": "KONRAD Patrick",
       "rider_url": "rider/patrick-konrad",
+      "rider_number": 45,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 51,
@@ -3339,6 +3584,7 @@
     {
       "rider_name": "MADOUAS Valentin",
       "rider_url": "rider/valentin-madouas",
+      "rider_number": 96,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 52,
@@ -3352,6 +3598,7 @@
     {
       "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
+      "rider_number": 76,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 53,
@@ -3365,6 +3612,7 @@
     {
       "rider_name": "LUTSENKO Alexey",
       "rider_url": "rider/aleksey-lutsenko",
+      "rider_number": 131,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 54,
@@ -3378,6 +3626,7 @@
     {
       "rider_name": "STORER Michael",
       "rider_url": "rider/michael-storer",
+      "rider_number": 98,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 55,
@@ -3391,6 +3640,7 @@
     {
       "rider_name": "CAPIOT Amaury",
       "rider_url": "rider/amaury-capiot",
+      "rider_number": 154,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 56,
@@ -3404,6 +3654,7 @@
     {
       "rider_name": "LAMPAERT Yves",
       "rider_url": "rider/yves-lampaert",
+      "rider_number": 56,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 57,
@@ -3417,6 +3668,7 @@
     {
       "rider_name": "GRO\u00dfSCHARTNER Felix",
       "rider_url": "rider/felix-grossschartner",
+      "rider_number": 42,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 58,
@@ -3430,6 +3682,7 @@
     {
       "rider_name": "MOHORI\u010c Matej",
       "rider_url": "rider/matej-mohoric",
+      "rider_number": 84,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 59,
@@ -3443,6 +3696,7 @@
     {
       "rider_name": "CICCONE Giulio",
       "rider_url": "rider/giulio-ciccone",
+      "rider_number": 172,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 60,
@@ -3456,6 +3710,7 @@
     {
       "rider_name": "GOOSSENS Kobe",
       "rider_url": "rider/kobe-goossens",
+      "rider_number": 123,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 61,
@@ -3469,6 +3724,7 @@
     {
       "rider_name": "JUUL-JENSEN Christopher",
       "rider_url": "rider/christopher-juul-jensen",
+      "rider_number": 206,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 62,
@@ -3482,6 +3738,7 @@
     {
       "rider_name": "BYSTR\u00d8M Sven Erik",
       "rider_url": "rider/sven-erik-bystrom",
+      "rider_number": 122,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 63,
@@ -3495,6 +3752,7 @@
     {
       "rider_name": "VAN BAARLE Dylan",
       "rider_url": "rider/dylan-van-baarle",
+      "rider_number": 27,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 64,
@@ -3508,6 +3766,7 @@
     {
       "rider_name": "PASQUALON Andrea",
       "rider_url": "rider/andrea-pasqualon",
+      "rider_number": 125,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 65,
@@ -3521,6 +3780,7 @@
     {
       "rider_name": "CATTANEO Mattia",
       "rider_url": "rider/mattia-cattaneo",
+      "rider_number": 54,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 66,
@@ -3534,6 +3794,7 @@
     {
       "rider_name": "BISSEGGER Stefan",
       "rider_url": "rider/stefan-bissegger",
+      "rider_number": 144,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 67,
@@ -3547,6 +3808,7 @@
     {
       "rider_name": "BURGAUDEAU Mathieu",
       "rider_url": "rider/mathieu-burgaudeau",
+      "rider_number": 184,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 68,
@@ -3560,6 +3822,7 @@
     {
       "rider_name": "VAN MOER Brent",
       "rider_url": "rider/brent-van-moer",
+      "rider_number": 166,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 69,
@@ -3573,6 +3836,7 @@
     {
       "rider_name": "SIMMONS Quinn",
       "rider_url": "rider/quinn-simmons",
+      "rider_number": 176,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 70,
@@ -3586,6 +3850,7 @@
     {
       "rider_name": "KUSS Sepp",
       "rider_url": "rider/sepp-kuss",
+      "rider_number": 14,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 71,
@@ -3599,6 +3864,7 @@
     {
       "rider_name": "MCNULTY Brandon",
       "rider_url": "rider/brandon-mcnulty",
+      "rider_number": 6,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 72,
@@ -3612,6 +3878,7 @@
     {
       "rider_name": "SCHACHMANN Maximilian",
       "rider_url": "rider/maximilian-schachmann",
+      "rider_number": 47,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 73,
@@ -3625,6 +3892,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 185,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 74,
@@ -3638,6 +3906,7 @@
     {
       "rider_name": "VAN KEIRSBULCK Guillaume",
       "rider_url": "rider/guillaume-van-keirsbulck",
+      "rider_number": 108,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 75,
@@ -3651,6 +3920,7 @@
     {
       "rider_name": "EEKHOFF Nils",
       "rider_url": "rider/nils-eekhoff",
+      "rider_number": 114,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 76,
@@ -3664,6 +3934,7 @@
     {
       "rider_name": "PLANCKAERT Edward",
       "rider_url": "rider/edward-planckaert",
+      "rider_number": 106,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 77,
@@ -3677,6 +3948,7 @@
     {
       "rider_name": "UR\u00c1N Rigoberto",
       "rider_url": "rider/rigoberto-uran",
+      "rider_number": 141,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 78,
@@ -3690,6 +3962,7 @@
     {
       "rider_name": "VERONA Carlos",
       "rider_url": "rider/carlos-verona",
+      "rider_number": 68,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 79,
@@ -3703,6 +3976,7 @@
     {
       "rider_name": "FRISON Frederik",
       "rider_url": "rider/frederik-frison",
+      "rider_number": 162,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 80,
@@ -3716,6 +3990,7 @@
     {
       "rider_name": "GALLOPIN Tony",
       "rider_url": "rider/tony-gallopin",
+      "rider_number": 173,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 81,
@@ -3729,6 +4004,7 @@
     {
       "rider_name": "OLIVEIRA Nelson",
       "rider_url": "rider/nelson-oliveira",
+      "rider_number": 66,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 82,
@@ -3742,6 +4018,7 @@
     {
       "rider_name": "HALLER Marco",
       "rider_url": "rider/marco-haller",
+      "rider_number": 43,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 83,
@@ -3755,6 +4032,7 @@
     {
       "rider_name": "MOLLEMA Bauke",
       "rider_url": "rider/bauke-mollema",
+      "rider_number": 175,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 84,
@@ -3768,6 +4046,7 @@
     {
       "rider_name": "ZIMMERMANN Georg",
       "rider_url": "rider/georg-zimmermann",
+      "rider_number": 128,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 85,
@@ -3781,6 +4060,7 @@
     {
       "rider_name": "CASTROVIEJO Jonathan",
       "rider_url": "rider/jonathan-castroviejo",
+      "rider_number": 23,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 86,
@@ -3794,6 +4074,7 @@
     {
       "rider_name": "NEILANDS Krists",
       "rider_url": "rider/krists-neilands",
+      "rider_number": 197,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 87,
@@ -3807,6 +4088,7 @@
     {
       "rider_name": "BJERG Mikkel",
       "rider_url": "rider/mikkel-bjerg",
+      "rider_number": 3,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 88,
@@ -3820,6 +4102,7 @@
     {
       "rider_name": "BENOOT Tiesj",
       "rider_url": "rider/tiesj-benoot",
+      "rider_number": 12,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 89,
@@ -3833,6 +4116,7 @@
     {
       "rider_name": "COSNEFROY Beno\u00eet",
       "rider_url": "rider/benoit-cosnefroy",
+      "rider_number": 34,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 90,
@@ -3846,6 +4130,7 @@
     {
       "rider_name": "LOUVEL Matis",
       "rider_url": "rider/matis-louvel",
+      "rider_number": 156,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 91,
@@ -3859,6 +4144,7 @@
     {
       "rider_name": "BARTHE Cyril",
       "rider_url": "rider/cyril-barthe",
+      "rider_number": 212,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 92,
@@ -3872,6 +4158,7 @@
     {
       "rider_name": "BAUER Jack",
       "rider_url": "rider/jack-bauer",
+      "rider_number": 202,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 93,
@@ -3885,6 +4172,7 @@
     {
       "rider_name": "HAMILTON Chris",
       "rider_url": "rider/chris-hamilton",
+      "rider_number": 115,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 94,
@@ -3898,6 +4186,7 @@
     {
       "rider_name": "M\u00dcHLBERGER Gregor",
       "rider_url": "rider/gregor-muhlberger",
+      "rider_number": 65,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 95,
@@ -3911,6 +4200,7 @@
     {
       "rider_name": "SCH\u00d6NBERGER Sebastian",
       "rider_url": "rider/sebastian-schonberger",
+      "rider_number": 218,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 96,
@@ -3924,6 +4214,7 @@
     {
       "rider_name": "KRIEGER Alexander",
       "rider_url": "rider/alexander-krieger",
+      "rider_number": 104,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 97,
@@ -3937,6 +4228,7 @@
     {
       "rider_name": "VERMEERSCH Florian",
       "rider_url": "rider/florian-vermeersch",
+      "rider_number": 167,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 98,
@@ -3950,6 +4242,7 @@
     {
       "rider_name": "NIV Guy",
       "rider_url": "rider/guy-niv",
+      "rider_number": 195,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 99,
@@ -3963,6 +4256,7 @@
     {
       "rider_name": "LEKNESSUND Andreas",
       "rider_url": "rider/andreas-leknessund",
+      "rider_number": 116,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 100,
@@ -3976,6 +4270,7 @@
     {
       "rider_name": "BOUET Maxime",
       "rider_url": "rider/maxime-bouet",
+      "rider_number": 153,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 101,
@@ -3989,6 +4284,7 @@
     {
       "rider_name": "DILLIER Silvan",
       "rider_url": "rider/silvan-dillier",
+      "rider_number": 102,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 102,
@@ -4002,6 +4298,7 @@
     {
       "rider_name": "MEZGEC Luka",
       "rider_url": "rider/luka-mezgec",
+      "rider_number": 207,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 103,
@@ -4015,6 +4312,7 @@
     {
       "rider_name": "PETIT Adrien",
       "rider_url": "rider/adrien-petit",
+      "rider_number": 126,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 104,
@@ -4028,6 +4326,7 @@
     {
       "rider_name": "JANSE VAN RENSBURG Reinardt",
       "rider_url": "rider/reinardt-janse-van-rensburg",
+      "rider_number": 164,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 105,
@@ -4041,6 +4340,7 @@
     {
       "rider_name": "BONNAMOUR Franck",
       "rider_url": "rider/franck-bonnamour",
+      "rider_number": 211,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 106,
@@ -4054,6 +4354,7 @@
     {
       "rider_name": "DOULL Owain",
       "rider_url": "rider/owain-doull",
+      "rider_number": 145,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 107,
@@ -4067,6 +4368,7 @@
     {
       "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
+      "rider_number": 74,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 108,
@@ -4080,6 +4382,7 @@
     {
       "rider_name": "RUTSCH Jonas",
       "rider_url": "rider/jonas-rutsch",
+      "rider_number": 148,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 109,
@@ -4093,6 +4396,7 @@
     {
       "rider_name": "VELASCO Simone",
       "rider_url": "rider/simone-velasco",
+      "rider_number": 137,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 110,
@@ -4106,6 +4410,7 @@
     {
       "rider_name": "P\u00c9RICHON Pierre-Luc",
       "rider_url": "rider/pierre-luc-perichon",
+      "rider_number": 72,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 111,
@@ -4119,6 +4424,7 @@
     {
       "rider_name": "TURGIS Anthony",
       "rider_url": "rider/anthony-turgis",
+      "rider_number": 187,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 112,
@@ -4132,6 +4438,7 @@
     {
       "rider_name": "DOMBROWSKI Joe",
       "rider_url": "rider/joe-dombrowski",
+      "rider_number": 133,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 113,
@@ -4145,6 +4452,7 @@
     {
       "rider_name": "GENIETS Kevin",
       "rider_url": "rider/kevin-geniets",
+      "rider_number": 93,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 114,
@@ -4158,6 +4466,7 @@
     {
       "rider_name": "SWIFT Connor",
       "rider_url": "rider/connor-swift",
+      "rider_number": 158,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 115,
@@ -4171,6 +4480,7 @@
     {
       "rider_name": "LEMOINE Cyril",
       "rider_url": "rider/cyril-lemoine",
+      "rider_number": 215,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 116,
@@ -4184,6 +4494,7 @@
     {
       "rider_name": "BAGIOLI Andrea",
       "rider_url": "rider/andrea-bagioli",
+      "rider_number": 53,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 117,
@@ -4197,6 +4508,7 @@
     {
       "rider_name": "BODNAR Maciej",
       "rider_url": "rider/maciej-bodnar",
+      "rider_number": 183,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 118,
@@ -4210,6 +4522,7 @@
     {
       "rider_name": "HIRSCHI Marc",
       "rider_url": "rider/marc-hirschi",
+      "rider_number": 8,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 119,
@@ -4223,11 +4536,12 @@
   ],
   "profile_icon": "p1",
   "profile_score": 13,
-  "race_startlist_quality_score": 1550,
+  "race_startlist_quality_score": 1551,
   "results": [
     {
       "rider_name": "PHILIPSEN Jasper",
       "rider_url": "rider/jasper-philipsen",
+      "rider_number": 105,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 1,
@@ -4242,6 +4556,7 @@
     {
       "rider_name": "GROENEWEGEN Dylan",
       "rider_url": "rider/dylan-groenewegen",
+      "rider_number": 204,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 2,
@@ -4256,6 +4571,7 @@
     {
       "rider_name": "KRISTOFF Alexander",
       "rider_url": "rider/alexander-kristoff",
+      "rider_number": 121,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 3,
@@ -4270,6 +4586,7 @@
     {
       "rider_name": "STUYVEN Jasper",
       "rider_url": "rider/jasper-stuyven",
+      "rider_number": 178,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 4,
@@ -4284,6 +4601,7 @@
     {
       "rider_name": "SAGAN Peter",
       "rider_url": "rider/peter-sagan",
+      "rider_number": 181,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 5,
@@ -4298,6 +4616,7 @@
     {
       "rider_name": "LECROQ J\u00e9r\u00e9my",
       "rider_url": "rider/jeremy-lecroq",
+      "rider_number": 214,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 6,
@@ -4312,6 +4631,7 @@
     {
       "rider_name": "VAN POPPEL Danny",
       "rider_url": "rider/danny-van-poppel",
+      "rider_number": 48,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 7,
@@ -4326,6 +4646,7 @@
     {
       "rider_name": "EWAN Caleb",
       "rider_url": "rider/caleb-ewan",
+      "rider_number": 161,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 8,
@@ -4340,6 +4661,7 @@
     {
       "rider_name": "HOFSTETTER Hugo",
       "rider_url": "rider/hugo-hofstetter",
+      "rider_number": 155,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 9,
@@ -4354,6 +4676,7 @@
     {
       "rider_name": "WRIGHT Fred",
       "rider_url": "rider/alfred-wright",
+      "rider_number": 88,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 10,
@@ -4368,6 +4691,7 @@
     {
       "rider_name": "MOZZATO Luca",
       "rider_url": "rider/luca-mozzato",
+      "rider_number": 216,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 11,
@@ -4382,6 +4706,7 @@
     {
       "rider_name": "DAINESE Alberto",
       "rider_url": "rider/alberto-dainese",
+      "rider_number": 112,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 12,
@@ -4396,6 +4721,7 @@
     {
       "rider_name": "JAKOBSEN Fabio",
       "rider_url": "rider/fabio-jakobsen",
+      "rider_number": 51,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 13,
@@ -4410,6 +4736,7 @@
     {
       "rider_name": "PASQUALON Andrea",
       "rider_url": "rider/andrea-pasqualon",
+      "rider_number": 125,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 14,
@@ -4424,6 +4751,7 @@
     {
       "rider_name": "QUINTANA Nairo",
       "rider_url": "rider/nairo-quintana",
+      "rider_number": 151,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": null,
@@ -4438,6 +4766,7 @@
     {
       "rider_name": "K\u00dcNG Stefan",
       "rider_url": "rider/stefan-kung",
+      "rider_number": 94,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 15,
@@ -4452,6 +4781,7 @@
     {
       "rider_name": "LUTSENKO Alexey",
       "rider_url": "rider/aleksey-lutsenko",
+      "rider_number": 131,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 16,
@@ -4466,6 +4796,7 @@
     {
       "rider_name": "ZEITS Andrey",
       "rider_url": "rider/andrey-zeits",
+      "rider_number": 138,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 17,
@@ -4480,6 +4811,7 @@
     {
       "rider_name": "JANSE VAN RENSBURG Reinardt",
       "rider_url": "rider/reinardt-janse-van-rensburg",
+      "rider_number": 164,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 18,
@@ -4494,6 +4826,7 @@
     {
       "rider_name": "POGA\u010cAR Tadej",
       "rider_url": "rider/tadej-pogacar",
+      "rider_number": 1,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 19,
@@ -4508,6 +4841,7 @@
     {
       "rider_name": "BARTHE Cyril",
       "rider_url": "rider/cyril-barthe",
+      "rider_number": 212,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 20,
@@ -4522,6 +4856,7 @@
     {
       "rider_name": "VELASCO Simone",
       "rider_url": "rider/simone-velasco",
+      "rider_number": 137,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 21,
@@ -4536,6 +4871,7 @@
     {
       "rider_name": "BARDET Romain",
       "rider_url": "rider/romain-bardet",
+      "rider_number": 111,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 22,
@@ -4550,6 +4886,7 @@
     {
       "rider_name": "JORGENSON Matteo",
       "rider_url": "rider/matteo-jorgenson",
+      "rider_number": 64,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 23,
@@ -4564,6 +4901,7 @@
     {
       "rider_name": "VLASOV Aleksandr",
       "rider_url": "rider/aleksandr-vlasov",
+      "rider_number": 41,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 24,
@@ -4578,6 +4916,7 @@
     {
       "rider_name": "GALLOPIN Tony",
       "rider_url": "rider/tony-gallopin",
+      "rider_number": 173,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 25,
@@ -4592,6 +4931,7 @@
     {
       "rider_name": "BOASSON HAGEN Edvald",
       "rider_url": "rider/edvald-boasson-hagen",
+      "rider_number": 182,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 26,
@@ -4606,6 +4946,7 @@
     {
       "rider_name": "MEZGEC Luka",
       "rider_url": "rider/luka-mezgec",
+      "rider_number": 207,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 27,
@@ -4620,6 +4961,7 @@
     {
       "rider_name": "S\u00c1NCHEZ Luis Le\u00f3n",
       "rider_url": "rider/luis-leon-sanchez",
+      "rider_number": 85,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 28,
@@ -4634,6 +4976,7 @@
     {
       "rider_name": "MADOUAS Valentin",
       "rider_url": "rider/valentin-madouas",
+      "rider_number": 96,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 29,
@@ -4648,6 +4991,7 @@
     {
       "rider_name": "BETTIOL Alberto",
       "rider_url": "rider/alberto-bettiol",
+      "rider_number": 143,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 30,
@@ -4662,6 +5006,7 @@
     {
       "rider_name": "NEILANDS Krists",
       "rider_url": "rider/krists-neilands",
+      "rider_number": 197,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 31,
@@ -4676,6 +5021,7 @@
     {
       "rider_name": "SKUJI\u0145\u0160 Toms",
       "rider_url": "rider/toms-skujins",
+      "rider_number": 177,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 32,
@@ -4690,6 +5036,7 @@
     {
       "rider_name": "YATES Adam",
       "rider_url": "rider/adam-yates",
+      "rider_number": 28,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 33,
@@ -4704,6 +5051,7 @@
     {
       "rider_name": "M\u00dcHLBERGER Gregor",
       "rider_url": "rider/gregor-muhlberger",
+      "rider_number": 65,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 34,
@@ -4718,6 +5066,7 @@
     {
       "rider_name": "SCH\u00d6NBERGER Sebastian",
       "rider_url": "rider/sebastian-schonberger",
+      "rider_number": 218,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 35,
@@ -4732,6 +5081,7 @@
     {
       "rider_name": "LEKNESSUND Andreas",
       "rider_url": "rider/andreas-leknessund",
+      "rider_number": 116,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 36,
@@ -4746,6 +5096,7 @@
     {
       "rider_name": "OWSIAN \u0141ukasz",
       "rider_url": "rider/lukasz-owsian",
+      "rider_number": 157,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 37,
@@ -4760,6 +5111,7 @@
     {
       "rider_name": "THOMAS Geraint",
       "rider_url": "rider/geraint-thomas",
+      "rider_number": 21,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 38,
@@ -4774,6 +5126,7 @@
     {
       "rider_name": "OLIVEIRA Nelson",
       "rider_url": "rider/nelson-oliveira",
+      "rider_number": 66,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 39,
@@ -4788,6 +5141,7 @@
     {
       "rider_name": "SWIFT Connor",
       "rider_url": "rider/connor-swift",
+      "rider_number": 158,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 40,
@@ -4802,6 +5156,7 @@
     {
       "rider_name": "SCHULTZ Nick",
       "rider_url": "rider/nick-schultz",
+      "rider_number": 208,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 41,
@@ -4816,6 +5171,7 @@
     {
       "rider_name": "JUNGELS Bob",
       "rider_url": "rider/bob-jungels",
+      "rider_number": 36,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 42,
@@ -4830,6 +5186,7 @@
     {
       "rider_name": "RIABUSHENKO Alexandr",
       "rider_url": "rider/alexandr-riabushenko",
+      "rider_number": 132,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 43,
@@ -4844,6 +5201,7 @@
     {
       "rider_name": "TUSVELD Martijn",
       "rider_url": "rider/martijn-tusveld",
+      "rider_number": 117,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 44,
@@ -4858,6 +5216,7 @@
     {
       "rider_name": "POWLESS Neilson",
       "rider_url": "rider/neilson-powless",
+      "rider_number": 147,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 45,
@@ -4872,6 +5231,7 @@
     {
       "rider_name": "BONNAMOUR Franck",
       "rider_url": "rider/franck-bonnamour",
+      "rider_number": 211,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 46,
@@ -4886,6 +5246,7 @@
     {
       "rider_name": "BODNAR Maciej",
       "rider_url": "rider/maciej-bodnar",
+      "rider_number": 183,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 47,
@@ -4900,6 +5261,7 @@
     {
       "rider_name": "CAPIOT Amaury",
       "rider_url": "rider/amaury-capiot",
+      "rider_number": 154,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 48,
@@ -4914,6 +5276,7 @@
     {
       "rider_name": "ZIMMERMANN Georg",
       "rider_url": "rider/georg-zimmermann",
+      "rider_number": 128,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 49,
@@ -4928,6 +5291,7 @@
     {
       "rider_name": "BYSTR\u00d8M Sven Erik",
       "rider_url": "rider/sven-erik-bystrom",
+      "rider_number": 122,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 50,
@@ -4942,6 +5306,7 @@
     {
       "rider_name": "DILLIER Silvan",
       "rider_url": "rider/silvan-dillier",
+      "rider_number": 102,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 51,
@@ -4956,6 +5321,7 @@
     {
       "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
+      "rider_number": 74,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 52,
@@ -4970,6 +5336,7 @@
     {
       "rider_name": "VAN BAARLE Dylan",
       "rider_url": "rider/dylan-van-baarle",
+      "rider_number": 27,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 53,
@@ -4984,6 +5351,7 @@
     {
       "rider_name": "PINOT Thibaut",
       "rider_url": "rider/thibaut-pinot",
+      "rider_number": 97,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 54,
@@ -4998,6 +5366,7 @@
     {
       "rider_name": "PEDERSEN Mads",
       "rider_url": "rider/mads-pedersen",
+      "rider_number": 171,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 55,
@@ -5012,6 +5381,7 @@
     {
       "rider_name": "MOHORI\u010c Matej",
       "rider_url": "rider/matej-mohoric",
+      "rider_number": 84,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 56,
@@ -5026,6 +5396,7 @@
     {
       "rider_name": "GRUZDEV Dmitriy",
       "rider_url": "rider/dmitriy-gruzdev",
+      "rider_number": 135,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 57,
@@ -5040,6 +5411,7 @@
     {
       "rider_name": "GENIETS Kevin",
       "rider_url": "rider/kevin-geniets",
+      "rider_number": 93,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 58,
@@ -5054,6 +5426,7 @@
     {
       "rider_name": "S\u00c9N\u00c9CHAL Florian",
       "rider_url": "rider/florian-senechal",
+      "rider_number": 58,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 59,
@@ -5068,6 +5441,7 @@
     {
       "rider_name": "SBARAGLI Kristian",
       "rider_url": "rider/kristian-sbaragli",
+      "rider_number": 107,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 60,
@@ -5082,6 +5456,7 @@
     {
       "rider_name": "GOOSSENS Kobe",
       "rider_url": "rider/kobe-goossens",
+      "rider_number": 123,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 61,
@@ -5096,6 +5471,7 @@
     {
       "rider_name": "MEINTJES Louis",
       "rider_url": "rider/louis-meintjes",
+      "rider_number": 124,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 62,
@@ -5110,6 +5486,7 @@
     {
       "rider_name": "MATTHEWS Michael",
       "rider_url": "rider/michael-matthews",
+      "rider_number": 201,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 63,
@@ -5124,6 +5501,7 @@
     {
       "rider_name": "DEGENKOLB John",
       "rider_url": "rider/john-degenkolb",
+      "rider_number": 113,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 64,
@@ -5138,6 +5516,7 @@
     {
       "rider_name": "EEKHOFF Nils",
       "rider_url": "rider/nils-eekhoff",
+      "rider_number": 114,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 65,
@@ -5152,6 +5531,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 91,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 66,
@@ -5166,6 +5546,7 @@
     {
       "rider_name": "BOUET Maxime",
       "rider_url": "rider/maxime-bouet",
+      "rider_number": 153,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 67,
@@ -5180,6 +5561,7 @@
     {
       "rider_name": "BISSEGGER Stefan",
       "rider_url": "rider/stefan-bissegger",
+      "rider_number": 144,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 68,
@@ -5194,6 +5576,7 @@
     {
       "rider_name": "PETIT Adrien",
       "rider_url": "rider/adrien-petit",
+      "rider_number": 126,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 69,
@@ -5208,6 +5591,7 @@
     {
       "rider_name": "THOMAS Benjamin",
       "rider_url": "rider/benjamin-thomas-2",
+      "rider_number": 77,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 70,
@@ -5222,6 +5606,7 @@
     {
       "rider_name": "BURGAUDEAU Mathieu",
       "rider_url": "rider/mathieu-burgaudeau",
+      "rider_number": 184,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 71,
@@ -5236,6 +5621,7 @@
     {
       "rider_name": "CASTROVIEJO Jonathan",
       "rider_url": "rider/jonathan-castroviejo",
+      "rider_number": 23,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 72,
@@ -5250,6 +5636,7 @@
     {
       "rider_name": "TORRES Albert",
       "rider_url": "rider/albert-torres",
+      "rider_number": 67,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 73,
@@ -5264,6 +5651,7 @@
     {
       "rider_name": "VAN MOER Brent",
       "rider_url": "rider/brent-van-moer",
+      "rider_number": 166,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 74,
@@ -5278,6 +5666,7 @@
     {
       "rider_name": "LAPORTE Christophe",
       "rider_url": "rider/christophe-laporte",
+      "rider_number": 15,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 75,
@@ -5292,6 +5681,7 @@
     {
       "rider_name": "VINGEGAARD Jonas",
       "rider_url": "rider/jonas-vingegaard-rasmussen",
+      "rider_number": 18,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 76,
@@ -5306,6 +5696,7 @@
     {
       "rider_name": "VAN AERT Wout",
       "rider_url": "rider/wout-van-aert",
+      "rider_number": 16,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 77,
@@ -5320,6 +5711,7 @@
     {
       "rider_name": "KUSS Sepp",
       "rider_url": "rider/sepp-kuss",
+      "rider_number": 14,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 78,
@@ -5334,6 +5726,7 @@
     {
       "rider_name": "BENOOT Tiesj",
       "rider_url": "rider/tiesj-benoot",
+      "rider_number": 12,
       "team_name": "Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2022",
       "rank": 79,
@@ -5348,6 +5741,7 @@
     {
       "rider_name": "PLANCKAERT Edward",
       "rider_url": "rider/edward-planckaert",
+      "rider_number": 106,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 80,
@@ -5362,6 +5756,7 @@
     {
       "rider_name": "KONRAD Patrick",
       "rider_url": "rider/patrick-konrad",
+      "rider_number": 45,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 81,
@@ -5376,6 +5771,7 @@
     {
       "rider_name": "MCNULTY Brandon",
       "rider_url": "rider/brandon-mcnulty",
+      "rider_number": 6,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 82,
@@ -5390,6 +5786,7 @@
     {
       "rider_name": "NIV Guy",
       "rider_url": "rider/guy-niv",
+      "rider_number": 195,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 83,
@@ -5404,6 +5801,7 @@
     {
       "rider_name": "STORER Michael",
       "rider_url": "rider/michael-storer",
+      "rider_number": 98,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 84,
@@ -5418,6 +5816,7 @@
     {
       "rider_name": "DUCHESNE Antoine",
       "rider_url": "rider/antoine-duchesne",
+      "rider_number": 92,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 85,
@@ -5432,6 +5831,7 @@
     {
       "rider_name": "LE GAC Olivier",
       "rider_url": "rider/olivier-le-gac",
+      "rider_number": 95,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 86,
@@ -5446,6 +5846,7 @@
     {
       "rider_name": "HOULE Hugo",
       "rider_url": "rider/hugo-houle",
+      "rider_number": 196,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": 87,
@@ -5460,6 +5861,7 @@
     {
       "rider_name": "TEUNS Dylan",
       "rider_url": "rider/dylan-teuns",
+      "rider_number": 86,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 88,
@@ -5474,6 +5876,7 @@
     {
       "rider_name": "DOMBROWSKI Joe",
       "rider_url": "rider/joe-dombrowski",
+      "rider_number": 133,
       "team_name": "Astana Qazaqstan Team",
       "team_url": "team/astana-qazaqstan-team-2022",
       "rank": 89,
@@ -5488,6 +5891,7 @@
     {
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
+      "rider_number": 217,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 90,
@@ -5502,6 +5906,7 @@
     {
       "rider_name": "TURGIS Anthony",
       "rider_url": "rider/anthony-turgis",
+      "rider_number": 187,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 91,
@@ -5516,6 +5921,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 185,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 92,
@@ -5530,6 +5936,7 @@
     {
       "rider_name": "PIDCOCK Thomas",
       "rider_url": "rider/thomas-pidcock",
+      "rider_number": 25,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 93,
@@ -5544,6 +5951,7 @@
     {
       "rider_name": "HALLER Marco",
       "rider_url": "rider/marco-haller",
+      "rider_number": 43,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 94,
@@ -5558,6 +5966,7 @@
     {
       "rider_name": "VERMEERSCH Florian",
       "rider_url": "rider/florian-vermeersch",
+      "rider_number": 167,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 95,
@@ -5572,6 +5981,7 @@
     {
       "rider_name": "LOUVEL Matis",
       "rider_url": "rider/matis-louvel",
+      "rider_number": 156,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 96,
@@ -5586,6 +5996,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 22,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 97,
@@ -5600,6 +6011,7 @@
     {
       "rider_name": "VERONA Carlos",
       "rider_url": "rider/carlos-verona",
+      "rider_number": 68,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 98,
@@ -5614,6 +6026,7 @@
     {
       "rider_name": "UR\u00c1N Rigoberto",
       "rider_url": "rider/rigoberto-uran",
+      "rider_number": 141,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 99,
@@ -5628,6 +6041,7 @@
     {
       "rider_name": "GRADEK Kamil",
       "rider_url": "rider/kamil-gradek",
+      "rider_number": 83,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 100,
@@ -5642,6 +6056,7 @@
     {
       "rider_name": "DOULL Owain",
       "rider_url": "rider/owain-doull",
+      "rider_number": 145,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 101,
@@ -5656,6 +6071,7 @@
     {
       "rider_name": "LAMPAERT Yves",
       "rider_url": "rider/yves-lampaert",
+      "rider_number": 56,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 102,
@@ -5670,6 +6086,7 @@
     {
       "rider_name": "GOUGEARD Alexis",
       "rider_url": "rider/alexis-gougeard",
+      "rider_number": 213,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 103,
@@ -5684,6 +6101,7 @@
     {
       "rider_name": "LEMOINE Cyril",
       "rider_url": "rider/cyril-lemoine",
+      "rider_number": 215,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 104,
@@ -5698,6 +6116,7 @@
     {
       "rider_name": "JANSEN Amund Gr\u00f8ndahl",
       "rider_url": "rider/amund-grondahl-jansen",
+      "rider_number": 205,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 105,
@@ -5712,6 +6131,7 @@
     {
       "rider_name": "GESCHKE Simon",
       "rider_url": "rider/simon-geschke",
+      "rider_number": 73,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 106,
@@ -5726,6 +6146,7 @@
     {
       "rider_name": "DEWULF Stan",
       "rider_url": "rider/stan-dewulf",
+      "rider_number": 35,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 107,
@@ -5740,6 +6161,7 @@
     {
       "rider_name": "KRIEGER Alexander",
       "rider_url": "rider/alexander-krieger",
+      "rider_number": 104,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 108,
@@ -5754,6 +6176,7 @@
     {
       "rider_name": "P\u00c9RICHON Pierre-Luc",
       "rider_url": "rider/pierre-luc-perichon",
+      "rider_number": 72,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 109,
@@ -5768,6 +6191,7 @@
     {
       "rider_name": "FRISON Frederik",
       "rider_url": "rider/frederik-frison",
+      "rider_number": 162,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 110,
@@ -5782,6 +6206,7 @@
     {
       "rider_name": "POLITT Nils",
       "rider_url": "rider/nils-politt",
+      "rider_number": 46,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 111,
@@ -5796,6 +6221,7 @@
     {
       "rider_name": "GRO\u00dfSCHARTNER Felix",
       "rider_url": "rider/felix-grossschartner",
+      "rider_number": 42,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 112,
@@ -5810,6 +6236,7 @@
     {
       "rider_name": "SIMMONS Quinn",
       "rider_url": "rider/quinn-simmons",
+      "rider_number": 176,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 113,
@@ -5824,6 +6251,7 @@
     {
       "rider_name": "GILBERT Philippe",
       "rider_url": "rider/philippe-gilbert",
+      "rider_number": 163,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 114,
@@ -5838,6 +6266,7 @@
     {
       "rider_name": "GANNA Filippo",
       "rider_url": "rider/filippo-ganna",
+      "rider_number": 24,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 115,
@@ -5852,6 +6281,7 @@
     {
       "rider_name": "ROWE Luke",
       "rider_url": "rider/luke-rowe",
+      "rider_number": 26,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 116,
@@ -5866,6 +6296,7 @@
     {
       "rider_name": "CICCONE Giulio",
       "rider_url": "rider/giulio-ciccone",
+      "rider_number": 172,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 117,
@@ -5880,6 +6311,7 @@
     {
       "rider_name": "MOLLEMA Bauke",
       "rider_url": "rider/bauke-mollema",
+      "rider_number": 175,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 118,
@@ -5894,6 +6326,7 @@
     {
       "rider_name": "VAN DER HOORN Taco",
       "rider_url": "rider/taco-van-der-hoorn",
+      "rider_number": 127,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 119,
@@ -5908,6 +6341,7 @@
     {
       "rider_name": "TRATNIK Jan",
       "rider_url": "rider/jan-tratnik",
+      "rider_number": 87,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 120,
@@ -5922,6 +6356,7 @@
     {
       "rider_name": "HIRSCHI Marc",
       "rider_url": "rider/marc-hirschi",
+      "rider_number": 8,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 121,
@@ -5936,6 +6371,7 @@
     {
       "rider_name": "BJERG Mikkel",
       "rider_url": "rider/mikkel-bjerg",
+      "rider_number": 3,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 122,
@@ -5950,6 +6386,7 @@
     {
       "rider_name": "HAMILTON Chris",
       "rider_url": "rider/chris-hamilton",
+      "rider_number": 115,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 123,
@@ -5964,6 +6401,7 @@
     {
       "rider_name": "COSNEFROY Beno\u00eet",
       "rider_url": "rider/benoit-cosnefroy",
+      "rider_number": 34,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 124,
@@ -5978,6 +6416,7 @@
     {
       "rider_name": "BAUER Jack",
       "rider_url": "rider/jack-bauer",
+      "rider_number": 202,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 125,
@@ -5992,6 +6431,7 @@
     {
       "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
+      "rider_number": 76,
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2022",
       "rank": 126,
@@ -6006,6 +6446,7 @@
     {
       "rider_name": "CATTANEO Mattia",
       "rider_url": "rider/mattia-cattaneo",
+      "rider_number": 54,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 127,
@@ -6020,6 +6461,7 @@
     {
       "rider_name": "VAN KEIRSBULCK Guillaume",
       "rider_url": "rider/guillaume-van-keirsbulck",
+      "rider_number": 108,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 128,
@@ -6034,6 +6476,7 @@
     {
       "rider_name": "BAGIOLI Andrea",
       "rider_url": "rider/andrea-bagioli",
+      "rider_number": 53,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 129,
@@ -6048,6 +6491,7 @@
     {
       "rider_name": "JUUL-JENSEN Christopher",
       "rider_url": "rider/christopher-juul-jensen",
+      "rider_number": 206,
       "team_name": "Team BikeExchange - Jayco",
       "team_url": "team/team-bikeexchange-jayco-2022",
       "rank": 130,
@@ -6062,6 +6506,7 @@
     {
       "rider_name": "SCHACHMANN Maximilian",
       "rider_url": "rider/maximilian-schachmann",
+      "rider_number": 47,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2022",
       "rank": 131,
@@ -6076,6 +6521,7 @@
     {
       "rider_name": "RUTSCH Jonas",
       "rider_url": "rider/jonas-rutsch",
+      "rider_number": 148,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 132,
@@ -6090,6 +6536,7 @@
     {
       "rider_name": "HONOR\u00c9 Mikkel Fr\u00f8lich",
       "rider_url": "rider/mikkel-honore",
+      "rider_number": 55,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 133,
@@ -6104,6 +6551,7 @@
     {
       "rider_name": "KRON Andreas",
       "rider_url": "rider/andreas-kron",
+      "rider_number": 165,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 134,
@@ -6118,6 +6566,7 @@
     {
       "rider_name": "IZAGIRRE Gorka",
       "rider_url": "rider/gorka-izagirre",
+      "rider_number": 63,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": null,
@@ -6132,6 +6581,7 @@
     {
       "rider_name": "WOODS Michael",
       "rider_url": "rider/michael-woods",
+      "rider_number": 198,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": null,
@@ -6146,6 +6596,7 @@
     {
       "rider_name": "BOIVIN Guillaume",
       "rider_url": "rider/guillaume-boivin",
+      "rider_number": 192,
       "team_name": "Israel - Premier Tech",
       "team_url": "team/israel-premier-tech-2022",
       "rank": null,
@@ -6345,6 +6796,7 @@
     {
       "rider_name": "POGA\u010cAR Tadej",
       "rider_url": "rider/tadej-pogacar",
+      "rider_number": 1,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 1,
@@ -6358,6 +6810,7 @@
     {
       "rider_name": "PIDCOCK Thomas",
       "rider_url": "rider/thomas-pidcock",
+      "rider_number": 25,
       "team_name": "INEOS Grenadiers",
       "team_url": "team/ineos-grenadiers-2022",
       "rank": 2,
@@ -6371,6 +6824,7 @@
     {
       "rider_name": "MCNULTY Brandon",
       "rider_url": "rider/brandon-mcnulty",
+      "rider_number": 6,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 3,
@@ -6384,6 +6838,7 @@
     {
       "rider_name": "JORGENSON Matteo",
       "rider_url": "rider/matteo-jorgenson",
+      "rider_number": 64,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2022",
       "rank": 4,
@@ -6397,6 +6852,7 @@
     {
       "rider_name": "LEKNESSUND Andreas",
       "rider_url": "rider/andreas-leknessund",
+      "rider_number": 116,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 5,
@@ -6410,6 +6866,7 @@
     {
       "rider_name": "STORER Michael",
       "rider_url": "rider/michael-storer",
+      "rider_number": 98,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 6,
@@ -6423,6 +6880,7 @@
     {
       "rider_name": "ZIMMERMANN Georg",
       "rider_url": "rider/georg-zimmermann",
+      "rider_number": 128,
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2022",
       "rank": 7,
@@ -6436,6 +6894,7 @@
     {
       "rider_name": "GENIETS Kevin",
       "rider_url": "rider/kevin-geniets",
+      "rider_number": 93,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2022",
       "rank": 8,
@@ -6449,6 +6908,7 @@
     {
       "rider_name": "WRIGHT Fred",
       "rider_url": "rider/alfred-wright",
+      "rider_number": 88,
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2022",
       "rank": 9,
@@ -6462,6 +6922,7 @@
     {
       "rider_name": "DEWULF Stan",
       "rider_url": "rider/stan-dewulf",
+      "rider_number": 35,
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2022",
       "rank": 10,
@@ -6475,6 +6936,7 @@
     {
       "rider_name": "SIMMONS Quinn",
       "rider_url": "rider/quinn-simmons",
+      "rider_number": 176,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2022",
       "rank": 11,
@@ -6488,6 +6950,7 @@
     {
       "rider_name": "BURGAUDEAU Mathieu",
       "rider_url": "rider/mathieu-burgaudeau",
+      "rider_number": 184,
       "team_name": "TotalEnergies",
       "team_url": "team/team-totalenergies-2022",
       "rank": 12,
@@ -6501,6 +6964,7 @@
     {
       "rider_name": "KRON Andreas",
       "rider_url": "rider/andreas-kron",
+      "rider_number": 165,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 13,
@@ -6514,6 +6978,7 @@
     {
       "rider_name": "LOUVEL Matis",
       "rider_url": "rider/matis-louvel",
+      "rider_number": 156,
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2022",
       "rank": 14,
@@ -6527,6 +6992,7 @@
     {
       "rider_name": "BISSEGGER Stefan",
       "rider_url": "rider/stefan-bissegger",
+      "rider_number": 144,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 15,
@@ -6540,6 +7006,7 @@
     {
       "rider_name": "PHILIPSEN Jasper",
       "rider_url": "rider/jasper-philipsen",
+      "rider_number": 105,
       "team_name": "Alpecin-Deceuninck",
       "team_url": "team/alpecin-deceuninck-2022",
       "rank": 16,
@@ -6553,6 +7020,7 @@
     {
       "rider_name": "RUTSCH Jonas",
       "rider_url": "rider/jonas-rutsch",
+      "rider_number": 148,
       "team_name": "EF Education-EasyPost",
       "team_url": "team/ef-education-easypost-2022",
       "rank": 17,
@@ -6566,6 +7034,7 @@
     {
       "rider_name": "BAGIOLI Andrea",
       "rider_url": "rider/andrea-bagioli",
+      "rider_number": 53,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 18,
@@ -6579,6 +7048,7 @@
     {
       "rider_name": "DAINESE Alberto",
       "rider_url": "rider/alberto-dainese",
+      "rider_number": 112,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 19,
@@ -6592,6 +7062,7 @@
     {
       "rider_name": "MOZZATO Luca",
       "rider_url": "rider/luca-mozzato",
+      "rider_number": 216,
       "team_name": "B&B Hotels - KTM",
       "team_url": "team/b-b-hotels-ktm-2022",
       "rank": 20,
@@ -6605,6 +7076,7 @@
     {
       "rider_name": "VERMEERSCH Florian",
       "rider_url": "rider/florian-vermeersch",
+      "rider_number": 167,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 21,
@@ -6618,6 +7090,7 @@
     {
       "rider_name": "HONOR\u00c9 Mikkel Fr\u00f8lich",
       "rider_url": "rider/mikkel-honore",
+      "rider_number": 55,
       "team_name": "Quick-Step Alpha Vinyl Team",
       "team_url": "team/quick-step-alpha-vinyl-2022",
       "rank": 22,
@@ -6631,6 +7104,7 @@
     {
       "rider_name": "EEKHOFF Nils",
       "rider_url": "rider/nils-eekhoff",
+      "rider_number": 114,
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2022",
       "rank": 23,
@@ -6644,6 +7118,7 @@
     {
       "rider_name": "VAN MOER Brent",
       "rider_url": "rider/brent-van-moer",
+      "rider_number": 166,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2022",
       "rank": 24,
@@ -6657,6 +7132,7 @@
     {
       "rider_name": "BJERG Mikkel",
       "rider_url": "rider/mikkel-bjerg",
+      "rider_number": 3,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 25,
@@ -6670,6 +7146,7 @@
     {
       "rider_name": "HIRSCHI Marc",
       "rider_url": "rider/marc-hirschi",
+      "rider_number": 8,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2022",
       "rank": 26,

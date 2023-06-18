@@ -238,6 +238,7 @@ class Stage(Scraper):
 
             - rider_name:
             - rider_url:
+            - rider_number:
             - team_name:
             - team_url:
             - rank: Rider's result in the stage.
@@ -255,6 +256,7 @@ class Stage(Scraper):
         available_fields = (
             "rider_name",
             "rider_url",
+            "rider_number",
             "team_name",
             "team_url",
             "rank",
@@ -294,10 +296,15 @@ class Stage(Scraper):
                 extra_fields.append("rider_url")
                 table_parser.parse(extra_fields)
                 table = join_tables(table, table_parser.table, "rider_url")
-            elif "nationality" in fields or "age" in fields:
+            elif "nationality" in fields or "age" in fields or \
+                "rider_number" in fields:
                 for row in table:
-                    row['nationality'] = None
-                    row['age'] = None
+                    if "nationality" in fields:
+                        row['nationality'] = None
+                    if "age" in fields:
+                        row['age'] = None
+                    if "rider_number" in fields:
+                        row['rider_number'] = None
             # remove rider_url from table if isn't needed
             if "rider_url" not in fields:
                 for row in table:
@@ -319,6 +326,7 @@ class Stage(Scraper):
 
             - rider_name:
             - rider_url:
+            - rider_number:
             - team_name:
             - team_url:
             - rank: Rider's GC rank after the stage.
@@ -336,6 +344,7 @@ class Stage(Scraper):
         available_fields = (
             "rider_name",
             "rider_url",
+            "rider_number",
             "team_name",
             "team_url",
             "rank",
@@ -366,6 +375,7 @@ class Stage(Scraper):
 
             - rider_name:
             - rider_url:
+            - rider_number:
             - team_name:
             - team_url:
             - rank: Rider's points classif. rank after the stage.
@@ -382,6 +392,7 @@ class Stage(Scraper):
         available_fields = (
             "rider_name",
             "rider_url",
+            "rider_number",
             "team_name",
             "team_url",
             "rank",
@@ -411,6 +422,7 @@ class Stage(Scraper):
 
             - rider_name:
             - rider_url:
+            - rider_number:
             - team_name:
             - team_url:
             - rank: Rider's KOM classif. rank after the stage.
@@ -427,6 +439,7 @@ class Stage(Scraper):
         available_fields = (
             "rider_name",
             "rider_url",
+            "rider_number",
             "team_name",
             "team_url",
             "rank",
@@ -456,6 +469,7 @@ class Stage(Scraper):
 
             - rider_name:
             - rider_url:
+            - rider_number:
             - team_name:
             - team_url:
             - rank: Rider's youth classif. rank after the stage.
@@ -472,6 +486,7 @@ class Stage(Scraper):
         available_fields = (
             "rider_name",
             "rider_url",
+            "rider_number",
             "team_name",
             "team_url",
             "rank",
@@ -566,8 +581,8 @@ class Stage(Scraper):
 
         :param results_table_html: TTT results table HTML.
         :param fields: Fields that returned table should have. Available are
-            all `results` table fields with the exception of age and
-            nationality.
+            all `results` table fields with the exception of age,
+            nationality and rider_number.
         :return: Table with wanted fields.
         """
         team_fields = [

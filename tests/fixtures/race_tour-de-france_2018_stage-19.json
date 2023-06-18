@@ -1,31 +1,6 @@
 {
   "arrival": "Laruns",
-  "climbs": [
-    {
-      "climb_name": "Col du Tourmalet",
-      "climb_url": "location/col-du-tourmalet"
-    },
-    {
-      "climb_name": "Col d'Aspin",
-      "climb_url": "location/col-d-aspin"
-    },
-    {
-      "climb_name": "C\u00f4te De Capvern-Les-Bains",
-      "climb_url": "location/cote-de-capvern-les-bains"
-    },
-    {
-      "climb_name": "Col d'Aubisque",
-      "climb_url": "location/col-d-aubisque"
-    },
-    {
-      "climb_name": "Col des Bord\u00e8res",
-      "climb_url": "location/col-des-borderes"
-    },
-    {
-      "climb_name": "C\u00f4te de Loucrup",
-      "climb_url": "location/cote-de-loucrup"
-    }
-  ],
+  "climbs": [],
   "date": "2018-07-27",
   "departure": "Lourdes ",
   "distance": 200.5,
@@ -33,6 +8,7 @@
     {
       "rider_name": "THOMAS Geraint",
       "rider_url": "rider/geraint-thomas",
+      "rider_number": 8,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 1,
@@ -47,6 +23,7 @@
     {
       "rider_name": "DUMOULIN Tom",
       "rider_url": "rider/tom-dumoulin",
+      "rider_number": 32,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 2,
@@ -61,6 +38,7 @@
     {
       "rider_name": "ROGLI\u010c Primo\u017e",
       "rider_url": "rider/primoz-roglic",
+      "rider_number": 166,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 3,
@@ -75,6 +53,7 @@
     {
       "rider_name": "FROOME Chris",
       "rider_url": "rider/christopher-froome",
+      "rider_number": 1,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 4,
@@ -89,6 +68,7 @@
     {
       "rider_name": "KRUIJSWIJK Steven",
       "rider_url": "rider/steven-kruijswijk",
+      "rider_number": 161,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 5,
@@ -103,6 +83,7 @@
     {
       "rider_name": "LANDA Mikel",
       "rider_url": "rider/mikel-landa",
+      "rider_number": 75,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 6,
@@ -117,6 +98,7 @@
     {
       "rider_name": "BARDET Romain",
       "rider_url": "rider/romain-bardet",
+      "rider_number": 21,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 7,
@@ -131,6 +113,7 @@
     {
       "rider_name": "MARTIN Dan",
       "rider_url": "rider/dan-martin",
+      "rider_number": 91,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 8,
@@ -145,6 +128,7 @@
     {
       "rider_name": "QUINTANA Nairo",
       "rider_url": "rider/nairo-quintana",
+      "rider_number": 71,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 9,
@@ -159,6 +143,7 @@
     {
       "rider_name": "ZAKARIN Ilnur",
       "rider_url": "rider/ilnur-zakarin",
+      "rider_number": 141,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 10,
@@ -173,6 +158,7 @@
     {
       "rider_name": "JUNGELS Bob",
       "rider_url": "rider/bob-jungels",
+      "rider_number": 105,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 11,
@@ -187,6 +173,7 @@
     {
       "rider_name": "FUGLSANG Jakob",
       "rider_url": "rider/jakob-fuglsang",
+      "rider_number": 121,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 12,
@@ -201,6 +188,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 26,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 13,
@@ -215,6 +203,7 @@
     {
       "rider_name": "VALVERDE Alejandro",
       "rider_url": "rider/alejandro-valverde",
+      "rider_number": 78,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 14,
@@ -229,6 +218,7 @@
     {
       "rider_name": "BERNAL Egan",
       "rider_url": "rider/egan-bernal",
+      "rider_number": 2,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 15,
@@ -243,6 +233,7 @@
     {
       "rider_name": "KANGERT Tanel",
       "rider_url": "rider/tanel-kangert",
+      "rider_number": 125,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 16,
@@ -257,6 +248,7 @@
     {
       "rider_name": "BARGUIL Warren",
       "rider_url": "rider/warren-barguil",
+      "rider_number": 41,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 17,
@@ -271,6 +263,7 @@
     {
       "rider_name": "POZZOVIVO Domenico",
       "rider_url": "rider/domenico-pozzovivo",
+      "rider_number": 58,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 18,
@@ -285,6 +278,7 @@
     {
       "rider_name": "MAJKA Rafa\u0142",
       "rider_url": "rider/rafal-majka",
+      "rider_number": 114,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 19,
@@ -299,6 +293,7 @@
     {
       "rider_name": "MARTIN Guillaume",
       "rider_url": "rider/guillaume-martin",
+      "rider_number": 211,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 20,
@@ -313,6 +308,7 @@
     {
       "rider_name": "CARUSO Damiano",
       "rider_url": "rider/damiano-caruso",
+      "rider_number": 83,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 21,
@@ -327,6 +323,7 @@
     {
       "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
+      "rider_number": 55,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 22,
@@ -341,6 +338,7 @@
     {
       "rider_name": "NIEVE Mikel",
       "rider_url": "rider/mikel-nieve",
+      "rider_number": 68,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 23,
@@ -355,6 +353,7 @@
     {
       "rider_name": "IZAGIRRE Gorka",
       "rider_url": "rider/gorka-izagirre",
+      "rider_number": 54,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 24,
@@ -369,6 +368,7 @@
     {
       "rider_name": "GESCHKE Simon",
       "rider_url": "rider/simon-geschke",
+      "rider_number": 34,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 25,
@@ -383,6 +383,7 @@
     {
       "rider_name": "MOLLEMA Bauke",
       "rider_url": "rider/bauke-mollema",
+      "rider_number": 191,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 26,
@@ -397,6 +398,7 @@
     {
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
+      "rider_number": 16,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 27,
@@ -411,6 +413,7 @@
     {
       "rider_name": "VAN AVERMAET Greg",
       "rider_url": "rider/greg-van-avermaet",
+      "rider_number": 87,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 28,
@@ -425,6 +428,7 @@
     {
       "rider_name": "CALMEJANE Lilian",
       "rider_url": "rider/lilian-calmejane",
+      "rider_number": 181,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 29,
@@ -439,6 +443,7 @@
     {
       "rider_name": "YATES Adam",
       "rider_url": "rider/adam-yates",
+      "rider_number": 61,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 30,
@@ -453,6 +458,7 @@
     {
       "rider_name": "GESINK Robert",
       "rider_url": "rider/robert-gesink",
+      "rider_number": 162,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 31,
@@ -467,6 +473,7 @@
     {
       "rider_name": "VAN GARDEREN Tejay",
       "rider_url": "rider/tejay-van-garderen",
+      "rider_number": 88,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 32,
@@ -481,6 +488,7 @@
     {
       "rider_name": "ALAPHILIPPE Julian",
       "rider_url": "rider/julian-alaphilippe",
+      "rider_number": 101,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 33,
@@ -495,6 +503,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 152,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 34,
@@ -509,6 +518,7 @@
     {
       "rider_name": "BERNARD Julien",
       "rider_url": "rider/julien-bernard",
+      "rider_number": 192,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 35,
@@ -523,6 +533,7 @@
     {
       "rider_name": "TOLHOEK Antwan",
       "rider_url": "rider/antwan-tolhoek",
+      "rider_number": 168,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 36,
@@ -537,6 +548,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 14,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 37,
@@ -551,6 +563,7 @@
     {
       "rider_name": "\u0110URASEK Kristijan",
       "rider_url": "rider/kristijan-durasek",
+      "rider_number": 93,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 38,
@@ -565,6 +578,7 @@
     {
       "rider_name": "MOLARD Rudy",
       "rider_url": "rider/rudy-molard",
+      "rider_number": 156,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 39,
@@ -579,6 +593,7 @@
     {
       "rider_name": "CHAVANEL Sylvain",
       "rider_url": "rider/sylvain-chavanel",
+      "rider_number": 183,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 40,
@@ -593,6 +608,7 @@
     {
       "rider_name": "VICHOT Arthur",
       "rider_url": "rider/arthur-vichot",
+      "rider_number": 158,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 41,
@@ -607,6 +623,7 @@
     {
       "rider_name": "MOINARD Ama\u00ebl",
       "rider_url": "rider/amael-moinard",
+      "rider_number": 46,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 42,
@@ -621,6 +638,7 @@
     {
       "rider_name": "BOUET Maxime",
       "rider_url": "rider/maxime-bouet",
+      "rider_number": 42,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 43,
@@ -635,6 +653,7 @@
     {
       "rider_name": "VALGREN Michael",
       "rider_url": "rider/michael-valgren-andersen",
+      "rider_number": 128,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 44,
@@ -649,6 +668,7 @@
     {
       "rider_name": "EDET Nicolas",
       "rider_url": "rider/nicolas-edet",
+      "rider_number": 203,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 45,
@@ -663,6 +683,7 @@
     {
       "rider_name": "IMPEY Daryl",
       "rider_url": "rider/daryl-impey",
+      "rider_number": 67,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 46,
@@ -677,6 +698,7 @@
     {
       "rider_name": "NAVARRO Daniel",
       "rider_url": "rider/daniel-navarro",
+      "rider_number": 205,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 47,
@@ -691,6 +713,7 @@
     {
       "rider_name": "HERRADA Jes\u00fas",
       "rider_url": "rider/jesus-herrada-lopez",
+      "rider_number": 204,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 48,
@@ -705,6 +728,7 @@
     {
       "rider_name": "AMADOR Andrey",
       "rider_url": "rider/andrey-amador",
+      "rider_number": 72,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 49,
@@ -719,6 +743,7 @@
     {
       "rider_name": "KWIATKOWSKI Micha\u0142",
       "rider_url": "rider/michal-kwiatkowski",
+      "rider_number": 4,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 50,
@@ -733,6 +758,7 @@
     {
       "rider_name": "TEN DAM Laurens",
       "rider_url": "rider/laurens-ten-dam",
+      "rider_number": 37,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 51,
@@ -747,6 +773,7 @@
     {
       "rider_name": "FRANK Mathias",
       "rider_url": "rider/mathias-frank",
+      "rider_number": 24,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 52,
@@ -761,6 +788,7 @@
     {
       "rider_name": "KRAGH ANDERSEN S\u00f8ren",
       "rider_url": "rider/soren-kragh-andersen",
+      "rider_number": 36,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 53,
@@ -775,6 +803,7 @@
     {
       "rider_name": "K\u00dcNG Stefan",
       "rider_url": "rider/stefan-kung",
+      "rider_number": 85,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 54,
@@ -789,6 +818,7 @@
     {
       "rider_name": "HANSEN Jesper",
       "rider_url": "rider/jesper-hansen-1",
+      "rider_number": 124,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 55,
@@ -803,6 +833,7 @@
     {
       "rider_name": "FRAILE Omar",
       "rider_url": "rider/omar-fraile",
+      "rider_number": 122,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 56,
@@ -817,6 +848,7 @@
     {
       "rider_name": "DEGAND Thomas",
       "rider_url": "rider/thomas-degand",
+      "rider_number": 212,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 57,
@@ -831,6 +863,7 @@
     {
       "rider_name": "SLAGTER Tom-Jelte",
       "rider_url": "rider/tom-jelte-slagter",
+      "rider_number": 136,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 58,
@@ -845,6 +878,7 @@
     {
       "rider_name": "POELS Wout",
       "rider_url": "rider/wout-poels",
+      "rider_number": 6,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 59,
@@ -859,6 +893,7 @@
     {
       "rider_name": "PELLIZOTTI Franco",
       "rider_url": "rider/franco-pellizotti",
+      "rider_number": 57,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 60,
@@ -873,6 +908,7 @@
     {
       "rider_name": "KOCHETKOV Pavel",
       "rider_url": "rider/pavel-kochetkov",
+      "rider_number": 145,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 61,
@@ -887,6 +923,7 @@
     {
       "rider_name": "MINNAARD Marco",
       "rider_url": "rider/marco-minnaard",
+      "rider_number": 214,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 62,
@@ -901,6 +938,7 @@
     {
       "rider_name": "STUYVEN Jasper",
       "rider_url": "rider/jasper-stuyven",
+      "rider_number": 198,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 63,
@@ -915,6 +953,7 @@
     {
       "rider_name": "SOLER Marc",
       "rider_url": "rider/marc-soler",
+      "rider_number": 77,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 64,
@@ -929,6 +968,7 @@
     {
       "rider_name": "DE GENDT Thomas",
       "rider_url": "rider/thomas-de-gendt",
+      "rider_number": 174,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 65,
@@ -943,6 +983,7 @@
     {
       "rider_name": "NAESEN Oliver",
       "rider_url": "rider/oliver-naesen",
+      "rider_number": 27,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 66,
@@ -957,6 +998,7 @@
     {
       "rider_name": "CORT Magnus",
       "rider_url": "rider/magnus-cort-nielsen",
+      "rider_number": 126,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 67,
@@ -971,6 +1013,7 @@
     {
       "rider_name": "ATAPUMA Darwin",
       "rider_url": "rider/darwin-atapuma",
+      "rider_number": 92,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 68,
@@ -985,6 +1028,7 @@
     {
       "rider_name": "ARNDT Nikias",
       "rider_url": "rider/nikias-arndt",
+      "rider_number": 33,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 69,
@@ -999,6 +1043,7 @@
     {
       "rider_name": "SAGAN Peter",
       "rider_url": "rider/peter-sagan",
+      "rider_number": 111,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 70,
@@ -1013,6 +1058,7 @@
     {
       "rider_name": "CASTROVIEJO Jonathan",
       "rider_url": "rider/jonathan-castroviejo",
+      "rider_number": 3,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 71,
@@ -1027,6 +1073,7 @@
     {
       "rider_name": "HAGA Chad",
       "rider_url": "rider/chad-haga",
+      "rider_number": 35,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 72,
@@ -1041,6 +1088,7 @@
     {
       "rider_name": "SICARD Romain",
       "rider_url": "rider/romain-sicard",
+      "rider_number": 187,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 73,
@@ -1055,6 +1103,7 @@
     {
       "rider_name": "M\u00dcHLBERGER Gregor",
       "rider_url": "rider/gregor-muhlberger",
+      "rider_number": 115,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 74,
@@ -1069,6 +1118,7 @@
     {
       "rider_name": "LUDVIGSSON Tobias",
       "rider_url": "rider/tobias-ludvigsson",
+      "rider_number": 155,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 75,
@@ -1083,6 +1133,7 @@
     {
       "rider_name": "VERMOTE Julien",
       "rider_url": "rider/julien-vermote",
+      "rider_number": 138,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 76,
@@ -1097,6 +1148,7 @@
     {
       "rider_name": "ERVITI Imanol",
       "rider_url": "rider/imanol-erviti",
+      "rider_number": 74,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 77,
@@ -1111,6 +1163,7 @@
     {
       "rider_name": "DE KORT Koen",
       "rider_url": "rider/koen-de-kort",
+      "rider_number": 193,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 78,
@@ -1125,6 +1178,7 @@
     {
       "rider_name": "BOSWELL Ian",
       "rider_url": "rider/ian-boswell",
+      "rider_number": 142,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 79,
@@ -1139,6 +1193,7 @@
     {
       "rider_name": "MARTENS Paul",
       "rider_url": "rider/paul-martens",
+      "rider_number": 165,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 80,
@@ -1153,6 +1208,7 @@
     {
       "rider_name": "LAMPAERT Yves",
       "rider_url": "rider/yves-lampaert",
+      "rider_number": 106,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 81,
@@ -1167,6 +1223,7 @@
     {
       "rider_name": "DILLIER Silvan",
       "rider_url": "rider/silvan-dillier",
+      "rider_number": 22,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 82,
@@ -1181,6 +1238,7 @@
     {
       "rider_name": "SKUJI\u0145\u0160 Toms",
       "rider_url": "rider/toms-skujins",
+      "rider_number": 197,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 83,
@@ -1195,6 +1253,7 @@
     {
       "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
+      "rider_number": 206,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 84,
@@ -1209,6 +1268,7 @@
     {
       "rider_name": "BOASSON HAGEN Edvald",
       "rider_url": "rider/edvald-boasson-hagen",
+      "rider_number": 132,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 85,
@@ -1223,6 +1283,7 @@
     {
       "rider_name": "GESBERT \u00c9lie",
       "rider_url": "rider/elie-gesbert",
+      "rider_number": 43,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 86,
@@ -1237,6 +1298,7 @@
     {
       "rider_name": "POLITT Nils",
       "rider_url": "rider/nils-politt",
+      "rider_number": 147,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 87,
@@ -1251,6 +1313,7 @@
     {
       "rider_name": "SCH\u00c4R Michael",
       "rider_url": "rider/michael-schar",
+      "rider_number": 86,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 88,
@@ -1265,6 +1328,7 @@
     {
       "rider_name": "BOUDAT Thomas",
       "rider_url": "rider/thomas-boudat",
+      "rider_number": 182,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 89,
@@ -1279,6 +1343,7 @@
     {
       "rider_name": "OFFREDO Yoann",
       "rider_url": "rider/yoann-offredo",
+      "rider_number": 215,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 90,
@@ -1293,6 +1358,7 @@
     {
       "rider_name": "THEUNS Edward",
       "rider_url": "rider/edward-theuns",
+      "rider_number": 38,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 91,
@@ -1307,6 +1373,7 @@
     {
       "rider_name": "COUSIN J\u00e9r\u00f4me",
       "rider_url": "rider/jerome-cousin",
+      "rider_number": 184,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 92,
@@ -1321,6 +1388,7 @@
     {
       "rider_name": "POLJA\u0143SKI Pawe\u0142",
       "rider_url": "rider/pawel-poljanski",
+      "rider_number": 117,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 93,
@@ -1335,6 +1403,7 @@
     {
       "rider_name": "PASQUALON Andrea",
       "rider_url": "rider/andrea-pasqualon",
+      "rider_number": 216,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 94,
@@ -1349,6 +1418,7 @@
     {
       "rider_name": "BURGHARDT Marcus",
       "rider_url": "rider/marcus-burghardt",
+      "rider_number": 113,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 95,
@@ -1363,6 +1433,7 @@
     {
       "rider_name": "LEDANOIS K\u00e9vin",
       "rider_url": "rider/kevin-ledanois",
+      "rider_number": 45,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 96,
@@ -1377,6 +1448,7 @@
     {
       "rider_name": "SMITH Dion",
       "rider_url": "rider/dion-smith",
+      "rider_number": 217,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 97,
@@ -1391,6 +1463,7 @@
     {
       "rider_name": "PICHON Laurent",
       "rider_url": "rider/laurent-pichon",
+      "rider_number": 47,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 98,
@@ -1405,6 +1478,7 @@
     {
       "rider_name": "VACHON Florian",
       "rider_url": "rider/florian-vachon",
+      "rider_number": 48,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 99,
@@ -1419,6 +1493,7 @@
     {
       "rider_name": "CLARKE Simon",
       "rider_url": "rider/simon-clarke",
+      "rider_number": 12,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 100,
@@ -1433,6 +1508,7 @@
     {
       "rider_name": "KOREN Kristijan",
       "rider_url": "rider/kristijan-koren",
+      "rider_number": 56,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 101,
@@ -1447,6 +1523,7 @@
     {
       "rider_name": "SIMON Julien",
       "rider_url": "rider/julien-simon",
+      "rider_number": 207,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 102,
@@ -1461,6 +1538,7 @@
     {
       "rider_name": "BENNATI Daniele",
       "rider_url": "rider/daniele-bennati",
+      "rider_number": 73,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 103,
@@ -1475,6 +1553,7 @@
     {
       "rider_name": "HARDY Romain",
       "rider_url": "rider/romain-hardy",
+      "rider_number": 44,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 104,
@@ -1489,6 +1568,7 @@
     {
       "rider_name": "SUTHERLAND Rory",
       "rider_url": "rider/rory-sutherland",
+      "rider_number": 97,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 105,
@@ -1503,6 +1583,7 @@
     {
       "rider_name": "MARCZY\u0143SKI Tomasz",
       "rider_url": "rider/tomasz-marczynski",
+      "rider_number": 176,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 106,
@@ -1517,6 +1598,7 @@
     {
       "rider_name": "GERRANS Simon",
       "rider_url": "rider/simon-gerrans",
+      "rider_number": 84,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 107,
@@ -1531,6 +1613,7 @@
     {
       "rider_name": "COLBRELLI Sonny",
       "rider_url": "rider/sonny-colbrelli",
+      "rider_number": 52,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 108,
@@ -1545,6 +1628,7 @@
     {
       "rider_name": "HAYMAN Mathew",
       "rider_url": "rider/mathew-hayman",
+      "rider_number": 64,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 109,
@@ -1559,6 +1643,7 @@
     {
       "rider_name": "JANSE VAN RENSBURG Reinardt",
       "rider_url": "rider/reinardt-janse-van-rensburg",
+      "rider_number": 133,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 110,
@@ -1573,6 +1658,7 @@
     {
       "rider_name": "DEGENKOLB John",
       "rider_url": "rider/john-degenkolb",
+      "rider_number": 194,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 111,
@@ -1587,6 +1673,7 @@
     {
       "rider_name": "GOGL Michael",
       "rider_url": "rider/michael-gogl",
+      "rider_number": 195,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 112,
@@ -1601,6 +1688,7 @@
     {
       "rider_name": "OSS Daniel",
       "rider_url": "rider/daniel-oss",
+      "rider_number": 116,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 113,
@@ -1615,6 +1703,7 @@
     {
       "rider_name": "VANMARCKE Sep",
       "rider_url": "rider/sep-vanmarcke",
+      "rider_number": 18,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 114,
@@ -1629,6 +1718,7 @@
     {
       "rider_name": "KRISTOFF Alexander",
       "rider_url": "rider/alexander-kristoff",
+      "rider_number": 95,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 115,
@@ -1643,6 +1733,7 @@
     {
       "rider_name": "TERPSTRA Niki",
       "rider_url": "rider/niki-terpstra",
+      "rider_number": 108,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 116,
@@ -1657,6 +1748,7 @@
     {
       "rider_name": "TURGIS Anthony",
       "rider_url": "rider/anthony-turgis",
+      "rider_number": 208,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 117,
@@ -1671,6 +1763,7 @@
     {
       "rider_name": "VAN KEIRSBULCK Guillaume",
       "rider_url": "rider/guillaume-van-keirsbulck",
+      "rider_number": 218,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 118,
@@ -1685,6 +1778,7 @@
     {
       "rider_name": "GRELLIER Fabien",
       "rider_url": "rider/fabien-grellier",
+      "rider_number": 186,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 119,
@@ -1699,6 +1793,7 @@
     {
       "rider_name": "BAUER Jack",
       "rider_url": "rider/jack-bauer",
+      "rider_number": 62,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 120,
@@ -1713,6 +1808,7 @@
     {
       "rider_name": "DURBRIDGE Luke",
       "rider_url": "rider/luke-durbridge",
+      "rider_number": 63,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 121,
@@ -1727,6 +1823,7 @@
     {
       "rider_name": "HEPBURN Michael",
       "rider_url": "rider/michael-hepburn",
+      "rider_number": 65,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 122,
@@ -1741,6 +1838,7 @@
     {
       "rider_name": "LAPORTE Christophe",
       "rider_url": "rider/christophe-laporte",
+      "rider_number": 201,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 123,
@@ -1755,6 +1853,7 @@
     {
       "rider_name": "BODNAR Maciej",
       "rider_url": "rider/maciej-bodnar",
+      "rider_number": 112,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 124,
@@ -1769,6 +1868,7 @@
     {
       "rider_name": "HAUSSLER Heinrich",
       "rider_url": "rider/heinrich-haussler",
+      "rider_number": 53,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 125,
@@ -1783,6 +1883,7 @@
     {
       "rider_name": "MARCATO Marco",
       "rider_url": "rider/marco-marcato",
+      "rider_number": 96,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 126,
@@ -1797,6 +1898,7 @@
     {
       "rider_name": "LE GAC Olivier",
       "rider_url": "rider/olivier-le-gac",
+      "rider_number": 154,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 127,
@@ -1811,6 +1913,7 @@
     {
       "rider_name": "CLAEYS Dimitri",
       "rider_url": "rider/dimitri-claeys",
+      "rider_number": 202,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 128,
@@ -1825,6 +1928,7 @@
     {
       "rider_name": "ROWE Luke",
       "rider_url": "rider/luke-rowe",
+      "rider_number": 7,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 129,
@@ -1839,6 +1943,7 @@
     {
       "rider_name": "SCULLY Tom",
       "rider_url": "rider/thomas-scully",
+      "rider_number": 17,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 130,
@@ -1853,6 +1958,7 @@
     {
       "rider_name": "DUPONT Timothy",
       "rider_url": "rider/timothy-dupont",
+      "rider_number": 213,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 131,
@@ -1867,6 +1973,7 @@
     {
       "rider_name": "P\u00d6STLBERGER Lukas",
       "rider_url": "rider/lukas-postlberger",
+      "rider_number": 118,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 132,
@@ -1881,6 +1988,7 @@
     {
       "rider_name": "PHINNEY Taylor",
       "rider_url": "rider/taylor-phinney",
+      "rider_number": 15,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 133,
@@ -1895,6 +2003,7 @@
     {
       "rider_name": "TROIA Oliviero",
       "rider_url": "rider/oliviero-troia",
+      "rider_number": 98,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 134,
@@ -1909,6 +2018,7 @@
     {
       "rider_name": "GAUDIN Damien",
       "rider_url": "rider/damien-gaudin",
+      "rider_number": 185,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 135,
@@ -1923,6 +2033,7 @@
     {
       "rider_name": "SINKELDAM Ramon",
       "rider_url": "rider/ramon-sinkeldam",
+      "rider_number": 157,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 136,
@@ -1937,6 +2048,7 @@
     {
       "rider_name": "RICHEZE Maximiliano",
       "rider_url": "rider/ariel-maximiliano-richeze",
+      "rider_number": 107,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 137,
@@ -1951,6 +2063,7 @@
     {
       "rider_name": "FERRARI Roberto",
       "rider_url": "rider/roberto-ferrari",
+      "rider_number": 94,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 138,
@@ -1965,6 +2078,7 @@
     {
       "rider_name": "ROOSEN Timo",
       "rider_url": "rider/timo-roosen",
+      "rider_number": 167,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 139,
@@ -1979,6 +2093,7 @@
     {
       "rider_name": "JANSEN Amund Gr\u00f8ndahl",
       "rider_url": "rider/amund-grondahl-jansen",
+      "rider_number": 164,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 140,
@@ -1993,6 +2108,7 @@
     {
       "rider_name": "D\u00c9MARE Arnaud",
       "rider_url": "rider/arnaud-demare",
+      "rider_number": 151,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 141,
@@ -2007,6 +2123,7 @@
     {
       "rider_name": "DE BUYST Jasper",
       "rider_url": "rider/jasper-de-buyst",
+      "rider_number": 173,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 142,
@@ -2021,6 +2138,7 @@
     {
       "rider_name": "THOMSON Jay Robert",
       "rider_url": "rider/jay-robert-thomson",
+      "rider_number": 137,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 143,
@@ -2035,6 +2153,7 @@
     {
       "rider_name": "GUARNIERI Jacopo",
       "rider_url": "rider/jacopo-guarnieri",
+      "rider_number": 153,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 144,
@@ -2049,6 +2168,7 @@
     {
       "rider_name": "CRADDOCK Lawson",
       "rider_url": "rider/lawson-craddock",
+      "rider_number": 13,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 145,
@@ -2066,6 +2186,7 @@
     {
       "rider_name": "ALAPHILIPPE Julian",
       "rider_url": "rider/julian-alaphilippe",
+      "rider_number": 101,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 1,
@@ -2079,6 +2200,7 @@
     {
       "rider_name": "BARGUIL Warren",
       "rider_url": "rider/warren-barguil",
+      "rider_number": 41,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 2,
@@ -2092,6 +2214,7 @@
     {
       "rider_name": "MAJKA Rafa\u0142",
       "rider_url": "rider/rafal-majka",
+      "rider_number": 114,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 3,
@@ -2105,6 +2228,7 @@
     {
       "rider_name": "THOMAS Geraint",
       "rider_url": "rider/geraint-thomas",
+      "rider_number": 8,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 4,
@@ -2118,6 +2242,7 @@
     {
       "rider_name": "DUMOULIN Tom",
       "rider_url": "rider/tom-dumoulin",
+      "rider_number": 32,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 5,
@@ -2131,6 +2256,7 @@
     {
       "rider_name": "ROGLI\u010c Primo\u017e",
       "rider_url": "rider/primoz-roglic",
+      "rider_number": 166,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 6,
@@ -2144,6 +2270,7 @@
     {
       "rider_name": "MARTIN Dan",
       "rider_url": "rider/dan-martin",
+      "rider_number": 91,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 7,
@@ -2157,6 +2284,7 @@
     {
       "rider_name": "QUINTANA Nairo",
       "rider_url": "rider/nairo-quintana",
+      "rider_number": 71,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 8,
@@ -2170,6 +2298,7 @@
     {
       "rider_name": "KANGERT Tanel",
       "rider_url": "rider/tanel-kangert",
+      "rider_number": 125,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 9,
@@ -2183,6 +2312,7 @@
     {
       "rider_name": "KRUIJSWIJK Steven",
       "rider_url": "rider/steven-kruijswijk",
+      "rider_number": 161,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 10,
@@ -2196,6 +2326,7 @@
     {
       "rider_name": "NIEVE Mikel",
       "rider_url": "rider/mikel-nieve",
+      "rider_number": 68,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 11,
@@ -2209,6 +2340,7 @@
     {
       "rider_name": "MOLLEMA Bauke",
       "rider_url": "rider/bauke-mollema",
+      "rider_number": 191,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 12,
@@ -2222,6 +2354,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 152,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 13,
@@ -2235,6 +2368,7 @@
     {
       "rider_name": "LANDA Mikel",
       "rider_url": "rider/mikel-landa",
+      "rider_number": 75,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 14,
@@ -2248,6 +2382,7 @@
     {
       "rider_name": "BARDET Romain",
       "rider_url": "rider/romain-bardet",
+      "rider_number": 21,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 15,
@@ -2261,6 +2396,7 @@
     {
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
+      "rider_number": 16,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 16,
@@ -2274,6 +2410,7 @@
     {
       "rider_name": "MOLARD Rudy",
       "rider_url": "rider/rudy-molard",
+      "rider_number": 156,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 17,
@@ -2287,6 +2424,7 @@
     {
       "rider_name": "YATES Adam",
       "rider_url": "rider/adam-yates",
+      "rider_number": 61,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 18,
@@ -2300,6 +2438,7 @@
     {
       "rider_name": "FROOME Chris",
       "rider_url": "rider/christopher-froome",
+      "rider_number": 1,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 19,
@@ -2313,6 +2452,7 @@
     {
       "rider_name": "IZAGIRRE Gorka",
       "rider_url": "rider/gorka-izagirre",
+      "rider_number": 54,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 20,
@@ -2326,6 +2466,7 @@
     {
       "rider_name": "CARUSO Damiano",
       "rider_url": "rider/damiano-caruso",
+      "rider_number": 83,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 21,
@@ -2339,6 +2480,7 @@
     {
       "rider_name": "CALMEJANE Lilian",
       "rider_url": "rider/lilian-calmejane",
+      "rider_number": 181,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 22,
@@ -2352,6 +2494,7 @@
     {
       "rider_name": "VAN AVERMAET Greg",
       "rider_url": "rider/greg-van-avermaet",
+      "rider_number": 87,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 23,
@@ -2365,6 +2508,7 @@
     {
       "rider_name": "HERRADA Jes\u00fas",
       "rider_url": "rider/jesus-herrada-lopez",
+      "rider_number": 204,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 24,
@@ -2378,6 +2522,7 @@
     {
       "rider_name": "DE GENDT Thomas",
       "rider_url": "rider/thomas-de-gendt",
+      "rider_number": 174,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 25,
@@ -2391,6 +2536,7 @@
     {
       "rider_name": "JUNGELS Bob",
       "rider_url": "rider/bob-jungels",
+      "rider_number": 105,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 26,
@@ -2404,6 +2550,7 @@
     {
       "rider_name": "GESINK Robert",
       "rider_url": "rider/robert-gesink",
+      "rider_number": 162,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 27,
@@ -2417,6 +2564,7 @@
     {
       "rider_name": "GESBERT \u00c9lie",
       "rider_url": "rider/elie-gesbert",
+      "rider_number": 43,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 28,
@@ -2430,6 +2578,7 @@
     {
       "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
+      "rider_number": 206,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 29,
@@ -2443,6 +2592,7 @@
     {
       "rider_name": "POZZOVIVO Domenico",
       "rider_url": "rider/domenico-pozzovivo",
+      "rider_number": 58,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 30,
@@ -2456,6 +2606,7 @@
     {
       "rider_name": "\u0110URASEK Kristijan",
       "rider_url": "rider/kristijan-durasek",
+      "rider_number": 93,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 31,
@@ -2469,6 +2620,7 @@
     {
       "rider_name": "ATAPUMA Darwin",
       "rider_url": "rider/darwin-atapuma",
+      "rider_number": 92,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 32,
@@ -2482,6 +2634,7 @@
     {
       "rider_name": "VALVERDE Alejandro",
       "rider_url": "rider/alejandro-valverde",
+      "rider_number": 78,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 33,
@@ -2495,6 +2648,7 @@
     {
       "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
+      "rider_number": 55,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 34,
@@ -2508,6 +2662,7 @@
     {
       "rider_name": "SKUJI\u0145\u0160 Toms",
       "rider_url": "rider/toms-skujins",
+      "rider_number": 197,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 35,
@@ -2521,6 +2676,7 @@
     {
       "rider_name": "BERNAL Egan",
       "rider_url": "rider/egan-bernal",
+      "rider_number": 2,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 36,
@@ -2534,6 +2690,7 @@
     {
       "rider_name": "CORT Magnus",
       "rider_url": "rider/magnus-cort-nielsen",
+      "rider_number": 126,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 37,
@@ -2547,6 +2704,7 @@
     {
       "rider_name": "FRAILE Omar",
       "rider_url": "rider/omar-fraile",
+      "rider_number": 122,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 38,
@@ -2560,6 +2718,7 @@
     {
       "rider_name": "ZAKARIN Ilnur",
       "rider_url": "rider/ilnur-zakarin",
+      "rider_number": 141,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 39,
@@ -2573,6 +2732,7 @@
     {
       "rider_name": "CHAVANEL Sylvain",
       "rider_url": "rider/sylvain-chavanel",
+      "rider_number": 183,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 40,
@@ -2586,6 +2746,7 @@
     {
       "rider_name": "SMITH Dion",
       "rider_url": "rider/dion-smith",
+      "rider_number": 217,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 41,
@@ -2599,6 +2760,7 @@
     {
       "rider_name": "STUYVEN Jasper",
       "rider_url": "rider/jasper-stuyven",
+      "rider_number": 198,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 42,
@@ -2612,6 +2774,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 14,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 43,
@@ -2625,6 +2788,7 @@
     {
       "rider_name": "SLAGTER Tom-Jelte",
       "rider_url": "rider/tom-jelte-slagter",
+      "rider_number": 136,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 44,
@@ -2638,6 +2802,7 @@
     {
       "rider_name": "GRELLIER Fabien",
       "rider_url": "rider/fabien-grellier",
+      "rider_number": 186,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 45,
@@ -2651,6 +2816,7 @@
     {
       "rider_name": "SCULLY Tom",
       "rider_url": "rider/thomas-scully",
+      "rider_number": 17,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 46,
@@ -2664,6 +2830,7 @@
     {
       "rider_name": "FUGLSANG Jakob",
       "rider_url": "rider/jakob-fuglsang",
+      "rider_number": 121,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 47,
@@ -2677,6 +2844,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 26,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 48,
@@ -2690,6 +2858,7 @@
     {
       "rider_name": "VALGREN Michael",
       "rider_url": "rider/michael-valgren-andersen",
+      "rider_number": 128,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 49,
@@ -2703,6 +2872,7 @@
     {
       "rider_name": "AMADOR Andrey",
       "rider_url": "rider/andrey-amador",
+      "rider_number": 72,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 50,
@@ -2716,6 +2886,7 @@
     {
       "rider_name": "FRANK Mathias",
       "rider_url": "rider/mathias-frank",
+      "rider_number": 24,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 51,
@@ -2729,6 +2900,7 @@
     {
       "rider_name": "M\u00dcHLBERGER Gregor",
       "rider_url": "rider/gregor-muhlberger",
+      "rider_number": 115,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 52,
@@ -2742,6 +2914,7 @@
     {
       "rider_name": "MINNAARD Marco",
       "rider_url": "rider/marco-minnaard",
+      "rider_number": 214,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 53,
@@ -2755,6 +2928,7 @@
     {
       "rider_name": "DILLIER Silvan",
       "rider_url": "rider/silvan-dillier",
+      "rider_number": 22,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 54,
@@ -2768,6 +2942,7 @@
     {
       "rider_name": "OFFREDO Yoann",
       "rider_url": "rider/yoann-offredo",
+      "rider_number": 215,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 55,
@@ -2781,6 +2956,7 @@
     {
       "rider_name": "LEDANOIS K\u00e9vin",
       "rider_url": "rider/kevin-ledanois",
+      "rider_number": 45,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 56,
@@ -2794,6 +2970,7 @@
     {
       "rider_name": "TERPSTRA Niki",
       "rider_url": "rider/niki-terpstra",
+      "rider_number": 108,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 57,
@@ -2807,6 +2984,7 @@
     {
       "rider_name": "VAN KEIRSBULCK Guillaume",
       "rider_url": "rider/guillaume-van-keirsbulck",
+      "rider_number": 218,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 58,
@@ -2820,6 +2998,7 @@
     {
       "rider_name": "GAUDIN Damien",
       "rider_url": "rider/damien-gaudin",
+      "rider_number": 185,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 59,
@@ -2833,6 +3012,7 @@
     {
       "rider_name": "VICHOT Arthur",
       "rider_url": "rider/arthur-vichot",
+      "rider_number": 158,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 60,
@@ -2846,6 +3026,7 @@
     {
       "rider_name": "SOLER Marc",
       "rider_url": "rider/marc-soler",
+      "rider_number": 77,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 61,
@@ -2859,6 +3040,7 @@
     {
       "rider_name": "SAGAN Peter",
       "rider_url": "rider/peter-sagan",
+      "rider_number": 111,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 62,
@@ -2872,6 +3054,7 @@
     {
       "rider_name": "BAUER Jack",
       "rider_url": "rider/jack-bauer",
+      "rider_number": 62,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 63,
@@ -2888,6 +3071,7 @@
     {
       "rider_name": "SAGAN Peter",
       "rider_url": "rider/peter-sagan",
+      "rider_number": 111,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 1,
@@ -2901,6 +3085,7 @@
     {
       "rider_name": "KRISTOFF Alexander",
       "rider_url": "rider/alexander-kristoff",
+      "rider_number": 95,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 2,
@@ -2914,6 +3099,7 @@
     {
       "rider_name": "D\u00c9MARE Arnaud",
       "rider_url": "rider/arnaud-demare",
+      "rider_number": 151,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 3,
@@ -2927,6 +3113,7 @@
     {
       "rider_name": "DEGENKOLB John",
       "rider_url": "rider/john-degenkolb",
+      "rider_number": 194,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 4,
@@ -2940,6 +3127,7 @@
     {
       "rider_name": "ALAPHILIPPE Julian",
       "rider_url": "rider/julian-alaphilippe",
+      "rider_number": 101,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 5,
@@ -2953,6 +3141,7 @@
     {
       "rider_name": "VAN AVERMAET Greg",
       "rider_url": "rider/greg-van-avermaet",
+      "rider_number": 87,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 6,
@@ -2966,6 +3155,7 @@
     {
       "rider_name": "PASQUALON Andrea",
       "rider_url": "rider/andrea-pasqualon",
+      "rider_number": 216,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 7,
@@ -2979,6 +3169,7 @@
     {
       "rider_name": "MARTIN Dan",
       "rider_url": "rider/dan-martin",
+      "rider_number": 91,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 8,
@@ -2992,6 +3183,7 @@
     {
       "rider_name": "THOMAS Geraint",
       "rider_url": "rider/geraint-thomas",
+      "rider_number": 8,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 9,
@@ -3005,6 +3197,7 @@
     {
       "rider_name": "COLBRELLI Sonny",
       "rider_url": "rider/sonny-colbrelli",
+      "rider_number": 52,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 10,
@@ -3018,6 +3211,7 @@
     {
       "rider_name": "LAPORTE Christophe",
       "rider_url": "rider/christophe-laporte",
+      "rider_number": 201,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 11,
@@ -3031,6 +3225,7 @@
     {
       "rider_name": "VALVERDE Alejandro",
       "rider_url": "rider/alejandro-valverde",
+      "rider_number": 78,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 12,
@@ -3044,6 +3239,7 @@
     {
       "rider_name": "BOUDAT Thomas",
       "rider_url": "rider/thomas-boudat",
+      "rider_number": 182,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 13,
@@ -3057,6 +3253,7 @@
     {
       "rider_name": "MAJKA Rafa\u0142",
       "rider_url": "rider/rafal-majka",
+      "rider_number": 114,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 14,
@@ -3070,6 +3267,7 @@
     {
       "rider_name": "DE GENDT Thomas",
       "rider_url": "rider/thomas-de-gendt",
+      "rider_number": 174,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 15,
@@ -3083,6 +3281,7 @@
     {
       "rider_name": "CALMEJANE Lilian",
       "rider_url": "rider/lilian-calmejane",
+      "rider_number": 181,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 16,
@@ -3096,6 +3295,7 @@
     {
       "rider_name": "LAMPAERT Yves",
       "rider_url": "rider/yves-lampaert",
+      "rider_number": 106,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 17,
@@ -3109,6 +3309,7 @@
     {
       "rider_name": "MOLLEMA Bauke",
       "rider_url": "rider/bauke-mollema",
+      "rider_number": 191,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 18,
@@ -3122,6 +3323,7 @@
     {
       "rider_name": "ROGLI\u010c Primo\u017e",
       "rider_url": "rider/primoz-roglic",
+      "rider_number": 166,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 19,
@@ -3135,6 +3337,7 @@
     {
       "rider_name": "EDET Nicolas",
       "rider_url": "rider/nicolas-edet",
+      "rider_number": 203,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 20,
@@ -3148,6 +3351,7 @@
     {
       "rider_name": "STUYVEN Jasper",
       "rider_url": "rider/jasper-stuyven",
+      "rider_number": 198,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 21,
@@ -3161,6 +3365,7 @@
     {
       "rider_name": "DUMOULIN Tom",
       "rider_url": "rider/tom-dumoulin",
+      "rider_number": 32,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 22,
@@ -3174,6 +3379,7 @@
     {
       "rider_name": "BOASSON HAGEN Edvald",
       "rider_url": "rider/edvald-boasson-hagen",
+      "rider_number": 132,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 23,
@@ -3187,6 +3393,7 @@
     {
       "rider_name": "CARUSO Damiano",
       "rider_url": "rider/damiano-caruso",
+      "rider_number": 83,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 24,
@@ -3200,6 +3407,7 @@
     {
       "rider_name": "PICHON Laurent",
       "rider_url": "rider/laurent-pichon",
+      "rider_number": 47,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 25,
@@ -3213,6 +3421,7 @@
     {
       "rider_name": "GRELLIER Fabien",
       "rider_url": "rider/fabien-grellier",
+      "rider_number": 186,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 26,
@@ -3226,6 +3435,7 @@
     {
       "rider_name": "COUSIN J\u00e9r\u00f4me",
       "rider_url": "rider/jerome-cousin",
+      "rider_number": 184,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 27,
@@ -3239,6 +3449,7 @@
     {
       "rider_name": "DUPONT Timothy",
       "rider_url": "rider/timothy-dupont",
+      "rider_number": 213,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 28,
@@ -3252,6 +3463,7 @@
     {
       "rider_name": "FROOME Chris",
       "rider_url": "rider/christopher-froome",
+      "rider_number": 1,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 29,
@@ -3265,6 +3477,7 @@
     {
       "rider_name": "KRUIJSWIJK Steven",
       "rider_url": "rider/steven-kruijswijk",
+      "rider_number": 161,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 30,
@@ -3278,6 +3491,7 @@
     {
       "rider_name": "FRAILE Omar",
       "rider_url": "rider/omar-fraile",
+      "rider_number": 122,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 31,
@@ -3291,6 +3505,7 @@
     {
       "rider_name": "BARDET Romain",
       "rider_url": "rider/romain-bardet",
+      "rider_number": 21,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 32,
@@ -3304,6 +3519,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 26,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 33,
@@ -3317,6 +3533,7 @@
     {
       "rider_name": "CHAVANEL Sylvain",
       "rider_url": "rider/sylvain-chavanel",
+      "rider_number": 183,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 34,
@@ -3330,6 +3547,7 @@
     {
       "rider_name": "VAN KEIRSBULCK Guillaume",
       "rider_url": "rider/guillaume-van-keirsbulck",
+      "rider_number": 218,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 35,
@@ -3343,6 +3561,7 @@
     {
       "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
+      "rider_number": 55,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 36,
@@ -3356,6 +3575,7 @@
     {
       "rider_name": "YATES Adam",
       "rider_url": "rider/adam-yates",
+      "rider_number": 61,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 37,
@@ -3369,6 +3589,7 @@
     {
       "rider_name": "CORT Magnus",
       "rider_url": "rider/magnus-cort-nielsen",
+      "rider_number": 126,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 38,
@@ -3382,6 +3603,7 @@
     {
       "rider_name": "BODNAR Maciej",
       "rider_url": "rider/maciej-bodnar",
+      "rider_number": 112,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 39,
@@ -3395,6 +3617,7 @@
     {
       "rider_name": "RICHEZE Maximiliano",
       "rider_url": "rider/ariel-maximiliano-richeze",
+      "rider_number": 107,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 40,
@@ -3408,6 +3631,7 @@
     {
       "rider_name": "OSS Daniel",
       "rider_url": "rider/daniel-oss",
+      "rider_number": 116,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 41,
@@ -3421,6 +3645,7 @@
     {
       "rider_name": "IMPEY Daryl",
       "rider_url": "rider/daryl-impey",
+      "rider_number": 67,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 42,
@@ -3434,6 +3659,7 @@
     {
       "rider_name": "QUINTANA Nairo",
       "rider_url": "rider/nairo-quintana",
+      "rider_number": 71,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 43,
@@ -3447,6 +3673,7 @@
     {
       "rider_name": "VALGREN Michael",
       "rider_url": "rider/michael-valgren-andersen",
+      "rider_number": 128,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 44,
@@ -3460,6 +3687,7 @@
     {
       "rider_name": "GAUDIN Damien",
       "rider_url": "rider/damien-gaudin",
+      "rider_number": 185,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 45,
@@ -3473,6 +3701,7 @@
     {
       "rider_name": "IZAGIRRE Gorka",
       "rider_url": "rider/gorka-izagirre",
+      "rider_number": 54,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 46,
@@ -3486,6 +3715,7 @@
     {
       "rider_name": "POZZOVIVO Domenico",
       "rider_url": "rider/domenico-pozzovivo",
+      "rider_number": 58,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 47,
@@ -3499,6 +3729,7 @@
     {
       "rider_name": "KANGERT Tanel",
       "rider_url": "rider/tanel-kangert",
+      "rider_number": 125,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 48,
@@ -3512,6 +3743,7 @@
     {
       "rider_name": "M\u00dcHLBERGER Gregor",
       "rider_url": "rider/gregor-muhlberger",
+      "rider_number": 115,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 49,
@@ -3525,6 +3757,7 @@
     {
       "rider_name": "SMITH Dion",
       "rider_url": "rider/dion-smith",
+      "rider_number": 217,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 50,
@@ -3538,6 +3771,7 @@
     {
       "rider_name": "CLAEYS Dimitri",
       "rider_url": "rider/dimitri-claeys",
+      "rider_number": 202,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 51,
@@ -3551,6 +3785,7 @@
     {
       "rider_name": "TERPSTRA Niki",
       "rider_url": "rider/niki-terpstra",
+      "rider_number": 108,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 52,
@@ -3564,6 +3799,7 @@
     {
       "rider_name": "LANDA Mikel",
       "rider_url": "rider/mikel-landa",
+      "rider_number": 75,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 53,
@@ -3577,6 +3813,7 @@
     {
       "rider_name": "HERRADA Jes\u00fas",
       "rider_url": "rider/jesus-herrada-lopez",
+      "rider_number": 204,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 54,
@@ -3590,6 +3827,7 @@
     {
       "rider_name": "P\u00d6STLBERGER Lukas",
       "rider_url": "rider/lukas-postlberger",
+      "rider_number": 118,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 55,
@@ -3603,6 +3841,7 @@
     {
       "rider_name": "GESBERT \u00c9lie",
       "rider_url": "rider/elie-gesbert",
+      "rider_number": 43,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 56,
@@ -3616,6 +3855,7 @@
     {
       "rider_name": "BERNARD Julien",
       "rider_url": "rider/julien-bernard",
+      "rider_number": 192,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 57,
@@ -3629,6 +3869,7 @@
     {
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
+      "rider_number": 16,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 58,
@@ -3642,6 +3883,7 @@
     {
       "rider_name": "BARGUIL Warren",
       "rider_url": "rider/warren-barguil",
+      "rider_number": 41,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 59,
@@ -3655,6 +3897,7 @@
     {
       "rider_name": "SKUJI\u0145\u0160 Toms",
       "rider_url": "rider/toms-skujins",
+      "rider_number": 197,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 60,
@@ -3668,6 +3911,7 @@
     {
       "rider_name": "JUNGELS Bob",
       "rider_url": "rider/bob-jungels",
+      "rider_number": 105,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 61,
@@ -3681,6 +3925,7 @@
     {
       "rider_name": "NAVARRO Daniel",
       "rider_url": "rider/daniel-navarro",
+      "rider_number": 205,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 62,
@@ -3694,6 +3939,7 @@
     {
       "rider_name": "SLAGTER Tom-Jelte",
       "rider_url": "rider/tom-jelte-slagter",
+      "rider_number": 136,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 63,
@@ -3707,6 +3953,7 @@
     {
       "rider_name": "VERMOTE Julien",
       "rider_url": "rider/julien-vermote",
+      "rider_number": 138,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 64,
@@ -3720,6 +3967,7 @@
     {
       "rider_name": "SICARD Romain",
       "rider_url": "rider/romain-sicard",
+      "rider_number": 187,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 65,
@@ -3733,6 +3981,7 @@
     {
       "rider_name": "BENNATI Daniele",
       "rider_url": "rider/daniele-bennati",
+      "rider_number": 73,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 66,
@@ -3746,6 +3995,7 @@
     {
       "rider_name": "SCH\u00c4R Michael",
       "rider_url": "rider/michael-schar",
+      "rider_number": 86,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 67,
@@ -3759,6 +4009,7 @@
     {
       "rider_name": "HAYMAN Mathew",
       "rider_url": "rider/mathew-hayman",
+      "rider_number": 64,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 68,
@@ -3772,6 +4023,7 @@
     {
       "rider_name": "FUGLSANG Jakob",
       "rider_url": "rider/jakob-fuglsang",
+      "rider_number": 121,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 69,
@@ -3785,6 +4037,7 @@
     {
       "rider_name": "GESINK Robert",
       "rider_url": "rider/robert-gesink",
+      "rider_number": 162,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 70,
@@ -3798,6 +4051,7 @@
     {
       "rider_name": "ARNDT Nikias",
       "rider_url": "rider/nikias-arndt",
+      "rider_number": 33,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 71,
@@ -3811,6 +4065,7 @@
     {
       "rider_name": "BURGHARDT Marcus",
       "rider_url": "rider/marcus-burghardt",
+      "rider_number": 113,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 72,
@@ -3824,6 +4079,7 @@
     {
       "rider_name": "JANSE VAN RENSBURG Reinardt",
       "rider_url": "rider/reinardt-janse-van-rensburg",
+      "rider_number": 133,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 73,
@@ -3837,6 +4093,7 @@
     {
       "rider_name": "DE BUYST Jasper",
       "rider_url": "rider/jasper-de-buyst",
+      "rider_number": 173,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 74,
@@ -3850,6 +4107,7 @@
     {
       "rider_name": "SOLER Marc",
       "rider_url": "rider/marc-soler",
+      "rider_number": 77,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 75,
@@ -3863,6 +4121,7 @@
     {
       "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
+      "rider_number": 206,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 76,
@@ -3876,6 +4135,7 @@
     {
       "rider_name": "TURGIS Anthony",
       "rider_url": "rider/anthony-turgis",
+      "rider_number": 208,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 77,
@@ -3889,6 +4149,7 @@
     {
       "rider_name": "GESCHKE Simon",
       "rider_url": "rider/simon-geschke",
+      "rider_number": 34,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 78,
@@ -3902,6 +4163,7 @@
     {
       "rider_name": "PHINNEY Taylor",
       "rider_url": "rider/taylor-phinney",
+      "rider_number": 15,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 79,
@@ -3915,6 +4177,7 @@
     {
       "rider_name": "\u0110URASEK Kristijan",
       "rider_url": "rider/kristijan-durasek",
+      "rider_number": 93,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 80,
@@ -3928,6 +4191,7 @@
     {
       "rider_name": "MINNAARD Marco",
       "rider_url": "rider/marco-minnaard",
+      "rider_number": 214,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 81,
@@ -3941,6 +4205,7 @@
     {
       "rider_name": "DILLIER Silvan",
       "rider_url": "rider/silvan-dillier",
+      "rider_number": 22,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 82,
@@ -3954,6 +4219,7 @@
     {
       "rider_name": "LEDANOIS K\u00e9vin",
       "rider_url": "rider/kevin-ledanois",
+      "rider_number": 45,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 83,
@@ -3967,6 +4233,7 @@
     {
       "rider_name": "VICHOT Arthur",
       "rider_url": "rider/arthur-vichot",
+      "rider_number": 158,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 84,
@@ -3980,6 +4247,7 @@
     {
       "rider_name": "POLJA\u0143SKI Pawe\u0142",
       "rider_url": "rider/pawel-poljanski",
+      "rider_number": 117,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 85,
@@ -3993,6 +4261,7 @@
     {
       "rider_name": "ZAKARIN Ilnur",
       "rider_url": "rider/ilnur-zakarin",
+      "rider_number": 141,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 86,
@@ -4006,6 +4275,7 @@
     {
       "rider_name": "POLITT Nils",
       "rider_url": "rider/nils-politt",
+      "rider_number": 147,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 87,
@@ -4019,6 +4289,7 @@
     {
       "rider_name": "OFFREDO Yoann",
       "rider_url": "rider/yoann-offredo",
+      "rider_number": 215,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 88,
@@ -4032,6 +4303,7 @@
     {
       "rider_name": "BERNAL Egan",
       "rider_url": "rider/egan-bernal",
+      "rider_number": 2,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 89,
@@ -4045,6 +4317,7 @@
     {
       "rider_name": "DE KORT Koen",
       "rider_url": "rider/koen-de-kort",
+      "rider_number": 193,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 90,
@@ -4058,6 +4331,7 @@
     {
       "rider_name": "GUARNIERI Jacopo",
       "rider_url": "rider/jacopo-guarnieri",
+      "rider_number": 153,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 91,
@@ -4071,6 +4345,7 @@
     {
       "rider_name": "SCULLY Tom",
       "rider_url": "rider/thomas-scully",
+      "rider_number": 17,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 92,
@@ -4084,6 +4359,7 @@
     {
       "rider_name": "NIEVE Mikel",
       "rider_url": "rider/mikel-nieve",
+      "rider_number": 68,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 93,
@@ -4097,6 +4373,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 14,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 94,
@@ -4110,6 +4387,7 @@
     {
       "rider_name": "VANMARCKE Sep",
       "rider_url": "rider/sep-vanmarcke",
+      "rider_number": 18,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 95,
@@ -4123,6 +4401,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 152,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 96,
@@ -4136,6 +4415,7 @@
     {
       "rider_name": "HAGA Chad",
       "rider_url": "rider/chad-haga",
+      "rider_number": 35,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 97,
@@ -4149,6 +4429,7 @@
     {
       "rider_name": "MOLARD Rudy",
       "rider_url": "rider/rudy-molard",
+      "rider_number": 156,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 98,
@@ -4162,6 +4443,7 @@
     {
       "rider_name": "BAUER Jack",
       "rider_url": "rider/jack-bauer",
+      "rider_number": 62,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 99,
@@ -4175,6 +4457,7 @@
     {
       "rider_name": "LE GAC Olivier",
       "rider_url": "rider/olivier-le-gac",
+      "rider_number": 154,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 100,
@@ -4188,6 +4471,7 @@
     {
       "rider_name": "MARTIN Guillaume",
       "rider_url": "rider/guillaume-martin",
+      "rider_number": 211,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 101,
@@ -4201,6 +4485,7 @@
     {
       "rider_name": "BOUET Maxime",
       "rider_url": "rider/maxime-bouet",
+      "rider_number": 42,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 102,
@@ -4214,6 +4499,7 @@
     {
       "rider_name": "K\u00dcNG Stefan",
       "rider_url": "rider/stefan-kung",
+      "rider_number": 85,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 103,
@@ -4227,6 +4513,7 @@
     {
       "rider_name": "KOREN Kristijan",
       "rider_url": "rider/kristijan-koren",
+      "rider_number": 56,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 104,
@@ -4240,6 +4527,7 @@
     {
       "rider_name": "TOLHOEK Antwan",
       "rider_url": "rider/antwan-tolhoek",
+      "rider_number": 168,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 105,
@@ -4253,6 +4541,7 @@
     {
       "rider_name": "KRAGH ANDERSEN S\u00f8ren",
       "rider_url": "rider/soren-kragh-andersen",
+      "rider_number": 36,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 106,
@@ -4266,6 +4555,7 @@
     {
       "rider_name": "DEGAND Thomas",
       "rider_url": "rider/thomas-degand",
+      "rider_number": 212,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 107,
@@ -4279,6 +4569,7 @@
     {
       "rider_name": "SIMON Julien",
       "rider_url": "rider/julien-simon",
+      "rider_number": 207,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 108,
@@ -4292,6 +4583,7 @@
     {
       "rider_name": "DURBRIDGE Luke",
       "rider_url": "rider/luke-durbridge",
+      "rider_number": 63,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 109,
@@ -4305,6 +4597,7 @@
     {
       "rider_name": "VAN GARDEREN Tejay",
       "rider_url": "rider/tejay-van-garderen",
+      "rider_number": 88,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 110,
@@ -4318,6 +4611,7 @@
     {
       "rider_name": "TEN DAM Laurens",
       "rider_url": "rider/laurens-ten-dam",
+      "rider_number": 37,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 111,
@@ -4331,6 +4625,7 @@
     {
       "rider_name": "ERVITI Imanol",
       "rider_url": "rider/imanol-erviti",
+      "rider_number": 74,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 112,
@@ -4344,6 +4639,7 @@
     {
       "rider_name": "NAESEN Oliver",
       "rider_url": "rider/oliver-naesen",
+      "rider_number": 27,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 113,
@@ -4357,6 +4653,7 @@
     {
       "rider_name": "HARDY Romain",
       "rider_url": "rider/romain-hardy",
+      "rider_number": 44,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 114,
@@ -4370,6 +4667,7 @@
     {
       "rider_name": "AMADOR Andrey",
       "rider_url": "rider/andrey-amador",
+      "rider_number": 72,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 115,
@@ -4383,6 +4681,7 @@
     {
       "rider_name": "HANSEN Jesper",
       "rider_url": "rider/jesper-hansen-1",
+      "rider_number": 124,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 116,
@@ -4396,6 +4695,7 @@
     {
       "rider_name": "PELLIZOTTI Franco",
       "rider_url": "rider/franco-pellizotti",
+      "rider_number": 57,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 117,
@@ -4409,6 +4709,7 @@
     {
       "rider_name": "ATAPUMA Darwin",
       "rider_url": "rider/darwin-atapuma",
+      "rider_number": 92,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 118,
@@ -4422,6 +4723,7 @@
     {
       "rider_name": "LUDVIGSSON Tobias",
       "rider_url": "rider/tobias-ludvigsson",
+      "rider_number": 155,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 119,
@@ -4435,6 +4737,7 @@
     {
       "rider_name": "SUTHERLAND Rory",
       "rider_url": "rider/rory-sutherland",
+      "rider_number": 97,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 120,
@@ -4448,6 +4751,7 @@
     {
       "rider_name": "HEPBURN Michael",
       "rider_url": "rider/michael-hepburn",
+      "rider_number": 65,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 121,
@@ -4466,6 +4770,7 @@
     {
       "rider_name": "ROGLI\u010c Primo\u017e",
       "rider_url": "rider/primoz-roglic",
+      "rider_number": 166,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 1,
@@ -4480,6 +4785,7 @@
     {
       "rider_name": "THOMAS Geraint",
       "rider_url": "rider/geraint-thomas",
+      "rider_number": 8,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 2,
@@ -4494,6 +4800,7 @@
     {
       "rider_name": "BARDET Romain",
       "rider_url": "rider/romain-bardet",
+      "rider_number": 21,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 3,
@@ -4508,6 +4815,7 @@
     {
       "rider_name": "MARTIN Dan",
       "rider_url": "rider/dan-martin",
+      "rider_number": 91,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 4,
@@ -4522,6 +4830,7 @@
     {
       "rider_name": "MAJKA Rafa\u0142",
       "rider_url": "rider/rafal-majka",
+      "rider_number": 114,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 5,
@@ -4536,6 +4845,7 @@
     {
       "rider_name": "DUMOULIN Tom",
       "rider_url": "rider/tom-dumoulin",
+      "rider_number": 32,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 6,
@@ -4550,6 +4860,7 @@
     {
       "rider_name": "LANDA Mikel",
       "rider_url": "rider/mikel-landa",
+      "rider_number": 75,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 7,
@@ -4564,6 +4875,7 @@
     {
       "rider_name": "FROOME Chris",
       "rider_url": "rider/christopher-froome",
+      "rider_number": 1,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 8,
@@ -4578,6 +4890,7 @@
     {
       "rider_name": "KRUIJSWIJK Steven",
       "rider_url": "rider/steven-kruijswijk",
+      "rider_number": 161,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 9,
@@ -4592,6 +4905,7 @@
     {
       "rider_name": "ZAKARIN Ilnur",
       "rider_url": "rider/ilnur-zakarin",
+      "rider_number": 141,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 10,
@@ -4606,6 +4920,7 @@
     {
       "rider_name": "IZAGIRRE Gorka",
       "rider_url": "rider/gorka-izagirre",
+      "rider_number": 54,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 11,
@@ -4620,6 +4935,7 @@
     {
       "rider_name": "JUNGELS Bob",
       "rider_url": "rider/bob-jungels",
+      "rider_number": 105,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 12,
@@ -4634,6 +4950,7 @@
     {
       "rider_name": "BERNAL Egan",
       "rider_url": "rider/egan-bernal",
+      "rider_number": 2,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 13,
@@ -4648,6 +4965,7 @@
     {
       "rider_name": "POZZOVIVO Domenico",
       "rider_url": "rider/domenico-pozzovivo",
+      "rider_number": 58,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 14,
@@ -4662,6 +4980,7 @@
     {
       "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
+      "rider_number": 55,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 15,
@@ -4676,6 +4995,7 @@
     {
       "rider_name": "KANGERT Tanel",
       "rider_url": "rider/tanel-kangert",
+      "rider_number": 125,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 16,
@@ -4690,6 +5010,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 26,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 17,
@@ -4704,6 +5025,7 @@
     {
       "rider_name": "TOLHOEK Antwan",
       "rider_url": "rider/antwan-tolhoek",
+      "rider_number": 168,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 18,
@@ -4718,6 +5040,7 @@
     {
       "rider_name": "QUINTANA Nairo",
       "rider_url": "rider/nairo-quintana",
+      "rider_number": 71,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 19,
@@ -4732,6 +5055,7 @@
     {
       "rider_name": "FUGLSANG Jakob",
       "rider_url": "rider/jakob-fuglsang",
+      "rider_number": 121,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 20,
@@ -4746,6 +5070,7 @@
     {
       "rider_name": "CARUSO Damiano",
       "rider_url": "rider/damiano-caruso",
+      "rider_number": 83,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 21,
@@ -4760,6 +5085,7 @@
     {
       "rider_name": "GESCHKE Simon",
       "rider_url": "rider/simon-geschke",
+      "rider_number": 34,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 22,
@@ -4774,6 +5100,7 @@
     {
       "rider_name": "BARGUIL Warren",
       "rider_url": "rider/warren-barguil",
+      "rider_number": 41,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 23,
@@ -4788,6 +5115,7 @@
     {
       "rider_name": "NIEVE Mikel",
       "rider_url": "rider/mikel-nieve",
+      "rider_number": 68,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 24,
@@ -4802,6 +5130,7 @@
     {
       "rider_name": "VAN GARDEREN Tejay",
       "rider_url": "rider/tejay-van-garderen",
+      "rider_number": 88,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 25,
@@ -4816,6 +5145,7 @@
     {
       "rider_name": "GESINK Robert",
       "rider_url": "rider/robert-gesink",
+      "rider_number": 162,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 26,
@@ -4830,6 +5160,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 152,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 27,
@@ -4844,6 +5175,7 @@
     {
       "rider_name": "VALVERDE Alejandro",
       "rider_url": "rider/alejandro-valverde",
+      "rider_number": 78,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 28,
@@ -4858,6 +5190,7 @@
     {
       "rider_name": "NAVARRO Daniel",
       "rider_url": "rider/daniel-navarro",
+      "rider_number": 205,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 29,
@@ -4872,6 +5205,7 @@
     {
       "rider_name": "HANSEN Jesper",
       "rider_url": "rider/jesper-hansen-1",
+      "rider_number": 124,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 30,
@@ -4886,6 +5220,7 @@
     {
       "rider_name": "MARTIN Guillaume",
       "rider_url": "rider/guillaume-martin",
+      "rider_number": 211,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 31,
@@ -4900,6 +5235,7 @@
     {
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
+      "rider_number": 16,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 32,
@@ -4914,6 +5250,7 @@
     {
       "rider_name": "BOUET Maxime",
       "rider_url": "rider/maxime-bouet",
+      "rider_number": 42,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 33,
@@ -4928,6 +5265,7 @@
     {
       "rider_name": "\u0110URASEK Kristijan",
       "rider_url": "rider/kristijan-durasek",
+      "rider_number": 93,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": null,
@@ -4942,6 +5280,7 @@
     {
       "rider_name": "KWIATKOWSKI Micha\u0142",
       "rider_url": "rider/michal-kwiatkowski",
+      "rider_number": 4,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 35,
@@ -4956,6 +5295,7 @@
     {
       "rider_name": "ALAPHILIPPE Julian",
       "rider_url": "rider/julian-alaphilippe",
+      "rider_number": 101,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 36,
@@ -4970,6 +5310,7 @@
     {
       "rider_name": "CASTROVIEJO Jonathan",
       "rider_url": "rider/jonathan-castroviejo",
+      "rider_number": 3,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 37,
@@ -4984,6 +5325,7 @@
     {
       "rider_name": "BERNARD Julien",
       "rider_url": "rider/julien-bernard",
+      "rider_number": 192,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 38,
@@ -4998,6 +5340,7 @@
     {
       "rider_name": "TEN DAM Laurens",
       "rider_url": "rider/laurens-ten-dam",
+      "rider_number": 37,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 39,
@@ -5012,6 +5355,7 @@
     {
       "rider_name": "SOLER Marc",
       "rider_url": "rider/marc-soler",
+      "rider_number": 77,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 40,
@@ -5026,6 +5370,7 @@
     {
       "rider_name": "SLAGTER Tom-Jelte",
       "rider_url": "rider/tom-jelte-slagter",
+      "rider_number": 136,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 41,
@@ -5040,6 +5385,7 @@
     {
       "rider_name": "YATES Adam",
       "rider_url": "rider/adam-yates",
+      "rider_number": 61,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 42,
@@ -5054,6 +5400,7 @@
     {
       "rider_name": "DILLIER Silvan",
       "rider_url": "rider/silvan-dillier",
+      "rider_number": 22,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 43,
@@ -5068,6 +5415,7 @@
     {
       "rider_name": "SCH\u00c4R Michael",
       "rider_url": "rider/michael-schar",
+      "rider_number": 86,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 44,
@@ -5082,6 +5430,7 @@
     {
       "rider_name": "MOLARD Rudy",
       "rider_url": "rider/rudy-molard",
+      "rider_number": 156,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 45,
@@ -5096,6 +5445,7 @@
     {
       "rider_name": "NAESEN Oliver",
       "rider_url": "rider/oliver-naesen",
+      "rider_number": 27,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 46,
@@ -5110,6 +5460,7 @@
     {
       "rider_name": "KOCHETKOV Pavel",
       "rider_url": "rider/pavel-kochetkov",
+      "rider_number": 145,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 47,
@@ -5124,6 +5475,7 @@
     {
       "rider_name": "VAN KEIRSBULCK Guillaume",
       "rider_url": "rider/guillaume-van-keirsbulck",
+      "rider_number": 218,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 48,
@@ -5138,6 +5490,7 @@
     {
       "rider_name": "CHAVANEL Sylvain",
       "rider_url": "rider/sylvain-chavanel",
+      "rider_number": 183,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 49,
@@ -5152,6 +5505,7 @@
     {
       "rider_name": "DE GENDT Thomas",
       "rider_url": "rider/thomas-de-gendt",
+      "rider_number": 174,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 50,
@@ -5166,6 +5520,7 @@
     {
       "rider_name": "K\u00dcNG Stefan",
       "rider_url": "rider/stefan-kung",
+      "rider_number": 85,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 51,
@@ -5180,6 +5535,7 @@
     {
       "rider_name": "DE KORT Koen",
       "rider_url": "rider/koen-de-kort",
+      "rider_number": 193,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 52,
@@ -5194,6 +5550,7 @@
     {
       "rider_name": "LEDANOIS K\u00e9vin",
       "rider_url": "rider/kevin-ledanois",
+      "rider_number": 45,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 53,
@@ -5208,6 +5565,7 @@
     {
       "rider_name": "ARNDT Nikias",
       "rider_url": "rider/nikias-arndt",
+      "rider_number": 33,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 54,
@@ -5222,6 +5580,7 @@
     {
       "rider_name": "ERVITI Imanol",
       "rider_url": "rider/imanol-erviti",
+      "rider_number": 74,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 55,
@@ -5236,6 +5595,7 @@
     {
       "rider_name": "FRAILE Omar",
       "rider_url": "rider/omar-fraile",
+      "rider_number": 122,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 56,
@@ -5250,6 +5610,7 @@
     {
       "rider_name": "BURGHARDT Marcus",
       "rider_url": "rider/marcus-burghardt",
+      "rider_number": 113,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 57,
@@ -5264,6 +5625,7 @@
     {
       "rider_name": "MARCZY\u0143SKI Tomasz",
       "rider_url": "rider/tomasz-marczynski",
+      "rider_number": 176,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 58,
@@ -5278,6 +5640,7 @@
     {
       "rider_name": "DEGAND Thomas",
       "rider_url": "rider/thomas-degand",
+      "rider_number": 212,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 59,
@@ -5292,6 +5655,7 @@
     {
       "rider_name": "FRANK Mathias",
       "rider_url": "rider/mathias-frank",
+      "rider_number": 24,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 60,
@@ -5306,6 +5670,7 @@
     {
       "rider_name": "VERMOTE Julien",
       "rider_url": "rider/julien-vermote",
+      "rider_number": 138,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 61,
@@ -5320,6 +5685,7 @@
     {
       "rider_name": "GERRANS Simon",
       "rider_url": "rider/simon-gerrans",
+      "rider_number": 84,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 62,
@@ -5334,6 +5700,7 @@
     {
       "rider_name": "OFFREDO Yoann",
       "rider_url": "rider/yoann-offredo",
+      "rider_number": 215,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 63,
@@ -5348,6 +5715,7 @@
     {
       "rider_name": "VAN AVERMAET Greg",
       "rider_url": "rider/greg-van-avermaet",
+      "rider_number": 87,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 64,
@@ -5362,6 +5730,7 @@
     {
       "rider_name": "ATAPUMA Darwin",
       "rider_url": "rider/darwin-atapuma",
+      "rider_number": 92,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 65,
@@ -5376,6 +5745,7 @@
     {
       "rider_name": "PICHON Laurent",
       "rider_url": "rider/laurent-pichon",
+      "rider_number": 47,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 66,
@@ -5390,6 +5760,7 @@
     {
       "rider_name": "KRAGH ANDERSEN S\u00f8ren",
       "rider_url": "rider/soren-kragh-andersen",
+      "rider_number": 36,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 67,
@@ -5404,6 +5775,7 @@
     {
       "rider_name": "IMPEY Daryl",
       "rider_url": "rider/daryl-impey",
+      "rider_number": 67,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 68,
@@ -5418,6 +5790,7 @@
     {
       "rider_name": "PELLIZOTTI Franco",
       "rider_url": "rider/franco-pellizotti",
+      "rider_number": 57,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 69,
@@ -5432,6 +5805,7 @@
     {
       "rider_name": "CLARKE Simon",
       "rider_url": "rider/simon-clarke",
+      "rider_number": 12,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 70,
@@ -5446,6 +5820,7 @@
     {
       "rider_name": "VACHON Florian",
       "rider_url": "rider/florian-vachon",
+      "rider_number": 48,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 71,
@@ -5460,6 +5835,7 @@
     {
       "rider_name": "MARTENS Paul",
       "rider_url": "rider/paul-martens",
+      "rider_number": 165,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 72,
@@ -5474,6 +5850,7 @@
     {
       "rider_name": "M\u00dcHLBERGER Gregor",
       "rider_url": "rider/gregor-muhlberger",
+      "rider_number": 115,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 73,
@@ -5488,6 +5865,7 @@
     {
       "rider_name": "GESBERT \u00c9lie",
       "rider_url": "rider/elie-gesbert",
+      "rider_number": 43,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 74,
@@ -5502,6 +5880,7 @@
     {
       "rider_name": "POLJA\u0143SKI Pawe\u0142",
       "rider_url": "rider/pawel-poljanski",
+      "rider_number": 117,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 75,
@@ -5516,6 +5895,7 @@
     {
       "rider_name": "CALMEJANE Lilian",
       "rider_url": "rider/lilian-calmejane",
+      "rider_number": 181,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 76,
@@ -5530,6 +5910,7 @@
     {
       "rider_name": "HARDY Romain",
       "rider_url": "rider/romain-hardy",
+      "rider_number": 44,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 77,
@@ -5544,6 +5925,7 @@
     {
       "rider_name": "HAYMAN Mathew",
       "rider_url": "rider/mathew-hayman",
+      "rider_number": 64,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 78,
@@ -5558,6 +5940,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 14,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 79,
@@ -5572,6 +5955,7 @@
     {
       "rider_name": "HERRADA Jes\u00fas",
       "rider_url": "rider/jesus-herrada-lopez",
+      "rider_number": 204,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 80,
@@ -5586,6 +5970,7 @@
     {
       "rider_name": "CORT Magnus",
       "rider_url": "rider/magnus-cort-nielsen",
+      "rider_number": 126,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 81,
@@ -5600,6 +5985,7 @@
     {
       "rider_name": "HAGA Chad",
       "rider_url": "rider/chad-haga",
+      "rider_number": 35,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 82,
@@ -5614,6 +6000,7 @@
     {
       "rider_name": "ROOSEN Timo",
       "rider_url": "rider/timo-roosen",
+      "rider_number": 167,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 83,
@@ -5628,6 +6015,7 @@
     {
       "rider_name": "LAPORTE Christophe",
       "rider_url": "rider/christophe-laporte",
+      "rider_number": 201,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 84,
@@ -5642,6 +6030,7 @@
     {
       "rider_name": "POELS Wout",
       "rider_url": "rider/wout-poels",
+      "rider_number": 6,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 85,
@@ -5656,6 +6045,7 @@
     {
       "rider_name": "MOLLEMA Bauke",
       "rider_url": "rider/bauke-mollema",
+      "rider_number": 191,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 86,
@@ -5670,6 +6060,7 @@
     {
       "rider_name": "VICHOT Arthur",
       "rider_url": "rider/arthur-vichot",
+      "rider_number": 158,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 87,
@@ -5684,6 +6075,7 @@
     {
       "rider_name": "POLITT Nils",
       "rider_url": "rider/nils-politt",
+      "rider_number": 147,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 88,
@@ -5698,6 +6090,7 @@
     {
       "rider_name": "BOUDAT Thomas",
       "rider_url": "rider/thomas-boudat",
+      "rider_number": 182,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 89,
@@ -5712,6 +6105,7 @@
     {
       "rider_name": "TURGIS Anthony",
       "rider_url": "rider/anthony-turgis",
+      "rider_number": 208,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 90,
@@ -5726,6 +6120,7 @@
     {
       "rider_name": "EDET Nicolas",
       "rider_url": "rider/nicolas-edet",
+      "rider_number": 203,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 91,
@@ -5740,6 +6135,7 @@
     {
       "rider_name": "SUTHERLAND Rory",
       "rider_url": "rider/rory-sutherland",
+      "rider_number": 97,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 92,
@@ -5754,6 +6150,7 @@
     {
       "rider_name": "MINNAARD Marco",
       "rider_url": "rider/marco-minnaard",
+      "rider_number": 214,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 93,
@@ -5768,6 +6165,7 @@
     {
       "rider_name": "SKUJI\u0145\u0160 Toms",
       "rider_url": "rider/toms-skujins",
+      "rider_number": 197,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 94,
@@ -5782,6 +6180,7 @@
     {
       "rider_name": "VALGREN Michael",
       "rider_url": "rider/michael-valgren-andersen",
+      "rider_number": 128,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 95,
@@ -5796,6 +6195,7 @@
     {
       "rider_name": "AMADOR Andrey",
       "rider_url": "rider/andrey-amador",
+      "rider_number": 72,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 96,
@@ -5810,6 +6210,7 @@
     {
       "rider_name": "MOINARD Ama\u00ebl",
       "rider_url": "rider/amael-moinard",
+      "rider_number": 46,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 97,
@@ -5824,6 +6225,7 @@
     {
       "rider_name": "SMITH Dion",
       "rider_url": "rider/dion-smith",
+      "rider_number": 217,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 98,
@@ -5838,6 +6240,7 @@
     {
       "rider_name": "JANSEN Amund Gr\u00f8ndahl",
       "rider_url": "rider/amund-grondahl-jansen",
+      "rider_number": 164,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 99,
@@ -5852,6 +6255,7 @@
     {
       "rider_name": "GRELLIER Fabien",
       "rider_url": "rider/fabien-grellier",
+      "rider_number": 186,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 100,
@@ -5866,6 +6270,7 @@
     {
       "rider_name": "COUSIN J\u00e9r\u00f4me",
       "rider_url": "rider/jerome-cousin",
+      "rider_number": 184,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 101,
@@ -5880,6 +6285,7 @@
     {
       "rider_name": "SICARD Romain",
       "rider_url": "rider/romain-sicard",
+      "rider_number": 187,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 102,
@@ -5894,6 +6300,7 @@
     {
       "rider_name": "BOSWELL Ian",
       "rider_url": "rider/ian-boswell",
+      "rider_number": 142,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 103,
@@ -5908,6 +6315,7 @@
     {
       "rider_name": "BENNATI Daniele",
       "rider_url": "rider/daniele-bennati",
+      "rider_number": 73,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 104,
@@ -5922,6 +6330,7 @@
     {
       "rider_name": "BOASSON HAGEN Edvald",
       "rider_url": "rider/edvald-boasson-hagen",
+      "rider_number": 132,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 105,
@@ -5936,6 +6345,7 @@
     {
       "rider_name": "CLAEYS Dimitri",
       "rider_url": "rider/dimitri-claeys",
+      "rider_number": 202,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 106,
@@ -5950,6 +6360,7 @@
     {
       "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
+      "rider_number": 206,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 107,
@@ -5964,6 +6375,7 @@
     {
       "rider_name": "LUDVIGSSON Tobias",
       "rider_url": "rider/tobias-ludvigsson",
+      "rider_number": 155,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 108,
@@ -5978,6 +6390,7 @@
     {
       "rider_name": "STUYVEN Jasper",
       "rider_url": "rider/jasper-stuyven",
+      "rider_number": 198,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 109,
@@ -5992,6 +6405,7 @@
     {
       "rider_name": "ROWE Luke",
       "rider_url": "rider/luke-rowe",
+      "rider_number": 7,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 110,
@@ -6006,6 +6420,7 @@
     {
       "rider_name": "GAUDIN Damien",
       "rider_url": "rider/damien-gaudin",
+      "rider_number": 185,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 111,
@@ -6020,6 +6435,7 @@
     {
       "rider_name": "SIMON Julien",
       "rider_url": "rider/julien-simon",
+      "rider_number": 207,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 112,
@@ -6034,6 +6450,7 @@
     {
       "rider_name": "DUPONT Timothy",
       "rider_url": "rider/timothy-dupont",
+      "rider_number": 213,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 113,
@@ -6048,6 +6465,7 @@
     {
       "rider_name": "THEUNS Edward",
       "rider_url": "rider/edward-theuns",
+      "rider_number": 38,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 114,
@@ -6062,6 +6480,7 @@
     {
       "rider_name": "HEPBURN Michael",
       "rider_url": "rider/michael-hepburn",
+      "rider_number": 65,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 115,
@@ -6076,6 +6495,7 @@
     {
       "rider_name": "MARCATO Marco",
       "rider_url": "rider/marco-marcato",
+      "rider_number": 96,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 116,
@@ -6090,6 +6510,7 @@
     {
       "rider_name": "HAUSSLER Heinrich",
       "rider_url": "rider/heinrich-haussler",
+      "rider_number": 53,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 117,
@@ -6104,6 +6525,7 @@
     {
       "rider_name": "DURBRIDGE Luke",
       "rider_url": "rider/luke-durbridge",
+      "rider_number": 63,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 118,
@@ -6118,6 +6540,7 @@
     {
       "rider_name": "TROIA Oliviero",
       "rider_url": "rider/oliviero-troia",
+      "rider_number": 98,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 119,
@@ -6132,6 +6555,7 @@
     {
       "rider_name": "KRISTOFF Alexander",
       "rider_url": "rider/alexander-kristoff",
+      "rider_number": 95,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 120,
@@ -6146,6 +6570,7 @@
     {
       "rider_name": "COLBRELLI Sonny",
       "rider_url": "rider/sonny-colbrelli",
+      "rider_number": 52,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 121,
@@ -6160,6 +6585,7 @@
     {
       "rider_name": "BAUER Jack",
       "rider_url": "rider/jack-bauer",
+      "rider_number": 62,
       "team_name": "Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 122,
@@ -6174,6 +6600,7 @@
     {
       "rider_name": "VANMARCKE Sep",
       "rider_url": "rider/sep-vanmarcke",
+      "rider_number": 18,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 123,
@@ -6188,6 +6615,7 @@
     {
       "rider_name": "DE BUYST Jasper",
       "rider_url": "rider/jasper-de-buyst",
+      "rider_number": 173,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 124,
@@ -6202,6 +6630,7 @@
     {
       "rider_name": "LAMPAERT Yves",
       "rider_url": "rider/yves-lampaert",
+      "rider_number": 106,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 125,
@@ -6216,6 +6645,7 @@
     {
       "rider_name": "JANSE VAN RENSBURG Reinardt",
       "rider_url": "rider/reinardt-janse-van-rensburg",
+      "rider_number": 133,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 126,
@@ -6230,6 +6660,7 @@
     {
       "rider_name": "THOMSON Jay Robert",
       "rider_url": "rider/jay-robert-thomson",
+      "rider_number": 137,
       "team_name": "Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 127,
@@ -6244,6 +6675,7 @@
     {
       "rider_name": "FERRARI Roberto",
       "rider_url": "rider/roberto-ferrari",
+      "rider_number": 94,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 128,
@@ -6258,6 +6690,7 @@
     {
       "rider_name": "KOREN Kristijan",
       "rider_url": "rider/kristijan-koren",
+      "rider_number": 56,
       "team_name": "Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 129,
@@ -6272,6 +6705,7 @@
     {
       "rider_name": "PASQUALON Andrea",
       "rider_url": "rider/andrea-pasqualon",
+      "rider_number": 216,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 130,
@@ -6286,6 +6720,7 @@
     {
       "rider_name": "TERPSTRA Niki",
       "rider_url": "rider/niki-terpstra",
+      "rider_number": 108,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 131,
@@ -6300,6 +6735,7 @@
     {
       "rider_name": "SCULLY Tom",
       "rider_url": "rider/thomas-scully",
+      "rider_number": 17,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 132,
@@ -6314,6 +6750,7 @@
     {
       "rider_name": "SINKELDAM Ramon",
       "rider_url": "rider/ramon-sinkeldam",
+      "rider_number": 157,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 133,
@@ -6328,6 +6765,7 @@
     {
       "rider_name": "DEGENKOLB John",
       "rider_url": "rider/john-degenkolb",
+      "rider_number": 194,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 134,
@@ -6342,6 +6780,7 @@
     {
       "rider_name": "LE GAC Olivier",
       "rider_url": "rider/olivier-le-gac",
+      "rider_number": 154,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 135,
@@ -6356,6 +6795,7 @@
     {
       "rider_name": "BODNAR Maciej",
       "rider_url": "rider/maciej-bodnar",
+      "rider_number": 112,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 136,
@@ -6370,6 +6810,7 @@
     {
       "rider_name": "GOGL Michael",
       "rider_url": "rider/michael-gogl",
+      "rider_number": 195,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 137,
@@ -6384,6 +6825,7 @@
     {
       "rider_name": "GUARNIERI Jacopo",
       "rider_url": "rider/jacopo-guarnieri",
+      "rider_number": 153,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 138,
@@ -6398,6 +6840,7 @@
     {
       "rider_name": "D\u00c9MARE Arnaud",
       "rider_url": "rider/arnaud-demare",
+      "rider_number": 151,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 139,
@@ -6412,6 +6855,7 @@
     {
       "rider_name": "P\u00d6STLBERGER Lukas",
       "rider_url": "rider/lukas-postlberger",
+      "rider_number": 118,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 140,
@@ -6426,6 +6870,7 @@
     {
       "rider_name": "OSS Daniel",
       "rider_url": "rider/daniel-oss",
+      "rider_number": 116,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 141,
@@ -6440,6 +6885,7 @@
     {
       "rider_name": "RICHEZE Maximiliano",
       "rider_url": "rider/ariel-maximiliano-richeze",
+      "rider_number": 107,
       "team_name": "Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 142,
@@ -6454,6 +6900,7 @@
     {
       "rider_name": "SAGAN Peter",
       "rider_url": "rider/peter-sagan",
+      "rider_number": 111,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 143,
@@ -6468,6 +6915,7 @@
     {
       "rider_name": "CRADDOCK Lawson",
       "rider_url": "rider/lawson-craddock",
+      "rider_number": 13,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 144,
@@ -6482,6 +6930,7 @@
     {
       "rider_name": "PHINNEY Taylor",
       "rider_url": "rider/taylor-phinney",
+      "rider_number": 15,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 145,
@@ -6496,6 +6945,7 @@
     {
       "rider_name": "VANENDERT Jelle",
       "rider_url": "rider/jelle-vanendert",
+      "rider_number": 178,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": null,
@@ -6695,6 +7145,7 @@
     {
       "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
+      "rider_number": 26,
       "team_name": "AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 1,
@@ -6708,6 +7159,7 @@
     {
       "rider_name": "BERNAL Egan",
       "rider_url": "rider/egan-bernal",
+      "rider_number": 2,
       "team_name": "Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 2,
@@ -6721,6 +7173,7 @@
     {
       "rider_name": "MARTIN Guillaume",
       "rider_url": "rider/guillaume-martin",
+      "rider_number": 211,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 3,
@@ -6734,6 +7187,7 @@
     {
       "rider_name": "GAUDU David",
       "rider_url": "rider/david-gaudu",
+      "rider_number": 152,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 4,
@@ -6747,6 +7201,7 @@
     {
       "rider_name": "TOLHOEK Antwan",
       "rider_url": "rider/antwan-tolhoek",
+      "rider_number": 168,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 5,
@@ -6760,6 +7215,7 @@
     {
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
+      "rider_number": 14,
       "team_name": "Team EF Education First-Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 6,
@@ -6773,6 +7229,7 @@
     {
       "rider_name": "KRAGH ANDERSEN S\u00f8ren",
       "rider_url": "rider/soren-kragh-andersen",
+      "rider_number": 36,
       "team_name": "Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 7,
@@ -6786,6 +7243,7 @@
     {
       "rider_name": "K\u00dcNG Stefan",
       "rider_url": "rider/stefan-kung",
+      "rider_number": 85,
       "team_name": "BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 8,
@@ -6799,6 +7257,7 @@
     {
       "rider_name": "SOLER Marc",
       "rider_url": "rider/marc-soler",
+      "rider_number": 77,
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 9,
@@ -6812,6 +7271,7 @@
     {
       "rider_name": "CORT Magnus",
       "rider_url": "rider/magnus-cort-nielsen",
+      "rider_number": 126,
       "team_name": "Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 10,
@@ -6825,6 +7285,7 @@
     {
       "rider_name": "M\u00dcHLBERGER Gregor",
       "rider_url": "rider/gregor-muhlberger",
+      "rider_number": 115,
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 11,
@@ -6838,6 +7299,7 @@
     {
       "rider_name": "GESBERT \u00c9lie",
       "rider_url": "rider/elie-gesbert",
+      "rider_number": 43,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 12,
@@ -6851,6 +7313,7 @@
     {
       "rider_name": "POLITT Nils",
       "rider_url": "rider/nils-politt",
+      "rider_number": 147,
       "team_name": "Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 13,
@@ -6864,6 +7327,7 @@
     {
       "rider_name": "BOUDAT Thomas",
       "rider_url": "rider/thomas-boudat",
+      "rider_number": 182,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 14,
@@ -6877,6 +7341,7 @@
     {
       "rider_name": "LEDANOIS K\u00e9vin",
       "rider_url": "rider/kevin-ledanois",
+      "rider_number": 45,
       "team_name": "Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 15,
@@ -6890,6 +7355,7 @@
     {
       "rider_name": "SMITH Dion",
       "rider_url": "rider/dion-smith",
+      "rider_number": 217,
       "team_name": "Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 16,
@@ -6903,6 +7369,7 @@
     {
       "rider_name": "GOGL Michael",
       "rider_url": "rider/michael-gogl",
+      "rider_number": 195,
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 17,
@@ -6916,6 +7383,7 @@
     {
       "rider_name": "TURGIS Anthony",
       "rider_url": "rider/anthony-turgis",
+      "rider_number": 208,
       "team_name": "Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 18,
@@ -6929,6 +7397,7 @@
     {
       "rider_name": "GRELLIER Fabien",
       "rider_url": "rider/fabien-grellier",
+      "rider_number": 186,
       "team_name": "Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 19,
@@ -6942,6 +7411,7 @@
     {
       "rider_name": "LE GAC Olivier",
       "rider_url": "rider/olivier-le-gac",
+      "rider_number": 154,
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 20,
@@ -6955,6 +7425,7 @@
     {
       "rider_name": "TROIA Oliviero",
       "rider_url": "rider/oliviero-troia",
+      "rider_number": 98,
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 21,
@@ -6968,6 +7439,7 @@
     {
       "rider_name": "ROOSEN Timo",
       "rider_url": "rider/timo-roosen",
+      "rider_number": 167,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 22,
@@ -6981,6 +7453,7 @@
     {
       "rider_name": "JANSEN Amund Gr\u00f8ndahl",
       "rider_url": "rider/amund-grondahl-jansen",
+      "rider_number": 164,
       "team_name": "Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 23,
@@ -6994,6 +7467,7 @@
     {
       "rider_name": "DE BUYST Jasper",
       "rider_url": "rider/jasper-de-buyst",
+      "rider_number": 173,
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 24,
