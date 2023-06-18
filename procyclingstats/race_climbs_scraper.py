@@ -80,7 +80,7 @@ class RaceClimbs(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         table_html = self.html.css_first("table.basic")
         if table_html.css_first("tbody > tr") is None:
-            raise ExpectedParsingError("Climbs aren't listed on the page.")
+            return []
         table_parser = TableParser(table_html)
         casual_fields = [f for f in fields if f in ("climb_name", "climb_url")]
         table_parser.parse(casual_fields)
