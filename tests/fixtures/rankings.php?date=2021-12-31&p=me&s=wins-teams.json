@@ -2,7 +2,7 @@
   "dates_select": [
     {
       "text": "2023",
-      "value": "2023-02-26"
+      "value": "2023-06-23"
     },
     {
       "text": "2022",
@@ -572,7 +572,7 @@
     {
       "rank": 31,
       "prev_rank": 70,
-      "team_name": "Team Medellin - EPM",
+      "team_name": "Team Medell\u00edn - EPM",
       "team_url": "team/team-medellin-2021",
       "nationality": "CO",
       "class": "CT",
@@ -583,7 +583,7 @@
     {
       "rank": 32,
       "prev_rank": 27,
-      "team_name": "Bike Aid",
+      "team_name": "BIKE AID",
       "team_url": "team/bike-aid-2021",
       "nationality": "DE",
       "class": "CT",

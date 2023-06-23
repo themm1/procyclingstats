@@ -2,7 +2,7 @@
   "dates_select": [
     {
       "text": "2023",
-      "value": "2023-02-26"
+      "value": "2023-06-23"
     },
     {
       "text": "2022",
@@ -773,7 +773,7 @@
     {
       "rank": 43,
       "prev_rank": 36,
-      "team_name": "Bike Aid",
+      "team_name": "BIKE AID",
       "team_url": "team/bike-aid-2021",
       "nationality": "DE",
       "class": "CT",
@@ -881,7 +881,7 @@
     {
       "rank": 55,
       "prev_rank": 51,
-      "team_name": "Team Medellin - EPM",
+      "team_name": "Team Medell\u00edn - EPM",
       "team_url": "team/team-medellin-2021",
       "nationality": "CO",
       "class": "CT",
@@ -2355,21 +2355,12 @@
       "points": 1.0
     },
     {
-      "rank": 219,
-      "prev_rank": null,
-      "team_name": "Kometa U23",
-      "team_url": "team/kometa-u23-2021",
-      "nationality": "ES",
-      "class": "",
-      "points": 1.0
-    },
-    {
       "rank": 220,
       "prev_rank": null,
       "team_name": "Team Herning CK Elite",
       "team_url": "team/herning-elite-2021",
       "nationality": "DK",
-      "class": "",
+      "class": "CLUB",
       "points": 1.0
     }
   ],

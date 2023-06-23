@@ -2,7 +2,7 @@
   "dates_select": [
     {
       "text": "2023",
-      "value": "2023-02-26"
+      "value": "2023-06-23"
     },
     {
       "text": "2022",
@@ -475,6 +475,10 @@
       "value": "tr"
     },
     {
+      "text": "Uganda",
+      "value": "ug"
+    },
+    {
       "text": "Ukraine",
       "value": "ua"
     },
@@ -784,7 +788,7 @@
       "class": "2.UWT",
       "points": 468.0,
       "race_name": "BinckBank Tour",
-      "race_url": "race/benelux-tour/2020"
+      "race_url": "race/renewi-tour/2020"
     },
     {
       "rank": 31,
@@ -1009,7 +1013,7 @@
       "class": "1.1",
       "points": 253.0,
       "race_name": "Mont Ventoux D\u00e9nivel\u00e9 Challenge",
-      "race_url": "race/mont-ventoux-denivele-challenge/2020"
+      "race_url": "race/cic-mont-ventoux/2020"
     },
     {
       "rank": 56,
@@ -1243,7 +1247,7 @@
       "class": "2.1",
       "points": 114.0,
       "race_name": "Czech Tour",
-      "race_url": "race/sazka-tour/2020"
+      "race_url": "race/czech-tour/2020"
     },
     {
       "rank": 82,

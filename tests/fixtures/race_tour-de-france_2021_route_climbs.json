@@ -137,20 +137,20 @@
       "km_before_finnish": 15
     },
     {
-      "climb_name": "Col de Val Louron-Azet",
-      "climb_url": "location/col-de-val-louron-azet",
-      "length": 6.8,
-      "steepness": 7.9,
-      "top": 1533,
-      "km_before_finnish": 29
-    },
-    {
       "climb_name": "Col de la Croix des Morts",
       "climb_url": "location/col-de-la-croix-des-morts",
       "length": 6.8,
       "steepness": 5.8,
       "top": 902,
       "km_before_finnish": 73
+    },
+    {
+      "climb_name": "Col de Val Louron-Azet",
+      "climb_url": "location/col-de-val-louron-azet",
+      "length": 6.8,
+      "steepness": 7.9,
+      "top": 1533,
+      "km_before_finnish": 29
     },
     {
       "climb_name": "C\u00f4te de Copponex",
@@ -321,6 +321,14 @@
       "km_before_finnish": 78
     },
     {
+      "climb_name": "C\u00f4te de Glux-en-Glenne",
+      "climb_url": "location/cote-de-glux-en-glenne",
+      "length": 2.6,
+      "steepness": 4.0,
+      "top": 735,
+      "km_before_finnish": 71
+    },
+    {
       "climb_name": "C\u00f4te de Notre-Dame de Pi\u00e9tat",
       "climb_url": "location/cote-de-notre-dame-de-pietat",
       "length": 2.6,
@@ -335,22 +343,6 @@
       "steepness": 8.8,
       "top": 797,
       "km_before_finnish": 125
-    },
-    {
-      "climb_name": "C\u00f4te de Glux-en-Glenne",
-      "climb_url": "location/cote-de-glux-en-glenne",
-      "length": 2.6,
-      "steepness": 4.0,
-      "top": 735,
-      "km_before_finnish": 71
-    },
-    {
-      "climb_name": "C\u00f4te de la Gourloye",
-      "climb_url": "location/cote-de-la-gourloye",
-      "length": 2.5,
-      "steepness": 5.1,
-      "top": 457,
-      "km_before_finnish": 8
     },
     {
       "climb_name": "C\u00f4te de Saint-Rivoal",
@@ -369,20 +361,20 @@
       "km_before_finnish": 155
     },
     {
+      "climb_name": "C\u00f4te de la Gourloye",
+      "climb_url": "location/cote-de-la-gourloye",
+      "length": 2.5,
+      "steepness": 5.1,
+      "top": 457,
+      "km_before_finnish": 8
+    },
+    {
       "climb_name": "C\u00f4te de Saint-Aignan",
       "climb_url": "location/cote-de-saint-aignan",
       "length": 2.2,
       "steepness": 2.6,
       "top": 129,
       "km_before_finnish": 88
-    },
-    {
-      "climb_name": "C\u00f4te de Plum\u00e9liau",
-      "climb_url": "location/cote-de-plumeliau",
-      "length": 2.2,
-      "steepness": 3.0,
-      "top": 120,
-      "km_before_finnish": 34
     },
     {
       "climb_name": "C\u00f4te de Galinagues",
@@ -393,20 +385,20 @@
       "km_before_finnish": 57
     },
     {
+      "climb_name": "C\u00f4te de Plum\u00e9liau",
+      "climb_url": "location/cote-de-plumeliau",
+      "length": 2.2,
+      "steepness": 3.0,
+      "top": 120,
+      "km_before_finnish": 34
+    },
+    {
       "climb_name": "C\u00f4te de Pordic",
       "climb_url": "location/cote-de-pordic",
       "length": 2.2,
       "steepness": 3.1,
       "top": 81,
       "km_before_finnish": 80
-    },
-    {
-      "climb_name": "C\u00f4te de Loucrup",
-      "climb_url": "location/cote-de-loucrup",
-      "length": 2.0,
-      "steepness": 6.7,
-      "top": 527,
-      "km_before_finnish": 75
     },
     {
       "climb_name": "M\u00fbr-de-Bretagne",
@@ -431,6 +423,14 @@
       "steepness": 3.4,
       "top": 79,
       "km_before_finnish": 83
+    },
+    {
+      "climb_name": "C\u00f4te de Loucrup",
+      "climb_url": "location/cote-de-loucrup",
+      "length": 2.0,
+      "steepness": 6.7,
+      "top": 527,
+      "km_before_finnish": 75
     },
     {
       "climb_name": "C\u00f4te de Fontaine-de-Vaucluse",
@@ -465,14 +465,6 @@
       "km_before_finnish": 92
     },
     {
-      "climb_name": "Col du Rebout",
-      "climb_url": "location/col-du-rebout",
-      "length": 1.7,
-      "steepness": 3.9,
-      "top": 612,
-      "km_before_finnish": 65
-    },
-    {
       "climb_name": "C\u00f4te du village de M\u00fbr-de-Bretagne",
       "climb_url": "location/cote-du-village-de-mur-de-bretagne",
       "length": 1.7,
@@ -489,12 +481,28 @@
       "km_before_finnish": 50
     },
     {
+      "climb_name": "Col du Rebout",
+      "climb_url": "location/col-du-rebout",
+      "length": 1.7,
+      "steepness": 3.9,
+      "top": 612,
+      "km_before_finnish": 65
+    },
+    {
       "climb_name": "Col du Serre de Tourre",
       "climb_url": "location/col-du-serre-de-tourre",
       "length": 1.4,
       "steepness": 5.4,
       "top": 323,
       "km_before_finnish": 111
+    },
+    {
+      "climb_name": "C\u00f4te de Saint-Brieuc",
+      "climb_url": "location/cote-de-saint-brieuc",
+      "length": 1.0,
+      "steepness": 7.1,
+      "top": 84,
+      "km_before_finnish": 68
     },
     {
       "climb_name": "C\u00f4te de Tr\u00e9b\u00e9ollin",
@@ -505,12 +513,12 @@
       "km_before_finnish": 189
     },
     {
-      "climb_name": "C\u00f4te de Saint-Brieuc",
-      "climb_url": "location/cote-de-saint-brieuc",
-      "length": 1.0,
-      "steepness": 7.1,
-      "top": 84,
-      "km_before_finnish": 68
+      "climb_name": "C\u00f4te de Sainte-Barbe",
+      "climb_url": "location/cote-de-sainte-barbe",
+      "length": 0.9,
+      "steepness": 5.2,
+      "top": 67,
+      "km_before_finnish": 111
     },
     {
       "climb_name": "C\u00f4te de Locronan",
@@ -527,14 +535,6 @@
       "steepness": 6.3,
       "top": 467,
       "km_before_finnish": 7
-    },
-    {
-      "climb_name": "C\u00f4te de Sainte-Barbe",
-      "climb_url": "location/cote-de-sainte-barbe",
-      "length": 0.9,
-      "steepness": 5.2,
-      "top": 67,
-      "km_before_finnish": 111
     }
   ]
 }

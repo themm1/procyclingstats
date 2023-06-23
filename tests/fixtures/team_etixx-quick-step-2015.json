@@ -123,7 +123,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "385",
-      "ranking_position": 156,
+      "ranking_position": 155,
       "age": 30,
       "nationality": "GB",
       "rider_name": "CAVENDISH Mark"
@@ -132,8 +132,8 @@
       "rider_url": "rider/rigoberto-uran",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": "626",
-      "ranking_position": 74,
+      "ranking_points": "736",
+      "ranking_position": 53,
       "age": 28,
       "nationality": "CO",
       "rider_name": "UR\u00c1N Rigoberto"
@@ -143,7 +143,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "487",
-      "ranking_position": 111,
+      "ranking_position": 113,
       "age": 23,
       "nationality": "FR",
       "rider_name": "ALAPHILIPPE Julian"
@@ -162,8 +162,8 @@
       "rider_url": "rider/michal-kwiatkowski",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": "42",
-      "ranking_position": 831,
+      "ranking_points": "63",
+      "ranking_position": 663,
       "age": 25,
       "nationality": "PL",
       "rider_name": "KWIATKOWSKI Micha\u0142"
@@ -183,7 +183,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "732",
-      "ranking_position": 52,
+      "ranking_position": 54,
       "age": 25,
       "nationality": "IT",
       "rider_name": "TRENTIN Matteo"
@@ -193,7 +193,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "141",
-      "ranking_position": 383,
+      "ranking_position": 385,
       "age": 29,
       "nationality": "CZ",
       "rider_name": "\u0160TYBAR Zden\u011bk"
@@ -202,8 +202,8 @@
       "rider_url": "rider/yves-lampaert",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": "528",
-      "ranking_position": 97,
+      "ranking_points": "601",
+      "ranking_position": 79,
       "age": 24,
       "nationality": "BE",
       "rider_name": "LAMPAERT Yves"
@@ -213,7 +213,7 @@
       "since": "08-01",
       "until": "12-31",
       "ranking_points": "390",
-      "ranking_position": 154,
+      "ranking_position": 153,
       "age": 20,
       "nationality": "CO",
       "rider_name": "GAVIRIA Fernando"
@@ -253,7 +253,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "167",
-      "ranking_position": 342,
+      "ranking_position": 341,
       "age": 26,
       "nationality": "ES",
       "rider_name": "DE LA CRUZ David"
@@ -263,7 +263,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "47",
-      "ranking_position": 780,
+      "ranking_position": 775,
       "age": 28,
       "nationality": "FR",
       "rider_name": "BOUET Maxime"
@@ -273,7 +273,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "100",
-      "ranking_position": 491,
+      "ranking_position": 492,
       "age": 26,
       "nationality": "BE",
       "rider_name": "SERRY Pieter"
@@ -283,7 +283,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "1",
-      "ranking_position": 2336,
+      "ranking_position": 2341,
       "age": 22,
       "nationality": "CZ",
       "rider_name": "VAKO\u010c Petr"
@@ -293,7 +293,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "267",
-      "ranking_position": 232,
+      "ranking_position": 227,
       "age": 22,
       "nationality": "ES",
       "rider_name": "VERONA Carlos"
@@ -343,7 +343,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "70",
-      "ranking_position": 633,
+      "ranking_position": 629,
       "age": 24,
       "nationality": "BE",
       "rider_name": "VAN KEIRSBULCK Guillaume"
@@ -353,7 +353,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "6",
-      "ranking_position": 1821,
+      "ranking_position": 1819,
       "age": 25,
       "nationality": "BE",
       "rider_name": "VERMOTE Julien"
@@ -373,7 +373,7 @@
       "since": "01-01",
       "until": "12-31",
       "ranking_points": "41",
-      "ranking_position": 836,
+      "ranking_position": 831,
       "age": 23,
       "nationality": "PL",
       "rider_name": "WI\u015aNIOWSKI \u0141ukasz"
@@ -392,8 +392,8 @@
       "rider_url": "rider/rodrigo-contreras",
       "since": "08-01",
       "until": "12-31",
-      "ranking_points": "30",
-      "ranking_position": 999,
+      "ranking_points": "31",
+      "ranking_position": 977,
       "age": 21,
       "nationality": "CO",
       "rider_name": "CONTRERAS Rodrigo"

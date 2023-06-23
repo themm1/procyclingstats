@@ -8,447 +8,447 @@
   "prev_editions_select": [
     {
       "text": "2024",
-      "value": "race/tour-de-france/2024/overview/overview"
+      "value": "race/tour-de-france/2024/statistics/start"
     },
     {
       "text": "2023",
-      "value": "race/tour-de-france/2023/overview/overview"
+      "value": "race/tour-de-france/2023/statistics/start"
     },
     {
       "text": "2022",
-      "value": "race/tour-de-france/2022/overview/overview"
+      "value": "race/tour-de-france/2022/statistics/start"
     },
     {
       "text": "2021",
-      "value": "race/tour-de-france/2021/overview/overview"
+      "value": "race/tour-de-france/2021/statistics/start"
     },
     {
       "text": "2020",
-      "value": "race/tour-de-france/2020/overview/overview"
+      "value": "race/tour-de-france/2020/statistics/start"
     },
     {
       "text": "2019",
-      "value": "race/tour-de-france/2019/overview/overview"
+      "value": "race/tour-de-france/2019/statistics/start"
     },
     {
       "text": "2018",
-      "value": "race/tour-de-france/2018/overview/overview"
+      "value": "race/tour-de-france/2018/statistics/start"
     },
     {
       "text": "2017",
-      "value": "race/tour-de-france/2017/overview/overview"
+      "value": "race/tour-de-france/2017/statistics/start"
     },
     {
       "text": "2016",
-      "value": "race/tour-de-france/2016/overview/overview"
+      "value": "race/tour-de-france/2016/statistics/start"
     },
     {
       "text": "2015",
-      "value": "race/tour-de-france/2015/overview/overview"
+      "value": "race/tour-de-france/2015/statistics/start"
     },
     {
       "text": "2014",
-      "value": "race/tour-de-france/2014/overview/overview"
+      "value": "race/tour-de-france/2014/statistics/start"
     },
     {
       "text": "2013",
-      "value": "race/tour-de-france/2013/overview/overview"
+      "value": "race/tour-de-france/2013/statistics/start"
     },
     {
       "text": "2012",
-      "value": "race/tour-de-france/2012/overview/overview"
+      "value": "race/tour-de-france/2012/statistics/start"
     },
     {
       "text": "2011",
-      "value": "race/tour-de-france/2011/overview/overview"
+      "value": "race/tour-de-france/2011/statistics/start"
     },
     {
       "text": "2010",
-      "value": "race/tour-de-france/2010/overview/overview"
+      "value": "race/tour-de-france/2010/statistics/start"
     },
     {
       "text": "2009",
-      "value": "race/tour-de-france/2009/overview/overview"
+      "value": "race/tour-de-france/2009/statistics/start"
     },
     {
       "text": "2008",
-      "value": "race/tour-de-france/2008/overview/overview"
+      "value": "race/tour-de-france/2008/statistics/start"
     },
     {
       "text": "2007",
-      "value": "race/tour-de-france/2007/overview/overview"
+      "value": "race/tour-de-france/2007/statistics/start"
     },
     {
       "text": "2006",
-      "value": "race/tour-de-france/2006/overview/overview"
+      "value": "race/tour-de-france/2006/statistics/start"
     },
     {
       "text": "2005",
-      "value": "race/tour-de-france/2005/overview/overview"
+      "value": "race/tour-de-france/2005/statistics/start"
     },
     {
       "text": "2004",
-      "value": "race/tour-de-france/2004/overview/overview"
+      "value": "race/tour-de-france/2004/statistics/start"
     },
     {
       "text": "2003",
-      "value": "race/tour-de-france/2003/overview/overview"
+      "value": "race/tour-de-france/2003/statistics/start"
     },
     {
       "text": "2002",
-      "value": "race/tour-de-france/2002/overview/overview"
+      "value": "race/tour-de-france/2002/statistics/start"
     },
     {
       "text": "2001",
-      "value": "race/tour-de-france/2001/overview/overview"
+      "value": "race/tour-de-france/2001/statistics/start"
     },
     {
       "text": "2000",
-      "value": "race/tour-de-france/2000/overview/overview"
+      "value": "race/tour-de-france/2000/statistics/start"
     },
     {
       "text": "1999",
-      "value": "race/tour-de-france/1999/overview/overview"
+      "value": "race/tour-de-france/1999/statistics/start"
     },
     {
       "text": "1998",
-      "value": "race/tour-de-france/1998/overview/overview"
+      "value": "race/tour-de-france/1998/statistics/start"
     },
     {
       "text": "1997",
-      "value": "race/tour-de-france/1997/overview/overview"
+      "value": "race/tour-de-france/1997/statistics/start"
     },
     {
       "text": "1996",
-      "value": "race/tour-de-france/1996/overview/overview"
+      "value": "race/tour-de-france/1996/statistics/start"
     },
     {
       "text": "1995",
-      "value": "race/tour-de-france/1995/overview/overview"
+      "value": "race/tour-de-france/1995/statistics/start"
     },
     {
       "text": "1994",
-      "value": "race/tour-de-france/1994/overview/overview"
+      "value": "race/tour-de-france/1994/statistics/start"
     },
     {
       "text": "1993",
-      "value": "race/tour-de-france/1993/overview/overview"
+      "value": "race/tour-de-france/1993/statistics/start"
     },
     {
       "text": "1992",
-      "value": "race/tour-de-france/1992/overview/overview"
+      "value": "race/tour-de-france/1992/statistics/start"
     },
     {
       "text": "1991",
-      "value": "race/tour-de-france/1991/overview/overview"
+      "value": "race/tour-de-france/1991/statistics/start"
     },
     {
       "text": "1990",
-      "value": "race/tour-de-france/1990/overview/overview"
+      "value": "race/tour-de-france/1990/statistics/start"
     },
     {
       "text": "1989",
-      "value": "race/tour-de-france/1989/overview/overview"
+      "value": "race/tour-de-france/1989/statistics/start"
     },
     {
       "text": "1988",
-      "value": "race/tour-de-france/1988/overview/overview"
+      "value": "race/tour-de-france/1988/statistics/start"
     },
     {
       "text": "1987",
-      "value": "race/tour-de-france/1987/overview/overview"
+      "value": "race/tour-de-france/1987/statistics/start"
     },
     {
       "text": "1986",
-      "value": "race/tour-de-france/1986/overview/overview"
+      "value": "race/tour-de-france/1986/statistics/start"
     },
     {
       "text": "1985",
-      "value": "race/tour-de-france/1985/overview/overview"
+      "value": "race/tour-de-france/1985/statistics/start"
     },
     {
       "text": "1984",
-      "value": "race/tour-de-france/1984/overview/overview"
+      "value": "race/tour-de-france/1984/statistics/start"
     },
     {
       "text": "1983",
-      "value": "race/tour-de-france/1983/overview/overview"
+      "value": "race/tour-de-france/1983/statistics/start"
     },
     {
       "text": "1982",
-      "value": "race/tour-de-france/1982/overview/overview"
+      "value": "race/tour-de-france/1982/statistics/start"
     },
     {
       "text": "1981",
-      "value": "race/tour-de-france/1981/overview/overview"
+      "value": "race/tour-de-france/1981/statistics/start"
     },
     {
       "text": "1980",
-      "value": "race/tour-de-france/1980/overview/overview"
+      "value": "race/tour-de-france/1980/statistics/start"
     },
     {
       "text": "1979",
-      "value": "race/tour-de-france/1979/overview/overview"
+      "value": "race/tour-de-france/1979/statistics/start"
     },
     {
       "text": "1978",
-      "value": "race/tour-de-france/1978/overview/overview"
+      "value": "race/tour-de-france/1978/statistics/start"
     },
     {
       "text": "1977",
-      "value": "race/tour-de-france/1977/overview/overview"
+      "value": "race/tour-de-france/1977/statistics/start"
     },
     {
       "text": "1976",
-      "value": "race/tour-de-france/1976/overview/overview"
+      "value": "race/tour-de-france/1976/statistics/start"
     },
     {
       "text": "1975",
-      "value": "race/tour-de-france/1975/overview/overview"
+      "value": "race/tour-de-france/1975/statistics/start"
     },
     {
       "text": "1974",
-      "value": "race/tour-de-france/1974/overview/overview"
+      "value": "race/tour-de-france/1974/statistics/start"
     },
     {
       "text": "1973",
-      "value": "race/tour-de-france/1973/overview/overview"
+      "value": "race/tour-de-france/1973/statistics/start"
     },
     {
       "text": "1972",
-      "value": "race/tour-de-france/1972/overview/overview"
+      "value": "race/tour-de-france/1972/statistics/start"
     },
     {
       "text": "1971",
-      "value": "race/tour-de-france/1971/overview/overview"
+      "value": "race/tour-de-france/1971/statistics/start"
     },
     {
       "text": "1970",
-      "value": "race/tour-de-france/1970/overview/overview"
+      "value": "race/tour-de-france/1970/statistics/start"
     },
     {
       "text": "1969",
-      "value": "race/tour-de-france/1969/overview/overview"
+      "value": "race/tour-de-france/1969/statistics/start"
     },
     {
       "text": "1968",
-      "value": "race/tour-de-france/1968/overview/overview"
+      "value": "race/tour-de-france/1968/statistics/start"
     },
     {
       "text": "1967",
-      "value": "race/tour-de-france/1967/overview/overview"
+      "value": "race/tour-de-france/1967/statistics/start"
     },
     {
       "text": "1966",
-      "value": "race/tour-de-france/1966/overview/overview"
+      "value": "race/tour-de-france/1966/statistics/start"
     },
     {
       "text": "1965",
-      "value": "race/tour-de-france/1965/overview/overview"
+      "value": "race/tour-de-france/1965/statistics/start"
     },
     {
       "text": "1964",
-      "value": "race/tour-de-france/1964/overview/overview"
+      "value": "race/tour-de-france/1964/statistics/start"
     },
     {
       "text": "1963",
-      "value": "race/tour-de-france/1963/overview/overview"
+      "value": "race/tour-de-france/1963/statistics/start"
     },
     {
       "text": "1962",
-      "value": "race/tour-de-france/1962/overview/overview"
+      "value": "race/tour-de-france/1962/statistics/start"
     },
     {
       "text": "1961",
-      "value": "race/tour-de-france/1961/overview/overview"
+      "value": "race/tour-de-france/1961/statistics/start"
     },
     {
       "text": "1960",
-      "value": "race/tour-de-france/1960/overview/overview"
+      "value": "race/tour-de-france/1960/statistics/start"
     },
     {
       "text": "1959",
-      "value": "race/tour-de-france/1959/overview/overview"
+      "value": "race/tour-de-france/1959/statistics/start"
     },
     {
       "text": "1958",
-      "value": "race/tour-de-france/1958/overview/overview"
+      "value": "race/tour-de-france/1958/statistics/start"
     },
     {
       "text": "1957",
-      "value": "race/tour-de-france/1957/overview/overview"
+      "value": "race/tour-de-france/1957/statistics/start"
     },
     {
       "text": "1956",
-      "value": "race/tour-de-france/1956/overview/overview"
+      "value": "race/tour-de-france/1956/statistics/start"
     },
     {
       "text": "1955",
-      "value": "race/tour-de-france/1955/overview/overview"
+      "value": "race/tour-de-france/1955/statistics/start"
     },
     {
       "text": "1954",
-      "value": "race/tour-de-france/1954/overview/overview"
+      "value": "race/tour-de-france/1954/statistics/start"
     },
     {
       "text": "1953",
-      "value": "race/tour-de-france/1953/overview/overview"
+      "value": "race/tour-de-france/1953/statistics/start"
     },
     {
       "text": "1952",
-      "value": "race/tour-de-france/1952/overview/overview"
+      "value": "race/tour-de-france/1952/statistics/start"
     },
     {
       "text": "1951",
-      "value": "race/tour-de-france/1951/overview/overview"
+      "value": "race/tour-de-france/1951/statistics/start"
     },
     {
       "text": "1950",
-      "value": "race/tour-de-france/1950/overview/overview"
+      "value": "race/tour-de-france/1950/statistics/start"
     },
     {
       "text": "1949",
-      "value": "race/tour-de-france/1949/overview/overview"
+      "value": "race/tour-de-france/1949/statistics/start"
     },
     {
       "text": "1948",
-      "value": "race/tour-de-france/1948/overview/overview"
+      "value": "race/tour-de-france/1948/statistics/start"
     },
     {
       "text": "1947",
-      "value": "race/tour-de-france/1947/overview/overview"
+      "value": "race/tour-de-france/1947/statistics/start"
     },
     {
       "text": "1939",
-      "value": "race/tour-de-france/1939/overview/overview"
+      "value": "race/tour-de-france/1939/statistics/start"
     },
     {
       "text": "1938",
-      "value": "race/tour-de-france/1938/overview/overview"
+      "value": "race/tour-de-france/1938/statistics/start"
     },
     {
       "text": "1937",
-      "value": "race/tour-de-france/1937/overview/overview"
+      "value": "race/tour-de-france/1937/statistics/start"
     },
     {
       "text": "1936",
-      "value": "race/tour-de-france/1936/overview/overview"
+      "value": "race/tour-de-france/1936/statistics/start"
     },
     {
       "text": "1935",
-      "value": "race/tour-de-france/1935/overview/overview"
+      "value": "race/tour-de-france/1935/statistics/start"
     },
     {
       "text": "1934",
-      "value": "race/tour-de-france/1934/overview/overview"
+      "value": "race/tour-de-france/1934/statistics/start"
     },
     {
       "text": "1933",
-      "value": "race/tour-de-france/1933/overview/overview"
+      "value": "race/tour-de-france/1933/statistics/start"
     },
     {
       "text": "1932",
-      "value": "race/tour-de-france/1932/overview/overview"
+      "value": "race/tour-de-france/1932/statistics/start"
     },
     {
       "text": "1931",
-      "value": "race/tour-de-france/1931/overview/overview"
+      "value": "race/tour-de-france/1931/statistics/start"
     },
     {
       "text": "1930",
-      "value": "race/tour-de-france/1930/overview/overview"
+      "value": "race/tour-de-france/1930/statistics/start"
     },
     {
       "text": "1929",
-      "value": "race/tour-de-france/1929/overview/overview"
+      "value": "race/tour-de-france/1929/statistics/start"
     },
     {
       "text": "1928",
-      "value": "race/tour-de-france/1928/overview/overview"
+      "value": "race/tour-de-france/1928/statistics/start"
     },
     {
       "text": "1927",
-      "value": "race/tour-de-france/1927/overview/overview"
+      "value": "race/tour-de-france/1927/statistics/start"
     },
     {
       "text": "1926",
-      "value": "race/tour-de-france/1926/overview/overview"
+      "value": "race/tour-de-france/1926/statistics/start"
     },
     {
       "text": "1925",
-      "value": "race/tour-de-france/1925/overview/overview"
+      "value": "race/tour-de-france/1925/statistics/start"
     },
     {
       "text": "1924",
-      "value": "race/tour-de-france/1924/overview/overview"
+      "value": "race/tour-de-france/1924/statistics/start"
     },
     {
       "text": "1923",
-      "value": "race/tour-de-france/1923/overview/overview"
+      "value": "race/tour-de-france/1923/statistics/start"
     },
     {
       "text": "1922",
-      "value": "race/tour-de-france/1922/overview/overview"
+      "value": "race/tour-de-france/1922/statistics/start"
     },
     {
       "text": "1921",
-      "value": "race/tour-de-france/1921/overview/overview"
+      "value": "race/tour-de-france/1921/statistics/start"
     },
     {
       "text": "1920",
-      "value": "race/tour-de-france/1920/overview/overview"
+      "value": "race/tour-de-france/1920/statistics/start"
     },
     {
       "text": "1919",
-      "value": "race/tour-de-france/1919/overview/overview"
+      "value": "race/tour-de-france/1919/statistics/start"
     },
     {
       "text": "1914",
-      "value": "race/tour-de-france/1914/overview/overview"
+      "value": "race/tour-de-france/1914/statistics/start"
     },
     {
       "text": "1913",
-      "value": "race/tour-de-france/1913/overview/overview"
+      "value": "race/tour-de-france/1913/statistics/start"
     },
     {
       "text": "1912",
-      "value": "race/tour-de-france/1912/overview/overview"
+      "value": "race/tour-de-france/1912/statistics/start"
     },
     {
       "text": "1911",
-      "value": "race/tour-de-france/1911/overview/overview"
+      "value": "race/tour-de-france/1911/statistics/start"
     },
     {
       "text": "1910",
-      "value": "race/tour-de-france/1910/overview/overview"
+      "value": "race/tour-de-france/1910/statistics/start"
     },
     {
       "text": "1909",
-      "value": "race/tour-de-france/1909/overview/overview"
+      "value": "race/tour-de-france/1909/statistics/start"
     },
     {
       "text": "1908",
-      "value": "race/tour-de-france/1908/overview/overview"
+      "value": "race/tour-de-france/1908/statistics/start"
     },
     {
       "text": "1907",
-      "value": "race/tour-de-france/1907/overview/overview"
+      "value": "race/tour-de-france/1907/statistics/start"
     },
     {
       "text": "1906",
-      "value": "race/tour-de-france/1906/overview/overview"
+      "value": "race/tour-de-france/1906/statistics/start"
     },
     {
       "text": "1905",
-      "value": "race/tour-de-france/1905/overview/overview"
+      "value": "race/tour-de-france/1905/statistics/start"
     },
     {
       "text": "1904",
-      "value": "race/tour-de-france/1904/overview/overview"
+      "value": "race/tour-de-france/1904/statistics/start"
     },
     {
       "text": "1903",
-      "value": "race/tour-de-france/1903/overview/overview"
+      "value": "race/tour-de-france/1903/statistics/start"
     }
   ],
   "stages": [
@@ -456,148 +456,190 @@
       "profile_icon": "p1",
       "stage_name": "Stage 1 (ITT) | Copenhagen - Copenhagen",
       "stage_url": "race/tour-de-france/2022/stage-1",
-      "date": "07-01",
-      "distance": 13.2
+      "rider_url": "rider/yves-lampaert",
+      "rider_name": "LAMPAERT",
+      "nationality": "BE",
+      "date": "07-01"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 2 | Roskilde - Nyborg",
       "stage_url": "race/tour-de-france/2022/stage-2",
-      "date": "07-02",
-      "distance": 202.2
+      "rider_url": "rider/fabio-jakobsen",
+      "rider_name": "JAKOBSEN",
+      "nationality": "NL",
+      "date": "07-02"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 3 | Vejle - S\u00f8nderborg",
       "stage_url": "race/tour-de-france/2022/stage-3",
-      "date": "07-03",
-      "distance": 182.0
+      "rider_url": "rider/dylan-groenewegen",
+      "rider_name": "GROENEWEGEN",
+      "nationality": "NL",
+      "date": "07-03"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 4 | Dunkerque - Calais",
       "stage_url": "race/tour-de-france/2022/stage-4",
-      "date": "07-05",
-      "distance": 171.5
+      "rider_url": "rider/wout-van-aert",
+      "rider_name": "VAN AERT",
+      "nationality": "BE",
+      "date": "07-05"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 5 | Lille - Wallers-Arenberg",
       "stage_url": "race/tour-de-france/2022/stage-5",
-      "date": "07-06",
-      "distance": 157.0
+      "rider_url": "rider/simon-clarke",
+      "rider_name": "CLARKE",
+      "nationality": "AU",
+      "date": "07-06"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 6 | Binche - Longwy",
       "stage_url": "race/tour-de-france/2022/stage-6",
-      "date": "07-07",
-      "distance": 219.9
+      "rider_url": "rider/tadej-pogacar",
+      "rider_name": "POGA\u010cAR",
+      "nationality": "SI",
+      "date": "07-07"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 7 | Tomblaine - La Super Planche des Belles Filles",
       "stage_url": "race/tour-de-france/2022/stage-7",
-      "date": "07-08",
-      "distance": 176.3
+      "rider_url": "rider/tadej-pogacar",
+      "rider_name": "POGA\u010cAR",
+      "nationality": "SI",
+      "date": "07-08"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 8 | Dole - Lausanne",
       "stage_url": "race/tour-de-france/2022/stage-8",
-      "date": "07-09",
-      "distance": 186.3
+      "rider_url": "rider/wout-van-aert",
+      "rider_name": "VAN AERT",
+      "nationality": "BE",
+      "date": "07-09"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 9 | Aigle - Ch\u00e2tel les portes du Soleil",
       "stage_url": "race/tour-de-france/2022/stage-9",
-      "date": "07-10",
-      "distance": 192.9
+      "rider_url": "rider/bob-jungels",
+      "rider_name": "JUNGELS",
+      "nationality": "LU",
+      "date": "07-10"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 10 | Morzine - Meg\u00e8ve",
       "stage_url": "race/tour-de-france/2022/stage-10",
-      "date": "07-12",
-      "distance": 148.1
+      "rider_url": "rider/magnus-cort-nielsen",
+      "rider_name": "CORT",
+      "nationality": "DK",
+      "date": "07-12"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 11 | Albertville - Col du Granon",
       "stage_url": "race/tour-de-france/2022/stage-11",
-      "date": "07-13",
-      "distance": 151.7
+      "rider_url": "rider/jonas-vingegaard-rasmussen",
+      "rider_name": "VINGEGAARD",
+      "nationality": "DK",
+      "date": "07-13"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 12 | Brian\u00e7on - L'Alpe d'Huez",
       "stage_url": "race/tour-de-france/2022/stage-12",
-      "date": "07-14",
-      "distance": 165.1
+      "rider_url": "rider/thomas-pidcock",
+      "rider_name": "PIDCOCK",
+      "nationality": "GB",
+      "date": "07-14"
     },
     {
       "profile_icon": "p2",
       "stage_name": "Stage 13 | Bourg d'Oisans - Saint-Etienne",
       "stage_url": "race/tour-de-france/2022/stage-13",
-      "date": "07-15",
-      "distance": 192.6
+      "rider_url": "rider/mads-pedersen",
+      "rider_name": "PEDERSEN",
+      "nationality": "DK",
+      "date": "07-15"
     },
     {
       "profile_icon": "p2",
       "stage_name": "Stage 14 | Saint-Etienne - Mende",
       "stage_url": "race/tour-de-france/2022/stage-14",
-      "date": "07-16",
-      "distance": 192.5
+      "rider_url": "rider/michael-matthews",
+      "rider_name": "MATTHEWS",
+      "nationality": "AU",
+      "date": "07-16"
     },
     {
       "profile_icon": "p2",
       "stage_name": "Stage 15 | Rodez - Carcassonne",
       "stage_url": "race/tour-de-france/2022/stage-15",
-      "date": "07-17",
-      "distance": 202.5
+      "rider_url": "rider/jasper-philipsen",
+      "rider_name": "PHILIPSEN",
+      "nationality": "BE",
+      "date": "07-17"
     },
     {
       "profile_icon": "p4",
       "stage_name": "Stage 16 | Carcassonne - Foix",
       "stage_url": "race/tour-de-france/2022/stage-16",
-      "date": "07-19",
-      "distance": 178.5
+      "rider_url": "rider/hugo-houle",
+      "rider_name": "HOULE",
+      "nationality": "CA",
+      "date": "07-19"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 17 | Saint-Gaudens - Peyragudes",
       "stage_url": "race/tour-de-france/2022/stage-17",
-      "date": "07-20",
-      "distance": 129.7
+      "rider_url": "rider/tadej-pogacar",
+      "rider_name": "POGA\u010cAR",
+      "nationality": "SI",
+      "date": "07-20"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 18 | Lourdes - Hautacam",
       "stage_url": "race/tour-de-france/2022/stage-18",
-      "date": "07-21",
-      "distance": 143.2
+      "rider_url": "rider/jonas-vingegaard-rasmussen",
+      "rider_name": "VINGEGAARD",
+      "nationality": "DK",
+      "date": "07-21"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 19 | Castelnau-Magnoac - Cahors",
       "stage_url": "race/tour-de-france/2022/stage-19",
-      "date": "07-22",
-      "distance": 188.3
+      "rider_url": "rider/christophe-laporte",
+      "rider_name": "LAPORTE",
+      "nationality": "FR",
+      "date": "07-22"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 20 (ITT) | Lacapelle-Marival - Rocamadour",
       "stage_url": "race/tour-de-france/2022/stage-20",
-      "date": "07-23",
-      "distance": 40.7
+      "rider_url": "rider/wout-van-aert",
+      "rider_name": "VAN AERT",
+      "nationality": "BE",
+      "date": "07-23"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 21 | Paris La D\u00e9fense - Paris (Champs-\u00c9lys\u00e9es)",
       "stage_url": "race/tour-de-france/2022/stage-21",
-      "date": "07-24",
-      "distance": 115.6
+      "rider_url": "rider/jasper-philipsen",
+      "rider_name": "PHILIPSEN",
+      "nationality": "BE",
+      "date": "07-24"
     }
   ],
   "startdate": "2022-07-01",

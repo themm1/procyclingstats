@@ -2,7 +2,7 @@
   "dates_select": [
     {
       "text": "2023",
-      "value": "2023-02-26"
+      "value": "2023-06-23"
     },
     {
       "text": "2022",
@@ -95,6 +95,82 @@
     {
       "text": "2000",
       "value": "2000-12-31"
+    },
+    {
+      "text": "1999",
+      "value": "1999-12-31"
+    },
+    {
+      "text": "1998",
+      "value": "1998-12-31"
+    },
+    {
+      "text": "1997",
+      "value": "1997-12-31"
+    },
+    {
+      "text": "1996",
+      "value": "1996-12-31"
+    },
+    {
+      "text": "1995",
+      "value": "1995-12-31"
+    },
+    {
+      "text": "1994",
+      "value": "1994-12-31"
+    },
+    {
+      "text": "1993",
+      "value": "1993-12-31"
+    },
+    {
+      "text": "1992",
+      "value": "1992-12-31"
+    },
+    {
+      "text": "1991",
+      "value": "1991-12-31"
+    },
+    {
+      "text": "1990",
+      "value": "1990-12-31"
+    },
+    {
+      "text": "1989",
+      "value": "1989-12-31"
+    },
+    {
+      "text": "1988",
+      "value": "1988-12-31"
+    },
+    {
+      "text": "1987",
+      "value": "1987-12-31"
+    },
+    {
+      "text": "1986",
+      "value": "1986-12-31"
+    },
+    {
+      "text": "1985",
+      "value": "1985-12-31"
+    },
+    {
+      "text": "1984",
+      "value": "1984-12-31"
+    },
+    {
+      "text": "1983",
+      "value": "1983-12-31"
+    },
+    {
+      "text": "1982",
+      "value": "1982-12-31"
+    },
+    {
+      "text": "1981",
+      "value": "1981-12-31"
     }
   ],
   "distance_ranking": null,
@@ -111,16 +187,16 @@
       "nationality": "IT",
       "first_places": 48,
       "second_places": 48,
-      "third_places": 48
+      "third_places": 49
     },
     {
       "rank": 2,
-      "prev_rank": 2,
+      "prev_rank": 3,
       "nation_name": "France",
       "nation_url": "nation/france",
       "nationality": "FR",
       "first_places": 46,
-      "second_places": 44,
+      "second_places": 41,
       "third_places": 48
     },
     {
@@ -141,7 +217,7 @@
       "nationality": "CO",
       "first_places": 34,
       "second_places": 22,
-      "third_places": 16
+      "third_places": 18
     },
     {
       "rank": 5,
@@ -150,8 +226,8 @@
       "nation_url": "nation/australia",
       "nationality": "AU",
       "first_places": 33,
-      "second_places": 35,
-      "third_places": 28
+      "second_places": 36,
+      "third_places": 29
     },
     {
       "rank": 6,
@@ -161,7 +237,7 @@
       "nationality": "DE",
       "first_places": 33,
       "second_places": 29,
-      "third_places": 28
+      "third_places": 29
     },
     {
       "rank": 7,
@@ -175,13 +251,13 @@
     },
     {
       "rank": 8,
-      "prev_rank": 3,
+      "prev_rank": 2,
       "nation_name": "Netherlands",
       "nation_url": "nation/netherlands",
       "nationality": "NL",
       "first_places": 28,
       "second_places": 16,
-      "third_places": 24
+      "third_places": 23
     },
     {
       "rank": 9,
@@ -211,7 +287,7 @@
       "nationality": "DK",
       "first_places": 19,
       "second_places": 15,
-      "third_places": 12
+      "third_places": 11
     },
     {
       "rank": 12,
@@ -221,7 +297,7 @@
       "nationality": "ES",
       "first_places": 17,
       "second_places": 29,
-      "third_places": 24
+      "third_places": 25
     },
     {
       "rank": 13,
@@ -231,11 +307,11 @@
       "nationality": "NO",
       "first_places": 17,
       "second_places": 13,
-      "third_places": 16
+      "third_places": 15
     },
     {
       "rank": 14,
-      "prev_rank": 32,
+      "prev_rank": 31,
       "nation_name": "Ecuador",
       "nation_url": "nation/ecuador",
       "nationality": "EC",
@@ -245,7 +321,7 @@
     },
     {
       "rank": 15,
-      "prev_rank": 23,
+      "prev_rank": 21,
       "nation_name": "Portugal",
       "nation_url": "nation/portugal",
       "nationality": "PT",
@@ -255,22 +331,22 @@
     },
     {
       "rank": 16,
-      "prev_rank": 26,
+      "prev_rank": 22,
       "nation_name": "Russia",
       "nation_url": "nation/russia",
       "nationality": "RU",
       "first_places": 12,
-      "second_places": 9,
+      "second_places": 12,
       "third_places": 9
     },
     {
       "rank": 17,
-      "prev_rank": 20,
+      "prev_rank": 24,
       "nation_name": "Ireland",
       "nation_url": "nation/ireland",
       "nationality": "IE",
       "first_places": 11,
-      "second_places": 11,
+      "second_places": 10,
       "third_places": 9
     },
     {
@@ -285,7 +361,7 @@
     },
     {
       "rank": 19,
-      "prev_rank": 33,
+      "prev_rank": 32,
       "nation_name": "New Zealand",
       "nation_url": "nation/new-zealand",
       "nationality": "NZ",
@@ -295,17 +371,7 @@
     },
     {
       "rank": 20,
-      "prev_rank": 24,
-      "nation_name": "Romania",
-      "nation_url": "nation/romania",
-      "nationality": "RO",
-      "first_places": 8,
-      "second_places": 10,
-      "third_places": 6
-    },
-    {
-      "rank": 21,
-      "prev_rank": 28,
+      "prev_rank": 27,
       "nation_name": "Czech Republic",
       "nation_url": "nation/czech-republic",
       "nationality": "CZ",
@@ -314,8 +380,8 @@
       "third_places": 11
     },
     {
-      "rank": 22,
-      "prev_rank": 61,
+      "rank": 21,
+      "prev_rank": 62,
       "nation_name": "Panama",
       "nation_url": "nation/panama",
       "nationality": "PA",
@@ -324,8 +390,8 @@
       "third_places": 4
     },
     {
-      "rank": 23,
-      "prev_rank": 27,
+      "rank": 22,
+      "prev_rank": 26,
       "nation_name": "Austria",
       "nation_url": "nation/austria",
       "nationality": "AT",
@@ -334,7 +400,7 @@
       "third_places": 6
     },
     {
-      "rank": 24,
+      "rank": 23,
       "prev_rank": 38,
       "nation_name": "Ukraine",
       "nation_url": "nation/ukraine",
@@ -344,8 +410,8 @@
       "third_places": 8
     },
     {
-      "rank": 25,
-      "prev_rank": 34,
+      "rank": 24,
+      "prev_rank": 33,
       "nation_name": "Slovakia",
       "nation_url": "nation/slovakia",
       "nationality": "SK",
@@ -354,7 +420,7 @@
       "third_places": 8
     },
     {
-      "rank": 26,
+      "rank": 25,
       "prev_rank": 19,
       "nation_name": "Switzerland",
       "nation_url": "nation/switzerland",
@@ -364,7 +430,7 @@
       "third_places": 15
     },
     {
-      "rank": 27,
+      "rank": 26,
       "prev_rank": 14,
       "nation_name": "Venezuela",
       "nation_url": "nation/venezuela",
@@ -372,6 +438,16 @@
       "first_places": 6,
       "second_places": 10,
       "third_places": 10
+    },
+    {
+      "rank": 27,
+      "prev_rank": 36,
+      "nation_name": "Romania",
+      "nation_url": "nation/romania",
+      "nationality": "RO",
+      "first_places": 6,
+      "second_places": 10,
+      "third_places": 6
     },
     {
       "rank": 28,
@@ -395,7 +471,7 @@
     },
     {
       "rank": 30,
-      "prev_rank": 22,
+      "prev_rank": 23,
       "nation_name": "Kazakhstan",
       "nation_url": "nation/kazakhstan",
       "nationality": "KZ",
@@ -405,7 +481,7 @@
     },
     {
       "rank": 31,
-      "prev_rank": 30,
+      "prev_rank": 29,
       "nation_name": "Guatemala",
       "nation_url": "nation/guatemala",
       "nationality": "GT",
@@ -415,7 +491,7 @@
     },
     {
       "rank": 32,
-      "prev_rank": 31,
+      "prev_rank": 30,
       "nation_name": "Eritrea",
       "nation_url": "nation/eritrea",
       "nationality": "ER",
@@ -465,7 +541,7 @@
     },
     {
       "rank": 37,
-      "prev_rank": 21,
+      "prev_rank": 20,
       "nation_name": "Belarus",
       "nation_url": "nation/belarus",
       "nationality": "BY",
@@ -475,7 +551,7 @@
     },
     {
       "rank": 38,
-      "prev_rank": 85,
+      "prev_rank": 80,
       "nation_name": "Israel",
       "nation_url": "nation/israel",
       "nationality": "IL",
@@ -495,7 +571,7 @@
     },
     {
       "rank": 40,
-      "prev_rank": 54,
+      "prev_rank": 55,
       "nation_name": "Mexico",
       "nation_url": "nation/mexico",
       "nationality": "MX",
@@ -535,7 +611,7 @@
     },
     {
       "rank": 44,
-      "prev_rank": 97,
+      "prev_rank": 98,
       "nation_name": "Saint Vincent and the Grenadines",
       "nation_url": "nation/saint-vincent-and-the-grenadines",
       "nationality": "VC",
@@ -545,7 +621,7 @@
     },
     {
       "rank": 45,
-      "prev_rank": 77,
+      "prev_rank": 87,
       "nation_name": "Lithuania",
       "nation_url": "nation/lithuania",
       "nationality": "LT",
@@ -565,17 +641,7 @@
     },
     {
       "rank": 47,
-      "prev_rank": 78,
-      "nation_name": "Finland",
-      "nation_url": "nation/finland",
-      "nationality": "FI",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 3
-    },
-    {
-      "rank": 48,
-      "prev_rank": 50,
+      "prev_rank": 51,
       "nation_name": "Luxembourg",
       "nation_url": "nation/luxembourg",
       "nationality": "LU",
@@ -584,8 +650,8 @@
       "third_places": 3
     },
     {
-      "rank": 49,
-      "prev_rank": 29,
+      "rank": 48,
+      "prev_rank": 28,
       "nation_name": "Greece",
       "nation_url": "nation/greece",
       "nationality": "GR",
@@ -594,8 +660,38 @@
       "third_places": 3
     },
     {
+      "rank": 49,
+      "prev_rank": 75,
+      "nation_name": "Finland",
+      "nation_url": "nation/finland",
+      "nationality": "FI",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
       "rank": 50,
-      "prev_rank": 80,
+      "prev_rank": 77,
+      "nation_name": "Kosovo",
+      "nation_url": "nation/kosovo",
+      "nationality": "XK",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 51,
+      "prev_rank": 59,
+      "nation_name": "Albania",
+      "nation_url": "nation/albania",
+      "nationality": "AL",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 52,
+      "prev_rank": 82,
       "nation_name": "Namibia",
       "nation_url": "nation/namibia",
       "nationality": "NA",
@@ -604,37 +700,27 @@
       "third_places": 2
     },
     {
-      "rank": 51,
-      "prev_rank": 89,
-      "nation_name": "Bermuda",
-      "nation_url": "nation/bermuda",
-      "nationality": "BM",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 52,
-      "prev_rank": 76,
-      "nation_name": "El Salvador",
-      "nation_url": "nation/el-salvador",
-      "nationality": "SV",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
       "rank": 53,
-      "prev_rank": 75,
-      "nation_name": "Iceland",
-      "nation_url": "nation/iceland",
-      "nationality": "IS",
+      "prev_rank": 91,
+      "nation_name": "Bulgaria",
+      "nation_url": "nation/bulgaria",
+      "nationality": "BG",
       "first_places": 2,
       "second_places": 2,
       "third_places": 2
     },
     {
       "rank": 54,
+      "prev_rank": 71,
+      "nation_name": "Croatia",
+      "nation_url": "nation/croatia",
+      "nationality": "HR",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 55,
       "prev_rank": null,
       "nation_name": "Paraguay",
       "nation_url": "nation/paraguay",
@@ -644,38 +730,8 @@
       "third_places": 2
     },
     {
-      "rank": 55,
-      "prev_rank": 57,
-      "nation_name": "South Korea",
-      "nation_url": "nation/south-korea",
-      "nationality": "KR",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
       "rank": 56,
-      "prev_rank": 58,
-      "nation_name": "Albania",
-      "nation_url": "nation/albania",
-      "nationality": "AL",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 57,
-      "prev_rank": 73,
-      "nation_name": "Cyprus",
-      "nation_url": "nation/cyprus",
-      "nationality": "CY",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 58,
-      "prev_rank": 74,
+      "prev_rank": 86,
       "nation_name": "North Macedonia",
       "nation_url": "nation/macedonie",
       "nationality": "MK",
@@ -684,78 +740,18 @@
       "third_places": 2
     },
     {
-      "rank": 59,
-      "prev_rank": 79,
-      "nation_name": "Uzbekistan",
-      "nation_url": "nation/uzbekistan",
-      "nationality": "UZ",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 60,
-      "prev_rank": 70,
-      "nation_name": "Croatia",
-      "nation_url": "nation/croatia",
-      "nationality": "HR",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 61,
-      "prev_rank": 65,
-      "nation_name": "Sweden",
-      "nation_url": "nation/sweden",
-      "nationality": "SE",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 62,
-      "prev_rank": 86,
-      "nation_name": "Kosovo",
-      "nation_url": "nation/kosovo",
-      "nationality": "XK",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 63,
-      "prev_rank": 51,
-      "nation_name": "Mongolia",
-      "nation_url": "nation/mongolia",
-      "nationality": "MN",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 64,
+      "rank": 57,
       "prev_rank": 90,
-      "nation_name": "Bulgaria",
-      "nation_url": "nation/bulgaria",
-      "nationality": "BG",
+      "nation_name": "Bermuda",
+      "nation_url": "nation/bermuda",
+      "nationality": "BM",
       "first_places": 2,
       "second_places": 2,
       "third_places": 2
     },
     {
-      "rank": 65,
-      "prev_rank": 96,
-      "nation_name": "Mauritius",
-      "nation_url": "nation/mauritius",
-      "nationality": "MU",
-      "first_places": 2,
-      "second_places": 2,
-      "third_places": 2
-    },
-    {
-      "rank": 66,
-      "prev_rank": 49,
+      "rank": 58,
+      "prev_rank": 50,
       "nation_name": "China",
       "nation_url": "nation/china",
       "nationality": "CN",
@@ -764,18 +760,98 @@
       "third_places": 2
     },
     {
-      "rank": 67,
-      "prev_rank": 56,
-      "nation_name": "Burkina Faso",
-      "nation_url": "nation/burkina-faso",
-      "nationality": "BF",
+      "rank": 59,
+      "prev_rank": 66,
+      "nation_name": "Sweden",
+      "nation_url": "nation/sweden",
+      "nationality": "SE",
       "first_places": 2,
-      "second_places": 0,
-      "third_places": 1
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 60,
+      "prev_rank": 78,
+      "nation_name": "Uzbekistan",
+      "nation_url": "nation/uzbekistan",
+      "nationality": "UZ",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 61,
+      "prev_rank": 79,
+      "nation_name": "Iceland",
+      "nation_url": "nation/iceland",
+      "nationality": "IS",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 62,
+      "prev_rank": 48,
+      "nation_name": "Moldova",
+      "nation_url": "nation/moldova",
+      "nationality": "MD",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 63,
+      "prev_rank": 58,
+      "nation_name": "South Korea",
+      "nation_url": "nation/south-korea",
+      "nationality": "KR",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 64,
+      "prev_rank": 76,
+      "nation_name": "El Salvador",
+      "nation_url": "nation/el-salvador",
+      "nationality": "SV",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 65,
+      "prev_rank": 52,
+      "nation_name": "Mongolia",
+      "nation_url": "nation/mongolia",
+      "nationality": "MN",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 66,
+      "prev_rank": 97,
+      "nation_name": "Mauritius",
+      "nation_url": "nation/mauritius",
+      "nationality": "MU",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 67,
+      "prev_rank": 74,
+      "nation_name": "Cyprus",
+      "nation_url": "nation/cyprus",
+      "nationality": "CY",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
     },
     {
       "rank": 68,
-      "prev_rank": 98,
+      "prev_rank": 99,
       "nation_name": "Virgin Islands",
       "nation_url": "nation/virgin-islands",
       "nationality": "VG",
@@ -785,6 +861,16 @@
     },
     {
       "rank": 69,
+      "prev_rank": 57,
+      "nation_name": "Burkina Faso",
+      "nation_url": "nation/burkina-faso",
+      "nationality": "BF",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 70,
       "prev_rank": null,
       "nation_name": "Laos",
       "nation_url": "nation/laos",
@@ -794,8 +880,8 @@
       "third_places": 0
     },
     {
-      "rank": 70,
-      "prev_rank": 36,
+      "rank": 71,
+      "prev_rank": 35,
       "nation_name": "Algeria",
       "nation_url": "nation/algeria",
       "nationality": "DZ",
@@ -804,8 +890,8 @@
       "third_places": 2
     },
     {
-      "rank": 71,
-      "prev_rank": 72,
+      "rank": 72,
+      "prev_rank": 73,
       "nation_name": "Cameroon",
       "nation_url": "nation/cameroon",
       "nationality": "CM",
@@ -814,8 +900,8 @@
       "third_places": 2
     },
     {
-      "rank": 72,
-      "prev_rank": 71,
+      "rank": 73,
+      "prev_rank": 72,
       "nation_name": "Hongkong",
       "nation_url": "nation/hongkong",
       "nationality": "HK",
@@ -824,7 +910,7 @@
       "third_places": 2
     },
     {
-      "rank": 73,
+      "rank": 74,
       "prev_rank": null,
       "nation_name": "Saudi Arabia\t",
       "nation_url": "nation/saudi-arabia",
@@ -834,7 +920,7 @@
       "third_places": 1
     },
     {
-      "rank": 74,
+      "rank": 75,
       "prev_rank": 84,
       "nation_name": "Qatar",
       "nation_url": "nation/qatar",
@@ -844,7 +930,7 @@
       "third_places": 1
     },
     {
-      "rank": 75,
+      "rank": 76,
       "prev_rank": 43,
       "nation_name": "Japan",
       "nation_url": "nation/japan",
@@ -854,18 +940,8 @@
       "third_places": 1
     },
     {
-      "rank": 76,
-      "prev_rank": 40,
-      "nation_name": "Philippines",
-      "nation_url": "nation/philippines",
-      "nationality": "PH",
-      "first_places": 1,
-      "second_places": 0,
-      "third_places": 0
-    },
-    {
       "rank": 77,
-      "prev_rank": 66,
+      "prev_rank": 68,
       "nation_name": "Ethiopia",
       "nation_url": "nation/ethiopia",
       "nationality": "ET",
@@ -875,17 +951,27 @@
     },
     {
       "rank": 78,
-      "prev_rank": 101,
-      "nation_name": "Moldova",
-      "nation_url": "nation/moldova",
-      "nationality": "MD",
-      "first_places": 0,
-      "second_places": 2,
-      "third_places": 2
+      "prev_rank": 40,
+      "nation_name": "Philippines",
+      "nation_url": "nation/philippines",
+      "nationality": "PH",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
     },
     {
       "rank": 79,
-      "prev_rank": 64,
+      "prev_rank": 34,
+      "nation_name": "Argentina",
+      "nation_url": "nation/argentina",
+      "nationality": "AR",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 80,
+      "prev_rank": 65,
       "nation_name": "Taiwan",
       "nation_url": "nation/taiwan",
       "nationality": "TW",
@@ -894,21 +980,11 @@
       "third_places": 1
     },
     {
-      "rank": 80,
-      "prev_rank": 55,
+      "rank": 81,
+      "prev_rank": 56,
       "nation_name": "Uruguay",
       "nation_url": "nation/uruguay",
       "nationality": "UY",
-      "first_places": 0,
-      "second_places": 1,
-      "third_places": 1
-    },
-    {
-      "rank": 81,
-      "prev_rank": 35,
-      "nation_name": "Argentina",
-      "nation_url": "nation/argentina",
-      "nationality": "AR",
       "first_places": 0,
       "second_places": 1,
       "third_places": 1
@@ -935,17 +1011,7 @@
     },
     {
       "rank": 84,
-      "prev_rank": 59,
-      "nation_name": "Azerbaijan",
-      "nation_url": "nation/azerbaijan",
-      "nationality": "AZ",
-      "first_places": 0,
-      "second_places": 0,
-      "third_places": 1
-    },
-    {
-      "rank": 85,
-      "prev_rank": 93,
+      "prev_rank": 94,
       "nation_name": "Ivory Coast",
       "nation_url": "nation/ivory-coast",
       "nationality": "CI",
@@ -954,8 +1020,18 @@
       "third_places": 1
     },
     {
+      "rank": 85,
+      "prev_rank": 60,
+      "nation_name": "Azerbaijan",
+      "nation_url": "nation/azerbaijan",
+      "nationality": "AZ",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
       "rank": 86,
-      "prev_rank": 53,
+      "prev_rank": 54,
       "nation_name": "Morocco",
       "nation_url": "nation/morocco",
       "nationality": "MA",

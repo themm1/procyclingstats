@@ -2,7 +2,7 @@
   "dates_select": [
     {
       "text": "2023",
-      "value": "2023-02-26"
+      "value": "2023-06-23"
     },
     {
       "text": "2022",
@@ -649,7 +649,7 @@
       "prev_rank": 447,
       "rider_name": "Carstensen Lucas",
       "rider_url": "rider/lucas-carstensen",
-      "team_name": "Bike Aid",
+      "team_name": "BIKE AID",
       "team_url": "team/bike-aid-2020",
       "nationality": "DE",
       "first_places": 3,
@@ -877,7 +877,7 @@
       "prev_rank": 1299,
       "rider_name": "Holler Nikodemus",
       "rider_url": "rider/nikodemus-holler",
-      "team_name": "Bike Aid",
+      "team_name": "BIKE AID",
       "team_url": "team/bike-aid-2020",
       "nationality": "DE",
       "first_places": 2,
@@ -1640,6 +1640,10 @@
       "value": "tr"
     },
     {
+      "text": "Uganda",
+      "value": "ug"
+    },
+    {
       "text": "Ukraine",
       "value": "ua"
     },
@@ -1761,6 +1765,10 @@
       "value": "1330"
     },
     {
+      "text": "Lidl - Trek",
+      "value": "1258"
+    },
+    {
       "text": "Movistar Team",
       "value": "2040"
     },
@@ -1774,6 +1782,10 @@
     },
     {
       "text": "Team DSM",
+      "value": "1360"
+    },
+    {
+      "text": "Team DSM - Firmenich",
       "value": "1360"
     },
     {
@@ -1841,6 +1853,10 @@
       "value": "9468"
     },
     {
+      "text": "Team Corratec - Selle Italia",
+      "value": "9468"
+    },
+    {
       "text": "Team Flanders - Baloise",
       "value": "1453"
     },
@@ -1901,7 +1917,7 @@
       "value": "4825"
     },
     {
-      "text": "ARA Skip Capital Sunshine Coast",
+      "text": "ARA | Skip Capital",
       "value": "4892"
     },
     {
@@ -1919,10 +1935,6 @@
     {
       "text": "Aviludo - Louletano - Loul\u00e9 Concelho",
       "value": "1121"
-    },
-    {
-      "text": "Bahrain Cycling Academy",
-      "value": "6017"
     },
     {
       "text": "BAI - Sicasal - Petro de Luanda",
@@ -1953,7 +1965,7 @@
       "value": "6362"
     },
     {
-      "text": "Bike Aid",
+      "text": "BIKE AID",
       "value": "2405"
     },
     {
@@ -1985,12 +1997,12 @@
       "value": "10055"
     },
     {
-      "text": "Colombia Pacto por el Deporte",
-      "value": "6363"
-    },
-    {
       "text": "Credibom / LA Aluminios / Marcos Car",
       "value": "1250"
+    },
+    {
+      "text": "Cross Team Legendre",
+      "value": "8851"
     },
     {
       "text": "Cycling Team Friuli ASD",
@@ -2006,6 +2018,10 @@
     },
     {
       "text": "Development Team DSM",
+      "value": "3831"
+    },
+    {
+      "text": "Development Team dsm-firmenich",
       "value": "3831"
     },
     {
@@ -2039,10 +2055,6 @@
     {
       "text": "Equipe continentale Groupama-FDJ",
       "value": "5638"
-    },
-    {
-      "text": "Equipo Continental San Luis",
-      "value": "6490"
     },
     {
       "text": "EuroCyclingTrips Pro Cycling Team",
@@ -2109,20 +2121,12 @@
       "value": "1213"
     },
     {
-      "text": "Hewdog Racing p/b Yoeleo",
-      "value": "8176"
-    },
-    {
       "text": "HKSI Pro Cycling Team",
       "value": "2454"
     },
     {
       "text": "HRE Mazowsze Serce Polski",
       "value": "3934"
-    },
-    {
-      "text": "Hrinkow Advarics Cycleang",
-      "value": "2745"
     },
     {
       "text": "Iraq Cycling Project",
@@ -2141,10 +2145,6 @@
       "value": "6016"
     },
     {
-      "text": "Kamen Team",
-      "value": "1277"
-    },
-    {
       "text": "Kaunas Cycling Team",
       "value": "9466"
     },
@@ -2159,10 +2159,6 @@
     {
       "text": "Kinan Cycling Team",
       "value": "2737"
-    },
-    {
-      "text": "Kiwi Atl\u00e1ntico - Cabo de Pe\u00f1as",
-      "value": "5091"
     },
     {
       "text": "Konya Buyuksehir Belediye Spor",
@@ -2229,6 +2225,10 @@
       "value": "9490"
     },
     {
+      "text": "Mes Sungun - Azad",
+      "value": "1082"
+    },
+    {
       "text": "Metec - SOLARWATT p/b Mantel",
       "value": "1268"
     },
@@ -2271,6 +2271,10 @@
     {
       "text": "Nusantara Cycling Team",
       "value": "10618"
+    },
+    {
+      "text": "Omidnia",
+      "value": "4950"
     },
     {
       "text": "P&S Benotti",
@@ -2321,7 +2325,11 @@
       "value": "6754"
     },
     {
-      "text": "RRK Group - Pierre Baguette",
+      "text": "Rower San Luis Continental",
+      "value": "6490"
+    },
+    {
+      "text": "RRK Group - Pierre Baguette - Benzinol",
       "value": "9708"
     },
     {
@@ -2369,7 +2377,7 @@
       "value": "1357"
     },
     {
-      "text": "SIAS Rime",
+      "text": "Sias Rime",
       "value": "5641"
     },
     {
@@ -2453,16 +2461,12 @@
       "value": "1383"
     },
     {
-      "text": "Team Colpack Ballan",
+      "text": "Team Colpack Ballan CSB",
       "value": "2214"
     },
     {
       "text": "Team Coop - Repsol",
       "value": "1363"
-    },
-    {
-      "text": "Team Dauner | Akkon",
-      "value": "3891"
     },
     {
       "text": "Team Ecoflo Chronos",
@@ -2473,11 +2477,15 @@
       "value": "1337"
     },
     {
+      "text": "Team Hrinkow Advarics",
+      "value": "2745"
+    },
+    {
       "text": "Team Lotto - Kern Haus",
       "value": "2663"
     },
     {
-      "text": "Team Medellin - EPM",
+      "text": "Team Medell\u00edn - EPM",
       "value": "3925"
     },
     {
@@ -2555,6 +2563,10 @@
     {
       "text": "Utsunomiya Blitzen",
       "value": "1101"
+    },
+    {
+      "text": "Van Rysel - Roubaix Lille M\u00e9tropole",
+      "value": "1346"
     },
     {
       "text": "VC Fukuoka",
