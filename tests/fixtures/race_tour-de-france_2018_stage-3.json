@@ -46,7 +46,7 @@
       "age": 32,
       "nationality": "GB",
       "time": "9:08:58",
-      "bonus": 0,
+      "bonus": 1,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -61,7 +61,7 @@
       "age": 36,
       "nationality": "BE",
       "time": "9:09:00",
-      "bonus": 0,
+      "bonus": 2,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -511,7 +511,7 @@
       "age": 27,
       "nationality": "BE",
       "time": "9:10:26",
-      "bonus": 0,
+      "bonus": 1,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -706,7 +706,7 @@
       "age": 39,
       "nationality": "FR",
       "time": "9:10:43",
-      "bonus": 0,
+      "bonus": 3,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1201,7 +1201,7 @@
       "age": 28,
       "nationality": "SK",
       "time": "9:11:55",
-      "bonus": 0,
+      "bonus": 16,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1426,7 +1426,7 @@
       "age": 28,
       "nationality": "IT",
       "time": "9:12:52",
-      "bonus": 0,
+      "bonus": 6,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1651,7 +1651,7 @@
       "age": 23,
       "nationality": "CO",
       "time": "9:13:39",
-      "bonus": 0,
+      "bonus": 10,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1831,7 +1831,7 @@
       "age": 29,
       "nationality": "FR",
       "time": "9:14:12",
-      "bonus": 0,
+      "bonus": 3,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -2191,7 +2191,7 @@
       "age": 31,
       "nationality": "FR",
       "time": "9:16:44",
-      "bonus": 0,
+      "bonus": 2,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -2221,7 +2221,7 @@
       "age": 26,
       "nationality": "FR",
       "time": "9:16:56",
-      "bonus": 0,
+      "bonus": 4,
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -2251,7 +2251,7 @@
       "age": 30,
       "nationality": "DE",
       "time": "9:17:06",
-      "bonus": 0,
+      "bonus": 4,
       "pcs_points": 0,
       "uci_points": 0
     },
