@@ -2,7 +2,7 @@
   "dates_select": [
     {
       "text": "2023",
-      "value": "2023-02-26"
+      "value": "2023-07-21"
     },
     {
       "text": "2022",
@@ -976,8 +976,8 @@
     {
       "rank": 98,
       "prev_rank": null,
-      "nation_name": "Swaziland",
-      "nation_url": "nation/swaziland",
+      "nation_name": "Eswatini",
+      "nation_url": "nation/eswatini",
       "nationality": "SZ",
       "points": 39.0
     },

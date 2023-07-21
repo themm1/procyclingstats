@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rankings.php">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a168.css">
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css">
 	
-<script src="https://www.procyclingstats.com/pcs_s66.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -58,8 +58,8 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
@@ -72,24 +72,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
+<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2023">Cofidis </a></li>
 <li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
 <li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
-<li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -130,22 +138,22 @@
 <li><a href="rankings/we/promotion-relegation">2022-2023 Promotion/relegation</a></li>
 </ul></li>
 <li class="reg "><a class="" href="rankings/mj">Junior men</a></li>
-<li class="more"><a href="rankings">More</a><ul><li data-n="0"><a href="rankings/me/me">Men elite - Men elite</a></li><li data-n="0"><a href="rankings/me/individual">Individual</a></li>
+<li class="more"><a href="rankings">More</a><ul><li data-n="1"><a href="rankings/me/me">Men elite - Men elite</a></li><li data-n="0"><a href="rankings/me/individual">Individual</a></li>
 <li data-n="0"><a href="rankings/me/teams">Teams</a></li>
 <li data-n="0"><a href="rankings/me/nations">Nations</a></li>
 <li data-n="0"><a href="rankings/me/races">Races</a></li>
 <li data-n="0"><a href="rankings/me/u23">U23</a></li>
-<li data-n="1"><a href="rankings/we/we">Women elite - Women elite</a></li><li data-n="1"><a href="rankings/we/individual">Individual</a></li>
+<li data-n="2"><a href="rankings/we/we">Women elite - Women elite</a></li><li data-n="1"><a href="rankings/we/individual">Individual</a></li>
 <li data-n="1"><a href="rankings/we/teams">Teams</a></li>
 <li data-n="1"><a href="rankings/we/nations">Nations</a></li>
 <li data-n="1"><a href="rankings/we/world-ranking">Individual</a></li>
 <li data-n="1"><a href="rankings/we/wwt">Women's World Tour (WWT)</a></li>
 <li data-n="1"><a href="rankings/we/uci-teams">Teams</a></li>
 <li data-n="1"><a href="rankings/we/promotion-relegation">2022-2023 Promotion/relegation</a></li>
-<li data-n="2"><a href="rankings/mj/mj">Junior men - Junior men</a></li></ul></li></ul><div class="clear"></div></div><div class="page-title "><a class="mobileMenuLink showIfMobile menu-toggle" href="">menu</a><div class="main"><h1 class="">PCS Season</h1><span class="hideIfMobile">»</span><span class="red hideIfMobile">Nations</span></div><div class="sub"><span class="red showIfMobile">Nations</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div><div class="page-content page-object default " data-no_menu="0"><h2></h2><div class=" ">
+<li data-n="3"><a href="rankings/mj/mj">Junior men - Junior men</a></li></ul></li></ul><div class="clear"></div></div><div class="page-title "><a class="mobileMenuLink showIfMobile menu-toggle" href="">menu</a><div class="main"><h1 class="">PCS Season</h1><span class="hideIfMobile">»</span><span class="red hideIfMobile">Nations</span></div><div class="sub"><span class="red showIfMobile">Nations</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div><div class="page-content page-object default " data-no_menu="0"><h2></h2><div class=" ">
 <div class="text-regular">Summation of points from the 100 best top-30 results in the selected season.</div>
-<div class="mt20"><form action="rankings.php"><ul class="filter"><li><div class="label">Year</div><div><select class="" name="date"><option value="2023-02-26">2023</option><option value="2022-12-31">2022</option><option value="2021-12-31" selected="">2021</option><option value="2020-12-31">2020</option><option value="2019-12-31">2019</option><option value="2018-12-31">2018</option><option value="2017-12-31">2017</option><option value="2016-12-31">2016</option><option value="2015-12-31">2015</option><option value="2014-12-31">2014</option><option value="2013-12-31">2013</option><option value="2012-12-31">2012</option><option value="2011-12-31">2011</option><option value="2010-12-31">2010</option><option value="2009-12-31">2009</option><option value="2008-12-31">2008</option><option value="2007-12-31">2007</option><option value="2006-12-31">2006</option><option value="2005-12-31">2005</option><option value="2004-12-31">2004</option><option value="2003-12-31">2003</option><option value="2002-12-31">2002</option><option value="2001-12-31">2001</option><option value="2000-12-31">2000</option><option value="1999-12-31">1999</option><option value="1998-12-31">1998</option><option value="1997-12-31">1997</option><option value="1996-12-31">1996</option><option value="1995-12-31">1995</option><option value="1994-12-31">1994</option><option value="1993-12-31">1993</option><option value="1992-12-31">1992</option><option value="1991-12-31">1991</option><option value="1990-12-31">1990</option><option value="1989-12-31">1989</option><option value="1988-12-31">1988</option><option value="1987-12-31">1987</option><option value="1986-12-31">1986</option><option value="1985-12-31">1985</option><option value="1984-12-31">1984</option><option value="1983-12-31">1983</option><option value="1982-12-31">1982</option><option value="1981-12-31">1981</option><option value="1980-12-31">1980</option><option value="1979-12-31">1979</option><option value="1978-12-31">1978</option><option value="1977-12-31">1977</option><option value="1976-12-31">1976</option></select></div></li>
-</ul><input type="submit" name="filter" value="Filter"><input type="hidden" name="p" value="me"><input type="hidden" name="s" value="season-nations"></form></div>
+<div class="mt20"><form action="rankings.php"><ul class="filter "><li><div class="label">Year</div><div><select class="" name="date" style=""><option value="2023-07-21">2023</option><option value="2022-12-31">2022</option><option value="2021-12-31" selected="">2021</option><option value="2020-12-31">2020</option><option value="2019-12-31">2019</option><option value="2018-12-31">2018</option><option value="2017-12-31">2017</option><option value="2016-12-31">2016</option><option value="2015-12-31">2015</option><option value="2014-12-31">2014</option><option value="2013-12-31">2013</option><option value="2012-12-31">2012</option><option value="2011-12-31">2011</option><option value="2010-12-31">2010</option><option value="2009-12-31">2009</option><option value="2008-12-31">2008</option><option value="2007-12-31">2007</option><option value="2006-12-31">2006</option><option value="2005-12-31">2005</option><option value="2004-12-31">2004</option><option value="2003-12-31">2003</option><option value="2002-12-31">2002</option><option value="2001-12-31">2001</option><option value="2000-12-31">2000</option><option value="1999-12-31">1999</option><option value="1998-12-31">1998</option><option value="1997-12-31">1997</option><option value="1996-12-31">1996</option><option value="1995-12-31">1995</option><option value="1994-12-31">1994</option><option value="1993-12-31">1993</option><option value="1992-12-31">1992</option><option value="1991-12-31">1991</option><option value="1990-12-31">1990</option><option value="1989-12-31">1989</option><option value="1988-12-31">1988</option><option value="1987-12-31">1987</option><option value="1986-12-31">1986</option><option value="1985-12-31">1985</option><option value="1984-12-31">1984</option><option value="1983-12-31">1983</option><option value="1982-12-31">1982</option><option value="1981-12-31">1981</option><option value="1980-12-31">1980</option><option value="1979-12-31">1979</option><option value="1978-12-31">1978</option><option value="1977-12-31">1977</option><option value="1976-12-31">1976</option></select></div></li>
+<li><div><input type="submit" name="filter" value="Filter"></div></li></ul><input type="hidden" name="p" value="me"><input type="hidden" name="s" value="season-nations"></form></div>
 <div class="text-regular"><div class="fs10 ar">Last update: 2023-01-15 23:22:51 </div></div>
 <div class="mt20">
 <span class="table-cont"><table class="basic" style="max-width: 600px; "><thead><tr><th style="width: 12.5%; ">#</th><th class="cu600 fs10  " style="width: 12.5%; ">Prev.</th><th class="fs10  " style="width: 12.5%; ">Diff.</th><th style="width: 50%; ">Country</th><th style="width: 12.5%; ">Points</th></tr></thead><tbody>
@@ -246,7 +254,7 @@
 <tr><td>95</td><td class="cu600 fs10  ">88</td><td class="fs10  "><span class="delta-down">▼7</span></td><td><span class="flag ma"></span> <a href="nation/morocco">Morocco</a></td><td>52</td></tr>
 <tr><td>96</td><td class="cu600 fs10  ">41</td><td class="fs10  "><span class="delta-down">▼55</span></td><td><span class="flag rw"></span> <a href="nation/rwanda">Rwanda</a></td><td>49</td></tr>
 <tr><td>97</td><td class="cu600 fs10  "></td><td class="fs10  "><span class="delta-down">▼97</span></td><td><span class="flag cu"></span> <a href="nation/cuba">Cuba</a></td><td>45</td></tr>
-<tr><td>98</td><td class="cu600 fs10  "></td><td class="fs10  "><span class="delta-down">▼98</span></td><td><span class="flag sz"></span> <a href="nation/swaziland">Swaziland</a></td><td>39</td></tr>
+<tr><td>98</td><td class="cu600 fs10  "></td><td class="fs10  "><span class="delta-down">▼98</span></td><td><span class="flag sz"></span> <a href="nation/eswatini">Eswatini</a></td><td>39</td></tr>
 <tr><td>99</td><td class="cu600 fs10  ">78</td><td class="fs10  "><span class="delta-down">▼21</span></td><td><span class="flag md"></span> <a href="nation/moldova">Moldova</a></td><td>38</td></tr>
 <tr><td>100</td><td class="cu600 fs10  "></td><td class="fs10  "><span class="delta-down">▼100</span></td><td><span class="flag ls"></span> <a href="nation/lesotho">Lesotho</a></td><td>36</td></tr>
 <tr><td>101</td><td class="cu600 fs10  "></td><td class="fs10  "><span class="delta-down">▼101</span></td><td><span class="flag mc"></span> <a href="nation/monaco">Monaco</a></td><td>29</td></tr>
@@ -267,7 +275,7 @@
 <tr><td>116</td><td class="cu600 fs10  "></td><td class="fs10  "><span class="delta-down">▼116</span></td><td><span class="flag bs"></span> <a href="nation/bahamas">Bahamas</a></td><td>1</td></tr>
 </tbody></table></span></div>
 </div>
-<div class="desktop-ad below-content general"></div><div class="mob-ad below-content general"></div></div><div class="page-nav default "><ul class="menu-tree  "><li><span>PCS Ranking</span><ul><li class=" " data-premium="0" style=" "><a href="rankings/me/individual">Individual</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/teams">Teams</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/nations">Nations</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/races">Races</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/all-time">All time</a></li></ul></li><li><span>PCS Season</span><ul><li class=" " data-premium="0" style=" "><a href="rankings/me/season-individual">Individual</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/season-teams">Teams</a></li><li class="cur " data-premium="0" style=" "><a href="rankings/me/season-nations">Nations</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/distance">Distance</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/racedays">Racedays</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/u23">U23</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/u23-nations">U23 Nations</a></li></ul></li><li><span>PCS Wins</span><ul><li class=" " data-premium="0" style=" "><a href="rankings/me/wins-individual">Individual</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/wins-individual-pro">Professional wins</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/wins-teams">Teams</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/wins-nations">Nations</a></li></ul></li><li><span>UCI World Ranking</span><ul><li class=" " data-premium="0" style=" "><a href="rankings/me/uci-individual">Individual</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/uci-individual-daily">Individual (daily)</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/uci-teams">Teams</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/uci-nations">Nations</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/uci-one-day-races">One day races</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/uci-teams-2020-2022">Teams (2020-2022)</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/uci-season-individual">Season individual</a></li></ul></li><li><span>Rider specialties</span><ul><li class=" " data-premium="0" style=" "><a href="rankings/me/climbers">Climbers</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/gc-ranking">GC Ranking</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/one-day-races">One day races</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/sprinters">Sprinters</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/time-trial">Time trial</a></li><li class=" " data-premium="0" style=" "><a href="rankings/me/prologues">Prologues</a></li></ul></li></ul></div><div style="clear: both; "></div>  
+<div class="desktop-ad below-content general"></div><div class="mob-ad below-content general"></div></div><div class="page-nav default "><ul class="menu-tree  "><li><span>PCS Ranking</span><ul><li class=" " data-pro="0" style=" "><a href="rankings/me/individual">Individual</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/teams">Teams</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/nations">Nations</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/races">Races</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/all-time">All time</a></li></ul></li><li><span>PCS Season</span><ul><li class=" " data-pro="0" style=" "><a href="rankings/me/season-individual">Individual</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/season-teams">Teams</a></li><li class="cur " data-pro="0" style=" "><a href="rankings/me/season-nations">Nations</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/distance">Distance</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/racedays">Racedays</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/u23">U23</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/u23-nations">U23 Nations</a></li></ul></li><li><span>PCS Wins</span><ul><li class=" " data-pro="0" style=" "><a href="rankings/me/wins-individual">Individual</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/wins-individual-pro">Professional wins</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/wins-teams">Teams</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/wins-nations">Nations</a></li></ul></li><li><span>UCI World Ranking</span><ul><li class=" " data-pro="0" style=" "><a href="rankings/me/uci-individual">Individual</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/uci-individual-daily">Individual (daily)</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/uci-teams">Teams</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/uci-nations">Nations</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/uci-one-day-races">One day races</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/uci-season-individual">Season individual</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/uci-nations-olympic-selection">Nations (Olympic selection)</a></li></ul></li><li><span>Rider specialties</span><ul><li class=" " data-pro="0" style=" "><a href="rankings/me/climbers">Climbers</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/gc-ranking">GC Ranking</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/one-day-races">One day races</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/sprinters">Sprinters</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/time-trial">Time trial</a></li><li class=" " data-pro="0" style=" "><a href="rankings/me/prologues">Prologues</a></li></ul></li></ul></div><div style="clear: both; "></div>  
   </div>
   
   <div class="push"></div>
@@ -337,12 +345,12 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0429s</span></li>
+<li><span>Pageload 0.0530s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="698"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
  
  
-<script src="search_list5.js"></script>  
+<script src="search_list6.js"></script>  
 </body></html>

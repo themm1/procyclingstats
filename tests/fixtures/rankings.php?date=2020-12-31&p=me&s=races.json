@@ -2,7 +2,7 @@
   "dates_select": [
     {
       "text": "2023",
-      "value": "2023-06-23"
+      "value": "2023-07-21"
     },
     {
       "text": "2022",
@@ -715,7 +715,7 @@
       "nationality": "FR",
       "class": "CC",
       "points": 573.0,
-      "race_name": "European Continental Championships - Road Race",
+      "race_name": "European Continental Championships ME - Road Race",
       "race_url": "race/uec-road-european-championships/2020"
     },
     {
@@ -850,7 +850,7 @@
       "nationality": "IT",
       "class": "NC",
       "points": 344.0,
-      "race_name": "National Championships Italy - Road Race",
+      "race_name": "National Championships Italy ME - Road Race",
       "race_url": "race/nc-italy/2020"
     },
     {
@@ -877,7 +877,7 @@
       "nationality": "BE",
       "class": "NC",
       "points": 318.0,
-      "race_name": "National Championships Belgium - Road Race",
+      "race_name": "National Championships Belgium ME - Road Race",
       "race_url": "race/nc-belgium/2020"
     },
     {
@@ -922,7 +922,7 @@
       "nationality": "FR",
       "class": "NC",
       "points": 280.0,
-      "race_name": "National Championships France - Road Race",
+      "race_name": "National Championships France ME - Road Race",
       "race_url": "race/nc-france/2020"
     },
     {
@@ -1219,7 +1219,7 @@
       "nationality": "SI",
       "class": "NC",
       "points": 121.0,
-      "race_name": "National Championships Slovenia - Road Race",
+      "race_name": "National Championships Slovenia ME - Road Race",
       "race_url": "race/nc-slovenia/2020"
     },
     {
@@ -1273,7 +1273,7 @@
       "nationality": "SI",
       "class": "NC",
       "points": 106.0,
-      "race_name": "National Championships Slovenia - ITT",
+      "race_name": "National Championships Slovenia ME - ITT",
       "race_url": "race/nc-slovenia-itt/2020"
     },
     {
@@ -1309,7 +1309,7 @@
       "nationality": "NL",
       "class": "NC",
       "points": 98.0,
-      "race_name": "National Championships Netherlands - Road Race",
+      "race_name": "National Championships Netherlands ME - Road Race",
       "race_url": "race/nc-netherlands/2020"
     },
     {
@@ -1345,7 +1345,7 @@
       "nationality": "ES",
       "class": "NC",
       "points": 83.0,
-      "race_name": "National Championships Spain - Road Race",
+      "race_name": "National Championships Spain ME - Road Race",
       "race_url": "race/nc-spain/2020"
     },
     {
@@ -1363,7 +1363,7 @@
       "nationality": "DK",
       "class": "NC",
       "points": 74.0,
-      "race_name": "National Championships Denmark - Road Race",
+      "race_name": "National Championships Denmark ME - Road Race",
       "race_url": "race/danish-championships/2020"
     },
     {
@@ -1372,7 +1372,7 @@
       "nationality": "FR",
       "class": "CC",
       "points": 74.0,
-      "race_name": "European Continental Championships - ITT",
+      "race_name": "European Continental Championships ME - ITT",
       "race_url": "race/uec-road-european-championships-itt/2020"
     },
     {
@@ -1408,7 +1408,7 @@
       "nationality": "NO",
       "class": "NC",
       "points": 52.0,
-      "race_name": "National Championships Norway - Road Race",
+      "race_name": "National Championships Norway ME - Road Race",
       "race_url": "race/nc-norway/2020"
     },
     {

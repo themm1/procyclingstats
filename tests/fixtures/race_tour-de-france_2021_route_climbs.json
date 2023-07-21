@@ -161,14 +161,6 @@
       "km_before_finnish": 89
     },
     {
-      "climb_name": "Col de Llauro",
-      "climb_url": "location/col-de-llauro",
-      "length": 6.5,
-      "steepness": 3.0,
-      "top": 383,
-      "km_before_finnish": 185
-    },
-    {
       "climb_name": "Col de Beixalis",
       "climb_url": "location/col-de-beixalis",
       "length": 6.2,
@@ -257,30 +249,6 @@
       "km_before_finnish": 95
     },
     {
-      "climb_name": "Montagne Saint-Michel",
-      "climb_url": "location/montagne-saint-michel",
-      "length": 4.2,
-      "steepness": 3.1,
-      "top": 295,
-      "km_before_finnish": 56
-    },
-    {
-      "climb_name": "La Placette",
-      "climb_url": "location/col-de-la-placette",
-      "length": 4.1,
-      "steepness": 3.7,
-      "top": 589,
-      "km_before_finnish": 108
-    },
-    {
-      "climb_name": "Col de Fourtou",
-      "climb_url": "location/col-de-fourtou",
-      "length": 4.1,
-      "steepness": 3.8,
-      "top": 644,
-      "km_before_finnish": 173
-    },
-    {
       "climb_name": "C\u00f4te de Ch\u00e2teau-Chinon",
       "climb_url": "location/cote-de-chateau-chinon",
       "length": 3.2,
@@ -329,20 +297,20 @@
       "km_before_finnish": 71
     },
     {
-      "climb_name": "C\u00f4te de Notre-Dame de Pi\u00e9tat",
-      "climb_url": "location/cote-de-notre-dame-de-pietat",
-      "length": 2.6,
-      "steepness": 5.4,
-      "top": 367,
-      "km_before_finnish": 119
-    },
-    {
       "climb_name": "C\u00f4te de Domancy",
       "climb_url": "location/cote-de-domancy",
       "length": 2.6,
       "steepness": 8.8,
       "top": 797,
       "km_before_finnish": 125
+    },
+    {
+      "climb_name": "C\u00f4te de Notre-Dame de Pi\u00e9tat",
+      "climb_url": "location/cote-de-notre-dame-de-pietat",
+      "length": 2.6,
+      "steepness": 5.4,
+      "top": 367,
+      "km_before_finnish": 119
     },
     {
       "climb_name": "C\u00f4te de Saint-Rivoal",
@@ -377,20 +345,20 @@
       "km_before_finnish": 88
     },
     {
-      "climb_name": "C\u00f4te de Galinagues",
-      "climb_url": "location/cote-de-galinagues",
-      "length": 2.2,
-      "steepness": 7.9,
-      "top": 944,
-      "km_before_finnish": 57
-    },
-    {
       "climb_name": "C\u00f4te de Plum\u00e9liau",
       "climb_url": "location/cote-de-plumeliau",
       "length": 2.2,
       "steepness": 3.0,
       "top": 120,
       "km_before_finnish": 34
+    },
+    {
+      "climb_name": "C\u00f4te de Galinagues",
+      "climb_url": "location/cote-de-galinagues",
+      "length": 2.2,
+      "steepness": 7.9,
+      "top": 944,
+      "km_before_finnish": 57
     },
     {
       "climb_name": "C\u00f4te de Pordic",
@@ -471,30 +439,6 @@
       "steepness": 4.0,
       "top": 178,
       "km_before_finnish": 18
-    },
-    {
-      "climb_name": "Col de la Madeleine",
-      "climb_url": "location/col-de-la-madeleine4",
-      "length": 1.7,
-      "steepness": 4.2,
-      "top": 453,
-      "km_before_finnish": 50
-    },
-    {
-      "climb_name": "Col du Rebout",
-      "climb_url": "location/col-du-rebout",
-      "length": 1.7,
-      "steepness": 3.9,
-      "top": 612,
-      "km_before_finnish": 65
-    },
-    {
-      "climb_name": "Col du Serre de Tourre",
-      "climb_url": "location/col-du-serre-de-tourre",
-      "length": 1.4,
-      "steepness": 5.4,
-      "top": 323,
-      "km_before_finnish": 111
     },
     {
       "climb_name": "C\u00f4te de Saint-Brieuc",

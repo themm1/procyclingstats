@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rankings.php">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a185.css">
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css">
 	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -64,20 +64,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
@@ -90,6 +85,11 @@
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,8 +98,15 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
-<li><a href="info/paris-hardenberg">Paris-Hardenberg</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
@@ -145,13 +152,13 @@
 <li data-n="1"><a href="rankings/we/promotion-relegation">2022-2023 Promotion/relegation</a></li>
 <li data-n="3"><a href="rankings/mj/mj">Junior men - Junior men</a></li></ul></li></ul><div class="clear"></div></div><div class="page-title "><a class="mobileMenuLink showIfMobile menu-toggle" href="">menu</a><div class="main"><h1 class="">PCS Ranking</h1><span class="hideIfMobile">»</span><span class="red hideIfMobile">Races</span></div><div class="sub"><span class="red showIfMobile">Races</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div><div class="page-content page-object default " data-no_menu="0"><h2></h2><div class=" ">
 <div class="text-regular">Summation of points of riders starting in the race. The points per rider are based upon the riders position in the PCS ranking at that moment. A top-10 rider counts for 50 points, a top-25 rider 35 points and so on according to this scale: top10: 50, top25: 35, top50: 20, top100: 10, top200: 5, top500: 2, top1000: 1</div>
-<div class="mt20"><form action="rankings.php"><ul class="filter "><li><div class="label">Date</div><div><select class="" name="date" style=""><option value="2023-06-23">2023</option><option value="2022-12-31">2022</option><option value="2021-12-31">2021</option><option value="2020-12-31" selected="">2020</option><option value="2019-12-31">2019</option><option value="2018-12-31">2018</option><option value="2017-12-31">2017</option><option value="2016-12-31">2016</option><option value="2015-12-31">2015</option><option value="2014-12-31">2014</option><option value="2013-12-31">2013</option><option value="2012-12-31">2012</option><option value="2011-12-31">2011</option><option value="2010-12-31">2010</option><option value="2009-12-31">2009</option><option value="2008-12-31">2008</option><option value="2007-12-31">2007</option><option value="2006-12-31">2006</option><option value="2005-12-31">2005</option><option value="2004-12-31">2004</option><option value="2003-12-31">2003</option><option value="2002-12-31">2002</option></select></div></li>
+<div class="mt20"><form action="rankings.php"><ul class="filter "><li><div class="label">Date</div><div><select class="" name="date" style=""><option value="2023-07-21">2023</option><option value="2022-12-31">2022</option><option value="2021-12-31">2021</option><option value="2020-12-31" selected="">2020</option><option value="2019-12-31">2019</option><option value="2018-12-31">2018</option><option value="2017-12-31">2017</option><option value="2016-12-31">2016</option><option value="2015-12-31">2015</option><option value="2014-12-31">2014</option><option value="2013-12-31">2013</option><option value="2012-12-31">2012</option><option value="2011-12-31">2011</option><option value="2010-12-31">2010</option><option value="2009-12-31">2009</option><option value="2008-12-31">2008</option><option value="2007-12-31">2007</option><option value="2006-12-31">2006</option><option value="2005-12-31">2005</option><option value="2004-12-31">2004</option><option value="2003-12-31">2003</option><option value="2002-12-31">2002</option></select></div></li>
 <li><div class="label">Nation</div><div><select class="" name="nation" style=""><option value="" selected="">-</option><option value="al">Albania</option><option value="dz">Algeria</option><option value="ao">Angola</option><option value="ar">Argentina</option><option value="au">Australia</option><option value="at">Austria</option><option value="az">Azerbaijan</option><option value="by">Belarus</option><option value="be">Belgium</option><option value="bz">Belize</option><option value="bm">Bermuda</option><option value="bw">Botswana</option><option value="br">Brazil</option><option value="bg">Bulgaria</option><option value="bf">Burkina Faso</option><option value="cm">Cameroon</option><option value="ca">Canada</option><option value="cl">Chile</option><option value="cn">China</option><option value="co">Colombia</option><option value="cr">Costa Rica</option><option value="hr">Croatia</option><option value="cu">Cuba</option><option value="cw">Curacao</option><option value="cy">Cyprus</option><option value="cz">Czech Republic</option><option value="dk">Denmark</option><option value="do">Dominican Republic</option><option value="ec">Ecuador</option><option value="sv">El Salvador</option><option value="er">Eritrea</option><option value="ee">Estonia</option><option value="et">Ethiopia</option><option value="fi">Finland</option><option value="fr">France</option><option value="ge">Georgia</option><option value="de">Germany</option><option value="gb">Great Britain</option><option value="gr">Greece</option><option value="gt">Guatemala</option><option value="hk">Hongkong</option><option value="hu">Hungary</option><option value="in">India</option><option value="id">Indonesia</option><option value="ir">Iran</option><option value="ie">Ireland</option><option value="il">Israel</option><option value="it">Italy</option><option value="ci">Ivory Coast</option><option value="jp">Japan</option><option value="kz">Kazakhstan</option><option value="ke">Kenya</option><option value="xk">Kosovo</option><option value="kw">Kuwait</option><option value="la">Laos</option><option value="lv">Latvia</option><option value="lb">Lebanon</option><option value="lt">Lithuania</option><option value="lu">Luxembourg</option><option value="my">Malaysia</option><option value="mu">Mauritius</option><option value="mx">Mexico</option><option value="md">Moldova</option><option value="mn">Mongolia</option><option value="me">Montenegro</option><option value="ma">Morocco</option><option value="na">Namibia</option><option value="nl">Netherlands</option><option value="nz">New Zealand</option><option value="mk">North Macedonia</option><option value="no">Norway</option><option value="pk">Pakistan</option><option value="pa">Panama</option><option value="ph">Philippines</option><option value="pl">Poland</option><option value="pt">Portugal</option><option value="pr">Puerto Rico</option><option value="ro">Romania</option><option value="ru">Russia</option><option value="rw">Rwanda</option><option value="rs">Serbia</option><option value="sg">Singapore</option><option value="sk">Slovakia</option><option value="si">Slovenia</option><option value="za">South Africa</option><option value="kr">South Korea</option><option value="es">Spain</option><option value="se">Sweden</option><option value="ch">Switzerland</option><option value="sy">Syria</option><option value="tw">Taiwan</option><option value="th">Thailand</option><option value="tn">Tunisia</option><option value="tr">Turkey</option><option value="ug">Uganda</option><option value="ua">Ukraine</option><option value="ae">United Arab Emirates</option><option value="us">United States</option><option value="uy">Uruguay</option><option value="uz">Uzbekistan</option><option value="ve">Venezuela</option></select></div></li>
 <li><div class="label">Page</div><div><select class="" name="offset" style=""><option value="0" selected="">1-100</option><option value="100">101-200</option><option value="200">201-262</option></select></div></li>
 <li><div class="label">Continent</div><div><select class="" name="continent" style=""><option value="" selected="">-</option><option value="EU">Europe</option><option value="OC">Oceania</option><option value="AS">Asia</option><option value="NA">North-America</option><option value="AF">Africa</option><option value="SA">South-America</option><option value="AN">Antartica</option></select></div></li>
 <li><div class="label">Classification</div><div><select class="" name="class" style=""><option value="" selected="">-</option><option value="1.1">1.1</option><option value="1.2">1.2</option><option value="1.2U">1.2U</option><option value="1.Pro">1.Pro</option><option value="1.UWT">1.UWT</option><option value="2.1">2.1</option><option value="2.2">2.2</option><option value="2.2U">2.2U</option><option value="2.Ncup">2.Ncup</option><option value="2.Pro">2.Pro</option><option value="2.UWT">2.UWT</option><option value="CC">CC</option><option value="NC">NC</option><option value="WC">WC</option></select></div></li>
 <li><div><input type="submit" name="filter" value="Filter"></div></li></ul><input type="hidden" name="p" value="me"><input type="hidden" name="s" value="races"></form></div>
-<div class="text-regular"><div class="fs10 ar">Last update: 2023-06-23 12:25:01 </div></div>
+<div class="text-regular"><div class="fs10 ar">Last update: 2023-07-21 12:15:02 </div></div>
 <div class="mt20"><b>100/262</b> results.
 <span class="table-cont"><table class="basic" style=""><thead><tr><th style="width: 8.3%; ">#</th><th class="cu600 fs10  " style="width: 8.3%; ">Prev.</th><th class="fs10  " style="width: 8.3%; ">Diff.</th><th style="width: 50%; ">Race</th><th class="cu600  " style="width: 16.7%; ">Class</th><th style="width: 8.3%; ">Points</th></tr></thead><tbody>
 <tr><td>1</td><td class="cu600 fs10  ">1</td><td class="fs10  "><span class="delta-equal">-</span></td><td><span class="flag fr"></span> <a href="race/tour-de-france/2020">Tour de France</a></td><td class="cu600  ">2.UWT</td><td>1554</td></tr>
@@ -175,7 +182,7 @@
 <tr><td>19</td><td class="cu600 fs10  ">7</td><td class="fs10  "><span class="delta-down">▼12</span></td><td><span class="flag it"></span> <a href="race/il-lombardia/2020">Il Lombardia</a></td><td class="cu600  ">1.UWT</td><td>651</td></tr>
 <tr><td>20</td><td class="cu600 fs10  ">28</td><td class="fs10  "><span class="delta-up">▲8</span></td><td><span class="flag es"></span> <a href="race/vuelta-a-la-comunidad-valenciana/2020">Volta a la Comunitat Valenciana</a></td><td class="cu600  ">2.Pro</td><td>650</td></tr>
 <tr><td>21</td><td class="cu600 fs10  ">9</td><td class="fs10  "><span class="delta-down">▼12</span></td><td><span class="flag be"></span> <a href="race/la-fleche-wallone/2020">La Flèche Wallonne</a></td><td class="cu600  ">1.UWT</td><td>599</td></tr>
-<tr><td>22</td><td class="cu600 fs10  ">42</td><td class="fs10  "><span class="delta-up">▲20</span></td><td><span class="flag fr"></span> <a href="race/uec-road-european-championships/2020">European Continental Championships - Road Race</a></td><td class="cu600  ">CC</td><td>573</td></tr>
+<tr><td>22</td><td class="cu600 fs10  ">42</td><td class="fs10  "><span class="delta-up">▲20</span></td><td><span class="flag fr"></span> <a href="race/uec-road-european-championships/2020">European Continental Championships ME - Road Race</a></td><td class="cu600  ">CC</td><td>573</td></tr>
 <tr><td>23</td><td class="cu600 fs10  ">66</td><td class="fs10  "><span class="delta-up">▲43</span></td><td><span class="flag be"></span> <a href="race/scheldeprijs/2020">Scheldeprijs</a></td><td class="cu600  ">1.Pro</td><td>569</td></tr>
 <tr><td>24</td><td class="cu600 fs10  ">48</td><td class="fs10  "><span class="delta-up">▲24</span></td><td><span class="flag be"></span> <a href="race/oxyclean-classic-brugge-de-panne/2020">AG Driedaagse Brugge-De Panne ME</a></td><td class="cu600  ">1.UWT</td><td>557</td></tr>
 <tr><td>25</td><td class="cu600 fs10  ">46</td><td class="fs10  "><span class="delta-up">▲21</span></td><td><span class="flag be"></span> <a href="race/brabantse-pijl/2020">De Brabantse Pijl - La Flèche Brabançonne</a></td><td class="cu600  ">1.Pro</td><td>533</td></tr>
@@ -190,15 +197,15 @@
 <tr><td>34</td><td class="cu600 fs10  ">94</td><td class="fs10  "><span class="delta-up">▲60</span></td><td><span class="flag es"></span> <a href="race/clasica-de-almeria/2020">Clasica de Almeria</a></td><td class="cu600  ">1.Pro</td><td>386</td></tr>
 <tr><td>35</td><td class="cu600 fs10  ">56</td><td class="fs10  "><span class="delta-up">▲21</span></td><td><span class="flag au"></span> <a href="race/great-ocean-race/2020">Cadel Evans Great Ocean Road Race</a></td><td class="cu600  ">1.UWT</td><td>381</td></tr>
 <tr><td>36</td><td class="cu600 fs10  "></td><td class="fs10  "><span class="delta-down">▼36</span></td><td><span class="flag au"></span> <a href="race/race-torquay/2020">Race Torquay</a></td><td class="cu600  ">1.1</td><td>367</td></tr>
-<tr><td>37</td><td class="cu600 fs10  ">62</td><td class="fs10  "><span class="delta-up">▲25</span></td><td><span class="flag it"></span> <a href="race/nc-italy/2020">National Championships Italy - Road Race</a></td><td class="cu600  ">NC</td><td>344</td></tr>
+<tr><td>37</td><td class="cu600 fs10  ">62</td><td class="fs10  "><span class="delta-up">▲25</span></td><td><span class="flag it"></span> <a href="race/nc-italy/2020">National Championships Italy ME - Road Race</a></td><td class="cu600  ">NC</td><td>344</td></tr>
 <tr><td>38</td><td class="cu600 fs10  ">25</td><td class="fs10  "><span class="delta-down">▼13</span></td><td><span class="flag fr"></span> <a href="race/bretagne-classic/2020">Bretagne Classic - Ouest-France</a></td><td class="cu600  ">1.UWT</td><td>331</td></tr>
 <tr><td>39</td><td class="cu600 fs10  ">98</td><td class="fs10  "><span class="delta-up">▲59</span></td><td><span class="flag fr"></span> <a href="race/la-drome-classic/2020">Royal Bernard Drome Classic</a></td><td class="cu600  ">1.Pro</td><td>319</td></tr>
-<tr><td>40</td><td class="cu600 fs10  ">55</td><td class="fs10  "><span class="delta-up">▲15</span></td><td><span class="flag be"></span> <a href="race/nc-belgium/2020">National Championships Belgium - Road Race</a></td><td class="cu600  ">NC</td><td>318</td></tr>
+<tr><td>40</td><td class="cu600 fs10  ">55</td><td class="fs10  "><span class="delta-up">▲15</span></td><td><span class="flag be"></span> <a href="race/nc-belgium/2020">National Championships Belgium ME - Road Race</a></td><td class="cu600  ">NC</td><td>318</td></tr>
 <tr><td>41</td><td class="cu600 fs10  ">54</td><td class="fs10  "><span class="delta-up">▲13</span></td><td><span class="flag es"></span> <a href="race/trofeo-andratx-mirador-d-es-colomer/2020">Pollença - Andratx</a></td><td class="cu600  ">1.1</td><td>304</td></tr>
 <tr><td>42</td><td class="cu600 fs10  ">75</td><td class="fs10  "><span class="delta-up">▲33</span></td><td><span class="flag fr"></span> <a href="race/faun-ardeche-classic/2020">Faun-Ardèche Classic</a></td><td class="cu600  ">1.Pro</td><td>303</td></tr>
 <tr><td>43</td><td class="cu600 fs10  ">71</td><td class="fs10  "><span class="delta-up">▲28</span></td><td><span class="flag es"></span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2020">Vuelta Ciclista a la Región de Murcia </a></td><td class="cu600  ">2.1</td><td>293</td></tr>
 <tr><td>44</td><td class="cu600 fs10  ">50</td><td class="fs10  "><span class="delta-up">▲6</span></td><td><span class="flag it"></span> <a href="race/gran-piemonte/2020">Gran Piemonte</a></td><td class="cu600  ">1.Pro</td><td>289</td></tr>
-<tr><td>45</td><td class="cu600 fs10  ">67</td><td class="fs10  "><span class="delta-up">▲22</span></td><td><span class="flag fr"></span> <a href="race/nc-france/2020">National Championships France - Road Race</a></td><td class="cu600  ">NC</td><td>280</td></tr>
+<tr><td>45</td><td class="cu600 fs10  ">67</td><td class="fs10  "><span class="delta-up">▲22</span></td><td><span class="flag fr"></span> <a href="race/nc-france/2020">National Championships France ME - Road Race</a></td><td class="cu600  ">NC</td><td>280</td></tr>
 <tr><td>46</td><td class="cu600 fs10  ">64</td><td class="fs10  "><span class="delta-up">▲18</span></td><td><span class="flag ar"></span> <a href="race/vuelta-ciclista-a-la-provincia-de-san-juan/2020">Vuelta a San Juan Internacional</a></td><td class="cu600  ">2.Pro</td><td>276</td></tr>
 <tr><td>47</td><td class="cu600 fs10  ">59</td><td class="fs10  "><span class="delta-up">▲12</span></td><td><span class="flag co"></span> <a href="race/colombia-21/2020">Tour Colombia 2.1</a></td><td class="cu600  ">2.1</td><td>275</td></tr>
 <tr><td>48</td><td class="cu600 fs10  ">68</td><td class="fs10  "><span class="delta-up">▲20</span></td><td><span class="flag fr"></span> <a href="race/paris-tours/2020">Paris - Tours Elite</a></td><td class="cu600  ">1.Pro</td><td>272</td></tr>
@@ -231,28 +238,28 @@
 <tr><td>75</td><td class="cu600 fs10  ">51</td><td class="fs10  "><span class="delta-down">▼24</span></td><td><span class="flag it"></span> <a href="race/memorial-marco-pantani/2020">Memorial Marco Pantani</a></td><td class="cu600  ">1.1</td><td>130</td></tr>
 <tr><td>76</td><td class="cu600 fs10  ">139</td><td class="fs10  "><span class="delta-up">▲63</span></td><td><span class="flag fr"></span> <a href="race/paris-camembert/2020">Paris-Camembert</a></td><td class="cu600  ">1.1</td><td>124</td></tr>
 <tr><td>77</td><td class="cu600 fs10  ">146</td><td class="fs10  "><span class="delta-up">▲69</span></td><td><span class="flag be"></span> <a href="race/grote-prijs-jean-pierre-monsere/2020">Grote prijs Jean-Pierre Monseré</a></td><td class="cu600  ">1.1</td><td>124</td></tr>
-<tr><td>78</td><td class="cu600 fs10  ">160</td><td class="fs10  "><span class="delta-up">▲82</span></td><td><span class="flag si"></span> <a href="race/nc-slovenia/2020">National Championships Slovenia - Road Race</a></td><td class="cu600  ">NC</td><td>121</td></tr>
+<tr><td>78</td><td class="cu600 fs10  ">160</td><td class="fs10  "><span class="delta-up">▲82</span></td><td><span class="flag si"></span> <a href="race/nc-slovenia/2020">National Championships Slovenia ME - Road Race</a></td><td class="cu600  ">NC</td><td>121</td></tr>
 <tr><td>79</td><td class="cu600 fs10  ">212</td><td class="fs10  "><span class="delta-up">▲133</span></td><td><span class="flag ro"></span> <a href="race/sibiu-cycling-tour/2020">Sibiu Cycling Tour</a></td><td class="cu600  ">2.1</td><td>120</td></tr>
 <tr><td>80</td><td class="cu600 fs10  ">77</td><td class="fs10  "><span class="delta-down">▼3</span></td><td><span class="flag it"></span> <a href="race/trofeo-matteotti/2020">Trofeo Matteotti</a></td><td class="cu600  ">1.1</td><td>118</td></tr>
 <tr><td>81</td><td class="cu600 fs10  ">145</td><td class="fs10  "><span class="delta-up">▲64</span></td><td><span class="flag cz"></span> <a href="race/czech-tour/2020">Czech Tour</a></td><td class="cu600  ">2.1</td><td>114</td></tr>
 <tr><td>82</td><td class="cu600 fs10  ">81</td><td class="fs10  "><span class="delta-down">▼1</span></td><td><span class="flag sk"></span> <a href="race/okolo-slovenska/2020">Okolo Slovenska / Tour de Slovaquie</a></td><td class="cu600  ">2.1</td><td>114</td></tr>
 <tr><td>83</td><td class="cu600 fs10  ">89</td><td class="fs10  "><span class="delta-up">▲6</span></td><td><span class="flag be"></span> <a href="race/gooikse-pijl/2020">Gooikse Pijl</a></td><td class="cu600  ">1.1</td><td>112</td></tr>
-<tr><td>84</td><td class="cu600 fs10  ">207</td><td class="fs10  "><span class="delta-up">▲123</span></td><td><span class="flag si"></span> <a href="race/nc-slovenia-itt/2020">National Championships Slovenia - ITT</a></td><td class="cu600  ">NC</td><td>106</td></tr>
+<tr><td>84</td><td class="cu600 fs10  ">207</td><td class="fs10  "><span class="delta-up">▲123</span></td><td><span class="flag si"></span> <a href="race/nc-slovenia-itt/2020">National Championships Slovenia ME - ITT</a></td><td class="cu600  ">NC</td><td>106</td></tr>
 <tr><td>85</td><td class="cu600 fs10  ">190</td><td class="fs10  "><span class="delta-up">▲105</span></td><td><span class="flag co"></span> <a href="race/nc-colombia-itt/2020">National Championships Colombia - ITT</a></td><td class="cu600  ">NC</td><td>105</td></tr>
 <tr><td>86</td><td class="cu600 fs10  ">182</td><td class="fs10  "><span class="delta-up">▲96</span></td><td><span class="flag hu"></span> <a href="race/tour-de-hongrie/2020">Tour de Hongrie</a></td><td class="cu600  ">2.1</td><td>105</td></tr>
 <tr><td>87</td><td class="cu600 fs10  ">109</td><td class="fs10  "><span class="delta-up">▲22</span></td><td><span class="flag fr"></span> <a href="race/gp-d-isbergues/2020">Grand Prix d'Isbergues - Pas de Calais</a></td><td class="cu600  ">1.1</td><td>105</td></tr>
-<tr><td>88</td><td class="cu600 fs10  ">128</td><td class="fs10  "><span class="delta-up">▲40</span></td><td><span class="flag nl"></span> <a href="race/nc-netherlands/2020">National Championships Netherlands - Road Race</a></td><td class="cu600  ">NC</td><td>98</td></tr>
+<tr><td>88</td><td class="cu600 fs10  ">128</td><td class="fs10  "><span class="delta-up">▲40</span></td><td><span class="flag nl"></span> <a href="race/nc-netherlands/2020">National Championships Netherlands ME - Road Race</a></td><td class="cu600  ">NC</td><td>98</td></tr>
 <tr><td>89</td><td class="cu600 fs10  ">157</td><td class="fs10  "><span class="delta-up">▲68</span></td><td><span class="flag it"></span> <a href="race/trofeo-laigueglia/2020">Trofeo Laigueglia</a></td><td class="cu600  ">1.Pro</td><td>96</td></tr>
 <tr><td>90</td><td class="cu600 fs10  ">142</td><td class="fs10  "><span class="delta-up">▲52</span></td><td><span class="flag fr"></span> <a href="race/tour-du-doubs/2020">Tour du Doubs</a></td><td class="cu600  ">1.1</td><td>95</td></tr>
 <tr><td>91</td><td class="cu600 fs10  ">187</td><td class="fs10  "><span class="delta-up">▲96</span></td><td><span class="flag tr"></span> <a href="race/tour-of-antalya/2020">Tour of Antalya</a></td><td class="cu600  ">2.1</td><td>90</td></tr>
-<tr><td>92</td><td class="cu600 fs10  ">110</td><td class="fs10  "><span class="delta-up">▲18</span></td><td><span class="flag es"></span> <a href="race/nc-spain/2020">National Championships Spain - Road Race</a></td><td class="cu600  ">NC</td><td>83</td></tr>
+<tr><td>92</td><td class="cu600 fs10  ">110</td><td class="fs10  "><span class="delta-up">▲18</span></td><td><span class="flag es"></span> <a href="race/nc-spain/2020">National Championships Spain ME - Road Race</a></td><td class="cu600  ">NC</td><td>83</td></tr>
 <tr><td>93</td><td class="cu600 fs10  ">124</td><td class="fs10  "><span class="delta-up">▲31</span></td><td><span class="flag de"></span> <a href="race/nc-germany/2020">National Championships Germany - Road Race</a></td><td class="cu600  ">NC</td><td>75</td></tr>
-<tr><td>94</td><td class="cu600 fs10  ">196</td><td class="fs10  "><span class="delta-up">▲102</span></td><td><span class="flag dk"></span> <a href="race/danish-championships/2020">National Championships Denmark - Road Race</a></td><td class="cu600  ">NC</td><td>74</td></tr>
-<tr><td>95</td><td class="cu600 fs10  ">176</td><td class="fs10  "><span class="delta-up">▲81</span></td><td><span class="flag fr"></span> <a href="race/uec-road-european-championships-itt/2020">European Continental Championships - ITT</a></td><td class="cu600  ">CC</td><td>74</td></tr>
+<tr><td>94</td><td class="cu600 fs10  ">196</td><td class="fs10  "><span class="delta-up">▲102</span></td><td><span class="flag dk"></span> <a href="race/danish-championships/2020">National Championships Denmark ME - Road Race</a></td><td class="cu600  ">NC</td><td>74</td></tr>
+<tr><td>95</td><td class="cu600 fs10  ">176</td><td class="fs10  "><span class="delta-up">▲81</span></td><td><span class="flag fr"></span> <a href="race/uec-road-european-championships-itt/2020">European Continental Championships ME - ITT</a></td><td class="cu600  ">CC</td><td>74</td></tr>
 <tr><td>96</td><td class="cu600 fs10  ">168</td><td class="fs10  "><span class="delta-up">▲72</span></td><td><span class="flag au"></span> <a href="race/herald-sun-tour/2020">Jayco Herald Sun Tour</a></td><td class="cu600  ">2.1</td><td>70</td></tr>
 <tr><td>97</td><td class="cu600 fs10  ">189</td><td class="fs10  "><span class="delta-up">▲92</span></td><td><span class="flag my"></span> <a href="race/tour-de-langkawi/2020">PETRONAS Le Tour de Langkawi</a></td><td class="cu600  ">2.Pro</td><td>64</td></tr>
 <tr><td>98</td><td class="cu600 fs10  "></td><td class="fs10  "><span class="delta-down">▼98</span></td><td><span class="flag my"></span> <a href="race/malaysian-international-classic-race/2020">Malaysian International Classic Race</a></td><td class="cu600  ">1.1</td><td>63</td></tr>
-<tr><td>99</td><td class="cu600 fs10  ">173</td><td class="fs10  "><span class="delta-up">▲74</span></td><td><span class="flag no"></span> <a href="race/nc-norway/2020">National Championships Norway - Road Race</a></td><td class="cu600  ">NC</td><td>52</td></tr>
+<tr><td>99</td><td class="cu600 fs10  ">173</td><td class="fs10  "><span class="delta-up">▲74</span></td><td><span class="flag no"></span> <a href="race/nc-norway/2020">National Championships Norway ME - Road Race</a></td><td class="cu600  ">NC</td><td>52</td></tr>
 <tr><td>100</td><td class="cu600 fs10  ">162</td><td class="fs10  "><span class="delta-up">▲62</span></td><td><span class="flag be"></span> <a href="race/nc-belgium-itt/2020">National Championships Belgium - ITT</a></td><td class="cu600  ">NC</td><td>49</td></tr>
 </tbody></table></span></div>
 </div>
@@ -326,7 +333,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0905s</span></li>
+<li><span>Pageload 0.0784s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="693"><input type="hidden" id="userid" value="0">
 	</div>
