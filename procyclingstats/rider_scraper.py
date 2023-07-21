@@ -63,7 +63,7 @@ class Rider(Scraper):
         """
         return self.html.css_first(".page-title > .main > h1").text()
 
-    def weight(self) -> int:
+    def weight(self) -> float:
         """
         Parses rider's current weight from HTML.
 
@@ -72,11 +72,11 @@ class Rider(Scraper):
         # normal layout
         try:
             weight_html = self.html.css(".rdr-info-cont > span")[1]
-            return int(weight_html.text().split(" ")[1])
+            return float(weight_html.text().split(" ")[1])
         # special layout
         except (AttributeError, IndexError):
             weight_html = self.html.css(".rdr-info-cont > span > span")[1]
-            return int(weight_html.text().split(" ")[1])
+            return float(weight_html.text().split(" ")[1])
 
     def height(self) -> float:
         """
