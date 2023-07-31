@@ -551,7 +551,10 @@ class Stage(Scraper):
             row_text = row.text(separator="\n").split("\n")
             row_text = [x for x in row_text if x != " "]
             if label in row_text[0]:
-                return row_text[1]
+                if len(row_text) > 1:
+                    return row_text[1]
+                else:
+                    return ""
         return ""
 
     def _table_html(self, table: Literal[
