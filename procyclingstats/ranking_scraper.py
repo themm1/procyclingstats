@@ -1,3 +1,4 @@
+import re
 from typing import Any, Dict, List, Literal, Tuple
 
 from .errors import ExpectedParsingError
@@ -486,11 +487,14 @@ class Ranking(Scraper):
 
         :return: Ranking type.
         """
+
         relative_url = self.relative_url()
         if len(relative_url.split("/")) < 3 and "?" not in relative_url:
             return "individual"
         if "races" in relative_url:
-            return "races"
+            l = [m.start() for m in re.finditer("races", relative_url)]
+            if relative_url[l[0] - 1] != "-":
+                return "races"
         if "distance" in relative_url:
             return "distance"
         if "racedays" in relative_url:
