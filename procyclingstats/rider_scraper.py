@@ -190,3 +190,16 @@ class Rider(Scraper):
         table_parser = TableParser(points_table_html)
         table_parser.parse(fields)
         return table_parser.table
+
+    def specialty(self) -> dict:
+        """
+        Parses rider's points per specialty from HTML.
+
+        :return: Rider's points per specialty (GC, Climber etc)
+        """
+        specialty_html = self.html.css(".pps > ul > li > .pnt")
+        pnts = [ int(e.text()) for e in specialty_html]
+
+        specialty_html = self.html.css(".pps > ul > li > .title")
+        keys = [ e.text() for e in specialty_html]
+        return dict(zip(keys, pnts))
