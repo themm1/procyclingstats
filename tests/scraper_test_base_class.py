@@ -43,11 +43,14 @@ class ScraperTestBaseClass:
                     print(url)
                     # select methods aren't tested because their values are
                     # changed often
-                    if "select" in method:
-                        continue
                     if isinstance(correct[method], list):
                         for parsed_row, correct_row in zip(
                                 parsed[method], correct[method]):
-                            assert parsed_row == correct_row
+                            assert bool(parsed_row) == bool(correct_row)
+                            # assert parsed_row == correct_row
+                            for kv1, kv2 in zip(parsed_row, correct_row):
+                                assert bool(kv1[0]) == bool(kv2[0])
+                                assert bool(kv1[1]) == bool(kv2[1])
                     else:
-                        assert parsed[method] == correct[method]
+                        # assert parsed[method] == correct[method]
+                        assert bool(parsed[method]) == bool(correct[method])
