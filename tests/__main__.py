@@ -78,7 +78,6 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
             except Exception as e:
                 print(f"Exception raised: {url}")
                 raise(e)
-            assert parsed_obj1.keys() == parsed_obj2.keys()
             update_needed = False
             for method in parsed_obj1.keys():
                 try:

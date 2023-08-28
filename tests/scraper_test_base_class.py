@@ -50,9 +50,12 @@ class ScraperTestBaseClass:
             correct = f_utils.get_data_fixture(obj.relative_url())
             # dicts with parsed data has same keys
             # assert parsed.keys() == correct.keys() # type: ignore
+            print(obj.relative_url())
             parsed_data.append(parsed)
             correct_data.append(correct)
             urls.append(obj.relative_url())
+            
+        assert correct_data[0].keys() == parsed_data[0].keys()
 
         for method in correct_data[0].keys():
             # method subtest

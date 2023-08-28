@@ -71,6 +71,13 @@
       "rank": 1111
     }
   ],
+  "points_per_speciality": {
+    "one_day_races": 291,
+    "gc": 1708,
+    "time_trial": 820,
+    "sprint": 472,
+    "climber": 356
+  },
   "teams_history": [
     {
       "season": 2009,
@@ -193,5 +200,5 @@
       "until": "12-31"
     }
   ],
-  "weight": 65
+  "weight": 65.0
 }

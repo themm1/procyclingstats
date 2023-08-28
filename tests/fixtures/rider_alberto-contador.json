@@ -86,6 +86,13 @@
       "rank": 1416
     }
   ],
+  "points_per_speciality": {
+    "one_day_races": 770,
+    "gc": 11393,
+    "time_trial": 6056,
+    "sprint": 1232,
+    "climber": 10160
+  },
   "teams_history": [
     {
       "season": 2017,
@@ -216,5 +223,5 @@
       "until": "12-31"
     }
   ],
-  "weight": 61
+  "weight": 61.0
 }

@@ -25,6 +25,12 @@
 <title>David  Cañada </title>
 <base href="https://www.procyclingstats.com/rider.php">
 <link rel="canonical" href="https://www.procyclingstats.com/rider/david-canada">
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async="" src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="David Cañada (born 1975-03-11 in Zaragoza, passed away 2016-05-28) was a former professional road racing cyclist from Spain, active between 1993 and 2009. His best results are winning GC Volta Ciclista a Catalunya and winning GC Vuelta Ciclista a la Región de Murcia " costa="" calid."="">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a185.css">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b145.css">
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css">
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css">
+<script src="https://www.procyclingstats.com/pcs_s75.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -61,8 +67,8 @@
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -72,24 +78,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
 <li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
 <li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,8 +104,15 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2023">Vuelta</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/vuelta-a-espana/2023/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2023/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/vuelta-a-espana/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/vuelta-a-espana/2023/teams/top-teams">Best teams</a></li>
+<li><a href="race/vuelta-a-espana/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
-<li><a href="info/paris-hardenberg">Paris-Hardenberg</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
@@ -156,13 +169,14 @@
 <li data-n="7"><a href="rider/david-canada/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/david-canada/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/david-canada/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title "><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">David  Cañada</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1"><h2></h2><div class=" ">
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;<span style="font-size: 10px; color: #999; ">©: -</span></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> March 1975<br><span><b>Passed away on:</b> 28<sup>th</sup> May 2016<br><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br><span><b>Weight:</b> 65 kg &nbsp; <span><b>Height:</b> 1.76 m<br><b>Place of birth:</b> <a href="location/zaragoza">Zaragoza</a><br><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 17.037470725995%; height: 100%;  "></div></div><div class="pnt">291</div><div class="title"><a href="rider/david-canada/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1708</div><div class="title"><a href="rider/david-canada/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 48.009367681499%; height: 100%;  "></div></div><div class="pnt">820</div><div class="title"><a href="rider/david-canada/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 27.693208430913%; height: 100%;  "></div></div><div class="pnt">473</div><div class="title"><a href="rider/david-canada/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 20.140515222482%; height: 100%;  "></div></div><div class="pnt">344</div><div class="title"><a href="rider/david-canada/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;<span style="font-size: 10px; color: #999; ">©: -</span></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> March 1975<br><span><b>Passed away on:</b> 28<sup>th</sup> May 2016<br><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br><span><b>Weight:</b> 65 kg &nbsp; <span><b>Height:</b> 1.76 m<br><b>Place of birth:</b> <a href="location/zaragoza">Zaragoza</a><br><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 17.037470725995%; height: 100%;  "></div></div><div class="pnt">291</div><div class="title"><a href="rider/david-canada/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1708</div><div class="title"><a href="rider/david-canada/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 48.009367681499%; height: 100%;  "></div></div><div class="pnt">820</div><div class="title"><a href="rider/david-canada/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 27.634660421546%; height: 100%;  "></div></div><div class="pnt">472</div><div class="title"><a href="rider/david-canada/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 20.843091334895%; height: 100%;  "></div></div><div class="pnt">356</div><div class="title"><a href="rider/david-canada/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"></ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings" style=" "><li class=""><div class="title   "><a href="rankings/me/all-time">All time</a></div><div class="rnk   ">1493</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings" style=" "><li class=""><div class="title   "><a href="rankings/me/all-time">All time</a></div><div class="rnk   ">1499</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal" style=" "><li class=""><div class="bold   ">Visits:</div><div><span class="delta-up">▲13</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal" style=" "><li class=""><div class="bold   ">Visits:</div><div><span class="delta-down">▼15</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
 </ul></span></div>
 </span></span></span></div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/volta-a-catalunya/2006/gc">Volta Ciclista a Catalunya</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('06)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/gc">Vuelta Ciclista a la Región de Murcia "Costa Calid</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
@@ -349,7 +363,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1802s</span></li>
+<li><span>Pageload 0.0616s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238"><input type="hidden" id="userid" value="0">
 	</div>
