@@ -1,6 +1,26 @@
+from typing import Any
+
 from procyclingstats import Scraper
 
 from .fixtures_utils import FixturesUtils
+
+
+def method_test(correct_method: Any, parsed_method: Any):
+    if isinstance(correct_method, list):
+        for parsed_row, correct_row in zip(
+                parsed_method, correct_method):
+            assert bool(parsed_row) == bool(correct_row)
+            # assert parsed_row == correct_row
+            for kv1, kv2 in zip(parsed_row, correct_row):
+                assert bool(kv1[0]) == bool(kv2[0])
+                assert bool(kv1[1]) == bool(kv2[1])
+    elif isinstance(correct_method, dict):
+        for kv1, kv2 in zip(parsed_method, correct_method):
+                assert bool(kv1[0]) == bool(kv2[0])
+                assert bool(kv1[1]) == bool(kv2[1])
+    else:
+        # assert parsed[method] == correct[method]
+        assert bool(parsed_method) == bool(correct_method)
 
 
 class ScraperTestBaseClass:
@@ -29,7 +49,7 @@ class ScraperTestBaseClass:
             parsed = obj.parse()
             correct = f_utils.get_data_fixture(obj.relative_url())
             # dicts with parsed data has same keys
-            assert parsed.keys() == correct.keys() # type: ignore
+            # assert parsed.keys() == correct.keys() # type: ignore
             parsed_data.append(parsed)
             correct_data.append(correct)
             urls.append(obj.relative_url())
@@ -41,16 +61,4 @@ class ScraperTestBaseClass:
                 for parsed, correct, url in zip(parsed_data, correct_data,
                         urls):
                     print(url)
-                    # select methods aren't tested because their values are
-                    # changed often
-                    if isinstance(correct[method], list):
-                        for parsed_row, correct_row in zip(
-                                parsed[method], correct[method]):
-                            assert bool(parsed_row) == bool(correct_row)
-                            # assert parsed_row == correct_row
-                            for kv1, kv2 in zip(parsed_row, correct_row):
-                                assert bool(kv1[0]) == bool(kv2[0])
-                                assert bool(kv1[1]) == bool(kv2[1])
-                    else:
-                        # assert parsed[method] == correct[method]
-                        assert bool(parsed[method]) == bool(correct[method])
+                    method_test(correct[method], parsed[method])

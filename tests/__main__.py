@@ -3,6 +3,7 @@ import argparse
 from procyclingstats.__main__ import get_corresponding_scraping_class
 
 from .fixtures_utils import FixturesUtils
+from .scraper_test_base_class import method_test
 
 
 def configure_parser() -> argparse.ArgumentParser:
@@ -72,30 +73,27 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
             old_scraper_obj = ScraperClass(url, old_html, False)
 
             try:
-                parsed_obj1_full = new_scraper_obj.parse()
-                parsed_obj2_full = old_scraper_obj.parse()
+                parsed_obj1 = new_scraper_obj.parse()
+                parsed_obj2 = old_scraper_obj.parse()
             except Exception as e:
                 print(f"Exception raised: {url}")
                 raise(e)
-            # remove select methods results, because their values are often
-            # changed
+            assert parsed_obj1.keys() == parsed_obj2.keys()
+            update_needed = False
+            for method in parsed_obj1.keys():
+                try:
+                    method_test(parsed_obj1[method], parsed_obj2[method])
+                except AssertionError:
+                    update_needed = True
 
-            parsed_obj1 = {}
-            parsed_obj2 = {}
-            for key in parsed_obj1_full.keys():
-                if "select" not in key:
-                    parsed_obj1[key] = parsed_obj1_full[key]
-                    parsed_obj2[key] = parsed_obj2_full[key]
-
-            # checks whether old HTML is same as new HTML based on parse
-            # method return
-            if parsed_obj1 != parsed_obj2:
+            if update_needed:
                 if not args.quiet:
                     print(f"Updating: {f_utils.url_to_filename(url)}.txt")
                 f_utils.make_html_fixture(new_scraper_obj)
-            elif not args.quiet:
-                print(f"HTML up to date: {f_utils.url_to_filename(url)}.txt")
-
+            else:
+                if not args.quiet:
+                    print("HTML up to date: " +
+                        f"{f_utils.url_to_filename(url)}.txt")
 
 if __name__ == "__main__":
     parser_args = configure_parser().parse_args()
