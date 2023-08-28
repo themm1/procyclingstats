@@ -143,8 +143,9 @@ def select_menu_by_name(html: Union[Node, HTMLParser], name_attr: str) -> Node:
 
 # other functions
 def join_tables(table1: List[Dict[str, Any]],
-               table2: List[Dict[str, Any]] ,
-               join_key: str) -> List[Dict[str, Any]]:
+               table2: List[Dict[str, Any]],
+               join_key: str,
+               skip_missing: bool = False) -> List[Dict[str, Any]]:
     """
     Join given tables to one by joining rows which `join_key` values are
     matching.
@@ -154,12 +155,16 @@ def join_tables(table1: List[Dict[str, Any]],
     :param table2: Table represented as list of dicts where every row has
     `join_key`.
     :param join_key: Field used for finding matching rows, e.g. `rider_url`.
+    :param skip_missing: If set to False, error is raised when table1 and
+        table2 don't have same join_keys. Otherwise only rows with join_keys
+        present in both tables are added.
     :return: Tables joined together into one table.
     """
     table2_dict = {row[join_key]: row for row in table2}
     table = []
     for row in table1:
-        table.append({**table2_dict[row[join_key]], **row})
+        if not skip_missing or table2_dict.get(row[join_key]):
+            table.append({**table2_dict[row[join_key]], **row})
     return table
 
 def parse_table_fields_args(args: Tuple[str],

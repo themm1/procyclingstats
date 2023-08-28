@@ -295,7 +295,8 @@ class Stage(Scraper):
                 # add rider_url for table joining purposes
                 extra_fields.append("rider_url")
                 table_parser.parse(extra_fields)
-                table = join_tables(table, table_parser.table, "rider_url")
+                table = join_tables(table, table_parser.table, "rider_url",
+                    True)
             elif "nationality" in fields or "age" in fields or \
                 "rider_number" in fields:
                 for row in table:
