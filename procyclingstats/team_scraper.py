@@ -157,6 +157,7 @@ class Team(Scraper):
               ``MM-DD`` format, most of the time ``01-01``.
             - until: Last rider's day in the team in corresponding season in
               ``MM-DD`` format, most of the time ``12-31``.
+            - career_points: Current riders's career points.
             - ranking_points: Current rider's points in PCS ranking.
             - ranking_position: Current rider's position in PCS ranking.
 
@@ -167,10 +168,10 @@ class Team(Scraper):
             "nationality",
             "rider_name",
             "rider_url",
-            "points",
             "age",
             "since",
             "until",
+            "career_points",
             "ranking_points",
             "ranking_position"
         )
@@ -178,8 +179,13 @@ class Team(Scraper):
             "nationality",
             "rider_name",
             "rider_url"]
+        mapping = {}
+        for i, li in enumerate(self.html.css("ul.riderlistTabs > li")):
+            mapping[li.text()] = i
+        all_tables = self.html.css("div.ridersTab")
+
         fields = parse_table_fields_args(args, available_fields)
-        career_points_table_html = self.html.css_first("div.taba ul.list")
+        career_points_table_html = all_tables[mapping["points"]]
         table_parser = TableParser(career_points_table_html)
         career_points_fields = [field for field in fields
                          if field in casual_fields]
@@ -190,26 +196,27 @@ class Team(Scraper):
         if "career_points" in fields:
             career_points = table_parser.parse_extra_column(2,
                 lambda x: int(x) if x.isnumeric() else 0)
-            table_parser.extend_table("points", career_points)
+            table_parser.extend_table("career_points", career_points)
         table = table_parser.table
 
         # add ages to the table if needed
         if "age" in fields:
-            ages_table_html = self.html.css_first("div.tabc ul.list")
+            ages_table_html = all_tables[mapping["age"]]
             ages_tp = TableParser(ages_table_html)
             ages_tp.parse(["rider_url"])
-            ages = ages_tp.parse_extra_column(2)
+            ages = ages_tp.parse_extra_column(2, lambda x: int(x[:2]))
             ages_tp.extend_table("age", ages)
             table = join_tables(table, ages_tp.table, "rider_url")
 
         # add ranking points and positions to the table if needed
         if "ranking_position" in fields or "ranking_points" in fields:
-            ranking_table_html = self.html.css_first("div.tabe ul.list")
+            ranking_table_html = all_tables[mapping["ranking"]]
             ranking_tp = TableParser(ranking_table_html)
             ranking_tp.parse(["rider_url"])
             if "ranking_points" in fields:
                 points = ranking_tp.parse_extra_column(2,
-                    lambda x: x.replace("(", "").replace(")", ""))
+                    lambda x: int(x.replace("(", "").replace(")", ""))
+                    if x.replace("(", "").replace(")", "").isnumeric() else 0)
                 ranking_tp.extend_table("ranking_points", points)
             if "ranking_position" in fields:
                 positions = ranking_tp.parse_extra_column(3,
@@ -219,7 +226,7 @@ class Team(Scraper):
 
         # add rider's since and until dates to the table if needed
         if "since" in fields or "until" in fields:
-            since_until_html_table = self.html.css_first("div.tabb ul.list")
+            since_until_html_table = all_tables[mapping["name"]]
             since_tp = TableParser(since_until_html_table)
             since_tp.parse(["rider_url"])
             if "since" in fields:
