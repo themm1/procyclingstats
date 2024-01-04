@@ -393,9 +393,18 @@ class TableParser:
         `time`.
         """
         first_time = self.table[0][time_field]
-        for row in self.table[1:]:
+        for i, row in enumerate(self.table[1:]):
             if row[time_field]:
-                row[time_field] = add_times(first_time, row['time'])
+                try:
+                    row[time_field] = add_times(first_time, row['time'])
+                # if time is in invalid format
+                except Exception:
+                    if i == 0:
+                        row[time_field] = "0:00:00"
+                    # set the same time as previous rider
+                    else:
+                        row[time_field] = self.table[1:][i - 1]['time']
+
 
     def _filter_a_elements(self, keyword: str, get_href: bool,
             validator: Callable = lambda x: True) -> List[str]:
