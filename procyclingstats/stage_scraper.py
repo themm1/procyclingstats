@@ -199,7 +199,39 @@ class Stage(Scraper):
         if scale_str:
             return scale_str.split()[0]
         return scale_str
+      
+    def avg_speed_winner(self) -> str:
+        """
+        Parses average speed winner from HTML.
 
+        :return: avg speed winner, e.g. ``44.438 km/h``.
+        """
+        return self._stage_info_by_label("Avg. speed winner")
+
+    def avg_temperature(self) -> str:
+        """
+        Parses average temperature from HTML.
+
+        :return: avg temperature, e.g. ``20 C``.
+        """
+        return self._stage_info_by_label("Avg. temperature")
+
+    def start_time(self) -> str:
+        """
+        Parses start time from HTML.
+
+        :return: start time, e.g. ``17:00 (17:00 CET)``.
+        """
+        return self._stage_info_by_label("Start time")
+
+    def race_category(self) -> str:
+        """
+        Parses race category from HTML.
+
+        :return: race category, e.g. ``ME - Men Elite``.
+        """
+        return self._stage_info_by_label("Race category")
+      
     def climbs(self, *args: str) -> List[Dict[str, str]]:
         """
         Parses listed climbs from the stage. When climbs aren't listed returns
