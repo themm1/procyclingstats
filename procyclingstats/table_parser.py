@@ -131,7 +131,8 @@ class TableParser:
 
     def parse_extra_column(self, index_or_header_value: Union[int, str],
                      func: Callable = int,
-                     separator: str = "") -> List[Any]:
+                     separator: str = "",
+                     get_href: bool = False) -> List[Any]:
         """
         Parses values from given column.
 
@@ -140,6 +141,8 @@ class TableParser:
         a header in that case).
         :param func: Function to call on parsed text value, defaults to int.
         :param separator: Separator for text attributes given to `func`.
+        :param get_href: Whether to get href of each element, instead of text.
+            Defaults to False.
         :return: List with parsed values.
         """
         if isinstance(index_or_header_value, str):
@@ -154,7 +157,14 @@ class TableParser:
 
         values = []
         for element in elements:
-            values.append(func(element.text(separator=separator)))
+            text = element.text(separator=separator)
+            if get_href:
+                a_element = element.css_first("a")
+                if a_element:
+                    text = a_element.attributes['href']
+                else:
+                    text = ""
+            values.append(func(text))
         return values
 
     def rider_url(self) -> List[str]:
@@ -164,12 +174,19 @@ class TableParser:
         return self._filter_a_elements("rider", False)
 
     def team_url(self) -> List[str]:
-        return self._filter_a_elements("team", True,
-            lambda x: True if x.text() != "view" else False)
+        try:
+            return self.parse_extra_column("Team", str, get_href=True)
+        except Exception:
+            return self._filter_a_elements("team", True,
+                lambda x: True if x.text() != "view" else False)
 
     def team_name(self) -> List[str]:
-        return self._filter_a_elements("team", False,
-            lambda x: True if x.text() != "view" else False)
+        try:
+            return self.parse_extra_column("Team", str, get_href=False)
+        except Exception:
+            print(2)
+            return self._filter_a_elements("team", False,
+                lambda x: True if x.text() != "view" else False)
 
     def stage_url(self) -> List[str]:
         return self._filter_a_elements("race", True)
@@ -207,9 +224,10 @@ class TableParser:
         """
         return self._filter_a_elements("location", False)
 
-    def age(self) -> List[int]:
+    def age(self) -> List[Optional[int]]:
         ages_elements = self.html_table.css(".age")
-        return [int(age_e.text()) for age_e in ages_elements]
+        return [int(age_e.text()) if age_e.text() else None
+            for age_e in ages_elements]
 
     def nationality(self) -> List[str]:
         flags_elements = self.html_table.css(".flag")
