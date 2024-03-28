@@ -268,7 +268,7 @@ class TableParser:
             if not bonus:
                 bonus = 0
             else:
-                bonus = int(bonus)
+                bonus = format_time(bonus.replace(" ",""))
             bonuses.append(bonus)
         if not bonuses:
             bonuses = [0 for _ in range(self.table_length)]
