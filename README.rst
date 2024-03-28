@@ -26,7 +26,7 @@ Basic usage
 
 Basic Rider class usage:
 
-.. code-block:: python
+.. code-block:: text
 
     >>> from procyclingstats import Rider
     >>> rider = Rider("rider/tadej-pogacar")
