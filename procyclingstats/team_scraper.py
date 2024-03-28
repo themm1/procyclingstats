@@ -79,7 +79,7 @@ class Team(Scraper):
         :return: Bike brand e.g. ``Specialized``.
         """
         bike_html = self.html.css_first(
-            "div > ul.infolist > li:nth-child(3) > div:nth-child(2)")
+            "div > ul.infolist > li:nth-child(4) > div:nth-child(2)")
         return bike_html.text()
 
     def wins_count(self) -> int:
