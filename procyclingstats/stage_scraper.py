@@ -204,7 +204,7 @@ class Stage(Scraper):
         """
         Parses average speed winner from HTML.
 
-        :return: avg speed winner, e.g. ``44.438 km/h``.
+        :return: avg speed winner, e.g. ``44.438``.
         """
         speed_str = self._stage_info_by_label("Avg. speed winner")
         if speed_str:
@@ -216,7 +216,7 @@ class Stage(Scraper):
         """
         Parses average temperature from HTML.
 
-        :return: avg temperature, e.g. ``20 C``.
+        :return: avg temperature, e.g. ``20``.
         """
         temp_str = self._stage_info_by_label("Avg. temperature")
         if temp_str:
