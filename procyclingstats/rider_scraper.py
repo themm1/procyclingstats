@@ -1,5 +1,5 @@
 import calendar
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -110,6 +110,16 @@ class Rider(Scraper):
         flag_class = nationality_html.attributes['class']
         return flag_class.split(" ")[-1].upper() # type:ignore
 
+    def image_url(self) -> Optional[str]:
+        """
+        Parses URL of rider's PCS image.
+
+        :return: Relative URL of rider's image. None if image is not available.
+        """
+        image_html = self.html.css_first("div.rdr-img-cont > a > img")
+        if not image_html:
+            return None
+        return image_html.attributes['src']
 
     def teams_history(self, *args: str) -> List[Dict[str, Any]]:
         """

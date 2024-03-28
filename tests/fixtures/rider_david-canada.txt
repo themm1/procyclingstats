@@ -1,19 +1,4 @@
 <!DOCTYPE html><html><head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35889790-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_MEASUREMENT_ID', {
-	  'linker': {
-	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
-	  }
-	});
-
-  gtag('config', 'UA-35889790-1');
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -22,6 +7,8 @@
 
   gtag('config', 'G-2MNJ20S7SJ');
 </script>
+
+
 <title>David  Cañada </title>
 <base href="https://www.procyclingstats.com/rider.php">
 <link rel="canonical" href="https://www.procyclingstats.com/rider/david-canada">
@@ -40,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css">
-<script src="https://www.procyclingstats.com/pcs_s75.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a204.css">
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b174.css">
+<script src="https://www.procyclingstats.com/pcs_s83.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -54,7 +41,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a class="logo" href="index.php"></a>  
+    	<a class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden" id="term">
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4" placeholder="search"></form> 
     	<div class="menuCont">
@@ -64,11 +52,11 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -78,24 +66,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
-<li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
+<li><a href="team/movistar-team-2024">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
+<li><a href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></li>
+<li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
+<li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
+<li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -104,21 +92,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2023">Vuelta</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/vuelta-a-espana/2023/startlist">Startlist</a></li>
-<li><a href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a href="race/vuelta-a-espana/2023/startlist/top-competitors">Top competitors</a></li>
-<li><a href="race/vuelta-a-espana/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/vuelta-a-espana/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/vuelta-a-espana/2023/teams/top-teams">Best teams</a></li>
-<li><a href="race/vuelta-a-espana/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-3-billion-pageviews">Countdown to 3 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -170,13 +150,13 @@
 <li data-n="6"><a href="rider/david-canada/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title "><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">David  Cañada</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1"><h2></h2><div class=" ">
 <ul class="list horizontal fs14 circle bluelink"></ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;<span style="font-size: 10px; color: #999; ">©: -</span></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> March 1975<br><span><b>Passed away on:</b> 28<sup>th</sup> May 2016<br><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br><span><b>Weight:</b> 65 kg &nbsp; <span><b>Height:</b> 1.76 m<br><b>Place of birth:</b> <a href="location/zaragoza">Zaragoza</a><br><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 17.037470725995%; height: 100%;  "></div></div><div class="pnt">291</div><div class="title"><a href="rider/david-canada/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1708</div><div class="title"><a href="rider/david-canada/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 48.009367681499%; height: 100%;  "></div></div><div class="pnt">820</div><div class="title"><a href="rider/david-canada/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 27.634660421546%; height: 100%;  "></div></div><div class="pnt">472</div><div class="title"><a href="rider/david-canada/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 20.843091334895%; height: 100%;  "></div></div><div class="pnt">356</div><div class="title"><a href="rider/david-canada/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;<span style="font-size: 10px; color: #999; ">© -</span></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> March 1975<br><span><b>Passed away on:</b> 28<sup>th</sup> May 2016<br><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br><span><b>Weight:</b> 65 kg &nbsp; <span><b>Height:</b> 1.76 m<br><b>Place of birth:</b> <a href="location/zaragoza">Zaragoza</a><br><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 18.208430913349%; height: 100%;  "></div></div><div class="pnt">311</div><div class="title"><a href="rider/david-canada/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1708</div><div class="title"><a href="rider/david-canada/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 48.009367681499%; height: 100%;  "></div></div><div class="pnt">820</div><div class="title"><a href="rider/david-canada/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 28.688524590164%; height: 100%;  "></div></div><div class="pnt">490</div><div class="title"><a href="rider/david-canada/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 20.843091334895%; height: 100%;  "></div></div><div class="pnt">356</div><div class="title"><a href="rider/david-canada/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"></ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings" style=" "><li class=""><div class="title   "><a href="rankings/me/all-time">All time</a></div><div class="rnk   ">1499</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings" style=" "><li class=""><div class="title   "><a href="rankings/me/all-time">All time</a></div><div class="rnk   ">1524</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal" style=" "><li class=""><div class="bold   ">Visits:</div><div><span class="delta-down">▼15</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal" style=" "><li class=""><div class="bold   ">Visits:</div><div><span class="delta-down">▼26</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
 </ul></span></div>
 </span></span></span></div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/volta-a-catalunya/2006/gc">Volta Ciclista a Catalunya</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('06)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/gc">Vuelta Ciclista a la Región de Murcia "Costa Calid</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
@@ -188,7 +168,7 @@
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/ronde-van-nederland/2002/gc">Ronde van Nederland</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('02)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-luxembourg/2003/gc">Tour de Luxembourg</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('03)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/rund-um-koln/2005/result">Rund um Köln</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('05)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/escalada-a-montjuich/2006/gc">Escalada a Montjuich</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('06)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/escalada-a-montjuic/2006/gc">Escalada a Montjuïc</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('06)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-georgia/2007/stage-3">Tour of Georgia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('07)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
@@ -206,7 +186,7 @@
 <li class=" main "><div class="season   ">1998</div><div class="name   "><a href="team/once-1998">O.N.C.E. - Deutsche Bank</a></div><div> (TT1)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">1997</div><div class="name   "><a href="team/once-1997">ONCE</a></div><div> (TT1)</div><div class="fs10   "></div><div class="clear"></div></li>
 <li class=" main "><div class="season   ">1996</div><div class="name   "><a href="team/o.n.c.e.-1996">O.N.C.E.</a></div><div> (TT1)</div><div class="fs10   "></div><div class="clear"></div></li>
-<li class=" main "><div class="season   ">1995</div><div class="name   "><a href="team/o.n.c.e.-1995">O.N.C.E.</a></div><div> (TT1)</div><div class="fs10   ">&nbsp;trainee as from 01/09</div><div class="clear"></div></li>
+<li class=" main "><div class="season   ">1995</div><div class="name   "><a href="team/o.n.c.e.-1995">O.N.C.E.</a></div><div></div><div class="fs10   ">&nbsp;trainee as from 01/09</div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2008" class=""><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=""><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=""><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=""><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=""><a class="seasonResults" data-season="2004" href="">2004</a></li><li data-season="2003" class=""><a class="seasonResults" data-season="2003" href="">2003</a></li><li data-season="2002" class=""><a class="seasonResults" data-season="2002" href="">2002</a></li><li data-season="2001" class=""><a class="seasonResults" data-season="2001" href="">2001</a></li><li data-season="2000" class=""><a class="seasonResults" data-season="2000" href="">2000</a></li><li data-season="1999" class=""><a class="seasonResults" data-season="1999" href="">1999</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2008" class=" "><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=" "><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=" "><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=" "><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=" "><a class="seasonResults" data-season="2004" href="">2004</a></li><li data-season="2003" class=" "><a class="seasonResults" data-season="2003" href="">2003</a></li><li data-season="2002" class=" "><a class="seasonResults" data-season="2002" href="">2002</a></li><li data-season="2001" class=" "><a class="seasonResults" data-season="2001" href="">2001</a></li><li data-season="2000" class=" "><a class="seasonResults" data-season="2000" href="">2000</a></li><li data-season="1999" class=" "><a class="seasonResults" data-season="1999" href="">1999</a></li><li data-season="1998" class=" "><a class="seasonResults" data-season="1998" href="">1998</a></li><li data-season="1997" class=" "><a class="seasonResults" data-season="1997" href="">1997</a></li><li data-season="1996" class=" "><a class="seasonResults" data-season="1996" href="">1996</a></li><li data-season="1993" class=" "><a class="seasonResults" data-season="1993" href="">1993</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br>Date</th><th style="width: 4%;"><br>Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br>Race</th><th class="cu600" style="width: 8%;"><br>Distance</th><th class="cu600" style="width: 8%;">Points<br>PCS</th><th class="cu600 " style="width: 8%;">Points<br>UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
@@ -217,19 +197,19 @@
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats" style=""><thead><tr><th class="season  " style="width: 16.7%; "></th><th class="bar  " style="width: 66.7%; ">Points</th><th class="ac  " style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr><td class="season  ">2008</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 14.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">92</span></div></td><td class="ac  ">592</td></tr>
-<tr><td class="season  ">2007</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 34.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">223</span></div></td><td class="ac  ">267</td></tr>
-<tr><td class="season  ">2006</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 64.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">421</span></div></td><td class="ac  ">111</td></tr>
-<tr><td class="season  ">2005</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 19.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">128</span></div></td><td class="ac  ">454</td></tr>
-<tr><td class="season  ">2004</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 36.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">239</span></div></td><td class="ac  ">236</td></tr>
-<tr><td class="season  ">2003</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 37.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">246</span></div></td><td class="ac  ">231</td></tr>
-<tr><td class="season  ">2002</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 31%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">202</span></div></td><td class="ac  ">281</td></tr>
-<tr><td class="season  ">2001</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 1.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">10</span></div></td><td class="ac  ">1247</td></tr>
-<tr><td class="season  ">2000</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">522</span></div></td><td class="ac  ">95</td></tr>
-<tr><td class="season  ">1999</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 11.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">76</span></div></td><td class="ac  ">470</td></tr>
-<tr><td class="season  ">1998</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 6.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">40</span></div></td><td class="ac  ">576</td></tr>
-<tr><td class="season  ">1997</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 15.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">104</span></div></td><td class="ac  ">363</td></tr>
-<tr><td class="season  ">1996</td><td class="bar  "><div class="barCont"><div class="bg left green2" style="width: 0.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">3</span></div></td><td class="ac  ">1111</td></tr>
+<tr><td class="season  ">2008</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 14.1%; position: relative;   "><div class="vTitle" style="line-height: 12px;">92</div></div></div></td><td class="ac  ">592</td></tr>
+<tr><td class="season  ">2007</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 34.2%; position: relative;   "><div class="vTitle" style="line-height: 12px;">223</div></div></div></td><td class="ac  ">267</td></tr>
+<tr><td class="season  ">2006</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 64.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">421</div></div></div></td><td class="ac  ">111</td></tr>
+<tr><td class="season  ">2005</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 19.6%; position: relative;   "><div class="vTitle" style="line-height: 12px;">128</div></div></div></td><td class="ac  ">454</td></tr>
+<tr><td class="season  ">2004</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 36.6%; position: relative;   "><div class="vTitle" style="line-height: 12px;">239</div></div></div></td><td class="ac  ">236</td></tr>
+<tr><td class="season  ">2003</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 37.7%; position: relative;   "><div class="vTitle" style="line-height: 12px;">246</div></div></div></td><td class="ac  ">231</td></tr>
+<tr><td class="season  ">2002</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 31%; position: relative;   "><div class="vTitle" style="line-height: 12px;">202</div></div></div></td><td class="ac  ">281</td></tr>
+<tr><td class="season  ">2001</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 1.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">10</div></div></div></td><td class="ac  ">1247</td></tr>
+<tr><td class="season  ">2000</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">522</div></div></div></td><td class="ac  ">95</td></tr>
+<tr><td class="season  ">1999</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 11.6%; position: relative;   "><div class="vTitle" style="line-height: 12px;">76</div></div></div></td><td class="ac  ">470</td></tr>
+<tr><td class="season  ">1998</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 6.1%; position: relative;   "><div class="vTitle" style="line-height: 12px;">40</div></div></div></td><td class="ac  ">576</td></tr>
+<tr><td class="season  ">1997</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 15.9%; position: relative;   "><div class="vTitle" style="line-height: 12px;">104</div></div></div></td><td class="ac  ">363</td></tr>
+<tr><td class="season  ">1996</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 0.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">3</div></div></div></td><td class="ac  ">1111</td></tr>
 </tbody></table></span></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -334,43 +314,43 @@ $(document).ready(function(){
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
-<li><a href="rider/biniam-girmay">Biniam Girmay</a></li>
-<li><a href="rider/peter-sagan">Peter Sagan</a></li>
-<li><a href="rider/annemiek-van-vleuten">Annemiek van Vleuten</a></li>
-<li><a href="rider/elisa-longo-borghini">Elisa Longo Borghini</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
 </ul></li>
-<li class="group"><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
 <li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
 <li><a href="statistics/grandtours">Grand tour statistics</a></li>
 <li><a href="statistics/monuments">Monument classics</a></li>
 <li><a href="teams/transfers">Latest transfers</a></li>
 <li><a href="favorite500">Favorite 500</a></li>
-</ul><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
-<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
-<li><a href="rankings/me/all-time">Alltime</a></li>
 </ul></li>
 <li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0616s</span></li>
+<li><span>Pageload 0.0623s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
  
  
-<script src="search_list6.js"></script>  
+<script src="search_list12.js"></script>  
 		<script>
 		var riderid = 117660;		$(document).ready(function() { 	RVC(riderid);  	  });
 		</script>

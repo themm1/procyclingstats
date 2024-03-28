@@ -1,6 +1,7 @@
 {
   "birthdate": "1975-3-11",
   "height": 1.76,
+  "image_url": null,
   "name": "David  Ca\u00f1ada",
   "nationality": "ES",
   "place_of_birth": "Zaragoza",
@@ -72,10 +73,10 @@
     }
   ],
   "points_per_speciality": {
-    "one_day_races": 291,
+    "one_day_races": 311,
     "gc": 1708,
     "time_trial": 820,
-    "sprint": 472,
+    "sprint": 490,
     "climber": 356
   },
   "teams_history": [
@@ -189,14 +190,6 @@
       "team_url": "team/o.n.c.e.-1996",
       "class": "TT1",
       "since": "01-01",
-      "until": "12-31"
-    },
-    {
-      "season": 1995,
-      "team_name": "O.N.C.E.",
-      "team_url": "team/o.n.c.e.-1995",
-      "class": "TT1",
-      "since": "09-01",
       "until": "12-31"
     }
   ],

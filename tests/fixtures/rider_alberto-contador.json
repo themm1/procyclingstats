@@ -1,6 +1,7 @@
 {
   "birthdate": "1982-12-6",
   "height": 1.76,
+  "image_url": "images/riders/bp/da/alberto-contador-2017.jpg",
   "name": "Alberto  Contador",
   "nationality": "ES",
   "place_of_birth": "Pinto",
@@ -89,8 +90,8 @@
   "points_per_speciality": {
     "one_day_races": 770,
     "gc": 11393,
-    "time_trial": 6056,
-    "sprint": 1232,
+    "time_trial": 6062,
+    "sprint": 1250,
     "climber": 10160
   },
   "teams_history": [
