@@ -28,7 +28,7 @@ class Stage(Scraper):
         'gc': [
             {
                 'age': 25,
-                'bonus': 32,
+                'bonus': 0:00:32,
                 'nationality': 'DK',
                 'pcs_points': 0,
                 'prev_rank': 1,
@@ -286,7 +286,7 @@ class Stage(Scraper):
             - age: Rider's age.
             - nationality: Rider's nationality as 2 chars long country code.
             - time: Rider's time in the stage.
-            - bonus: Bonus seconds that the rider gained in the stage.
+            - bonus: Bonus seconds in `H:MM:SS` time format.
             - pcs_points:
             - uci_points:
 

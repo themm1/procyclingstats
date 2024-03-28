@@ -254,10 +254,10 @@ class TableParser:
             times.append(rider_time)
         return times
 
-    def bonus(self) -> List[int]:
+    def bonus(self) -> List[str]:
         """
         Parses all bonuses elements from the table. If there aren't any returns
-        where every row has bonus 0.
+        where every row has bonus 0. Bonus is in classical time format `H:MM:SS`.
 
         :return: List of bonuses.
         """
@@ -266,12 +266,20 @@ class TableParser:
         for bonus_e in bonuses_elements:
             bonus = bonus_e.text().replace("″", "")
             if not bonus:
-                bonus = 0
+                bonus = "0:00:00"
             else:
-                bonus = format_time(bonus.replace(" ",""))
+                bonus = bonus.replace(" ", "")
+                seconds = int(bonus)
+                minutes = seconds // 60
+                seconds -= minutes * 60
+                if seconds < 10:
+                    seconds = f"0{seconds}"
+                else:
+                    seconds = str(seconds)
+                bonus = format_time(f"{minutes}:{seconds}")
             bonuses.append(bonus)
         if not bonuses:
-            bonuses = [0 for _ in range(self.table_length)]
+            bonuses = ["0:00:00" for _ in range(self.table_length)]
         return bonuses
 
     def profile_icon(self) -> List[Literal[
