@@ -119,7 +119,7 @@ class TableParser:
         :param values: Values which are being added.
         :raises ValueError: When values to add aren't the same length as table.
         """
-        if len(values) != self.table_length:
+        if len(values) != len(self.table) and self.table:
             raise ValueError(
                 "Given values has to be the same length as table rows count")
         if self.table:
@@ -184,7 +184,6 @@ class TableParser:
         try:
             return self.parse_extra_column("Team", str, get_href=False)
         except Exception:
-            print(2)
             return self._filter_a_elements("team", False,
                 lambda x: True if x.text() != "view" else False)
 

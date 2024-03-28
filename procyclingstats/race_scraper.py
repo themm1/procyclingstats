@@ -134,9 +134,6 @@ class Race(Scraper):
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
-            - rider_url: Winner's URL.
-            - rider_name: Winner's name.
-            - nationality: Winner's nationality as 2 chars long country code.
             - date: Date when the stage occured in ``MM-DD`` format.
             - profile_icon: Profile icon of the stage (p1, p2, ... p5).
             - stage_name: Name of the stage, e.g \
@@ -152,9 +149,6 @@ class Race(Scraper):
             "profile_icon",
             "stage_name",
             "stage_url",
-            "rider_url",
-            "rider_name",
-            "nationality"
         )
         if self.is_one_day_race():
             return []
@@ -165,18 +159,67 @@ class Race(Scraper):
         if not stages_table_html:
             return []
         # remove rest day table rows
-        for stage_e in stages_table_html.css("tr"):
+        for stage_e in stages_table_html.css("tbody > tr"):
             not_p_icon = stage_e.css_first(".icon.profile.p")
             if not_p_icon:
                 stage_e.remove()
 
         table_parser = TableParser(stages_table_html)
         casual_f_to_parse = [f for f in fields if f != "date"]
+        table_parser.parse(casual_f_to_parse)
+
+        # add stages dates to table if needed
+        if "date" in fields:
+            dates = table_parser.parse_extra_column(0, get_day_month)
+            table_parser.extend_table("date", dates)
+        return table_parser.table
+    
+    def stages_winners(self, *args) -> List[Dict[str, str]]:
+        """
+        Parses stages winners from HTML (available only on stage races). When
+        race is one day race, empty list is returned.
+
+        :param args: Fields that should be contained in returned table. When
+            no args are passed, all fields are parsed.
+
+            - stage_name: Stage name, e.g. ``Stage 2 (TTT)``.
+            - rider_name: Winner's name.
+            - rider_url: Wineer's URL.
+            - nationality: Winner's nationality as 2 chars long country code.
+
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
+            "stage_name",
+            "rider_name",
+            "rider_url",
+            "nationality",
+        )
+        if self.is_one_day_race():
+            return []
+
+        fields = parse_table_fields_args(args, available_fields)
+        orig_fields = fields
+        winners_html = self.html.css("div:not(.mg_r2) > div > \
+            span > table.basic")[1]
+        if not winners_html:
+            return []
+        # remove rest day table rows
+        for stage_e in winners_html.css("tbody > tr"):
+            stage_name = stage_e.css_first("td").text()
+            if not stage_name:
+                stage_e.remove()
+        table_parser = TableParser(winners_html)
+    
+        casual_f_to_parse = [f for f in fields if f != "stage_name"]
         try:
             table_parser.parse(casual_f_to_parse)
         # if nationalities don't fit stages winners
         except UnexpectedParsingError:
             casual_f_to_parse.remove("nationality")
+            if "rider_url" not in args:
+                casual_f_to_parse.append("rider_url")
             table_parser.parse(casual_f_to_parse)
             nats = table_parser.nationality()
             j = 0
@@ -187,9 +230,13 @@ class Race(Scraper):
                     j += 1
                 else:
                     table_parser.table[i]['nationality'] = None
-
-        # add stages dates to table if neede
-        if "date" in fields:
-            dates = table_parser.parse_extra_column(0, get_day_month)
-            table_parser.extend_table("date", dates)
+                
+                if "rider_url" not in orig_fields:
+                    table_parser.table[i].pop("rider_url")
+                    
+        if "stage_name" in fields:
+            stage_names = [val for val in
+                table_parser.parse_extra_column(0, str) if val]
+            table_parser.extend_table("stage_name", stage_names)
+                    
         return table_parser.table
