@@ -456,190 +456,255 @@
       "profile_icon": "p1",
       "stage_name": "Stage 1 (ITT) | Copenhagen - Copenhagen",
       "stage_url": "race/tour-de-france/2022/stage-1",
-      "rider_url": "rider/yves-lampaert",
-      "rider_name": "LAMPAERT",
-      "nationality": "BE",
       "date": "07-01"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 2 | Roskilde - Nyborg",
       "stage_url": "race/tour-de-france/2022/stage-2",
-      "rider_url": "rider/fabio-jakobsen",
-      "rider_name": "JAKOBSEN",
-      "nationality": "NL",
       "date": "07-02"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 3 | Vejle - S\u00f8nderborg",
       "stage_url": "race/tour-de-france/2022/stage-3",
-      "rider_url": "rider/dylan-groenewegen",
-      "rider_name": "GROENEWEGEN",
-      "nationality": "NL",
       "date": "07-03"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 4 | Dunkerque - Calais",
       "stage_url": "race/tour-de-france/2022/stage-4",
-      "rider_url": "rider/wout-van-aert",
-      "rider_name": "VAN AERT",
-      "nationality": "BE",
       "date": "07-05"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 5 | Lille - Wallers-Arenberg",
       "stage_url": "race/tour-de-france/2022/stage-5",
-      "rider_url": "rider/simon-clarke",
-      "rider_name": "CLARKE",
-      "nationality": "AU",
       "date": "07-06"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 6 | Binche - Longwy",
       "stage_url": "race/tour-de-france/2022/stage-6",
-      "rider_url": "rider/tadej-pogacar",
-      "rider_name": "POGA\u010cAR",
-      "nationality": "SI",
       "date": "07-07"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 7 | Tomblaine - La Super Planche des Belles Filles",
       "stage_url": "race/tour-de-france/2022/stage-7",
-      "rider_url": "rider/tadej-pogacar",
-      "rider_name": "POGA\u010cAR",
-      "nationality": "SI",
       "date": "07-08"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 8 | Dole - Lausanne",
       "stage_url": "race/tour-de-france/2022/stage-8",
-      "rider_url": "rider/wout-van-aert",
-      "rider_name": "VAN AERT",
-      "nationality": "BE",
       "date": "07-09"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 9 | Aigle - Ch\u00e2tel les portes du Soleil",
       "stage_url": "race/tour-de-france/2022/stage-9",
-      "rider_url": "rider/bob-jungels",
-      "rider_name": "JUNGELS",
-      "nationality": "LU",
       "date": "07-10"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 10 | Morzine - Meg\u00e8ve",
       "stage_url": "race/tour-de-france/2022/stage-10",
-      "rider_url": "rider/magnus-cort-nielsen",
-      "rider_name": "CORT",
-      "nationality": "DK",
       "date": "07-12"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 11 | Albertville - Col du Granon",
       "stage_url": "race/tour-de-france/2022/stage-11",
-      "rider_url": "rider/jonas-vingegaard-rasmussen",
-      "rider_name": "VINGEGAARD",
-      "nationality": "DK",
       "date": "07-13"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 12 | Brian\u00e7on - L'Alpe d'Huez",
       "stage_url": "race/tour-de-france/2022/stage-12",
-      "rider_url": "rider/thomas-pidcock",
-      "rider_name": "PIDCOCK",
-      "nationality": "GB",
       "date": "07-14"
     },
     {
       "profile_icon": "p2",
       "stage_name": "Stage 13 | Bourg d'Oisans - Saint-Etienne",
       "stage_url": "race/tour-de-france/2022/stage-13",
-      "rider_url": "rider/mads-pedersen",
-      "rider_name": "PEDERSEN",
-      "nationality": "DK",
       "date": "07-15"
     },
     {
       "profile_icon": "p2",
       "stage_name": "Stage 14 | Saint-Etienne - Mende",
       "stage_url": "race/tour-de-france/2022/stage-14",
-      "rider_url": "rider/michael-matthews",
-      "rider_name": "MATTHEWS",
-      "nationality": "AU",
       "date": "07-16"
     },
     {
       "profile_icon": "p2",
       "stage_name": "Stage 15 | Rodez - Carcassonne",
       "stage_url": "race/tour-de-france/2022/stage-15",
-      "rider_url": "rider/jasper-philipsen",
-      "rider_name": "PHILIPSEN",
-      "nationality": "BE",
       "date": "07-17"
     },
     {
       "profile_icon": "p4",
       "stage_name": "Stage 16 | Carcassonne - Foix",
       "stage_url": "race/tour-de-france/2022/stage-16",
-      "rider_url": "rider/hugo-houle",
-      "rider_name": "HOULE",
-      "nationality": "CA",
       "date": "07-19"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 17 | Saint-Gaudens - Peyragudes",
       "stage_url": "race/tour-de-france/2022/stage-17",
-      "rider_url": "rider/tadej-pogacar",
-      "rider_name": "POGA\u010cAR",
-      "nationality": "SI",
       "date": "07-20"
     },
     {
       "profile_icon": "p5",
       "stage_name": "Stage 18 | Lourdes - Hautacam",
       "stage_url": "race/tour-de-france/2022/stage-18",
-      "rider_url": "rider/jonas-vingegaard-rasmussen",
-      "rider_name": "VINGEGAARD",
-      "nationality": "DK",
       "date": "07-21"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 19 | Castelnau-Magnoac - Cahors",
       "stage_url": "race/tour-de-france/2022/stage-19",
-      "rider_url": "rider/christophe-laporte",
-      "rider_name": "LAPORTE",
-      "nationality": "FR",
       "date": "07-22"
     },
     {
       "profile_icon": "p3",
       "stage_name": "Stage 20 (ITT) | Lacapelle-Marival - Rocamadour",
       "stage_url": "race/tour-de-france/2022/stage-20",
-      "rider_url": "rider/wout-van-aert",
-      "rider_name": "VAN AERT",
-      "nationality": "BE",
       "date": "07-23"
     },
     {
       "profile_icon": "p1",
       "stage_name": "Stage 21 | Paris La D\u00e9fense - Paris (Champs-\u00c9lys\u00e9es)",
       "stage_url": "race/tour-de-france/2022/stage-21",
-      "rider_url": "rider/jasper-philipsen",
-      "rider_name": "PHILIPSEN",
-      "nationality": "BE",
       "date": "07-24"
+    }
+  ],
+  "stages_winners": [
+    {
+      "rider_name": "LAMPAERT Yves",
+      "rider_url": "rider/yves-lampaert",
+      "nationality": "BE",
+      "stage_name": "Stage 1 (ITT)"
+    },
+    {
+      "rider_name": "JAKOBSEN Fabio",
+      "rider_url": "rider/fabio-jakobsen",
+      "nationality": "NL",
+      "stage_name": "Stage 2"
+    },
+    {
+      "rider_name": "GROENEWEGEN Dylan",
+      "rider_url": "rider/dylan-groenewegen",
+      "nationality": "NL",
+      "stage_name": "Stage 3"
+    },
+    {
+      "rider_name": "VAN AERT Wout",
+      "rider_url": "rider/wout-van-aert",
+      "nationality": "BE",
+      "stage_name": "Stage 4"
+    },
+    {
+      "rider_name": "CLARKE Simon",
+      "rider_url": "rider/simon-clarke",
+      "nationality": "AU",
+      "stage_name": "Stage 5"
+    },
+    {
+      "rider_name": "POGA\u010cAR Tadej",
+      "rider_url": "rider/tadej-pogacar",
+      "nationality": "SI",
+      "stage_name": "Stage 6"
+    },
+    {
+      "rider_name": "POGA\u010cAR Tadej",
+      "rider_url": "rider/tadej-pogacar",
+      "nationality": "SI",
+      "stage_name": "Stage 7"
+    },
+    {
+      "rider_name": "VAN AERT Wout",
+      "rider_url": "rider/wout-van-aert",
+      "nationality": "BE",
+      "stage_name": "Stage 8"
+    },
+    {
+      "rider_name": "JUNGELS Bob",
+      "rider_url": "rider/bob-jungels",
+      "nationality": "LU",
+      "stage_name": "Stage 9"
+    },
+    {
+      "rider_name": "CORT Magnus",
+      "rider_url": "rider/magnus-cort-nielsen",
+      "nationality": "DK",
+      "stage_name": "Stage 10"
+    },
+    {
+      "rider_name": "VINGEGAARD Jonas",
+      "rider_url": "rider/jonas-vingegaard",
+      "nationality": "DK",
+      "stage_name": "Stage 11"
+    },
+    {
+      "rider_name": "PIDCOCK Thomas",
+      "rider_url": "rider/thomas-pidcock",
+      "nationality": "GB",
+      "stage_name": "Stage 12"
+    },
+    {
+      "rider_name": "PEDERSEN Mads",
+      "rider_url": "rider/mads-pedersen",
+      "nationality": "DK",
+      "stage_name": "Stage 13"
+    },
+    {
+      "rider_name": "MATTHEWS Michael",
+      "rider_url": "rider/michael-matthews",
+      "nationality": "AU",
+      "stage_name": "Stage 14"
+    },
+    {
+      "rider_name": "PHILIPSEN Jasper",
+      "rider_url": "rider/jasper-philipsen",
+      "nationality": "BE",
+      "stage_name": "Stage 15"
+    },
+    {
+      "rider_name": "HOULE Hugo",
+      "rider_url": "rider/hugo-houle",
+      "nationality": "CA",
+      "stage_name": "Stage 16"
+    },
+    {
+      "rider_name": "POGA\u010cAR Tadej",
+      "rider_url": "rider/tadej-pogacar",
+      "nationality": "SI",
+      "stage_name": "Stage 17"
+    },
+    {
+      "rider_name": "VINGEGAARD Jonas",
+      "rider_url": "rider/jonas-vingegaard",
+      "nationality": "DK",
+      "stage_name": "Stage 18"
+    },
+    {
+      "rider_name": "LAPORTE Christophe",
+      "rider_url": "rider/christophe-laporte",
+      "nationality": "FR",
+      "stage_name": "Stage 19"
+    },
+    {
+      "rider_name": "VAN AERT Wout",
+      "rider_url": "rider/wout-van-aert",
+      "nationality": "BE",
+      "stage_name": "Stage 20 (ITT)"
+    },
+    {
+      "rider_name": "PHILIPSEN Jasper",
+      "rider_url": "rider/jasper-philipsen",
+      "nationality": "BE",
+      "stage_name": "Stage 21"
     }
   ],
   "startdate": "2022-07-01",

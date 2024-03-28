@@ -1,19 +1,4 @@
 <!DOCTYPE html><html><head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35889790-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_MEASUREMENT_ID', {
-	  'linker': {
-	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
-	  }
-	});
-
-  gtag('config', 'UA-35889790-1');
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -22,9 +7,17 @@
 
   gtag('config', 'G-2MNJ20S7SJ');
 </script>
+
+
 <title>Tour de France 2022</title>
 <base href="https://www.procyclingstats.com/race.php">
 <link rel="canonical" href="https://www.procyclingstats.com/race/tour-de-france/2022">
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async="" src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="robots" content="noindex">
 <meta name="description" content="">
 <meta name="keywords" content="">
@@ -35,9 +28,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a185.css">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b145.css">
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a204.css">
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b174.css">
+<script src="https://www.procyclingstats.com/pcs_s83.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -49,7 +42,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a class="logo" href="index.php"></a>  
+    	<a class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden" id="term">
     		<input type="text" name="term" id="search" data-nav="/start" data-nav2="" data-page="race_event" class="search4" placeholder="search"></form> 
     	<div class="menuCont">
@@ -59,8 +53,8 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
@@ -73,24 +67,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
-<li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
-<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
+<li><a href="team/movistar-team-2024">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
+<li><a href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></li>
+<li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
+<li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
+<li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -100,13 +94,12 @@
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
-<li><a href="info/paris-hardenberg">Paris-Hardenberg</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-3-billion-pageviews">Countdown to 3 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -117,8 +110,8 @@
 			 </div>
 			 <a class="user4" data-logged="0" href="account.php"><span>❖</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>✱</span><font>settings</font></a>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav "><a href="race/tour-de-france/2021/statistics/start">2021</a><div><form style="  "><select style="width: calc(100% - 2px);" onchange="window.location.href=this.value; "><option value="race/tour-de-france/2024/statistics/start">2024</option><option value="race/tour-de-france/2023/statistics/start">2023</option><option value="race/tour-de-france/2022/statistics/start" selected="">2022</option><option value="race/tour-de-france/2021/statistics/start">2021</option><option value="race/tour-de-france/2020/statistics/start">2020</option><option value="race/tour-de-france/2019/statistics/start">2019</option><option value="race/tour-de-france/2018/statistics/start">2018</option><option value="race/tour-de-france/2017/statistics/start">2017</option><option value="race/tour-de-france/2016/statistics/start">2016</option><option value="race/tour-de-france/2015/statistics/start">2015</option><option value="race/tour-de-france/2014/statistics/start">2014</option><option value="race/tour-de-france/2013/statistics/start">2013</option><option value="race/tour-de-france/2012/statistics/start">2012</option><option value="race/tour-de-france/2011/statistics/start">2011</option><option value="race/tour-de-france/2010/statistics/start">2010</option><option value="race/tour-de-france/2009/statistics/start">2009</option><option value="race/tour-de-france/2008/statistics/start">2008</option><option value="race/tour-de-france/2007/statistics/start">2007</option><option value="race/tour-de-france/2006/statistics/start">2006</option><option value="race/tour-de-france/2005/statistics/start">2005</option><option value="race/tour-de-france/2004/statistics/start">2004</option><option value="race/tour-de-france/2003/statistics/start">2003</option><option value="race/tour-de-france/2002/statistics/start">2002</option><option value="race/tour-de-france/2001/statistics/start">2001</option><option value="race/tour-de-france/2000/statistics/start">2000</option><option value="race/tour-de-france/1999/statistics/start">1999</option><option value="race/tour-de-france/1998/statistics/start">1998</option><option value="race/tour-de-france/1997/statistics/start">1997</option><option value="race/tour-de-france/1996/statistics/start">1996</option><option value="race/tour-de-france/1995/statistics/start">1995</option><option value="race/tour-de-france/1994/statistics/start">1994</option><option value="race/tour-de-france/1993/statistics/start">1993</option><option value="race/tour-de-france/1992/statistics/start">1992</option><option value="race/tour-de-france/1991/statistics/start">1991</option><option value="race/tour-de-france/1990/statistics/start">1990</option><option value="race/tour-de-france/1989/statistics/start">1989</option><option value="race/tour-de-france/1988/statistics/start">1988</option><option value="race/tour-de-france/1987/statistics/start">1987</option><option value="race/tour-de-france/1986/statistics/start">1986</option><option value="race/tour-de-france/1985/statistics/start">1985</option><option value="race/tour-de-france/1984/statistics/start">1984</option><option value="race/tour-de-france/1983/statistics/start">1983</option><option value="race/tour-de-france/1982/statistics/start">1982</option><option value="race/tour-de-france/1981/statistics/start">1981</option><option value="race/tour-de-france/1980/statistics/start">1980</option><option value="race/tour-de-france/1979/statistics/start">1979</option><option value="race/tour-de-france/1978/statistics/start">1978</option><option value="race/tour-de-france/1977/statistics/start">1977</option><option value="race/tour-de-france/1976/statistics/start">1976</option><option value="race/tour-de-france/1975/statistics/start">1975</option><option value="race/tour-de-france/1974/statistics/start">1974</option><option value="race/tour-de-france/1973/statistics/start">1973</option><option value="race/tour-de-france/1972/statistics/start">1972</option><option value="race/tour-de-france/1971/statistics/start">1971</option><option value="race/tour-de-france/1970/statistics/start">1970</option><option value="race/tour-de-france/1969/statistics/start">1969</option><option value="race/tour-de-france/1968/statistics/start">1968</option><option value="race/tour-de-france/1967/statistics/start">1967</option><option value="race/tour-de-france/1966/statistics/start">1966</option><option value="race/tour-de-france/1965/statistics/start">1965</option><option value="race/tour-de-france/1964/statistics/start">1964</option><option value="race/tour-de-france/1963/statistics/start">1963</option><option value="race/tour-de-france/1962/statistics/start">1962</option><option value="race/tour-de-france/1961/statistics/start">1961</option><option value="race/tour-de-france/1960/statistics/start">1960</option><option value="race/tour-de-france/1959/statistics/start">1959</option><option value="race/tour-de-france/1958/statistics/start">1958</option><option value="race/tour-de-france/1957/statistics/start">1957</option><option value="race/tour-de-france/1956/statistics/start">1956</option><option value="race/tour-de-france/1955/statistics/start">1955</option><option value="race/tour-de-france/1954/statistics/start">1954</option><option value="race/tour-de-france/1953/statistics/start">1953</option><option value="race/tour-de-france/1952/statistics/start">1952</option><option value="race/tour-de-france/1951/statistics/start">1951</option><option value="race/tour-de-france/1950/statistics/start">1950</option><option value="race/tour-de-france/1949/statistics/start">1949</option><option value="race/tour-de-france/1948/statistics/start">1948</option><option value="race/tour-de-france/1947/statistics/start">1947</option><option value="race/tour-de-france/1939/statistics/start">1939</option><option value="race/tour-de-france/1938/statistics/start">1938</option><option value="race/tour-de-france/1937/statistics/start">1937</option><option value="race/tour-de-france/1936/statistics/start">1936</option><option value="race/tour-de-france/1935/statistics/start">1935</option><option value="race/tour-de-france/1934/statistics/start">1934</option><option value="race/tour-de-france/1933/statistics/start">1933</option><option value="race/tour-de-france/1932/statistics/start">1932</option><option value="race/tour-de-france/1931/statistics/start">1931</option><option value="race/tour-de-france/1930/statistics/start">1930</option><option value="race/tour-de-france/1929/statistics/start">1929</option><option value="race/tour-de-france/1928/statistics/start">1928</option><option value="race/tour-de-france/1927/statistics/start">1927</option><option value="race/tour-de-france/1926/statistics/start">1926</option><option value="race/tour-de-france/1925/statistics/start">1925</option><option value="race/tour-de-france/1924/statistics/start">1924</option><option value="race/tour-de-france/1923/statistics/start">1923</option><option value="race/tour-de-france/1922/statistics/start">1922</option><option value="race/tour-de-france/1921/statistics/start">1921</option><option value="race/tour-de-france/1920/statistics/start">1920</option><option value="race/tour-de-france/1919/statistics/start">1919</option><option value="race/tour-de-france/1914/statistics/start">1914</option><option value="race/tour-de-france/1913/statistics/start">1913</option><option value="race/tour-de-france/1912/statistics/start">1912</option><option value="race/tour-de-france/1911/statistics/start">1911</option><option value="race/tour-de-france/1910/statistics/start">1910</option><option value="race/tour-de-france/1909/statistics/start">1909</option><option value="race/tour-de-france/1908/statistics/start">1908</option><option value="race/tour-de-france/1907/statistics/start">1907</option><option value="race/tour-de-france/1906/statistics/start">1906</option><option value="race/tour-de-france/1905/statistics/start">1905</option><option value="race/tour-de-france/1904/statistics/start">1904</option><option value="race/tour-de-france/1903/statistics/start">1903</option></select></form></div><a href="race/tour-de-france/2023/statistics/start">2023</a></div><div class="pageSelectNav 1"><div><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onchange="window.location.href=this.value; "><option value="race/tour-de-france/2022/">- stage -</option><option value="race/tour-de-france/2022/stage-1">Stage 1 (ITT) | Copenhagen - Copenhagen</option><option value="race/tour-de-france/2022/stage-2">Stage 2 | Roskilde - Nyborg</option><option value="race/tour-de-france/2022/stage-3">Stage 3 | Vejle - Sønderborg</option><option value="race/tour-de-france/2022/stage-4">Stage 4 | Dunkerque - Calais</option><option value="race/tour-de-france/2022/stage-5">Stage 5 | Lille - Wallers-Arenberg</option><option value="race/tour-de-france/2022/stage-6">Stage 6 | Binche - Longwy</option><option value="race/tour-de-france/2022/stage-7">Stage 7 | Tomblaine - La Super Planche des Belles Filles</option><option value="race/tour-de-france/2022/stage-8">Stage 8 | Dole - Lausanne</option><option value="race/tour-de-france/2022/stage-9">Stage 9 | Aigle - Châtel les portes du Soleil</option><option value="race/tour-de-france/2022/stage-10">Stage 10 | Morzine - Megève</option><option value="race/tour-de-france/2022/stage-11">Stage 11 | Albertville - Col du Granon</option><option value="race/tour-de-france/2022/stage-12">Stage 12 | Briançon - L'Alpe d'Huez</option><option value="race/tour-de-france/2022/stage-13">Stage 13 | Bourg d'Oisans - Saint-Etienne</option><option value="race/tour-de-france/2022/stage-14">Stage 14 | Saint-Etienne - Mende</option><option value="race/tour-de-france/2022/stage-15">Stage 15 | Rodez - Carcassonne</option><option value="race/tour-de-france/2022/stage-16">Stage 16 | Carcassonne - Foix</option><option value="race/tour-de-france/2022/stage-17">Stage 17 | Saint-Gaudens - Peyragudes</option><option value="race/tour-de-france/2022/stage-18">Stage 18 | Lourdes - Hautacam</option><option value="race/tour-de-france/2022/stage-19">Stage 19 | Castelnau-Magnoac - Cahors</option><option value="race/tour-de-france/2022/stage-20">Stage 20 (ITT) | Lacapelle-Marival - Rocamadour</option><option value="race/tour-de-france/2022/stage-21">Stage 21 | Paris La Défense - Paris (Champs-Élysées)</option><option value="race/tour-de-france/2022/gc" selected=""> |  - </option><option value="race/tour-de-france/2022/stage-21-points">Points classification |  - </option><option value="race/tour-de-france/2022/stage-21-youth">Youth classification |  - </option><option value="race/tour-de-france/2022/stage-21-kom">Mountains classification |  - </option><option value="race/tour-de-france/2022/stage-21-teams">Teams classification |  - </option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/tour-de-france/2022">Statistics</a></li>
-<li class="reg "><a style=" " href="/race/tour-de-france/2022">GO TO</a><ul><li><a href="race/tour-de-france/2022/stage-21">Stage 21 results</a></li><li><a href="race/tour-de-france/2022/gc">Actual GC</a></li></ul></li><li class="reg "><a class="" href="race/tour-de-france/2022/startlist">Startlist▼</a><ul><li><a href="race/tour-de-france/2022/startlist/startlist">Startlist</a></li>
+<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav "><a href="race/tour-de-france/2021/statistics/start">2021</a><div><form style="  "><select style="width: calc(100% - 2px);" onchange="window.location.href=this.value; "><option value="race/tour-de-france/2024/statistics/start">2024</option><option value="race/tour-de-france/2023/statistics/start">2023</option><option value="race/tour-de-france/2022/statistics/start" selected="">2022</option><option value="race/tour-de-france/2021/statistics/start">2021</option><option value="race/tour-de-france/2020/statistics/start">2020</option><option value="race/tour-de-france/2019/statistics/start">2019</option><option value="race/tour-de-france/2018/statistics/start">2018</option><option value="race/tour-de-france/2017/statistics/start">2017</option><option value="race/tour-de-france/2016/statistics/start">2016</option><option value="race/tour-de-france/2015/statistics/start">2015</option><option value="race/tour-de-france/2014/statistics/start">2014</option><option value="race/tour-de-france/2013/statistics/start">2013</option><option value="race/tour-de-france/2012/statistics/start">2012</option><option value="race/tour-de-france/2011/statistics/start">2011</option><option value="race/tour-de-france/2010/statistics/start">2010</option><option value="race/tour-de-france/2009/statistics/start">2009</option><option value="race/tour-de-france/2008/statistics/start">2008</option><option value="race/tour-de-france/2007/statistics/start">2007</option><option value="race/tour-de-france/2006/statistics/start">2006</option><option value="race/tour-de-france/2005/statistics/start">2005</option><option value="race/tour-de-france/2004/statistics/start">2004</option><option value="race/tour-de-france/2003/statistics/start">2003</option><option value="race/tour-de-france/2002/statistics/start">2002</option><option value="race/tour-de-france/2001/statistics/start">2001</option><option value="race/tour-de-france/2000/statistics/start">2000</option><option value="race/tour-de-france/1999/statistics/start">1999</option><option value="race/tour-de-france/1998/statistics/start">1998</option><option value="race/tour-de-france/1997/statistics/start">1997</option><option value="race/tour-de-france/1996/statistics/start">1996</option><option value="race/tour-de-france/1995/statistics/start">1995</option><option value="race/tour-de-france/1994/statistics/start">1994</option><option value="race/tour-de-france/1993/statistics/start">1993</option><option value="race/tour-de-france/1992/statistics/start">1992</option><option value="race/tour-de-france/1991/statistics/start">1991</option><option value="race/tour-de-france/1990/statistics/start">1990</option><option value="race/tour-de-france/1989/statistics/start">1989</option><option value="race/tour-de-france/1988/statistics/start">1988</option><option value="race/tour-de-france/1987/statistics/start">1987</option><option value="race/tour-de-france/1986/statistics/start">1986</option><option value="race/tour-de-france/1985/statistics/start">1985</option><option value="race/tour-de-france/1984/statistics/start">1984</option><option value="race/tour-de-france/1983/statistics/start">1983</option><option value="race/tour-de-france/1982/statistics/start">1982</option><option value="race/tour-de-france/1981/statistics/start">1981</option><option value="race/tour-de-france/1980/statistics/start">1980</option><option value="race/tour-de-france/1979/statistics/start">1979</option><option value="race/tour-de-france/1978/statistics/start">1978</option><option value="race/tour-de-france/1977/statistics/start">1977</option><option value="race/tour-de-france/1976/statistics/start">1976</option><option value="race/tour-de-france/1975/statistics/start">1975</option><option value="race/tour-de-france/1974/statistics/start">1974</option><option value="race/tour-de-france/1973/statistics/start">1973</option><option value="race/tour-de-france/1972/statistics/start">1972</option><option value="race/tour-de-france/1971/statistics/start">1971</option><option value="race/tour-de-france/1970/statistics/start">1970</option><option value="race/tour-de-france/1969/statistics/start">1969</option><option value="race/tour-de-france/1968/statistics/start">1968</option><option value="race/tour-de-france/1967/statistics/start">1967</option><option value="race/tour-de-france/1966/statistics/start">1966</option><option value="race/tour-de-france/1965/statistics/start">1965</option><option value="race/tour-de-france/1964/statistics/start">1964</option><option value="race/tour-de-france/1963/statistics/start">1963</option><option value="race/tour-de-france/1962/statistics/start">1962</option><option value="race/tour-de-france/1961/statistics/start">1961</option><option value="race/tour-de-france/1960/statistics/start">1960</option><option value="race/tour-de-france/1959/statistics/start">1959</option><option value="race/tour-de-france/1958/statistics/start">1958</option><option value="race/tour-de-france/1957/statistics/start">1957</option><option value="race/tour-de-france/1956/statistics/start">1956</option><option value="race/tour-de-france/1955/statistics/start">1955</option><option value="race/tour-de-france/1954/statistics/start">1954</option><option value="race/tour-de-france/1953/statistics/start">1953</option><option value="race/tour-de-france/1952/statistics/start">1952</option><option value="race/tour-de-france/1951/statistics/start">1951</option><option value="race/tour-de-france/1950/statistics/start">1950</option><option value="race/tour-de-france/1949/statistics/start">1949</option><option value="race/tour-de-france/1948/statistics/start">1948</option><option value="race/tour-de-france/1947/statistics/start">1947</option><option value="race/tour-de-france/1939/statistics/start">1939</option><option value="race/tour-de-france/1938/statistics/start">1938</option><option value="race/tour-de-france/1937/statistics/start">1937</option><option value="race/tour-de-france/1936/statistics/start">1936</option><option value="race/tour-de-france/1935/statistics/start">1935</option><option value="race/tour-de-france/1934/statistics/start">1934</option><option value="race/tour-de-france/1933/statistics/start">1933</option><option value="race/tour-de-france/1932/statistics/start">1932</option><option value="race/tour-de-france/1931/statistics/start">1931</option><option value="race/tour-de-france/1930/statistics/start">1930</option><option value="race/tour-de-france/1929/statistics/start">1929</option><option value="race/tour-de-france/1928/statistics/start">1928</option><option value="race/tour-de-france/1927/statistics/start">1927</option><option value="race/tour-de-france/1926/statistics/start">1926</option><option value="race/tour-de-france/1925/statistics/start">1925</option><option value="race/tour-de-france/1924/statistics/start">1924</option><option value="race/tour-de-france/1923/statistics/start">1923</option><option value="race/tour-de-france/1922/statistics/start">1922</option><option value="race/tour-de-france/1921/statistics/start">1921</option><option value="race/tour-de-france/1920/statistics/start">1920</option><option value="race/tour-de-france/1919/statistics/start">1919</option><option value="race/tour-de-france/1914/statistics/start">1914</option><option value="race/tour-de-france/1913/statistics/start">1913</option><option value="race/tour-de-france/1912/statistics/start">1912</option><option value="race/tour-de-france/1911/statistics/start">1911</option><option value="race/tour-de-france/1910/statistics/start">1910</option><option value="race/tour-de-france/1909/statistics/start">1909</option><option value="race/tour-de-france/1908/statistics/start">1908</option><option value="race/tour-de-france/1907/statistics/start">1907</option><option value="race/tour-de-france/1906/statistics/start">1906</option><option value="race/tour-de-france/1905/statistics/start">1905</option><option value="race/tour-de-france/1904/statistics/start">1904</option><option value="race/tour-de-france/1903/statistics/start">1903</option></select></form></div><a href="race/tour-de-france/2023/statistics/start">2023</a></div><div class="pageSelectNav 1"><div><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onchange="window.location.href=this.value; "><option value="race/tour-de-france/2022/">- stage -</option><option value="race/tour-de-france/2022/stage-1">Stage 1 (ITT) | Copenhagen - Copenhagen</option><option value="race/tour-de-france/2022/stage-2">Stage 2 | Roskilde - Nyborg</option><option value="race/tour-de-france/2022/stage-3">Stage 3 | Vejle - Sønderborg</option><option value="race/tour-de-france/2022/stage-4">Stage 4 | Dunkerque - Calais</option><option value="race/tour-de-france/2022/stage-5">Stage 5 | Lille - Wallers-Arenberg</option><option value="race/tour-de-france/2022/stage-6">Stage 6 | Binche - Longwy</option><option value="race/tour-de-france/2022/stage-7">Stage 7 | Tomblaine - La Super Planche des Belles Filles</option><option value="race/tour-de-france/2022/stage-8">Stage 8 | Dole - Lausanne</option><option value="race/tour-de-france/2022/stage-9">Stage 9 | Aigle - Châtel les portes du Soleil</option><option value="race/tour-de-france/2022/stage-10">Stage 10 | Morzine - Megève</option><option value="race/tour-de-france/2022/stage-11">Stage 11 | Albertville - Col du Granon</option><option value="race/tour-de-france/2022/stage-12">Stage 12 | Briançon - L'Alpe d'Huez</option><option value="race/tour-de-france/2022/stage-13">Stage 13 | Bourg d'Oisans - Saint-Etienne</option><option value="race/tour-de-france/2022/stage-14">Stage 14 | Saint-Etienne - Mende</option><option value="race/tour-de-france/2022/stage-15">Stage 15 | Rodez - Carcassonne</option><option value="race/tour-de-france/2022/stage-16">Stage 16 | Carcassonne - Foix</option><option value="race/tour-de-france/2022/stage-17">Stage 17 | Saint-Gaudens - Peyragudes</option><option value="race/tour-de-france/2022/stage-18">Stage 18 | Lourdes - Hautacam</option><option value="race/tour-de-france/2022/stage-19">Stage 19 | Castelnau-Magnoac - Cahors</option><option value="race/tour-de-france/2022/stage-20">Stage 20 (ITT) | Lacapelle-Marival - Rocamadour</option><option value="race/tour-de-france/2022/stage-21">Stage 21 | Paris La Défense - Paris (Champs-Élysées)</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/tour-de-france/2022">Statistics</a></li>
+<li class="reg "><a style=" " href="/race/tour-de-france/2022">GO TO</a><ul><li><a href="race/tour-de-france/2022/stage-21">Stage 21 Results</a></li></ul></li><li class="reg "><a class="" href="race/tour-de-france/2022/startlist">Startlist▼</a><ul><li><a href="race/tour-de-france/2022/startlist/startlist">Startlist</a></li>
 <li><a href="race/tour-de-france/2022/startlist/top-competitors">Top competitors</a></li>
 <li><a href="race/tour-de-france/2022/startlist/startlist-quality">Startlist quality</a></li>
 <li><a href="race/tour-de-france/2022/startlist/debutants">Debutants</a></li>
@@ -161,21 +154,23 @@
 </div>
 <div class="w50 left mb_w100 mg_r2 ">
 <div class="mt20"><h3>Result 2022</h3>
-<span class="table-cont"><table class="basic" style="max-width: 450px; "><thead><tr><th style="width: 16.7%; ">#</th><th style="width: 66.7%; ">Rider</th><th style="width: 16.7%; ">Time</th></tr></thead><tbody>
-<tr><td>1</td><td><span class="flag dk"></span> <a href="rider/jonas-vingegaard-rasmussen">VINGEGAARD Jonas</a></td><td>0:00</td></tr>
-<tr><td>2</td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>2:43</td></tr>
-<tr><td>3</td><td><span class="flag gb"></span> <a href="rider/geraint-thomas">THOMAS Geraint</a></td><td>7:22</td></tr>
-<tr><td>4</td><td><span class="flag fr"></span> <a href="rider/david-gaudu">GAUDU David</a></td><td>13:39</td></tr>
-<tr><td>5</td><td><span class="flag ru"></span> <a href="rider/aleksandr-vlasov">VLASOV Aleksandr</a></td><td>15:46</td></tr>
-<tr><td>6</td><td><span class="flag co"></span> <a href="rider/nairo-quintana">QUINTANA Nairo</a></td><td>16:33</td></tr>
-<tr><td>6</td><td><span class="flag fr"></span> <a href="rider/romain-bardet">BARDET Romain</a></td><td>18:11</td></tr>
-<tr><td>7</td><td><span class="flag za"></span> <a href="rider/louis-meintjes">MEINTJES Louis</a></td><td>18:44</td></tr>
-<tr><td>8</td><td><span class="flag kz"></span> <a href="rider/aleksey-lutsenko">LUTSENKO Alexey</a></td><td>22:56</td></tr>
-<tr><td>9</td><td><span class="flag gb"></span> <a href="rider/adam-yates">YATES Adam</a></td><td>24:52</td></tr>
-<tr class=" hide"><td>10</td><td><span class="flag fr"></span> <a href="rider/valentin-madouas">MADOUAS Valentin</a></td><td>35:59</td></tr>
+<span class="table-cont"><table class="basic" style="max-width: 450px; "><thead><tr><th style="width: 10%; ">#</th><th style="width: 40%; ">Rider</th><th style="width: 40%; ">Team</th><th style="width: 10%; ">Time</th></tr></thead><tbody>
+<tr><td>1</td><td><span class="flag dk"></span> <a href="rider/jonas-vingegaard">VINGEGAARD Jonas</a></td><td><a href="team/team-jumbo-visma-2022">Jumbo-Visma</a></td><td> 79:33:20</td></tr>
+<tr><td>2</td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td><a href="team/uae-team-emirates-2022">UAE Team Emirates</a></td><td>2:43</td></tr>
+<tr><td>3</td><td><span class="flag gb"></span> <a href="rider/geraint-thomas">THOMAS Geraint</a></td><td><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></td><td>7:22</td></tr>
+<tr><td>4</td><td><span class="flag fr"></span> <a href="rider/david-gaudu">GAUDU David</a></td><td><a href="team/groupama-fdj-2022">Groupama - FDJ</a></td><td>13:39</td></tr>
+<tr><td>5</td><td><span class="flag ru"></span> <a href="rider/aleksandr-vlasov">VLASOV Aleksandr</a></td><td><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></td><td>15:46</td></tr>
+<tr><td>6</td><td><span class="flag co"></span> <a href="rider/nairo-quintana">QUINTANA Nairo</a></td><td><a href="team/team-arkea-samsic-2022">Team Arkéa Samsic</a></td><td>16:33</td></tr>
+<tr><td>6</td><td><span class="flag fr"></span> <a href="rider/romain-bardet">BARDET Romain</a></td><td><a href="team/team-dsm-2022">Team DSM</a></td><td>18:11</td></tr>
+<tr><td>7</td><td><span class="flag za"></span> <a href="rider/louis-meintjes">MEINTJES Louis</a></td><td><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></td><td>18:44</td></tr>
+<tr><td>7</td><td><span class="flag za"></span> <a href="rider/louis-meintjes">MEINTJES Louis</a></td><td><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></td><td>18:44</td></tr>
+<tr><td>8</td><td><span class="flag kz"></span> <a href="rider/aleksey-lutsenko">LUTSENKO Alexey</a></td><td><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></td><td>22:56</td></tr>
+<tr class=" hide"><td>9</td><td><span class="flag gb"></span> <a href="rider/adam-yates">YATES Adam</a></td><td><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></td><td>24:52</td></tr>
+<tr class=" hide"><td>10</td><td><span class="flag fr"></span> <a href="rider/valentin-madouas">MADOUAS Valentin</a></td><td><a href="team/groupama-fdj-2022">Groupama - FDJ</a></td><td>35:59</td></tr>
 </tbody></table><a class="showFullList showmorelink" href="">show more</a></span></div>
 <ul class="list horizontal"><li class="goto2 mr10"><a class="goto2 mr10" href="race/tour-de-france/2022/gc">Full results</a></li>
-<li class="goto2"><a class="goto2" href="race/tour-de-france/2022/gc/live">LiveStats</a></li>
+<li class="goto2 mr10"><a class="goto2 mr10" href="race/tour-de-france/2022/gc/live">LiveStats</a></li>
+<li class="goto2 mr10"><a class="goto2 mr10" href="race/tour-de-france/2022/gc/game">Game</a></li>
 </ul>
 <div class="mt20"><h3>Info</h3><ul class="infolist fs13" style=""><li><div>Startdate:</div> <div>2022-07-01</div></li>
 <li><div>Enddate:</div> <div>2022-07-24</div></li>
@@ -186,15 +181,15 @@
 </ul></div>
 <div class="mt20"><h3>Top competitors</h3>
 <span class="table-cont"><ul class="list" style="max-width: 550px;  "><li class=""><div class=" fs14 pr5   "><span class="flag c16 si"></span> </div><div><a href="rider/tadej-pogacar">POGAČAR Tadej</a></div><div class="clear"></div></li>
+<li class=""><div class=" fs14 pr5   "><span class="flag c16 dk"></span> </div><div><a href="rider/jonas-vingegaard">VINGEGAARD Jonas</a></div><div class="clear"></div></li>
+<li class=""><div class=" fs14 pr5   "><span class="flag c16 be"></span> </div><div><a href="rider/jasper-philipsen">PHILIPSEN Jasper</a></div><div class="clear"></div></li>
+<li class=""><div class=" fs14 pr5   "><span class="flag c16 dk"></span> </div><div><a href="rider/mads-pedersen">PEDERSEN Mads</a></div><div class="clear"></div></li>
 <li class=""><div class=" fs14 pr5   "><span class="flag c16 be"></span> </div><div><a href="rider/wout-van-aert">VAN AERT Wout</a></div><div class="clear"></div></li>
+<li class=""><div class=" fs14 pr5   "><span class="flag c16 ch"></span> </div><div><a href="rider/marc-hirschi">HIRSCHI Marc</a></div><div class="clear"></div></li>
+<li class=""><div class=" fs14 pr5   "><span class="flag c16 gb"></span> </div><div><a href="rider/adam-yates">YATES Adam</a></div><div class="clear"></div></li>
 <li class=""><div class=" fs14 pr5   "><span class="flag c16 si"></span> </div><div><a href="rider/primoz-roglic">ROGLIČ Primož</a></div><div class="clear"></div></li>
-<li class=""><div class=" fs14 pr5   "><span class="flag c16 si"></span> </div><div><a href="rider/matej-mohoric">MOHORIČ Matej</a></div><div class="clear"></div></li>
-<li class=""><div class=" fs14 pr5   "><span class="flag c16 dk"></span> </div><div><a href="rider/jonas-vingegaard-rasmussen">VINGEGAARD Jonas</a></div><div class="clear"></div></li>
-<li class=""><div class=" fs14 pr5   "><span class="flag c16 ch"></span> </div><div><a href="rider/stefan-kung">KÜNG Stefan</a></div><div class="clear"></div></li>
 <li class=""><div class=" fs14 pr5   "><span class="flag c16 nl"></span> </div><div><a href="rider/mathieu-van-der-poel">VAN DER POEL Mathieu</a></div><div class="clear"></div></li>
 <li class=""><div class=" fs14 pr5   "><span class="flag c16 ru"></span> </div><div><a href="rider/aleksandr-vlasov">VLASOV Aleksandr</a></div><div class="clear"></div></li>
-<li class=""><div class=" fs14 pr5   "><span class="flag c16 be"></span> </div><div><a href="rider/jasper-philipsen">PHILIPSEN Jasper</a></div><div class="clear"></div></li>
-<li class=""><div class=" fs14 pr5   "><span class="flag c16 nl"></span> </div><div><a href="rider/fabio-jakobsen">JAKOBSEN Fabio</a></div><div class="clear"></div></li>
 </ul></span></div>
 <ul class="list horizontal"><li class="goto2 pr5"><a class="goto2 pr5" href="race/tour-de-france/2022/startlist">Startlist</a></li>
 <li class="goto2 pr5"><a class="goto2 pr5" href="race/tour-de-france/2022/startlist/top-competitors">Top riders</a></li>
@@ -204,53 +199,80 @@
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1330"></span></div><div class="fs14 pr5   "><a href="team/team-jumbo-visma-2022">Jumbo-Visma</a></div><div class=" clr999 fs14   "> (van Aert, Roglič)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1423"></span></div><div class="fs14 pr5   "><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></div><div class=" clr999 fs14   "> (Yates, Thomas)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1060"></span></div><div class="fs14 pr5   "><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></div><div class=" clr999 fs14   "> (Naesen, Jungels)</div><div class="clear"></div></li>
-<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1411"></span></div><div class="fs14 pr5   "><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></div><div class=" clr999 fs14   "> (van Poppel, Konrad)</div><div class="clear"></div></li>
-<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1328"></span></div><div class="fs14 pr5   "><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></div><div class=" clr999 fs14   "> (Sénéchal, Lampaert)</div><div class="clear"></div></li>
+<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1411"></span></div><div class="fs14 pr5   "><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></div><div class=" clr999 fs14   "> (Vlasov, van Poppel)</div><div class="clear"></div></li>
+<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1328"></span></div><div class="fs14 pr5   "><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></div><div class=" clr999 fs14   "> (Lampaert, Jakobsen)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team2040"></span></div><div class="fs14 pr5   "><a href="team/movistar-team-2022">Movistar Team</a></div><div class=" clr999 fs14   "> (Mas, Izagirre)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "><a href="team/cofidis-2022">Cofidis</a></div><div class=" clr999 fs14   "> (Martin, Izagirre)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team3814"></span></div><div class="fs14 pr5   "><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></div><div class=" clr999 fs14   "> (Sánchez, Caruso)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1187"></span></div><div class="fs14 pr5   "><a href="team/groupama-fdj-2022">Groupama - FDJ</a></div><div class=" clr999 fs14   "> (Pinot, Küng)</div><div class="clear"></div></li>
-<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1100"></span></div><div class="fs14 pr5   "><a href="team/alpecin-deceuninck-2022">Alpecin-Deceuninck</a></div><div class=" clr999 fs14   "> (van der Poel, Philipsen)</div><div class="clear"></div></li>
+<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1100"></span></div><div class="fs14 pr5   "><a href="team/alpecin-deceuninck-2022">Alpecin - Deceuninck</a></div><div class=" clr999 fs14   "> (van der Poel, Philipsen)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1360"></span></div><div class="fs14 pr5   "><a href="team/team-dsm-2022">Team DSM</a></div><div class=" clr999 fs14   "> (Degenkolb, Bardet)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1490"></span></div><div class="fs14 pr5   "><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></div><div class=" clr999 fs14   "> (Meintjes, Kristoff)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1375"></span></div><div class="fs14 pr5   "><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></div><div class=" clr999 fs14   "> (Lutsenko, Felline)</div><div class="clear"></div></li>
-<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team4000"></span></div><div class="fs14 pr5   "><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></div><div class=" clr999 fs14   "> (Urán, Cort)</div><div class="clear"></div></li>
+<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team4000"></span></div><div class="fs14 pr5   "><a href="team/ef-education-easypost-2022">EF Education - EasyPost</a></div><div class=" clr999 fs14   "> (Urán, Cort)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1107"></span></div><div class="fs14 pr5   "><a href="team/team-arkea-samsic-2022">Team Arkéa Samsic</a></div><div class=" clr999 fs14   "> (Quintana, Barguil)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team2088"></span></div><div class="fs14 pr5   "><a href="team/lotto-soudal-2022">Lotto Soudal</a></div><div class=" clr999 fs14   "> (Wellens, Gilbert)</div><div class="clear"></div></li>
-<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1258"></span></div><div class="fs14 pr5   "><a href="team/trek-segafredo-2022">Trek - Segafredo</a></div><div class=" clr999 fs14   "> (Mollema, Gallopin)</div><div class="clear"></div></li>
-<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1175"></span></div><div class="fs14 pr5   "><a href="team/team-totalenergies-2022">TotalEnergies</a></div><div class=" clr999 fs14   "> (Sagan, Boasson Hagen)</div><div class="clear"></div></li>
+<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1258"></span></div><div class="fs14 pr5   "><a href="team/trek-segafredo-2022">Trek - Segafredo</a></div><div class=" clr999 fs14   "> (Pedersen, Mollema)</div><div class="clear"></div></li>
+<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1175"></span></div><div class="fs14 pr5   "><a href="team/totalenergies-2022">TotalEnergies</a></div><div class=" clr999 fs14   "> (Sagan, Boasson Hagen)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team2738"></span></div><div class="fs14 pr5   "><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></div><div class=" clr999 fs14   "> (Fuglsang, Froome)</div><div class="clear"></div></li>
 <li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team1207"></span></div><div class="fs14 pr5   "><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange - Jayco</a></div><div class=" clr999 fs14   "> (Matthews, Groenewegen)</div><div class="clear"></div></li>
-<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team4627"></span></div><div class="fs14 pr5   "><a href="team/b-b-hotels-ktm-2022">B&amp;B Hotels - KTM</a></div><div class=" clr999 fs14   "> (Rolland, Lemoine)</div><div class="clear"></div></li>
+<li class=""><div class="pad1 pr5   "><span class="shirt_icon20 team4627"></span></div><div class="fs14 pr5   "><a href="team/b-b-hotels-ktm-2022">B&amp;B Hotels - KTM</a></div><div class=" clr999 fs14   "> (Rolland, Mozzato)</div><div class="clear"></div></li>
 </ul></span></div>
 </div>
 <div class="w48 left mb_w100 ">
 <div class="mt20"><h3>Stages</h3>
-<span class="table-cont"><table class="basic" style="max-width: 700px; "><thead><tr><th style="width: 9.7%; ">Date</th><th style="width: 2.9%; "></th><th style="width: 58.3%; ">Stage</th><th style="width: 29.1%; ">Winner</th></tr></thead><tbody>
-<tr><td>01/07</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-1">Stage 1 (ITT) | Copenhagen - Copenhagen</a></td><td><span class="flag be"></span> <a href="rider/yves-lampaert">LAMPAERT</a></td></tr>
-<tr><td>02/07</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-2">Stage 2 | Roskilde - Nyborg</a></td><td><span class="flag nl"></span> <a href="rider/fabio-jakobsen">JAKOBSEN</a></td></tr>
-<tr><td>03/07</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-3">Stage 3 | Vejle - Sønderborg</a></td><td><span class="flag nl"></span> <a href="rider/dylan-groenewegen">GROENEWEGEN</a></td></tr>
-<tr><td>04/07</td><td><span class="icon profile p"></span></td><td>Restday</td><td><a href="rider/"></a></td></tr>
-<tr><td>05/07</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-4">Stage 4 | Dunkerque - Calais</a></td><td><span class="flag be"></span> <a href="rider/wout-van-aert">VAN AERT</a></td></tr>
-<tr><td>06/07</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-5">Stage 5 | Lille - Wallers-Arenberg</a></td><td><span class="flag au"></span> <a href="rider/simon-clarke">CLARKE</a></td></tr>
-<tr><td>07/07</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-6">Stage 6 | Binche - Longwy</a></td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR</a></td></tr>
-<tr><td>08/07</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-7">Stage 7 | Tomblaine - La Super Planche des Belles Filles</a></td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR</a></td></tr>
-<tr><td>09/07</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-8">Stage 8 | Dole - Lausanne</a></td><td><span class="flag be"></span> <a href="rider/wout-van-aert">VAN AERT</a></td></tr>
-<tr><td>10/07</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-9">Stage 9 | Aigle - Châtel les portes du Soleil</a></td><td><span class="flag lu"></span> <a href="rider/bob-jungels">JUNGELS</a></td></tr>
-<tr><td>11/07</td><td><span class="icon profile p"></span></td><td>Restday</td><td><a href="rider/"></a></td></tr>
-<tr><td>12/07</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-10">Stage 10 | Morzine - Megève</a></td><td><span class="flag dk"></span> <a href="rider/magnus-cort-nielsen">CORT</a></td></tr>
-<tr><td>13/07</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-11">Stage 11 | Albertville - Col du Granon</a></td><td><span class="flag dk"></span> <a href="rider/jonas-vingegaard-rasmussen">VINGEGAARD</a></td></tr>
-<tr><td>14/07</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-12">Stage 12 | Briançon - L'Alpe d'Huez</a></td><td><span class="flag gb"></span> <a href="rider/thomas-pidcock">PIDCOCK</a></td></tr>
-<tr><td>15/07</td><td><span class="icon profile p2"></span></td><td><a href="race/tour-de-france/2022/stage-13">Stage 13 | Bourg d'Oisans - Saint-Etienne</a></td><td><span class="flag dk"></span> <a href="rider/mads-pedersen">PEDERSEN</a></td></tr>
-<tr><td>16/07</td><td><span class="icon profile p2"></span></td><td><a href="race/tour-de-france/2022/stage-14">Stage 14 | Saint-Etienne - Mende</a></td><td><span class="flag au"></span> <a href="rider/michael-matthews">MATTHEWS</a></td></tr>
-<tr><td>17/07</td><td><span class="icon profile p2"></span></td><td><a href="race/tour-de-france/2022/stage-15">Stage 15 | Rodez - Carcassonne</a></td><td><span class="flag be"></span> <a href="rider/jasper-philipsen">PHILIPSEN</a></td></tr>
-<tr><td>18/07</td><td><span class="icon profile p"></span></td><td>Restday</td><td><a href="rider/"></a></td></tr>
-<tr><td>19/07</td><td><span class="icon profile p4"></span></td><td><a href="race/tour-de-france/2022/stage-16">Stage 16 | Carcassonne - Foix</a></td><td><span class="flag ca"></span> <a href="rider/hugo-houle">HOULE</a></td></tr>
-<tr><td>20/07</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-17">Stage 17 | Saint-Gaudens - Peyragudes</a></td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR</a></td></tr>
-<tr><td>21/07</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-18">Stage 18 | Lourdes - Hautacam</a></td><td><span class="flag dk"></span> <a href="rider/jonas-vingegaard-rasmussen">VINGEGAARD</a></td></tr>
-<tr><td>22/07</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-19">Stage 19 | Castelnau-Magnoac - Cahors</a></td><td><span class="flag fr"></span> <a href="rider/christophe-laporte">LAPORTE</a></td></tr>
-<tr><td>23/07</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-20">Stage 20 (ITT) | Lacapelle-Marival - Rocamadour</a></td><td><span class="flag be"></span> <a href="rider/wout-van-aert">VAN AERT</a></td></tr>
-<tr><td>24/07</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-21">Stage 21 | Paris La Défense - Paris (Champs-Élysées)</a></td><td><span class="flag be"></span> <a href="rider/jasper-philipsen">PHILIPSEN</a></td></tr>
+<span class="table-cont"><table class="basic" style="max-width: 700px; "><thead><tr><th style="width: 8.5%; ">Date</th><th style="width: 12.7%; ">Day</th><th style="width: 2.5%; "></th><th style="width: 67.8%; ">Stage</th><th style="width: 8.5%; ">KM</th></tr></thead><tbody>
+<tr><td>01/07</td><td>Friday</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-1">Stage 1 (ITT) | Copenhagen - Copenhagen</a></td><td>13.2</td></tr>
+<tr><td>02/07</td><td>Saturday</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-2">Stage 2 | Roskilde - Nyborg</a></td><td>202.2</td></tr>
+<tr><td>03/07</td><td>Sunday</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-3">Stage 3 | Vejle - Sønderborg</a></td><td>182</td></tr>
+<tr><td>04/07</td><td></td><td><span class="icon profile p"></span></td><td>Restday</td><td></td></tr>
+<tr><td>05/07</td><td>Tuesday</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-4">Stage 4 | Dunkerque - Calais</a></td><td>171.5</td></tr>
+<tr><td>06/07</td><td>Wednesday</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-5">Stage 5 | Lille - Wallers-Arenberg</a></td><td>157</td></tr>
+<tr><td>07/07</td><td>Thursday</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-6">Stage 6 | Binche - Longwy</a></td><td>219.9</td></tr>
+<tr><td>08/07</td><td>Friday</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-7">Stage 7 | Tomblaine - La Super Planche des Belles Filles</a></td><td>176.3</td></tr>
+<tr><td>09/07</td><td>Saturday</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-8">Stage 8 | Dole - Lausanne</a></td><td>186.3</td></tr>
+<tr><td>10/07</td><td>Sunday</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-9">Stage 9 | Aigle - Châtel les portes du Soleil</a></td><td>192.9</td></tr>
+<tr><td>11/07</td><td></td><td><span class="icon profile p"></span></td><td>Restday</td><td></td></tr>
+<tr><td>12/07</td><td>Tuesday</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-10">Stage 10 | Morzine - Megève</a></td><td>148.1</td></tr>
+<tr><td>13/07</td><td>Wednesday</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-11">Stage 11 | Albertville - Col du Granon</a></td><td>151.7</td></tr>
+<tr><td>14/07</td><td>Thursday</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-12">Stage 12 | Briançon - L'Alpe d'Huez</a></td><td>165.1</td></tr>
+<tr><td>15/07</td><td>Friday</td><td><span class="icon profile p2"></span></td><td><a href="race/tour-de-france/2022/stage-13">Stage 13 | Bourg d'Oisans - Saint-Etienne</a></td><td>192.6</td></tr>
+<tr><td>16/07</td><td>Saturday</td><td><span class="icon profile p2"></span></td><td><a href="race/tour-de-france/2022/stage-14">Stage 14 | Saint-Etienne - Mende</a></td><td>192.5</td></tr>
+<tr><td>17/07</td><td>Sunday</td><td><span class="icon profile p2"></span></td><td><a href="race/tour-de-france/2022/stage-15">Stage 15 | Rodez - Carcassonne</a></td><td>202.5</td></tr>
+<tr><td>18/07</td><td></td><td><span class="icon profile p"></span></td><td>Restday</td><td></td></tr>
+<tr><td>19/07</td><td>Tuesday</td><td><span class="icon profile p4"></span></td><td><a href="race/tour-de-france/2022/stage-16">Stage 16 | Carcassonne - Foix</a></td><td>178.5</td></tr>
+<tr><td>20/07</td><td>Wednesday</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-17">Stage 17 | Saint-Gaudens - Peyragudes</a></td><td>129.7</td></tr>
+<tr><td>21/07</td><td>Thursday</td><td><span class="icon profile p5"></span></td><td><a href="race/tour-de-france/2022/stage-18">Stage 18 | Lourdes - Hautacam</a></td><td>143.2</td></tr>
+<tr><td>22/07</td><td>Friday</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-19">Stage 19 | Castelnau-Magnoac - Cahors</a></td><td>188.3</td></tr>
+<tr><td>23/07</td><td>Saturday</td><td><span class="icon profile p3"></span></td><td><a href="race/tour-de-france/2022/stage-20">Stage 20 (ITT) | Lacapelle-Marival - Rocamadour</a></td><td>40.7</td></tr>
+<tr><td>24/07</td><td>Sunday</td><td><span class="icon profile p1"></span></td><td><a href="race/tour-de-france/2022/stage-21">Stage 21 | Paris La Défense - Paris (Champs-Élysées)</a></td><td>115.6</td></tr>
+</tbody></table></span></div>
+<div class="mt20"><h3>Stage winners</h3>
+<span class="table-cont"><table class="basic" style="max-width: 700px; "><thead><tr><th style="width: 16.7%; ">Stage</th><th style="width: 83.3%; ">Winner</th></tr></thead><tbody>
+<tr><td>Stage 1 (ITT)</td><td><span class="flag be"></span> <a href="rider/yves-lampaert">LAMPAERT Yves</a></td></tr>
+<tr><td>Stage 2</td><td><span class="flag nl"></span> <a href="rider/fabio-jakobsen">JAKOBSEN Fabio</a></td></tr>
+<tr><td>Stage 3</td><td><span class="flag nl"></span> <a href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></td></tr>
+<tr><td></td><td><a href="rider/"></a></td></tr>
+<tr><td>Stage 4</td><td><span class="flag be"></span> <a href="rider/wout-van-aert">VAN AERT Wout</a></td></tr>
+<tr><td>Stage 5</td><td><span class="flag au"></span> <a href="rider/simon-clarke">CLARKE Simon</a></td></tr>
+<tr><td>Stage 6</td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR Tadej</a></td></tr>
+<tr><td>Stage 7</td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR Tadej</a></td></tr>
+<tr><td>Stage 8</td><td><span class="flag be"></span> <a href="rider/wout-van-aert">VAN AERT Wout</a></td></tr>
+<tr><td>Stage 9</td><td><span class="flag lu"></span> <a href="rider/bob-jungels">JUNGELS Bob</a></td></tr>
+<tr><td></td><td><a href="rider/"></a></td></tr>
+<tr><td>Stage 10</td><td><span class="flag dk"></span> <a href="rider/magnus-cort-nielsen">CORT Magnus</a></td></tr>
+<tr><td>Stage 11</td><td><span class="flag dk"></span> <a href="rider/jonas-vingegaard">VINGEGAARD Jonas</a></td></tr>
+<tr><td>Stage 12</td><td><span class="flag gb"></span> <a href="rider/thomas-pidcock">PIDCOCK Thomas</a></td></tr>
+<tr><td>Stage 13</td><td><span class="flag dk"></span> <a href="rider/mads-pedersen">PEDERSEN Mads</a></td></tr>
+<tr><td>Stage 14</td><td><span class="flag au"></span> <a href="rider/michael-matthews">MATTHEWS Michael</a></td></tr>
+<tr><td>Stage 15</td><td><span class="flag be"></span> <a href="rider/jasper-philipsen">PHILIPSEN Jasper</a></td></tr>
+<tr><td></td><td><a href="rider/"></a></td></tr>
+<tr><td>Stage 16</td><td><span class="flag ca"></span> <a href="rider/hugo-houle">HOULE Hugo</a></td></tr>
+<tr><td>Stage 17</td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR Tadej</a></td></tr>
+<tr><td>Stage 18</td><td><span class="flag dk"></span> <a href="rider/jonas-vingegaard">VINGEGAARD Jonas</a></td></tr>
+<tr><td>Stage 19</td><td><span class="flag fr"></span> <a href="rider/christophe-laporte">LAPORTE Christophe</a></td></tr>
+<tr><td>Stage 20 (ITT)</td><td><span class="flag be"></span> <a href="rider/wout-van-aert">VAN AERT Wout</a></td></tr>
+<tr><td>Stage 21</td><td><span class="flag be"></span> <a href="rider/jasper-philipsen">PHILIPSEN Jasper</a></td></tr>
 </tbody></table></span></div>
 <div class="mt30"><h3>Sites</h3><ul class="list circle bluelink fs14"><li><a target="_blank" class="" href="https://www.instagram.com/letourdefrance/">www.instagram.com/letourdefrance/</a></li>
 <li><a target="_blank" class="" href="https://www.letour.fr">www.letour.fr</a></li>
@@ -302,41 +324,41 @@
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
-<li><a href="rider/biniam-girmay">Biniam Girmay</a></li>
-<li><a href="rider/peter-sagan">Peter Sagan</a></li>
-<li><a href="rider/annemiek-van-vleuten">Annemiek van Vleuten</a></li>
-<li><a href="rider/elisa-longo-borghini">Elisa Longo Borghini</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
 </ul></li>
-<li class="group"><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
 <li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
 <li><a href="statistics/grandtours">Grand tour statistics</a></li>
 <li><a href="statistics/monuments">Monument classics</a></li>
 <li><a href="teams/transfers">Latest transfers</a></li>
 <li><a href="favorite500">Favorite 500</a></li>
-</ul><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
-<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
-<li><a href="rankings/me/all-time">Alltime</a></li>
 </ul></li>
 <li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.2146s</span></li>
+<li><span>Pageload 0.0728s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="5223"><input type="hidden" id="userid" value="0">
 	</div>
 </div> 
  
  
-<script src="search_list6.js"></script>  
+<script src="search_list12.js"></script>  
 </body></html>

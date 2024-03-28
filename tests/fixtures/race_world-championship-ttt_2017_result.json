@@ -1549,6 +1549,6 @@
   "uci_points_scale": "UCI.WR.Worlds.TTT",
   "vertical_meters": null,
   "winning_attack_length": null,
-  "won_how": "Time Trial",
+  "won_how": "",
   "youth": []
 }
