@@ -1,5 +1,7 @@
 {
   "arrival": "Laruns",
+  "avg_speed_winner": 36.65,
+  "avg_temperature": null,
   "climbs": [],
   "date": "2018-07-27",
   "departure": "Lourdes ",
@@ -16,7 +18,7 @@
       "age": 32,
       "nationality": "GB",
       "time": "79:49:31",
-      "bonus": 3,
+      "bonus": "03",
       "pcs_points": 0,
       "uci_points": 25.0
     },
@@ -121,7 +123,7 @@
       "age": 31,
       "nationality": "IE",
       "time": "79:56:10",
-      "bonus": 1,
+      "bonus": "01",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -399,7 +401,7 @@
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
       "rider_number": 16,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 27,
       "prev_rank": 30,
@@ -421,7 +423,7 @@
       "age": 33,
       "nationality": "BE",
       "time": "80:55:00",
-      "bonus": 9,
+      "bonus": "09",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -436,7 +438,7 @@
       "age": 25,
       "nationality": "FR",
       "time": "81:04:26",
-      "bonus": 1,
+      "bonus": "01",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -496,7 +498,7 @@
       "age": 26,
       "nationality": "FR",
       "time": "81:13:41",
-      "bonus": 3,
+      "bonus": "03",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -549,7 +551,7 @@
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
       "rider_number": 14,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 37,
       "prev_rank": 31,
@@ -601,7 +603,7 @@
       "age": 39,
       "nationality": "FR",
       "time": "81:34:30",
-      "bonus": 3,
+      "bonus": "03",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -811,7 +813,7 @@
       "age": 24,
       "nationality": "CH",
       "time": "81:55:33",
-      "bonus": 4,
+      "bonus": "04",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -931,7 +933,7 @@
       "age": 29,
       "nationality": "NL",
       "time": "82:05:20",
-      "bonus": 3,
+      "bonus": "03",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -991,7 +993,7 @@
       "age": 27,
       "nationality": "BE",
       "time": "82:13:44",
-      "bonus": 1,
+      "bonus": "01",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1051,7 +1053,7 @@
       "age": 28,
       "nationality": "SK",
       "time": "82:20:42",
-      "bonus": 22,
+      "bonus": "22",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1261,7 +1263,7 @@
       "age": 27,
       "nationality": "FR",
       "time": "82:40:42",
-      "bonus": 1,
+      "bonus": "01",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1351,7 +1353,7 @@
       "age": 31,
       "nationality": "FR",
       "time": "82:47:50",
-      "bonus": 2,
+      "bonus": "02",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1381,7 +1383,7 @@
       "age": 29,
       "nationality": "FR",
       "time": "82:50:34",
-      "bonus": 3,
+      "bonus": "03",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1426,7 +1428,7 @@
       "age": 35,
       "nationality": "DE",
       "time": "82:51:28",
-      "bonus": 1,
+      "bonus": "01",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1494,7 +1496,7 @@
       "rider_name": "CLARKE Simon",
       "rider_url": "rider/simon-clarke",
       "rider_number": 12,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 100,
       "prev_rank": 104,
@@ -1591,7 +1593,7 @@
       "age": 34,
       "nationality": "PL",
       "time": "83:04:33",
-      "bonus": 1,
+      "bonus": "01",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1621,7 +1623,7 @@
       "age": 28,
       "nationality": "IT",
       "time": "83:05:56",
-      "bonus": 6,
+      "bonus": "06",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1704,7 +1706,7 @@
       "rider_name": "VANMARCKE Sep",
       "rider_url": "rider/sep-vanmarcke",
       "rider_number": 18,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 114,
       "prev_rank": 115,
@@ -1771,7 +1773,7 @@
       "age": 27,
       "nationality": "BE",
       "time": "83:20:29",
-      "bonus": 2,
+      "bonus": "02",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1786,7 +1788,7 @@
       "age": 23,
       "nationality": "FR",
       "time": "83:21:13",
-      "bonus": 2,
+      "bonus": "02",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1801,7 +1803,7 @@
       "age": 33,
       "nationality": "NZ",
       "time": "83:22:40",
-      "bonus": 3,
+      "bonus": "03",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1921,7 +1923,7 @@
       "age": 31,
       "nationality": "BE",
       "time": "83:32:49",
-      "bonus": 3,
+      "bonus": "03",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -1944,7 +1946,7 @@
       "rider_name": "SCULLY Tom",
       "rider_url": "rider/thomas-scully",
       "rider_number": 17,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 130,
       "prev_rank": 129,
@@ -1989,7 +1991,7 @@
       "rider_name": "PHINNEY Taylor",
       "rider_url": "rider/taylor-phinney",
       "rider_number": 15,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 133,
       "prev_rank": 131,
@@ -2116,7 +2118,7 @@
       "age": 26,
       "nationality": "FR",
       "time": "83:49:54",
-      "bonus": 4,
+      "bonus": "04",
       "pcs_points": 0,
       "uci_points": 0
     },
@@ -2169,7 +2171,7 @@
       "rider_name": "CRADDOCK Lawson",
       "rider_url": "rider/lawson-craddock",
       "rider_number": 13,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 145,
       "prev_rank": 146,
@@ -2397,7 +2399,7 @@
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
       "rider_number": 16,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 16,
       "prev_rank": 12,
@@ -2775,7 +2777,7 @@
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
       "rider_number": 14,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 43,
       "prev_rank": 41,
@@ -2817,7 +2819,7 @@
       "rider_name": "SCULLY Tom",
       "rider_url": "rider/thomas-scully",
       "rider_number": 17,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 46,
       "prev_rank": 44,
@@ -3870,7 +3872,7 @@
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
       "rider_number": 16,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 58,
       "prev_rank": 54,
@@ -4164,7 +4166,7 @@
       "rider_name": "PHINNEY Taylor",
       "rider_url": "rider/taylor-phinney",
       "rider_number": 15,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 79,
       "prev_rank": 74,
@@ -4346,7 +4348,7 @@
       "rider_name": "SCULLY Tom",
       "rider_url": "rider/thomas-scully",
       "rider_number": 17,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 92,
       "prev_rank": 85,
@@ -4374,7 +4376,7 @@
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
       "rider_number": 14,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 94,
       "prev_rank": 89,
@@ -4388,7 +4390,7 @@
       "rider_name": "VANMARCKE Sep",
       "rider_url": "rider/sep-vanmarcke",
       "rider_number": 18,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 95,
       "prev_rank": 91,
@@ -4765,6 +4767,7 @@
   ],
   "profile_icon": "p4",
   "profile_score": 290,
+  "race_category": "ME - Men Elite",
   "race_startlist_quality_score": 1689,
   "results": [
     {
@@ -5236,7 +5239,7 @@
       "rider_name": "ROLLAND Pierre",
       "rider_url": "rider/pierre-rolland",
       "rider_number": 16,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 32,
       "status": "DF",
@@ -5806,7 +5809,7 @@
       "rider_name": "CLARKE Simon",
       "rider_url": "rider/simon-clarke",
       "rider_number": 12,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 70,
       "status": "DF",
@@ -5941,7 +5944,7 @@
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
       "rider_number": 14,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 79,
       "status": "DF",
@@ -6601,7 +6604,7 @@
       "rider_name": "VANMARCKE Sep",
       "rider_url": "rider/sep-vanmarcke",
       "rider_number": 18,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 123,
       "status": "DF",
@@ -6736,7 +6739,7 @@
       "rider_name": "SCULLY Tom",
       "rider_url": "rider/thomas-scully",
       "rider_number": 17,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 132,
       "status": "DF",
@@ -6916,7 +6919,7 @@
       "rider_name": "CRADDOCK Lawson",
       "rider_url": "rider/lawson-craddock",
       "rider_number": 13,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 144,
       "status": "DF",
@@ -6931,7 +6934,7 @@
       "rider_name": "PHINNEY Taylor",
       "rider_url": "rider/taylor-phinney",
       "rider_number": 15,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 145,
       "status": "DF",
@@ -6959,9 +6962,10 @@
     }
   ],
   "stage_type": "RR",
+  "start_time": "12:15 ",
   "teams": [
     {
-      "team_name": "Movistar Team",
+      "team_name": " Movistar Team",
       "team_url": "team/movistar-team-2018",
       "rank": 1,
       "prev_rank": 1,
@@ -6969,7 +6973,7 @@
       "nationality": "ES"
     },
     {
-      "team_name": "Bahrain Merida Pro Cycling Team",
+      "team_name": " Bahrain Merida Pro Cycling Team",
       "team_url": "team/bahrain-merida-pro-cycling-team-2018",
       "rank": 2,
       "prev_rank": 2,
@@ -6977,7 +6981,7 @@
       "nationality": "BH"
     },
     {
-      "team_name": "Team Sky",
+      "team_name": " Team Sky",
       "team_url": "team/team-sky-2018",
       "rank": 3,
       "prev_rank": 3,
@@ -6985,7 +6989,7 @@
       "nationality": "GB"
     },
     {
-      "team_name": "Team LottoNL-Jumbo",
+      "team_name": " Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2018",
       "rank": 4,
       "prev_rank": 4,
@@ -6993,7 +6997,7 @@
       "nationality": "NL"
     },
     {
-      "team_name": "Astana Pro Team",
+      "team_name": " Astana Pro Team",
       "team_url": "team/astana-pro-team-2018",
       "rank": 5,
       "prev_rank": 5,
@@ -7001,7 +7005,7 @@
       "nationality": "KZ"
     },
     {
-      "team_name": "Team Sunweb",
+      "team_name": " Team Sunweb",
       "team_url": "team/team-sunweb-2018",
       "rank": 6,
       "prev_rank": 6,
@@ -7009,7 +7013,7 @@
       "nationality": "DE"
     },
     {
-      "team_name": "AG2R La Mondiale",
+      "team_name": " AG2R La Mondiale",
       "team_url": "team/ag2r-la-mondiale-2018",
       "rank": 7,
       "prev_rank": 7,
@@ -7017,7 +7021,7 @@
       "nationality": "FR"
     },
     {
-      "team_name": "BMC Racing Team",
+      "team_name": " BMC Racing Team",
       "team_url": "team/bmc-racing-team-2018",
       "rank": 8,
       "prev_rank": 8,
@@ -7025,7 +7029,7 @@
       "nationality": "US"
     },
     {
-      "team_name": "Quick-Step Floors",
+      "team_name": " Quick-Step Floors",
       "team_url": "team/quick-step-floors-2018",
       "rank": 9,
       "prev_rank": 9,
@@ -7033,7 +7037,7 @@
       "nationality": "BE"
     },
     {
-      "team_name": "Mitchelton-Scott",
+      "team_name": " Mitchelton-Scott",
       "team_url": "team/mitchelton-scott-2018",
       "rank": 10,
       "prev_rank": 10,
@@ -7041,7 +7045,7 @@
       "nationality": "AU"
     },
     {
-      "team_name": "UAE Team Emirates",
+      "team_name": " UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2018",
       "rank": 11,
       "prev_rank": 14,
@@ -7049,7 +7053,7 @@
       "nationality": "AE"
     },
     {
-      "team_name": "Cofidis, Solutions Cr\u00e9dits",
+      "team_name": " Cofidis, Solutions Cr\u00e9dits",
       "team_url": "team/cofidis-solutions-credits-2018",
       "rank": 12,
       "prev_rank": 12,
@@ -7057,7 +7061,7 @@
       "nationality": "FR"
     },
     {
-      "team_name": "Trek - Segafredo",
+      "team_name": " Trek - Segafredo",
       "team_url": "team/trek-segafredo-2018",
       "rank": 13,
       "prev_rank": 11,
@@ -7065,7 +7069,7 @@
       "nationality": "US"
     },
     {
-      "team_name": "Team Fortuneo - Samsic",
+      "team_name": " Team Fortuneo - Samsic",
       "team_url": "team/fortuneo-samsic-2018",
       "rank": 14,
       "prev_rank": 16,
@@ -7073,7 +7077,7 @@
       "nationality": "FR"
     },
     {
-      "team_name": "Groupama - FDJ",
+      "team_name": " Groupama - FDJ",
       "team_url": "team/groupama-fdj-2018",
       "rank": 15,
       "prev_rank": 15,
@@ -7081,7 +7085,7 @@
       "nationality": "FR"
     },
     {
-      "team_name": "Direct Energie",
+      "team_name": " Direct Energie",
       "team_url": "team/direct-energie-2018",
       "rank": 16,
       "prev_rank": 13,
@@ -7089,7 +7093,7 @@
       "nationality": "FR"
     },
     {
-      "team_name": "Team Katusha Alpecin",
+      "team_name": " Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2018",
       "rank": 17,
       "prev_rank": 19,
@@ -7097,7 +7101,7 @@
       "nationality": "CH"
     },
     {
-      "team_name": "BORA - hansgrohe",
+      "team_name": " BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2018",
       "rank": 18,
       "prev_rank": 20,
@@ -7105,7 +7109,7 @@
       "nationality": "DE"
     },
     {
-      "team_name": "Wanty - Groupe Gobert",
+      "team_name": " Wanty - Groupe Gobert",
       "team_url": "team/wanty-groupe-gobert-2018",
       "rank": 19,
       "prev_rank": 17,
@@ -7113,7 +7117,7 @@
       "nationality": "BE"
     },
     {
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": " Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 20,
       "prev_rank": 18,
@@ -7121,7 +7125,7 @@
       "nationality": "US"
     },
     {
-      "team_name": "Team Dimension Data",
+      "team_name": " Team Dimension Data",
       "team_url": "team/team-dimension-data-2018",
       "rank": 21,
       "prev_rank": 21,
@@ -7129,7 +7133,7 @@
       "nationality": "ZA"
     },
     {
-      "team_name": "Lotto Soudal",
+      "team_name": " Lotto Soudal",
       "team_url": "team/lotto-soudal-2018",
       "rank": 22,
       "prev_rank": 22,
@@ -7216,7 +7220,7 @@
       "rider_name": "MART\u00cdNEZ Daniel Felipe",
       "rider_url": "rider/daniel-felipe-martinez",
       "rider_number": 14,
-      "team_name": "Team EF Education First-Drapac p/b Cannondale",
+      "team_name": "Team EF Education First - Drapac p/b Cannondale",
       "team_url": "team/team-ef-education-first-drapac-p-b-cannondale-2018",
       "rank": 6,
       "prev_rank": 4,

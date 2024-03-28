@@ -1,5 +1,7 @@
 {
   "arrival": "Bergen",
+  "avg_speed_winner": 53.31,
+  "avg_temperature": null,
   "climbs": [],
   "date": "2017-09-17",
   "departure": "Ravnanger",
@@ -11,11 +13,12 @@
   "points": [],
   "profile_icon": "p0",
   "profile_score": null,
+  "race_category": "ME - Men Elite",
   "race_startlist_quality_score": 621,
   "results": [
     {
       "rank": 1,
-      "team_name": "Team Sunweb",
+      "team_name": " Team Sunweb",
       "team_url": "team/team-sunweb-2017",
       "time": "0:47:50",
       "rider_name": "K\u00c4MNA Lennard",
@@ -30,7 +33,7 @@
     },
     {
       "rank": 1,
-      "team_name": "Team Sunweb",
+      "team_name": " Team Sunweb",
       "team_url": "team/team-sunweb-2017",
       "time": "0:47:50",
       "rider_name": "MATTHEWS Michael",
@@ -45,7 +48,7 @@
     },
     {
       "rank": 1,
-      "team_name": "Team Sunweb",
+      "team_name": " Team Sunweb",
       "team_url": "team/team-sunweb-2017",
       "time": "0:47:50",
       "rider_name": "OOMEN Sam",
@@ -60,7 +63,7 @@
     },
     {
       "rank": 1,
-      "team_name": "Team Sunweb",
+      "team_name": " Team Sunweb",
       "team_url": "team/team-sunweb-2017",
       "time": "0:47:50",
       "rider_name": "KRAGH ANDERSEN S\u00f8ren",
@@ -75,7 +78,7 @@
     },
     {
       "rank": 1,
-      "team_name": "Team Sunweb",
+      "team_name": " Team Sunweb",
       "team_url": "team/team-sunweb-2017",
       "time": "0:47:50",
       "rider_name": "DUMOULIN Tom",
@@ -90,7 +93,7 @@
     },
     {
       "rank": 1,
-      "team_name": "Team Sunweb",
+      "team_name": " Team Sunweb",
       "team_url": "team/team-sunweb-2017",
       "time": "0:47:50",
       "rider_name": "KELDERMAN Wilco",
@@ -105,7 +108,7 @@
     },
     {
       "rank": 2,
-      "team_name": "BMC Racing Team",
+      "team_name": " BMC Racing Team",
       "team_url": "team/bmc-racing-team-2017",
       "time": "0:47:58",
       "rider_name": "OSS Daniel",
@@ -120,7 +123,7 @@
     },
     {
       "rank": 2,
-      "team_name": "BMC Racing Team",
+      "team_name": " BMC Racing Team",
       "team_url": "team/bmc-racing-team-2017",
       "time": "0:47:58",
       "rider_name": "SCOTSON Miles",
@@ -135,7 +138,7 @@
     },
     {
       "rank": 2,
-      "team_name": "BMC Racing Team",
+      "team_name": " BMC Racing Team",
       "team_url": "team/bmc-racing-team-2017",
       "time": "0:47:58",
       "rider_name": "DENNIS Rohan",
@@ -150,7 +153,7 @@
     },
     {
       "rank": 2,
-      "team_name": "BMC Racing Team",
+      "team_name": " BMC Racing Team",
       "team_url": "team/bmc-racing-team-2017",
       "time": "0:47:58",
       "rider_name": "DILLIER Silvan",
@@ -165,7 +168,7 @@
     },
     {
       "rank": 2,
-      "team_name": "BMC Racing Team",
+      "team_name": " BMC Racing Team",
       "team_url": "team/bmc-racing-team-2017",
       "time": "0:47:58",
       "rider_name": "K\u00dcNG Stefan",
@@ -180,7 +183,7 @@
     },
     {
       "rank": 2,
-      "team_name": "BMC Racing Team",
+      "team_name": " BMC Racing Team",
       "team_url": "team/bmc-racing-team-2017",
       "time": "0:47:58",
       "rider_name": "VAN GARDEREN Tejay",
@@ -195,7 +198,7 @@
     },
     {
       "rank": 3,
-      "team_name": "Team Sky",
+      "team_name": " Team Sky",
       "team_url": "team/team-sky-2017",
       "time": "0:48:12",
       "rider_name": "FROOME Chris",
@@ -210,7 +213,7 @@
     },
     {
       "rank": 3,
-      "team_name": "Team Sky",
+      "team_name": " Team Sky",
       "team_url": "team/team-sky-2017",
       "time": "0:48:12",
       "rider_name": "THOMAS Geraint",
@@ -225,7 +228,7 @@
     },
     {
       "rank": 3,
-      "team_name": "Team Sky",
+      "team_name": " Team Sky",
       "team_url": "team/team-sky-2017",
       "time": "0:48:12",
       "rider_name": "MOSCON Gianni",
@@ -240,7 +243,7 @@
     },
     {
       "rank": 3,
-      "team_name": "Team Sky",
+      "team_name": " Team Sky",
       "team_url": "team/team-sky-2017",
       "time": "0:48:12",
       "rider_name": "KWIATKOWSKI Micha\u0142",
@@ -255,7 +258,7 @@
     },
     {
       "rank": 3,
-      "team_name": "Team Sky",
+      "team_name": " Team Sky",
       "team_url": "team/team-sky-2017",
       "time": "0:48:12",
       "rider_name": "DOULL Owain",
@@ -270,7 +273,7 @@
     },
     {
       "rank": 3,
-      "team_name": "Team Sky",
+      "team_name": " Team Sky",
       "team_url": "team/team-sky-2017",
       "time": "0:48:12",
       "rider_name": "KIRYIENKA Vasil",
@@ -285,7 +288,7 @@
     },
     {
       "rank": 4,
-      "team_name": "Quick-Step Floors",
+      "team_name": " Quick-Step Floors",
       "team_url": "team/quick-step-floors-2017",
       "time": "0:48:25",
       "rider_name": "JUNGELS Bob",
@@ -300,7 +303,7 @@
     },
     {
       "rank": 4,
-      "team_name": "Quick-Step Floors",
+      "team_name": " Quick-Step Floors",
       "team_url": "team/quick-step-floors-2017",
       "time": "0:48:25",
       "rider_name": "BAUER Jack",
@@ -315,7 +318,7 @@
     },
     {
       "rank": 4,
-      "team_name": "Quick-Step Floors",
+      "team_name": " Quick-Step Floors",
       "team_url": "team/quick-step-floors-2017",
       "time": "0:48:25",
       "rider_name": "VERMOTE Julien",
@@ -330,7 +333,7 @@
     },
     {
       "rank": 4,
-      "team_name": "Quick-Step Floors",
+      "team_name": " Quick-Step Floors",
       "team_url": "team/quick-step-floors-2017",
       "time": "0:48:25",
       "rider_name": "TERPSTRA Niki",
@@ -345,7 +348,7 @@
     },
     {
       "rank": 4,
-      "team_name": "Quick-Step Floors",
+      "team_name": " Quick-Step Floors",
       "team_url": "team/quick-step-floors-2017",
       "time": "0:48:25",
       "rider_name": "GILBERT Philippe",
@@ -360,7 +363,7 @@
     },
     {
       "rank": 4,
-      "team_name": "Quick-Step Floors",
+      "team_name": " Quick-Step Floors",
       "team_url": "team/quick-step-floors-2017",
       "time": "0:48:25",
       "rider_name": "LAMPAERT Yves",
@@ -375,7 +378,7 @@
     },
     {
       "rank": 5,
-      "team_name": "ORICA-Scott",
+      "team_name": " ORICA-Scott",
       "team_url": "team/orica-scott-2017",
       "time": "0:48:33",
       "rider_name": "EDMONDSON Alex",
@@ -390,7 +393,7 @@
     },
     {
       "rank": 5,
-      "team_name": "ORICA-Scott",
+      "team_name": " ORICA-Scott",
       "team_url": "team/orica-scott-2017",
       "time": "0:48:33",
       "rider_name": "HOWSON Damien",
@@ -405,7 +408,7 @@
     },
     {
       "rank": 5,
-      "team_name": "ORICA-Scott",
+      "team_name": " ORICA-Scott",
       "team_url": "team/orica-scott-2017",
       "time": "0:48:33",
       "rider_name": "IMPEY Daryl",
@@ -420,7 +423,7 @@
     },
     {
       "rank": 5,
-      "team_name": "ORICA-Scott",
+      "team_name": " ORICA-Scott",
       "team_url": "team/orica-scott-2017",
       "time": "0:48:33",
       "rider_name": "DURBRIDGE Luke",
@@ -435,7 +438,7 @@
     },
     {
       "rank": 5,
-      "team_name": "ORICA-Scott",
+      "team_name": " ORICA-Scott",
       "team_url": "team/orica-scott-2017",
       "time": "0:48:33",
       "rider_name": "HEPBURN Michael",
@@ -450,7 +453,7 @@
     },
     {
       "rank": 5,
-      "team_name": "ORICA-Scott",
+      "team_name": " ORICA-Scott",
       "team_url": "team/orica-scott-2017",
       "time": "0:48:33",
       "rider_name": "TUFT Svein",
@@ -465,7 +468,7 @@
     },
     {
       "rank": 6,
-      "team_name": "Movistar Team",
+      "team_name": " Movistar Team",
       "team_url": "team/movistar-team-20172",
       "time": "0:49:09",
       "rider_name": "DOWSETT Alex",
@@ -480,7 +483,7 @@
     },
     {
       "rank": 6,
-      "team_name": "Movistar Team",
+      "team_name": " Movistar Team",
       "team_url": "team/movistar-team-20172",
       "time": "0:49:09",
       "rider_name": "AMADOR Andrey",
@@ -495,7 +498,7 @@
     },
     {
       "rank": 6,
-      "team_name": "Movistar Team",
+      "team_name": " Movistar Team",
       "team_url": "team/movistar-team-20172",
       "time": "0:49:09",
       "rider_name": "IZAGIRRE Gorka",
@@ -510,7 +513,7 @@
     },
     {
       "rank": 6,
-      "team_name": "Movistar Team",
+      "team_name": " Movistar Team",
       "team_url": "team/movistar-team-20172",
       "time": "0:49:09",
       "rider_name": "ERVITI Imanol",
@@ -525,7 +528,7 @@
     },
     {
       "rank": 6,
-      "team_name": "Movistar Team",
+      "team_name": " Movistar Team",
       "team_url": "team/movistar-team-20172",
       "time": "0:49:09",
       "rider_name": "S\u00dcTTERLIN Jasha",
@@ -540,7 +543,7 @@
     },
     {
       "rank": 6,
-      "team_name": "Movistar Team",
+      "team_name": " Movistar Team",
       "team_url": "team/movistar-team-20172",
       "time": "0:49:09",
       "rider_name": "CASTROVIEJO Jonathan",
@@ -555,7 +558,7 @@
     },
     {
       "rank": 7,
-      "team_name": "Team LottoNL-Jumbo",
+      "team_name": " Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2017",
       "time": "0:49:10",
       "rider_name": "VAN HOECKE Gijs",
@@ -570,7 +573,7 @@
     },
     {
       "rank": 7,
-      "team_name": "Team LottoNL-Jumbo",
+      "team_name": " Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2017",
       "time": "0:49:10",
       "rider_name": "VAN EMDEN Jos",
@@ -585,7 +588,7 @@
     },
     {
       "rank": 7,
-      "team_name": "Team LottoNL-Jumbo",
+      "team_name": " Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2017",
       "time": "0:49:10",
       "rider_name": "BOOM Lars",
@@ -600,7 +603,7 @@
     },
     {
       "rank": 7,
-      "team_name": "Team LottoNL-Jumbo",
+      "team_name": " Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2017",
       "time": "0:49:10",
       "rider_name": "ROGLI\u010c Primo\u017e",
@@ -615,7 +618,7 @@
     },
     {
       "rank": 7,
-      "team_name": "Team LottoNL-Jumbo",
+      "team_name": " Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2017",
       "time": "0:49:10",
       "rider_name": "CLEMENT Stef",
@@ -630,7 +633,7 @@
     },
     {
       "rank": 7,
-      "team_name": "Team LottoNL-Jumbo",
+      "team_name": " Team LottoNL-Jumbo",
       "team_url": "team/team-lottonl-jumbo-2017",
       "time": "0:49:10",
       "rider_name": "CAMPENAERTS Victor",
@@ -645,7 +648,7 @@
     },
     {
       "rank": 8,
-      "team_name": "CCC Sprandi Polkowice ",
+      "team_name": " CCC Sprandi Polkowice ",
       "team_url": "team/ccc-sprandi-polkowice-2017",
       "time": "0:49:34",
       "rider_name": "TRATNIK Jan",
@@ -660,7 +663,7 @@
     },
     {
       "rank": 8,
-      "team_name": "CCC Sprandi Polkowice ",
+      "team_name": " CCC Sprandi Polkowice ",
       "team_url": "team/ccc-sprandi-polkowice-2017",
       "time": "0:49:34",
       "rider_name": "KOCH Jonas",
@@ -675,7 +678,7 @@
     },
     {
       "rank": 8,
-      "team_name": "CCC Sprandi Polkowice ",
+      "team_name": " CCC Sprandi Polkowice ",
       "team_url": "team/ccc-sprandi-polkowice-2017",
       "time": "0:49:34",
       "rider_name": "OWSIAN \u0141ukasz",
@@ -690,7 +693,7 @@
     },
     {
       "rank": 8,
-      "team_name": "CCC Sprandi Polkowice ",
+      "team_name": " CCC Sprandi Polkowice ",
       "team_url": "team/ccc-sprandi-polkowice-2017",
       "time": "0:49:34",
       "rider_name": "PATERSKI Maciej",
@@ -705,7 +708,7 @@
     },
     {
       "rank": 8,
-      "team_name": "CCC Sprandi Polkowice ",
+      "team_name": " CCC Sprandi Polkowice ",
       "team_url": "team/ccc-sprandi-polkowice-2017",
       "time": "0:49:34",
       "rider_name": "BIA\u0141OB\u0141OCKI Marcin",
@@ -720,7 +723,7 @@
     },
     {
       "rank": 8,
-      "team_name": "CCC Sprandi Polkowice ",
+      "team_name": " CCC Sprandi Polkowice ",
       "team_url": "team/ccc-sprandi-polkowice-2017",
       "time": "0:49:34",
       "rider_name": "TACIAK Mateusz",
@@ -735,7 +738,7 @@
     },
     {
       "rank": 9,
-      "team_name": "Team Katusha Alpecin",
+      "team_name": " Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2017",
       "time": "0:49:36",
       "rider_name": "KRISTOFF Alexander",
@@ -750,7 +753,7 @@
     },
     {
       "rank": 9,
-      "team_name": "Team Katusha Alpecin",
+      "team_name": " Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2017",
       "time": "0:49:36",
       "rider_name": "M\u00d8RK\u00d8V Michael",
@@ -765,7 +768,7 @@
     },
     {
       "rank": 9,
-      "team_name": "Team Katusha Alpecin",
+      "team_name": " Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2017",
       "time": "0:49:36",
       "rider_name": "POLITT Nils",
@@ -780,7 +783,7 @@
     },
     {
       "rank": 9,
-      "team_name": "Team Katusha Alpecin",
+      "team_name": " Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2017",
       "time": "0:49:36",
       "rider_name": "HOLLENSTEIN Reto",
@@ -795,7 +798,7 @@
     },
     {
       "rank": 9,
-      "team_name": "Team Katusha Alpecin",
+      "team_name": " Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2017",
       "time": "0:49:36",
       "rider_name": "MACHADO Tiago",
@@ -810,7 +813,7 @@
     },
     {
       "rank": 9,
-      "team_name": "Team Katusha Alpecin",
+      "team_name": " Team Katusha Alpecin",
       "team_url": "team/team-katusha-alpecin-2017",
       "time": "0:49:36",
       "rider_name": "MARTIN Tony",
@@ -825,7 +828,7 @@
     },
     {
       "rank": 10,
-      "team_name": "BORA - hansgrohe",
+      "team_name": " BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2017",
       "time": "0:49:45",
       "rider_name": "SARAMOTINS Aleksejs",
@@ -840,7 +843,7 @@
     },
     {
       "rank": 10,
-      "team_name": "BORA - hansgrohe",
+      "team_name": " BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2017",
       "time": "0:49:45",
       "rider_name": "B\u00c1RTA Jan",
@@ -855,7 +858,7 @@
     },
     {
       "rank": 10,
-      "team_name": "BORA - hansgrohe",
+      "team_name": " BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2017",
       "time": "0:49:45",
       "rider_name": "P\u00d6STLBERGER Lukas",
@@ -870,7 +873,7 @@
     },
     {
       "rank": 10,
-      "team_name": "BORA - hansgrohe",
+      "team_name": " BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2017",
       "time": "0:49:45",
       "rider_name": "BODNAR Maciej",
@@ -885,7 +888,7 @@
     },
     {
       "rank": 10,
-      "team_name": "BORA - hansgrohe",
+      "team_name": " BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2017",
       "time": "0:49:45",
       "rider_name": "BURGHARDT Marcus",
@@ -900,7 +903,7 @@
     },
     {
       "rank": 10,
-      "team_name": "BORA - hansgrohe",
+      "team_name": " BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2017",
       "time": "0:49:45",
       "rider_name": "KONRAD Patrick",
@@ -915,7 +918,7 @@
     },
     {
       "rank": 11,
-      "team_name": "Astana Pro Team",
+      "team_name": " Astana Pro Team",
       "team_url": "team/astana-pro-team-2017",
       "time": "0:50:06",
       "rider_name": "LUTSENKO Alexey",
@@ -930,7 +933,7 @@
     },
     {
       "rank": 11,
-      "team_name": "Astana Pro Team",
+      "team_name": " Astana Pro Team",
       "team_url": "team/astana-pro-team-2017",
       "time": "0:50:06",
       "rider_name": "GRIVKO Andrey",
@@ -945,7 +948,7 @@
     },
     {
       "rank": 11,
-      "team_name": "Astana Pro Team",
+      "team_name": " Astana Pro Team",
       "team_url": "team/astana-pro-team-2017",
       "time": "0:50:06",
       "rider_name": "CATALDO Dario",
@@ -960,7 +963,7 @@
     },
     {
       "rank": 11,
-      "team_name": "Astana Pro Team",
+      "team_name": " Astana Pro Team",
       "team_url": "team/astana-pro-team-2017",
       "time": "0:50:06",
       "rider_name": "GATTO Oscar",
@@ -975,7 +978,7 @@
     },
     {
       "rank": 11,
-      "team_name": "Astana Pro Team",
+      "team_name": " Astana Pro Team",
       "team_url": "team/astana-pro-team-2017",
       "time": "0:50:06",
       "rider_name": "CHERNETSKI Sergei",
@@ -990,7 +993,7 @@
     },
     {
       "rank": 11,
-      "team_name": "Astana Pro Team",
+      "team_name": " Astana Pro Team",
       "team_url": "team/astana-pro-team-2017",
       "time": "0:50:06",
       "rider_name": "KORS\u00c6TH Truls Engen",
@@ -1005,7 +1008,7 @@
     },
     {
       "rank": 12,
-      "team_name": "Trek - Segafredo",
+      "team_name": " Trek - Segafredo",
       "team_url": "team/trek-segafredo-2017",
       "time": "0:50:40",
       "rider_name": "THEUNS Edward",
@@ -1020,7 +1023,7 @@
     },
     {
       "rank": 12,
-      "team_name": "Trek - Segafredo",
+      "team_name": " Trek - Segafredo",
       "team_url": "team/trek-segafredo-2017",
       "time": "0:50:40",
       "rider_name": "PANTANO Jarlinson",
@@ -1035,7 +1038,7 @@
     },
     {
       "rank": 12,
-      "team_name": "Trek - Segafredo",
+      "team_name": " Trek - Segafredo",
       "team_url": "team/trek-segafredo-2017",
       "time": "0:50:40",
       "rider_name": "DE KORT Koen",
@@ -1050,7 +1053,7 @@
     },
     {
       "rank": 12,
-      "team_name": "Trek - Segafredo",
+      "team_name": " Trek - Segafredo",
       "team_url": "team/trek-segafredo-2017",
       "time": "0:50:40",
       "rider_name": "COLEDAN Marco",
@@ -1065,7 +1068,7 @@
     },
     {
       "rank": 12,
-      "team_name": "Trek - Segafredo",
+      "team_name": " Trek - Segafredo",
       "team_url": "team/trek-segafredo-2017",
       "time": "0:50:40",
       "rider_name": "IRIZAR Markel",
@@ -1080,7 +1083,7 @@
     },
     {
       "rank": 12,
-      "team_name": "Trek - Segafredo",
+      "team_name": " Trek - Segafredo",
       "team_url": "team/trek-segafredo-2017",
       "time": "0:50:40",
       "rider_name": "BR\u00c4NDLE Matthias",
@@ -1095,7 +1098,7 @@
     },
     {
       "rank": 13,
-      "team_name": "Team Joker Icopal",
+      "team_name": " Team Joker Icopal",
       "team_url": "team/team-joker-icopal-2017",
       "time": "0:50:58",
       "rider_name": "HOEM Bj\u00f8rn Tore",
@@ -1110,7 +1113,7 @@
     },
     {
       "rank": 13,
-      "team_name": "Team Joker Icopal",
+      "team_name": " Team Joker Icopal",
       "team_url": "team/team-joker-icopal-2017",
       "time": "0:50:58",
       "rider_name": "HAGEN Carl Fredrik",
@@ -1125,7 +1128,7 @@
     },
     {
       "rank": 13,
-      "team_name": "Team Joker Icopal",
+      "team_name": " Team Joker Icopal",
       "team_url": "team/team-joker-icopal-2017",
       "time": "0:50:58",
       "rider_name": "HALVORSEN Kristoffer",
@@ -1140,7 +1143,7 @@
     },
     {
       "rank": 13,
-      "team_name": "Team Joker Icopal",
+      "team_name": " Team Joker Icopal",
       "team_url": "team/team-joker-icopal-2017",
       "time": "0:50:58",
       "rider_name": "SKJERPING Kristoffer",
@@ -1155,7 +1158,7 @@
     },
     {
       "rank": 13,
-      "team_name": "Team Joker Icopal",
+      "team_name": " Team Joker Icopal",
       "team_url": "team/team-joker-icopal-2017",
       "time": "0:50:58",
       "rider_name": "HOELGAARD Markus",
@@ -1170,7 +1173,7 @@
     },
     {
       "rank": 13,
-      "team_name": "Team Joker Icopal",
+      "team_name": " Team Joker Icopal",
       "team_url": "team/team-joker-icopal-2017",
       "time": "0:50:58",
       "rider_name": "FORFANG Ole",
@@ -1185,7 +1188,7 @@
     },
     {
       "rank": 14,
-      "team_name": "Sangemini - MG.Kvis  ",
+      "team_name": " Sangemini - MG.Kvis  ",
       "team_url": "team/sangemini-mg.kvis-2017",
       "time": "0:52:52",
       "rider_name": "GAZZARA Michele",
@@ -1200,7 +1203,7 @@
     },
     {
       "rank": 14,
-      "team_name": "Sangemini - MG.Kvis  ",
+      "team_name": " Sangemini - MG.Kvis  ",
       "team_url": "team/sangemini-mg.kvis-2017",
       "time": "0:52:52",
       "rider_name": "SCARTEZZINI Michele",
@@ -1215,7 +1218,7 @@
     },
     {
       "rank": 14,
-      "team_name": "Sangemini - MG.Kvis  ",
+      "team_name": " Sangemini - MG.Kvis  ",
       "team_url": "team/sangemini-mg.kvis-2017",
       "time": "0:52:52",
       "rider_name": "SALVIETTI Niccol\u00f2",
@@ -1230,7 +1233,7 @@
     },
     {
       "rank": 14,
-      "team_name": "Sangemini - MG.Kvis  ",
+      "team_name": " Sangemini - MG.Kvis  ",
       "team_url": "team/sangemini-mg.kvis-2017",
       "time": "0:52:52",
       "rider_name": "GAFFURINI Nicola",
@@ -1245,7 +1248,7 @@
     },
     {
       "rank": 14,
-      "team_name": "Sangemini - MG.Kvis  ",
+      "team_name": " Sangemini - MG.Kvis  ",
       "team_url": "team/sangemini-mg.kvis-2017",
       "time": "0:52:52",
       "rider_name": "TOT\u00d2 Paolo",
@@ -1260,7 +1263,7 @@
     },
     {
       "rank": 14,
-      "team_name": "Sangemini - MG.Kvis  ",
+      "team_name": " Sangemini - MG.Kvis  ",
       "team_url": "team/sangemini-mg.kvis-2017",
       "time": "0:52:52",
       "rider_name": "BERNARDINI Simone",
@@ -1275,7 +1278,7 @@
     },
     {
       "rank": 15,
-      "team_name": "Uno-X Hydrogen Development Team",
+      "team_name": " Uno-X Hydrogen Development Team",
       "team_url": "team/uno-x-hydrogen-development-team-2017",
       "time": "0:53:00",
       "rider_name": "FL\u00d8TTEN Audun Brekke",
@@ -1290,7 +1293,7 @@
     },
     {
       "rank": 15,
-      "team_name": "Uno-X Hydrogen Development Team",
+      "team_name": " Uno-X Hydrogen Development Team",
       "team_url": "team/uno-x-hydrogen-development-team-2017",
       "time": "0:53:00",
       "rider_name": "RESELL Erik Nords\u00e6ter",
@@ -1305,7 +1308,7 @@
     },
     {
       "rank": 15,
-      "team_name": "Uno-X Hydrogen Development Team",
+      "team_name": " Uno-X Hydrogen Development Team",
       "team_url": "team/uno-x-hydrogen-development-team-2017",
       "time": "0:53:00",
       "rider_name": "RUDLAND Hans Kristian",
@@ -1320,7 +1323,7 @@
     },
     {
       "rank": 15,
-      "team_name": "Uno-X Hydrogen Development Team",
+      "team_name": " Uno-X Hydrogen Development Team",
       "team_url": "team/uno-x-hydrogen-development-team-2017",
       "time": "0:53:00",
       "rider_name": "W\u00c6RSTED Syver",
@@ -1335,7 +1338,7 @@
     },
     {
       "rank": 15,
-      "team_name": "Uno-X Hydrogen Development Team",
+      "team_name": " Uno-X Hydrogen Development Team",
       "team_url": "team/uno-x-hydrogen-development-team-2017",
       "time": "0:53:00",
       "rider_name": "SLEEN Torjus",
@@ -1350,7 +1353,7 @@
     },
     {
       "rank": 15,
-      "team_name": "Uno-X Hydrogen Development Team",
+      "team_name": " Uno-X Hydrogen Development Team",
       "team_url": "team/uno-x-hydrogen-development-team-2017",
       "time": "0:53:00",
       "rider_name": "TR\u00c6EN Torstein",
@@ -1365,7 +1368,7 @@
     },
     {
       "rank": 16,
-      "team_name": "Team FixIT.no",
+      "team_name": " Team FixIT.no",
       "team_url": "team/team-fixit.no-2017",
       "time": "0:53:11",
       "rider_name": "L\u00d8VIK Asmund Romstad",
@@ -1380,7 +1383,7 @@
     },
     {
       "rank": 16,
-      "team_name": "Team FixIT.no",
+      "team_name": " Team FixIT.no",
       "team_url": "team/team-fixit.no-2017",
       "time": "0:53:11",
       "rider_name": "\u00d8VERLAND Bj\u00f8rnar",
@@ -1395,7 +1398,7 @@
     },
     {
       "rank": 16,
-      "team_name": "Team FixIT.no",
+      "team_name": " Team FixIT.no",
       "team_url": "team/team-fixit.no-2017",
       "time": "0:53:11",
       "rider_name": "SPIKSETH Elias Angell",
@@ -1410,7 +1413,7 @@
     },
     {
       "rank": 16,
-      "team_name": "Team FixIT.no",
+      "team_name": " Team FixIT.no",
       "team_url": "team/team-fixit.no-2017",
       "time": "0:53:11",
       "rider_name": "EIKELAND Ken Levi",
@@ -1425,7 +1428,7 @@
     },
     {
       "rank": 16,
-      "team_name": "Team FixIT.no",
+      "team_name": " Team FixIT.no",
       "team_url": "team/team-fixit.no-2017",
       "time": "0:53:11",
       "rider_name": "MADSEN Kristoffer",
@@ -1440,7 +1443,7 @@
     },
     {
       "rank": 16,
-      "team_name": "Team FixIT.no",
+      "team_name": " Team FixIT.no",
       "team_url": "team/team-fixit.no-2017",
       "time": "0:53:11",
       "rider_name": "BL\u00c5LID Marius",
@@ -1455,7 +1458,7 @@
     },
     {
       "rank": 17,
-      "team_name": "Team Sparebanken S\u00f8r",
+      "team_name": " Team Sparebanken S\u00f8r",
       "team_url": "team/team-sparebanken-sor-2017",
       "time": "0:53:20",
       "rider_name": "VANGSTAD Andreas",
@@ -1470,7 +1473,7 @@
     },
     {
       "rank": 17,
-      "team_name": "Team Sparebanken S\u00f8r",
+      "team_name": " Team Sparebanken S\u00f8r",
       "team_url": "team/team-sparebanken-sor-2017",
       "time": "0:53:20",
       "rider_name": "R\u00d8IN\u00c5S Fridtjof",
@@ -1485,7 +1488,7 @@
     },
     {
       "rank": 17,
-      "team_name": "Team Sparebanken S\u00f8r",
+      "team_name": " Team Sparebanken S\u00f8r",
       "team_url": "team/team-sparebanken-sor-2017",
       "time": "0:53:20",
       "rider_name": "DAHL Herman",
@@ -1500,7 +1503,7 @@
     },
     {
       "rank": 17,
-      "team_name": "Team Sparebanken S\u00f8r",
+      "team_name": " Team Sparebanken S\u00f8r",
       "team_url": "team/team-sparebanken-sor-2017",
       "time": "0:53:20",
       "rider_name": "AASVOLD Kristian",
@@ -1515,7 +1518,7 @@
     },
     {
       "rank": 17,
-      "team_name": "Team Sparebanken S\u00f8r",
+      "team_name": " Team Sparebanken S\u00f8r",
       "team_url": "team/team-sparebanken-sor-2017",
       "time": "0:53:20",
       "rider_name": "SKJOLD Mathias",
@@ -1530,7 +1533,7 @@
     },
     {
       "rank": 17,
-      "team_name": "Team Sparebanken S\u00f8r",
+      "team_name": " Team Sparebanken S\u00f8r",
       "team_url": "team/team-sparebanken-sor-2017",
       "time": "0:53:20",
       "rider_name": "TRONDSEN Trond",
@@ -1545,6 +1548,7 @@
     }
   ],
   "stage_type": "TTT",
+  "start_time": "15:35 ",
   "teams": [],
   "uci_points_scale": "UCI.WR.Worlds.TTT",
   "vertical_meters": null,

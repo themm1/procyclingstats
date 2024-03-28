@@ -205,7 +205,7 @@
       "age": 27,
       "nationality": "ES",
       "rider_name": "OLANO Abraham",
-      "career_points": 11551
+      "career_points": 11481
     },
     {
       "rider_url": "rider/manuel-beltran",
@@ -216,7 +216,7 @@
       "age": 26,
       "nationality": "ES",
       "rider_name": "BELTR\u00c1N Manuel",
-      "career_points": 5993
+      "career_points": 6002
     },
     {
       "rider_url": "rider/jose-maria-jimenez",
@@ -227,7 +227,7 @@
       "age": 26,
       "nationality": "ES",
       "rider_name": "JIM\u00c9NEZ Jos\u00e9 Mar\u00eda",
-      "career_points": 5871
+      "career_points": 5881
     },
     {
       "rider_url": "rider/armand-de-las-cuevas",
@@ -249,7 +249,7 @@
       "age": 21,
       "nationality": "ES",
       "rider_name": "LASTRAS Pablo",
-      "career_points": 4009
+      "career_points": 4010
     },
     {
       "rider_url": "rider/angel-luis-casero",
@@ -260,7 +260,7 @@
       "age": 24,
       "nationality": "ES",
       "rider_name": "CASERO \u00c1ngel Luis",
-      "career_points": 3936
+      "career_points": 3940
     },
     {
       "rider_url": "rider/aitor-osa",
@@ -271,7 +271,7 @@
       "age": 23,
       "nationality": "ES",
       "rider_name": "OSA Aitor",
-      "career_points": 3415
+      "career_points": 3479
     },
     {
       "rider_url": "rider/jeremy-hunt",
@@ -282,7 +282,7 @@
       "age": 23,
       "nationality": "GB",
       "rider_name": "HUNT Jeremy",
-      "career_points": 3225
+      "career_points": 3416
     },
     {
       "rider_url": "rider/santiago-blanco",
@@ -293,7 +293,7 @@
       "age": 23,
       "nationality": "ES",
       "rider_name": "BLANCO Santiago",
-      "career_points": 3175
+      "career_points": 3197
     },
     {
       "rider_url": "rider/unai-osa",
@@ -304,7 +304,7 @@
       "age": 22,
       "nationality": "ES",
       "rider_name": "OSA Unai",
-      "career_points": 2291
+      "career_points": 2360
     },
     {
       "rider_url": "rider/jose-vicente-garcia-acosta",
@@ -326,7 +326,18 @@
       "age": 27,
       "nationality": "PT",
       "rider_name": "RODRIGUES Orlando Sergio",
-      "career_points": 2162
+      "career_points": 2166
+    },
+    {
+      "rider_url": "rider/marino-alonso",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "age": 31,
+      "nationality": "ES",
+      "rider_name": "ALONSO Marino",
+      "career_points": 1994
     },
     {
       "rider_url": "rider/jose-luis-arrieta",
@@ -338,17 +349,6 @@
       "nationality": "ES",
       "rider_name": "ARRIETA Jos\u00e9 Luis",
       "career_points": 1993
-    },
-    {
-      "rider_url": "rider/marino-alonso",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": 0,
-      "ranking_position": null,
-      "age": 31,
-      "nationality": "ES",
-      "rider_name": "ALONSO Marino",
-      "career_points": 1976
     },
     {
       "rider_url": "rider/ramon-gonzalez-arrieta",
@@ -370,7 +370,7 @@
       "age": 30,
       "nationality": "ES",
       "rider_name": "URIARTE Jos\u00e9 Ram\u00f3n",
-      "career_points": 1159
+      "career_points": 1164
     },
     {
       "rider_url": "rider/vicente-aparicio",
@@ -392,7 +392,7 @@
       "age": 26,
       "nationality": "ES",
       "rider_name": "FERN\u00c1NDEZ GIN\u00c9S Manuel",
-      "career_points": 995
+      "career_points": 1028
     },
     {
       "rider_url": "rider/miguel-angel-pena",
@@ -425,7 +425,7 @@
       "age": 29,
       "nationality": "ES",
       "rider_name": "INDURAIN Prudencio",
-      "career_points": 501
+      "career_points": 522
     }
   ],
   "status": "TT1",

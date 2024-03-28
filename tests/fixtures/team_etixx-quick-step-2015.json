@@ -3,23 +3,23 @@
   "bike": "Specialized",
   "history_select": [
     {
-      "text": "2027 | Soudal - Quick Step",
+      "text": "2027 | Soudal Quick-Step",
       "value": "team/soudal-quick-step-2027/overview/"
     },
     {
-      "text": "2026 | Soudal - Quick Step",
+      "text": "2026 | Soudal Quick-Step",
       "value": "team/soudal-quick-step-2026/overview/"
     },
     {
-      "text": "2025 | Soudal - Quick Step",
+      "text": "2025 | Soudal Quick-Step",
       "value": "team/soudal-quick-step-2025/overview/"
     },
     {
-      "text": "2024 | Soudal - Quick Step",
+      "text": "2024 | Soudal Quick-Step",
       "value": "team/soudal-quick-step-2024/overview/"
     },
     {
-      "text": "2023 | Soudal - Quick Step",
+      "text": "2023 | Soudal Quick-Step",
       "value": "team/soudal-quick-step-2023/overview/"
     },
     {
@@ -117,51 +117,51 @@
       "age": 34,
       "nationality": "BE",
       "rider_name": "BOONEN Tom",
-      "career_points": 17967
+      "career_points": 18021
     },
     {
       "rider_url": "rider/mark-cavendish",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 114,
-      "ranking_position": 494,
+      "ranking_points": 148,
+      "ranking_position": 430,
       "age": 30,
       "nationality": "GB",
       "rider_name": "CAVENDISH Mark",
-      "career_points": 15625
-    },
-    {
-      "rider_url": "rider/rigoberto-uran",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": 212,
-      "ranking_position": 305,
-      "age": 28,
-      "nationality": "CO",
-      "rider_name": "UR\u00c1N Rigoberto",
-      "career_points": 12031
+      "career_points": 15656
     },
     {
       "rider_url": "rider/julian-alaphilippe",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 95,
-      "ranking_position": 573,
+      "ranking_points": 105,
+      "ranking_position": 538,
       "age": 23,
       "nationality": "FR",
       "rider_name": "ALAPHILIPPE Julian",
-      "career_points": 11983
+      "career_points": 12237
+    },
+    {
+      "rider_url": "rider/rigoberto-uran",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": 229,
+      "ranking_position": 284,
+      "age": 28,
+      "nationality": "CO",
+      "rider_name": "UR\u00c1N Rigoberto",
+      "career_points": 12090
     },
     {
       "rider_url": "rider/michal-kwiatkowski",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 119,
-      "ranking_position": 485,
+      "ranking_points": 113,
+      "ranking_position": 515,
       "age": 25,
       "nationality": "PL",
       "rider_name": "KWIATKOWSKI Micha\u0142",
-      "career_points": 11130
+      "career_points": 11192
     },
     {
       "rider_url": "rider/tony-martin",
@@ -172,18 +172,18 @@
       "age": 30,
       "nationality": "DE",
       "rider_name": "MARTIN Tony",
-      "career_points": 10850
+      "career_points": 10862
     },
     {
       "rider_url": "rider/matteo-trentin",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 99,
-      "ranking_position": 562,
+      "ranking_points": 78,
+      "ranking_position": 668,
       "age": 25,
       "nationality": "IT",
       "rider_name": "TRENTIN Matteo",
-      "career_points": 8389
+      "career_points": 8735
     },
     {
       "rider_url": "rider/niki-terpstra",
@@ -194,51 +194,51 @@
       "age": 31,
       "nationality": "NL",
       "rider_name": "TERPSTRA Niki",
-      "career_points": 8331
+      "career_points": 8376
     },
     {
       "rider_url": "rider/zdenek-stybar",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 864,
-      "ranking_position": 45,
+      "ranking_points": 764,
+      "ranking_position": 60,
       "age": 29,
       "nationality": "CZ",
       "rider_name": "\u0160TYBAR Zden\u011bk",
-      "career_points": 6397
+      "career_points": 6442
     },
     {
       "rider_url": "rider/yves-lampaert",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 71,
-      "ranking_position": 682,
+      "ranking_points": 93,
+      "ranking_position": 594,
       "age": 24,
       "nationality": "BE",
       "rider_name": "LAMPAERT Yves",
-      "career_points": 6214
+      "career_points": 6388
     },
     {
       "rider_url": "rider/fernando-gaviria",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 144,
-      "ranking_position": 429,
+      "ranking_points": 265,
+      "ranking_position": 243,
       "age": 20,
       "nationality": "CO",
       "rider_name": "GAVIRIA Fernando",
-      "career_points": 5536
+      "career_points": 5723
     },
     {
       "rider_url": "rider/gianluca-brambilla",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 344,
-      "ranking_position": 172,
+      "ranking_points": 252,
+      "ranking_position": 255,
       "age": 27,
       "nationality": "IT",
       "rider_name": "BRAMBILLA Gianluca",
-      "career_points": 3948
+      "career_points": 4059
     },
     {
       "rider_url": "rider/gianni-meersman",
@@ -249,7 +249,7 @@
       "age": 29,
       "nationality": "BE",
       "rider_name": "MEERSMAN Gianni",
-      "career_points": 3836
+      "career_points": 3842
     },
     {
       "rider_url": "rider/mark-renshaw",
@@ -260,14 +260,14 @@
       "age": 32,
       "nationality": "AU",
       "rider_name": "RENSHAW Mark",
-      "career_points": 3772
+      "career_points": 3776
     },
     {
       "rider_url": "rider/david-de-la-cruz",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 408,
-      "ranking_position": 142,
+      "ranking_points": 757,
+      "ranking_position": 61,
       "age": 26,
       "nationality": "ES",
       "rider_name": "DE LA CRUZ David",
@@ -277,23 +277,23 @@
       "rider_url": "rider/maxime-bouet",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 1224,
+      "ranking_points": 1248,
       "ranking_position": 20,
       "age": 28,
       "nationality": "FR",
       "rider_name": "BOUET Maxime",
-      "career_points": 2749
+      "career_points": 2750
     },
     {
       "rider_url": "rider/pieter-serry",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 513,
-      "ranking_position": 104,
+      "ranking_points": 652,
+      "ranking_position": 79,
       "age": 26,
       "nationality": "BE",
       "rider_name": "SERRY Pieter",
-      "career_points": 2401
+      "career_points": 2406
     },
     {
       "rider_url": "rider/petr-vakoc",
@@ -304,18 +304,18 @@
       "age": 22,
       "nationality": "CZ",
       "rider_name": "VAKO\u010c Petr",
-      "career_points": 2140
+      "career_points": 2216
     },
     {
       "rider_url": "rider/carlos-verona",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 375,
-      "ranking_position": 158,
+      "ranking_points": 328,
+      "ranking_position": 194,
       "age": 22,
       "nationality": "ES",
       "rider_name": "VERONA Carlos",
-      "career_points": 2061
+      "career_points": 2180
     },
     {
       "rider_url": "rider/stijn-vandenbergh",
@@ -348,7 +348,7 @@
       "age": 31,
       "nationality": "PL",
       "rider_name": "GO\u0141A\u015a Micha\u0142",
-      "career_points": 1739
+      "career_points": 1756
     },
     {
       "rider_url": "rider/fabio-sabatini",
@@ -359,14 +359,14 @@
       "age": 30,
       "nationality": "IT",
       "rider_name": "SABATINI Fabio",
-      "career_points": 1631
+      "career_points": 1639
     },
     {
       "rider_url": "rider/guillaume-van-keirsbulck",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 860,
-      "ranking_position": 45,
+      "ranking_points": 1207,
+      "ranking_position": 22,
       "age": 24,
       "nationality": "BE",
       "rider_name": "VAN KEIRSBULCK Guillaume",
@@ -376,12 +376,12 @@
       "rider_url": "rider/julien-vermote",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 0,
-      "ranking_position": null,
+      "ranking_points": 1599,
+      "ranking_position": 10,
       "age": 25,
       "nationality": "BE",
       "rider_name": "VERMOTE Julien",
-      "career_points": 1521
+      "career_points": 1531
     },
     {
       "rider_url": "rider/iljo-keisse",
@@ -398,12 +398,12 @@
       "rider_url": "rider/lukasz-wisniowski",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 855,
-      "ranking_position": 46,
+      "ranking_points": 1155,
+      "ranking_position": 25,
       "age": 23,
       "nationality": "PL",
       "rider_name": "WI\u015aNIOWSKI \u0141ukasz",
-      "career_points": 954
+      "career_points": 964
     },
     {
       "rider_url": "rider/martin-velits",
@@ -420,12 +420,12 @@
       "rider_url": "rider/rodrigo-contreras",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 1139,
-      "ranking_position": 25,
+      "ranking_points": 411,
+      "ranking_position": 150,
       "age": 21,
       "nationality": "CO",
       "rider_name": "CONTRERAS Rodrigo",
-      "career_points": 342
+      "career_points": 688
     }
   ],
   "status": "WT",

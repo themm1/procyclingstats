@@ -200,21 +200,29 @@ class Stage(Scraper):
             return scale_str.split()[0]
         return scale_str
       
-    def avg_speed_winner(self) -> str:
+    def avg_speed_winner(self) -> Optional[float]:
         """
         Parses average speed winner from HTML.
 
         :return: avg speed winner, e.g. ``44.438 km/h``.
         """
-        return self._stage_info_by_label("Avg. speed winner")
+        speed_str = self._stage_info_by_label("Avg. speed winner")
+        if speed_str:
+            return float(speed_str.split(" ")[0])
+        else:
+            return None
 
-    def avg_temperature(self) -> str:
+    def avg_temperature(self) -> Optional[float]:
         """
         Parses average temperature from HTML.
 
         :return: avg temperature, e.g. ``20 C``.
         """
-        return self._stage_info_by_label("Avg. temperature")
+        temp_str = self._stage_info_by_label("Avg. temperature")
+        if temp_str:
+            return float(temp_str.split(" ")[0])
+        else:
+            return None
 
     def start_time(self) -> str:
         """
