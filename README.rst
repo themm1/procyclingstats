@@ -26,18 +26,20 @@ Basic usage
 
 Basic Rider class usage:
 
->>> from procyclingstats import Rider
->>> rider = Rider("rider/tadej-pogacar")
->>> rider.birthdate()
-"1998-9-21"
->>> rider.parse()
-{
-    'birthdate': '1998-9-21',
-    'height': 1.76,
-    'name': 'Tadej  Pogačar',
-    'nationality': 'SI',
-    ...
-}
+.. code-block:: python
+
+    >>> from procyclingstats import Rider
+    >>> rider = Rider("rider/tadej-pogacar")
+    >>> rider.birthdate()
+    "1998-9-21"
+    >>> rider.parse()
+    {
+        'birthdate': '1998-9-21',
+        'height': 1.76,
+        'name': 'Tadej  Pogačar',
+        'nationality': 'SI',
+        ...
+    }
 
 Interface consists from scraping classes which are currently ``Race``,
 ``RaceStartlist``, ``RaceClimbs``, ``Ranking``, ``Rider``, ``RiderResults``,
