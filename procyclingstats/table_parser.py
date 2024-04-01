@@ -257,17 +257,22 @@ class TableParser:
     def bonus(self) -> List[str]:
         """
         Parses all bonuses elements from the table. If there aren't any returns
-        where every row has bonus 0. Bonus is in classical time format `H:MM:SS`.
+        where every row has bonus 0. Bonus is in classical time format `H:MM:SS`,
+        or `-H:MM:SS` if penalty.
 
         :return: List of bonuses.
         """
         bonuses_elements = self.html_table.css(".bonis")
         bonuses = []
         for bonus_e in bonuses_elements:
-            bonus = bonus_e.text().replace("″", "")
+            bonus = bonus_e.text().replace("″", "").replace(" ", "")
             if not bonus:
                 bonus = "0:00:00"
             else:
+                prefix = ""
+                if bonus[0] == "-":
+                    prefix = "-"
+                    bonus = bonus[1:]
                 bonus = bonus.replace(" ", "")
                 seconds = int(bonus)
                 minutes = seconds // 60
@@ -277,6 +282,7 @@ class TableParser:
                 else:
                     seconds = str(seconds)
                 bonus = format_time(f"{minutes}:{seconds}")
+                bonus = prefix + bonus
             bonuses.append(bonus)
         if not bonuses:
             bonuses = ["0:00:00" for _ in range(self.table_length)]
