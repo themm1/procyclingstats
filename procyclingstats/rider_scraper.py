@@ -206,9 +206,9 @@ class Rider(Scraper):
         Parses rider's points per specialty from HTML.
 
         :return: Dict mapping rider's specialties and points gained.
-            Dict keys: one_day_races, gc, time_trial, sprint, climber
+            Dict keys: one_day_races, gc, time_trial, sprint, climber, hills
         """
         specialty_html = self.html.css(".pps > ul > li > .pnt")
         pnts = [int(e.text()) for e in specialty_html]
-        keys = ["one_day_races", "gc", "time_trial", "sprint", "climber"]
+        keys = ["one_day_races", "gc", "time_trial", "sprint", "climber", "hills"]
         return dict(zip(keys, pnts))
