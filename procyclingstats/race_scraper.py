@@ -164,6 +164,9 @@ class Race(Scraper):
             if not_p_icon:
                 stage_e.remove()
 
+        # removes last row from stages table
+        for row in stages_table_html.css("tr.sum"):
+            row.remove()
         table_parser = TableParser(stages_table_html)
         casual_f_to_parse = [f for f in fields if f != "date"]
         table_parser.parse(casual_f_to_parse)
