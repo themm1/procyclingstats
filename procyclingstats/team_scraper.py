@@ -82,14 +82,20 @@ class Team(Scraper):
             "div > ul.infolist > li:nth-child(4) > div:nth-child(2)")
         return bike_html.text()
 
-    def wins_count(self) -> int:
+    def wins_count(self) -> Optional[int]:
         """
         Parses count of wins in corresponding season from HTML.
 
         :return: Count of wins in corresponding season.
         """
         wins_count_html = self.html.css_first(".team-kpi > li.nr")
-        return int(wins_count_html.text())
+        wins_count_text = str(wins_count_html.text())
+        if wins_count_text.isdigit():
+            return int(wins_count_text)
+        elif wins_count_text == '-':
+            return 0
+        else:
+            return None
     
     def pcs_points(self) -> Optional[int]:
         """
