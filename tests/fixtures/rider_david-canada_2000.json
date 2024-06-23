@@ -1,0 +1,1100 @@
+{
+  "birthdate": "1975-3-11",
+  "height": 1.76,
+  "image_url": null,
+  "name": "David  Ca\u00f1ada",
+  "nationality": "ES",
+  "place_of_birth": "Zaragoza",
+  "points_per_season_history": [
+    {
+      "season": 2008,
+      "points": 92.0,
+      "rank": 592
+    },
+    {
+      "season": 2007,
+      "points": 223.0,
+      "rank": 267
+    },
+    {
+      "season": 2006,
+      "points": 421.0,
+      "rank": 111
+    },
+    {
+      "season": 2005,
+      "points": 128.0,
+      "rank": 454
+    },
+    {
+      "season": 2004,
+      "points": 239.0,
+      "rank": 236
+    },
+    {
+      "season": 2003,
+      "points": 246.0,
+      "rank": 231
+    },
+    {
+      "season": 2002,
+      "points": 202.0,
+      "rank": 281
+    },
+    {
+      "season": 2001,
+      "points": 10.0,
+      "rank": 1247
+    },
+    {
+      "season": 2000,
+      "points": 522.0,
+      "rank": 95
+    },
+    {
+      "season": 1999,
+      "points": 76.0,
+      "rank": 470
+    },
+    {
+      "season": 1998,
+      "points": 40.0,
+      "rank": 576
+    },
+    {
+      "season": 1997,
+      "points": 104.0,
+      "rank": 363
+    },
+    {
+      "season": 1996,
+      "points": 3.0,
+      "rank": 1111
+    }
+  ],
+  "points_per_speciality": {
+    "one_day_races": 313,
+    "gc": 1716,
+    "time_trial": 825,
+    "sprint": 507,
+    "climber": 190,
+    "hills": 67
+  },
+  "season_results": [
+    {
+      "stage_url": "race/memorial-galera-ciudad-de-armilla/2000/result",
+      "stage_name": "Memorial Manuel Galera (1.4)",
+      "date": "2000-10-01",
+      "result": 22,
+      "gc_position": null,
+      "distance": 153.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 13,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-10",
+      "stage_name": "Stage 10 - Annemasse  \u203a Annemasse ",
+      "date": "2000-09-09",
+      "result": 24,
+      "gc_position": null,
+      "distance": 120.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-9",
+      "stage_name": "Stage 9 - Le Grand Bornand  \u203a Ville-la-Grand ",
+      "date": "2000-09-08",
+      "result": 21,
+      "gc_position": null,
+      "distance": 175.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-8",
+      "stage_name": "Stage 8 - Annecy  \u203a Le Grand Bornand ",
+      "date": "2000-09-07",
+      "result": 11,
+      "gc_position": null,
+      "distance": 149.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-7",
+      "stage_name": "Stage 7 - Autun  \u203a Oyonnax",
+      "date": "2000-09-06",
+      "result": 27,
+      "gc_position": null,
+      "distance": 199.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-6",
+      "stage_name": "Stage 6 - Saint-Amand-Montrond  \u203a Saint-Amand-Montrond",
+      "date": "2000-09-05",
+      "result": 28,
+      "gc_position": null,
+      "distance": 190.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-5",
+      "stage_name": "Stage 5 - Le Blanc  \u203a Saint-Amand-Montrond ",
+      "date": "2000-09-04",
+      "result": 21,
+      "gc_position": null,
+      "distance": 172.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-4",
+      "stage_name": "Stage 4 - Mouchamps  \u203a Mouchamps",
+      "date": "2000-09-03",
+      "result": 121,
+      "gc_position": null,
+      "distance": 220.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-3",
+      "stage_name": "Stage 3 - Ligne \u203a Mouchamps ",
+      "date": "2000-09-02",
+      "result": 25,
+      "gc_position": null,
+      "distance": 156.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-2",
+      "stage_name": "Stage 2 (ITT) - Trans-sur-Erdre \u203a Saint-Mars-la-Jaille ",
+      "date": "2000-09-01",
+      "result": 2,
+      "gc_position": null,
+      "distance": 22.0,
+      "pcs_points": 2.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-l-avenir/2000/stage-1",
+      "stage_name": "Stage 1 - Ancenis  \u203a Ancenis ",
+      "date": "2000-08-31",
+      "result": 59,
+      "gc_position": null,
+      "distance": 159.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/zuri-metzgete/2000/result",
+      "stage_name": "Meisterschaft von Z\u00fcrich (CDM)",
+      "date": "2000-08-20",
+      "result": 42,
+      "gc_position": null,
+      "distance": 248.4,
+      "pcs_points": 5.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/san-sebastian/2000/result",
+      "stage_name": "Clasica Ciclista San Sebastian (CDM)",
+      "date": "2000-08-12",
+      "result": 6,
+      "gc_position": null,
+      "distance": 232.0,
+      "pcs_points": 70.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-burgos/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 38,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-burgos/2000/stage-4",
+      "stage_name": "Stage 4 - Medina de Pomar \u203a Burgos",
+      "date": "2000-08-10",
+      "result": 22,
+      "gc_position": null,
+      "distance": 164.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-burgos/2000/stage-3",
+      "stage_name": "Stage 3 - Pradoluengo \u203a Lagunas de Neila",
+      "date": "2000-08-09",
+      "result": 40,
+      "gc_position": null,
+      "distance": 164.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-burgos/2000/stage-2",
+      "stage_name": "Stage 2 - Burgos \u203a Clunia",
+      "date": "2000-08-08",
+      "result": 28,
+      "gc_position": null,
+      "distance": 181.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/youth",
+      "stage_name": "Youth classification",
+      "date": null,
+      "result": 4,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/points",
+      "stage_name": "Points classification",
+      "date": null,
+      "result": 82,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 33,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 35.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-21",
+      "stage_name": "Stage 21 - Paris \u203a Paris",
+      "date": "2000-07-23",
+      "result": 27,
+      "gc_position": null,
+      "distance": 138.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-20",
+      "stage_name": "Stage 20 - Belfort \u203a Troyes",
+      "date": "2000-07-22",
+      "result": 52,
+      "gc_position": 34,
+      "distance": 254.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-19",
+      "stage_name": "Stage 19 (ITT) - Fribourg-En-Brisgau \u203a Mulhouse",
+      "date": "2000-07-21",
+      "result": 16,
+      "gc_position": 34,
+      "distance": 58.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-18",
+      "stage_name": "Stage 18 - Lausanne \u203a Fribourg-En-Brisgau",
+      "date": "2000-07-20",
+      "result": 48,
+      "gc_position": 36,
+      "distance": 246.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-17",
+      "stage_name": "Stage 17 - Evian-Les-Bains \u203a Lausanne",
+      "date": "2000-07-19",
+      "result": 20,
+      "gc_position": 37,
+      "distance": 155.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-16",
+      "stage_name": "Stage 16 - Courchevel \u203a Morzine",
+      "date": "2000-07-18",
+      "result": 33,
+      "gc_position": 40,
+      "distance": 196.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-15",
+      "stage_name": "Stage 15 - Briancon \u203a Courchevel",
+      "date": "2000-07-16",
+      "result": 40,
+      "gc_position": 44,
+      "distance": 173.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-14",
+      "stage_name": "Stage 14 - Draguignan \u203a Briancon",
+      "date": "2000-07-15",
+      "result": 75,
+      "gc_position": 48,
+      "distance": 249.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-13",
+      "stage_name": "Stage 13 - Avignon \u203a Draguignan",
+      "date": "2000-07-14",
+      "result": 40,
+      "gc_position": 34,
+      "distance": 185.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-12",
+      "stage_name": "Stage 12 - Carpentras \u203a Mont Ventoux",
+      "date": "2000-07-13",
+      "result": 31,
+      "gc_position": 32,
+      "distance": 149.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-11",
+      "stage_name": "Stage 11 - Bagneres-De-Bigorre \u203a Revel",
+      "date": "2000-07-11",
+      "result": 34,
+      "gc_position": 38,
+      "distance": 218.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-10",
+      "stage_name": "Stage 10 - Dax \u203a Hautacam",
+      "date": "2000-07-10",
+      "result": 51,
+      "gc_position": 41,
+      "distance": 205.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-9",
+      "stage_name": "Stage 9 - Agen \u203a Dax",
+      "date": "2000-07-09",
+      "result": 29,
+      "gc_position": 15,
+      "distance": 181.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-8",
+      "stage_name": "Stage 8 - Limoges \u203a Villeneuve sur Lot",
+      "date": "2000-07-08",
+      "result": 67,
+      "gc_position": 15,
+      "distance": 203.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-7",
+      "stage_name": "Stage 7 - Tours \u203a Limoges",
+      "date": "2000-07-07",
+      "result": 51,
+      "gc_position": 11,
+      "distance": 205.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-6",
+      "stage_name": "Stage 6 - Vitre \u203a Tours",
+      "date": "2000-07-06",
+      "result": 36,
+      "gc_position": 11,
+      "distance": 198.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-5",
+      "stage_name": "Stage 5 - Vannes \u203a Vitre",
+      "date": "2000-07-05",
+      "result": 36,
+      "gc_position": 2,
+      "distance": 202.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-3",
+      "stage_name": "Stage 3 - Loudun \u203a Nantes",
+      "date": "2000-07-03",
+      "result": 29,
+      "gc_position": 5,
+      "distance": 161.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-2",
+      "stage_name": "Stage 2 - Futuroscope \u203a Loudun",
+      "date": "2000-07-02",
+      "result": 50,
+      "gc_position": 5,
+      "distance": 194.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/tour-de-france/2000/stage-1",
+      "stage_name": "Stage 1 (ITT) - Futuroscope \u203a Futuroscope",
+      "date": "2000-07-01",
+      "result": 5,
+      "gc_position": 5,
+      "distance": 16.5,
+      "pcs_points": 32.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/volta-a-catalunya/2000/stage-6",
+      "stage_name": "Stage 6 - Rosas \u203a Prades",
+      "date": "2000-06-20",
+      "result": 17,
+      "gc_position": null,
+      "distance": 164.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/volta-a-catalunya/2000/stage-5",
+      "stage_name": "Stage 5 - Argentona \u203a Rosas",
+      "date": "2000-06-19",
+      "result": 48,
+      "gc_position": null,
+      "distance": 159.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/volta-a-catalunya/2000/stage-4",
+      "stage_name": "Stage 4 - Badalona \u203a Barcelona",
+      "date": "2000-06-18",
+      "result": 21,
+      "gc_position": null,
+      "distance": 158.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/volta-a-catalunya/2000/stage-3",
+      "stage_name": "Stage 3 - Vilanova \u203a Badalona",
+      "date": "2000-06-17",
+      "result": 38,
+      "gc_position": 3,
+      "distance": 154.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/volta-a-catalunya/2000/stage-2",
+      "stage_name": "Stage 2 - Vilaseca \u203a Vilanova i Geltru",
+      "date": "2000-06-16",
+      "result": 47,
+      "gc_position": 4,
+      "distance": 160.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/volta-a-catalunya/2000/stage-1",
+      "stage_name": "Stage 1 (TTT) - La Pineda \u203a Vilaseca",
+      "date": "2000-06-15",
+      "result": 1,
+      "gc_position": 1,
+      "distance": 21.8,
+      "pcs_points": 20.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-asturias/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 21,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-asturias/2000/stage-6",
+      "stage_name": "Stage 6 - Cangas del Narcea \u203a Oviedo",
+      "date": "2000-05-14",
+      "result": 7,
+      "gc_position": null,
+      "distance": 160.0,
+      "pcs_points": 2.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-asturias/2000/stage-3",
+      "stage_name": "Stage 3 - Llanes \u203a Gijon",
+      "date": "2000-05-11",
+      "result": 10,
+      "gc_position": null,
+      "distance": 165.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-rioja/2000/kom",
+      "stage_name": "Mountains classification",
+      "date": null,
+      "result": 19,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-rioja/2000/points",
+      "stage_name": "Points classification",
+      "date": null,
+      "result": 7,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-rioja/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 5,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 28.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-rioja/2000/stage-4",
+      "stage_name": "Stage 4 - Haro \u203a Logro\u00f1o",
+      "date": "2000-05-01",
+      "result": 8,
+      "gc_position": null,
+      "distance": 147.6,
+      "pcs_points": 1.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-rioja/2000/stage-3",
+      "stage_name": "Stage 3 - Najera \u203a Estacion Valdezcaray",
+      "date": "2000-04-30",
+      "result": 8,
+      "gc_position": 6,
+      "distance": 180.0,
+      "pcs_points": 1.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-rioja/2000/stage-2",
+      "stage_name": "Stage 2 - Albelda de Iregua \u203a Logro\u00f1o",
+      "date": "2000-04-29",
+      "result": 7,
+      "gc_position": 6,
+      "distance": 192.0,
+      "pcs_points": 2.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-rioja/2000/stage-1",
+      "stage_name": "Stage 1 - Autol \u203a Calahorra",
+      "date": "2000-04-28",
+      "result": 28,
+      "gc_position": 28,
+      "distance": 168.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/amstel-gold-race/2000/result",
+      "stage_name": "Amstel Gold Race (CDM)",
+      "date": "2000-04-22",
+      "result": null,
+      "gc_position": null,
+      "distance": 257.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-aragon/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 18,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 3.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-aragon/2000/stage-5",
+      "stage_name": "Stage 5 - Magall\u00f3n \u203a Zaragoza",
+      "date": "2000-04-16",
+      "result": 23,
+      "gc_position": null,
+      "distance": 121.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-aragon/2000/stage-3",
+      "stage_name": "Stage 3 - Benasque \u203a Sabi\u00f1\u00e1nigo",
+      "date": "2000-04-14",
+      "result": 24,
+      "gc_position": null,
+      "distance": 159.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-aragon/2000/stage-2",
+      "stage_name": "Stage 2 - Fraga \u203a Cerler",
+      "date": "2000-04-13",
+      "result": 24,
+      "gc_position": null,
+      "distance": 170.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-a-aragon/2000/stage-1",
+      "stage_name": "Stage 1 - Bronchales \u203a Alca\u00f1iz",
+      "date": "2000-04-12",
+      "result": 31,
+      "gc_position": null,
+      "distance": 174.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/region-pays-de-la-loire/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 1,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 100.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/region-pays-de-la-loire/2000/stage-5",
+      "stage_name": "Stage 5 - Durtal \u203a Sabl\u00e9-sur-Sarthe",
+      "date": "2000-04-07",
+      "result": 25,
+      "gc_position": null,
+      "distance": 99.4,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/region-pays-de-la-loire/2000/stage-4",
+      "stage_name": "Stage 4 (ITT) - Durtal \u203a Durtal",
+      "date": "2000-04-07",
+      "result": 1,
+      "gc_position": 1,
+      "distance": 23.3,
+      "pcs_points": 20.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/region-pays-de-la-loire/2000/stage-3",
+      "stage_name": "Stage 3 - Chateauneuf-sur-Sarthe \u203a Saint-Cosme-en-Vairais",
+      "date": "2000-04-06",
+      "result": 38,
+      "gc_position": null,
+      "distance": 196.9,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/region-pays-de-la-loire/2000/stage-2",
+      "stage_name": "Stage 2 - Mayenne \u203a Chateauneuf-sur-Sarthe",
+      "date": "2000-04-05",
+      "result": 41,
+      "gc_position": null,
+      "distance": 220.8,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/region-pays-de-la-loire/2000/stage-1",
+      "stage_name": "Stage 1 - Mayenne \u203a Mayenne",
+      "date": "2000-04-04",
+      "result": 26,
+      "gc_position": null,
+      "distance": 165.6,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/ronde-van-vlaanderen/2000/result",
+      "stage_name": "Ronde van Vlaanderen / Tour des Flandres (CDM)",
+      "date": "2000-04-03",
+      "result": null,
+      "gc_position": null,
+      "distance": 269.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/setmana-catalana/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 9,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 45.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-region-de-murcia/2000/kom",
+      "stage_name": "Mountains classification",
+      "date": null,
+      "result": 6,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-region-de-murcia/2000/points",
+      "stage_name": "Points classification",
+      "date": null,
+      "result": 6,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-region-de-murcia/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 1,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 100.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-5",
+      "stage_name": "Stage 5 (ITT) - Murcia \u203a Murcia",
+      "date": "2000-03-05",
+      "result": 1,
+      "gc_position": null,
+      "distance": 12.9,
+      "pcs_points": 20.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-4",
+      "stage_name": "Stage 4 - Murcia \u203a Aledo",
+      "date": "2000-03-04",
+      "result": 1,
+      "gc_position": 1,
+      "distance": 157.2,
+      "pcs_points": 20.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-3",
+      "stage_name": "Stage 3 - Murcia \u203a Lorca",
+      "date": "2000-03-03",
+      "result": 82,
+      "gc_position": 25,
+      "distance": 185.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-2",
+      "stage_name": "Stage 2 - Murcia \u203a La Atalaya",
+      "date": "2000-03-02",
+      "result": 26,
+      "gc_position": 19,
+      "distance": 156.2,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-1",
+      "stage_name": "Stage 1 - Murcia \u203a Caravaca",
+      "date": "2000-03-01",
+      "result": 28,
+      "gc_position": 28,
+      "distance": 200.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/clasica-de-almeria/2000/result",
+      "stage_name": "Clasica de Almeria (1.4)",
+      "date": "2000-02-27",
+      "result": 21,
+      "gc_position": null,
+      "distance": 176.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/ruta-del-sol/2000/gc",
+      "stage_name": "General classification",
+      "date": null,
+      "result": 11,
+      "gc_position": null,
+      "distance": null,
+      "pcs_points": 12.0,
+      "uci_points": 5.0
+    },
+    {
+      "stage_url": "race/ruta-del-sol/2000/stage-5",
+      "stage_name": "Stage 5 - Luque \u203a Granada",
+      "date": "2000-02-17",
+      "result": 31,
+      "gc_position": null,
+      "distance": 134.7,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/ruta-del-sol/2000/stage-3",
+      "stage_name": "Stage 3 - Malaga \u203a Santuario Nuestra Sra Sierra Cabarga",
+      "date": "2000-02-15",
+      "result": 14,
+      "gc_position": 12,
+      "distance": 164.9,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/ruta-del-sol/2000/stage-2",
+      "stage_name": "Stage 2 - Castell de Ferro \u203a Costa Benalmadena",
+      "date": "2000-02-14",
+      "result": 17,
+      "gc_position": 14,
+      "distance": 149.3,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/ruta-del-sol/2000/stage-1",
+      "stage_name": "Stage 1 - Almeria \u203a Almeria",
+      "date": "2000-02-13",
+      "result": 24,
+      "gc_position": 24,
+      "distance": 160.5,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/trofeo-calvia/2000/result",
+      "stage_name": "Challenge Mallorca - Trofeo Palmanova-Calvia (1.4)",
+      "date": "2000-02-10",
+      "result": 24,
+      "gc_position": null,
+      "distance": 164.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/deia-trophy/2000/result",
+      "stage_name": "Challenge Mallorca - Trofeo Soller (1.4)",
+      "date": "2000-02-09",
+      "result": 7,
+      "gc_position": null,
+      "distance": 159.0,
+      "pcs_points": 20.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/trofeo-ses-salines-felanitx/2000/result",
+      "stage_name": "Trofeo Cala: Cala Millor - Son Servera (1.1)",
+      "date": "2000-02-08",
+      "result": 17,
+      "gc_position": null,
+      "distance": 159.0,
+      "pcs_points": 4.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/trofeo-pollenca-port-d-andratx/2000/result",
+      "stage_name": "Trofeo Andratx-Mirador d'Es Colomer (1.1)",
+      "date": "2000-02-07",
+      "result": 19,
+      "gc_position": null,
+      "distance": 147.0,
+      "pcs_points": 2.0,
+      "uci_points": 0
+    },
+    {
+      "stage_url": "race/trofeo-palma/2000/result",
+      "stage_name": "Challenge Mallorca - Trofeo Palma-Palma (1.4)",
+      "date": "2000-02-06",
+      "result": 36,
+      "gc_position": null,
+      "distance": 82.0,
+      "pcs_points": 0,
+      "uci_points": 0
+    }
+  ],
+  "teams_history": [
+    {
+      "season": 2009,
+      "team_name": "Fuji-Servetto",
+      "team_url": "team/fuji-servetto-2009",
+      "class": "WT",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2008,
+      "team_name": "Scott - American Beef",
+      "team_url": "team/scott-american-beef-2008",
+      "class": "PT",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2007,
+      "team_name": "Saunier Duval",
+      "team_url": "team/saunier-duval-2007",
+      "class": "PT",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2006,
+      "team_name": "Saunier Duval - Prodir",
+      "team_url": "team/saunier-duval-prodir-2006",
+      "class": "PT",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2005,
+      "team_name": "Saunier Duval - Prodir",
+      "team_url": "team/saunier-duval-prodir-2005",
+      "class": "PT",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2004,
+      "team_name": "Saunier Duval - Prodir",
+      "team_url": "team/saunier-duval-prodir-2004",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2003,
+      "team_name": "Quickstep - Davitamon",
+      "team_url": "team/quickstep-davitamon-2003",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2002,
+      "team_name": "Mapei - Quickstep",
+      "team_url": "team/mapei-quickstep-2002",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2001,
+      "team_name": "Mapei - Quickstep",
+      "team_url": "team/mapei-quickstep-2001",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 2000,
+      "team_name": "O.N.C.E. - Deutsche Bank",
+      "team_url": "team/o.n.c.e.-deutsche-bank-2000",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 1999,
+      "team_name": "O.N.C.E. - Deutsche Bank",
+      "team_url": "team/o.n.c.e.-deutsche-bank-1999",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 1998,
+      "team_name": "O.N.C.E. - Deutsche Bank",
+      "team_url": "team/once-1998",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 1997,
+      "team_name": "ONCE",
+      "team_url": "team/once-1997",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    },
+    {
+      "season": 1996,
+      "team_name": "O.N.C.E.",
+      "team_url": "team/o.n.c.e.-1996",
+      "class": "TT1",
+      "since": "01-01",
+      "until": "12-31"
+    }
+  ],
+  "weight": 65.0
+}

@@ -1,8 +1,5 @@
 import calendar
-from pprint import pprint
 from typing import Any, Dict, List, Optional
-
-from tabulate import tabulate
 
 from .scraper import Scraper
 from .table_parser import TableParser

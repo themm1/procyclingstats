@@ -1,0 +1,486 @@
+<!DOCTYPE html><html><head><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2MNJ20S7SJ');
+</script>
+
+
+<title>David  Cañada </title>
+<base href="https://www.procyclingstats.com/rider.php">
+<link rel="canonical" href="https://www.procyclingstats.com/rider/david-canada">
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
+<script async="" src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="David Cañada (born 1975-03-11 in Zaragoza, passed away 2016-05-28) was a former professional road racing cyclist from Spain, active between 1993 and 2009. His best results are winning GC Volta Ciclista a Catalunya and winning GC Vuelta Ciclista a la Región de Murcia " costa="" calid."="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<base href="rider.php">
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a215.css">
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b184.css">
+<script src="https://www.procyclingstats.com/pcs_s85.js"></script> 
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon.ico">
+ 
+</head>
+<body>
+<div class="wrapper">
+  <header class="">
+    <div class="cont">
+    	<a class="logo" href="index.php"></a>
+  
+    	<form action="search.php" class="msearch"><input type="hidden" id="term">
+    		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4" placeholder="search"></form> 
+    	<div class="menuCont">
+      	<a class="mobMenu" href="">Menu▼</a>
+				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
+<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
+<li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
+<li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
+</ul></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
+<li><a href="team/movistar-team-2024">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
+<li><a href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></li>
+<li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
+<li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
+</ul></li>
+<li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
+<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
+<li><a href="statistics/riders">Riders</a></li>
+<li><a href="statistics/teams">Teams</a></li>
+<li><a href="statistics/grandtours">Grand tours</a></li>
+</ul></li>
+<li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2024">Tour</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/tour-de-france/2024/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2024/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/tour-de-france/2024/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2024/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2024/teams/top-teams">Best teams</a></li>
+<li><a href="race/tour-de-france/2024/startlist/form">Riders form</a></li>
+</ul></li>
+<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/countdown-to-3-billion-pageviews">Countdown to 3 billion pageviews</a></li>
+<li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/tutorials">Tutorials</a></li>
+</ul></li>
+<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="">Dashboard</a></li>
+<li><a href="">Lists</a></li>
+</ul></li>
+ 
+				 </ul> 
+			 </div>
+			 <a class="user4" data-logged="0" href="account.php"><span>❖</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>✱</span><font>settings</font></a>    </div>
+  </header>  
+<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/david-canada">Overview</a></li>
+<li class="reg "><a class="" href="rider/david-canada/statistics">Statistics▼</a><ul><li><a href="rider/david-canada/statistics/overview">Overview</a></li>
+<li><a href="rider/david-canada/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/david-canada/statistics/key-events">Key events</a></li>
+<li><a href="rider/david-canada/statistics/world-map-of-rider-races">World map of rider races</a></li>
+<li><a href="rider/david-canada/statistics/wins">Wins</a></li>
+<li><a href="rider/david-canada/statistics/most-starts-by-race">Most starts by race</a></li>
+<li><a href="rider/david-canada/statistics/grand-tour-starts">Starts and results</a></li>
+<li><a href="rider/david-canada/statistics/injury-history">Injury history</a></li>
+</ul></li>
+<li class="reg "><a class="" href="rider/david-canada/results">Results</a></li>
+<li class="reg "><a class="" href="rider/david-canada/head-to-head">H2H</a></li>
+<li class="reg "><a class="" href="rider/david-canada/calendar">Calendar</a></li>
+<li class="reg "><a class="" href="rider/david-canada/contribute">More▼</a><ul><li><a href="rider/david-canada/contribute/contribute-info">Contribute info</a></li>
+<li><a href="rider/david-canada/contribute/submit-program">Submit program</a></li>
+<li><a href="rider/david-canada/contribute/report">Report</a></li>
+<li><a href="rider/david-canada/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
+<li><a href="rider/david-canada/contribute/contribute-family">Family</a></li>
+<li><a href="rider/david-canada/contribute/embed-rider-results">Embed rider results</a></li>
+</ul></li>
+<li class="reg "><a class="" href="rider/david-canada/specialties">Specialties▼</a><ul><li><a href="rider/david-canada/specialties/top-gc-results">Top GC results</a></li>
+<li><a href="rider/david-canada/specialties/fastest-tt">Fastest TT</a></li>
+</ul></li>
+<li class="more"><a href="rider/david-canada">More</a><ul><li data-n="1"><a href="rider/david-canada/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/david-canada/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/david-canada/statistics/overview">Overview</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/key-events">Key events</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/world-map-of-rider-races">World map of rider races</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/wins">Wins</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/most-starts-by-race">Most starts by race</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/grand-tour-starts">Starts and results</a></li>
+<li data-n="1"><a href="rider/david-canada/statistics/injury-history">Injury history</a></li>
+<li data-n="3"><a href="rider/david-canada/results/results">Results - Results</a></li><li data-n="4"><a href="rider/david-canada/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/david-canada/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/david-canada/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/david-canada/contribute/contribute-info">Contribute info</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/submit-program">Submit program</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/report">Report</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/contribute-family">Family</a></li>
+<li data-n="5"><a href="rider/david-canada/contribute/embed-rider-results">Embed rider results</a></li>
+<li data-n="7"><a href="rider/david-canada/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/david-canada/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="6"><a href="rider/david-canada/specialties/fastest-tt">Fastest TT</a></li>
+</ul></li></ul><div class="clear"></div></div><div class="page-title "><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">David  Cañada</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1"><h2></h2><div class=" ">
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;</div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> March 1975<br><span><b>Passed away on:</b> 28<sup>th</sup> May 2016<br><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br><span><b>Weight:</b> 65 kg &nbsp; <span><b>Height:</b> 1.76 m<br><b>Place of birth:</b> <a href="location/zaragoza">Zaragoza</a><br><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 18.240093240093%; height: 100%;  "></div></div><div class="pnt">313</div><div class="title"><a href="rider/david-canada/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1716</div><div class="title"><a href="rider/david-canada/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 48.076923076923%; height: 100%;  "></div></div><div class="pnt">825</div><div class="title"><a href="rider/david-canada/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 29.545454545455%; height: 100%;  "></div></div><div class="pnt">507</div><div class="title"><a href="rider/david-canada/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 11.072261072261%; height: 100%;  "></div></div><div class="pnt">190</div><div class="title"><a href="rider/david-canada/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 3.9044289044289%; height: 100%;  "></div></div><div class="pnt">67</div><div class="title"><a href="rider/david-canada/results/hills">Hills</a></div></li></ul></div><div class=""></div>
+<div class="mt10"><ul class="list horizontal sites"></ul></div>
+<div class="">
+<span class="table-cont"><ul class="list horizontal rdr-rankings" style=" "><li class=""><div class=" title"><a href="rankings/me/all-time">All time</a></div><div class=" rnk">1544</div><div class="clear"></div></li>
+</ul></span></div>
+<div class="">
+<span class="table-cont"><ul class="list horizontal" style=" "><li class=""><div class=" bold">Visits:</div><div><span class="delta-down">▼25</span></div><div> &nbsp;this week</div><div class="clear"></div></li>
+</ul></span></div>
+</span></span></span></div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/volta-a-catalunya/2006/gc">Volta Ciclista a Catalunya</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('06)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/gc">Vuelta Ciclista a la Región de Murcia "Costa Calid</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/region-pays-de-la-loire/2000/gc">Circuit de la Sarthe</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-4">Vuelta Ciclista a la Región de Murcia "Costa Calid</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/region-pays-de-la-loire/2000/stage-4">Circuit de la Sarthe</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('00)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/vuelta-a-los-valles-mineros/1997/gc">Vuelta a los Valles Mineros</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('97)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-georgia/2007/gc">Tour of Georgia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('07)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/ronde-van-nederland/2002/gc">Ronde van Nederland</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('02)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-luxembourg/2003/gc">Tour de Luxembourg</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('03)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/rund-um-koln/2005/result">Rund um Köln</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('05)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/escalada-a-montjuic/2006/gc">Escalada a Montjuïc</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('06)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-georgia/2007/stage-3">Tour of Georgia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('07)</span></div></li>
+</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
+<div class="">
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4" style=" "><li class=" main "><div class=" season">2009</div><div class=" name"><a href="team/fuji-servetto-2009">Fuji-Servetto</a></div><div> (WT)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2008</div><div class=" name"><a href="team/scott-american-beef-2008">Scott - American Beef</a></div><div> (PT)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2007</div><div class=" name"><a href="team/saunier-duval-2007">Saunier Duval</a></div><div> (PT)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2006</div><div class=" name"><a href="team/saunier-duval-prodir-2006">Saunier Duval - Prodir</a></div><div> (PT)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2005</div><div class=" name"><a href="team/saunier-duval-prodir-2005">Saunier Duval - Prodir</a></div><div> (PT)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2004</div><div class=" name"><a href="team/saunier-duval-prodir-2004">Saunier Duval - Prodir</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2003</div><div class=" name"><a href="team/quickstep-davitamon-2003">Quickstep - Davitamon</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2002</div><div class=" name"><a href="team/mapei-quickstep-2002">Mapei - Quickstep</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2001</div><div class=" name"><a href="team/mapei-quickstep-2001">Mapei - Quickstep</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">2000</div><div class=" name"><a href="team/o.n.c.e.-deutsche-bank-2000">O.N.C.E. - Deutsche Bank</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">1999</div><div class=" name"><a href="team/o.n.c.e.-deutsche-bank-1999">O.N.C.E. - Deutsche Bank</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">1998</div><div class=" name"><a href="team/once-1998">O.N.C.E. - Deutsche Bank</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">1997</div><div class=" name"><a href="team/once-1997">ONCE</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">1996</div><div class=" name"><a href="team/o.n.c.e.-1996">O.N.C.E.</a></div><div> (TT1)</div><div class=" fs10"></div><div class="clear"></div></li>
+<li class=" main "><div class=" season">1995</div><div class=" name"><a href="team/o.n.c.e.-1995">O.N.C.E.</a></div><div></div><div class=" fs10">&nbsp;trainee as from 01/09</div><div class="clear"></div></li>
+</ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
+<div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2008" class=""><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=""><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=""><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=""><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=""><a class="seasonResults" data-season="2004" href="">2004</a></li><li data-season="2003" class=""><a class="seasonResults" data-season="2003" href="">2003</a></li><li data-season="2002" class=""><a class="seasonResults" data-season="2002" href="">2002</a></li><li data-season="2001" class=""><a class="seasonResults" data-season="2001" href="">2001</a></li><li data-season="2000" class="cur"><a class="seasonResults" data-season="2000" href="">2000</a></li><li data-season="1999" class=""><a class="seasonResults" data-season="1999" href="">1999</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2008" class=" "><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=" "><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=" "><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=" "><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=" "><a class="seasonResults" data-season="2004" href="">2004</a></li><li data-season="2003" class=" "><a class="seasonResults" data-season="2003" href="">2003</a></li><li data-season="2002" class=" "><a class="seasonResults" data-season="2002" href="">2002</a></li><li data-season="2001" class=" "><a class="seasonResults" data-season="2001" href="">2001</a></li><li data-season="2000" class=" "><a class="seasonResults" data-season="2000" href="">2000</a></li><li data-season="1999" class=" "><a class="seasonResults" data-season="1999" href="">1999</a></li><li data-season="1998" class=" "><a class="seasonResults" data-season="1998" href="">1998</a></li><li data-season="1997" class=" "><a class="seasonResults" data-season="1997" href="">1997</a></li><li data-season="1996" class=" "><a class="seasonResults" data-season="1996" href="">1996</a></li><li data-season="1993" class=" "><a class="seasonResults" data-season="1993" href="">1993</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br>Date</th><th style="width: 4%;"><br>Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br>Race</th><th class="cu600" style="width: 8%;"><br>Distance</th><th class="cu600" style="width: 8%;">Points<br>PCS</th><th class="cu600 " style="width: 8%;">Points<br>UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>01.10</td><td>22</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/memorial-galera-ciudad-de-armilla/2000/result">Memorial Manuel Galera <span>(1.4)</span></a> </td><td class="cu600">153</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/memorial-galera-ciudad-de-armilla">more</a></td></tr>
+<tr data-main="1"><td>31.08 » 09.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/gc">Tour de l'Avenir <span>(2.5)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td></td><td>13</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>09.09</td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-10">Stage 10 - Annemasse  › Annemasse </a> </td><td class="cu600">120</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>08.09</td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-9">Stage 9 - Le Grand Bornand  › Ville-la-Grand </a> </td><td class="cu600">175</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>07.09</td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-8">Stage 8 - Annecy  › Le Grand Bornand </a> </td><td class="cu600">149</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>06.09</td><td>27</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-7">Stage 7 - Autun  › Oyonnax</a> </td><td class="cu600">199</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>05.09</td><td>28</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-6">Stage 6 - Saint-Amand-Montrond  › Saint-Amand-Montrond</a> </td><td class="cu600">190</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>04.09</td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-5">Stage 5 - Le Blanc  › Saint-Amand-Montrond </a> </td><td class="cu600">172</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>03.09</td><td>121</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-4">Stage 4 - Mouchamps  › Mouchamps</a> </td><td class="cu600">220</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>02.09</td><td>25</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-3">Stage 3 - Ligne › Mouchamps </a> </td><td class="cu600">156</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>01.09</td><td>2</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-2">Stage 2 (ITT) - Trans-sur-Erdre › Saint-Mars-la-Jaille </a> </td><td class="cu600">22</td><td class="cu600">2</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>31.08</td><td>59</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-avenir/2000/stage-1">Stage 1 - Ancenis  › Ancenis </a> </td><td class="cu600">159</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="1"><td>20.08</td><td>42</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag ch"></span><a href="race/zuri-metzgete/2000/result">Meisterschaft von Zürich <span>(CDM)</span></a> </td><td class="cu600">248.4</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/zuri-metzgete">more</a></td></tr>
+<tr data-main="1"><td>12.08</td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/san-sebastian/2000/result">Clasica Ciclista San Sebastian <span>(CDM)</span></a> </td><td class="cu600">232</td><td class="cu600">70</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/san-sebastian">more</a></td></tr>
+<tr data-main="1"><td>07.08 » 10.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2000/gc">Vuelta a Burgos <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td></td><td>38</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>10.08</td><td>22</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2000/stage-4">Stage 4 - Medina de Pomar › Burgos</a> </td><td class="cu600">164</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>09.08</td><td>40</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2000/stage-3">Stage 3 - Pradoluengo › Lagunas de Neila</a> </td><td class="cu600">164</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>08.08</td><td>28</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2000/stage-2">Stage 2 - Burgos › Clunia</a> </td><td class="cu600">181</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="1"><td>01.07 » 23.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/youth">Tour de France</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td></td><td>4</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td></td><td>82</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td></td><td>33</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">35</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>23.07</td><td>27</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-21">Stage 21 - Paris › Paris</a> </td><td class="cu600">138</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>22.07</td><td>52</td><td class="gc cu600">34</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-20">Stage 20 - Belfort › Troyes</a> </td><td class="cu600">254.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>21.07</td><td>16</td><td class="gc cu600">34</td><td style="padding: 0; "><span class="icon chrono"></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-19">Stage 19 (ITT) - Fribourg-En-Brisgau › Mulhouse</a> </td><td class="cu600">58.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>20.07</td><td>48</td><td class="gc cu600">36</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-18">Stage 18 - Lausanne › Fribourg-En-Brisgau</a> </td><td class="cu600">246.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>19.07</td><td>20</td><td class="gc cu600">37</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-17">Stage 17 - Evian-Les-Bains › Lausanne</a> </td><td class="cu600">155</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>18.07</td><td>33</td><td class="gc cu600">40</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-16">Stage 16 - Courchevel › Morzine</a> </td><td class="cu600">196</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>16.07</td><td>40</td><td class="gc cu600">44</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-15">Stage 15 - Briancon › Courchevel</a> </td><td class="cu600">173.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>15.07</td><td>75</td><td class="gc cu600">48</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-14">Stage 14 - Draguignan › Briancon</a> </td><td class="cu600">249</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>14.07</td><td>40</td><td class="gc cu600">34</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-13">Stage 13 - Avignon › Draguignan</a> </td><td class="cu600">185.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>13.07</td><td>31</td><td class="gc cu600">32</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-12">Stage 12 - Carpentras › Mont Ventoux</a> </td><td class="cu600">149</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>11.07</td><td>34</td><td class="gc cu600">38</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-11">Stage 11 - Bagneres-De-Bigorre › Revel</a> </td><td class="cu600">218.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>10.07</td><td>51</td><td class="gc cu600">41</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-10">Stage 10 - Dax › Hautacam</a> </td><td class="cu600">205</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>09.07</td><td>29</td><td class="gc cu600">15</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-9">Stage 9 - Agen › Dax</a> </td><td class="cu600">181</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>08.07</td><td>67</td><td class="gc cu600">15</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-8">Stage 8 - Limoges › Villeneuve sur Lot</a> </td><td class="cu600">203.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>07.07</td><td>51</td><td class="gc cu600">11</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-7">Stage 7 - Tours › Limoges</a> </td><td class="cu600">205.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>06.07</td><td>36</td><td class="gc cu600">11</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-6">Stage 6 - Vitre › Tours</a> </td><td class="cu600">198.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>05.07</td><td>36</td><td class="gc cu600">2</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-5">Stage 5 - Vannes › Vitre</a> </td><td class="cu600">202</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>03.07</td><td>29</td><td class="gc cu600">5</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-3">Stage 3 - Loudun › Nantes</a> </td><td class="cu600">161.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>02.07</td><td>50</td><td class="gc cu600">5</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-2">Stage 2 - Futuroscope › Loudun</a> </td><td class="cu600">194</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>01.07</td><td>5</td><td class="gc cu600">5</td><td style="padding: 0; "><span class="icon chrono"></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2000/stage-1">Stage 1 (ITT) - Futuroscope › Futuroscope</a> </td><td class="cu600">16.5</td><td class="cu600">32</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/tour-de-france">more</a></td></tr>
+<tr data-main="1"><td>15.06 » 22.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/volta-a-catalunya/2000/stage-6">Volta a Catalunya <span>(2.HC)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>20.06</td><td>17</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/volta-a-catalunya/2000/stage-6">Stage 6 - Rosas › Prades</a> </td><td class="cu600">164</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>19.06</td><td>48</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/volta-a-catalunya/2000/stage-5">Stage 5 - Argentona › Rosas</a> </td><td class="cu600">159</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>18.06</td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/volta-a-catalunya/2000/stage-4">Stage 4 - Badalona › Barcelona</a> </td><td class="cu600">158</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>17.06</td><td>38</td><td class="gc cu600">3</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/volta-a-catalunya/2000/stage-3">Stage 3 - Vilanova › Badalona</a> </td><td class="cu600">154</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>16.06</td><td>47</td><td class="gc cu600">4</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/volta-a-catalunya/2000/stage-2">Stage 2 - Vilaseca › Vilanova i Geltru</a> </td><td class="cu600">160</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>15.06</td><td>1</td><td class="gc cu600">1</td><td style="padding: 0; "><span class="icon chrono"></span></td><td class="name"><span class="flag es"></span><a href="race/volta-a-catalunya/2000/stage-1">Stage 1 (TTT) - La Pineda › Vilaseca</a> </td><td class="cu600">21.8</td><td class="cu600">20</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/volta-a-catalunya">more</a></td></tr>
+<tr data-main="1"><td>09.05 » 14.05</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-asturias/2000/gc">Vuelta Asturias <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-asturias">more</a></td></tr>
+<tr data-main="0"><td></td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-asturias/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-asturias">more</a></td></tr>
+<tr data-main="0"><td>14.05</td><td>7</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-asturias/2000/stage-6">Stage 6 - Cangas del Narcea › Oviedo</a> </td><td class="cu600">160</td><td class="cu600">2</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-asturias">more</a></td></tr>
+<tr data-main="0"><td>11.05</td><td>10</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-asturias/2000/stage-3">Stage 3 - Llanes › Gijon</a> </td><td class="cu600">165</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-asturias">more</a></td></tr>
+<tr data-main="1"><td>28.04 » 01.05</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-rioja/2000/kom">Vuelta Ciclista a la Rioja <span>(2.4)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-rioja">more</a></td></tr>
+<tr data-main="0"><td></td><td>19</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-rioja/2000/kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-rioja">more</a></td></tr>
+<tr data-main="0"><td></td><td>7</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-rioja/2000/points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-rioja">more</a></td></tr>
+<tr data-main="0"><td></td><td>5</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-rioja/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">28</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-rioja">more</a></td></tr>
+<tr data-main="0"><td>01.05</td><td>8</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-rioja/2000/stage-4">Stage 4 - Haro › Logroño</a> </td><td class="cu600">147.6</td><td class="cu600">1</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-rioja">more</a></td></tr>
+<tr data-main="0"><td>30.04</td><td>8</td><td class="gc cu600">6</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-rioja/2000/stage-3">Stage 3 - Najera › Estacion Valdezcaray</a> </td><td class="cu600">180</td><td class="cu600">1</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-rioja">more</a></td></tr>
+<tr data-main="0"><td>29.04</td><td>7</td><td class="gc cu600">6</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-rioja/2000/stage-2">Stage 2 - Albelda de Iregua › Logroño</a> </td><td class="cu600">192</td><td class="cu600">2</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-rioja">more</a></td></tr>
+<tr data-main="0"><td>28.04</td><td>28</td><td class="gc cu600">28</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-rioja/2000/stage-1">Stage 1 - Autol › Calahorra</a> </td><td class="cu600">168</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-rioja">more</a></td></tr>
+<tr data-main="1"><td>22.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag nl"></span><a href="race/amstel-gold-race/2000/result">Amstel Gold Race <span>(CDM)</span></a> </td><td class="cu600">257</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/amstel-gold-race">more</a></td></tr>
+<tr data-main="1"><td>12.04 » 16.04</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-aragon/2000/gc">Vuelta a Aragon</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-aragon">more</a></td></tr>
+<tr data-main="0"><td></td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-aragon/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">3</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-aragon">more</a></td></tr>
+<tr data-main="0"><td>16.04</td><td>23</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-aragon/2000/stage-5">Stage 5 - Magallón › Zaragoza</a> </td><td class="cu600">121</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-aragon">more</a></td></tr>
+<tr data-main="0"><td>14.04</td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-aragon/2000/stage-3">Stage 3 - Benasque › Sabiñánigo</a> </td><td class="cu600">159</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-aragon">more</a></td></tr>
+<tr data-main="0"><td>13.04</td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-aragon/2000/stage-2">Stage 2 - Fraga › Cerler</a> </td><td class="cu600">170</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-aragon">more</a></td></tr>
+<tr data-main="0"><td>12.04</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-aragon/2000/stage-1">Stage 1 - Bronchales › Alcañiz</a> </td><td class="cu600">174.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-a-aragon">more</a></td></tr>
+<tr data-main="1"><td>04.04 » 07.04</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/region-pays-de-la-loire/2000/gc">Circuit de la Sarthe <span>(2.3)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/region-pays-de-la-loire">more</a></td></tr>
+<tr data-main="0"><td></td><td>1</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag fr"></span><a href="race/region-pays-de-la-loire/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">100</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/region-pays-de-la-loire">more</a></td></tr>
+<tr data-main="0"><td>07.04</td><td>25</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/region-pays-de-la-loire/2000/stage-5">Stage 5 - Durtal › Sablé-sur-Sarthe</a> </td><td class="cu600">99.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/region-pays-de-la-loire">more</a></td></tr>
+<tr data-main="0"><td>07.04</td><td>1</td><td class="gc cu600">1</td><td style="padding: 0; "><span class="icon chrono"></span></td><td class="name"><span class="flag fr"></span><a href="race/region-pays-de-la-loire/2000/stage-4">Stage 4 (ITT) - Durtal › Durtal</a> </td><td class="cu600">23.3</td><td class="cu600">20</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/region-pays-de-la-loire">more</a></td></tr>
+<tr data-main="0"><td>06.04</td><td>38</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/region-pays-de-la-loire/2000/stage-3">Stage 3 - Chateauneuf-sur-Sarthe › Saint-Cosme-en-Vairais</a> </td><td class="cu600">196.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/region-pays-de-la-loire">more</a></td></tr>
+<tr data-main="0"><td>05.04</td><td>41</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/region-pays-de-la-loire/2000/stage-2">Stage 2 - Mayenne › Chateauneuf-sur-Sarthe</a> </td><td class="cu600">220.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/region-pays-de-la-loire">more</a></td></tr>
+<tr data-main="0"><td>04.04</td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag fr"></span><a href="race/region-pays-de-la-loire/2000/stage-1">Stage 1 - Mayenne › Mayenne</a> </td><td class="cu600">165.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/region-pays-de-la-loire">more</a></td></tr>
+<tr data-main="1"><td>03.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag be"></span><a href="race/ronde-van-vlaanderen/2000/result">Ronde van Vlaanderen / Tour des Flandres <span>(CDM)</span></a> </td><td class="cu600">269</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/ronde-van-vlaanderen">more</a></td></tr>
+<tr data-main="1"><td>20.03 » 24.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/setmana-catalana/2000/gc">Setmana-Catalana <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/setmana-catalana">more</a></td></tr>
+<tr data-main="0"><td></td><td>9</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag es"></span><a href="race/setmana-catalana/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">45</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/setmana-catalana">more</a></td></tr>
+<tr data-main="1"><td>01.03 » 05.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/kom">Vuelta a Murcia <span>(2.3)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="0"><td></td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="0"><td></td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="0"><td></td><td>1</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">100</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="0"><td>05.03</td><td>1</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-5">Stage 5 (ITT) - Murcia › Murcia</a> </td><td class="cu600">12.9</td><td class="cu600">20</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="0"><td>04.03</td><td>1</td><td class="gc cu600">1</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-4">Stage 4 - Murcia › Aledo</a> </td><td class="cu600">157.2</td><td class="cu600">20</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="0"><td>03.03</td><td>82</td><td class="gc cu600">25</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-3">Stage 3 - Murcia › Lorca</a> </td><td class="cu600">185</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="0"><td>02.03</td><td>26</td><td class="gc cu600">19</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-2">Stage 2 - Murcia › La Atalaya</a> </td><td class="cu600">156.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="0"><td>01.03</td><td>28</td><td class="gc cu600">28</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2000/stage-1">Stage 1 - Murcia › Caravaca</a> </td><td class="cu600">200</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+<tr data-main="1"><td>27.02</td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/clasica-de-almeria/2000/result">Clasica de Almeria <span>(1.4)</span></a> </td><td class="cu600">176</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/clasica-de-almeria">more</a></td></tr>
+<tr data-main="1"><td>13.02 » 17.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2000/gc">Vuelta a Andalucia Ruta Ciclista Del Sol <span>(2.3)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/ruta-del-sol">more</a></td></tr>
+<tr data-main="0"><td></td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2000/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">12</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/david-canada/ruta-del-sol">more</a></td></tr>
+<tr data-main="0"><td>17.02</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2000/stage-5">Stage 5 - Luque › Granada</a> </td><td class="cu600">134.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/ruta-del-sol">more</a></td></tr>
+<tr data-main="0"><td>15.02</td><td>14</td><td class="gc cu600">12</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2000/stage-3">Stage 3 - Malaga › Santuario Nuestra Sra Sierra Cabarga</a> </td><td class="cu600">164.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/ruta-del-sol">more</a></td></tr>
+<tr data-main="0"><td>14.02</td><td>17</td><td class="gc cu600">14</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2000/stage-2">Stage 2 - Castell de Ferro › Costa Benalmadena</a> </td><td class="cu600">149.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/ruta-del-sol">more</a></td></tr>
+<tr data-main="0"><td>13.02</td><td>24</td><td class="gc cu600">24</td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2000/stage-1">Stage 1 - Almeria › Almeria</a> </td><td class="cu600">160.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/ruta-del-sol">more</a></td></tr>
+<tr data-main="1"><td>10.02</td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-calvia/2000/result">Challenge Mallorca - Trofeo Palmanova-Calvia <span>(1.4)</span></a> </td><td class="cu600">164</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/trofeo-calvia">more</a></td></tr>
+<tr data-main="1"><td>09.02</td><td>7</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/deia-trophy/2000/result">Challenge Mallorca - Trofeo Soller <span>(1.4)</span></a> </td><td class="cu600">159</td><td class="cu600">20</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/deia-trophy">more</a></td></tr>
+<tr data-main="1"><td>08.02</td><td>17</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-ses-salines-felanitx/2000/result">Trofeo Cala: Cala Millor - Son Servera <span>(1.1)</span></a> </td><td class="cu600">159</td><td class="cu600">4</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/trofeo-ses-salines-felanitx">more</a></td></tr>
+<tr data-main="1"><td>07.02</td><td>19</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-pollenca-port-d-andratx/2000/result">Trofeo Andratx-Mirador d'Es Colomer <span>(1.1)</span></a> </td><td class="cu600">147</td><td class="cu600">2</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/trofeo-pollenca-port-d-andratx">more</a></td></tr>
+<tr data-main="1"><td>06.02</td><td>36</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-palma/2000/result">Challenge Mallorca - Trofeo Palma-Palma <span>(1.4)</span></a> </td><td class="cu600">82</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/david-canada/trofeo-palma">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum"><div>11927 km in <b>73</b> days | PCS points: <b>544</b> |  UCI points: <b>5</b> </div></div></div><div style="float: right; margin-top: 8px; "><span style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"></path><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"></path></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi" style=" "><li class=""><div class=" nr">6</div><div class=" title"><a href="rider/david-canada/statistics/wins">Wins</a></div><div class=" info fs11">GC (3)</div><div class=" info fs11">Oneday races (0)</div><div class=" info fs11">ITT (2)</div><div class=" info fs11"></div><div class=" info fs11"></div><div class="clear"></div></li>
+<li class=""><div class=" nr">15</div><div class=" title"><a href="rider/david-canada/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11">tour (5) giro (4) vuelta(6)</div><div class=" info fs11"></div><div class=" info fs11"></div><div class=" info fs11"></div><div class=" info fs11"></div><div class="clear"></div></li>
+<li class=""><div class=" nr">8</div><div class=" title"><a href="rider/david-canada/statistics/top-classic-results">Classics</a></div><div class=" info fs11">RBX(1)</div><div class=" info fs11">MSR(0)</div><div class=" info fs11">RVV(3)</div><div class=" info fs11">LBL(1)</div><div class=" info fs11">LOM(3)</div><div class="clear"></div></li>
+</ul></span></div>
+<div class="mt30"><h3>PCS Ranking position per season</h3>
+<span class="table-cont"><table class="basic rdr-season-stats" style=""><thead><tr><th class="season  " style="width: 16.7%; "></th><th class="bar  " style="width: 66.7%; ">Points</th><th class="ac  " style="width: 16.7%; ">position</th></tr></thead><tbody>
+<tr><td class="season  ">2008</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 14.1%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">92</div></div></div></td><td class="ac  ">592</td></tr>
+<tr><td class="season  ">2007</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 34.2%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">223</div></div></div></td><td class="ac  ">267</td></tr>
+<tr><td class="season  ">2006</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 64.5%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">421</div></div></div></td><td class="ac  ">111</td></tr>
+<tr><td class="season  ">2005</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 19.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">128</div></div></div></td><td class="ac  ">454</td></tr>
+<tr><td class="season  ">2004</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 36.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">239</div></div></div></td><td class="ac  ">236</td></tr>
+<tr><td class="season  ">2003</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 37.7%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">246</div></div></div></td><td class="ac  ">231</td></tr>
+<tr><td class="season  ">2002</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 31%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">202</div></div></div></td><td class="ac  ">281</td></tr>
+<tr><td class="season  ">2001</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 1.5%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">10</div></div></div></td><td class="ac  ">1247</td></tr>
+<tr><td class="season  ">2000</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">522</div></div></div></td><td class="ac  ">95</td></tr>
+<tr><td class="season  ">1999</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 11.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">76</div></div></div></td><td class="ac  ">470</td></tr>
+<tr><td class="season  ">1998</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 6.1%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">40</div></div></div></td><td class="ac  ">576</td></tr>
+<tr><td class="season  ">1997</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 15.9%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">104</div></div></div></td><td class="ac  ">363</td></tr>
+<tr><td class="season  ">1996</td><td class="bar  "><div class="barCont"><div class="bg left green2 h12" style="width: 0.5%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">3</div></div></div></td><td class="ac  ">1111</td></tr>
+</tbody></table></span></div>
+</div><div class="clear"></div><script>
+$(document).ready(function(){
+  var id = 117660; 
+  var natid = 3200640; 
+  var cxid = 0; 
+  var seo = 'david-canada';
+  var sort = 'date'; 
+  var filter = 'all'; 
+  var pid = '1238'; 
+  var discipline = 'road'; 
+  var subpath = '';   
+    
+  $(document).on('click', '.toggleDiscipline', function(e){
+    e.preventDefault();        
+    discipline = $(this).attr('data-discipline');
+    id = $(this).attr('data-rid');
+    console.log('dis: '+discipline+', id: '+$(this).attr('data-rid')+', season: '+$(this).attr('data-season'));
+    $('.rdrSeasonNav').hide();
+    $('.rdrSeasonNav[data-discipline="'+discipline+'"]').show(); 
+    $(".rdrSeasonNav li").removeClass('cur');
+    $(".rdrSeasonNav li[data-season="+$(this).attr('data-season')+"]").addClass('cur');
+    var url = 'rider/'+seo+'/'+discipline;
+    //history.pushState("string", "page", url);  
+    $(this).parents('ul').find('li').removeClass('cur');
+    $(this).parent('li').addClass('cur'); 
+    //console.log(subpath);
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season'), filter: filter }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
+  });   
+
+  $(document).on('click', '.seasonResults', function(e){
+    e.preventDefault();       
+    var season = $(this).attr('data-season');  
+    
+  
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    var url = 'rider/'+seo+'/'+season;
+    history.pushState("string", "page", url);  
+    $(".rdrSeasonNav li").removeClass('cur');
+    $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
+
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {   
+    	//console.log(response);
+      $('#resultsCont').html(response);      
+    })
+     
+  });    
+    
+  $(".sortByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".sortByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    sort = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+  });
+
+
+  $(".filterByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+
+    
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".filterByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    filter = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+
+  }); 
+
+
+  
+
+});
+</script>
+
+</div>
+<div class="desktop-ad below-content rider"></div><div class="mob-ad below-content rider"></div></div><div style="clear: both; "></div>  
+  </div>
+  
+  <div class="push"></div>
+</div>
+<div class="footer">
+  <div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
+</ul><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
+<li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
+<li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
+</ul></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
+<li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+</ul></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
+</ul></li>
+<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+<li><a href="info/profile-score-explained">Profile scores</a></li>
+<li><a href="reset_password.php">Reset password</a></li>
+<li><a href="info/pcs-game">PCS game</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
+</ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/cookie-policy">Cookie policy</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/contributions">Contributions</a></li>
+<li><span>Pageload 0.0897s</span></li>
+</ul></li>
+</ul><input type="hidden" id="pageid" value="1238"><input type="hidden" id="userid" value="0">
+	</div>
+</div> 
+ 
+ 
+<script src="search_list12.js"></script>  
+		<script>
+		var riderid = 117660;		$(document).ready(function() { 	RVC(riderid);  	  });
+		</script>
+		</body></html>
