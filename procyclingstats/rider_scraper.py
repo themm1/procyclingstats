@@ -1,5 +1,8 @@
 import calendar
+from pprint import pprint
 from typing import Any, Dict, List, Optional
+
+from tabulate import tabulate
 
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -9,6 +12,11 @@ from .utils import get_day_month, parse_table_fields_args
 class Rider(Scraper):
     """
     Scraper for rider HTML page.
+    
+    To parse results from specific season, pass URL with the season, e.g.
+    ``rider/tadej-pogacar/2021``, and use the ``Rider.results`` method. But it
+    might be easier to just use the ``RiderResults`` scraping class for that
+    purpose.
 
     Usage:
 
@@ -212,3 +220,85 @@ class Rider(Scraper):
         pnts = [int(e.text()) for e in specialty_html]
         keys = ["one_day_races", "gc", "time_trial", "sprint", "climber", "hills"]
         return dict(zip(keys, pnts))
+    
+    def season_results(self, *args: str) -> List[Dict[str, Any]]:
+        """
+        Parses rider's results from season specified in URL. If no URL is
+        specified, results from current season are parsed.
+
+        :param args: Fields that should be contained in returned table. When
+            no args are passed, all fields are parsed.
+
+            - result: Rider's result. None if not rated.
+            - gc_position: GC position after the stage. None if the race is
+                one day race, after last stage, or if stage is points
+                classification etc...
+            - stage_url:
+            - stage_name:
+            - distance: Distance of the stage, if is given. Otherwise None.
+            - date: Date of the stage in DD-MM-YYYY format. None if the stage
+                is GC, points classification etc...
+            - pcs_points:
+            - uci_points:
+
+        :raises ValueError: When one of args is of invalid value.
+        :return: Table with wanted fields.
+        """
+        available_fields = (
+            "result",
+            "gc_position",
+            "stage_url",
+            "stage_name",
+            "distance",
+            "date",
+            "pcs_points",
+            "uci_points"
+        )
+        fields = parse_table_fields_args(args, available_fields)
+        casual_fields = ["stage_url", "stage_name"]
+        for field in list(casual_fields):
+            if field not in fields:
+                casual_fields.remove(field)
+
+        results_html = self.html.css_first("#resultsCont > table.rdrResults")
+        for tr in results_html.css("tbody > tr"):
+            if not tr.css("td")[1].text():
+                tr.remove()
+                
+        table_parser = TableParser(results_html)
+        if casual_fields:
+            table_parser.parse(casual_fields)
+        if "date" in fields:
+            try:
+                year = self.html.css_first(".rdrSeasonNav > li.cur > a").text()
+                dates = table_parser.parse_extra_column("Date", str)
+                for i, date in enumerate(dates):
+                    if date:
+                        dates[i] = date.replace(".", "-") + "-" + str(year)
+                    else:
+                        dates[i] = None
+                table_parser.extend_table("date", dates)
+            except AttributeError:
+                pass
+        if "result" in fields:
+            results = table_parser.parse_extra_column("Result", lambda x:
+                int(x) if x.isnumeric() else None)
+            table_parser.extend_table("result", results)
+        if "gc_position" in fields:
+            gc_positions = table_parser.parse_extra_column(2, lambda x:
+                int(x) if x.isnumeric() else None)
+            table_parser.extend_table("gc_position", gc_positions)
+        if "distance" in fields:
+            distances = table_parser.parse_extra_column("Distance", lambda x:
+                float(x) if x.split(".")[0].isnumeric() else None)
+            table_parser.extend_table("distance", distances)
+        if "pcs_points" in fields:
+            pcs_points = table_parser.parse_extra_column("PCS", lambda x:
+                float(x) if x.isnumeric() else 0)
+            table_parser.extend_table("pcs_points", pcs_points)
+        if "uci_points" in fields:
+            uci_points = table_parser.parse_extra_column("UCI", lambda x:
+                float(x) if x.isnumeric() else 0)
+            table_parser.extend_table("uci_points", uci_points)
+            
+        return table_parser.table
