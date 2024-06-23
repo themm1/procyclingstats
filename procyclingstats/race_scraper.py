@@ -83,7 +83,7 @@ class Race(Scraper):
         """
         Parses race startdate from HTML.
 
-        :return: Startdate in ``DD-MM-YYYY`` format.
+        :return: Startdate in ``YYYY-MM-DD`` format.
         """
         startdate_html = self.html.css_first(
             ".infolist > li > div:nth-child(2)")
@@ -93,7 +93,7 @@ class Race(Scraper):
         """
         Parses race enddate from HTML.
 
-        :return: Enddate in ``DD-MM-YYYY`` format.
+        :return: Enddate in ``YYYY-MM-DD`` format.
         """
         enddate_html = self.html.css(".infolist > li > div:nth-child(2)")[1]
         return enddate_html.text()

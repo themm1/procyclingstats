@@ -236,7 +236,7 @@ class Rider(Scraper):
             - stage_url:
             - stage_name:
             - distance: Distance of the stage, if is given. Otherwise None.
-            - date: Date of the stage in DD-MM-YYYY format. None if the stage
+            - date: Date of the stage in YYYY-MM-DD format. None if the stage
                 is GC, points classification etc...
             - pcs_points:
             - uci_points:
@@ -274,7 +274,8 @@ class Rider(Scraper):
                 dates = table_parser.parse_extra_column("Date", str)
                 for i, date in enumerate(dates):
                     if date:
-                        dates[i] = date.replace(".", "-") + "-" + str(year)
+                        splitted_date = date.split(".")
+                        dates[i] = f"{year}-{splitted_date[1]}-{splitted_date[0]}"
                     else:
                         dates[i] = None
                 table_parser.extend_table("date", dates)
