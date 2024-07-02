@@ -68,6 +68,17 @@ class Rider(Scraper):
         """
         return self.html.css_first(".page-title > .main > h1").text()
 
+     def age(self) -> int:
+        """
+        Parses rider's age from HTML.
+
+        :return: age of the rider as an integer
+        """
+        general_info_html = self.html.css_first(".rdr-info-cont")
+        info_string = general_info_html.text(separator=" ", deep=False)
+        # age is found in between parenthesis
+        return int(info_string[info_string.find("(")+1:info_string.find(")")])
+
     def weight(self) -> float:
         """
         Parses rider's current weight from HTML.
