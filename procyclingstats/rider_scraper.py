@@ -68,7 +68,7 @@ class Rider(Scraper):
         """
         return self.html.css_first(".page-title > .main > h1").text()
 
-     def age(self) -> int:
+    def age(self) -> int:
         """
         Parses rider's age from HTML.
 
