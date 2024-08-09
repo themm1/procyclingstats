@@ -122,7 +122,7 @@ class Stage(Scraper):
 
         :return: Vertical meters.
         """
-        vert_meters = self._stage_info_by_label("Vert. meters")
+        vert_meters = self._stage_info_by_label("Vertical meters")
         if vert_meters:
             return int(vert_meters)
         return None
