@@ -269,20 +269,19 @@ class TableParser:
             if not bonus:
                 bonus = "0:00:00"
             else:
-                prefix = ""
-                if bonus[0] == "-":
-                    prefix = "-"
-                    bonus = bonus[1:]
-                bonus = bonus.replace(" ", "")
-                seconds = int(bonus)
-                minutes = seconds // 60
-                seconds -= minutes * 60
-                if seconds < 10:
-                    seconds = f"0{seconds}"
+                seconds = "00"
+                minutes = "00"
+                splitted = bonus.split(":")
+                if len(splitted) > 1:
+                    minutes = splitted[0]
+                    if len(minutes) == 1:
+                        minutes = "0" + minutes
+                    seconds = splitted[1]
                 else:
-                    seconds = str(seconds)
-                bonus = format_time(f"{minutes}:{seconds}")
-                bonus = prefix + bonus
+                    seconds = splitted[0]
+                    if len(seconds) == 1:
+                        seconds = "0" + seconds
+                bonus = f"0:{minutes}:{seconds}"
             bonuses.append(bonus)
         if not bonuses:
             bonuses = ["0:00:00" for _ in range(self.table_length)]
