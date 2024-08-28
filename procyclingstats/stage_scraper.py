@@ -127,6 +127,20 @@ class Stage(Scraper):
             return int(vert_meters)
         return None
 
+    def avg_temperature(self) -> Optional[float]:
+        """
+        Parses average temperature during the stage from the HTML.
+
+        :return: Average temperature in degree celsius as float.
+        """
+        temp_str1 = self._stage_info_by_label("Avg. temp")
+        temp_str2 = self._stage_info_by_label("Average temp")
+        if temp_str1:
+            return float(temp_str1.split(" ")[0])
+        elif temp_str2:
+            return float(temp_str2.split(" ")[0])
+        return None
+
     def date(self) -> str:
         """
         Parses date when stage took place from HTML.
