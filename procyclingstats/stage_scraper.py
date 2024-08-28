@@ -113,9 +113,6 @@ class Stage(Scraper):
             return "TTT"
         return "RR"
 
-    def winning_attack_length(self):
-        return None
-
     def vertical_meters(self) -> Optional[int]:
         """
         Parses vertical meters gained throughout the stage from HTML.
