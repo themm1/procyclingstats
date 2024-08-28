@@ -351,6 +351,11 @@ class Stage(Scraper):
                 for row in table:
                     row.pop("rider_url")
         else:
+            # remove rows that aren't results
+            for row in results_table_html.css("tbody > tr"):
+                columns = row.css("td")
+                if len(columns) <= 2 and columns[0].text() == "":
+                    row.remove()
             table_parser = TableParser(results_table_html)
             table_parser.parse(fields)
             table = table_parser.table
