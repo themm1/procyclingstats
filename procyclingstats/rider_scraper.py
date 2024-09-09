@@ -43,7 +43,7 @@ class Rider(Scraper):
         month = list(calendar.month_name).index(str_month)
         return f"{year}-{month}-{day}"
 
-    def place_of_birth(self) -> str:
+    def place_of_birth(self) -> Optional[str]:
         """
         Parses rider's place of birth from HTML
 
@@ -56,9 +56,12 @@ class Rider(Scraper):
             return place_of_birth_html.text()
         # special layout
         except AttributeError:
-            place_of_birth_html = self.html.css_first(
-                ".rdr-info-cont > span > span > span > a")
-            return place_of_birth_html.text()
+            try:
+                place_of_birth_html = self.html.css_first(
+                    ".rdr-info-cont > span > span > span > a")
+                return place_of_birth_html.text()
+            except Exception:
+                return None
 
     def name(self) -> str:
         """
@@ -68,7 +71,7 @@ class Rider(Scraper):
         """
         return self.html.css_first(".page-title > .main > h1").text()
 
-    def weight(self) -> float:
+    def weight(self) -> Optional[float]:
         """
         Parses rider's current weight from HTML.
 
@@ -80,10 +83,13 @@ class Rider(Scraper):
             return float(weight_html.text().split(" ")[1])
         # special layout
         except (AttributeError, IndexError):
-            weight_html = self.html.css(".rdr-info-cont > span > span")[1]
-            return float(weight_html.text().split(" ")[1])
+            try:
+                weight_html = self.html.css(".rdr-info-cont > span > span")[1]
+                return float(weight_html.text().split(" ")[1])
+            except Exception:
+                return None
 
-    def height(self) -> float:
+    def height(self) -> Optional[float]:
         """
         Parses rider's height from HTML.
 
@@ -95,9 +101,13 @@ class Rider(Scraper):
             return float(height_html.text().split(" ")[1])
         # special layout
         except (AttributeError, IndexError):
-            height_html = self.html.css_first(
-                ".rdr-info-cont > span > span > span")
-            return float(height_html.text().split(" ")[1])
+            try:
+                height_html = self.html.css_first(
+                    ".rdr-info-cont > span > span > span")
+                return float(height_html.text().split(" ")[1])
+            # Height not found
+            except Exception:
+                return None
 
     def nationality(self) -> str:
         """

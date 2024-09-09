@@ -1,4 +1,4 @@
-from typing import Any, Callable, Dict, List, Literal, Optional, Tuple, Union
+from typing import Any, Callable, Dict, List, Literal, Optional, Tuple, Union, Set
 
 from selectolax.parser import Node
 
@@ -188,10 +188,10 @@ class TableParser:
                 lambda x: True if x.text() != "view" else False)
 
     def stage_url(self) -> List[str]:
-        return self._filter_a_elements("race", True)
+        return self._filter_a_elements("race", True, extras = {"national-race"})
 
     def stage_name(self) -> List[str]:
-        return self._filter_a_elements("race", False)
+        return self._filter_a_elements("race", False, extras = {"national-race"})
 
     def nation_url(self) -> List[str]:
         nations_urls = self._filter_a_elements("nation", True)
@@ -437,7 +437,8 @@ class TableParser:
 
 
     def _filter_a_elements(self, keyword: str, get_href: bool,
-            validator: Callable = lambda x: True) -> List[str]:
+                           validator: Callable = lambda x: True,
+                           extras: Optional[Set[str]] = None) -> List[str]:
         """
         Filters from all a elements these which has at the beggining of their
         href given keyword and gets their href or text.
@@ -447,14 +448,21 @@ class TableParser:
         text is returned.
         :param validator: Function to call on every a element. When returns
         True element is added to result list, otherwise not.
+        :param exact: Whether keyword have to be exact or, just contained in first part
+        of relative URL.
         :return: List of all a elements texts or hrefs with given keyword.
         """
+        if not extras:
+            extras = {keyword}
+        else:
+            extras.add(keyword)
         filtered_values = []
         for a_element in self.a_elements:
             href = a_element.attributes['href']
-            if href and href.split("/")[0] == keyword and validator(a_element):
-                if get_href:
-                    filtered_values.append(href)
-                else:
-                    filtered_values.append(a_element.text())
+            if href and validator(a_element):
+                if href.split("/")[0] in extras:
+                    if get_href:
+                        filtered_values.append(href)
+                    else:
+                        filtered_values.append(a_element.text())
         return filtered_values
