@@ -456,8 +456,7 @@ class TableParser:
         text is returned.
         :param validator: Function to call on every a element. When returns
         True element is added to result list, otherwise not.
-        :param exact: Whether keyword have to be exact or, just contained in first part
-        of relative URL.
+        :param extras: Extra keywords to match.
         :return: List of all a elements texts or hrefs with given keyword.
         """
         if not extras:
@@ -468,9 +467,11 @@ class TableParser:
         for a_element in self.a_elements:
             href = a_element.attributes['href']
             if href and validator(a_element):
-                if href.split("/")[0] in extras:
-                    if get_href:
-                        filtered_values.append(href)
-                    else:
-                        filtered_values.append(a_element.text())
+                parts = set(href.split("/"))
+                for kwrd in extras:
+                    if kwrd in parts:
+                        if get_href:
+                            filtered_values.append(href)
+                        else:
+                            filtered_values.append(a_element.text())
         return filtered_values
