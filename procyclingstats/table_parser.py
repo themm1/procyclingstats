@@ -422,18 +422,26 @@ class TableParser:
         :param time_field: Field which represents wanted time, defaults to
         `time`.
         """
+        # reformat times from . separators to :
+        for row in self.table:
+            try:
+                if "." in row[time_field]:
+                    [minutes, seconds] = row[time_field].split(".")
+                    row[time_field] = format_time(minutes + ":" + seconds[:2])
+            except Exception:
+                # mark bad times
+                row[time_field] = ""
+
         first_time = self.table[0][time_field]
         for i, row in enumerate(self.table[1:]):
             if row[time_field]:
-                try:
-                    row[time_field] = add_times(first_time, row['time'])
-                # if time is in invalid format
-                except Exception:
-                    if i == 0:
-                        row[time_field] = "0:00:00"
-                    # set the same time as previous rider
-                    else:
-                        row[time_field] = self.table[1:][i - 1]['time']
+                    row[time_field] = add_times(first_time, row[time_field])
+            else:
+                if i == 0:
+                    row[time_field] = "0:00:00"
+                else:
+                    # set same time as prev rider
+                    row[time_field] = self.table[1:][i - 1][time_field]
 
 
     def _filter_a_elements(self, keyword: str, get_href: bool,
