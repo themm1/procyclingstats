@@ -254,8 +254,8 @@ class Rider(Scraper):
         available_fields = (
             "result",
             "gc_position",
-            "stage_url",
-            "stage_name",
+            # "stage_url",
+            # "stage_name",
             "distance",
             "date",
             "pcs_points",
@@ -271,7 +271,10 @@ class Rider(Scraper):
         for tr in results_html.css("tbody > tr"):
             if not tr.css("td")[1].text():
                 tr.remove()
-                
+
+        # Clean string for conversion to int, float, etc.
+        clean_data_string = lambda x: x.strip().split(' ')[-1]
+
         table_parser = TableParser(results_html)
         if casual_fields:
             table_parser.parse(casual_fields)
@@ -298,7 +301,7 @@ class Rider(Scraper):
             table_parser.extend_table("gc_position", gc_positions)
         if "distance" in fields:
             distances = table_parser.parse_extra_column("Distance", lambda x:
-                float(x) if x.split(".")[0].isnumeric() else None)
+                float(clean_data_string(x)) if x.split(".")[0].isnumeric() else None)
             table_parser.extend_table("distance", distances)
         if "pcs_points" in fields:
             pcs_points = table_parser.parse_extra_column("PCS", lambda x:
