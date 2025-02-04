@@ -254,8 +254,8 @@ class Rider(Scraper):
         available_fields = (
             "result",
             "gc_position",
-            # "stage_url",
-            # "stage_name",
+            "stage_url",
+            "stage_name",
             "distance",
             "date",
             "pcs_points",
