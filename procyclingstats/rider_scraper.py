@@ -108,6 +108,50 @@ class Rider(Scraper):
             # Height not found
             except Exception:
                 return None
+            
+    def weight_and_height(self) -> Dict[str, float]:
+        """
+        Parses rider's weight and height from HTML.
+
+        This method is necessary since the new HTML format in procyclingstats.com
+        means the value of height can come to weight if weight is not available, but height is.
+
+        So this function fix that issue by comparing the two value with a cutoff of 10. 
+        As the format is always kg and meters, there is realistically no adult human who weights <10kg and height >10m. 
+
+        Additional validation is also done to ensure the values are in realistic ranges.
+
+        :return: Dict with rider's weight and height in kilograms and meters.
+        """
+
+        w = self.weight()  # Expected in kg
+        h = self.height()  # Expected in meters
+
+        weight, height = None, None
+
+        # Case 1: Both values exist
+        if w is not None and h is not None:
+            weight = w if w >= 10 else h if h >= 10 else None
+            height = h if h < 10 else w if w < 10 else None
+
+        # Case 2: Only weight exists
+        elif w is not None:
+            weight = w if w >= 10 else None
+            height = w if w < 10 else None
+
+        # Case 3: Only height exists
+        elif h is not None:
+            height = h if h < 10 else None
+            weight = h if h >= 10 else None
+
+        # Post-validation for realistic ranges
+        if weight and not (30 <= weight <= 120):
+            weight = None
+        if height and not (1.5 <= height <= 2.2):
+            height = None
+
+        return {"weight": weight, "height": height}
+
 
     def nationality(self) -> str:
         """
@@ -271,7 +315,10 @@ class Rider(Scraper):
         for tr in results_html.css("tbody > tr"):
             if not tr.css("td")[1].text():
                 tr.remove()
-                
+
+        # Clean string when there's an additional crossed-out value. Takes most recent updated value
+        clean_crossed_out_val = lambda x: x.strip().split(' ')[-1]
+
         table_parser = TableParser(results_html)
         if casual_fields:
             table_parser.parse(casual_fields)
@@ -298,15 +345,15 @@ class Rider(Scraper):
             table_parser.extend_table("gc_position", gc_positions)
         if "distance" in fields:
             distances = table_parser.parse_extra_column("Distance", lambda x:
-                float(x) if x.split(".")[0].isnumeric() else None)
+                float(clean_crossed_out_val(x)) if x.split(".")[0].isnumeric() else None)
             table_parser.extend_table("distance", distances)
         if "pcs_points" in fields:
             pcs_points = table_parser.parse_extra_column("PCS", lambda x:
-                float(x) if x.isnumeric() else 0)
+                float(clean_crossed_out_val(x)) if x.isnumeric() else 0)
             table_parser.extend_table("pcs_points", pcs_points)
         if "uci_points" in fields:
             uci_points = table_parser.parse_extra_column("UCI", lambda x:
-                float(x) if x.isnumeric() else 0)
+                float(clean_crossed_out_val(x)) if x.isnumeric() else 0)
             table_parser.extend_table("uci_points", uci_points)
             
         return table_parser.table
