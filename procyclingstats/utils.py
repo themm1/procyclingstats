@@ -1,7 +1,7 @@
 import datetime
 import math
 import re
-from typing import Any, Dict, List, Tuple, Union
+from typing import Any, Dict, List, Tuple, Union, Optional
 
 from selectolax.parser import HTMLParser, Node
 
@@ -184,3 +184,37 @@ def parse_table_fields_args(args: Tuple[str],
     if args:
         return list(args)
     return list(available_fields)
+
+def get_height_weight(h: Optional[float], w: Optional[float]) -> Tuple[
+                      Optional[float], Optional[float]]:
+    """
+    Based on expected human height and weight decides whether height and values have
+    to be swapped.
+    :param h: Height value
+    :param w: Weight value.
+    return: Tuple where first value is real height and second value is real weight.
+    """
+    weight, height = None, None
+    # Case 1: Both values exist
+    if w is not None and h is not None:
+        weight = w if w >= 10 else h if h >= 10 else None
+        height = h if h < 10 else w if w < 10 else None
+
+    # Case 2: Only weight exists
+    elif w is not None:
+        weight = w if w >= 10 else None
+        height = w if w < 10 else None
+
+    # Case 3: Only height exists
+    elif h is not None:
+        height = h if h < 10 else None
+        weight = h if h >= 10 else None
+
+    # Post-validation for realistic ranges
+    if weight and not (30 <= weight <= 120):
+        weight = None
+    if height and not (1.5 <= height <= 2.2):
+        height = None
+    return height, height
+
+

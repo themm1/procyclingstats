@@ -3,7 +3,7 @@ from typing import Any, Dict, List, Optional
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import get_day_month, parse_table_fields_args
+from .utils import get_day_month, parse_table_fields_args, get_height_weight
 
 
 class Rider(Scraper):
@@ -71,9 +71,9 @@ class Rider(Scraper):
         """
         return self.html.css_first(".page-title > .main > h1").text()
 
-    def weight(self) -> Optional[float]:
+    def _weight(self) -> Optional[float]:
         """
-        Parses rider's current weight from HTML.
+        Helper method for parsing weight.
 
         :return: Rider's weigth in kilograms.
         """
@@ -89,9 +89,17 @@ class Rider(Scraper):
             except Exception:
                 return None
 
-    def height(self) -> Optional[float]:
+    def weight(self) -> Optional[float]:
         """
         Parses rider's height from HTML.
+
+        :return: Rider's height in meters.
+        """
+        return get_height_weight(self._height(), self._weight())[1]
+
+    def _height(self) -> Optional[float]:
+        """
+        Helper method for parsing height.
 
         :return: Rider's height in meters.
         """
@@ -108,51 +116,15 @@ class Rider(Scraper):
             # Height not found
             except Exception:
                 return None
+
+    def height(self) -> Optional[float]:
+        """
+        Parses rider's height from HTML.
+
+        :return: Rider's height in meters.
+        """
+        return get_height_weight(self._height(), self._weight())[0]
             
-    def weight_and_height(self) -> Dict[str, float]:
-        """
-        Parses rider's weight and height from HTML.
-
-        This method is necessary since the new HTML format in procyclingstats.com
-        means the value of height can come to weight if weight is not available, but height is.
-
-        So this function fix that issue by comparing the two value with a cutoff of 10. 
-        As the format is always kg and meters, there is realistically no adult human who weights <10kg and height >10m. 
-
-        Additional validation is also done to ensure the values are in realistic ranges.
-
-        :return: Dict with rider's weight and height in kilograms and meters.
-        """
-
-        w = self.weight()  # Expected in kg
-        h = self.height()  # Expected in meters
-
-        weight, height = None, None
-
-        # Case 1: Both values exist
-        if w is not None and h is not None:
-            weight = w if w >= 10 else h if h >= 10 else None
-            height = h if h < 10 else w if w < 10 else None
-
-        # Case 2: Only weight exists
-        elif w is not None:
-            weight = w if w >= 10 else None
-            height = w if w < 10 else None
-
-        # Case 3: Only height exists
-        elif h is not None:
-            height = h if h < 10 else None
-            weight = h if h >= 10 else None
-
-        # Post-validation for realistic ranges
-        if weight and not (30 <= weight <= 120):
-            weight = None
-        if height and not (1.5 <= height <= 2.2):
-            height = None
-
-        return {"weight": weight, "height": height}
-
-
     def nationality(self) -> str:
         """
         Parses rider's nationality from HTML.
@@ -208,16 +180,17 @@ class Rider(Scraper):
             "class"
         )
         fields = parse_table_fields_args(args, available_fields)
-        seasons_html_table = self.html.css_first("ul.list.rdr-teams")
+        seasons_html_table = self.html.css_first("ul.rdr-teams2")
         table_parser = TableParser(seasons_html_table)
         casual_fields = [f for f in fields
                          if f in ("season", "team_name", "team_url")]
         if casual_fields:
             table_parser.parse(casual_fields)
         # add classes for row validity checking
-        classes = table_parser.parse_extra_column(2,
-            lambda x: x.replace("(", "").replace(")", "").replace(" ", "")
-            if x and "retired" not in x.lower() else None)
+        classes = table_parser.parse_extra_column(1,
+            lambda x: x.split(" ")[-1].replace("(", "").replace(")", "")
+            if x and not x.split(" ")[-1].replace("(", "").replace(")", "")[0].isnumeric() and
+            "retired" not in x.lower() else None)
         table_parser.extend_table("class", classes)
         if "since" in fields:
             until_dates = table_parser.parse_extra_column(-2,
@@ -227,7 +200,6 @@ class Rider(Scraper):
             until_dates = table_parser.parse_extra_column(-2,
                 lambda x: get_day_month(x) if "until" in x else "12-31")
             table_parser.extend_table("until", until_dates)
-
         table = [row for row in table_parser.table if row['class']]
         # remove class field if isn't needed
         if "class" not in fields:
