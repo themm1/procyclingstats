@@ -66,6 +66,7 @@ def run(args: argparse.Namespace, fixturer_path: str = "./tests/fixtures/"):
     elif args.command == "update_htmls":
         urls = f_utils.get_urls_from_fixtures_dir("txt")
         for url in urls:
+            print(url)
             ScraperClass = get_corresponding_scraping_class(url)
             # create scraping object from both old and new HTML
             new_scraper_obj = ScraperClass(url)

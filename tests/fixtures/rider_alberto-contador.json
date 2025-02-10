@@ -1,7 +1,7 @@
 {
   "birthdate": "1982-12-6",
   "height": 1.76,
-  "image_url": "images/riders/bp/da/alberto-contador-2017.jpg",
+  "image_url": "images/riders/bp/da/alberto-contador-2014.png",
   "name": "Alberto  Contador",
   "nationality": "ES",
   "place_of_birth": "Pinto",
@@ -39,7 +39,7 @@
     {
       "season": 2011,
       "points": 100.0,
-      "rank": 537
+      "rank": 558
     },
     {
       "season": 2010,
@@ -48,12 +48,12 @@
     },
     {
       "season": 2009,
-      "points": 1926.0,
+      "points": 1941.0,
       "rank": 2
     },
     {
       "season": 2008,
-      "points": 2113.0,
+      "points": 2103.0,
       "rank": 2
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "season": 2006,
-      "points": 589.0,
-      "rank": 73
+      "points": 593.0,
+      "rank": 70
     },
     {
       "season": 2005,
@@ -74,30 +74,30 @@
     {
       "season": 2004,
       "points": 121.0,
-      "rank": 459
+      "rank": 463
     },
     {
       "season": 2003,
       "points": 103.0,
-      "rank": 490
+      "rank": 496
     },
     {
       "season": 2002,
       "points": 6.0,
-      "rank": 1416
+      "rank": 1445
     }
   ],
   "points_per_speciality": {
     "one_day_races": 770,
     "gc": 11393,
-    "time_trial": 6062,
-    "sprint": 1254,
+    "time_trial": 6093,
+    "sprint": 102,
     "climber": 8230,
     "hills": 2379
   },
   "season_results": [
     {
-      "stage_url": "race/vuelta-a-espana/2017/kom",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/kom",
       "stage_name": "Mountains classification",
       "date": null,
       "result": 9,
@@ -107,7 +107,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/points",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/points",
       "stage_name": "Points classification",
       "date": null,
       "result": 4,
@@ -117,7 +117,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/gc",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/gc",
       "stage_name": "General classification",
       "date": null,
       "result": 5,
@@ -127,7 +127,7 @@
       "uci_points": 380.0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-21",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-21",
       "stage_name": "Stage 21 - Arroyomolinos \u203a Madrid",
       "date": "2017-09-10",
       "result": 26,
@@ -137,7 +137,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-20",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-20",
       "stage_name": "Stage 20 - Corvera de Asturias \u203a Alto de l'Angliru",
       "date": "2017-09-09",
       "result": 1,
@@ -147,7 +147,7 @@
       "uci_points": 100.0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-19",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-19",
       "stage_name": "Stage 19 - Caso. Parque Natural de Redes \u203a Gij\u00f3n",
       "date": "2017-09-08",
       "result": 38,
@@ -157,7 +157,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-18",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-18",
       "stage_name": "Stage 18 - Suances  \u203a Santo Toribio de Li\u00e9bana",
       "date": "2017-09-07",
       "result": 21,
@@ -167,7 +167,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-17",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-17",
       "stage_name": "Stage 17 - Villadiego \u203a Los Machucos. Monumento Vaca Pasiega",
       "date": "2017-09-06",
       "result": 2,
@@ -177,7 +177,7 @@
       "uci_points": 40.0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-16",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-16",
       "stage_name": "Stage 16 (ITT) - Circuito de Navarra  \u203a Logro\u00f1o",
       "date": "2017-09-05",
       "result": 5,
@@ -187,7 +187,7 @@
       "uci_points": 4.0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-15",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-15",
       "stage_name": "Stage 15 - Alcal\u00e1 la Real \u203a Sierra Nevada. Alto Hoya de la Mora",
       "date": "2017-09-03",
       "result": 13,
@@ -197,7 +197,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-14",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-14",
       "stage_name": "Stage 14 - \u00c9cija \u203a Sierra de La Pandera",
       "date": "2017-09-02",
       "result": 7,
@@ -207,7 +207,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-13",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-13",
       "stage_name": "Stage 13 - Co\u00edn \u203a Tomares",
       "date": "2017-09-01",
       "result": 9,
@@ -217,7 +217,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-12",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-12",
       "stage_name": "Stage 12 - Motril \u203a Antequera Los D\u00f3lmenes ",
       "date": "2017-08-31",
       "result": 13,
@@ -227,7 +227,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-11",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-11",
       "stage_name": "Stage 11 - Lorca \u203a Observatorio Astron\u00f3mico de Calar Alto ",
       "date": "2017-08-30",
       "result": 6,
@@ -237,7 +237,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-10",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-10",
       "stage_name": "Stage 10 - Caravaca Jubilar \u203a ElPozo Alimentaci\u00f3n (Alhama de Murcia)",
       "date": "2017-08-29",
       "result": 21,
@@ -247,7 +247,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-9",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-9",
       "stage_name": "Stage 9 - Orihuela  \u203a Cumbre del Sol (Alto de Puig Lloren\u00e7a)",
       "date": "2017-08-27",
       "result": 6,
@@ -257,7 +257,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-8",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-8",
       "stage_name": "Stage 8 - Hell\u00edn \u203a Xorret de Cat\u00ed  ",
       "date": "2017-08-26",
       "result": 13,
@@ -267,7 +267,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-7",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-7",
       "stage_name": "Stage 7 - Ll\u00edria \u203a Cuenca ",
       "date": "2017-08-25",
       "result": 25,
@@ -277,7 +277,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-6",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-6",
       "stage_name": "Stage 6 - Vila-Real \u203a Sagunt",
       "date": "2017-08-24",
       "result": 22,
@@ -287,7 +287,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-5",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-5",
       "stage_name": "Stage 5 - Benic\u00e0ssim  \u203a Alcossebre ",
       "date": "2017-08-23",
       "result": 13,
@@ -297,7 +297,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-4",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-4",
       "stage_name": "Stage 4 - Escaldes-Engordany \u203a Tarragona ",
       "date": "2017-08-22",
       "result": 35,
@@ -307,7 +307,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-3",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-3",
       "stage_name": "Stage 3 - Prades Conflent Canig\u00f3 \u203a Andorra la Vella",
       "date": "2017-08-21",
       "result": 37,
@@ -317,7 +317,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-2",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-2",
       "stage_name": "Stage 2 - Nimes \u203a Gruissan",
       "date": "2017-08-20",
       "result": 62,
@@ -327,7 +327,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/vuelta-a-espana/2017/stage-1",
+      "stage_url": "https://www.procyclingstats.com/race/vuelta-a-espana/2017/stage-1",
       "stage_name": "Stage 1 (TTT) - N\u00eemes \u203a N\u00eemes",
       "date": "2017-08-19",
       "result": 11,
@@ -337,7 +337,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/kom",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/kom",
       "stage_name": "Mountains classification",
       "date": null,
       "result": 9,
@@ -347,7 +347,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/points",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/points",
       "stage_name": "Points classification",
       "date": null,
       "result": 30,
@@ -357,7 +357,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/gc",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/gc",
       "stage_name": "General classification",
       "date": null,
       "result": 9,
@@ -367,7 +367,7 @@
       "uci_points": 225.0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-21",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-21",
       "stage_name": "Stage 21 - Montgeron \u203a Paris",
       "date": "2017-07-23",
       "result": 82,
@@ -377,7 +377,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-20",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-20",
       "stage_name": "Stage 20 (ITT) - Marseille \u203a Marseille",
       "date": "2017-07-22",
       "result": 6,
@@ -387,7 +387,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-19",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-19",
       "stage_name": "Stage 19 - Embrun \u203a Salon-de-Provence",
       "date": "2017-07-21",
       "result": 62,
@@ -397,7 +397,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-18",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-18",
       "stage_name": "Stage 18 - Briancon \u203a Izoard",
       "date": "2017-07-20",
       "result": 10,
@@ -407,7 +407,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-17",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-17",
       "stage_name": "Stage 17 - La Mure \u203a Serre-Chevalier",
       "date": "2017-07-19",
       "result": 8,
@@ -417,7 +417,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-16",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-16",
       "stage_name": "Stage 16 - Le Puy-en-Velay \u203a Romans-sur-Is\u00e8re",
       "date": "2017-07-18",
       "result": 46,
@@ -427,7 +427,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-15",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-15",
       "stage_name": "Stage 15 - Laissac-S\u00e9v\u00e9rac l'\u00c9glise \u203a Le Puy-en-Velay",
       "date": "2017-07-16",
       "result": 36,
@@ -437,7 +437,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-14",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-14",
       "stage_name": "Stage 14 - Blagnac \u203a Rodez",
       "date": "2017-07-15",
       "result": 24,
@@ -447,7 +447,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-13",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-13",
       "stage_name": "Stage 13 - Saint-Girons \u203a Foix",
       "date": "2017-07-14",
       "result": 3,
@@ -457,7 +457,7 @@
       "uci_points": 25.0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-12",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-12",
       "stage_name": "Stage 12 - Pau \u203a Peyragudes",
       "date": "2017-07-13",
       "result": 14,
@@ -467,7 +467,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-11",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-11",
       "stage_name": "Stage 11 - Eymet \u203a Pau",
       "date": "2017-07-12",
       "result": 71,
@@ -477,7 +477,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-10",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-10",
       "stage_name": "Stage 10 - P\u00e9rigueux \u203a Bergerac",
       "date": "2017-07-11",
       "result": 89,
@@ -487,7 +487,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-9",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-9",
       "stage_name": "Stage 9 - Nantua \u203a Chamb\u00e9ry",
       "date": "2017-07-09",
       "result": 20,
@@ -497,7 +497,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-8",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-8",
       "stage_name": "Stage 8 - Dole \u203a Station des Rousses",
       "date": "2017-07-08",
       "result": 30,
@@ -507,7 +507,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-7",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-7",
       "stage_name": "Stage 7 - Troyes \u203a Nuits-Saint-Georges",
       "date": "2017-07-07",
       "result": 66,
@@ -517,7 +517,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-6",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-6",
       "stage_name": "Stage 6 - Vesoul \u203a Troyes",
       "date": "2017-07-06",
       "result": 46,
@@ -527,7 +527,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-5",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-5",
       "stage_name": "Stage 5 - Vittel \u203a La Planche des Belles Filles",
       "date": "2017-07-05",
       "result": 8,
@@ -537,7 +537,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-4",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-4",
       "stage_name": "Stage 4 - Mondorf-les-Bains \u203a Vittel",
       "date": "2017-07-04",
       "result": 81,
@@ -547,7 +547,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-3",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-3",
       "stage_name": "Stage 3 - Verviers \u203a Longwy",
       "date": "2017-07-03",
       "result": 18,
@@ -557,7 +557,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-2",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-2",
       "stage_name": "Stage 2 - D\u00fcsseldorf \u203a Li\u00e8ge",
       "date": "2017-07-02",
       "result": 71,
@@ -567,7 +567,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/tour-de-france/2017/stage-1",
+      "stage_url": "https://www.procyclingstats.com/race/tour-de-france/2017/stage-1",
       "stage_name": "Stage 1 (ITT) - D\u00fcsseldorf \u203a D\u00fcsseldorf",
       "date": "2017-07-01",
       "result": 68,
@@ -577,7 +577,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/kom",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/kom",
       "stage_name": "Mountains classification",
       "date": null,
       "result": 26,
@@ -587,7 +587,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/points",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/points",
       "stage_name": "Points classification",
       "date": null,
       "result": 28,
@@ -597,7 +597,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/gc",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/gc",
       "stage_name": "General classification",
       "date": null,
       "result": 11,
@@ -607,7 +607,7 @@
       "uci_points": 70.0
     },
     {
-      "stage_url": "race/dauphine/2017/stage-8",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/stage-8",
       "stage_name": "Stage 8 - Albertville \u203a Plateau de Solaison",
       "date": "2017-06-11",
       "result": 11,
@@ -617,7 +617,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/stage-7",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/stage-7",
       "stage_name": "Stage 7 - Aoste \u203a Alpe d'Huez",
       "date": "2017-06-10",
       "result": 9,
@@ -627,7 +627,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/stage-6",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/stage-6",
       "stage_name": "Stage 6 - Parc des Oiseaux - Villars-les-Dombes \u203a La Motte-Servolex",
       "date": "2017-06-09",
       "result": 9,
@@ -637,7 +637,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/stage-5",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/stage-5",
       "stage_name": "Stage 5 - La Tour-de-Salvagny \u203a M\u00e2con",
       "date": "2017-06-08",
       "result": 35,
@@ -647,7 +647,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/stage-4",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/stage-4",
       "stage_name": "Stage 4 (ITT) - La Tour-du-Pin \u203a Bourgion-Jalieu",
       "date": "2017-06-07",
       "result": 7,
@@ -657,7 +657,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/stage-3",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/stage-3",
       "stage_name": "Stage 3 - Le Chambon-sur-Lignon \u203a Tullins",
       "date": "2017-06-06",
       "result": 82,
@@ -667,7 +667,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/stage-2",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/stage-2",
       "stage_name": "Stage 2 - Saint-Chamond \u203a Arlanc",
       "date": "2017-06-05",
       "result": 98,
@@ -677,7 +677,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/dauphine/2017/stage-1",
+      "stage_url": "https://www.procyclingstats.com/race/dauphine/2017/stage-1",
       "stage_name": "Stage 1 - Saint-\u00c9tienne \u203a Saint-\u00c9tienne",
       "date": "2017-06-04",
       "result": 39,
@@ -687,7 +687,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/kom",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/kom",
       "stage_name": "Mountains classification",
       "date": null,
       "result": 22,
@@ -697,7 +697,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/points",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/points",
       "stage_name": "Points classification",
       "date": null,
       "result": 15,
@@ -707,7 +707,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/gc",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/gc",
       "stage_name": "General classification",
       "date": null,
       "result": 2,
@@ -717,7 +717,7 @@
       "uci_points": 320.0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/stage-6",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/stage-6",
       "stage_name": "Stage 6 (ITT) - Eibar \u203a Eibar",
       "date": "2017-04-08",
       "result": 4,
@@ -727,7 +727,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/stage-5",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/stage-5",
       "stage_name": "Stage 5 - Bilbao \u203a Arrate",
       "date": "2017-04-07",
       "result": 6,
@@ -737,7 +737,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/stage-4",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/stage-4",
       "stage_name": "Stage 4 - Donostia \u203a Bilbao",
       "date": "2017-04-06",
       "result": 38,
@@ -747,7 +747,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/stage-3",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/stage-3",
       "stage_name": "Stage 3 - Gasteiz \u203a Donostia",
       "date": "2017-04-05",
       "result": 33,
@@ -757,7 +757,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/stage-2",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/stage-2",
       "stage_name": "Stage 2 - Pamplona \u203a Eltziego",
       "date": "2017-04-04",
       "result": 86,
@@ -767,7 +767,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/itzulia-basque-country/2017/stage-1",
+      "stage_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2017/stage-1",
       "stage_name": "Stage 1 - Pamplona \u203a Eguesibar-Sarriguren",
       "date": "2017-04-03",
       "result": 136,
@@ -777,7 +777,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/kom",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/kom",
       "stage_name": "Mountains classification",
       "date": null,
       "result": 4,
@@ -787,7 +787,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/gc",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/gc",
       "stage_name": "General classification",
       "date": null,
       "result": 2,
@@ -797,7 +797,7 @@
       "uci_points": 320.0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/stage-7",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/stage-7",
       "stage_name": "Stage 7 - Barcelona \u203a Barcelona",
       "date": "2017-03-26",
       "result": 15,
@@ -807,7 +807,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/stage-6",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/stage-6",
       "stage_name": "Stage 6 - Tortosa \u203a Reus",
       "date": "2017-03-25",
       "result": 27,
@@ -817,7 +817,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/stage-5",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/stage-5",
       "stage_name": "Stage 5 - Valls \u203a Lo Port (Tortosa)",
       "date": "2017-03-24",
       "result": 3,
@@ -827,7 +827,7 @@
       "uci_points": 8.0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/stage-4",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/stage-4",
       "stage_name": "Stage 4 - La Seu d'Urgell \u203a Igualada",
       "date": "2017-03-23",
       "result": 16,
@@ -837,7 +837,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/stage-3",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/stage-3",
       "stage_name": "Stage 3 - Matar\u00f3 \u203a La Molina",
       "date": "2017-03-22",
       "result": 7,
@@ -847,7 +847,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/stage-2",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/stage-2",
       "stage_name": "Stage 2 (TTT) - Banyoles \u203a Banyoles",
       "date": "2017-03-21",
       "result": 4,
@@ -857,7 +857,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/volta-a-catalunya/2017/stage-1",
+      "stage_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2017/stage-1",
       "stage_name": "Stage 1 - Calella \u203a Calella",
       "date": "2017-03-20",
       "result": 57,
@@ -867,7 +867,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/paris-nice/2017/kom",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/kom",
       "stage_name": "Mountains classification",
       "date": null,
       "result": 3,
@@ -877,7 +877,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/paris-nice/2017/points",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/points",
       "stage_name": "Points classification",
       "date": null,
       "result": 2,
@@ -887,7 +887,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/paris-nice/2017/gc",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/gc",
       "stage_name": "General classification",
       "date": null,
       "result": 2,
@@ -897,7 +897,7 @@
       "uci_points": 400.0
     },
     {
-      "stage_url": "race/paris-nice/2017/stage-8",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/stage-8",
       "stage_name": "Stage 8 - Nice \u203a Nice",
       "date": "2017-03-12",
       "result": 2,
@@ -907,7 +907,7 @@
       "uci_points": 25.0
     },
     {
-      "stage_url": "race/paris-nice/2017/stage-7",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/stage-7",
       "stage_name": "Stage 7 - Nice \u203a Col de la Couillole",
       "date": "2017-03-11",
       "result": 2,
@@ -917,7 +917,7 @@
       "uci_points": 25.0
     },
     {
-      "stage_url": "race/paris-nice/2017/stage-6",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/stage-6",
       "stage_name": "Stage 6 - Aubagne \u203a Fayence",
       "date": "2017-03-10",
       "result": 8,
@@ -927,7 +927,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/paris-nice/2017/stage-5",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/stage-5",
       "stage_name": "Stage 5 - Quinci\u00e9-en-Beaujolais \u203a Bourg-de-P\u00e9age",
       "date": "2017-03-09",
       "result": 55,
@@ -937,7 +937,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/paris-nice/2017/stage-4",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/stage-4",
       "stage_name": "Stage 4 (ITT) - Beaujeu \u203a Mont Brouilly",
       "date": "2017-03-08",
       "result": 2,
@@ -947,7 +947,7 @@
       "uci_points": 25.0
     },
     {
-      "stage_url": "race/paris-nice/2017/stage-3",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/stage-3",
       "stage_name": "Stage 3 - Chablis \u203a Chalon-sur-Sa\u00f4ne",
       "date": "2017-03-07",
       "result": 54,
@@ -957,7 +957,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/paris-nice/2017/stage-2",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/stage-2",
       "stage_name": "Stage 2 - Rochefort-en-Yvelines \u203a Amilly",
       "date": "2017-03-06",
       "result": 36,
@@ -967,7 +967,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/paris-nice/2017/stage-1",
+      "stage_url": "https://www.procyclingstats.com/race/paris-nice/2017/stage-1",
       "stage_name": "Stage 1 - Bois-d'Arcy \u203a Bois-d'Arcy",
       "date": "2017-03-05",
       "result": 20,
@@ -977,7 +977,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/abu-dhabi-tour/2017/gc",
+      "stage_url": "https://www.procyclingstats.com/race/abu-dhabi-tour/2017/gc",
       "stage_name": "General classification",
       "date": null,
       "result": 15,
@@ -987,7 +987,7 @@
       "uci_points": 20.0
     },
     {
-      "stage_url": "race/abu-dhabi-tour/2017/stage-4",
+      "stage_url": "https://www.procyclingstats.com/race/abu-dhabi-tour/2017/stage-4",
       "stage_name": "Stage 4 - Yas Marina \u203a Yas Marina",
       "date": "2017-02-26",
       "result": 97,
@@ -997,7 +997,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/abu-dhabi-tour/2017/stage-3",
+      "stage_url": "https://www.procyclingstats.com/race/abu-dhabi-tour/2017/stage-3",
       "stage_name": "Stage 3 - Hazza Bin Zayed Stadium \u203a Jebel Hafeet",
       "date": "2017-02-25",
       "result": 13,
@@ -1007,7 +1007,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/abu-dhabi-tour/2017/stage-2",
+      "stage_url": "https://www.procyclingstats.com/race/abu-dhabi-tour/2017/stage-2",
       "stage_name": "Stage 2 -  Al Maryah Island \u203a Big Flag",
       "date": "2017-02-24",
       "result": 107,
@@ -1017,7 +1017,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/abu-dhabi-tour/2017/stage-1",
+      "stage_url": "https://www.procyclingstats.com/race/abu-dhabi-tour/2017/stage-1",
       "stage_name": "Stage 1 - Baynounah Educational Complex \u203a Madinat Zayed",
       "date": "2017-02-23",
       "result": 88,
@@ -1027,7 +1027,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/ruta-del-sol/2017/kom",
+      "stage_url": "https://www.procyclingstats.com/race/ruta-del-sol/2017/kom",
       "stage_name": "Mountains classification",
       "date": null,
       "result": 4,
@@ -1037,7 +1037,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/ruta-del-sol/2017/points",
+      "stage_url": "https://www.procyclingstats.com/race/ruta-del-sol/2017/points",
       "stage_name": "Points classification",
       "date": null,
       "result": 3,
@@ -1047,7 +1047,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/ruta-del-sol/2017/gc",
+      "stage_url": "https://www.procyclingstats.com/race/ruta-del-sol/2017/gc",
       "stage_name": "General classification",
       "date": null,
       "result": 2,
@@ -1057,7 +1057,7 @@
       "uci_points": 150.0
     },
     {
-      "stage_url": "race/ruta-del-sol/2017/stage-5",
+      "stage_url": "https://www.procyclingstats.com/race/ruta-del-sol/2017/stage-5",
       "stage_name": "Stage 5 - Setenil de las Bodegas (C\u00e1diz) \u203a Co\u00edn (M\u00e1laga)",
       "date": "2017-02-19",
       "result": 25,
@@ -1067,7 +1067,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/ruta-del-sol/2017/stage-4",
+      "stage_url": "https://www.procyclingstats.com/race/ruta-del-sol/2017/stage-4",
       "stage_name": "Stage 4 - La Campana (Sevilla) \u203a Sevilla",
       "date": "2017-02-18",
       "result": 56,
@@ -1077,7 +1077,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/ruta-del-sol/2017/stage-3",
+      "stage_url": "https://www.procyclingstats.com/race/ruta-del-sol/2017/stage-3",
       "stage_name": "Stage 3 (ITT) - Lucena \u203a C\u00f3rdoba",
       "date": "2017-02-17",
       "result": 3,
@@ -1087,7 +1087,7 @@
       "uci_points": 5.0
     },
     {
-      "stage_url": "race/ruta-del-sol/2017/stage-2",
+      "stage_url": "https://www.procyclingstats.com/race/ruta-del-sol/2017/stage-2",
       "stage_name": "Stage 2 - Torredonjimeno \u203a Alto Pe\u00f1a del \u00c1guila, Mancha Real (Ja\u00e9n)",
       "date": "2017-02-16",
       "result": 2,
@@ -1097,7 +1097,7 @@
       "uci_points": 0
     },
     {
-      "stage_url": "race/ruta-del-sol/2017/stage-1",
+      "stage_url": "https://www.procyclingstats.com/race/ruta-del-sol/2017/stage-1",
       "stage_name": "Stage 1 - Rinc\u00f3n de la Victoria (M\u00e1laga) \u203a Granada",
       "date": "2017-02-15",
       "result": 6,
@@ -1108,14 +1108,6 @@
     }
   ],
   "teams_history": [
-    {
-      "season": 2017,
-      "team_name": "Trek - Segafredo",
-      "team_url": "team/trek-segafredo-2017",
-      "class": "WT",
-      "since": "01-01",
-      "until": "09-10"
-    },
     {
       "season": 2016,
       "team_name": "Tinkoff",
@@ -1198,8 +1190,8 @@
     },
     {
       "season": 2006,
-      "team_name": "Liberty Seguros - W\u00fcrth",
-      "team_url": "team/liberty-seguros-wurth-2006",
+      "team_name": "Astana",
+      "team_url": "team/astana-2006",
       "class": "PT",
       "since": "01-01",
       "until": "12-31"
@@ -1227,15 +1219,7 @@
       "class": "TT1",
       "since": "01-01",
       "until": "12-31"
-    },
-    {
-      "season": 2002,
-      "team_name": "O.N.C.E. - Eroski",
-      "team_url": "team/o.n.c.e.-eroski-2002",
-      "class": "TT1",
-      "since": "09-01",
-      "until": "12-31"
     }
   ],
-  "weight": 61.0
+  "weight": 1.76
 }
