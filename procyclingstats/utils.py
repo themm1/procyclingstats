@@ -215,6 +215,6 @@ def get_height_weight(h: Optional[float], w: Optional[float]) -> Tuple[
         weight = None
     if height and not (1.5 <= height <= 2.2):
         height = None
-    return height, height
+    return height, weight
 
 
