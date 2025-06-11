@@ -68,21 +68,45 @@ def timedelta_to_time(tdelta: datetime.timedelta) -> str:
 
 def time_to_timedelta(time: str) -> datetime.timedelta:
     """
-    Converts time in `H:MM:SS` format to timedelta object.
+    Converts time in `H:MM:SS` or `H:MM:SS.ms` format to timedelta.
 
     :param time: Time to convert.
     :return: Timedelta object.
     """
-    [hours, minutes, seconds] = [int(value) for value in time.split(":")]
-    return datetime.timedelta(hours=hours, minutes=minutes, seconds=seconds)
+    try:
+        # Split milliseconds if present
+        if '.' in time:
+            time_part, ms_part = time.split('.')
+            milliseconds = int(ms_part.ljust(3, '0'))  # pad to ensure 3 digits
+        else:
+            time_part = time
+            milliseconds = 0
+
+        hours, minutes, seconds = [int(p) for p in time_part.split(":")]
+        return datetime.timedelta(hours=hours, minutes=minutes, seconds=seconds, milliseconds=milliseconds)
+    except Exception as e:
+        raise ValueError(f"Invalid time format: {time}") from e
 
 def format_time(time: str) -> str:
     """
-    Convert time from `M:SS` or `MM:SS` format to `H:MM:SS` format.
+    Convert time from formats like `M:SS`, `MM:SS`, or `MM.SS,ms` to `H:MM:SS` or `H:MM:SS.ms`.
 
     :param time: Time to convert.
     :return: Formatted time e.g. `31:03:11`.
     """
+    # Handle European-style format: MM.SS,ms
+    if ',' in time and '.' in time:
+        time = time.replace(' ', '').replace(',', '.')
+        parts = time.split('.')
+        if len(parts) == 4:
+            hours, minutes, seconds, hundredths = parts
+        elif len(parts) == 3:
+            hours = "0"
+            minutes, seconds, hundredths = parts
+        else:
+            raise ValueError(f"Unexpected time format: {time}")
+        return f"{int(hours)}:{minutes.zfill(2)}:{seconds.zfill(2)}.{hundredths}"
+    
     splitted_time = time.split(":")
     # make minutes and seconds two digits long
     for i, time_val in enumerate(splitted_time [-2:]):
