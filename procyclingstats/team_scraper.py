@@ -210,7 +210,7 @@ class Team(Scraper):
             ages_table_html = all_tables[mapping["age"]]
             ages_tp = TableParser(ages_table_html)
             ages_tp.parse(["rider_url"])
-            ages = ages_tp.parse_extra_column(2, lambda x: int(x[:2]))
+            ages = ages_tp.parse_extra_column(2, lambda x: int(x[:2]) if x and x[:2].isdigit() else None)
             ages_tp.extend_table("age", ages)
             table = join_tables(table, ages_tp.table, "rider_url")
 
