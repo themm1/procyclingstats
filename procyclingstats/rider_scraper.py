@@ -71,7 +71,8 @@ class Rider(Scraper):
 
         :return: Rider's name.
         """
-        return self.html.css_first(".page-title > .main > h1").text()
+        raw_name = self.html.css_first(".page-title > .main > h1").text()
+        return re.sub(r'\s+', ' ', raw_name).strip()
 
     def _weight(self) -> Optional[float]:
         """
