@@ -1,8 +1,16 @@
 {
   "dates_select": [
     {
-      "text": "2023-02-26",
-      "value": "2023-02-26"
+      "text": "2025-06-30",
+      "value": "2025-06-30"
+    },
+    {
+      "text": "2024-12-31",
+      "value": "2024-12-31"
+    },
+    {
+      "text": "2023-12-31",
+      "value": "2023-12-31"
     },
     {
       "text": "2022-12-31",
@@ -99,7 +107,7 @@
   ],
   "distance_ranking": [
     {
-      "rider_name": "Benedetti Cesare",
+      "rider_name": "BENEDETTI Cesare",
       "rider_url": "rider/cesare-benedetti",
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2021",
@@ -108,7 +116,7 @@
       "distance": 14784
     },
     {
-      "rider_name": "van Poppel Danny",
+      "rider_name": "VAN POPPEL Danny",
       "rider_url": "rider/danny-van-poppel",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -117,7 +125,7 @@
       "distance": 13592
     },
     {
-      "rider_name": "Walscheid Max",
+      "rider_name": "WALSCHEID Max",
       "rider_url": "rider/max-walscheid",
       "team_name": "Team Qhubeka NextHash",
       "team_url": "team/team-qhubeka-nexthash-2021",
@@ -126,7 +134,7 @@
       "distance": 13550
     },
     {
-      "rider_name": "Pasqualon Andrea",
+      "rider_name": "PASQUALON Andrea",
       "rider_url": "rider/andrea-pasqualon",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -135,7 +143,7 @@
       "distance": 13422
     },
     {
-      "rider_name": "van Poppel Boy",
+      "rider_name": "VAN POPPEL Boy",
       "rider_url": "rider/boy-van-poppel",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -144,7 +152,7 @@
       "distance": 13365
     },
     {
-      "rider_name": "Martin Guillaume",
+      "rider_name": "MARTIN Guillaume",
       "rider_url": "rider/guillaume-martin",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -153,7 +161,7 @@
       "distance": 13364
     },
     {
-      "rider_name": "Herrada Jes\u00fas",
+      "rider_name": "HERRADA Jes\u00fas",
       "rider_url": "rider/jesus-herrada-lopez",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -162,7 +170,7 @@
       "distance": 13357
     },
     {
-      "rider_name": "S\u00e1nchez Luis Le\u00f3n",
+      "rider_name": "S\u00c1NCHEZ Luis Le\u00f3n",
       "rider_url": "rider/luis-leon-sanchez",
       "team_name": "Astana - Premier Tech",
       "team_url": "team/astana-premier-tech-2021",
@@ -171,7 +179,7 @@
       "distance": 13357
     },
     {
-      "rider_name": "Mollema Bauke",
+      "rider_name": "MOLLEMA Bauke",
       "rider_url": "rider/bauke-mollema",
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2021",
@@ -180,7 +188,7 @@
       "distance": 13061
     },
     {
-      "rider_name": "Taaram\u00e4e Rein",
+      "rider_name": "TAARAM\u00c4E Rein",
       "rider_url": "rider/rein-taaramae",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -189,7 +197,7 @@
       "distance": 13052
     },
     {
-      "rider_name": "Petilli Simone",
+      "rider_name": "PETILLI Simone",
       "rider_url": "rider/simone-petilli",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -198,7 +206,7 @@
       "distance": 13003
     },
     {
-      "rider_name": "Owsian \u0141ukasz",
+      "rider_name": "OWSIAN \u0141ukasz",
       "rider_url": "rider/lukasz-owsian",
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2021",
@@ -207,7 +215,7 @@
       "distance": 12944
     },
     {
-      "rider_name": "Hirt Jan",
+      "rider_name": "HIRT Jan",
       "rider_url": "rider/jan-hirt",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -216,7 +224,7 @@
       "distance": 12914
     },
     {
-      "rider_name": "Swift Connor",
+      "rider_name": "SWIFT Connor",
       "rider_url": "rider/connor-swift",
       "team_name": "Team Ark\u00e9a Samsic",
       "team_url": "team/team-arkea-samsic-2021",
@@ -225,7 +233,7 @@
       "distance": 12910
     },
     {
-      "rider_name": "Van Avermaet Greg",
+      "rider_name": "VAN AVERMAET Greg",
       "rider_url": "rider/greg-van-avermaet",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -234,7 +242,7 @@
       "distance": 12907
     },
     {
-      "rider_name": "Naesen Oliver",
+      "rider_name": "NAESEN Oliver",
       "rider_url": "rider/oliver-naesen",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -243,7 +251,7 @@
       "distance": 12698
     },
     {
-      "rider_name": "Clarke Simon",
+      "rider_name": "CLARKE Simon",
       "rider_url": "rider/simon-clarke",
       "team_name": "Team Qhubeka NextHash",
       "team_url": "team/team-qhubeka-nexthash-2021",
@@ -252,7 +260,7 @@
       "distance": 12685
     },
     {
-      "rider_name": "Bouchard Geoffrey",
+      "rider_name": "BOUCHARD Geoffrey",
       "rider_url": "rider/geoffrey-bouchard",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -261,7 +269,7 @@
       "distance": 12623
     },
     {
-      "rider_name": "Lindeman Bert-Jan",
+      "rider_name": "LINDEMAN Bert-Jan",
       "rider_url": "rider/bert-jan-lindeman",
       "team_name": "Team Qhubeka NextHash",
       "team_url": "team/team-qhubeka-nexthash-2021",
@@ -270,7 +278,7 @@
       "distance": 12621
     },
     {
-      "rider_name": "Hamilton Chris",
+      "rider_name": "HAMILTON Chris",
       "rider_url": "rider/chris-hamilton",
       "team_name": "Team DSM",
       "team_url": "team/team-dsm-2021",
@@ -279,7 +287,7 @@
       "distance": 12590
     },
     {
-      "rider_name": "Theuns Edward",
+      "rider_name": "THEUNS Edward",
       "rider_url": "rider/edward-theuns",
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2021",
@@ -288,7 +296,7 @@
       "distance": 12555
     },
     {
-      "rider_name": "Rochas R\u00e9my",
+      "rider_name": "ROCHAS R\u00e9my",
       "rider_url": "rider/remy-rochas",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -297,7 +305,7 @@
       "distance": 12509
     },
     {
-      "rider_name": "Izagirre Ion",
+      "rider_name": "IZAGIRRE Ion",
       "rider_url": "rider/ion-izagirre",
       "team_name": "Astana - Premier Tech",
       "team_url": "team/astana-premier-tech-2021",
@@ -306,7 +314,7 @@
       "distance": 12476
     },
     {
-      "rider_name": "Meeus Jordi",
+      "rider_name": "MEEUS Jordi",
       "rider_url": "rider/jordi-meeus",
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2021",
@@ -315,7 +323,7 @@
       "distance": 12473
     },
     {
-      "rider_name": "Lastra Jonathan",
+      "rider_name": "LASTRA Jonathan",
       "rider_url": "rider/jonathan-lastra",
       "team_name": "Caja Rural - Seguros RGA",
       "team_url": "team/caja-rural-seguros-rga-2021",
@@ -324,7 +332,7 @@
       "distance": 12457
     },
     {
-      "rider_name": "Dewulf Stan",
+      "rider_name": "DEWULF Stan",
       "rider_url": "rider/stan-dewulf",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -333,7 +341,7 @@
       "distance": 12418
     },
     {
-      "rider_name": "Perez Anthony",
+      "rider_name": "PEREZ Anthony",
       "rider_url": "rider/anthony-perez",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -342,7 +350,7 @@
       "distance": 12367
     },
     {
-      "rider_name": "Trentin Matteo",
+      "rider_name": "TRENTIN Matteo",
       "rider_url": "rider/matteo-trentin",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -351,16 +359,16 @@
       "distance": 12364
     },
     {
-      "rider_name": "De Bondt Dries",
+      "rider_name": "DE BONDT Dries",
       "rider_url": "rider/dries-de-bondt",
-      "team_name": "Alpecin-Fenix",
+      "team_name": "Alpecin - Fenix",
       "team_url": "team/alpecin-fenix-2021",
       "rank": 29,
       "nationality": "BE",
       "distance": 12356
     },
     {
-      "rider_name": "Brambilla Gianluca",
+      "rider_name": "BRAMBILLA Gianluca",
       "rider_url": "rider/gianluca-brambilla",
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2021",
@@ -369,7 +377,7 @@
       "distance": 12308
     },
     {
-      "rider_name": "Formolo Davide",
+      "rider_name": "FORMOLO Davide",
       "rider_url": "rider/davide-formolo",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -378,7 +386,7 @@
       "distance": 12299
     },
     {
-      "rider_name": "Albanese Vincenzo",
+      "rider_name": "ALBANESE Vincenzo",
       "rider_url": "rider/vincenzo-albanese",
       "team_name": "EOLO-Kometa",
       "team_url": "team/eolo-kometa-2021",
@@ -387,7 +395,7 @@
       "distance": 12290
     },
     {
-      "rider_name": "Izagirre Gorka",
+      "rider_name": "IZAGIRRE Gorka",
       "rider_url": "rider/gorka-izagirre",
       "team_name": "Astana - Premier Tech",
       "team_url": "team/astana-premier-tech-2021",
@@ -396,7 +404,7 @@
       "distance": 12265
     },
     {
-      "rider_name": "Cort Magnus",
+      "rider_name": "CORT Magnus",
       "rider_url": "rider/magnus-cort-nielsen",
       "team_name": "EF Education - Nippo",
       "team_url": "team/ef-education-nippo-2021",
@@ -405,7 +413,7 @@
       "distance": 12246
     },
     {
-      "rider_name": "Oss Daniel",
+      "rider_name": "OSS Daniel",
       "rider_url": "rider/daniel-oss",
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2021",
@@ -414,7 +422,7 @@
       "distance": 12196
     },
     {
-      "rider_name": "Nibali Vincenzo",
+      "rider_name": "NIBALI Vincenzo",
       "rider_url": "rider/vincenzo-nibali",
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2021",
@@ -423,7 +431,7 @@
       "distance": 12173
     },
     {
-      "rider_name": "Villella Davide",
+      "rider_name": "VILLELLA Davide",
       "rider_url": "rider/davide-villella",
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2021",
@@ -432,7 +440,7 @@
       "distance": 12162
     },
     {
-      "rider_name": "Erviti Imanol",
+      "rider_name": "ERVITI Imanol",
       "rider_url": "rider/imanol-erviti",
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2021",
@@ -441,7 +449,7 @@
       "distance": 12154
     },
     {
-      "rider_name": "Barthe Cyril",
+      "rider_name": "BARTHE Cyril",
       "rider_url": "rider/cyril-barthe",
       "team_name": "B&B Hotels p/b KTM",
       "team_url": "team/b-b-hotels-pb-ktm-2021",
@@ -450,16 +458,16 @@
       "distance": 12151
     },
     {
-      "rider_name": "Simon Julien",
+      "rider_name": "SIMON Julien",
       "rider_url": "rider/julien-simon",
       "team_name": "TotalEnergies",
-      "team_url": "team/team-totalenergies-2021",
+      "team_url": "team/totalenergies-2021",
       "rank": 40,
       "nationality": "FR",
       "distance": 12041
     },
     {
-      "rider_name": "Gautier Cyril",
+      "rider_name": "GAUTIER Cyril",
       "rider_url": "rider/cyril-gautier",
       "team_name": "B&B Hotels p/b KTM",
       "team_url": "team/b-b-hotels-pb-ktm-2021",
@@ -468,7 +476,7 @@
       "distance": 12022
     },
     {
-      "rider_name": "Greipel Andr\u00e9",
+      "rider_name": "GREIPEL Andr\u00e9",
       "rider_url": "rider/andre-greipel",
       "team_name": "Israel Start-Up Nation",
       "team_url": "team/israel-start-up-nation-2021",
@@ -477,7 +485,7 @@
       "distance": 11964
     },
     {
-      "rider_name": "Allegaert Piet",
+      "rider_name": "ALLEGAERT Piet",
       "rider_url": "rider/piet-allegaert",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -486,7 +494,7 @@
       "distance": 11958
     },
     {
-      "rider_name": "Laengen Vegard Stake",
+      "rider_name": "LAENGEN Vegard Stake",
       "rider_url": "rider/vegard-stake-laengen",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -495,7 +503,7 @@
       "distance": 11947
     },
     {
-      "rider_name": "Meintjes Louis",
+      "rider_name": "MEINTJES Louis",
       "rider_url": "rider/louis-meintjes",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -504,7 +512,7 @@
       "distance": 11936
     },
     {
-      "rider_name": "Laporte Christophe",
+      "rider_name": "LAPORTE Christophe",
       "rider_url": "rider/christophe-laporte",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -513,7 +521,7 @@
       "distance": 11933
     },
     {
-      "rider_name": "Majka Rafa\u0142",
+      "rider_name": "MAJKA Rafa\u0142",
       "rider_url": "rider/rafal-majka",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -522,7 +530,7 @@
       "distance": 11928
     },
     {
-      "rider_name": "Mas Enric",
+      "rider_name": "MAS Enric",
       "rider_url": "rider/enric-mas",
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2021",
@@ -531,7 +539,7 @@
       "distance": 11927
     },
     {
-      "rider_name": "Gro\u00dfschartner Felix",
+      "rider_name": "GRO\u00dfSCHARTNER Felix",
       "rider_url": "rider/felix-grossschartner",
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2021",
@@ -540,7 +548,7 @@
       "distance": 11922
     },
     {
-      "rider_name": "Richeze Maximiliano",
+      "rider_name": "RICHEZE Maximiliano",
       "rider_url": "rider/ariel-maximiliano-richeze",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -549,7 +557,7 @@
       "distance": 11921
     },
     {
-      "rider_name": "De Gendt Thomas",
+      "rider_name": "DE GENDT Thomas",
       "rider_url": "rider/thomas-de-gendt",
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2021",
@@ -558,7 +566,7 @@
       "distance": 11915
     },
     {
-      "rider_name": "Mohori\u010d Matej",
+      "rider_name": "MOHORI\u010c Matej",
       "rider_url": "rider/matej-mohoric",
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2021",
@@ -567,7 +575,7 @@
       "distance": 11913
     },
     {
-      "rider_name": "Oliveira Nelson",
+      "rider_name": "OLIVEIRA Nelson",
       "rider_url": "rider/nelson-oliveira",
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2021",
@@ -576,7 +584,7 @@
       "distance": 11906
     },
     {
-      "rider_name": "Oliveira Rui",
+      "rider_name": "OLIVEIRA Rui",
       "rider_url": "rider/rui-oliveira",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -585,7 +593,7 @@
       "distance": 11886
     },
     {
-      "rider_name": "Moschetti Matteo",
+      "rider_name": "MOSCHETTI Matteo",
       "rider_url": "rider/matteo-moschetti",
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2021",
@@ -594,7 +602,7 @@
       "distance": 11876
     },
     {
-      "rider_name": "Touz\u00e9 Damien",
+      "rider_name": "TOUZ\u00c9 Damien",
       "rider_url": "rider/damien-touze",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -603,7 +611,7 @@
       "distance": 11860
     },
     {
-      "rider_name": "M\u00e4der Gino",
+      "rider_name": "M\u00c4DER Gino",
       "rider_url": "rider/gino-mader",
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2021",
@@ -612,7 +620,7 @@
       "distance": 11840
     },
     {
-      "rider_name": "Paret-Peintre Aur\u00e9lien",
+      "rider_name": "PARET-PEINTRE Aur\u00e9lien",
       "rider_url": "rider/aurelien-paret-peintre",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -621,7 +629,7 @@
       "distance": 11837
     },
     {
-      "rider_name": "Vendrame Andrea",
+      "rider_name": "VENDRAME Andrea",
       "rider_url": "rider/andrea-vendrame",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -630,7 +638,7 @@
       "distance": 11827
     },
     {
-      "rider_name": "Vanhoucke Harm",
+      "rider_name": "VANHOUCKE Harm",
       "rider_url": "rider/harm-vanhoucke",
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2021",
@@ -639,7 +647,7 @@
       "distance": 11826
     },
     {
-      "rider_name": "Niv Guy",
+      "rider_name": "NIV Guy",
       "rider_url": "rider/guy-niv",
       "team_name": "Israel Start-Up Nation",
       "team_url": "team/israel-start-up-nation-2021",
@@ -648,7 +656,7 @@
       "distance": 11818
     },
     {
-      "rider_name": "Godon Dorian",
+      "rider_name": "GODON Dorian",
       "rider_url": "rider/dorian-godon",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -657,7 +665,7 @@
       "distance": 11806
     },
     {
-      "rider_name": "Caruso Damiano",
+      "rider_name": "CARUSO Damiano",
       "rider_url": "rider/damiano-caruso",
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2021",
@@ -666,7 +674,7 @@
       "distance": 11747
     },
     {
-      "rider_name": "Viviani Elia",
+      "rider_name": "VIVIANI Elia",
       "rider_url": "rider/elia-viviani",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -675,7 +683,7 @@
       "distance": 11746
     },
     {
-      "rider_name": "Hirschi Marc",
+      "rider_name": "HIRSCHI Marc",
       "rider_url": "rider/marc-hirschi",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -684,7 +692,7 @@
       "distance": 11729
     },
     {
-      "rider_name": "Teuns Dylan",
+      "rider_name": "TEUNS Dylan",
       "rider_url": "rider/dylan-teuns",
       "team_name": "Bahrain - Victorious",
       "team_url": "team/bahrain-victorious-2021",
@@ -693,7 +701,7 @@
       "distance": 11712
     },
     {
-      "rider_name": "Minali Riccardo",
+      "rider_name": "MINALI Riccardo",
       "rider_url": "rider/riccardo-minali",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -702,7 +710,7 @@
       "distance": 11705
     },
     {
-      "rider_name": "Valverde Alejandro",
+      "rider_name": "VALVERDE Alejandro",
       "rider_url": "rider/alejandro-valverde",
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2021",
@@ -711,7 +719,7 @@
       "distance": 11695
     },
     {
-      "rider_name": "Bernard Julien",
+      "rider_name": "BERNARD Julien",
       "rider_url": "rider/julien-bernard",
       "team_name": "Trek - Segafredo",
       "team_url": "team/trek-segafredo-2021",
@@ -720,7 +728,7 @@
       "distance": 11690
     },
     {
-      "rider_name": "Nizzolo Giacomo",
+      "rider_name": "NIZZOLO Giacomo",
       "rider_url": "rider/giacomo-nizzolo",
       "team_name": "Team Qhubeka NextHash",
       "team_url": "team/team-qhubeka-nexthash-2021",
@@ -729,7 +737,7 @@
       "distance": 11689
     },
     {
-      "rider_name": "Juul-Jensen Christopher",
+      "rider_name": "JUUL-JENSEN Christopher",
       "rider_url": "rider/christopher-juul-jensen",
       "team_name": "Team BikeExchange",
       "team_url": "team/team-bikeexchange-2021",
@@ -738,7 +746,7 @@
       "distance": 11683
     },
     {
-      "rider_name": "Covi Alessandro",
+      "rider_name": "COVI Alessandro",
       "rider_url": "rider/alessandro-covi",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -747,7 +755,7 @@
       "distance": 11682
     },
     {
-      "rider_name": "Bennett Sean",
+      "rider_name": "BENNETT Sean",
       "rider_url": "rider/sean-bennett",
       "team_name": "Team Qhubeka NextHash",
       "team_url": "team/team-qhubeka-nexthash-2021",
@@ -756,7 +764,7 @@
       "distance": 11678
     },
     {
-      "rider_name": "Coquard Bryan",
+      "rider_name": "COQUARD Bryan",
       "rider_url": "rider/bryan-coquard",
       "team_name": "B&B Hotels p/b KTM",
       "team_url": "team/b-b-hotels-pb-ktm-2021",
@@ -765,7 +773,7 @@
       "distance": 11674
     },
     {
-      "rider_name": "Fiorelli Filippo",
+      "rider_name": "FIORELLI Filippo",
       "rider_url": "rider/filippo-fiorelli",
       "team_name": "Bardiani-CSF-Faizan\u00e8",
       "team_url": "team/bardiani-csf-2021",
@@ -774,7 +782,7 @@
       "distance": 11672
     },
     {
-      "rider_name": "Battaglin Enrico",
+      "rider_name": "BATTAGLIN Enrico",
       "rider_url": "rider/enrico-battaglin",
       "team_name": "Bardiani-CSF-Faizan\u00e8",
       "team_url": "team/bardiani-csf-2021",
@@ -783,7 +791,7 @@
       "distance": 11653
     },
     {
-      "rider_name": "Fern\u00e1ndez Rub\u00e9n",
+      "rider_name": "FERN\u00c1NDEZ Rub\u00e9n",
       "rider_url": "rider/ruben-fernandez",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -792,7 +800,7 @@
       "distance": 11640
     },
     {
-      "rider_name": "Viviani Attilio",
+      "rider_name": "VIVIANI Attilio",
       "rider_url": "rider/attilio-viviani",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -801,7 +809,7 @@
       "distance": 11617
     },
     {
-      "rider_name": "Oldani Stefano",
+      "rider_name": "OLDANI Stefano",
       "rider_url": "rider/stefano-oldani",
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2021",
@@ -810,7 +818,7 @@
       "distance": 11611
     },
     {
-      "rider_name": "Gamper Patrick",
+      "rider_name": "GAMPER Patrick",
       "rider_url": "rider/patrick-gamper",
       "team_name": "BORA - hansgrohe",
       "team_url": "team/bora-hansgrohe-2021",
@@ -819,16 +827,16 @@
       "distance": 11608
     },
     {
-      "rider_name": "Latour Pierre",
+      "rider_name": "LATOUR Pierre",
       "rider_url": "rider/pierre-latour",
       "team_name": "TotalEnergies",
-      "team_url": "team/team-totalenergies-2021",
+      "team_url": "team/totalenergies-2021",
       "rank": 81,
       "nationality": "FR",
       "distance": 11590
     },
     {
-      "rider_name": "Keukeleire Jens",
+      "rider_name": "KEUKELEIRE Jens",
       "rider_url": "rider/jens-keukeleire",
       "team_name": "EF Education - Nippo",
       "team_url": "team/ef-education-nippo-2021",
@@ -837,7 +845,7 @@
       "distance": 11564
     },
     {
-      "rider_name": "van der Hoorn Taco",
+      "rider_name": "VAN DER HOORN Taco",
       "rider_url": "rider/taco-van-der-hoorn",
       "team_name": "Intermarch\u00e9 - Wanty - Gobert Mat\u00e9riaux",
       "team_url": "team/intermarche-wanty-gobert-materiaux-2021",
@@ -846,7 +854,7 @@
       "distance": 11555
     },
     {
-      "rider_name": "Madouas Valentin",
+      "rider_name": "MADOUAS Valentin",
       "rider_url": "rider/valentin-madouas",
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2021",
@@ -855,7 +863,7 @@
       "distance": 11543
     },
     {
-      "rider_name": "Vlasov Aleksandr",
+      "rider_name": "VLASOV Aleksandr",
       "rider_url": "rider/aleksandr-vlasov",
       "team_name": "Astana - Premier Tech",
       "team_url": "team/astana-premier-tech-2021",
@@ -864,7 +872,7 @@
       "distance": 11534
     },
     {
-      "rider_name": "Lutsenko Alexey",
+      "rider_name": "LUTSENKO Alexey",
       "rider_url": "rider/aleksey-lutsenko",
       "team_name": "Astana - Premier Tech",
       "team_url": "team/astana-premier-tech-2021",
@@ -873,7 +881,7 @@
       "distance": 11530
     },
     {
-      "rider_name": "Cataldo Dario",
+      "rider_name": "CATALDO Dario",
       "rider_url": "rider/dario-cataldo",
       "team_name": "Movistar Team",
       "team_url": "team/movistar-team-2021",
@@ -882,7 +890,7 @@
       "distance": 11514
     },
     {
-      "rider_name": "Aranburu Alex",
+      "rider_name": "ARANBURU Alex",
       "rider_url": "rider/alex-aranburu",
       "team_name": "Astana - Premier Tech",
       "team_url": "team/astana-premier-tech-2021",
@@ -891,7 +899,7 @@
       "distance": 11512
     },
     {
-      "rider_name": "Geschke Simon",
+      "rider_name": "GESCHKE Simon",
       "rider_url": "rider/simon-geschke",
       "team_name": "Cofidis",
       "team_url": "team/cofidis-2021",
@@ -900,7 +908,7 @@
       "distance": 11485
     },
     {
-      "rider_name": "D\u00e9mare Arnaud",
+      "rider_name": "D\u00c9MARE Arnaud",
       "rider_url": "rider/arnaud-demare",
       "team_name": "Groupama - FDJ",
       "team_url": "team/groupama-fdj-2021",
@@ -909,16 +917,16 @@
       "distance": 11483
     },
     {
-      "rider_name": "Turgis Anthony",
+      "rider_name": "TURGIS Anthony",
       "rider_url": "rider/anthony-turgis",
       "team_name": "TotalEnergies",
-      "team_url": "team/team-totalenergies-2021",
+      "team_url": "team/totalenergies-2021",
       "rank": 91,
       "nationality": "FR",
       "distance": 11466
     },
     {
-      "rider_name": "Martin Dan",
+      "rider_name": "MARTIN Dan",
       "rider_url": "rider/dan-martin",
       "team_name": "Israel Start-Up Nation",
       "team_url": "team/israel-start-up-nation-2021",
@@ -927,16 +935,16 @@
       "distance": 11450
     },
     {
-      "rider_name": "Meurisse Xandro",
+      "rider_name": "MEURISSE Xandro",
       "rider_url": "rider/xandro-meurisse",
-      "team_name": "Alpecin-Fenix",
+      "team_name": "Alpecin - Fenix",
       "team_url": "team/alpecin-fenix-2021",
       "rank": 93,
       "nationality": "BE",
       "distance": 11436
     },
     {
-      "rider_name": "Gibbons Ryan",
+      "rider_name": "GIBBONS Ryan",
       "rider_url": "rider/ryan-gibbons",
       "team_name": "UAE Team Emirates",
       "team_url": "team/uae-team-emirates-2021",
@@ -945,16 +953,16 @@
       "distance": 11435
     },
     {
-      "rider_name": "Vako\u010d Petr",
+      "rider_name": "VAKO\u010c Petr",
       "rider_url": "rider/petr-vakoc",
-      "team_name": "Alpecin-Fenix",
+      "team_name": "Alpecin - Fenix",
       "team_url": "team/alpecin-fenix-2021",
       "rank": 95,
       "nationality": "CZ",
       "distance": 11432
     },
     {
-      "rider_name": "Gilbert Philippe",
+      "rider_name": "GILBERT Philippe",
       "rider_url": "rider/philippe-gilbert",
       "team_name": "Lotto Soudal",
       "team_url": "team/lotto-soudal-2021",
@@ -963,7 +971,7 @@
       "distance": 11426
     },
     {
-      "rider_name": "Pacher Quentin",
+      "rider_name": "PACHER Quentin",
       "rider_url": "rider/quentin-pacher",
       "team_name": "B&B Hotels p/b KTM",
       "team_url": "team/b-b-hotels-pb-ktm-2021",
@@ -972,7 +980,7 @@
       "distance": 11422
     },
     {
-      "rider_name": "Naesen Lawrence",
+      "rider_name": "NAESEN Lawrence",
       "rider_url": "rider/lawrence-naesen",
       "team_name": "AG2R Citro\u00ebn Team",
       "team_url": "team/ag2r-citroen-team-2021",
@@ -981,7 +989,7 @@
       "distance": 11421
     },
     {
-      "rider_name": "Gabburo Davide",
+      "rider_name": "GABBURO Davide",
       "rider_url": "rider/davide-gabburo",
       "team_name": "Bardiani-CSF-Faizan\u00e8",
       "team_url": "team/bardiani-csf-2021",
@@ -990,7 +998,7 @@
       "distance": 11416
     },
     {
-      "rider_name": "Kuss Sepp",
+      "rider_name": "KUSS Sepp",
       "rider_url": "rider/sepp-kuss",
       "team_name": "Team Jumbo-Visma",
       "team_url": "team/team-jumbo-visma-2021",
@@ -1014,6 +1022,10 @@
     {
       "text": "Algeria",
       "value": "dz"
+    },
+    {
+      "text": "Andorra",
+      "value": "ad"
     },
     {
       "text": "Angola",
@@ -1100,7 +1112,7 @@
       "value": "cu"
     },
     {
-      "text": "Curacao",
+      "text": "Cura\u00e7ao",
       "value": "cw"
     },
     {
@@ -1380,8 +1392,12 @@
       "value": "tn"
     },
     {
-      "text": "Turkey",
+      "text": "T\u00fcrkiye",
       "value": "tr"
+    },
+    {
+      "text": "Uganda",
+      "value": "ug"
     },
     {
       "text": "Ukraine",

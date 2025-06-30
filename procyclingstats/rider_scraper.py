@@ -72,18 +72,12 @@ class Rider(Scraper):
 
         :return: Rider's weigth in kilograms.
         """
-        rdr_cont = self._get_rider_content_node()
-        # normal layout
-        try:
-            weight_html = rdr_cont.css("li > .mr3")[0]
-            return float(weight_html.text().split(" ")[1])
-        # special layout
-        except (AttributeError, IndexError):
-            try:
-                weight_html = rdr_cont.css("span > span")[1]
-                return float(weight_html.text().split(" ")[1])
-            except Exception:
-                return None
+        extra = 0
+        if "Passed" in self._get_rider_content_node().text():
+            extra = 1
+        weight_cont = self._get_rider_content_node().css("div > ul.list")[2 + extra]
+        weight_html = weight_cont.css("li .mr3")[0]
+        return float(weight_html.text())
 
     def weight(self) -> Optional[float]:
         """
@@ -91,9 +85,6 @@ class Rider(Scraper):
 
         :return: Rider's height in meters.
         """
-        weight_cont = self._get_rider_content_node().css("div > ul.list")[2]
-        weight_html = weight_cont.css("li > .mr3")[0]
-        return float(weight_html.text())
         return get_height_weight(self._height(), self._weight())[1]
 
     def _height(self) -> Optional[float]:
@@ -102,7 +93,10 @@ class Rider(Scraper):
 
         :return: Rider's height in meters.
         """
-        height_cont = self._get_rider_content_node().css("div > ul.list")[2]
+        extra = 0
+        if "Passed" in self._get_rider_content_node().text():
+            extra = 1
+        height_cont = self._get_rider_content_node().css("div > ul.list")[2 + extra]
         height_html = height_cont.css("li > .mr3")[1]
         return float(height_html.text())
 

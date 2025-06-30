@@ -371,7 +371,7 @@ class Ranking(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         casual_fields = [f for f in fields if f not in ("distance")]
 
-        distance_ranking_table_html = self.html.css_first("span > table")
+        distance_ranking_table_html = self.html.css_first(".page-content > div > div > table")
         table_parser = TableParser(distance_ranking_table_html)
         table_parser.parse(casual_fields)
 
@@ -418,7 +418,7 @@ class Ranking(Scraper):
         fields = parse_table_fields_args(args, available_fields)
         casual_fields = [f for f in fields if f not in ("racedays")]
 
-        distance_ranking_table_html = self.html.css_first("span > table")
+        distance_ranking_table_html = self.html.css_first(".page-content > div > div > table")
         table_parser = TableParser(distance_ranking_table_html)
         table_parser.parse(casual_fields)
 
