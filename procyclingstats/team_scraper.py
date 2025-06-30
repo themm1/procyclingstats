@@ -37,7 +37,7 @@ class Team(Scraper):
 
         :return: Display name, e.g. ``BORA - hansgrohe``.
         """
-        display_name_html = self.html.css_first(".page-title > .main > h1")
+        display_name_html = self.html.css_first(".page-title h1")
         return display_name_html.text().split(" (")[0]
 
     def nationality(self) -> str:
@@ -47,7 +47,7 @@ class Team(Scraper):
         :return: Team's nationality as 2 chars long country code in uppercase.
         """
         nationality_html = self.html.css_first(
-            ".page-title > .main > span.flag")
+            ".page-title span.flag")
         flag_class = nationality_html.attributes['class']
         return flag_class.split(" ")[1].upper() # type: ignore
 
@@ -89,10 +89,10 @@ class Team(Scraper):
         :param stat_name: Label text to search for (e.g. "Victories", "Points").
         :return: Integer value of the stat or None if not found.
         """
-        for li in self.html.css("ul.team-kpi li.nr"):
-            font_el = li.css_first("span.val > font")
+        for li in self.html.css("ul.teamkpi > li"):
+            font_el = li.css_first("div.title")
             if font_el and font_el.text().strip() == stat_name:
-                a_el = li.css_first("span.val > a")
+                a_el = li.css_first("div.value > a")
                 if a_el:
                     value = a_el.text().strip()
                     if value.isdigit():
@@ -182,13 +182,8 @@ class Team(Scraper):
             "nationality",
             "rider_name",
             "rider_url"]
-        mapping = {}
-        for i, li in enumerate(self.html.css("ul.riderlistTabs > li")):
-            mapping[li.text()] = i
-        all_tables = self.html.css("div.ridersTab")
-
         fields = parse_table_fields_args(args, available_fields)
-        career_points_table_html = all_tables[mapping["points"]]
+        career_points_table_html = self.html.css_first("div.points.riderlistcont table")
         table_parser = TableParser(career_points_table_html)
         career_points_fields = [field for field in fields
                          if field in casual_fields]
@@ -204,7 +199,7 @@ class Team(Scraper):
 
         # add ages to the table if needed
         if "age" in fields:
-            ages_table_html = all_tables[mapping["age"]]
+            ages_table_html = self.html.css_first("div.age.riderlistcont table")
             ages_tp = TableParser(ages_table_html)
             ages_tp.parse(["rider_url"])
             ages = ages_tp.parse_extra_column(2, lambda x: int(x[:2]) if x and x[:2].isdigit() else None)
@@ -213,7 +208,7 @@ class Team(Scraper):
 
         # add ranking points and positions to the table if needed
         if "ranking_position" in fields or "ranking_points" in fields:
-            ranking_table_html = all_tables[mapping["ranking"]]
+            ranking_table_html = self.html.css_first("div.ranking.riderlistcont table")
             ranking_tp = TableParser(ranking_table_html)
             ranking_tp.parse(["rider_url"])
             if "ranking_points" in fields:
@@ -229,7 +224,7 @@ class Team(Scraper):
 
         # add rider's since and until dates to the table if needed
         if "since" in fields or "until" in fields:
-            since_until_html_table = all_tables[mapping["name"]]
+            since_until_html_table = self.html.css_first("div.name.riderlistcont ul")
             since_tp = TableParser(since_until_html_table)
             since_tp.parse(["rider_url"])
             if "since" in fields:

@@ -152,7 +152,7 @@ class TableParser:
         if index < 0:
             index = self.row_length + index
         elements = self.html_table.css(
-        f"{self.table_row_tag} > {self.row_column_tag}:nth-child({index+1})"
+            f"{self.table_row_tag} > {self.row_column_tag}:nth-child({index+1})"
         )
 
         values = []

@@ -3,198 +3,210 @@
   "bike": "Pinarello",
   "history_select": [
     {
+      "text": "2029 | Movistar Team",
+      "value": "team/movistar-team-2029/statistics/start-v3"
+    },
+    {
+      "text": "2028 | Movistar Team",
+      "value": "team/movistar-team-2028/statistics/start-v3"
+    },
+    {
+      "text": "2027 | Movistar Team",
+      "value": "team/movistar-team-2027/statistics/start-v3"
+    },
+    {
       "text": "2026 | Movistar Team",
-      "value": "team/movistar-team-2026/overview/"
+      "value": "team/movistar-team-2026/statistics/start-v3"
     },
     {
       "text": "2025 | Movistar Team",
-      "value": "team/movistar-team-2025/overview/"
+      "value": "team/movistar-team-2025/statistics/start-v3"
     },
     {
       "text": "2024 | Movistar Team",
-      "value": "team/movistar-team-2024/overview/"
+      "value": "team/movistar-team-2024/statistics/start-v3"
     },
     {
       "text": "2023 | Movistar Team",
-      "value": "team/movistar-team-2023/overview/"
+      "value": "team/movistar-team-2023/statistics/start-v3"
     },
     {
       "text": "2022 | Movistar Team",
-      "value": "team/movistar-team-2022/overview/"
+      "value": "team/movistar-team-2022/statistics/start-v3"
     },
     {
       "text": "2021 | Movistar Team",
-      "value": "team/movistar-team-2021/overview/"
+      "value": "team/movistar-team-2021/statistics/start-v3"
     },
     {
       "text": "2020 | Movistar Team",
-      "value": "team/movistar-team-2020/overview/"
+      "value": "team/movistar-team-2020/statistics/start-v3"
     },
     {
       "text": "2019 | Movistar Team",
-      "value": "team/movistar-team-2019/overview/"
+      "value": "team/movistar-team-2019/statistics/start-v3"
     },
     {
       "text": "2018 | Movistar Team",
-      "value": "team/movistar-team-2018/overview/"
+      "value": "team/movistar-team-2018/statistics/start-v3"
     },
     {
       "text": "2017 | Movistar Team",
-      "value": "team/movistar-team-20172/overview/"
+      "value": "team/movistar-team-20172/statistics/start-v3"
     },
     {
       "text": "2016 | Movistar Team",
-      "value": "team/movistar-team-20162/overview/"
+      "value": "team/movistar-team-20162/statistics/start-v3"
     },
     {
       "text": "2015 | Movistar Team",
-      "value": "team/movistar-team-20152/overview/"
+      "value": "team/movistar-team-20152/statistics/start-v3"
     },
     {
       "text": "2014 | Movistar Team",
-      "value": "team/movistar-team-2014/overview/"
+      "value": "team/movistar-team-2014/statistics/start-v3"
     },
     {
       "text": "2013 | Movistar Team",
-      "value": "team/movistar-team-2013/overview/"
+      "value": "team/movistar-team-2013/statistics/start-v3"
     },
     {
       "text": "2012 | Movistar Team",
-      "value": "team/movistar-team-2012/overview/"
+      "value": "team/movistar-team-2012/statistics/start-v3"
     },
     {
       "text": "2011 | Movistar Team",
-      "value": "team/movistar-team-2011/overview/"
+      "value": "team/movistar-team-2011/statistics/start-v3"
     },
     {
       "text": "2010 | Caisse d'Epargne",
-      "value": "team/caisse-d-epargne-2010/overview/"
+      "value": "team/caisse-d-epargne-2010/statistics/start-v3"
     },
     {
       "text": "2009 | Caisse d'Epargne",
-      "value": "team/caisse-d-epargne-2009/overview/"
+      "value": "team/caisse-d-epargne-2009/statistics/start-v3"
     },
     {
       "text": "2008 | Caisse d'Epargne",
-      "value": "team/caisse-d-epargne-2008/overview/"
+      "value": "team/caisse-d-epargne-2008/statistics/start-v3"
     },
     {
       "text": "2007 | Caisse d'Epargne",
-      "value": "team/caisse-d-epargne-2007/overview/"
+      "value": "team/caisse-d-epargne-2007/statistics/start-v3"
     },
     {
       "text": "2006 | Caisse d'Epargne - Illes Balears",
-      "value": "team/caisse-d-epargne-illes-balears-2006/overview/"
+      "value": "team/caisse-d-epargne-illes-balears-2006/statistics/start-v3"
     },
     {
       "text": "2005 | Illes Balears - Caisse d'Epargne",
-      "value": "team/illes-balears-caisse-d-epargne-2005/overview/"
+      "value": "team/illes-balears-caisse-d-epargne-2005/statistics/start-v3"
     },
     {
       "text": "2004 | Illes Balears - Banesto",
-      "value": "team/illes-balears-banesto-2004/overview/"
+      "value": "team/illes-balears-banesto-2004/statistics/start-v3"
     },
     {
       "text": "2003 | iBanesto.com",
-      "value": "team/ibanesto.com-2003/overview/"
+      "value": "team/ibanesto.com-2003/statistics/start-v3"
     },
     {
       "text": "2002 | iBanesto.com",
-      "value": "team/ibanesto.com-2002/overview/"
+      "value": "team/ibanesto.com-2002/statistics/start-v3"
     },
     {
       "text": "2001 | iBanesto.com",
-      "value": "team/ibanesto.com-2001/overview/"
+      "value": "team/ibanesto.com-2001/statistics/start-v3"
     },
     {
       "text": "2000 | Banesto",
-      "value": "team/banesto-2000/overview/"
+      "value": "team/banesto-2000/statistics/start-v3"
     },
     {
       "text": "1999 | Banesto",
-      "value": "team/banesto-1999/overview/"
+      "value": "team/banesto-1999/statistics/start-v3"
     },
     {
       "text": "1998 | Banesto",
-      "value": "team/banesto-1998/overview/"
+      "value": "team/banesto-1998/statistics/start-v3"
     },
     {
       "text": "1997 | Banesto",
-      "value": "team/banesto-1997/overview/"
+      "value": "team/banesto-1997/statistics/start-v3"
     },
     {
       "text": "1996 | Banesto",
-      "value": "team/banesto-1996/overview/"
+      "value": "team/banesto-1996/statistics/start-v3"
     },
     {
       "text": "1995 | Banesto",
-      "value": "team/banesto-1995/overview/"
+      "value": "team/banesto-1995/statistics/start-v3"
     },
     {
       "text": "1994 | Banesto",
-      "value": "team/banesto-1994/overview/"
+      "value": "team/banesto-1994/statistics/start-v3"
     },
     {
       "text": "1993 | Banesto",
-      "value": "team/banesto-1993/overview/"
+      "value": "team/banesto-1993/statistics/start-v3"
     },
     {
       "text": "1992 | Banesto",
-      "value": "team/banesto-1992/overview/"
+      "value": "team/banesto-1992/statistics/start-v3"
     },
     {
       "text": "1991 | Banesto",
-      "value": "team/banesto-1991/overview/"
+      "value": "team/banesto-1991/statistics/start-v3"
     },
     {
       "text": "1990 | Banesto",
-      "value": "team/banesto-1990/overview/"
+      "value": "team/banesto-1990/statistics/start-v3"
     },
     {
       "text": "1989 | Reynolds - Banesto",
-      "value": "team/reynolds-banesto-1989/overview/"
+      "value": "team/reynolds-banesto-1989/statistics/start-v3"
     },
     {
       "text": "1988 | Reynolds",
-      "value": "team/reynolds-1988/overview/"
+      "value": "team/reynolds-1988/statistics/start-v3"
     },
     {
       "text": "1987 | Reynolds - Seur",
-      "value": "team/reynolds-1987/overview/"
+      "value": "team/reynolds-1987/statistics/start-v3"
     },
     {
       "text": "1986 | Reynolds",
-      "value": "team/reynolds-1986/overview/"
+      "value": "team/reynolds-1986/statistics/start-v3"
     },
     {
       "text": "1985 | Reynolds",
-      "value": "team/reynolds-1985/overview/"
+      "value": "team/reynolds-1985/statistics/start-v3"
     },
     {
       "text": "1984 | Reynolds",
-      "value": "team/reynolds-1984/overview/"
+      "value": "team/reynolds-1984/statistics/start-v3"
     },
     {
       "text": "1983 | Reynolds",
-      "value": "team/reynolds-1983/overview/"
+      "value": "team/reynolds-1983/statistics/start-v3"
     },
     {
       "text": "1982 | Reynolds - Galli",
-      "value": "team/reynolds-galli-1982/overview/"
+      "value": "team/reynolds-galli-1982/statistics/start-v3"
     },
     {
       "text": "1981 | Reynolds - Galli ",
-      "value": "team/reynolds-galli-1981/overview/"
+      "value": "team/reynolds-galli-1981/statistics/start-v3"
     },
     {
       "text": "1980 | Reynolds - Benotto ",
-      "value": "team/reynolds-benotto-1980/overview/"
+      "value": "team/reynolds-benotto-1980/statistics/start-v3"
     }
   ],
   "name": "Banesto",
   "nationality": "ES",
   "pcs_points": null,
-  "pcs_ranking_position": null,
+  "pcs_ranking_position": 6,
   "riders": [
     {
       "rider_url": "rider/abraham-olano-manzano",
@@ -205,7 +217,7 @@
       "age": 27,
       "nationality": "ES",
       "rider_name": "OLANO Abraham",
-      "career_points": 11588
+      "career_points": 11668
     },
     {
       "rider_url": "rider/manuel-beltran",
@@ -216,7 +228,7 @@
       "age": 26,
       "nationality": "ES",
       "rider_name": "BELTR\u00c1N Manuel",
-      "career_points": 6323
+      "career_points": 6279
     },
     {
       "rider_url": "rider/jose-maria-jimenez",
@@ -227,7 +239,7 @@
       "age": 26,
       "nationality": "ES",
       "rider_name": "JIM\u00c9NEZ Jos\u00e9 Mar\u00eda",
-      "career_points": 5978
+      "career_points": 5789
     },
     {
       "rider_url": "rider/armand-de-las-cuevas",
@@ -238,18 +250,7 @@
       "age": 29,
       "nationality": "FR",
       "rider_name": "DE LAS CUEVAS Armand",
-      "career_points": 4397
-    },
-    {
-      "rider_url": "rider/angel-luis-casero",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": 0,
-      "ranking_position": null,
-      "age": 24,
-      "nationality": "ES",
-      "rider_name": "CASERO \u00c1ngel Luis",
-      "career_points": 4119
+      "career_points": 4489
     },
     {
       "rider_url": "rider/pablo-lastras",
@@ -260,7 +261,18 @@
       "age": 21,
       "nationality": "ES",
       "rider_name": "LASTRAS Pablo",
-      "career_points": 4076
+      "career_points": 4091
+    },
+    {
+      "rider_url": "rider/angel-luis-casero",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "age": 24,
+      "nationality": "ES",
+      "rider_name": "CASERO \u00c1ngel Luis",
+      "career_points": 4026
     },
     {
       "rider_url": "rider/aitor-osa",
@@ -271,18 +283,7 @@
       "age": 23,
       "nationality": "ES",
       "rider_name": "OSA Aitor",
-      "career_points": 3543
-    },
-    {
-      "rider_url": "rider/jeremy-hunt",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": 0,
-      "ranking_position": null,
-      "age": 23,
-      "nationality": "GB",
-      "rider_name": "HUNT Jeremy",
-      "career_points": 3426
+      "career_points": 3503
     },
     {
       "rider_url": "rider/santiago-blanco",
@@ -293,7 +294,18 @@
       "age": 23,
       "nationality": "ES",
       "rider_name": "BLANCO Santiago",
-      "career_points": 3412
+      "career_points": 3330
+    },
+    {
+      "rider_url": "rider/jeremy-hunt",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "age": 23,
+      "nationality": "GB",
+      "rider_name": "HUNT Jeremy",
+      "career_points": 3318
     },
     {
       "rider_url": "rider/unai-osa",
@@ -304,7 +316,7 @@
       "age": 22,
       "nationality": "ES",
       "rider_name": "OSA Unai",
-      "career_points": 2530
+      "career_points": 2475
     },
     {
       "rider_url": "rider/jose-vicente-garcia-acosta",
@@ -315,7 +327,7 @@
       "age": 24,
       "nationality": "ES",
       "rider_name": "GARC\u00cdA ACOSTA Jos\u00e9 Vicente",
-      "career_points": 2253
+      "career_points": 2238
     },
     {
       "rider_url": "rider/orlando-sergio-rodrigues",
@@ -326,7 +338,7 @@
       "age": 27,
       "nationality": "PT",
       "rider_name": "RODRIGUES Orlando Sergio",
-      "career_points": 2211
+      "career_points": 2162
     },
     {
       "rider_url": "rider/marino-alonso",
@@ -337,7 +349,7 @@
       "age": 31,
       "nationality": "ES",
       "rider_name": "ALONSO Marino",
-      "career_points": 2088
+      "career_points": 2052
     },
     {
       "rider_url": "rider/jose-luis-arrieta",
@@ -348,7 +360,7 @@
       "age": 26,
       "nationality": "ES",
       "rider_name": "ARRIETA Jos\u00e9 Luis",
-      "career_points": 2014
+      "career_points": 2024
     },
     {
       "rider_url": "rider/ramon-gonzalez-arrieta",
@@ -359,18 +371,7 @@
       "age": 30,
       "nationality": "ES",
       "rider_name": "GONZ\u00c1LEZ Jos\u00e9 Ram\u00f3n",
-      "career_points": 1707
-    },
-    {
-      "rider_url": "rider/jose-ramon-uriarte",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": 0,
-      "ranking_position": null,
-      "age": 30,
-      "nationality": "ES",
-      "rider_name": "URIARTE Jos\u00e9 Ram\u00f3n",
-      "career_points": 1175
+      "career_points": 1817
     },
     {
       "rider_url": "rider/vicente-aparicio",
@@ -381,7 +382,7 @@
       "age": 27,
       "nationality": "ES",
       "rider_name": "APARICIO Vicente",
-      "career_points": 1144
+      "career_points": 1208
     },
     {
       "rider_url": "rider/manuel-fernandez-gines",
@@ -392,7 +393,18 @@
       "age": 26,
       "nationality": "ES",
       "rider_name": "FERN\u00c1NDEZ GIN\u00c9S Manuel",
-      "career_points": 1064
+      "career_points": 1058
+    },
+    {
+      "rider_url": "rider/jose-ramon-uriarte",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": 0,
+      "ranking_position": null,
+      "age": 30,
+      "nationality": "ES",
+      "rider_name": "URIARTE Jos\u00e9 Ram\u00f3n",
+      "career_points": 1056
     },
     {
       "rider_url": "rider/miguel-angel-pena",
@@ -403,7 +415,7 @@
       "age": 26,
       "nationality": "ES",
       "rider_name": "PE\u00d1A Miguel \u00c1ngel",
-      "career_points": 872
+      "career_points": 859
     },
     {
       "rider_url": "rider/carmelo-miranda",
@@ -414,7 +426,7 @@
       "age": 27,
       "nationality": "ES",
       "rider_name": "MIRANDA Carmelo",
-      "career_points": 637
+      "career_points": 647
     },
     {
       "rider_url": "rider/prudencio-indurain",
@@ -424,11 +436,11 @@
       "ranking_position": null,
       "age": 29,
       "nationality": "ES",
-      "rider_name": "INDURAIN Prudencio",
-      "career_points": 543
+      "rider_name": "INDUR\u00c1IN Prudencio",
+      "career_points": 557
     }
   ],
   "status": "TT1",
   "uci_ranking_position": null,
-  "wins_count": null
+  "wins_count": 37
 }
