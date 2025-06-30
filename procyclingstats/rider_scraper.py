@@ -1,5 +1,7 @@
 import calendar
 from typing import Any, Dict, List, Optional
+import re
+from selectolax.parser import HTMLParser
 
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -69,7 +71,8 @@ class Rider(Scraper):
 
         :return: Rider's name.
         """
-        return self.html.css_first(".page-title > .main > h1").text()
+        raw_name = self.html.css_first(".page-title > .main > h1").text()
+        return re.sub(r'\s+', ' ', raw_name).strip()
 
     def _weight(self) -> Optional[float]:
         """
@@ -181,16 +184,21 @@ class Rider(Scraper):
         )
         fields = parse_table_fields_args(args, available_fields)
         seasons_html_table = self.html.css_first("ul.rdr-teams2")
-        table_parser = TableParser(seasons_html_table)
+        # Filter out invalid items that do not have a season div ('Suspended...')
+        valid_items = [li for li in seasons_html_table.css("li.main") if li.css_first("div.season")]
+        filtered_ul_html = "<ul class='rdr-teams2'>{}</ul>".format("".join(li.html for li in valid_items))
+        # Parse a new HTML string with the filtered items
+        filtered_ul_node = HTMLParser(filtered_ul_html).css_first("ul.rdr-teams2")
+        table_parser = TableParser(filtered_ul_node)
         casual_fields = [f for f in fields
                          if f in ("season", "team_name", "team_url")]
         if casual_fields:
             table_parser.parse(casual_fields)
         # add classes for row validity checking
-        classes = table_parser.parse_extra_column(1,
-            lambda x: x.split(" ")[-1].replace("(", "").replace(")", "")
-            if x and not x.split(" ")[-1].replace("(", "").replace(")", "")[0].isnumeric() and
-            "retired" not in x.lower() else None)
+        classes = table_parser.parse_extra_column(
+            1,
+            lambda x: re.search(r"\(([^0-9][A-Z]+)\)", x).group(1) if x and re.search(r"\(([^0-9][A-Z]+)\)", x) else None
+        )
         table_parser.extend_table("class", classes)
         if "since" in fields:
             until_dates = table_parser.parse_extra_column(-2,
