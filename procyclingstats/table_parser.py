@@ -306,6 +306,8 @@ class TableParser:
         :return: List of seasons.
         """
         seasons_elements = self.html_table.css(".season")
+        if not seasons_elements:
+            seasons_elements = self.html_table.css("tr > td.fs11 > a")
         seasons = []
         for season_e in seasons_elements:
             season_e_text = season_e.text()

@@ -38,11 +38,12 @@ class Rider(Scraper):
 
         :return: birthday of the rider in ``YYYY-MM-DD`` format.
         """
-        general_info_html = self.html.css_first(".rdr-info-cont")
-        bd_string = general_info_html.text(separator=" ", deep=False)
-        bd_list = [item for item in bd_string.split(" ") if item][:3]
-        [day, str_month, year] = bd_list
-        month = list(calendar.month_name).index(str_month)
+        bd_node = self._get_rider_content_node().css_first("div > ul > li")
+        day_str = bd_node.css(".mr3")[0].text()
+        day = "".join(c for c in day_str if c.isdigit())
+        month_str = bd_node.css(".mr3")[1].text()
+        month = list(calendar.month_name).index(month_str)
+        year = int(bd_node.css(".mr3")[2].text())
         return f"{year}-{month}-{day}"
 
     def place_of_birth(self) -> Optional[str]:
@@ -51,19 +52,10 @@ class Rider(Scraper):
 
         :return: rider's place of birth (town only).
         """
-        # normal layout
-        try:
-            place_of_birth_html = self.html.css_first(
-                ".rdr-info-cont > span > span > a")
-            return place_of_birth_html.text()
-        # special layout
-        except AttributeError:
-            try:
-                place_of_birth_html = self.html.css_first(
-                    ".rdr-info-cont > span > span > span > a")
-                return place_of_birth_html.text()
-            except Exception:
-                return None
+        possibilities = self._get_rider_content_node().css("div > a")
+        if len(possibilities) <= 1:
+            return None
+        return possibilities[1].text()
 
     def name(self) -> str:
         """
@@ -71,7 +63,7 @@ class Rider(Scraper):
 
         :return: Rider's name.
         """
-        raw_name = self.html.css_first(".page-title > .main > h1").text()
+        raw_name = self.html.css_first(".titleCont > .page-title > .title > h1").text()
         return re.sub(r'\s+', ' ', raw_name).strip()
 
     def _weight(self) -> Optional[float]:
@@ -80,14 +72,15 @@ class Rider(Scraper):
 
         :return: Rider's weigth in kilograms.
         """
+        rdr_cont = self._get_rider_content_node()
         # normal layout
         try:
-            weight_html = self.html.css(".rdr-info-cont > span")[1]
+            weight_html = rdr_cont.css("li > .mr3")[0]
             return float(weight_html.text().split(" ")[1])
         # special layout
         except (AttributeError, IndexError):
             try:
-                weight_html = self.html.css(".rdr-info-cont > span > span")[1]
+                weight_html = rdr_cont.css("span > span")[1]
                 return float(weight_html.text().split(" ")[1])
             except Exception:
                 return None
@@ -98,6 +91,9 @@ class Rider(Scraper):
 
         :return: Rider's height in meters.
         """
+        weight_cont = self._get_rider_content_node().css("div > ul.list")[2]
+        weight_html = weight_cont.css("li > .mr3")[0]
+        return float(weight_html.text())
         return get_height_weight(self._height(), self._weight())[1]
 
     def _height(self) -> Optional[float]:
@@ -106,19 +102,9 @@ class Rider(Scraper):
 
         :return: Rider's height in meters.
         """
-        # normal layout
-        try:
-            height_html = self.html.css_first(".rdr-info-cont > span > span")
-            return float(height_html.text().split(" ")[1])
-        # special layout
-        except (AttributeError, IndexError):
-            try:
-                height_html = self.html.css_first(
-                    ".rdr-info-cont > span > span > span")
-                return float(height_html.text().split(" ")[1])
-            # Height not found
-            except Exception:
-                return None
+        height_cont = self._get_rider_content_node().css("div > ul.list")[2]
+        height_html = height_cont.css("li > .mr3")[1]
+        return float(height_html.text())
 
     def height(self) -> Optional[float]:
         """
@@ -136,11 +122,10 @@ class Rider(Scraper):
             uppercase.
         """
         # normal layout
-        nationality_html = self.html.css_first(".rdr-info-cont > .flag")
+        nationality_html = self._get_rider_content_node().css_first(".flag")
         if nationality_html is None:
         # special layout
-            nationality_html = self.html.css_first(
-                ".rdr-info-cont > span > span")
+            nationality_html = self._get_rider_content_node().css_first("span > span")
         flag_class = nationality_html.attributes['class']
         return flag_class.split(" ")[-1].upper() # type:ignore
 
@@ -150,7 +135,7 @@ class Rider(Scraper):
 
         :return: Relative URL of rider's image. None if image is not available.
         """
-        image_html = self.html.css_first("div.rdr-img-cont > a > img")
+        image_html = self.html.css_first("div > a > img")
         if not image_html:
             return None
         return image_html.attributes['src']
@@ -235,7 +220,7 @@ class Rider(Scraper):
             "rank"
         )
         fields = parse_table_fields_args(args, available_fields)
-        points_table_html = self.html.css_first("table.rdr-season-stats")
+        points_table_html = self.html.css_first("div.mt20 > table")
         table_parser = TableParser(points_table_html)
         table_parser.parse(fields)
         return table_parser.table
@@ -247,7 +232,7 @@ class Rider(Scraper):
         :return: Dict mapping rider's specialties and points gained.
             Dict keys: one_day_races, gc, time_trial, sprint, climber, hills
         """
-        specialty_html = self.html.css(".pps > ul > li > .pnt")
+        specialty_html = self.html.css(".pps .xvalue")
         pnts = [int(e.text()) for e in specialty_html]
         keys = ["one_day_races", "gc", "time_trial", "sprint", "climber", "hills"]
         return dict(zip(keys, pnts))
@@ -291,7 +276,7 @@ class Rider(Scraper):
             if field not in fields:
                 casual_fields.remove(field)
 
-        results_html = self.html.css_first("#resultsCont > table.rdrResults")
+        results_html = self.html.css_first("table.rdrResults")
         for tr in results_html.css("tbody > tr"):
             if not tr.css("td")[1].text():
                 tr.remove()
@@ -337,3 +322,7 @@ class Rider(Scraper):
             table_parser.extend_table("uci_points", uci_points)
             
         return table_parser.table
+
+    def _get_rider_content_node(self):
+        return self.html.css("div.page-content > div > .borderbox > .borderbox")[2]
+
