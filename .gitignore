@@ -5,3 +5,4 @@ __pycache__/
 .pytest_cache/
 TODO.txt
 docs/build/
+.venv/
