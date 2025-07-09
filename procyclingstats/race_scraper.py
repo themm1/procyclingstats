@@ -32,7 +32,9 @@ class Race(Scraper):
 
         :return: Year when the race occured.
         """
-        return int(self.html.css_first("span.hideIfMobile").text())
+        year_text = self.html.css_first("span.hideIfMobile").text().strip()
+        year = year_text.split('\xa0')[0].strip()
+        return int(year)
 
     def name(self) -> str:
         """
@@ -40,7 +42,7 @@ class Race(Scraper):
 
         :return: Name of the race, e.g. ``Tour de France``.
         """
-        display_name_html = self.html.css_first(".page-title > .main > h1")
+        display_name_html = self.html.css_first(".page-title > .title > h1")
         return display_name_html.text()
 
     def is_one_day_race(self) -> bool:
@@ -63,7 +65,7 @@ class Race(Scraper):
         :return: 2 chars long country code in uppercase.
         """
         nationality_html = self.html.css_first(
-            ".page-title > .main > span.flag")
+            ".page-title > .title > span.flag")
         flag_class = nationality_html.attributes['class']
         return flag_class.split(" ")[1].upper() # type: ignore
 
@@ -74,7 +76,7 @@ class Race(Scraper):
         :return: Edition as int.
         """
         edition_html = self.html.css_first(
-            ".page-title > .main > span + font")
+            ".page-title > .title > span + font")
         if edition_html is not None:
             return int(edition_html.text()[:-2])
         raise ExpectedParsingError("Race cancelled, edition unavailable.")
@@ -86,7 +88,7 @@ class Race(Scraper):
         :return: Startdate in ``YYYY-MM-DD`` format.
         """
         startdate_html = self.html.css_first(
-            ".infolist > li > div:nth-child(2)")
+            ".list > li > div:nth-child(2)")
         return startdate_html.text()
 
     def enddate(self) -> str:
@@ -95,7 +97,7 @@ class Race(Scraper):
 
         :return: Enddate in ``YYYY-MM-DD`` format.
         """
-        enddate_html = self.html.css(".infolist > li > div:nth-child(2)")[1]
+        enddate_html = self.html.css(".list > li > div:nth-child(2)")[1] 
         return enddate_html.text()
 
     def category(self) -> str:
@@ -104,7 +106,7 @@ class Race(Scraper):
 
         :return: Race category e.g. ``Men Elite``.
         """
-        category_html = self.html.css(".infolist > li > div:nth-child(2)")[2]
+        category_html = self.html.css(".list > li > div:nth-child(2)")[2]
         return category_html.text()
 
     def uci_tour(self) -> str:
@@ -113,7 +115,7 @@ class Race(Scraper):
 
         :return: UCI Tour of the race e.g. ``UCI Worldtour``.
         """
-        uci_tour_html = self.html.css(".infolist > li > div:nth-child(2)")[3]
+        uci_tour_html = self.html.css(".list > li > div:nth-child(2)")[3]
         return uci_tour_html.text()
 
     def prev_editions_select(self) -> List[Dict[str, str]]:
