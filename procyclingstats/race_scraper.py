@@ -73,11 +73,9 @@ class Race(Scraper):
 
         :return: Whether given race is one day race.
         """
-        titles = self.html.css("div > div > h3")
-        titles = [] if not titles else titles
-        for title_html in titles:
-            if "Stages" in title_html.text():
-                return False
+        title2 = self.html.css_first(".page-title > .title-line2")
+        if title2 and "stages" in title2.text().lower():
+            return False
         return True
 
     def nationality(self) -> str:
@@ -98,9 +96,9 @@ class Race(Scraper):
         :return: Edition as int.
         """
         edition_html = self.html.css_first(
-            ".page-title > .main > span + font")
+            ".page-title > .title h1 > span")
         if edition_html is not None:
-            return int(edition_html.text()[:-2])
+            return int(edition_html.text().split()[-1][:-2])
         raise ExpectedParsingError("Race cancelled, edition unavailable.")
 
     def startdate(self) -> str:
@@ -178,8 +176,8 @@ class Race(Scraper):
             return []
 
         fields = parse_table_fields_args(args, available_fields)
-        stages_table_html = self.html.css_first("div:not(.mg_r2) > div > \
-            span > table.basic")
+        stages_table_html = self.html.css_first(
+            ".page-content > div > div:nth-child(3) > div:nth-child(1) table")
         if not stages_table_html:
             return []
         # remove rest day table rows
@@ -228,8 +226,8 @@ class Race(Scraper):
 
         fields = parse_table_fields_args(args, available_fields)
         orig_fields = fields
-        winners_html = self.html.css("div:not(.mg_r2) > div > \
-            span > table.basic")[1]
+        winners_html = self.html.css_first(
+            ".page-content > div > div:nth-child(3) > div:nth-child(2) table")
         if not winners_html:
             return []
         # remove rest day table rows
