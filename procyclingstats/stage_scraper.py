@@ -1,3 +1,4 @@
+import re
 from typing import Any, Dict, List, Literal, Optional
 
 from selectolax.parser import HTMLParser, Node
@@ -45,7 +46,7 @@ class Stage(Scraper):
         ...
     }
     """
-    _tables_path = ".resultCont table.results"
+    _tables_path = ".resultCont .resTab .general table.results"
 
     def _set_up_html(self) -> None:
         """
@@ -107,16 +108,16 @@ class Stage(Scraper):
 
         :return: Stage type, e.g. ``ITT``.
         """
-        stage_name_html = self.html.css_first(".title-line-2 > .blue")
-        stage_name2_html = self.html.css_first("div.title > h1")
-        stage_name = stage_name_html.text()
-        stage_name2 = stage_name2_html.text()
-        if "ITT" in stage_name or "ITT" in stage_name2:
+        page_title = self.html.css_first(".page-title")
+        if not page_title:
+            raise ExpectedParsingError("Page title not found")
+        page_title_text = page_title.text(strip=True)
+        if "ITT" in page_title_text:
             return "ITT"
-        if "TTT" in stage_name or "TTT" in stage_name2:
+        elif "TTT" in page_title_text:
             return "TTT"
         return "RR"
-
+       
     def vertical_meters(self) -> Optional[int]:
         """
         Parses vertical meters gained throughout the stage from HTML.
@@ -327,7 +328,12 @@ class Stage(Scraper):
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
         categories = self.html.css(self._tables_path)
-        print(categories)
+        if not categories:
+            fallback = self.html.css('.general > table.results')
+        if fallback:
+            categories = [fallback[0]]
+        else:
+            raise ExpectedParsingError("Results table not in page HTML")
         results_table_html = categories[0]
         # Results table is empty
         if (not results_table_html or
@@ -628,15 +634,57 @@ class Stage(Scraper):
             "youth",
             "teams"]) -> Optional[Node]:
         """
-        Get HTML of a .result-cont table with results based on `table` param.
+        Get HTML of a .resTab table with results based on `table` param.
 
-        :param table: Keyword of wanted table that occures in .restabs menu.
+        :param table: Keyword of wanted table that occurs in result tabs.
         :return: HTML of wanted HTML table, None when not found.
         """
-        categories = self.html.css(".result-cont")
-        for i, element in enumerate(self.html.css("ul.restabs > li > a")):
-            if table in element.text().lower():
-                return categories[i].css_first("table")
+        # Map table names to their corresponding tab identifiers
+        tab_mapping = {
+            "stage": ["STAGE", "stage"],
+            "gc": ["GC", "gc"], 
+            "points": ["POINTS", "points"],
+            "kom": ["KOM", "kom"],
+            "youth": ["YOUTH", "youth"],
+            "teams": ["TEAMS", "teams"]
+        }
+        
+        # Look for tabs in the results section
+        tab_nav = self.html.css("ul.tabs.tabnav.resultTabs li")
+        if not tab_nav:
+            # Fallback to old tab structure
+            tab_nav = self.html.css("ul.restabs li")
+        
+        for tab_element in tab_nav:
+            tab_link = tab_element.css_first("a")
+            if not tab_link:
+                continue
+                
+            tab_text = tab_link.text().upper()
+            tab_keywords = tab_mapping.get(table, [])
+            
+            # Check if this tab matches what we're looking for
+            if any(keyword.upper() in tab_text for keyword in tab_keywords):
+                # Get the data-id from the tab link
+                data_id = tab_link.attributes.get("data-id")
+                if data_id:
+                    # Find corresponding result div
+                    result_div = self.html.css_first(f'div.resTab[data-id="{data_id}"]')
+                    if result_div:
+                        return result_div.css_first("table.results")
+        
+        # Fallback: look for result containers directly (old structure)
+        result_containers = self.html.css(".result-cont")
+        if result_containers and table == "stage":
+            # First container is usually stage results
+            return result_containers[0].css_first("table")
+        
+        # Additional fallback for direct table lookup
+        if table == "stage":
+            stage_table = self.html.css_first("div.resTab table.results")
+            if stage_table:
+                return stage_table
+            
         return None
 
     @staticmethod
