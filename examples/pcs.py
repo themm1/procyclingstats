@@ -3,48 +3,54 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from procyclingstats import (Race, RaceClimbs, RaceStartlist, Ranking, Rider,
-                       RiderResults, Scraper, Stage, Team)
+                              RiderResults, Scraper, Stage, Team)
 
 """ Example usage of the ProCyclingStats scraper classes. Can be used to sanity check the functionality of the classes. """
 
 RACE_URL = "race/tour-de-france/2022"
-race = Race(f"{RACE_URL}/overview")
 
-print('RACE CLASS')
-for method in race.parse().keys():
-    print(f"{method}: {race.parse()[method]}")
+def print_parsed_data(scraper_instance, label):
+    """
+    Helper function to print parsed data from a scraper instance.
+    """
+    print(f'{label} CLASS')
+    for method in scraper_instance.parse().keys():
+        print(f"{method}: {scraper_instance.parse()[method]}")
 
-print('RACE CLIMBS CLASS')
-race_climbs = RaceClimbs(f"{RACE_URL}/route/climbs")
-for method in race_climbs.parse().keys():
-    print(f"{method}: {race_climbs.parse()[method]}")
+def main():
+    # Race class
+    race = Race(f"{RACE_URL}/overview")
+    print_parsed_data(race, "RACE")
 
-print('RACE STARTLIST CLASS')
-race_start = RaceStartlist(f"{RACE_URL}/startlist")
-for method in race_start.parse().keys():
-    print(f"{method}: {race_start.parse()[method]}")
+    # Race climbs class
+    race_climbs = RaceClimbs(f"{RACE_URL}/route/climbs")
+    print_parsed_data(race_climbs, "RACE CLIMBS")
 
-print('RANKING CLASS')
-ranking = Ranking("rankings/me/individual")
-print(ranking.individual_ranking()[0:5])  # Display first 5 entries
+    # Race startlist class
+    race_start = RaceStartlist(f"{RACE_URL}/startlist")
+    print_parsed_data(race_start, "RACE STARTLIST")
 
-print('RIDER CLASS')
-rider = Rider("rider/tadej-pogacar")
-for method in rider.parse().keys():
-    print(f"{method}: {rider.parse()[method]}")
+    # Ranking class
+    ranking = Ranking("rankings/me/individual")
+    print("RANKING CLASS")
+    print(ranking.individual_ranking()[0:5])  # Display first 5 entries
 
-print('RIDER RESULTS')
-rider_results = RiderResults("rider/tadej-pogacar/results")
-for method in rider_results.parse().keys():
-    print(f"{method}: {rider_results.parse()[method]}") 
+    # Rider class
+    rider = Rider("rider/tadej-pogacar")
+    print_parsed_data(rider, "RIDER")
 
-print('Stage CLASS')
-stage = Stage("race/tour-de-france/2022/stage-18")
-for method in stage.parse().keys():
-    print(f"{method}: {stage.parse()[method]}")
+    # Rider results class
+    rider_results = RiderResults("rider/tadej-pogacar/results")
+    print_parsed_data(rider_results, "RIDER RESULTS")
 
-print('Team CLASS')
-team = Team("team/ef-education-easypost-2022")
-for method in team.parse().keys():
-    print(f"{method}: {team.parse()[method]}")
+    # Stage class
+    stage = Stage("race/tour-de-france/2022/stage-18")
+    print_parsed_data(stage, "STAGE")
+
+    # Team class
+    team = Team("team/ef-education-easypost-2022")
+    print_parsed_data(team, "TEAM")
+
+if __name__ == "__main__":
+    main()
 
