@@ -270,7 +270,7 @@ class Stage(Scraper):
             "climb_url"
         )
         fields = parse_table_fields_args(args, available_fields)
-        climbs_html = self.html.css_first("ul.list.circle")
+        climbs_html = self._find_header_list("Climbs")
         if climbs_html is None:
             return []
 

@@ -199,3 +199,17 @@ class Scraper:
                         return sibling
                     sibling = sibling.next
         return None
+    
+    def _find_header_list(self, header_text: str) -> Optional[HTMLParser]:
+        """
+        Manually locate a list element following a header using selectolax tree traversal.
+            """
+        for h4 in self.html.css("h4"):
+            if h4.text(strip=True).lower() == header_text.lower():
+                # Traverse siblings to find the next <ul class="list circle">
+                sibling = h4.next
+                while sibling:
+                    if sibling.tag == "ul" and "list" in sibling.attributes.get("class", "") and "circle" in sibling.attributes.get("class", ""):
+                        return sibling
+                    sibling = sibling.next
+        return None
