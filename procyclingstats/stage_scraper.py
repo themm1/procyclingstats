@@ -45,7 +45,7 @@ class Stage(Scraper):
         ...
     }
     """
-    _tables_path = ".result-cont table"
+    _tables_path = ".resultCont table.results"
 
     def _set_up_html(self) -> None:
         """
@@ -56,7 +56,11 @@ class Stage(Scraper):
         # to map teams to riders based on their rank
         categories = self.html.css(self._tables_path)
         if not categories:
-            return
+            results_table = self.html.css('.general > table.results')
+            if results_table:
+                categories = [results_table]
+            else:
+                raise ExpectedParsingError("Results table not in page HTML")    
         results_table_html = categories[0]
         if self.stage_type() != "TTT":
             return
@@ -103,8 +107,8 @@ class Stage(Scraper):
 
         :return: Stage type, e.g. ``ITT``.
         """
-        stage_name_html = self.html.css_first(".sub > .blue")
-        stage_name2_html = self.html.css_first("div.main > h1")
+        stage_name_html = self.html.css_first(".title-line-2 > .blue")
+        stage_name2_html = self.html.css_first("div.title > h1")
         stage_name = stage_name_html.text()
         stage_name2 = stage_name2_html.text()
         if "ITT" in stage_name or "ITT" in stage_name2:
@@ -323,6 +327,7 @@ class Stage(Scraper):
         # remove other result tables from html
         # because of one day races self._table_index isn't used here
         categories = self.html.css(self._tables_path)
+        print(categories)
         results_table_html = categories[0]
         # Results table is empty
         if (not results_table_html or
@@ -604,7 +609,8 @@ class Stage(Scraper):
         :return: Value of given label. Empty string when label is not in
             infolist.
         """
-        for row in self.html.css("ul.infolist > li"):
+        stage_info = self._find_header_list("Race information")
+        for row in stage_info.css("li"):
             row_text = row.text(separator="\n").split("\n")
             row_text = [x for x in row_text if x != " "]
             if label in row_text[0]:

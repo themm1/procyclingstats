@@ -200,16 +200,39 @@ class Scraper:
                     sibling = sibling.next
         return None
     
-    def _find_header_list(self, header_text: str) -> Optional[HTMLParser]:
+    # def _find_header_list(self, header_text: str) -> Optional[HTMLParser]:
+    #     """
+    #     Manually locate a list element following a header using selectolax tree traversal.
+    #         """
+    #     for h4 in self.html.css("h4"):
+    #         if h4.text(strip=True).lower() == header_text.lower():
+    #             # Traverse siblings to find the next <ul class="list circle">
+    #             sibling = h4.next
+    #             while sibling:
+    #                 if sibling.tag == "ul" and "list" in sibling.attributes.get("class", "") and "circle" in sibling.attributes.get("class", ""):
+    #                     return sibling
+    #                 sibling = sibling.next
+    #     return None
+    def _find_header_list(self, header_text: str, list_classes: Optional[List[str]] = None) -> Optional[HTMLParser]:
         """
         Manually locate a list element following a header using selectolax tree traversal.
-            """
+        Can handle both ul and ol elements.
+            
+        :param header_text: The text content of the header to search for
+        :param list_classes: Optional list of CSS classes that the list element must contain.
+            If None, will match any ul/ol element with "list" class.
+         """
+        if list_classes is None:
+            list_classes = ["list"]
+            
         for h4 in self.html.css("h4"):
             if h4.text(strip=True).lower() == header_text.lower():
-                # Traverse siblings to find the next <ul class="list circle">
+                # Traverse siblings to find the next <ul> or <ol> with specified classes
                 sibling = h4.next
                 while sibling:
-                    if sibling.tag == "ul" and "list" in sibling.attributes.get("class", "") and "circle" in sibling.attributes.get("class", ""):
-                        return sibling
+                    if sibling.tag in ("ul", "ol"):
+                        element_classes = sibling.attributes.get("class", "").split()
+                        if all(cls in element_classes for cls in list_classes):
+                            return sibling
                     sibling = sibling.next
-        return None
+        return None    
