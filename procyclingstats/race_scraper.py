@@ -1,6 +1,8 @@
 import re
 from typing import Any, Dict, List
 
+import re
+
 from .errors import ExpectedParsingError, UnexpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
@@ -54,13 +56,11 @@ class Race(Scraper):
         :return: Name of the race, e.g. ``Tour de France``.
         """
         h1 = self.html.css_first(".page-title > .title > h1")
-
         if not h1:
             raise ExpectedParsingError("Title not found")
 
         span = h1.css_first("span.hideIfMobile")
         full_text = h1.text()
-
         if span:
             full_text = full_text.replace(span.text(), "")
 
