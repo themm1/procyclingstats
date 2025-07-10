@@ -1,3 +1,4 @@
+import re
 from typing import Any, Dict, List
 
 from .errors import ExpectedParsingError, UnexpectedParsingError
@@ -32,9 +33,19 @@ class Race(Scraper):
 
         :return: Year when the race occured.
         """
-        year_text = self.html.css_first("span.hideIfMobile").text().strip()
-        year = year_text.split('\xa0')[0].strip()
-        return int(year)
+        span = self.html.css_first("span.hideIfMobile")
+
+        if not span:
+            raise ExpectedParsingError("Span containing year not found")
+
+        text = span.text().strip()
+
+        match = re.search(r"(\d{4})", text)
+
+        if not match:
+            raise ExpectedParsingError(f"Impossible to parse year in '{text}'")
+
+        return int(match.group(1))
 
     def name(self) -> str:
         """
@@ -42,8 +53,18 @@ class Race(Scraper):
 
         :return: Name of the race, e.g. ``Tour de France``.
         """
-        display_name_html = self.html.css_first(".page-title > .title > h1")
-        return display_name_html.text()
+        h1 = self.html.css_first(".page-title > .title > h1")
+
+        if not h1:
+            raise ExpectedParsingError("Title not found")
+
+        span = h1.css_first("span.hideIfMobile")
+        full_text = h1.text()
+
+        if span:
+            full_text = full_text.replace(span.text(), "")
+
+        return full_text.strip()
 
     def is_one_day_race(self) -> bool:
         """
@@ -75,10 +96,19 @@ class Race(Scraper):
 
         :return: Edition as int.
         """
-        edition_html = self.html.css_first(
-            ".page-title > .title > span + font")
-        if edition_html is not None:
-            return int(edition_html.text()[:-2])
+        h1 = self.html.css_first(".page-title > .title > h1")
+
+        if not h1:
+            raise ExpectedParsingError("Title not found")
+
+        span = h1.css_first("span.hideIfMobile")
+        full_text = h1.text()
+
+        if span:
+            edition_text = span.text().strip().split('\xa0')[2]
+            edition_text = edition_text[:-2]  # remove 'th'/'st'/'nd'/'rd'
+            if edition_text.isdigit():
+                return int(edition_text)
         raise ExpectedParsingError("Race cancelled, edition unavailable.")
 
     def startdate(self) -> str:
