@@ -185,3 +185,17 @@ class Scraper:
             return True
         except AssertionError:
             return False
+        
+    def _find_header_table(self, header_text: str) -> Optional[HTMLParser]:
+        """
+        Manually locate the stages table using selectolax tree traversal.
+        """
+        for h4 in self.html.css("h4"):
+            if h4.text(strip=True).lower() == header_text.lower():
+                # Traverse siblings to find the next <table class="basic">
+                sibling = h4.next
+                while sibling:
+                    if sibling.tag == "table" and "basic" in sibling.attributes.get("class", ""):
+                        return sibling
+                    sibling = sibling.next
+        return None

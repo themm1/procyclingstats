@@ -72,7 +72,7 @@ class Race(Scraper):
 
         :return: Whether given race is one day race.
         """
-        titles = self.html.css("div > div > h3")
+        titles = self.html.css("div > div > h4")
         titles = [] if not titles else titles
         for title_html in titles:
             if "Stages" in title_html.text():
@@ -107,8 +107,7 @@ class Race(Scraper):
         if span:
             edition_text = span.text().strip().split('\xa0')[2]
             edition_text = edition_text[:-2]  # remove 'th'/'st'/'nd'/'rd'
-            if edition_text.isdigit():
-                return int(edition_text)
+            return int(edition_text)
         raise ExpectedParsingError("Race cancelled, edition unavailable.")
 
     def startdate(self) -> str:
@@ -155,8 +154,16 @@ class Race(Scraper):
         :return: Parsed select menu represented as list of dicts with keys
             ``text`` and ``value``.
         """
-        editions_select_html = self.html.css_first("form > select")
-        return parse_select(editions_select_html)
+        select_elements = self.html.css("div.selectNav select")
+
+        for select in select_elements:
+            options = select.css("option")
+            values = [opt.attributes.get("value", "") for opt in options]
+
+            # Match values that look like race/<race-name>/<year>/statistics/start
+            if all(re.match(r"race/[^/]+/\d{4}/statistics/start", v) for v in values if v):
+                return parse_select(select)
+        return []
 
     def stages(self, *args: str) -> List[Dict[str, Any]]:
         """
@@ -186,8 +193,7 @@ class Race(Scraper):
             return []
 
         fields = parse_table_fields_args(args, available_fields)
-        stages_table_html = self.html.css_first("div:not(.mg_r2) > div > \
-            span > table.basic")
+        stages_table_html = self._find_header_table("Stages")
         if not stages_table_html:
             return []
         # remove rest day table rows
@@ -236,8 +242,7 @@ class Race(Scraper):
 
         fields = parse_table_fields_args(args, available_fields)
         orig_fields = fields
-        winners_html = self.html.css("div:not(.mg_r2) > div > \
-            span > table.basic")[1]
+        winners_html = self._find_header_table("Stage Winners")
         if not winners_html:
             return []
         # remove rest day table rows
