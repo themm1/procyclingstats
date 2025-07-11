@@ -296,7 +296,6 @@ class TableParser:
             classes = icon_e.attributes['class']
             if classes and len(classes.split(" ")) >= 3:
                 profiles.append(classes.split(" ")[2])
-        print(profiles)
         return profiles
 
     def season(self) -> List[Optional[int]]:
