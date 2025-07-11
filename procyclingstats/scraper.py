@@ -14,7 +14,8 @@ class Scraper:
     _public_nonparsing_methods = (
         "update_html",
         "parse",
-        "relative_url"
+        "relative_url",
+        "fetch_html",  
     )
     """Public methods that aren't called by `parse` method."""
 
@@ -89,6 +90,16 @@ class Scraper:
             # pylint: disable=missing-timeout
         self._html = HTMLParser(html_str)
 
+    def fetch_html(self, url: str) -> HTMLParser:
+        """
+        Fetches HTML from given URL and returns it as HTMLParser object.
+
+        :param url: URL to fetch HTML from.
+        :return: HTMLParser object created from fetched HTML.
+        """
+        html_str = requests.get(url).text
+        return HTMLParser(html_str)
+    
     def parse(self,
             exceptions_to_ignore: Tuple[
             Type[Exception], ...] = (ExpectedParsingError,),
@@ -195,7 +206,7 @@ class Scraper:
         """
         Manually locate the stages table using selectolax tree traversal.
         """
-        for h4 in self.html.css("h4"):
+        for h4 in self.html.css("h4" or "h2"):
             if h4.text(strip=True).lower() == header_text.lower():
                 # Traverse siblings to find the next <table class="basic">
                 sibling = h4.next
