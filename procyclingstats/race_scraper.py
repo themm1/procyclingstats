@@ -1,3 +1,4 @@
+import re
 from typing import Any, Dict, List
 
 import re
@@ -38,9 +39,9 @@ class Race(Scraper):
 
         if not span:
             raise ExpectedParsingError("Span containing year not found")
-        
+
         text = span.text().strip()
-        
+
         match = re.search(r"(\d{4})", text)
 
         if not match:
@@ -55,13 +56,11 @@ class Race(Scraper):
         :return: Name of the race, e.g. ``Tour de France``.
         """
         h1 = self.html.css_first(".page-title > .title > h1")
-        
         if not h1:
             raise ExpectedParsingError("Title not found")
 
         span = h1.css_first("span.hideIfMobile")
         full_text = h1.text()
-        
         if span:
             full_text = full_text.replace(span.text(), "")
 
@@ -73,9 +72,11 @@ class Race(Scraper):
 
         :return: Whether given race is one day race.
         """
-        title2 = self.html.css_first(".page-title > .title-line2")
-        if title2 and "stages" in title2.text().lower():
-            return False
+        titles = self.html.css("div > div > h4")
+        titles = [] if not titles else titles
+        for title_html in titles:
+            if "Stages" in title_html.text():
+                return False
         return True
 
     def nationality(self) -> str:
@@ -95,10 +96,18 @@ class Race(Scraper):
 
         :return: Edition as int.
         """
-        edition_html = self.html.css_first(
-            ".page-title > .title h1 > span")
-        if edition_html is not None:
-            return int(edition_html.text().split()[-1][:-2])
+        h1 = self.html.css_first(".page-title > .title > h1")
+
+        if not h1:
+            raise ExpectedParsingError("Title not found")
+
+        span = h1.css_first("span.hideIfMobile")
+        full_text = h1.text()
+
+        if span:
+            edition_text = span.text().strip().split('\xa0')[2]
+            edition_text = edition_text[:-2]  # remove 'th'/'st'/'nd'/'rd'
+            return int(edition_text)
         raise ExpectedParsingError("Race cancelled, edition unavailable.")
 
     def startdate(self) -> str:
@@ -117,7 +126,7 @@ class Race(Scraper):
 
         :return: Enddate in ``YYYY-MM-DD`` format.
         """
-        enddate_html = self.html.css(".list > li > div:nth-child(2)")[1]
+        enddate_html = self.html.css(".list > li > div:nth-child(2)")[1] 
         return enddate_html.text()
 
     def category(self) -> str:
@@ -145,8 +154,16 @@ class Race(Scraper):
         :return: Parsed select menu represented as list of dicts with keys
             ``text`` and ``value``.
         """
-        editions_select_html = self.html.css_first("form > select")
-        return parse_select(editions_select_html)
+        select_elements = self.html.css("div.selectNav select")
+
+        for select in select_elements:
+            options = select.css("option")
+            values = [opt.attributes.get("value", "") for opt in options]
+
+            # Match values that look like race/<race-name>/<year>/statistics/start
+            if all(re.match(r"race/[^/]+/\d{4}/statistics/start", v) for v in values if v):
+                return parse_select(select)
+        return []
 
     def stages(self, *args: str) -> List[Dict[str, Any]]:
         """
@@ -176,8 +193,7 @@ class Race(Scraper):
             return []
 
         fields = parse_table_fields_args(args, available_fields)
-        stages_table_html = self.html.css_first(
-            ".page-content > div > div:nth-child(3) > div:nth-child(1) table")
+        stages_table_html = self._find_header_table("Stages")
         if not stages_table_html:
             return []
         # remove rest day table rows
@@ -226,8 +242,7 @@ class Race(Scraper):
 
         fields = parse_table_fields_args(args, available_fields)
         orig_fields = fields
-        winners_html = self.html.css_first(
-            ".page-content > div > div:nth-child(3) > div:nth-child(2) table")
+        winners_html = self._find_header_table("Stage Winners")
         if not winners_html:
             return []
         # remove rest day table rows

@@ -1,5 +1,6 @@
 import glob
 import json
+import os
 from typing import Any, Dict, List, Optional, Type
 
 from procyclingstats import Scraper
@@ -40,7 +41,8 @@ class FixturesUtils:
         filename = self._get_filename_for_parsing(scraper_obj)
         data = scraper_obj.parse()
         json_obj = json.dumps(data, indent=2)
-        with open(f"{self.fixtures_path}{filename}.json", "w") as fixture:
+        path = os.path.join(self.fixtures_path, f"{filename}.json")
+        with open(path, "w", encoding="utf-8") as fixture:
             fixture.write(json_obj)
 
     def make_html_fixture(self, scraper_obj: Scraper) -> None:
@@ -51,7 +53,8 @@ class FixturesUtils:
         :raises ExpectedParsingError: When object's HTML is None.
         """
         filename = self._get_filename_for_parsing(scraper_obj)
-        with open(f"{self.fixtures_path}{filename}.txt", "w") as fixture:
+        path = os.path.join(self.fixtures_path, f"{filename}.txt")
+        with open(path, "w", encoding="utf-8") as fixture:
             fixture.write(scraper_obj.html.html) # type: ignore
 
     def get_data_fixture(self, url: str) -> Optional[Dict[str, Any]]:
@@ -63,8 +66,9 @@ class FixturesUtils:
         returned.
         """
         filename = self.url_to_filename(url)
+        path = os.path.join(self.fixtures_path, f"{filename}.json")
         try:
-            with open(f"{self.fixtures_path}{filename}.json", "r") as fixture:
+            with open(path, "r", encoding="utf-8") as fixture:
                 return json.load(fixture)
         except FileNotFoundError:
             return None
@@ -78,8 +82,9 @@ class FixturesUtils:
         returned.
         """
         filename = self.url_to_filename(url)
+        path = os.path.join(self.fixtures_path, f"{filename}.txt")
         try:
-            with open(f"{self.fixtures_path}{filename}.txt", "r") as fixture:
+            with open(path, "r", encoding="utf-8") as fixture:
                 return fixture.read()
         except FileNotFoundError:
             return None
@@ -114,8 +119,8 @@ class FixturesUtils:
         :param file_type: File type (`txt`/`json` for now).
         :return: List of relative URLs.
         """
-        html_file_paths = glob.glob(f"{self.fixtures_path}*.{file_type}")
-        html_files = [f.split("/")[-1] for f in html_file_paths]
+        html_file_paths = glob.glob(os.path.join(self.fixtures_path, f"*.{file_type}"))
+        html_files = [os.path.basename(f) for f in html_file_paths]
         # replace underscores by slashes and cut file type
         urls = [".".join(f.split(".")[:-1]).replace("_", "/")
                 for f in html_files]
@@ -124,23 +129,30 @@ class FixturesUtils:
     @staticmethod
     def url_to_filename(url: str) -> str:
         """
-        Converts URL to filename (replaces slashes with underscores).
+        Converts URL to a Windows-safe filename by replacing forbidden characters with underscores.
 
         :param url: Relative URL to convert filename from.
         :return: Filename without file type.
         """
-        return url.replace("/", "_")
+        # Forbidden on Windows: < > : " / \ | ? * and also replace & =
+        forbidden = '<>:"/\\|?*&='
+        filename = url
+        for ch in forbidden:
+            filename = filename.replace(ch, '_')
+        return filename
 
     @staticmethod
     def filename_to_url(filename: str) -> str:
         """
-        Converts filename to relative URL (replaces underscores with slashes).
+        Converts a Windows-safe filename back to a relative URL.
+        Note: This is a lossy operation if original URL contained underscores or forbidden chars.
 
         :param filename: Filename to convert URL from (can be with file type)
         :return: relative URL.
         """
         if "." in filename:
             filename = ".".join(filename.split(".")[:-1])
+        # Only replace underscores with slashes for legacy compatibility
         return filename.replace("_", "/")
 
     @staticmethod

@@ -364,8 +364,16 @@ class TableParser:
                 return [0 for _ in range(self.table_length)]
 
     def points(self) -> List[int]:
-        return self.parse_extra_column("Points", lambda x:
-            float(x) if x else 0)
+        # Try different possible column names for points
+        possible_columns = ["Points", "Pnt", "PCS points"]
+        for column_name in possible_columns:
+            try:
+                return self.parse_extra_column(column_name, lambda x:
+                    int(x) if x and x.isdigit() else 0)
+            except ValueError:
+                continue
+        # If no points column found, return zeros
+        return [0 for _ in range(self.table_length)]
 
     def class_(self) -> List[str]:
         """
@@ -412,7 +420,9 @@ class TableParser:
             raise ExpectedParsingError(
                 f"Can not parse '{column_name}' column without table header")
         for i, column_name_e in enumerate(self.header.css("th")):
-            if column_name.lower() in column_name_e.text().lower():
+            header_text = column_name_e.text().lower().strip()
+            search_text = column_name.lower().strip()
+            if search_text in header_text:
                 return i
         raise ValueError(
             f"'{column_name}' column isn't in table header")

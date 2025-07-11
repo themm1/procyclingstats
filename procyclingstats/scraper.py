@@ -168,20 +168,63 @@ class Scraper:
         :return: True if given HTML is valid, otherwise False.
         """
         try:
+            # Try multiple selectors for page title
             page_title_element = (
                 self.html.css_first(".page-title > .main > h1") or
-                self.html.css_first(".page-title > .title > h1")
+                self.html.css_first(".page-title > .title > h1") or
+                self.html.css_first(".page-title h1")
             )
 
-            page_title = page_title_element.text()
-
-            assert page_title != "Page not found"
-
-            page_title2 = self.html.css_first("div.page-content > div").text()
-            assert page_title2 != (
-                "Due to technical difficulties this page is temporarily unavailable."
-            )
+            if page_title_element:
+                page_title = page_title_element.text(strip=True)
+                assert page_title != "Page not found"
+            
+            # Check for technical difficulties message
+            page_content_div = self.html.css_first("div.page-content > div")
+            if page_content_div:
+                page_title2 = page_content_div.text(strip=True)
+                assert page_title2 != (
+                    "Due to technical difficulties this page is temporarily unavailable."
+                )
 
             return True
-        except AssertionError:
+        except (AssertionError, AttributeError):
             return False
+        
+    def _find_header_table(self, header_text: str) -> Optional[HTMLParser]:
+        """
+        Manually locate the stages table using selectolax tree traversal.
+        """
+        for h4 in self.html.css("h4"):
+            if h4.text(strip=True).lower() == header_text.lower():
+                # Traverse siblings to find the next <table class="basic">
+                sibling = h4.next
+                while sibling:
+                    if sibling.tag == "table" and "basic" in sibling.attributes.get("class", ""):
+                        return sibling
+                    sibling = sibling.next
+        return None
+    
+    def _find_header_list(self, header_text: str, list_classes: Optional[List[str]] = None) -> Optional[HTMLParser]:
+        """
+        Manually locate a list element following a header using selectolax tree traversal.
+        Can handle both ul and ol elements.
+            
+        :param header_text: The text content of the header to search for
+        :param list_classes: Optional list of CSS classes that the list element must contain.
+            If None, will match any ul/ol element with "list" class.
+         """
+        if list_classes is None:
+            list_classes = ["list"]
+            
+        for h4 in self.html.css("h4"):
+            if h4.text(strip=True).lower() == header_text.lower():
+                # Traverse siblings to find the next <ul> or <ol> with specified classes
+                sibling = h4.next
+                while sibling:
+                    if sibling.tag in ("ul", "ol"):
+                        element_classes = sibling.attributes.get("class", "").split()
+                        if all(cls in element_classes for cls in list_classes):
+                            return sibling
+                    sibling = sibling.next
+        return None
