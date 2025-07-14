@@ -1,13 +1,11 @@
 import re
 from typing import Any, Dict, List
-
 import re
 
 from .errors import ExpectedParsingError, UnexpectedParsingError
 from .scraper import Scraper
 from .table_parser import TableParser
 from .utils import get_day_month, parse_select, parse_table_fields_args
-
 
 class Race(Scraper):
     """
@@ -288,7 +286,7 @@ class Race(Scraper):
         :return: List of combative riders with keys ``stage``, ``rider_name``, ``rider_url``, ``rider_team_url``, and ``flag``.
         """
         # Construct the URL for combative riders
-        combative_riders_url = self.url + "/results/combative-riders"
+        combative_riders_url = self.url + "/results/comative-riders" #typo in url
         combative_riders_html = self.fetch_html(combative_riders_url)
         
         if not combative_riders_html:

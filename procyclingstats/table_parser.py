@@ -86,7 +86,12 @@ class TableParser:
             - date
         """
         raw_table = []
-        for _ in range(self.table_length):
+        for row_element in self.html_table.css(f"{self.table_row_tag}"):
+            # Handle rows with missing or malformed data
+            if "colspan" in row_element.attributes and "relegated" in row_element.text().lower():
+                print(f"Skipping relegated rider row: {row_element.text()}")
+                raw_table.append({})  # Add an empty row to maintain alignment
+                continue
             raw_table.append({})
 
         for field in fields:
@@ -95,18 +100,19 @@ class TableParser:
             # special case when field is called class
             else:
                 parsed_field_list = getattr(self, "class_")()
-            # field wasn't found in every table row, so isn't matching table
-            # rows correctly
-            if len(parsed_field_list) != self.table_length:
+
+            # Ensure parsed field list matches the number of rows
+            while len(parsed_field_list) < len(raw_table):
+                parsed_field_list.append(None)
+
+            if len(parsed_field_list) != len(raw_table):
                 message = f"Field '{field}' wasn't parsed correctly"
                 raise UnexpectedParsingError(message)
 
             for row, parsed_value in zip(raw_table, parsed_field_list):
                 row[field] = parsed_value
 
-        # remove unwanted rows
-        for row in raw_table:
-            self.table.append(row)
+        self.table.extend(raw_table)
 
         if "time" in fields and self.table:
             self._make_times_absolute()
@@ -241,15 +247,16 @@ class TableParser:
         times_elements = self.html_table.css(".time")
         times = []
         for time_e in times_elements:
-            time_e_text = time_e.text(separator="\n")
+            time_e_text = time_e.text(separator="\n").strip()
+            if not time_e_text or time_e_text == "-":
+                times.append(None)  # Handle empty or invalid times as None
+                continue
             rider_time = None
             for time_line in time_e_text.split("\n"):
                 if ",," not in time_line and "″" not in time_line:
                     rider_time = time_line
                     break
-            if rider_time == "-" or rider_time is None:
-                rider_time = None
-            else:
+            if rider_time:
                 rider_time = format_time(rider_time.replace(" ", ""))
             times.append(rider_time)
         return times
@@ -477,13 +484,14 @@ class TableParser:
             extras.add(keyword)
         filtered_values = []
         for a_element in self.a_elements:
-            href = a_element.attributes['href']
-            if href and validator(a_element):
-                parts = set(href.split("/"))
-                for kwrd in extras:
-                    if kwrd in parts:
-                        if get_href:
-                            filtered_values.append(href)
-                        else:
-                            filtered_values.append(a_element.text())
+            href = a_element.attributes.get('href', None)
+            if not href:
+                continue  # Skip elements without href
+            parts = set(href.split("/"))
+            for kwrd in extras:
+                if kwrd in parts:
+                    if get_href:
+                        filtered_values.append(href)
+                    else:
+                        filtered_values.append(a_element.text())
         return filtered_values
