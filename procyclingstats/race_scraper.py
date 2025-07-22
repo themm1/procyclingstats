@@ -100,13 +100,14 @@ class Race(Scraper):
             raise ExpectedParsingError("Title not found")
 
         span = h1.css_first("span.hideIfMobile")
-        full_text = h1.text()
 
-        if span:
-            edition_text = span.text().strip().split('\xa0')[2]
-            edition_text = edition_text[:-2]  # remove 'th'/'st'/'nd'/'rd'
-            return int(edition_text)
-        raise ExpectedParsingError("Race cancelled, edition unavailable.")
+        try:
+            if span:
+                edition_text = span.text().strip().split('\xa0')[2]
+                edition_text = edition_text[:-2]  # remove 'th'/'st'/'nd'/'rd'
+                return int(edition_text)
+        except IndexError:
+            raise ExpectedParsingError("Race cancelled, edition unavailable.")
 
     def startdate(self) -> str:
         """

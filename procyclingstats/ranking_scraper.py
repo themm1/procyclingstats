@@ -489,7 +489,7 @@ class Ranking(Scraper):
         """
 
         relative_url = self.relative_url()
-        if len(relative_url.split("/")) < 3 and "?" not in relative_url:
+        if relative_url == "rankings" or relative_url == "rankings/":
             return "individual"
         if "races" in relative_url:
             l = [m.start() for m in re.finditer("races", relative_url)]
