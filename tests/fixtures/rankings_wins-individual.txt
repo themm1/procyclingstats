@@ -1,0 +1,744 @@
+<!DOCTYPE html><html><head>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2MNJ20S7SJ');
+</script>
+<title>Which rider has the most victories?</title> 
+<base href="https://www.procyclingstats.com/rankings.php"> 
+<link rel="canonical" href="https://www.procyclingstats.com/rankings/me/wins-individual"> 
+<script>  var r89 = r89 || {      callAds: [],   pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }    };  </script>
+  <script async="" src="https://tags.refinery89.com/procyclingstats.js"></script><meta name="description" content="Tadej  Pogačar has 12 victories in season 2025 and is leading the victory ranking, before Tim  Merlier with 11 wins and Matthew  Brennan (10 wins).">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="v3_scripts_v32.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v70.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
+<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico">
+</head>
+<body>
+<div class="wrapper"><header>
+<div class="cont">
+<a class="logo" href="index.php"></a>
+<div class="search"><form action="search.php" class="msearch"><input type="hidden" id="term"><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off"></form></div> 
+<div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
+<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<li class=""><a class="menu" href="index.php">Home</a></li>
+<li class=""><a class="menu" href="races.php">Races<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
+<li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
+<li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
+</ul></li>
+<li class=""><a class="menu" href="teams.php">Teams<span class="more" href="">▼</span></a>
+<ul><li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
+</ul></li>
+<li class=""><a class="menu" href="rankings.php">Rankings</a></li>
+<li class=""><a class="menu" href="statistics.php">Statistics<span class="more" href="">▼</span></a>
+<ul><li><a href="statistics">Overview</a></li>
+<li><a href="statistics/riders">Riders</a></li>
+<li><a href="statistics/teams">Teams</a></li>
+<li><a href="statistics/grandtours">Grand tours</a></li>
+</ul></li>
+<li class=""><a class="menu" href="game.php">Game</a></li>
+<li class="tour yellow"><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france/2025/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
+<li><a href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
+<li><a href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
+<li class=""><a class="menu" href="quiz.php">Quiz</a></li>
+<li class=""><a class="menu" href="riders.php">More<span class="more" href="">▼</span></a>
+<ul><li><a href="riders">Riders</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="account"><a class="menu" href="account.php">Account<span class="more" href="">▼</span></a>
+<ul><li><a href="account/overview">My account</a></li>
+<li><a href="account/follow-riders">My riders</a></li>
+</ul></li>
+<li class="small"><a class="menu" href="">Road<span class="more" href="">▼</span></a>
+<ul><li><a href="https://cx.procyclingstats.com">Cross</a></li>
+</ul></li>
+<li class="language small"><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
+<ul></ul></ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rankings/me">Men elite<span>▼</span></a><ul><li><a href="rankings/individual">Individual</a></li>
+<li><a href="rankings/teams">Teams</a></li>
+<li><a href="rankings/nations">Nations</a></li>
+<li><a href="rankings/races">Races</a></li>
+<li><a href="rankings/u23">U23</a></li>
+</ul></span>
+<span><a class="" href="rankings/we">Women elite<span>▼</span></a><ul><li><a href="rankings/we/individual">Individual</a></li>
+<li><a href="rankings/we/teams">Teams</a></li>
+<li><a href="rankings/we/nations">Nations</a></li>
+<li><a href="rankings/we/world-ranking">Individual</a></li>
+<li><a href="rankings/we/wwt">Women's World Tour (WWT)</a></li>
+<li><a href="rankings/we/uci-teams">Teams</a></li>
+<li><a href="rankings/we/promotion-relegation">2024-2025 Promotion/relegation</a></li>
+</ul></span>
+<span><a class="" href="rankings/mj">Junior men</a></span>
+<span><a class="" href="rankings/wj">Junior women</a></span>
+<span><a class="" href="rankings/national">National</a></span>
+</div><div class="clear"></div>
+
+<div class="titleCont hasSideNav"><div class="page-title"><div class="title"><h1>PCS Wins</h1> </div><span class="arrow">»</span><div class="subtitle"><h2>Individual</h2></div></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div>
+<div class="page-content ">
+<div class=""><div class="">
+<div class="fs14">Ranking by most wins. First tiebreaker is the number of 2nd places, then the number of 3rd places.<br>
+</div>
+</div>
+<div class="mt20">
+<form action="rankings.php"><input type="hidden" name="p" value="wins-individual">
+<input type="hidden" name="s" value="">
+<ul class="filter "><li class="" data-formtype="select" data-def=""><div class="label">Date</div>
+<div class="input">
+<span class="inputCont"><select name="date"><option value="2025-07-11">2025</option>
+<option value="2024-12-31">2024</option>
+<option value="2023-12-31">2023</option>
+<option value="2022-12-31">2022</option>
+<option value="2021-12-31">2021</option>
+<option value="2020-12-31">2020</option>
+<option value="2019-12-31">2019</option>
+<option value="2018-12-31">2018</option>
+<option value="2017-12-31">2017</option>
+<option value="2016-12-31">2016</option>
+<option value="2015-12-31">2015</option>
+<option value="2014-12-31">2014</option>
+<option value="2013-12-31">2013</option>
+<option value="2012-12-31">2012</option>
+<option value="2011-12-31">2011</option>
+<option value="2010-12-31">2010</option>
+<option value="2009-12-31">2009</option>
+<option value="2008-12-31">2008</option>
+<option value="2007-12-31">2007</option>
+<option value="2006-12-31">2006</option>
+<option value="2005-12-31">2005</option>
+<option value="2004-12-31">2004</option>
+<option value="2003-12-31">2003</option>
+<option value="2002-12-31">2002</option>
+<option value="2001-12-31">2001</option>
+<option value="2000-12-31">2000</option>
+<option value="1999-12-31">1999</option>
+<option value="1998-12-31">1998</option>
+<option value="1997-12-31">1997</option>
+<option value="1996-12-31">1996</option>
+<option value="1995-12-31">1995</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def=""><div class="label">Nation</div>
+<div class="input">
+<span class="inputCont"><select name="nation"><option value="" selected="">-</option>
+<option value="al">Albania</option>
+<option value="dz">Algeria</option>
+<option value="ad">Andorra</option>
+<option value="ao">Angola</option>
+<option value="ar">Argentina</option>
+<option value="au">Australia</option>
+<option value="at">Austria</option>
+<option value="az">Azerbaijan</option>
+<option value="by">Belarus</option>
+<option value="be">Belgium</option>
+<option value="bz">Belize</option>
+<option value="bm">Bermuda</option>
+<option value="bw">Botswana</option>
+<option value="br">Brazil</option>
+<option value="bg">Bulgaria</option>
+<option value="bf">Burkina Faso</option>
+<option value="cm">Cameroon</option>
+<option value="ca">Canada</option>
+<option value="cl">Chile</option>
+<option value="cn">China</option>
+<option value="co">Colombia</option>
+<option value="cr">Costa Rica</option>
+<option value="hr">Croatia</option>
+<option value="cu">Cuba</option>
+<option value="cw">Curaçao</option>
+<option value="cy">Cyprus</option>
+<option value="cz">Czech Republic</option>
+<option value="dk">Denmark</option>
+<option value="do">Dominican Republic</option>
+<option value="ec">Ecuador</option>
+<option value="sv">El Salvador</option>
+<option value="er">Eritrea</option>
+<option value="ee">Estonia</option>
+<option value="et">Ethiopia</option>
+<option value="fi">Finland</option>
+<option value="fr">France</option>
+<option value="ge">Georgia</option>
+<option value="de">Germany</option>
+<option value="gb">Great Britain</option>
+<option value="gr">Greece</option>
+<option value="gt">Guatemala</option>
+<option value="hk">Hongkong</option>
+<option value="hu">Hungary</option>
+<option value="in">India</option>
+<option value="id">Indonesia</option>
+<option value="ir">Iran</option>
+<option value="ie">Ireland</option>
+<option value="il">Israel</option>
+<option value="it">Italy</option>
+<option value="ci">Ivory Coast</option>
+<option value="jp">Japan</option>
+<option value="kz">Kazakhstan</option>
+<option value="ke">Kenya</option>
+<option value="xk">Kosovo</option>
+<option value="kw">Kuwait</option>
+<option value="la">Laos</option>
+<option value="lv">Latvia</option>
+<option value="lb">Lebanon</option>
+<option value="lt">Lithuania</option>
+<option value="lu">Luxembourg</option>
+<option value="my">Malaysia</option>
+<option value="mu">Mauritius</option>
+<option value="mx">Mexico</option>
+<option value="md">Moldova</option>
+<option value="mn">Mongolia</option>
+<option value="me">Montenegro</option>
+<option value="ma">Morocco</option>
+<option value="na">Namibia</option>
+<option value="nl">Netherlands</option>
+<option value="nz">New Zealand</option>
+<option value="mk">North Macedonia</option>
+<option value="no">Norway</option>
+<option value="pk">Pakistan</option>
+<option value="pa">Panama</option>
+<option value="ph">Philippines</option>
+<option value="pl">Poland</option>
+<option value="pt">Portugal</option>
+<option value="pr">Puerto Rico</option>
+<option value="ro">Romania</option>
+<option value="ru">Russia</option>
+<option value="rw">Rwanda</option>
+<option value="rs">Serbia</option>
+<option value="sg">Singapore</option>
+<option value="sk">Slovakia</option>
+<option value="si">Slovenia</option>
+<option value="za">South Africa</option>
+<option value="kr">South Korea</option>
+<option value="es">Spain</option>
+<option value="se">Sweden</option>
+<option value="ch">Switzerland</option>
+<option value="sy">Syria</option>
+<option value="tw">Taiwan</option>
+<option value="th">Thailand</option>
+<option value="tn">Tunisia</option>
+<option value="tr">Türkiye</option>
+<option value="ug">Uganda</option>
+<option value="ua">Ukraine</option>
+<option value="ae">United Arab Emirates</option>
+<option value="us">United States</option>
+<option value="uy">Uruguay</option>
+<option value="uz">Uzbekistan</option>
+<option value="ve">Venezuela</option>
+</select></span></div></li>
+<li class="" data-formtype="" data-def=""><div class="label">Age</div>
+<div class="input">
+<span class="inputCont"><input name="age" type="text" value="" autocomplete="off"></span><select name="page" style="width: 50px;"><option value="smallerorequal" selected="">&lt;=</option>
+<option value="largerorequal">&gt;=</option>
+<option value="equal">=</option>
+<option value="between">Between</option>
+</select></div></li>
+<li class="" data-formtype="select" data-def=""><div class="label">Team</div>
+<div class="input">
+<span class="inputCont"><select name="team"><option value="" selected="">-</option>
+<option value="1100">Alpecin - Deceuninck</option>
+<option value="1107">Arkéa - B&amp;B Hotels</option>
+<option value="3814">Bahrain - Victorious</option>
+<option value="1136">Cofidis</option>
+<option value="1060">Decathlon AG2R La Mondiale Team</option>
+<option value="4000">EF Education - EasyPost</option>
+<option value="1187">Groupama - FDJ</option>
+<option value="1423">INEOS Grenadiers</option>
+<option value="1490">Intermarché - Wanty</option>
+<option value="1258">Lidl - Trek</option>
+<option value="2040">Movistar Team</option>
+<option value="1411">Red Bull - BORA - hansgrohe</option>
+<option value="1328">Soudal Quick-Step</option>
+<option value="1207">Team Jayco AlUla</option>
+<option value="1360">Team Picnic PostNL</option>
+<option value="1330">Team Visma | Lease a Bike</option>
+<option value="1253">UAE Team Emirates - XRG</option>
+<option value="1261">XDS Astana Team</option>
+<option value="1109">Burgos Burpellet BH</option>
+<option value="1111">Caja Rural - Seguros RGA</option>
+<option value="7807">Equipo Kern Pharma</option>
+<option value="4831">Euskaltel - Euskadi</option>
+<option value="2738">Israel - Premier Tech</option>
+<option value="2088">Lotto</option>
+<option value="1293">Q36.5 Pro Cycling Team</option>
+<option value="1453">Team Flanders - Baloise</option>
+<option value="1430">Team Novo Nordisk</option>
+<option value="4723">Team Polti VisitMalta</option>
+<option value="9468">Team Solution Tech - Vini Fantini</option>
+<option value="1175">Team TotalEnergies</option>
+<option value="5649">Tudor Pro Cycling Team</option>
+<option value="10407">Unibet Tietema Rockets</option>
+<option value="1420">Uno-X Mobility</option>
+<option value="3345">VF Group - Bardiani CSF - Faizanè</option>
+<option value="1482">Wagner Bazin WB</option>
+<option value="1797">7Eleven Cliqq Roadbike Philippines</option>
+<option value="1058">Adria Mobil</option>
+<option value="57624">Agadir Vélo Propulsion</option>
+<option value="7967">AIRTOX - Carl Ras</option>
+<option value="1062">Aisan Racing Team</option>
+<option value="12222">Albiono Pro Cycling</option>
+<option value="4928">Almaty</option>
+<option value="8393">Alpecin-Deceuninck Development Team</option>
+<option value="1089">Anicolor / Tien 21</option>
+<option value="4518">APHotels &amp; Resorts / Tavira / SC Farense</option>
+<option value="8951">ARBÖ Kärnten Sport Feld am See</option>
+<option value="11574">Arkéa - B&amp;B Hôtels Continentale</option>
+<option value="57764">Art Cycling Team</option>
+<option value="9648">ASC Monsters Indonesia</option>
+<option value="57601">Atom 6 Bikes - Decca Continental Team</option>
+<option value="6458">ATT Investments</option>
+<option value="57571">AVC Aix Provence Dole</option>
+<option value="1121">Aviludo - Louletano - Loulé</option>
+<option value="6076">Bahrain Victorious Development Team</option>
+<option value="1440">Baloise Glowi Lions</option>
+<option value="4861">BEAT Cycling Club</option>
+<option value="3588">Beltrami TSA Tre Colli</option>
+<option value="4051">Benotti Berthold</option>
+<option value="2708">BHS - PL Beton Bornholm</option>
+<option value="3783">Biesse - Carrera - Premac</option>
+<option value="2405">BIKE AID</option>
+<option value="9489">Bodywrap LTwoo Cycling Team</option>
+<option value="3500">Bourg-en-Bresse Ain Cyclisme</option>
+<option value="57851">Camp Cycling Team</option>
+<option value="1718">Canel's - Java</option>
+<option value="3444">CCACHE x BODYWRAP</option>
+<option value="11928">Chengdu DYC Cycling Team</option>
+<option value="9469">China Anta - Mentech Cycling Team</option>
+<option value="9469">China Glory - Mentech Continental Cycling Team</option>
+<option value="2121">CIC - U - Nantes</option>
+<option value="1250">Credibom / LA Alumínios / Marcos Car</option>
+<option value="6033">Decathlon AG2R La Mondiale Development Team</option>
+<option value="9893">Deschacht - Hens - FSP</option>
+<option value="3831">Development Team Picnic PostNL</option>
+<option value="8989">Diftar Continental Cyclingteam</option>
+<option value="1165">Dukla Banska Bystrica</option>
+<option value="3901">EF Education - Aevolo</option>
+<option value="9198">Efapel Cycling</option>
+<option value="1325">Elkov - Kasper</option>
+<option value="12364">Energus Cycling Team</option>
+<option value="4530">Epronex - Hungary Cycling Team</option>
+<option value="5638">Equipe continentale Groupama-FDJ</option>
+<option value="6187">EuroCyclingTrips - CCN</option>
+<option value="1352">Factor Racing</option>
+<option value="4860">FEIRENSE - BEECELER</option>
+<option value="1213">FNIX - SCOM - Hengxiang Cycling Team</option>
+<option value="3904">Gapyeong Cycling Team</option>
+<option value="6075">General Store - Essegibi - F.Lli Curia</option>
+<option value="1200">Geumsan Insam Cello</option>
+<option value="2151">GI Group Holding - Simoldes - UDO</option>
+<option value="2427">Giant Cycling Team</option>
+<option value="4359">Go For Gold Philippines</option>
+<option value="2696">Gragnano Sporting Club</option>
+<option value="7839">Grant Thornton Cycling Team</option>
+<option value="2925">GW Erco Shimano</option>
+<option value="1458">Hagens Berman Jayco</option>
+<option value="2454">HKSI Pro Cycling Team</option>
+<option value="2745">Hrinkow Advarics</option>
+<option value="11743">Huansheng - Vonoa - Taishan Sport Team</option>
+<option value="7138">Hustle Pro Cycling</option>
+<option value="12333">Illes Balears Arabay</option>
+<option value="6694">Israel Premier Tech Academy</option>
+<option value="10477">Istanbul Büyükșehir Belediye Spor Türkiye</option>
+<option value="10619">Jakarta Pro Cycling Team</option>
+<option value="11988">Java - Inovotec Pro Team</option>
+<option value="1773">JCL Team UKYO</option>
+<option value="12338">Karcag Cycling ÉPKAR Team</option>
+<option value="2737">Kinan Racing Team</option>
+<option value="9521">Konya Büyükşehir Belediye Spor</option>
+<option value="1245">KSPO Professional</option>
+<option value="6843">Li Ning Star</option>
+<option value="11685">Lidl - Trek Future Racing</option>
+<option value="7775">Lillehammer CK Continental Team</option>
+<option value="1944">Lotto Development Team</option>
+<option value="57595">Lucky Sport Cycling Team</option>
+<option value="3061">LX Cycling Team</option>
+<option value="10734">Madar Pro Cycling Team</option>
+<option value="3933">Malaysia Pro Cycling</option>
+<option value="57766">Manas - Apex</option>
+<option value="1273">Matrix Powertag</option>
+<option value="9670">May Stars</option>
+<option value="3934">Mazowsze Serce Polski</option>
+<option value="2214">MBH Bank Ballan CSB</option>
+<option value="9490">MENtoRISE Teem CCN</option>
+<option value="1268">Metec - SOLARWATT p/b Mantel</option>
+<option value="2735">Mg.K Vis Costruzioni e Ambiente</option>
+<option value="6839">MitoQ - NZ Cycling Project</option>
+<option value="11053">Monogo Lubelskie Perła Polski</option>
+<option value="4912">Monzon - Incolor - Gub</option>
+<option value="9448">Motala AIF Continental</option>
+<option value="7157">Movistar Best PC</option>
+<option value="12188">MYVELO Pro Cycling Team</option>
+<option value="8850">Nice Métropole Côte d'Azur</option>
+<option value="1463">Nu Colombia</option>
+<option value="10618">Nusantara - BYC</option>
+<option value="9492">OU7 Cycling Team</option>
+<option value="8398">Pardus Cycling Team</option>
+<option value="2364">Parkhotel Valkenburg</option>
+<option value="10003">Petrolike</option>
+<option value="9708">Pierre Baguette Cycling</option>
+<option value="5650">Pingtan International Tourism Island Cycling Team</option>
+<option value="8836">Pío Rico Cycling Team</option>
+<option value="12268">Plus Performance - Solutos</option>
+<option value="1333">Pogi Team Gusto Ljubljana</option>
+<option value="4079">Project Echelon Racing</option>
+<option value="9467">Quick Pro Team</option>
+<option value="1270">Rádio Popular - Paredes - Boavista</option>
+<option value="13429">Red Bull - BORA - hansgrohe Rookies</option>
+<option value="3032">REMBE | rad-net</option>
+<option value="6754">Roojai Insurance</option>
+<option value="1774">Run &amp; Race - Wibatech</option>
+<option value="9731">S.C. Padovani Polo Cherry Bank</option>
+<option value="6859">Sahand Pump Tabriz Crown</option>
+<option value="6456">Sam - Vitalcare - Dynatek</option>
+<option value="1355">Seoul Cycling Team</option>
+<option value="10596">Shenzhen Kung Cycling Team</option>
+<option value="1642">Shenzhen Xidesheng Cycling Team</option>
+<option value="1357">Shimano Racing</option>
+<option value="6819">Sidi Ali - Unlock Team</option>
+<option value="4980">Soudal Quick-Step Devo Team</option>
+<option value="8911">Sparkle Oita Racing Team</option>
+<option value="6722">Spor Toto Cycling Team</option>
+<option value="3053">St George Continental Cycling Team</option>
+<option value="1096">St Michel - Preference Home - Auber93</option>
+<option value="5108">Standard Insurance PHI</option>
+<option value="10592">SuezCanalDiscovery</option>
+<option value="9491">Swift Pro Cycling </option>
+<option value="1644">Tarteletto - Isorex</option>
+<option value="4882">Tavfer-Ovos Matinados-Mortágua</option>
+<option value="57582">Team Amani</option>
+<option value="1378">Team Bridgestone Cycling</option>
+<option value="1383">Team ColoQuick</option>
+<option value="1363">Team Coop - Repsol</option>
+<option value="11098">Team Give Steel - 2M Cycling Elite</option>
+<option value="2663">Team Lotto Kern-Haus PSD Bank</option>
+<option value="3925">Team Medellín - EPM</option>
+<option value="2417">Team Novo Nordisk Development</option>
+<option value="9202">Team Sistecredito</option>
+<option value="5651">Team Skyline</option>
+<option value="9109">Team Storck - Metropol Cycling</option>
+<option value="7753">Team Technipes #inEmiliaRomagna</option>
+<option value="57464">Team United Shipping</option>
+<option value="2422">Team Vino - North Qazaqstan Region</option>
+<option value="6016">Team Visma | Lease a Bike Development</option>
+<option value="1436">Team Vorarlberg</option>
+<option value="1443">Terengganu Cycling Team</option>
+<option value="3928">Thailand Continental Cycling Team</option>
+<option value="9494">The Hurricane &amp; Thunder Cycling Team</option>
+<option value="1653">Tianyoude Hotel Cycling Team</option>
+<option value="1461">Tirol KTM Cycling Team</option>
+<option value="57784">Tommi's Radltankstelle Team</option>
+<option value="10356">Tudor Pro Cycling Team U23</option>
+<option value="2170">TUFO - Pardus Prostějov</option>
+<option value="11634">UAE Team Emirates Gen Z</option>
+<option value="8856">UC Trevigiani - Energiapura Marchiol</option>
+<option value="4953">UijeongBu Cycling Team</option>
+<option value="58180">Ukraine Cycling Team</option>
+<option value="10460">Universe Cycling Team</option>
+<option value="1101">Utsunomiya Blitzen</option>
+<option value="1346">Van Rysel Roubaix</option>
+<option value="9253">VC Fukuoka</option>
+<option value="3497">Vélo Club Villefranche Beaujolais</option>
+<option value="3180">Veloce Club Rouen 76</option>
+<option value="1941">Vendée U Pays de la Loire</option>
+<option value="6844">Victoire Hiroshima</option>
+<option value="10446">Victoria Sports Pro Cycling</option>
+<option value="5693">VolkerWessels Cycling Team</option>
+<option value="3512">Voster ATS Team</option>
+<option value="57801">Vride</option>
+<option value="10055">Wanty - Nippo - ReUz </option>
+<option value="5760">WSA KTM Graz</option>
+<option value="10591">Wuzhishan SCOM MVMT Cycling Team</option>
+<option value="9295">XDS Astana Development Team</option>
+<option value="5642">XSpeed United Continental</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def="0"><div class="label">Page</div>
+<div class="input">
+<span class="inputCont"><select name="offset"><option value="0" selected="">1-100</option>
+<option value="100">101-200</option>
+<option value="200">201-300</option>
+<option value="300">301-400</option>
+<option value="400">401-500</option>
+<option value="500">501-600</option>
+<option value="600">601-700</option>
+<option value="700">701-800</option>
+<option value="800">801-900</option>
+<option value="900">901-1000</option>
+</select></span></div></li>
+<input name="filter" type="submit" value="Filter"> <a class="fs10 blue clearPageFilter" href="">clear filter</a></ul></form></div>
+<div class="">
+<div class="fs10 ar">Last update: 2025-07-11 08:25:05</div>
+</div>
+<div class="mt20">
+<table class=" basic"><thead><tr>
+<th class="w7 ">#</th>
+<th class="w7 cu600 fs10">Prev.</th>
+<th class="w7 fs10">Diff.</th>
+<th class="w27 ">Rider</th>
+<th class="w27 cu600">Team</th>
+<th class="w7 ">Wins</th>
+<th class="w7 ">2nd</th>
+<th class="w7 ">3rd</th>
+<th class="w7 fs11"></th>
+</tr></thead><tbody>
+<tr class=""><td>1</td><td class="cu600 fs10">1</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag si"></span> <a href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>12</td><td>4</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=194619&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>2</td><td class="cu600 fs10">2</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag be"></span> <a href="rider/tim-merlier">MERLIER Tim</a></td><td class="cu600"><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></td><td>11</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=138125&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>3</td><td class="cu600 fs10">117</td><td class="fs10"><span class="delta-up">▲114</span></td><td><span class="flag gb"></span> <a href="rider/matthew-brennan">BRENNAN Matthew</a></td><td class="cu600"><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></td><td>10</td><td>5</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=279070&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>4</td><td class="cu600 fs10">201</td><td class="fs10"><span class="delta-up">▲197</span></td><td><span class="flag rs"></span> <a href="rider/dusan-rajovic">RAJOVIĆ Dušan</a></td><td class="cu600"><a href="team/team-solution-tech-vini-fantini-2025">Team Solution Tech - Vini Fantini</a></td><td>10</td><td>4</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=186245&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>5</td><td class="cu600 fs10">144</td><td class="fs10"><span class="delta-up">▲139</span></td><td><span class="flag pt"></span> <a href="rider/joao-almeida">ALMEIDA João</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>9</td><td>8</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=196333&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>6</td><td class="cu600 fs10">17</td><td class="fs10"><span class="delta-up">▲11</span></td><td><span class="flag dz"></span> <a href="rider/yacine-hamza">HAMZA Yacine</a></td><td class="cu600"><a href="team/madar-pro-cycling-team-2025">Madar Pro Cycling Team</a></td><td>9</td><td>6</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=186636&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>7</td><td class="cu600 fs10">3</td><td class="fs10"><span class="delta-down">▼4</span></td><td><span class="flag dk"></span> <a href="rider/mads-pedersen">PEDERSEN Mads</a></td><td class="cu600"><a href="team/lidl-trek-2025">Lidl - Trek</a></td><td>9</td><td>3</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=168776&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>8</td><td class="cu600 fs10">545</td><td class="fs10"><span class="delta-up">▲537</span></td><td><span class="flag dk"></span> <a href="rider/alexander-salby">SALBY Alexander</a></td><td class="cu600"><a href="team/li-ning-star-cycling-team-2025">Li Ning Star</a></td><td>7</td><td>2</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=196174&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>9</td><td class="cu600 fs10">123</td><td class="fs10"><span class="delta-up">▲114</span></td><td><span class="flag gb"></span> <a href="rider/noah-hobbs">HOBBS Noah</a></td><td class="cu600"><a href="team/ef-education-aevolo-2025">EF Education - Aevolo</a></td><td>7</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=279144&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>10</td><td class="cu600 fs10">4</td><td class="fs10"><span class="delta-down">▼6</span></td><td><span class="flag it"></span> <a href="rider/jonathan-milan">MILAN Jonathan</a></td><td class="cu600"><a href="team/lidl-trek-2025">Lidl - Trek</a></td><td>6</td><td>3</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=209985&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>11</td><td class="cu600 fs10">52</td><td class="fs10"><span class="delta-up">▲41</span></td><td><span class="flag es"></span> <a href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>6</td><td>3</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=240140&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>12</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag pl"></span> <a href="rider/marceli-boguslawski">BOGUSŁAWSKI Marceli</a></td><td class="cu600"><a href="team/att-investments-2025">ATT Investments</a></td><td>6</td><td>2</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=193726&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>13</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag au"></span> <a href="rider/brady-gilmore">GILMORE Brady</a></td><td class="cu600"><a href="team/israel-premier-tech-academy-2025">Israel Premier Tech Academy</a></td><td>6</td><td>2</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=267406&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>14</td><td class="cu600 fs10">25</td><td class="fs10"><span class="delta-up">▲11</span></td><td><span class="flag be"></span> <a href="rider/jarno-widar">WIDAR Jarno</a></td><td class="cu600"><a href="team/lotto-development-team-2025">Lotto Development Team</a></td><td>6</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=279301&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>15</td><td class="cu600 fs10">143</td><td class="fs10"><span class="delta-up">▲128</span></td><td><span class="flag fr"></span> <a href="rider/kevin-vauquelin">VAUQUELIN Kévin</a></td><td class="cu600"><a href="team/arkea-b-b-hotels-2025">Arkéa - B&amp;B Hotels</a></td><td>5</td><td>5</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=219158&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>16</td><td class="cu600 fs10">18</td><td class="fs10"><span class="delta-up">▲2</span></td><td><span class="flag nl"></span> <a href="rider/olav-kooij">KOOIJ Olav</a></td><td class="cu600"><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></td><td>5</td><td>3</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=217465&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>17</td><td class="cu600 fs10">53</td><td class="fs10"><span class="delta-up">▲36</span></td><td><span class="flag nl"></span> <a href="rider/mathieu-van-der-poel">VAN DER POEL Mathieu</a></td><td class="cu600"><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></td><td>5</td><td>2</td><td>4</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=168754&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>18</td><td class="cu600 fs10">34</td><td class="fs10"><span class="delta-up">▲16</span></td><td><span class="flag pl"></span> <a href="rider/marcin-budzinski">BUDZIŃSKI Marcin</a></td><td class="cu600"><a href="team/att-investments-2025">ATT Investments</a></td><td>5</td><td>2</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=235027&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>19</td><td class="cu600 fs10">494</td><td class="fs10"><span class="delta-up">▲475</span></td><td><span class="flag uz"></span> <a href="rider/nikita-tsvetkov">TSVETKOV Nikita</a></td><td class="cu600"><a href="team/ou7-cycling-team-2025">OU7 Cycling Team</a></td><td>5</td><td>1</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=279186&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>20</td><td class="cu600 fs10">9</td><td class="fs10"><span class="delta-down">▼11</span></td><td><span class="flag be"></span> <a href="rider/remco-evenepoel">EVENEPOEL Remco</a></td><td class="cu600"><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></td><td>5</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=212377&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>21</td><td class="cu600 fs10">7</td><td class="fs10"><span class="delta-down">▼14</span></td><td><span class="flag ee"></span> <a href="rider/martin-laas">LAAS Martin</a></td><td class="cu600"><a href="team/quick-pro-team-2025">Quick Pro Team</a></td><td>5</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=141096&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>22</td><td class="cu600 fs10">102</td><td class="fs10"><span class="delta-up">▲80</span></td><td><span class="flag gr"></span> <a href="rider/nikiforos-arvanitou">ARVANITOU Nikiforos</a></td><td class="cu600"><a href="team/novapor-theseus-sportsclub-2025">Novapor Theseus SportsClub</a></td><td>5</td><td>-</td><td>4</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=259756&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>23</td><td class="cu600 fs10">339</td><td class="fs10"><span class="delta-up">▲316</span></td><td><span class="flag gb"></span> <a href="rider/thomas-pidcock">PIDCOCK Thomas</a></td><td class="cu600"><a href="team/q365-pro-cycing-team-2025">Q36.5 Pro Cycling Team</a></td><td>4</td><td>3</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=202331&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>24</td><td class="cu600 fs10">15</td><td class="fs10"><span class="delta-down">▼9</span></td><td><span class="flag fr"></span> <a href="rider/paul-magnier">MAGNIER Paul</a></td><td class="cu600"><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></td><td>4</td><td>3</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=275100&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>25</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag it"></span> <a href="rider/christian-scaroni">SCARONI Christian</a></td><td class="cu600"><a href="team/xds-astana-team-2025">XDS Astana Team</a></td><td>4</td><td>3</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=187123&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>26</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag ec"></span> <a href="rider/harold-martin-lopez">LÓPEZ Harold Martín</a></td><td class="cu600"><a href="team/xds-astana-team-2025">XDS Astana Team</a></td><td>4</td><td>3</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=236259&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>28</td><td class="cu600 fs10">498</td><td class="fs10"><span class="delta-up">▲470</span></td><td><span class="flag gb"></span> <a href="rider/samuel-watson">WATSON Samuel</a></td><td class="cu600"><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></td><td>4</td><td>1</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=215946&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>29</td><td class="cu600 fs10">955</td><td class="fs10"><span class="delta-up">▲926</span></td><td><span class="flag it"></span> <a href="rider/matteo-moschetti">MOSCHETTI Matteo</a></td><td class="cu600"><a href="team/q365-pro-cycing-team-2025">Q36.5 Pro Cycling Team</a></td><td>4</td><td>1</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=179562&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>30</td><td class="cu600 fs10">871</td><td class="fs10"><span class="delta-up">▲841</span></td><td><span class="flag pt"></span> <a href="rider/ivo-emanuel-alves">OLIVEIRA Ivo</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>4</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=188184&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>31</td><td class="cu600 fs10">184</td><td class="fs10"><span class="delta-up">▲153</span></td><td><span class="flag de"></span> <a href="rider/lucas-carstensen">CARSTENSEN Lucas</a></td><td class="cu600"><a href="team/team-storck-metropol-cycling-2025">Team Storck - Metropol Cycling</a></td><td>4</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=162154&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>32</td><td class="cu600 fs10">36</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag ie"></span> <a href="rider/sam-bennett">BENNETT Sam</a></td><td class="cu600"><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></td><td>4</td><td>1</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=139405&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>33</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag fr"></span> <a href="rider/nicolas-prodhomme">PRODHOMME Nicolas</a></td><td class="cu600"><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></td><td>4</td><td>-</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=184468&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>34</td><td class="cu600 fs10">204</td><td class="fs10"><span class="delta-up">▲170</span></td><td><span class="flag ua"></span> <a href="rider/kyrylo-tsarenko">TSARENKO Kyrylo</a></td><td class="cu600"><a href="team/team-solution-tech-vini-fantini-2025">Team Solution Tech - Vini Fantini</a></td><td>4</td><td>-</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=221249&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>35</td><td class="cu600 fs10">200</td><td class="fs10"><span class="delta-up">▲165</span></td><td><span class="flag er"></span> <a href="rider/milkias-maekele">MAEKELE Milkias</a></td><td class="cu600"><a href="team/bike-aid-2025">BIKE AID</a></td><td>3</td><td>8</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=283693&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>36</td><td class="cu600 fs10">105</td><td class="fs10"><span class="delta-up">▲69</span></td><td><span class="flag mx"></span> <a href="rider/isaac-del-toro">DEL TORO Isaac</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>3</td><td>7</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=261531&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>37</td><td class="cu600 fs10">38</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag nl"></span> <a href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></td><td class="cu600"><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></td><td>3</td><td>5</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=138396&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>38</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag fr"></span> <a href="rider/aubin-sparfel">SPARFEL Aubin</a></td><td class="cu600"><a href="team/decathlon-ag2r-la-mondiale-development-team-2025">Decathlon AG2R La Mondiale Development Team</a></td><td>3</td><td>4</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=286477&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>39</td><td class="cu600 fs10">8</td><td class="fs10"><span class="delta-down">▼31</span></td><td><span class="flag be"></span> <a href="rider/jasper-philipsen">PHILIPSEN Jasper</a></td><td class="cu600"><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></td><td>3</td><td>3</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=193131&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>40</td><td class="cu600 fs10">492</td><td class="fs10"><span class="delta-up">▲452</span></td><td><span class="flag ca"></span> <a href="rider/derek-gee">GEE Derek</a></td><td class="cu600"><a href="team/israel-premier-tech-2025">Israel - Premier Tech</a></td><td>3</td><td>3</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=189568&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>41</td><td class="cu600 fs10">329</td><td class="fs10"><span class="delta-up">▲288</span></td><td><span class="flag uy"></span> <a href="rider/guillermo-thomas-silva-coussan">SILVA Guillermo Thomas</a></td><td class="cu600"><a href="team/caja-rural-seguros-rga-2025">Caja Rural - Seguros RGA</a></td><td>3</td><td>3</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=241476&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>42</td><td class="cu600 fs10">347</td><td class="fs10"><span class="delta-up">▲305</span></td><td><span class="flag co"></span> <a href="rider/santiago-buitrago-sanchez">BUITRAGO Santiago</a></td><td class="cu600"><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></td><td>3</td><td>3</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=211947&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>43</td><td class="cu600 fs10">48</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag fr"></span> <a href="rider/lenny-martinez">MARTINEZ Lenny</a></td><td class="cu600"><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></td><td>3</td><td>2</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=262660&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>44</td><td class="cu600 fs10">5</td><td class="fs10"><span class="delta-down">▼39</span></td><td><span class="flag nz"></span> <a href="rider/aaron-gate">GATE Aaron</a></td><td class="cu600"><a href="team/xds-astana-team-2025">XDS Astana Team</a></td><td>3</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=137531&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>45</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag za"></span> <a href="rider/stefan-de-bod">DE BOD Stefan</a></td><td class="cu600"><a href="team/terengganu-cycling-team-2025">Terengganu Cycling Team</a></td><td>3</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=176025&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>46</td><td class="cu600 fs10">358</td><td class="fs10"><span class="delta-up">▲312</span></td><td><span class="flag au"></span> <a href="rider/liam-walsh">WALSH Liam</a></td><td class="cu600"><a href="team/ccache-x-bodywrap-2025">CCACHE x BODYWRAP</a></td><td>3</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=252097&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>47</td><td class="cu600 fs10">19</td><td class="fs10"><span class="delta-down">▼28</span></td><td><span class="flag si"></span> <a href="rider/primoz-roglic">ROGLIČ Primož</a></td><td class="cu600"><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></td><td>3</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=174582&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>48</td><td class="cu600 fs10">136</td><td class="fs10"><span class="delta-up">▲88</span></td><td><span class="flag be"></span> <a href="rider/jordi-meeus">MEEUS Jordi</a></td><td class="cu600"><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></td><td>3</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=194085&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>49</td><td class="cu600 fs10">806</td><td class="fs10"><span class="delta-up">▲757</span></td><td><span class="flag nl"></span> <a href="rider/danny-van-poppel">VAN POPPEL Danny</a></td><td class="cu600"><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></td><td>3</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=139823&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>50</td><td class="cu600 fs10">306</td><td class="fs10"><span class="delta-up">▲256</span></td><td><span class="flag au"></span> <a href="rider/jay-vine">VINE Jay</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>3</td><td>1</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=235390&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>51</td><td class="cu600 fs10">140</td><td class="fs10"><span class="delta-up">▲89</span></td><td><span class="flag ec"></span> <a href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>3</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=189438&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>52</td><td class="cu600 fs10">43</td><td class="fs10"><span class="delta-down">▼9</span></td><td><span class="flag dk"></span> <a href="rider/magnus-cort-nielsen">CORT Magnus</a></td><td class="cu600"><a href="team/uno-x-mobility-2025">Uno-X Mobility</a></td><td>3</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=132428&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>53</td><td class="cu600 fs10">336</td><td class="fs10"><span class="delta-up">▲283</span></td><td><span class="flag rs"></span> <a href="rider/mihajlo-stolic">STOLIĆ Mihajlo</a></td><td class="cu600"><a href="team/team-united-shipping-2025">Team United Shipping</a></td><td>3</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=268482&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>54</td><td class="cu600 fs10">146</td><td class="fs10"><span class="delta-up">▲92</span></td><td><span class="flag ch"></span> <a href="rider/mauro-schmid">SCHMID Mauro</a></td><td class="cu600"><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></td><td>3</td><td>1</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=205788&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>55</td><td class="cu600 fs10">70</td><td class="fs10"><span class="delta-up">▲15</span></td><td><span class="flag au"></span> <a href="rider/sam-welsford">WELSFORD Sam</a></td><td class="cu600"><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></td><td>3</td><td>1</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=192552&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>56</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag us"></span> <a href="rider/quinn-simmons">SIMMONS Quinn</a></td><td class="cu600"><a href="team/lidl-trek-2025">Lidl - Trek</a></td><td>3</td><td>1</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=216727&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>57</td><td class="cu600 fs10">155</td><td class="fs10"><span class="delta-up">▲98</span></td><td><span class="flag be"></span> <a href="rider/milan-fretin">FRETIN Milan</a></td><td class="cu600"><a href="team/cofidis-2025">Cofidis</a></td><td>3</td><td>1</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=217196&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>58</td><td class="cu600 fs10">169</td><td class="fs10"><span class="delta-up">▲111</span></td><td><span class="flag au"></span> <a href="rider/luke-plapp">PLAPP Luke</a></td><td class="cu600"><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></td><td>3</td><td>1</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=208214&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>59</td><td class="cu600 fs10">861</td><td class="fs10"><span class="delta-up">▲802</span></td><td><span class="flag au"></span> <a href="rider/michael-storer">STORER Michael</a></td><td class="cu600"><a href="team/tudor-pro-cycling-team-2025">Tudor Pro Cycling Team</a></td><td>3</td><td>-</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=184242&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>60</td><td class="cu600 fs10">115</td><td class="fs10"><span class="delta-up">▲55</span></td><td><span class="flag pt"></span> <a href="rider/antonio-morgado">MORGADO António</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>3</td><td>-</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=271155&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>61</td><td class="cu600 fs10">180</td><td class="fs10"><span class="delta-up">▲119</span></td><td><span class="flag sk"></span> <a href="rider/matthias-schwarzbacher">SCHWARZBACHER Matthias</a></td><td class="cu600"><a href="team/uae-team-emirates-gen-z-2025">UAE Team Emirates Gen Z</a></td><td>3</td><td>-</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=289892&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>62</td><td class="cu600 fs10">766</td><td class="fs10"><span class="delta-up">▲704</span></td><td><span class="flag at"></span> <a href="rider/marco-schrettl">SCHRETTL Marco</a></td><td class="cu600"><a href="team/tirol-ktm-cycling-team-2025">Tirol KTM Cycling Team</a></td><td>3</td><td>-</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=261124&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>63</td><td class="cu600 fs10">692</td><td class="fs10"><span class="delta-up">▲629</span></td><td><span class="flag es"></span> <a href="rider/ivan-romeo">ROMEO Iván</a></td><td class="cu600"><a href="team/movistar-team-2025">Movistar Team</a></td><td>3</td><td>-</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=261360&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>64</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag nz"></span> <a href="rider/josh-kench">KENCH Josh</a></td><td class="cu600"><a href="team/li-ning-star-cycling-team-2025">Li Ning Star</a></td><td>3</td><td>-</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=216621&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>65</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag er"></span> <a href="rider/nahom-zeray-araya">ZERAY Nahom</a></td><td class="cu600"><a href="team/jcl-team-ukyo-2025">JCL Team UKYO</a></td><td>3</td><td>-</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=244137&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>66</td><td class="cu600 fs10">419</td><td class="fs10"><span class="delta-up">▲353</span></td><td><span class="flag ae"></span> <a href="rider/mohammad-almutaiwei">ALMUTAIWEI Mohammad</a></td><td class="cu600"><a href="team/uae-team-emirates-gen-z-2025">UAE Team Emirates Gen Z</a></td><td>3</td><td>-</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=278801&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>67</td><td class="cu600 fs10">515</td><td class="fs10"><span class="delta-up">▲448</span></td><td><span class="flag kz"></span> <a href="rider/yevgeniy-fedorov">FEDOROV Yevgeniy</a></td><td class="cu600"><a href="team/xds-astana-team-2025">XDS Astana Team</a></td><td>3</td><td>-</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=208050&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>68</td><td class="cu600 fs10">10</td><td class="fs10"><span class="delta-down">▼58</span></td><td><span class="flag dk"></span> <a href="rider/jonas-vingegaard">VINGEGAARD Jonas</a></td><td class="cu600"><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></td><td>2</td><td>7</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=196424&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>69</td><td class="cu600 fs10">375</td><td class="fs10"><span class="delta-up">▲306</span></td><td><span class="flag co"></span> <a href="rider/juan-sebastian-molano">MOLANO Juan Sebastián</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>2</td><td>5</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=189196&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>70</td><td class="cu600 fs10">305</td><td class="fs10"><span class="delta-up">▲235</span></td><td><span class="flag er"></span> <a href="rider/henok-mulubrhan">MULUBRHAN Henok</a></td><td class="cu600"><a href="team/xds-astana-team-2025">XDS Astana Team</a></td><td>2</td><td>3</td><td>6</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=206937&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>71</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag dk"></span> <a href="rider/niklas-larsen">LARSEN Niklas</a></td><td class="cu600"><a href="team/bhs-pl-beton-bornholm-2025">BHS - PL Beton Bornholm</a></td><td>2</td><td>3</td><td>5</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=184433&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>72</td><td class="cu600 fs10">77</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag it"></span> <a href="rider/filippo-ganna">GANNA Filippo</a></td><td class="cu600"><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></td><td>2</td><td>3</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=177672&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>73</td><td class="cu600 fs10">41</td><td class="fs10"><span class="delta-down">▼32</span></td><td><span class="flag sk"></span> <a href="rider/lukas-kubis">KUBIŠ Lukáš</a></td><td class="cu600"><a href="team/unibet-tietema-rockets-2025">Unibet Tietema Rockets</a></td><td>2</td><td>3</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=209666&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>74</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag it"></span> <a href="rider/alessandro-covi">COVI Alessandro</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>2</td><td>3</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=192457&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>75</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag it"></span> <a href="rider/filippo-turconi">TURCONI Filippo</a></td><td class="cu600"><a href="team/vf-group-bardiani-csf-faizane-2025">VF Group - Bardiani CSF - Faizanè</a></td><td>2</td><td>3</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=279951&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>76</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag dz"></span> <a href="rider/mohamed-nadjib-assal">ASSAL Mohamed Nadjib</a></td><td class="cu600"><a href="team/mouloudia-club-d-alger-2025">Mouloudia Club d'Alger</a></td><td>2</td><td>2</td><td>4</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=203835&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>77</td><td class="cu600 fs10">811</td><td class="fs10"><span class="delta-up">▲734</span></td><td><span class="flag co"></span> <a href="rider/diego-andres-camargo">CAMARGO Diego Andrés</a></td><td class="cu600"><a href="team/team-medellin-epm-2025">Team Medellín - EPM</a></td><td>2</td><td>2</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=236938&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>78</td><td class="cu600 fs10">6</td><td class="fs10"><span class="delta-down">▼72</span></td><td><span class="flag it"></span> <a href="rider/matteo-malucelli">MALUCELLI Matteo</a></td><td class="cu600"><a href="team/xds-astana-team-2025">XDS Astana Team</a></td><td>2</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=178407&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>79</td><td class="cu600 fs10">304</td><td class="fs10"><span class="delta-up">▲225</span></td><td><span class="flag fr"></span> <a href="rider/romain-gregoire1">GRÉGOIRE Romain</a></td><td class="cu600"><a href="team/groupama-fdj-2025">Groupama - FDJ</a></td><td>2</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=262232&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>80</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag nl"></span> <a href="rider/timo-de-jong">DE JONG Timo</a></td><td class="cu600"><a href="team/volkerwessels-cyclingteam-2025">VolkerWessels Cycling Team</a></td><td>2</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=202147&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>81</td><td class="cu600 fs10">160</td><td class="fs10"><span class="delta-up">▲79</span></td><td><span class="flag mn"></span> <a href="rider/tegsh-bayar-batsaikhan">BATSAIKHAN Tegsh-Bayar</a></td><td class="cu600"><a href="team/roojai-insurance-2025">Roojai Insurance</a></td><td>2</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=193986&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>82</td><td class="cu600 fs10">238</td><td class="fs10"><span class="delta-up">▲156</span></td><td><span class="flag be"></span> <a href="rider/sente-sentjens">SENTJENS Sente</a></td><td class="cu600"><a href="team/alpecin-deceuninck-development-team-2025">Alpecin-Deceuninck Development Team</a></td><td>2</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=279056&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>83</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag si"></span> <a href="rider/jakob-omrzel">OMRZEL Jakob</a></td><td class="cu600"><a href="team/bahrain-victorious-development-team-2025">Bahrain Victorious Development Team</a></td><td>2</td><td>2</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=288391&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>84</td><td class="cu600 fs10">194</td><td class="fs10"><span class="delta-up">▲110</span></td><td><span class="flag gb"></span> <a href="rider/joshua-tarling">TARLING Joshua</a></td><td class="cu600"><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></td><td>2</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=273230&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>85</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag gb"></span> <a href="rider/jake-stewart">STEWART Jake</a></td><td class="cu600"><a href="team/israel-premier-tech-2025">Israel - Premier Tech</a></td><td>2</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=202344&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>86</td><td class="cu600 fs10">410</td><td class="fs10"><span class="delta-up">▲324</span></td><td><span class="flag no"></span> <a href="rider/andreas-leknessund">LEKNESSUND Andreas</a></td><td class="cu600"><a href="team/uno-x-mobility-2025">Uno-X Mobility</a></td><td>2</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=203488&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>87</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag ee"></span> <a href="rider/karl-kurits">KURITS Karl</a></td><td class="cu600"><a href="team/israel-premier-tech-academy-2025">Israel Premier Tech Academy</a></td><td>2</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=280465&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>88</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag it"></span> <a href="rider/simone-raccani">RACCANI Simone</a></td><td class="cu600"><a href="team/jcl-team-ukyo-2025">JCL Team UKYO</a></td><td>2</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=217843&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>89</td><td class="cu600 fs10">199</td><td class="fs10"><span class="delta-up">▲110</span></td><td><span class="flag dz"></span> <a href="rider/islam-mansouri">MANSOURI Islam</a></td><td class="cu600"><a href="team/madar-pro-cycling-team-2025">Madar Pro Cycling Team</a></td><td>2</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=186623&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>90</td><td class="cu600 fs10">489</td><td class="fs10"><span class="delta-up">▲399</span></td><td><span class="flag at"></span> <a href="rider/felix-grossschartner">GROßSCHARTNER Felix</a></td><td class="cu600"><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>2</td><td>2</td><td>-</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=141131&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>91</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag gb"></span> <a href="rider/lewis-askey">ASKEY Lewis</a></td><td class="cu600"><a href="team/groupama-fdj-2025">Groupama - FDJ</a></td><td>2</td><td>1</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=215941&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>92</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag nz"></span> <a href="rider/paul-wright">WRIGHT Paul</a></td><td class="cu600"><a href="team/factor-racing-2025">Factor Racing</a></td><td>2</td><td>1</td><td>3</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=207224&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>93</td><td class="cu600 fs10">55</td><td class="fs10"><span class="delta-down">▼38</span></td><td><span class="flag nl"></span> <a href="rider/marijn-van-den-berg">VAN DEN BERG Marijn</a></td><td class="cu600"><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></td><td>2</td><td>1</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=202152&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>94</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag it"></span> <a href="rider/matteo-milan">MILAN Matteo</a></td><td class="cu600"><a href="team/lidl-trek-future-racing-2025">Lidl - Trek Future Racing</a></td><td>2</td><td>1</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=270773&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>95</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag gb"></span> <a href="rider/callum-thornley">THORNLEY Callum</a></td><td class="cu600"><a href="team/red-bull-bora-hansgrohe-rookies-2025">Red Bull - BORA - hansgrohe Rookies</a></td><td>2</td><td>1</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=280629&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>96</td><td class="cu600 fs10">427</td><td class="fs10"><span class="delta-up">▲331</span></td><td><span class="flag mx"></span> <a href="rider/edgar-cadena">CADENA Edgar David</a></td><td class="cu600"><a href="team/petrolike-2025">Petrolike</a></td><td>2</td><td>1</td><td>2</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=261401&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>97</td><td class="cu600 fs10">212</td><td class="fs10"><span class="delta-up">▲115</span></td><td><span class="flag dk"></span> <a href="rider/mattias-skjelmose-jensen">SKJELMOSE Mattias</a></td><td class="cu600"><a href="team/lidl-trek-2025">Lidl - Trek</a></td><td>2</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=208786&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>98</td><td class="cu600 fs10">391</td><td class="fs10"><span class="delta-up">▲293</span></td><td><span class="flag gb"></span> <a href="rider/ethan-hayter">HAYTER Ethan</a></td><td class="cu600"><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></td><td>2</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=194068&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>99</td><td class="cu600 fs10">147</td><td class="fs10"><span class="delta-up">▲48</span></td><td><span class="flag gt"></span> <a href="rider/sergio-geovani-chumil-gonzalez">CHUMIL Sergio Geovani</a></td><td class="cu600"><a href="team/burgos-burpellet-bh-2025">Burgos Burpellet BH</a></td><td>2</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=222550&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+<tr class=""><td>100</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag gb"></span> <a href="rider/ben-tulett">TULETT Ben</a></td><td class="cu600"><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></td><td>2</td><td>1</td><td>1</td><td class="fs11"><a href="rider.php?date=2025-07-11&amp;id=216126&amp;p=results&amp;s=pcs-wins">view</a></td></tr>
+</tbody></table></div>
+</div></div>
+<div class="side-nav  ">
+<a class="backToContent blue fs11 right showIfMobile" href="">back to content</a><div class="clear"></div>
+<ul class="sidenav"><li><div class="sidenavTitle">PCS Ranking</div><ul><li class="" data-pro="0"><a href="rankings/individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/nations">Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/races">Races</a></li>
+<li class="" data-pro="0"><a href="rankings/all-time">All time</a></li>
+</ul></li><li><div class="sidenavTitle">PCS Season</div><ul><li class="" data-pro="0"><a href="rankings/season-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/season-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/season-nations">Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/distance">Distance</a></li>
+<li class="" data-pro="0"><a href="rankings/racedays">Racedays</a></li>
+<li class="" data-pro="0"><a href="rankings/u23">U23</a></li>
+<li class="" data-pro="0"><a href="rankings/u23-nations">U23 Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/team-total">Team total</a></li>
+</ul></li><li><div class="sidenavTitle">PCS Wins</div><ul><li class="cur" data-pro="0"><a href="rankings/wins-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-individual-pro">Professional wins</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-nations">Nations</a></li>
+</ul></li><li><div class="sidenavTitle">UCI World Ranking</div><ul><li class="" data-pro="0"><a href="rankings/uci-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-individual-daily">Individual (daily)</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-nations">Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-one-day-races">One day races</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-season-individual">Season individual</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-nations-olympic-selection">Nations (Olympic selection)</a></li>
+<li class="" data-pro="0"><a href="rankings/ranking-2023-2025">Ranking 2023-2025</a></li>
+</ul></li><li><div class="sidenavTitle">Rider specialties</div><ul><li class="" data-pro="0"><a href="rankings/climbers">Climbers</a></li>
+<li class="" data-pro="0"><a href="rankings/hills">Hills</a></li>
+<li class="" data-pro="0"><a href="rankings/gc-ranking">GC Ranking</a></li>
+<li class="" data-pro="0"><a href="rankings/one-day-races">One day races</a></li>
+<li class="" data-pro="0"><a href="rankings/sprinters">Sprinters</a></li>
+<li class="" data-pro="0"><a href="rankings/time-trial">Time trial</a></li>
+<li class="" data-pro="0"><a href="rankings/prologues">Prologues</a></li>
+</ul></li></ul></div>
+<div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
+</ul>
+<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
+<li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
+<li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
+</ul></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul>
+<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
+<li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
+</ul></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul>
+<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
+</ul></li>
+<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+<li><a href="info/profile-score-explained">Profile scores</a></li>
+<li><a href="reset_password.php">Reset password</a></li>
+<li><a href="info/pcs-game">PCS game</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
+</ul>
+<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/cookie-policy">Cookie policy</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/contributions">Contributions</a></li>
+<li><span>Pageload 0.0134s</span></li>
+</ul></li>
+</ul></div></div>
+
+<script src="search_list21.js"></script></body></html>

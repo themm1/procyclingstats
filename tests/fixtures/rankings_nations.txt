@@ -1,0 +1,389 @@
+<!DOCTYPE html><html><head>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2MNJ20S7SJ');
+</script>
+<title>ProCyclingStats Best Nation Ranking</title> 
+<base href="https://www.procyclingstats.com/rankings.php"> 
+<link rel="canonical" href="https://www.procyclingstats.com/rankings/me/nations"> 
+<script>  var r89 = r89 || {      callAds: [],   pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }    };  </script>
+  <script async="" src="https://tags.refinery89.com/procyclingstats.js"></script><meta name="description" content="Belgium has 11195 points so far, 11195 more than runner-up France. They are followed by Spain (9040) and Italy (8920).">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="v3_scripts_v32.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v70.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
+<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico">
+</head>
+<body>
+<div class="wrapper"><header>
+<div class="cont">
+<a class="logo" href="index.php"></a>
+<div class="search"><form action="search.php" class="msearch"><input type="hidden" id="term"><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off"></form></div> 
+<div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
+<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<li class=""><a class="menu" href="index.php">Home</a></li>
+<li class=""><a class="menu" href="races.php">Races<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
+<li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
+<li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
+</ul></li>
+<li class=""><a class="menu" href="teams.php">Teams<span class="more" href="">▼</span></a>
+<ul><li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
+</ul></li>
+<li class=""><a class="menu" href="rankings.php">Rankings</a></li>
+<li class=""><a class="menu" href="statistics.php">Statistics<span class="more" href="">▼</span></a>
+<ul><li><a href="statistics">Overview</a></li>
+<li><a href="statistics/riders">Riders</a></li>
+<li><a href="statistics/teams">Teams</a></li>
+<li><a href="statistics/grandtours">Grand tours</a></li>
+</ul></li>
+<li class=""><a class="menu" href="game.php">Game</a></li>
+<li class="tour yellow"><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france/2025/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
+<li><a href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
+<li><a href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
+<li class=""><a class="menu" href="quiz.php">Quiz</a></li>
+<li class=""><a class="menu" href="riders.php">More<span class="more" href="">▼</span></a>
+<ul><li><a href="riders">Riders</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="account"><a class="menu" href="account.php">Account<span class="more" href="">▼</span></a>
+<ul><li><a href="account/overview">My account</a></li>
+<li><a href="account/follow-riders">My riders</a></li>
+</ul></li>
+<li class="small"><a class="menu" href="">Road<span class="more" href="">▼</span></a>
+<ul><li><a href="https://cx.procyclingstats.com">Cross</a></li>
+</ul></li>
+<li class="language small"><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
+<ul></ul></ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rankings/me">Men elite<span>▼</span></a><ul><li><a href="rankings/individual">Individual</a></li>
+<li><a href="rankings/teams">Teams</a></li>
+<li><a href="rankings/nations">Nations</a></li>
+<li><a href="rankings/races">Races</a></li>
+<li><a href="rankings/u23">U23</a></li>
+</ul></span>
+<span><a class="" href="rankings/we">Women elite<span>▼</span></a><ul><li><a href="rankings/we/individual">Individual</a></li>
+<li><a href="rankings/we/teams">Teams</a></li>
+<li><a href="rankings/we/nations">Nations</a></li>
+<li><a href="rankings/we/world-ranking">Individual</a></li>
+<li><a href="rankings/we/wwt">Women's World Tour (WWT)</a></li>
+<li><a href="rankings/we/uci-teams">Teams</a></li>
+<li><a href="rankings/we/promotion-relegation">2024-2025 Promotion/relegation</a></li>
+</ul></span>
+<span><a class="" href="rankings/mj">Junior men</a></span>
+<span><a class="" href="rankings/wj">Junior women</a></span>
+<span><a class="" href="rankings/national">National</a></span>
+</div><div class="clear"></div>
+
+<div class="titleCont hasSideNav"><div class="page-title"><div class="title"><h1>PCS Ranking</h1> </div><span class="arrow">»</span><div class="subtitle"><h2>Nations</h2></div></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div>
+<div class="page-content ">
+<div class=""><div class="">
+<div class="fs14">Summation of points from the 100 best results over a 12-month period. Click on the points for a breakdown.<br>
+<br>
+</div>
+</div>
+<div class="ar">
+<div class="fs10 ar">Last update: 2025-07-11 08:40:03</div>
+</div>
+<div class="mt20">
+<table class=" basic" style="max-width: 600px; "><thead><tr>
+<th class="w10 ">#</th>
+<th class="w10 cu600 fs10">Prev.</th>
+<th class="w10 fs10">Diff.</th>
+<th class="w40 ">Country</th>
+<th class="w10 ">Points</th>
+<th class="w20 "></th>
+</tr></thead><tbody>
+<tr class=""><td>1</td><td class="cu600 fs10">1</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag be"></span> <a href="nation/belgium">Belgium</a></td><td><a href="nation.php?date=2025-07-11&amp;id=be&amp;p=overview&amp;s=pcs-ranking">11195</a></td><td><div class="valuebar"><div class="w90 bg green7 left"></div></div></td></tr>
+<tr class=""><td>2</td><td class="cu600 fs10">2</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag fr"></span> <a href="nation/france">France</a></td><td><a href="nation.php?date=2025-07-11&amp;id=fr&amp;p=overview&amp;s=pcs-ranking">10075</a></td><td><div class="valuebar"><div class="w81 bg green7 left"></div></div></td></tr>
+<tr class=""><td>3</td><td class="cu600 fs10">3</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag es"></span> <a href="nation/spain">Spain</a></td><td><a href="nation.php?date=2025-07-11&amp;id=es&amp;p=overview&amp;s=pcs-ranking">9040</a></td><td><div class="valuebar"><div class="w73 bg green7 left"></div></div></td></tr>
+<tr class=""><td>4</td><td class="cu600 fs10">4</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag it"></span> <a href="nation/italy">Italy</a></td><td><a href="nation.php?date=2025-07-11&amp;id=it&amp;p=overview&amp;s=pcs-ranking">8920</a></td><td><div class="valuebar"><div class="w72 bg green7 left"></div></div></td></tr>
+<tr class=""><td>5</td><td class="cu600 fs10">7</td><td class="fs10"><span class="delta-up">▲2</span></td><td><span class="flag gb"></span> <a href="nation/great-britain">Great Britain</a></td><td><a href="nation.php?date=2025-07-11&amp;id=gb&amp;p=overview&amp;s=pcs-ranking">8039</a></td><td><div class="valuebar"><div class="w65 bg green7 left"></div></div></td></tr>
+<tr class=""><td>6</td><td class="cu600 fs10">9</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag dk"></span> <a href="nation/denmark">Denmark</a></td><td><a href="nation.php?date=2025-07-11&amp;id=dk&amp;p=overview&amp;s=pcs-ranking">7670</a></td><td><div class="valuebar"><div class="w62 bg green7 left"></div></div></td></tr>
+<tr class=""><td>7</td><td class="cu600 fs10">5</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag nl"></span> <a href="nation/netherlands">Netherlands</a></td><td><a href="nation.php?date=2025-07-11&amp;id=nl&amp;p=overview&amp;s=pcs-ranking">7212</a></td><td><div class="valuebar"><div class="w58 bg green7 left"></div></div></td></tr>
+<tr class=""><td>8</td><td class="cu600 fs10">6</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag si"></span> <a href="nation/slovenia">Slovenia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=si&amp;p=overview&amp;s=pcs-ranking">7063</a></td><td><div class="valuebar"><div class="w57 bg green7 left"></div></div></td></tr>
+<tr class=""><td>9</td><td class="cu600 fs10">8</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag au"></span> <a href="nation/australia">Australia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=au&amp;p=overview&amp;s=pcs-ranking">6333</a></td><td><div class="valuebar"><div class="w51 bg green7 left"></div></div></td></tr>
+<tr class=""><td>10</td><td class="cu600 fs10">10</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag us"></span> <a href="nation/united-states">United States</a></td><td><a href="nation.php?date=2025-07-11&amp;id=us&amp;p=overview&amp;s=pcs-ranking">5686</a></td><td><div class="valuebar"><div class="w46 bg green7 left"></div></div></td></tr>
+<tr class=""><td>11</td><td class="cu600 fs10">11</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag ch"></span> <a href="nation/switzerland">Switzerland</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ch&amp;p=overview&amp;s=pcs-ranking">4889</a></td><td><div class="valuebar"><div class="w39 bg green7 left"></div></div></td></tr>
+<tr class=""><td>12</td><td class="cu600 fs10">14</td><td class="fs10"><span class="delta-up">▲2</span></td><td><span class="flag no"></span> <a href="nation/norway">Norway</a></td><td><a href="nation.php?date=2025-07-11&amp;id=no&amp;p=overview&amp;s=pcs-ranking">4864</a></td><td><div class="valuebar"><div class="w39 bg green7 left"></div></div></td></tr>
+<tr class=""><td>13</td><td class="cu600 fs10">12</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag de"></span> <a href="nation/germany">Germany</a></td><td><a href="nation.php?date=2025-07-11&amp;id=de&amp;p=overview&amp;s=pcs-ranking">4733</a></td><td><div class="valuebar"><div class="w38 bg green7 left"></div></div></td></tr>
+<tr class=""><td>14</td><td class="cu600 fs10">13</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag co"></span> <a href="nation/colombia">Colombia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=co&amp;p=overview&amp;s=pcs-ranking">4214</a></td><td><div class="valuebar"><div class="w34 bg green7 left"></div></div></td></tr>
+<tr class=""><td>15</td><td class="cu600 fs10">18</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag pt"></span> <a href="nation/portugal">Portugal</a></td><td><a href="nation.php?date=2025-07-11&amp;id=pt&amp;p=overview&amp;s=pcs-ranking">3703</a></td><td><div class="valuebar"><div class="w30 bg green7 left"></div></div></td></tr>
+<tr class=""><td>16</td><td class="cu600 fs10">17</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag ec"></span> <a href="nation/ecuador">Ecuador</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ec&amp;p=overview&amp;s=pcs-ranking">3535</a></td><td><div class="valuebar"><div class="w28 bg green7 left"></div></div></td></tr>
+<tr class=""><td>17</td><td class="cu600 fs10">16</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag nz"></span> <a href="nation/new-zealand">New Zealand</a></td><td><a href="nation.php?date=2025-07-11&amp;id=nz&amp;p=overview&amp;s=pcs-ranking">3048</a></td><td><div class="valuebar"><div class="w25 bg green7 left"></div></div></td></tr>
+<tr class=""><td>18</td><td class="cu600 fs10">15</td><td class="fs10"><span class="delta-down">▼3</span></td><td><span class="flag er"></span> <a href="nation/eritrea">Eritrea</a></td><td><a href="nation.php?date=2025-07-11&amp;id=er&amp;p=overview&amp;s=pcs-ranking">2778</a></td><td><div class="valuebar"><div class="w22 bg green7 left"></div></div></td></tr>
+<tr class=""><td>19</td><td class="cu600 fs10">20</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag at"></span> <a href="nation/austria">Austria</a></td><td><a href="nation.php?date=2025-07-11&amp;id=at&amp;p=overview&amp;s=pcs-ranking">2386</a></td><td><div class="valuebar"><div class="w19 bg green7 left"></div></div></td></tr>
+<tr class=""><td>20</td><td class="cu600 fs10">19</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag ie"></span> <a href="nation/ireland">Ireland</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ie&amp;p=overview&amp;s=pcs-ranking">2270</a></td><td><div class="valuebar"><div class="w18 bg green7 left"></div></div></td></tr>
+<tr class=""><td>21</td><td class="cu600 fs10">24</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag ca"></span> <a href="nation/canada">Canada</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ca&amp;p=overview&amp;s=pcs-ranking">2076</a></td><td><div class="valuebar"><div class="w17 bg green7 left"></div></div></td></tr>
+<tr class=""><td>22</td><td class="cu600 fs10">21</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag cz"></span> <a href="nation/czech-republic">Czech Republic</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cz&amp;p=overview&amp;s=pcs-ranking">1784</a></td><td><div class="valuebar"><div class="w14 bg green7 left"></div></div></td></tr>
+<tr class=""><td>23</td><td class="cu600 fs10">23</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag pl"></span> <a href="nation/poland">Poland</a></td><td><a href="nation.php?date=2025-07-11&amp;id=pl&amp;p=overview&amp;s=pcs-ranking">1671</a></td><td><div class="valuebar"><div class="w13 bg green7 left"></div></div></td></tr>
+<tr class=""><td>24</td><td class="cu600 fs10">29</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag mx"></span> <a href="nation/mexico">Mexico</a></td><td><a href="nation.php?date=2025-07-11&amp;id=mx&amp;p=overview&amp;s=pcs-ranking">1354</a></td><td><div class="valuebar"><div class="w11 bg green7 left"></div></div></td></tr>
+<tr class=""><td>25</td><td class="cu600 fs10">22</td><td class="fs10"><span class="delta-down">▼3</span></td><td><span class="flag ru"></span> <a href="nation/russia">Russia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ru&amp;p=overview&amp;s=pcs-ranking">1323</a></td><td><div class="valuebar"><div class="w11 bg green7 left"></div></div></td></tr>
+<tr class=""><td>26</td><td class="cu600 fs10">30</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag ve"></span> <a href="nation/venezuela">Venezuela</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ve&amp;p=overview&amp;s=pcs-ranking">1153</a></td><td><div class="valuebar"><div class="w9 bg green7 left"></div></div></td></tr>
+<tr class=""><td>27</td><td class="cu600 fs10">33</td><td class="fs10"><span class="delta-up">▲6</span></td><td><span class="flag uy"></span> <a href="nation/uruguay">Uruguay</a></td><td><a href="nation.php?date=2025-07-11&amp;id=uy&amp;p=overview&amp;s=pcs-ranking">1102</a></td><td><div class="valuebar"><div class="w9 bg green7 left"></div></div></td></tr>
+<tr class=""><td>28</td><td class="cu600 fs10">28</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag ee"></span> <a href="nation/estonia">Estonia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ee&amp;p=overview&amp;s=pcs-ranking">1070</a></td><td><div class="valuebar"><div class="w9 bg green7 left"></div></div></td></tr>
+<tr class=""><td>29</td><td class="cu600 fs10">27</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag za"></span> <a href="nation/south-africa">South Africa</a></td><td><a href="nation.php?date=2025-07-11&amp;id=za&amp;p=overview&amp;s=pcs-ranking">979</a></td><td><div class="valuebar"><div class="w8 bg green7 left"></div></div></td></tr>
+<tr class=""><td>30</td><td class="cu600 fs10">26</td><td class="fs10"><span class="delta-down">▼4</span></td><td><span class="flag lv"></span> <a href="nation/latvia">Latvia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=lv&amp;p=overview&amp;s=pcs-ranking">930</a></td><td><div class="valuebar"><div class="w7 bg green7 left"></div></div></td></tr>
+<tr class=""><td>31</td><td class="cu600 fs10">25</td><td class="fs10"><span class="delta-down">▼6</span></td><td><span class="flag kz"></span> <a href="nation/kazakhstan">Kazakhstan</a></td><td><a href="nation.php?date=2025-07-11&amp;id=kz&amp;p=overview&amp;s=pcs-ranking">870</a></td><td><div class="valuebar"><div class="w7 bg green7 left"></div></div></td></tr>
+<tr class=""><td>32</td><td class="cu600 fs10">31</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag lu"></span> <a href="nation/luxembourg">Luxembourg</a></td><td><a href="nation.php?date=2025-07-11&amp;id=lu&amp;p=overview&amp;s=pcs-ranking">729</a></td><td><div class="valuebar"><div class="w6 bg green7 left"></div></div></td></tr>
+<tr class=""><td>33</td><td class="cu600 fs10">42</td><td class="fs10"><span class="delta-up">▲9</span></td><td><span class="flag sk"></span> <a href="nation/slovakia">Slovakia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=sk&amp;p=overview&amp;s=pcs-ranking">716</a></td><td><div class="valuebar"><div class="w6 bg green7 left"></div></div></td></tr>
+<tr class=""><td>34</td><td class="cu600 fs10">32</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag hu"></span> <a href="nation/hungary">Hungary</a></td><td><a href="nation.php?date=2025-07-11&amp;id=hu&amp;p=overview&amp;s=pcs-ranking">619</a></td><td><div class="valuebar"><div class="w5 bg green7 left"></div></div></td></tr>
+<tr class=""><td>35</td><td class="cu600 fs10">35</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag jp"></span> <a href="nation/japan">Japan</a></td><td><a href="nation.php?date=2025-07-11&amp;id=jp&amp;p=overview&amp;s=pcs-ranking">553</a></td><td><div class="valuebar"><div class="w4 bg green7 left"></div></div></td></tr>
+<tr class=""><td>36</td><td class="cu600 fs10">49</td><td class="fs10"><span class="delta-up">▲13</span></td><td><span class="flag ua"></span> <a href="nation/ukraine">Ukraine</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ua&amp;p=overview&amp;s=pcs-ranking">458</a></td><td><div class="valuebar"><div class="w4 bg green7 left"></div></div></td></tr>
+<tr class=""><td>37</td><td class="cu600 fs10">34</td><td class="fs10"><span class="delta-down">▼3</span></td><td><span class="flag dz"></span> <a href="nation/algeria">Algeria</a></td><td><a href="nation.php?date=2025-07-11&amp;id=dz&amp;p=overview&amp;s=pcs-ranking">436</a></td><td><div class="valuebar"><div class="w4 bg green7 left"></div></div></td></tr>
+<tr class=""><td>38</td><td class="cu600 fs10">52</td><td class="fs10"><span class="delta-up">▲14</span></td><td><span class="flag ro"></span> <a href="nation/romania">Romania</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ro&amp;p=overview&amp;s=pcs-ranking">430</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>39</td><td class="cu600 fs10">43</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag cr"></span> <a href="nation/costa-rica">Costa Rica</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cr&amp;p=overview&amp;s=pcs-ranking">410</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>40</td><td class="cu600 fs10">37</td><td class="fs10"><span class="delta-down">▼3</span></td><td><span class="flag cn"></span> <a href="nation/china">China</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cn&amp;p=overview&amp;s=pcs-ranking">387</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>41</td><td class="cu600 fs10">46</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag mn"></span> <a href="nation/mongolia">Mongolia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=mn&amp;p=overview&amp;s=pcs-ranking">384</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>42</td><td class="cu600 fs10">54</td><td class="fs10"><span class="delta-up">▲12</span></td><td><span class="flag ar"></span> <a href="nation/argentina">Argentina</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ar&amp;p=overview&amp;s=pcs-ranking">358</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>43</td><td class="cu600 fs10">57</td><td class="fs10"><span class="delta-up">▲14</span></td><td><span class="flag gt"></span> <a href="nation/guatemala">Guatemala</a></td><td><a href="nation.php?date=2025-07-11&amp;id=gt&amp;p=overview&amp;s=pcs-ranking">328</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>44</td><td class="cu600 fs10">44</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag ma"></span> <a href="nation/morocco">Morocco</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ma&amp;p=overview&amp;s=pcs-ranking">322</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>45</td><td class="cu600 fs10">40</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag il"></span> <a href="nation/israel">Israel</a></td><td><a href="nation.php?date=2025-07-11&amp;id=il&amp;p=overview&amp;s=pcs-ranking">318</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>46</td><td class="cu600 fs10">59</td><td class="fs10"><span class="delta-up">▲13</span></td><td><span class="flag ir"></span> <a href="nation/iran">Iran</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ir&amp;p=overview&amp;s=pcs-ranking">314</a></td><td><div class="valuebar"><div class="w3 bg green7 left"></div></div></td></tr>
+<tr class=""><td>47</td><td class="cu600 fs10">56</td><td class="fs10"><span class="delta-up">▲9</span></td><td><span class="flag rs"></span> <a href="nation/serbia">Serbia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=rs&amp;p=overview&amp;s=pcs-ranking">297</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>48</td><td class="cu600 fs10">41</td><td class="fs10"><span class="delta-down">▼7</span></td><td><span class="flag ug"></span> <a href="nation/uganda">Uganda</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ug&amp;p=overview&amp;s=pcs-ranking">277</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>49</td><td class="cu600 fs10">38</td><td class="fs10"><span class="delta-down">▼11</span></td><td><span class="flag th"></span> <a href="nation/thailand">Thailand</a></td><td><a href="nation.php?date=2025-07-11&amp;id=th&amp;p=overview&amp;s=pcs-ranking">275</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>50</td><td class="cu600 fs10">48</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag se"></span> <a href="nation/sweden">Sweden</a></td><td><a href="nation.php?date=2025-07-11&amp;id=se&amp;p=overview&amp;s=pcs-ranking">266</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>51</td><td class="cu600 fs10">58</td><td class="fs10"><span class="delta-up">▲7</span></td><td><span class="flag tr"></span> <a href="nation/turkiye">Türkiye</a></td><td><a href="nation.php?date=2025-07-11&amp;id=tr&amp;p=overview&amp;s=pcs-ranking">264</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>52</td><td class="cu600 fs10">47</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag br"></span> <a href="nation/brazil">Brazil</a></td><td><a href="nation.php?date=2025-07-11&amp;id=br&amp;p=overview&amp;s=pcs-ranking">261</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>53</td><td class="cu600 fs10">45</td><td class="fs10"><span class="delta-down">▼8</span></td><td><span class="flag rw"></span> <a href="nation/rwanda">Rwanda</a></td><td><a href="nation.php?date=2025-07-11&amp;id=rw&amp;p=overview&amp;s=pcs-ranking">258</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>54</td><td class="cu600 fs10">39</td><td class="fs10"><span class="delta-down">▼15</span></td><td><span class="flag et"></span> <a href="nation/ethiopia">Ethiopia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=et&amp;p=overview&amp;s=pcs-ranking">216</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>55</td><td class="cu600 fs10">64</td><td class="fs10"><span class="delta-up">▲9</span></td><td><span class="flag mc"></span> <a href="nation/monaco">Monaco</a></td><td><a href="nation.php?date=2025-07-11&amp;id=mc&amp;p=overview&amp;s=pcs-ranking">207</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>56</td><td class="cu600 fs10">61</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag uz"></span> <a href="nation/uzbekistan">Uzbekistan</a></td><td><a href="nation.php?date=2025-07-11&amp;id=uz&amp;p=overview&amp;s=pcs-ranking">200</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>57</td><td class="cu600 fs10">62</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag id"></span> <a href="nation/indonesia">Indonesia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=id&amp;p=overview&amp;s=pcs-ranking">199</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>58</td><td class="cu600 fs10">53</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag pa"></span> <a href="nation/panama">Panama</a></td><td><a href="nation.php?date=2025-07-11&amp;id=pa&amp;p=overview&amp;s=pcs-ranking">199</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>59</td><td class="cu600 fs10">51</td><td class="fs10"><span class="delta-down">▼8</span></td><td><span class="flag my"></span> <a href="nation/malaysia">Malaysia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=my&amp;p=overview&amp;s=pcs-ranking">198</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>60</td><td class="cu600 fs10">50</td><td class="fs10"><span class="delta-down">▼10</span></td><td><span class="flag kr"></span> <a href="nation/south-korea">South Korea</a></td><td><a href="nation.php?date=2025-07-11&amp;id=kr&amp;p=overview&amp;s=pcs-ranking">188</a></td><td><div class="valuebar"><div class="w2 bg green7 left"></div></div></td></tr>
+<tr class=""><td>61</td><td class="cu600 fs10">67</td><td class="fs10"><span class="delta-up">▲6</span></td><td><span class="flag gr"></span> <a href="nation/greece">Greece</a></td><td><a href="nation.php?date=2025-07-11&amp;id=gr&amp;p=overview&amp;s=pcs-ranking">175</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>62</td><td class="cu600 fs10">55</td><td class="fs10"><span class="delta-down">▼7</span></td><td><span class="flag bm"></span> <a href="nation/bermuda">Bermuda</a></td><td><a href="nation.php?date=2025-07-11&amp;id=bm&amp;p=overview&amp;s=pcs-ranking">174</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>63</td><td class="cu600 fs10">66</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag cl"></span> <a href="nation/chile">Chile</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cl&amp;p=overview&amp;s=pcs-ranking">169</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>64</td><td class="cu600 fs10">63</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag pr"></span> <a href="nation/puerto-rico">Puerto Rico</a></td><td><a href="nation.php?date=2025-07-11&amp;id=pr&amp;p=overview&amp;s=pcs-ranking">160</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>65</td><td class="cu600 fs10">65</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag ae"></span> <a href="nation/united-arab-emirates">United Arab Emirates</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ae&amp;p=overview&amp;s=pcs-ranking">145</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>66</td><td class="cu600 fs10">99</td><td class="fs10"><span class="delta-up">▲33</span></td><td><span class="flag cv"></span> <a href="nation/cape-verde">Cape Verde</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cv&amp;p=overview&amp;s=pcs-ranking">126</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>67</td><td class="cu600 fs10">70</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag bg"></span> <a href="nation/bulgaria">Bulgaria</a></td><td><a href="nation.php?date=2025-07-11&amp;id=bg&amp;p=overview&amp;s=pcs-ranking">123</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>68</td><td class="cu600 fs10">72</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag ph"></span> <a href="nation/philippines">Philippines</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ph&amp;p=overview&amp;s=pcs-ranking">123</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>69</td><td class="cu600 fs10">36</td><td class="fs10"><span class="delta-down">▼33</span></td><td><span class="flag mu"></span> <a href="nation/mauritius">Mauritius</a></td><td><a href="nation.php?date=2025-07-11&amp;id=mu&amp;p=overview&amp;s=pcs-ranking">120</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>70</td><td class="cu600 fs10">73</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag hr"></span> <a href="nation/croatia">Croatia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=hr&amp;p=overview&amp;s=pcs-ranking">113</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>71</td><td class="cu600 fs10">81</td><td class="fs10"><span class="delta-up">▲10</span></td><td><span class="flag fi"></span> <a href="nation/finland">Finland</a></td><td><a href="nation.php?date=2025-07-11&amp;id=fi&amp;p=overview&amp;s=pcs-ranking">112</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>72</td><td class="cu600 fs10">79</td><td class="fs10"><span class="delta-up">▲7</span></td><td><span class="flag py"></span> <a href="nation/paraguay">Paraguay</a></td><td><a href="nation.php?date=2025-07-11&amp;id=py&amp;p=overview&amp;s=pcs-ranking">111</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>73</td><td class="cu600 fs10">82</td><td class="fs10"><span class="delta-up">▲9</span></td><td><span class="flag tw"></span> <a href="nation/taiwan">Taiwan</a></td><td><a href="nation.php?date=2025-07-11&amp;id=tw&amp;p=overview&amp;s=pcs-ranking">109</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>74</td><td class="cu600 fs10">77</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag bz"></span> <a href="nation/belize">Belize</a></td><td><a href="nation.php?date=2025-07-11&amp;id=bz&amp;p=overview&amp;s=pcs-ranking">108</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>75</td><td class="cu600 fs10">85</td><td class="fs10"><span class="delta-up">▲10</span></td><td><span class="flag sg"></span> <a href="nation/singapore">Singapore</a></td><td><a href="nation.php?date=2025-07-11&amp;id=sg&amp;p=overview&amp;s=pcs-ranking">107</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>76</td><td class="cu600 fs10">105</td><td class="fs10"><span class="delta-up">▲29</span></td><td><span class="flag ag"></span> <a href="nation/antigua-and-barbuda">Antigua and Barbuda</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ag&amp;p=overview&amp;s=pcs-ranking">101</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>77</td><td class="cu600 fs10">74</td><td class="fs10"><span class="delta-down">▼3</span></td><td><span class="flag lt"></span> <a href="nation/lithuania">Lithuania</a></td><td><a href="nation.php?date=2025-07-11&amp;id=lt&amp;p=overview&amp;s=pcs-ranking">95</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>78</td><td class="cu600 fs10">71</td><td class="fs10"><span class="delta-down">▼7</span></td><td><span class="flag hk"></span> <a href="nation/hongkong">Hongkong</a></td><td><a href="nation.php?date=2025-07-11&amp;id=hk&amp;p=overview&amp;s=pcs-ranking">93</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>79</td><td class="cu600 fs10">76</td><td class="fs10"><span class="delta-down">▼3</span></td><td><span class="flag cy"></span> <a href="nation/cyprus">Cyprus</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cy&amp;p=overview&amp;s=pcs-ranking">92</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>80</td><td class="cu600 fs10">96</td><td class="fs10"><span class="delta-up">▲16</span></td><td><span class="flag al"></span> <a href="nation/albania">Albania</a></td><td><a href="nation.php?date=2025-07-11&amp;id=al&amp;p=overview&amp;s=pcs-ranking">91</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>81</td><td class="cu600 fs10">86</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag cu"></span> <a href="nation/cuba">Cuba</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cu&amp;p=overview&amp;s=pcs-ranking">90</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>82</td><td class="cu600 fs10">83</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag hn"></span> <a href="nation/honduras">Honduras</a></td><td><a href="nation.php?date=2025-07-11&amp;id=hn&amp;p=overview&amp;s=pcs-ranking">89</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>83</td><td class="cu600 fs10">75</td><td class="fs10"><span class="delta-down">▼8</span></td><td><span class="flag cm"></span> <a href="nation/cameroon">Cameroon</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cm&amp;p=overview&amp;s=pcs-ranking">83</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>84</td><td class="cu600 fs10">97</td><td class="fs10"><span class="delta-up">▲13</span></td><td><span class="flag la"></span> <a href="nation/laos">Laos</a></td><td><a href="nation.php?date=2025-07-11&amp;id=la&amp;p=overview&amp;s=pcs-ranking">77</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>85</td><td class="cu600 fs10">80</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag tn"></span> <a href="nation/tunisia">Tunisia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=tn&amp;p=overview&amp;s=pcs-ranking">75</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>86</td><td class="cu600 fs10">88</td><td class="fs10"><span class="delta-up">▲2</span></td><td><span class="flag do"></span> <a href="nation/dominican-republic">Dominican Republic</a></td><td><a href="nation.php?date=2025-07-11&amp;id=do&amp;p=overview&amp;s=pcs-ranking">74</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>87</td><td class="cu600 fs10">78</td><td class="fs10"><span class="delta-down">▼9</span></td><td><span class="flag bj"></span> <a href="nation/benin">Benin</a></td><td><a href="nation.php?date=2025-07-11&amp;id=bj&amp;p=overview&amp;s=pcs-ranking">71</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>88</td><td class="cu600 fs10">94</td><td class="fs10"><span class="delta-up">▲6</span></td><td><span class="flag na"></span> <a href="nation/namibia">Namibia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=na&amp;p=overview&amp;s=pcs-ranking">71</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>89</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag pk"></span> <a href="nation/pakistan">Pakistan</a></td><td><a href="nation.php?date=2025-07-11&amp;id=pk&amp;p=overview&amp;s=pcs-ranking">71</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>90</td><td class="cu600 fs10">91</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag sv"></span> <a href="nation/el-salvador">El Salvador</a></td><td><a href="nation.php?date=2025-07-11&amp;id=sv&amp;p=overview&amp;s=pcs-ranking">69</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>91</td><td class="cu600 fs10">87</td><td class="fs10"><span class="delta-down">▼4</span></td><td><span class="flag pe"></span> <a href="nation/peru">Peru</a></td><td><a href="nation.php?date=2025-07-11&amp;id=pe&amp;p=overview&amp;s=pcs-ranking">66</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>92</td><td class="cu600 fs10">95</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag tt"></span> <a href="nation/trinidad-tobago">Trinidad &amp; Tobago</a></td><td><a href="nation.php?date=2025-07-11&amp;id=tt&amp;p=overview&amp;s=pcs-ranking">64</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>93</td><td class="cu600 fs10">113</td><td class="fs10"><span class="delta-up">▲20</span></td><td><span class="flag eg"></span> <a href="nation/egypt">Egypt</a></td><td><a href="nation.php?date=2025-07-11&amp;id=eg&amp;p=overview&amp;s=pcs-ranking">63</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>94</td><td class="cu600 fs10">69</td><td class="fs10"><span class="delta-down">▼25</span></td><td><span class="flag in"></span> <a href="nation/india">India</a></td><td><a href="nation.php?date=2025-07-11&amp;id=in&amp;p=overview&amp;s=pcs-ranking">63</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>95</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag jo"></span> <a href="nation/jordan">Jordan</a></td><td><a href="nation.php?date=2025-07-11&amp;id=jo&amp;p=overview&amp;s=pcs-ranking">63</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>96</td><td class="cu600 fs10">101</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag me"></span> <a href="nation/montenegro">Montenegro</a></td><td><a href="nation.php?date=2025-07-11&amp;id=me&amp;p=overview&amp;s=pcs-ranking">63</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>97</td><td class="cu600 fs10">93</td><td class="fs10"><span class="delta-down">▼4</span></td><td><span class="flag mk"></span> <a href="nation/macedonie">North Macedonia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=mk&amp;p=overview&amp;s=pcs-ranking">63</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>98</td><td class="cu600 fs10">103</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag xk"></span> <a href="nation/kosovo">Kosovo</a></td><td><a href="nation.php?date=2025-07-11&amp;id=xk&amp;p=overview&amp;s=pcs-ranking">63</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>99</td><td class="cu600 fs10">104</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag zw"></span> <a href="nation/zimbabwe">Zimbabwe</a></td><td><a href="nation.php?date=2025-07-11&amp;id=zw&amp;p=overview&amp;s=pcs-ranking">63</a></td><td><div class="valuebar"><div class="w1 bg green7 left"></div></div></td></tr>
+<tr class=""><td>100</td><td class="cu600 fs10">121</td><td class="fs10"><span class="delta-up">▲21</span></td><td><span class="flag bo"></span> <a href="nation/bolivia">Bolivia</a></td><td><a href="nation.php?date=2025-07-11&amp;id=bo&amp;p=overview&amp;s=pcs-ranking">62</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>101</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag ls"></span> <a href="nation/lesotho">Lesotho</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ls&amp;p=overview&amp;s=pcs-ranking">62</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>102</td><td class="cu600 fs10">92</td><td class="fs10"><span class="delta-down">▼10</span></td><td><span class="flag bf"></span> <a href="nation/burkina-faso">Burkina Faso</a></td><td><a href="nation.php?date=2025-07-11&amp;id=bf&amp;p=overview&amp;s=pcs-ranking">57</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>103</td><td class="cu600 fs10">131</td><td class="fs10"><span class="delta-up">▲28</span></td><td><span class="flag mo"></span> <a href="nation/macau">Macau</a></td><td><a href="nation.php?date=2025-07-11&amp;id=mo&amp;p=overview&amp;s=pcs-ranking">47</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>104</td><td class="cu600 fs10">60</td><td class="fs10"><span class="delta-down">▼44</span></td><td><span class="flag ao"></span> <a href="nation/angola">Angola</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ao&amp;p=overview&amp;s=pcs-ranking">44</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>105</td><td class="cu600 fs10">68</td><td class="fs10"><span class="delta-down">▼37</span></td><td><span class="flag gd"></span> <a href="nation/grenada">Grenada</a></td><td><a href="nation.php?date=2025-07-11&amp;id=gd&amp;p=overview&amp;s=pcs-ranking">41</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>106</td><td class="cu600 fs10">90</td><td class="fs10"><span class="delta-down">▼16</span></td><td><span class="flag ni"></span> <a href="nation/nigaragua">Nicaragua</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ni&amp;p=overview&amp;s=pcs-ranking">40</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>107</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag sz"></span> <a href="nation/eswatini">Eswatini</a></td><td><a href="nation.php?date=2025-07-11&amp;id=sz&amp;p=overview&amp;s=pcs-ranking">39</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>108</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag dm"></span> <a href="nation/dominica">Dominica</a></td><td><a href="nation.php?date=2025-07-11&amp;id=dm&amp;p=overview&amp;s=pcs-ranking">36</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>109</td><td class="cu600 fs10">84</td><td class="fs10"><span class="delta-down">▼25</span></td><td><span class="flag ba"></span> <a href="nation/bosnia-and-herzegovina">Bosnia and Herzegovina</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ba&amp;p=overview&amp;s=pcs-ranking">26</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>110</td><td class="cu600 fs10">100</td><td class="fs10"><span class="delta-down">▼10</span></td><td><span class="flag is"></span> <a href="nation/iceland">Iceland</a></td><td><a href="nation.php?date=2025-07-11&amp;id=is&amp;p=overview&amp;s=pcs-ranking">24</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>111</td><td class="cu600 fs10">132</td><td class="fs10"><span class="delta-up">▲21</span></td><td><span class="flag jm"></span> <a href="nation/jamaica">Jamaica</a></td><td><a href="nation.php?date=2025-07-11&amp;id=jm&amp;p=overview&amp;s=pcs-ranking">24</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>112</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag kg"></span> <a href="nation/kyrgyzstan">Kyrgyzstan</a></td><td><a href="nation.php?date=2025-07-11&amp;id=kg&amp;p=overview&amp;s=pcs-ranking">24</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>113</td><td class="cu600 fs10">119</td><td class="fs10"><span class="delta-up">▲6</span></td><td><span class="flag af"></span> <a href="nation/afghanistan">Afghanistan</a></td><td><a href="nation.php?date=2025-07-11&amp;id=af&amp;p=overview&amp;s=pcs-ranking">20</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>114</td><td class="cu600 fs10">120</td><td class="fs10"><span class="delta-up">▲6</span></td><td><span class="flag qa"></span> <a href="nation/qatar">Qatar</a></td><td><a href="nation.php?date=2025-07-11&amp;id=qa&amp;p=overview&amp;s=pcs-ranking">20</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>115</td><td class="cu600 fs10">115</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag ke"></span> <a href="nation/kenya">Kenya</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ke&amp;p=overview&amp;s=pcs-ranking">17</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>116</td><td class="cu600 fs10">117</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag bw"></span> <a href="nation/botswana">Botswana</a></td><td><a href="nation.php?date=2025-07-11&amp;id=bw&amp;p=overview&amp;s=pcs-ranking">15</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>117</td><td class="cu600 fs10">118</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag sc"></span> <a href="nation/seychelles">Seychelles</a></td><td><a href="nation.php?date=2025-07-11&amp;id=sc&amp;p=overview&amp;s=pcs-ranking">15</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>118</td><td class="cu600 fs10">122</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag by"></span> <a href="nation/belarus">Belarus</a></td><td><a href="nation.php?date=2025-07-11&amp;id=by&amp;p=overview&amp;s=pcs-ranking">12</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>119</td><td class="cu600 fs10">110</td><td class="fs10"><span class="delta-down">▼9</span></td><td><span class="flag ci"></span> <a href="nation/ivory-coast">Ivory Coast</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ci&amp;p=overview&amp;s=pcs-ranking">11</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>120</td><td class="cu600 fs10">125</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag gh"></span> <a href="nation/ghana">Ghana</a></td><td><a href="nation.php?date=2025-07-11&amp;id=gh&amp;p=overview&amp;s=pcs-ranking">10</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>121</td><td class="cu600 fs10">116</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag gu"></span> <a href="nation/guam">Guam</a></td><td><a href="nation.php?date=2025-07-11&amp;id=gu&amp;p=overview&amp;s=pcs-ranking">10</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>122</td><td class="cu600 fs10">126</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag tz"></span> <a href="nation/tanzania">Tanzania</a></td><td><a href="nation.php?date=2025-07-11&amp;id=tz&amp;p=overview&amp;s=pcs-ranking">10</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>123</td><td class="cu600 fs10">106</td><td class="fs10"><span class="delta-down">▼17</span></td><td><span class="flag bh"></span> <a href="nation/bahrain">Bahrain</a></td><td><a href="nation.php?date=2025-07-11&amp;id=bh&amp;p=overview&amp;s=pcs-ranking">5</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>124</td><td class="cu600 fs10">128</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag cd"></span> <a href="nation/democratic-republic-of-the-congo">Democratic Republic of the Congo</a></td><td><a href="nation.php?date=2025-07-11&amp;id=cd&amp;p=overview&amp;s=pcs-ranking">5</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>125</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag mt"></span> <a href="nation/malta">Malta</a></td><td><a href="nation.php?date=2025-07-11&amp;id=mt&amp;p=overview&amp;s=pcs-ranking">5</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>126</td><td class="cu600 fs10">130</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag gy"></span> <a href="nation/guyana">Guyana</a></td><td><a href="nation.php?date=2025-07-11&amp;id=gy&amp;p=overview&amp;s=pcs-ranking">4</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>127</td><td class="cu600 fs10">89</td><td class="fs10"><span class="delta-down">▼38</span></td><td><span class="flag ml"></span> <a href="nation/mali">Mali</a></td><td><a href="nation.php?date=2025-07-11&amp;id=ml&amp;p=overview&amp;s=pcs-ranking">3</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+<tr class=""><td>128</td><td class="cu600 fs10">123</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag iq"></span> <a href="nation/iraq">Iraq</a></td><td><a href="nation.php?date=2025-07-11&amp;id=iq&amp;p=overview&amp;s=pcs-ranking">1</a></td><td><div class="valuebar"><div class="w0 bg green7 left"></div></div></td></tr>
+</tbody></table></div>
+</div></div>
+<div class="side-nav  ">
+<a class="backToContent blue fs11 right showIfMobile" href="">back to content</a><div class="clear"></div>
+<ul class="sidenav"><li><div class="sidenavTitle">PCS Ranking</div><ul><li class="" data-pro="0"><a href="rankings/individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/teams">Teams</a></li>
+<li class="cur" data-pro="0"><a href="rankings/nations">Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/races">Races</a></li>
+<li class="" data-pro="0"><a href="rankings/all-time">All time</a></li>
+</ul></li><li><div class="sidenavTitle">PCS Season</div><ul><li class="" data-pro="0"><a href="rankings/season-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/season-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/season-nations">Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/distance">Distance</a></li>
+<li class="" data-pro="0"><a href="rankings/racedays">Racedays</a></li>
+<li class="" data-pro="0"><a href="rankings/u23">U23</a></li>
+<li class="" data-pro="0"><a href="rankings/u23-nations">U23 Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/team-total">Team total</a></li>
+</ul></li><li><div class="sidenavTitle">PCS Wins</div><ul><li class="" data-pro="0"><a href="rankings/wins-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-individual-pro">Professional wins</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-nations">Nations</a></li>
+</ul></li><li><div class="sidenavTitle">UCI World Ranking</div><ul><li class="" data-pro="0"><a href="rankings/uci-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-individual-daily">Individual (daily)</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-nations">Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-one-day-races">One day races</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-season-individual">Season individual</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-nations-olympic-selection">Nations (Olympic selection)</a></li>
+<li class="" data-pro="0"><a href="rankings/ranking-2023-2025">Ranking 2023-2025</a></li>
+</ul></li><li><div class="sidenavTitle">Rider specialties</div><ul><li class="" data-pro="0"><a href="rankings/climbers">Climbers</a></li>
+<li class="" data-pro="0"><a href="rankings/hills">Hills</a></li>
+<li class="" data-pro="0"><a href="rankings/gc-ranking">GC Ranking</a></li>
+<li class="" data-pro="0"><a href="rankings/one-day-races">One day races</a></li>
+<li class="" data-pro="0"><a href="rankings/sprinters">Sprinters</a></li>
+<li class="" data-pro="0"><a href="rankings/time-trial">Time trial</a></li>
+<li class="" data-pro="0"><a href="rankings/prologues">Prologues</a></li>
+</ul></li></ul></div>
+<div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
+</ul>
+<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
+<li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
+<li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
+</ul></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul>
+<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
+<li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
+</ul></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul>
+<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
+</ul></li>
+<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+<li><a href="info/profile-score-explained">Profile scores</a></li>
+<li><a href="reset_password.php">Reset password</a></li>
+<li><a href="info/pcs-game">PCS game</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
+</ul>
+<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/cookie-policy">Cookie policy</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/contributions">Contributions</a></li>
+<li><span>Pageload 0.0072s</span></li>
+</ul></li>
+</ul></div></div>
+
+<script src="search_list21.js"></script></body></html>

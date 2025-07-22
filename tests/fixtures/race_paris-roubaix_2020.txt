@@ -1,60 +1,46 @@
-<!DOCTYPE html><html><head><!-- Global site tag (gtag.js) - Google Analytics -->
+<!DOCTYPE html><html><head>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-2MNJ20S7SJ');
 </script>
-
-
-<title>Paris - Roubaix 2020</title>
-<base href="https://www.procyclingstats.com/race.php">
-<link rel="canonical" href="https://www.procyclingstats.com/race/paris-roubaix/2020">
-<script>
-    var r89 = r89 || {
-      callAds: [],
-      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
-    };
-</script>
-<script async="" src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="robots" content="noindex">
+<title>Paris - Roubaix 2020</title> 
+<base href="https://www.procyclingstats.com/race.php"> 
+<link rel="canonical" href="https://www.procyclingstats.com/race/paris-roubaix/2020"> 
+<script>  var r89 = r89 || {      callAds: [],   pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }    };  </script>
+  <script async="" src="https://tags.refinery89.com/procyclingstats.js"></script><meta name="robots" content="noindex">
 <meta name="description" content="">
-<meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8"> 
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<base href="race.php">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a204.css">
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b174.css">
-<script src="https://www.procyclingstats.com/pcs_s83.js"></script> 
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-16x16.png">
-<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon.ico">
- 
+<script src="v3_scripts_v32.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v70.css">
+<link rel="stylesheet" type="text/css" href="v3_site_b46.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
+<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico">
 </head>
 <body>
-<div class="wrapper">
-  <header class="">
-    <div class="cont">
-    	<a class="logo" href="index.php"></a>
-  
-    	<form action="search.php" class="msearch"><input type="hidden" id="term">
-    		<input type="text" name="term" id="search" data-nav="/start" data-nav2="" data-page="race_event" class="search4" placeholder="search"></form> 
-    	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu▼</a>
-				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
-<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
+<div class="wrapper"><header>
+<div class="cont">
+<a class="logo" href="index.php"></a>
+<div class="search"><form action="search.php" class="msearch"><input type="hidden" id="term"><input type="text" name="term" id="search" data-page="race" data-url="race/-id-//" placeholder="search" autocomplete="off"></form></div> 
+<div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
+<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<li class=""><a class="menu" href="index.php">Home</a></li>
+<li class=""><a class="menu" href="races.php">Races<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
@@ -67,125 +53,277 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
-<li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
-<li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
-<li><a href="team/movistar-team-2024">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
-<li><a href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></li>
-<li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
-<li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
-<li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&amp;B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li class=""><a class="menu" href="teams.php">Teams<span class="more" href="">▼</span></a>
+<ul><li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
 </ul></li>
-<li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
-<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="statistics">Overview</a></li>
+<li class=""><a class="menu" href="rankings.php">Rankings</a></li>
+<li class=""><a class="menu" href="statistics.php">Statistics<span class="more" href="">▼</span></a>
+<ul><li><a href="statistics">Overview</a></li>
 <li><a href="statistics/riders">Riders</a></li>
 <li><a href="statistics/teams">Teams</a></li>
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
-<li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="riders">Riders</a></li>
+<li class=""><a class="menu" href="game.php">Game</a></li>
+<li class="tour yellow"><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france/2025/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
+<li><a href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
+<li><a href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
+<li class=""><a class="menu" href="quiz.php">Quiz</a></li>
+<li class=""><a class="menu" href="riders.php">More<span class="more" href="">▼</span></a>
+<ul><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-3-billion-pageviews">Countdown to 3 billion pageviews</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/tutorials">Tutorials</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">▼</a><ul class="hide"><li><a href="">Dashboard</a></li>
-<li><a href="">Lists</a></li>
+<li class="account"><a class="menu" href="account.php">Account<span class="more" href="">▼</span></a>
+<ul><li><a href="account/overview">My account</a></li>
+<li><a href="account/follow-riders">My riders</a></li>
 </ul></li>
- 
-				 </ul> 
-			 </div>
-			 <a class="user4" data-logged="0" href="account.php"><span>❖</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>✱</span><font>settings</font></a>    </div>
-  </header>  
-<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav "><a href="race/paris-roubaix/2019/statistics/start">2019</a><div><form style="  "><select style="width: calc(100% - 2px);" onchange="window.location.href=this.value; "><option value="race/paris-roubaix/2024/statistics/start">2024</option><option value="race/paris-roubaix/2023/statistics/start">2023</option><option value="race/paris-roubaix/2022/statistics/start">2022</option><option value="race/paris-roubaix/2021/statistics/start">2021</option><option value="race/paris-roubaix/2020/statistics/start" selected="">2020</option><option value="race/paris-roubaix/2019/statistics/start">2019</option><option value="race/paris-roubaix/2018/statistics/start">2018</option><option value="race/paris-roubaix/2017/statistics/start">2017</option><option value="race/paris-roubaix/2016/statistics/start">2016</option><option value="race/paris-roubaix/2015/statistics/start">2015</option><option value="race/paris-roubaix/2014/statistics/start">2014</option><option value="race/paris-roubaix/2013/statistics/start">2013</option><option value="race/paris-roubaix/2012/statistics/start">2012</option><option value="race/paris-roubaix/2011/statistics/start">2011</option><option value="race/paris-roubaix/2010/statistics/start">2010</option><option value="race/paris-roubaix/2009/statistics/start">2009</option><option value="race/paris-roubaix/2008/statistics/start">2008</option><option value="race/paris-roubaix/2007/statistics/start">2007</option><option value="race/paris-roubaix/2006/statistics/start">2006</option><option value="race/paris-roubaix/2005/statistics/start">2005</option><option value="race/paris-roubaix/2004/statistics/start">2004</option><option value="race/paris-roubaix/2003/statistics/start">2003</option><option value="race/paris-roubaix/2002/statistics/start">2002</option><option value="race/paris-roubaix/2001/statistics/start">2001</option><option value="race/paris-roubaix/2000/statistics/start">2000</option><option value="race/paris-roubaix/1999/statistics/start">1999</option><option value="race/paris-roubaix/1998/statistics/start">1998</option><option value="race/paris-roubaix/1997/statistics/start">1997</option><option value="race/paris-roubaix/1996/statistics/start">1996</option><option value="race/paris-roubaix/1995/statistics/start">1995</option><option value="race/paris-roubaix/1994/statistics/start">1994</option><option value="race/paris-roubaix/1993/statistics/start">1993</option><option value="race/paris-roubaix/1992/statistics/start">1992</option><option value="race/paris-roubaix/1991/statistics/start">1991</option><option value="race/paris-roubaix/1990/statistics/start">1990</option><option value="race/paris-roubaix/1989/statistics/start">1989</option><option value="race/paris-roubaix/1988/statistics/start">1988</option><option value="race/paris-roubaix/1987/statistics/start">1987</option><option value="race/paris-roubaix/1986/statistics/start">1986</option><option value="race/paris-roubaix/1985/statistics/start">1985</option><option value="race/paris-roubaix/1984/statistics/start">1984</option><option value="race/paris-roubaix/1983/statistics/start">1983</option><option value="race/paris-roubaix/1982/statistics/start">1982</option><option value="race/paris-roubaix/1981/statistics/start">1981</option><option value="race/paris-roubaix/1980/statistics/start">1980</option><option value="race/paris-roubaix/1979/statistics/start">1979</option><option value="race/paris-roubaix/1978/statistics/start">1978</option><option value="race/paris-roubaix/1977/statistics/start">1977</option><option value="race/paris-roubaix/1976/statistics/start">1976</option><option value="race/paris-roubaix/1975/statistics/start">1975</option><option value="race/paris-roubaix/1974/statistics/start">1974</option><option value="race/paris-roubaix/1973/statistics/start">1973</option><option value="race/paris-roubaix/1972/statistics/start">1972</option><option value="race/paris-roubaix/1971/statistics/start">1971</option><option value="race/paris-roubaix/1970/statistics/start">1970</option><option value="race/paris-roubaix/1969/statistics/start">1969</option><option value="race/paris-roubaix/1968/statistics/start">1968</option><option value="race/paris-roubaix/1967/statistics/start">1967</option><option value="race/paris-roubaix/1966/statistics/start">1966</option><option value="race/paris-roubaix/1965/statistics/start">1965</option><option value="race/paris-roubaix/1964/statistics/start">1964</option><option value="race/paris-roubaix/1963/statistics/start">1963</option><option value="race/paris-roubaix/1962/statistics/start">1962</option><option value="race/paris-roubaix/1961/statistics/start">1961</option><option value="race/paris-roubaix/1960/statistics/start">1960</option><option value="race/paris-roubaix/1959/statistics/start">1959</option><option value="race/paris-roubaix/1958/statistics/start">1958</option><option value="race/paris-roubaix/1957/statistics/start">1957</option><option value="race/paris-roubaix/1956/statistics/start">1956</option><option value="race/paris-roubaix/1955/statistics/start">1955</option><option value="race/paris-roubaix/1954/statistics/start">1954</option><option value="race/paris-roubaix/1953/statistics/start">1953</option><option value="race/paris-roubaix/1952/statistics/start">1952</option><option value="race/paris-roubaix/1951/statistics/start">1951</option><option value="race/paris-roubaix/1950/statistics/start">1950</option><option value="race/paris-roubaix/1949/statistics/start">1949</option><option value="race/paris-roubaix/1948/statistics/start">1948</option><option value="race/paris-roubaix/1947/statistics/start">1947</option><option value="race/paris-roubaix/1946/statistics/start">1946</option><option value="race/paris-roubaix/1945/statistics/start">1945</option><option value="race/paris-roubaix/1944/statistics/start">1944</option><option value="race/paris-roubaix/1943/statistics/start">1943</option><option value="race/paris-roubaix/1939/statistics/start">1939</option><option value="race/paris-roubaix/1938/statistics/start">1938</option><option value="race/paris-roubaix/1937/statistics/start">1937</option><option value="race/paris-roubaix/1936/statistics/start">1936</option><option value="race/paris-roubaix/1935/statistics/start">1935</option><option value="race/paris-roubaix/1934/statistics/start">1934</option><option value="race/paris-roubaix/1933/statistics/start">1933</option><option value="race/paris-roubaix/1932/statistics/start">1932</option><option value="race/paris-roubaix/1931/statistics/start">1931</option><option value="race/paris-roubaix/1930/statistics/start">1930</option><option value="race/paris-roubaix/1929/statistics/start">1929</option><option value="race/paris-roubaix/1928/statistics/start">1928</option><option value="race/paris-roubaix/1927/statistics/start">1927</option><option value="race/paris-roubaix/1926/statistics/start">1926</option><option value="race/paris-roubaix/1925/statistics/start">1925</option><option value="race/paris-roubaix/1924/statistics/start">1924</option><option value="race/paris-roubaix/1923/statistics/start">1923</option><option value="race/paris-roubaix/1922/statistics/start">1922</option><option value="race/paris-roubaix/1921/statistics/start">1921</option><option value="race/paris-roubaix/1920/statistics/start">1920</option><option value="race/paris-roubaix/1919/statistics/start">1919</option><option value="race/paris-roubaix/1914/statistics/start">1914</option><option value="race/paris-roubaix/1913/statistics/start">1913</option><option value="race/paris-roubaix/1912/statistics/start">1912</option><option value="race/paris-roubaix/1911/statistics/start">1911</option><option value="race/paris-roubaix/1910/statistics/start">1910</option><option value="race/paris-roubaix/1909/statistics/start">1909</option><option value="race/paris-roubaix/1908/statistics/start">1908</option><option value="race/paris-roubaix/1907/statistics/start">1907</option><option value="race/paris-roubaix/1906/statistics/start">1906</option><option value="race/paris-roubaix/1905/statistics/start">1905</option><option value="race/paris-roubaix/1904/statistics/start">1904</option><option value="race/paris-roubaix/1903/statistics/start">1903</option><option value="race/paris-roubaix/1902/statistics/start">1902</option><option value="race/paris-roubaix/1901/statistics/start">1901</option><option value="race/paris-roubaix/1900/statistics/start">1900</option><option value="race/paris-roubaix/1899/statistics/start">1899</option><option value="race/paris-roubaix/1898/statistics/start">1898</option><option value="race/paris-roubaix/1897/statistics/start">1897</option><option value="race/paris-roubaix/1896/statistics/start">1896</option></select></form></div><a href="race/paris-roubaix/2021/statistics/start">2021</a></div><div class="pageSelectNav 1"><div><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onchange="window.location.href=this.value; "><option value="race/paris-roubaix/2020/">- stage -</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/paris-roubaix/2020">Statistics</a></li>
-<li class="reg "><a style=" " href="/race/paris-roubaix/2020">GO TO</a><ul><li><a href="race/paris-roubaix/2020/result/live"> LiveStats</a></li><li><a href="race/paris-roubaix/2020/result/game"> Game</a></li></ul></li><li class="reg "><a class="" href="race/paris-roubaix/2020/startlist">Startlist▼</a><ul><li><a href="race/paris-roubaix/2020/startlist/startlist">Startlist</a></li>
+<li class="small"><a class="menu" href="">Road<span class="more" href="">▼</span></a>
+<ul><li><a href="https://cx.procyclingstats.com">Cross</a></li>
+</ul></li>
+<li class="language small"><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
+<ul></ul></ul></span></div></div></header><div class="content"><div class="SelectNavCont"><div class="selectNav"><a class="desk" href="race/paris-roubaix/2019/statistics/start">2019</a><form style="display: block; float: left; "><select style=" " onchange="window.location.href=this.value; "><option value="race/paris-roubaix/2025/statistics/start">2025</option>
+<option value="race/paris-roubaix/2024/statistics/start">2024</option>
+<option value="race/paris-roubaix/2023/statistics/start">2023</option>
+<option value="race/paris-roubaix/2022/statistics/start">2022</option>
+<option value="race/paris-roubaix/2021/statistics/start">2021</option>
+<option value="race/paris-roubaix/2020/statistics/start" selected="">2020</option>
+<option value="race/paris-roubaix/2019/statistics/start">2019</option>
+<option value="race/paris-roubaix/2018/statistics/start">2018</option>
+<option value="race/paris-roubaix/2017/statistics/start">2017</option>
+<option value="race/paris-roubaix/2016/statistics/start">2016</option>
+<option value="race/paris-roubaix/2015/statistics/start">2015</option>
+<option value="race/paris-roubaix/2014/statistics/start">2014</option>
+<option value="race/paris-roubaix/2013/statistics/start">2013</option>
+<option value="race/paris-roubaix/2012/statistics/start">2012</option>
+<option value="race/paris-roubaix/2011/statistics/start">2011</option>
+<option value="race/paris-roubaix/2010/statistics/start">2010</option>
+<option value="race/paris-roubaix/2009/statistics/start">2009</option>
+<option value="race/paris-roubaix/2008/statistics/start">2008</option>
+<option value="race/paris-roubaix/2007/statistics/start">2007</option>
+<option value="race/paris-roubaix/2006/statistics/start">2006</option>
+<option value="race/paris-roubaix/2005/statistics/start">2005</option>
+<option value="race/paris-roubaix/2004/statistics/start">2004</option>
+<option value="race/paris-roubaix/2003/statistics/start">2003</option>
+<option value="race/paris-roubaix/2002/statistics/start">2002</option>
+<option value="race/paris-roubaix/2001/statistics/start">2001</option>
+<option value="race/paris-roubaix/2000/statistics/start">2000</option>
+<option value="race/paris-roubaix/1999/statistics/start">1999</option>
+<option value="race/paris-roubaix/1998/statistics/start">1998</option>
+<option value="race/paris-roubaix/1997/statistics/start">1997</option>
+<option value="race/paris-roubaix/1996/statistics/start">1996</option>
+<option value="race/paris-roubaix/1995/statistics/start">1995</option>
+<option value="race/paris-roubaix/1994/statistics/start">1994</option>
+<option value="race/paris-roubaix/1993/statistics/start">1993</option>
+<option value="race/paris-roubaix/1992/statistics/start">1992</option>
+<option value="race/paris-roubaix/1991/statistics/start">1991</option>
+<option value="race/paris-roubaix/1990/statistics/start">1990</option>
+<option value="race/paris-roubaix/1989/statistics/start">1989</option>
+<option value="race/paris-roubaix/1988/statistics/start">1988</option>
+<option value="race/paris-roubaix/1987/statistics/start">1987</option>
+<option value="race/paris-roubaix/1986/statistics/start">1986</option>
+<option value="race/paris-roubaix/1985/statistics/start">1985</option>
+<option value="race/paris-roubaix/1984/statistics/start">1984</option>
+<option value="race/paris-roubaix/1983/statistics/start">1983</option>
+<option value="race/paris-roubaix/1982/statistics/start">1982</option>
+<option value="race/paris-roubaix/1981/statistics/start">1981</option>
+<option value="race/paris-roubaix/1980/statistics/start">1980</option>
+<option value="race/paris-roubaix/1979/statistics/start">1979</option>
+<option value="race/paris-roubaix/1978/statistics/start">1978</option>
+<option value="race/paris-roubaix/1977/statistics/start">1977</option>
+<option value="race/paris-roubaix/1976/statistics/start">1976</option>
+<option value="race/paris-roubaix/1975/statistics/start">1975</option>
+<option value="race/paris-roubaix/1974/statistics/start">1974</option>
+<option value="race/paris-roubaix/1973/statistics/start">1973</option>
+<option value="race/paris-roubaix/1972/statistics/start">1972</option>
+<option value="race/paris-roubaix/1971/statistics/start">1971</option>
+<option value="race/paris-roubaix/1970/statistics/start">1970</option>
+<option value="race/paris-roubaix/1969/statistics/start">1969</option>
+<option value="race/paris-roubaix/1968/statistics/start">1968</option>
+<option value="race/paris-roubaix/1967/statistics/start">1967</option>
+<option value="race/paris-roubaix/1966/statistics/start">1966</option>
+<option value="race/paris-roubaix/1965/statistics/start">1965</option>
+<option value="race/paris-roubaix/1964/statistics/start">1964</option>
+<option value="race/paris-roubaix/1963/statistics/start">1963</option>
+<option value="race/paris-roubaix/1962/statistics/start">1962</option>
+<option value="race/paris-roubaix/1961/statistics/start">1961</option>
+<option value="race/paris-roubaix/1960/statistics/start">1960</option>
+<option value="race/paris-roubaix/1959/statistics/start">1959</option>
+<option value="race/paris-roubaix/1958/statistics/start">1958</option>
+<option value="race/paris-roubaix/1957/statistics/start">1957</option>
+<option value="race/paris-roubaix/1956/statistics/start">1956</option>
+<option value="race/paris-roubaix/1955/statistics/start">1955</option>
+<option value="race/paris-roubaix/1954/statistics/start">1954</option>
+<option value="race/paris-roubaix/1953/statistics/start">1953</option>
+<option value="race/paris-roubaix/1952/statistics/start">1952</option>
+<option value="race/paris-roubaix/1951/statistics/start">1951</option>
+<option value="race/paris-roubaix/1950/statistics/start">1950</option>
+<option value="race/paris-roubaix/1949/statistics/start">1949</option>
+<option value="race/paris-roubaix/1948/statistics/start">1948</option>
+<option value="race/paris-roubaix/1947/statistics/start">1947</option>
+<option value="race/paris-roubaix/1946/statistics/start">1946</option>
+<option value="race/paris-roubaix/1945/statistics/start">1945</option>
+<option value="race/paris-roubaix/1944/statistics/start">1944</option>
+<option value="race/paris-roubaix/1943/statistics/start">1943</option>
+<option value="race/paris-roubaix/1939/statistics/start">1939</option>
+<option value="race/paris-roubaix/1938/statistics/start">1938</option>
+<option value="race/paris-roubaix/1937/statistics/start">1937</option>
+<option value="race/paris-roubaix/1936/statistics/start">1936</option>
+<option value="race/paris-roubaix/1935/statistics/start">1935</option>
+<option value="race/paris-roubaix/1934/statistics/start">1934</option>
+<option value="race/paris-roubaix/1933/statistics/start">1933</option>
+<option value="race/paris-roubaix/1932/statistics/start">1932</option>
+<option value="race/paris-roubaix/1931/statistics/start">1931</option>
+<option value="race/paris-roubaix/1930/statistics/start">1930</option>
+<option value="race/paris-roubaix/1929/statistics/start">1929</option>
+<option value="race/paris-roubaix/1928/statistics/start">1928</option>
+<option value="race/paris-roubaix/1927/statistics/start">1927</option>
+<option value="race/paris-roubaix/1926/statistics/start">1926</option>
+<option value="race/paris-roubaix/1925/statistics/start">1925</option>
+<option value="race/paris-roubaix/1924/statistics/start">1924</option>
+<option value="race/paris-roubaix/1923/statistics/start">1923</option>
+<option value="race/paris-roubaix/1922/statistics/start">1922</option>
+<option value="race/paris-roubaix/1921/statistics/start">1921</option>
+<option value="race/paris-roubaix/1920/statistics/start">1920</option>
+<option value="race/paris-roubaix/1919/statistics/start">1919</option>
+<option value="race/paris-roubaix/1914/statistics/start">1914</option>
+<option value="race/paris-roubaix/1913/statistics/start">1913</option>
+<option value="race/paris-roubaix/1912/statistics/start">1912</option>
+<option value="race/paris-roubaix/1911/statistics/start">1911</option>
+<option value="race/paris-roubaix/1910/statistics/start">1910</option>
+<option value="race/paris-roubaix/1909/statistics/start">1909</option>
+<option value="race/paris-roubaix/1908/statistics/start">1908</option>
+<option value="race/paris-roubaix/1907/statistics/start">1907</option>
+<option value="race/paris-roubaix/1906/statistics/start">1906</option>
+<option value="race/paris-roubaix/1905/statistics/start">1905</option>
+<option value="race/paris-roubaix/1904/statistics/start">1904</option>
+<option value="race/paris-roubaix/1903/statistics/start">1903</option>
+<option value="race/paris-roubaix/1902/statistics/start">1902</option>
+<option value="race/paris-roubaix/1901/statistics/start">1901</option>
+<option value="race/paris-roubaix/1900/statistics/start">1900</option>
+<option value="race/paris-roubaix/1899/statistics/start">1899</option>
+<option value="race/paris-roubaix/1898/statistics/start">1898</option>
+<option value="race/paris-roubaix/1897/statistics/start">1897</option>
+<option value="race/paris-roubaix/1896/statistics/start">1896</option>
+</select></form><a class="desk" href="race/paris-roubaix/2021/statistics/start">2021</a><div class="clear"></div></div><div class="clear"></div></div><div class="pagenav-cont"><span><a class="cur" href="race/paris-roubaix/2020/statistics">Statistics</a></span>
+<span><a class="" href="race/paris-roubaix/2020/startlist">Startlist<span>▼</span></a><ul><li><a href="race/paris-roubaix/2020/startlist/startlist">Startlist</a></li>
 <li><a href="race/paris-roubaix/2020/startlist/top-competitors">Top competitors</a></li>
 <li><a href="race/paris-roubaix/2020/startlist/startlist-quality">Startlist quality</a></li>
 <li><a href="race/paris-roubaix/2020/startlist/debutants">Debutants</a></li>
-</ul></li>
-<li class="reg "><a class="" href="race/paris-roubaix/2020/more">More</a></li>
-<li class="reg "><a class="" href="race/paris-roubaix/2020/teams">Teams▼</a><ul><li><a href="race/paris-roubaix/2020/teams/teams">Teams</a></li>
+</ul></span>
+<span><a class="" href="race/paris-roubaix/2020/miscellaneous">Miscellaneous</a></span>
+<span><a class="" href="race/paris-roubaix/2020/teams">Teams<span>▼</span></a><ul><li><a href="race/paris-roubaix/2020/teams/teams">Teams</a></li>
 <li><a href="race/paris-roubaix/2020/teams/top-teams">Top teams</a></li>
 <li><a href="race/paris-roubaix/2020/teams/dropouts">Dropouts</a></li>
 <li><a href="race/paris-roubaix/2020/teams/prizemoney">Prizemoney</a></li>
-</ul></li>
-<li class="reg "><a class="" href="race/paris-roubaix/2020/nations">Nations</a></li>
-<li class="reg "><a class="" href="race/paris-roubaix/2020/route">Route▼</a><ul><li><a href="race/paris-roubaix/2020/route/stages">Stages</a></li>
+</ul></span>
+<span><a class="" href="race/paris-roubaix/2020/nations">Nations</a></span>
+<span><a class="" href="race/paris-roubaix/2020/route">Route<span>▼</span></a><ul><li><a href="race/paris-roubaix/2020/route/stages">Stages</a></li>
 <li><a href="race/paris-roubaix/2020/route/stage-profiles">All stage profiles</a></li>
 <li><a href="race/paris-roubaix/2020/route/hardest-stages">Hardest stages</a></li>
 <li><a href="race/paris-roubaix/2020/route/climbs">Climbs</a></li>
-</ul></li>
-<li class="more"><a href="race/paris-roubaix/2020">More</a><ul><li data-n="1"><a href="race/paris-roubaix/2020/statistics/statistics">Statistics - Statistics</a></li><li data-n="2"><a href="race/paris-roubaix/2020/startlist/startlist">Startlist - Startlist</a></li><li data-n="1"><a href="race/paris-roubaix/2020/startlist/top-competitors">Top competitors</a></li>
-<li data-n="1"><a href="race/paris-roubaix/2020/startlist/startlist-quality">Startlist quality</a></li>
-<li data-n="1"><a href="race/paris-roubaix/2020/startlist/debutants">Debutants</a></li>
-<li data-n="3"><a href="race/paris-roubaix/2020/more/more">More - More</a></li><li data-n="4"><a href="race/paris-roubaix/2020/teams/teams">Teams - Teams</a></li><li data-n="3"><a href="race/paris-roubaix/2020/teams/top-teams">Top teams</a></li>
-<li data-n="3"><a href="race/paris-roubaix/2020/teams/dropouts">Dropouts</a></li>
-<li data-n="3"><a href="race/paris-roubaix/2020/teams/prizemoney">Prizemoney</a></li>
-<li data-n="5"><a href="race/paris-roubaix/2020/nations/nations">Nations - Nations</a></li><li data-n="6"><a href="race/paris-roubaix/2020/route/route">Route - Route</a></li><li data-n="5"><a href="race/paris-roubaix/2020/route/stages">Stages</a></li>
-<li data-n="5"><a href="race/paris-roubaix/2020/route/stage-profiles">All stage profiles</a></li>
-<li data-n="5"><a href="race/paris-roubaix/2020/route/hardest-stages">Hardest stages</a></li>
-<li data-n="5"><a href="race/paris-roubaix/2020/route/climbs">Climbs</a></li>
-<li data-n="7"><a href="race/paris-roubaix/2020/results/results">Results - Results</a></li><li data-n="6"><a href="race/paris-roubaix/2020/results/start">Winners and leaders</a></li>
-<li data-n="6"><a href="race/paris-roubaix/2020/results/won-how">Won how</a></li>
-<li data-n="6"><a href="race/paris-roubaix/2020/results/prizemoney-ranking">Prizemoney ranking</a></li>
-<li data-n="6"><a href="race/paris-roubaix/2020/results/dropouts">Dropouts</a></li>
-<li data-n="6"><a href="race/paris-roubaix/2020/results/fastest-stage">Fastest stages</a></li>
-</ul></li></ul><div class="clear"></div></div><ul class="thumbnails"><li><a href="race/paris-roubaix">Paris - Roubaix</a></li><li>&nbsp; » &nbsp;</li><li><a href="race/paris-roubaix/2020">2020</a></li><li>&nbsp; » &nbsp;</li><li><a href="race/paris-roubaix/2020/statistics">Statistics</a></li></ul><div class="page-title "><div class="main"><span class="flag fr w32"></span><span class="flag fr w24"></span><span class="hideIfMobile">2020</span><span class="hideIfMobile">»</span><h1 class="">Paris - Roubaix</h1><font class="hideIfMobile">(1.UWT)</font></div></div><div class="clear"></div><div class="desktop-ad leaderbord race"></div><div class="mob-ad leaderbord race"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div><div class="page-content page-object default " data-no_menu="1"><h2></h2><div class="w100 ">
-<div class="text-regular">Statistics on Paris - Roubaix 2020.</div>
-<div class="mt20"><div class="text-regular"><div class="red fs16">Race is cancelled.</div>
-Originally planned from 2020-04-12 - 2020-04-12.</div></div>
+</ul></span>
+<span><a class="" href="race/paris-roubaix/2020/results">Results<span>▼</span></a><ul><li><a href="race/paris-roubaix/2020/results/start">Winners and leaders</a></li>
+<li><a href="race/paris-roubaix/2020/results/won-how">Won how</a></li>
+<li><a href="race/paris-roubaix/2020/results/prizemoney-ranking">Prizemoney ranking</a></li>
+<li><a href="race/paris-roubaix/2020/results/dropouts">Dropouts</a></li>
+<li><a href="race/paris-roubaix/2020/results/fastest-stage">Fastest stages</a></li>
+</ul></span>
+</div><div class="clear"></div>
+<div class="thumbnav"><span><a class="blue" href="race/paris-roubaix">Paris - Roubaix</a></span><span>&nbsp; » &nbsp;</span><span><a class="blue" href="race/paris-roubaix/2020">2020</a></span><span>&nbsp; » &nbsp;</span><span><a class="blue" href="race/paris-roubaix/2020/statistics/start">Start</a></span></div>
+<div class="titleCont "><div class="page-title"><div class="title"><span class="flag fr w32"></span><span class="flag c24 fr "></span> <h1><span class="hideIfMobile">2020 &nbsp; » &nbsp; </span>Paris - Roubaix</h1></div><div class="subtitle hide imob block"><h2>2020</h2></div></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div>
+<div class="page-content noSideNav">
+<h2>Start</h2>
+<div class=""><div class="borderbox w100">
+<div class="">
+<div class="fs14">Statistics on Paris - Roubaix 2020.</div>
 </div>
-<div class="w50 left mb_w100 mg_r2 ">
-<ul class="list horizontal"><li class="goto2 mr10"><a class="goto2 mr10" href="race/paris-roubaix/2020/result">Full results</a></li>
-<li class="goto2 mr10"><a class="goto2 mr10" href="race/paris-roubaix/2020/result/live">LiveStats</a></li>
+<div class="mt20">
+<div class="fs14"><div class="red fs16">Race is cancelled.</div><br>
+Originally planned from 2020-04-12 - 2020-04-12.  </div>
+</div>
+</div>
+<div class="borderbox w50 left mb_w100 mg_r2">
+<div class="">
+<ul class="simple-list list horizontal">
+<li class="follow-up mr5 "><a href="race/paris-roubaix/2020/result">Full results</a></li>
+<li class="follow-up mr5"><a href="race/paris-roubaix/2020/result/live">LiveStats</a></li>
+<li class="follow-up mr5"><a href="race/paris-roubaix/2020/startlist">Startlist</a></li>
+</ul><div class="clear"></div></div>
+<div class="mt20">
+<h4>Info</h4><ul class="list keyvalueList fs14">
+<li class=""><div class="title ">Startdate: </div><div class=" value">2020-10-25</div></li>
+<li><div class="title ">Enddate: </div><div class=" value">2020-10-25</div></li>
+<li><div class="title ">Category: </div><div class=" value">Men Elite</div></li>
+<li><div class="title ">UCI Tour: </div><div class=" value">UCI WorldTour</div></li>
+<li><div class="title ">Total distance: </div><div class=" value">259</div></li>
+<li><div class="title ">Logo </div><div class=" value"><img src="" style="max-height: 100px; max-width: 100%;"></div></li>
+<li></li>
 </ul>
-<div class="mt20"><h3>Info</h3><ul class="infolist fs13" style=""><li><div>Startdate:</div> <div>2020-10-25</div></li>
-<li><div>Enddate:</div> <div>2020-10-25</div></li>
-<li><div>Category:</div> <div>Men Elite</div></li>
-<li><div>UCI Tour:</div> <div>UCI Worldtour</div></li>
-<li><div>Total distance:</div> <div></div></li>
-<li><div>Logo</div> <div><img src="images/logo/bn/ct/paris-roubaix-2017.jpg" style="max-height: 100px; max-width: 100%;  "></div></li>
-</ul></div>
-<div class="mt20"><h3>Top competitors</h3>
-<span class="table-cont"><ul class="list" style="max-width: 550px;  "></ul></span></div>
-<ul class="list horizontal"><li class="goto2 pr5"><a class="goto2 pr5" href="race/paris-roubaix/2020/startlist">Startlist</a></li>
-<li class="goto2 pr5"><a class="goto2 pr5" href="race/paris-roubaix/2020/startlist/top-competitors">Top riders</a></li>
+</div>
+<div class="mt20">
+<h4>Top competitors</h4><ul class="list fs14" style="max-width: 550px; ">
 </ul>
-<div class="mt40"><h3>Teams</h3>
-<span class="table-cont"><ul class="list " style="max-width: 400px;  "></ul></span></div>
 </div>
-<div class="w48 left mb_w100 ">
-<div class="mt30"><h3>Sites</h3><ul class="list circle bluelink fs14"><li><a target="_blank" class="" href="https://www.paris-roubaix.fr/fr/">www.paris-roubaix.fr/fr/</a></li>
-<li><a target="_blank" class="" href="https://www.instagram.com/parisroubaixcourse/?hl=nl">www.instagram.com/parisroubaixcourse/?hl=nl</a></li>
-<li><a target="_blank" class="" href="https://twitter.com/ParisRoubaix">twitter.com/ParisRoubaix</a></li>
-<li><a target="_blank" class="" href="https://www.facebook.com/ParisRoubaix">www.facebook.com/ParisRoubaix</a></li>
-</ul></div>
-<div class="mt20"><h3>Maps/profiles</h3>
-<span class="table-cont"><ul class="list" style=" "></ul></span></div>
+<div class="">
+<ul class="simple-list list horizontal">
+<li class="follow-up mr5"><a href="race/paris-roubaix/2020/startlist">Startlist</a></li>
+<li class="follow-up mr5"><a href="race/paris-roubaix/2020/startlist/top-competitors">Top riders</a></li>
+</ul><div class="clear"></div></div>
+<div class="mt40">
+<h4>Teams</h4><ul class="list " style="max-width: 400px; ">
+</ul>
 </div>
-<div class="desktop-ad below-content race"></div><div class="mob-ad below-content race"></div></div><div style="clear: both; "></div>  
-  </div>
-  
-  <div class="push"></div>
 </div>
-<div class="footer">
-  <div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<div class="borderbox w48 left mb_w100">
+<div class="mt30">
+<h4>Sites</h4><ul class="simple-list list circle bluelink fs14">
+<li class=""><a href="https://www.paris-roubaix.fr/fr/">www.paris-roubaix.fr/fr/</a></li>
+<li class=""><a href="https://www.instagram.com/parisroubaixcourse/">www.instagram.com/parisroubaixcourse/</a></li>
+<li class=""><a href="https://en.wikipedia.org/wiki/Paris–Roubaix">en.wikipedia.org/wiki/Paris–Roubaix</a></li>
+<li class=""><a href="https://x.com/ParisRoubaix">x.com/ParisRoubaix</a></li>
+<li class=""><a href="https://www.facebook.com/ParisRoubaix">www.facebook.com/ParisRoubaix</a></li>
+</ul><div class="clear"></div></div>
+<div class="mt20">
+<h4>Maps/profiles</h4><ul class="list">
+</ul>
+</div>
+</div>
+</div></div>
+<div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
-</ul><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+</ul>
+<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
@@ -198,14 +336,15 @@ Originally planned from 2020-04-12 - 2020-04-12.</div></div>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
-</ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/uec-road-european-championships">European championships</a></li>
+</ul>
+<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
 </ul></li>
 <li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
-<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
 <li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
@@ -220,15 +359,18 @@ Originally planned from 2020-04-12 - 2020-04-12.</div></div>
 <li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
-<li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
 <li><a href="rider/demi-vollering">Demi Vollering</a></li>
 <li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
 </ul></li>
 <li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
 <li><a href="rankings/me/all-time">Alltime</a></li>
-</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+</ul>
+<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
 <li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
 <li><a href="statistics/grandtours">Grand tour statistics</a></li>
@@ -241,17 +383,14 @@ Originally planned from 2020-04-12 - 2020-04-12.</div></div>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
 <li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
-</ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+</ul>
+<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0149s</span></li>
+<li><span>Pageload 0.0223s</span></li>
 </ul></li>
-</ul><input type="hidden" id="pageid" value="5223"><input type="hidden" id="userid" value="0">
-	</div>
-</div> 
- 
- 
-<script src="search_list12.js"></script>  
-</body></html>
+</ul></div></div>
+
+<script src="search_list21.js"></script></body></html>

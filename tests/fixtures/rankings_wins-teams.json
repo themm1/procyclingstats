@@ -1,0 +1,3001 @@
+{
+  "dates_select": [
+    {
+      "text": "2025",
+      "value": "2025-07-11"
+    },
+    {
+      "text": "2024",
+      "value": "2024-12-31"
+    },
+    {
+      "text": "2023",
+      "value": "2023-12-31"
+    },
+    {
+      "text": "2022",
+      "value": "2022-12-31"
+    },
+    {
+      "text": "2021",
+      "value": "2021-12-31"
+    },
+    {
+      "text": "2020",
+      "value": "2020-12-31"
+    },
+    {
+      "text": "2019",
+      "value": "2019-12-31"
+    }
+  ],
+  "distance_ranking": null,
+  "individual_ranking": null,
+  "individual_wins_ranking": null,
+  "nations_ranking": null,
+  "nations_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "Algeria",
+      "value": "dz"
+    },
+    {
+      "text": "Argentina",
+      "value": "ar"
+    },
+    {
+      "text": "Australia",
+      "value": "au"
+    },
+    {
+      "text": "Austria",
+      "value": "at"
+    },
+    {
+      "text": "Belarus",
+      "value": "by"
+    },
+    {
+      "text": "Belgium",
+      "value": "be"
+    },
+    {
+      "text": "Brazil",
+      "value": "br"
+    },
+    {
+      "text": "Canada",
+      "value": "ca"
+    },
+    {
+      "text": "Colombia",
+      "value": "co"
+    },
+    {
+      "text": "Costa Rica",
+      "value": "cr"
+    },
+    {
+      "text": "Croatia",
+      "value": "hr"
+    },
+    {
+      "text": "Czech Republic",
+      "value": "cz"
+    },
+    {
+      "text": "Denmark",
+      "value": "dk"
+    },
+    {
+      "text": "Ecuador",
+      "value": "ec"
+    },
+    {
+      "text": "Eritrea",
+      "value": "er"
+    },
+    {
+      "text": "Estonia",
+      "value": "ee"
+    },
+    {
+      "text": "France",
+      "value": "fr"
+    },
+    {
+      "text": "Germany",
+      "value": "de"
+    },
+    {
+      "text": "Great Britain",
+      "value": "gb"
+    },
+    {
+      "text": "Hongkong",
+      "value": "hk"
+    },
+    {
+      "text": "Indonesia",
+      "value": "id"
+    },
+    {
+      "text": "Iran",
+      "value": "ir"
+    },
+    {
+      "text": "Ireland",
+      "value": "ie"
+    },
+    {
+      "text": "Italy",
+      "value": "it"
+    },
+    {
+      "text": "Japan",
+      "value": "jp"
+    },
+    {
+      "text": "Kazakhstan",
+      "value": "kz"
+    },
+    {
+      "text": "Latvia",
+      "value": "lv"
+    },
+    {
+      "text": "Lithuania",
+      "value": "lt"
+    },
+    {
+      "text": "Luxembourg",
+      "value": "lu"
+    },
+    {
+      "text": "Malaysia",
+      "value": "my"
+    },
+    {
+      "text": "Mexico",
+      "value": "mx"
+    },
+    {
+      "text": "Morocco",
+      "value": "ma"
+    },
+    {
+      "text": "Netherlands",
+      "value": "nl"
+    },
+    {
+      "text": "New Zealand",
+      "value": "nz"
+    },
+    {
+      "text": "Norway",
+      "value": "no"
+    },
+    {
+      "text": "Poland",
+      "value": "pl"
+    },
+    {
+      "text": "Portugal",
+      "value": "pt"
+    },
+    {
+      "text": "Romania",
+      "value": "ro"
+    },
+    {
+      "text": "Russia",
+      "value": "ru"
+    },
+    {
+      "text": "Rwanda",
+      "value": "rw"
+    },
+    {
+      "text": "Slovakia",
+      "value": "sk"
+    },
+    {
+      "text": "Slovenia",
+      "value": "si"
+    },
+    {
+      "text": "South Africa",
+      "value": "za"
+    },
+    {
+      "text": "Spain",
+      "value": "es"
+    },
+    {
+      "text": "Sweden",
+      "value": "se"
+    },
+    {
+      "text": "Switzerland",
+      "value": "ch"
+    },
+    {
+      "text": "T\u00fcrkiye",
+      "value": "tr"
+    },
+    {
+      "text": "Ukraine",
+      "value": "ua"
+    },
+    {
+      "text": "United States",
+      "value": "us"
+    },
+    {
+      "text": "Venezuela",
+      "value": "ve"
+    }
+  ],
+  "nations_wins_ranking": null,
+  "pages_select": null,
+  "racedays_ranking": null,
+  "races_ranking": null,
+  "team_ranking": null,
+  "teamlevels_select": null,
+  "teams_select": null,
+  "teams_wins_ranking": [
+    {
+      "rank": 1,
+      "prev_rank": 1,
+      "team_name": " UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "AE",
+      "class": "WT",
+      "first_places": 58,
+      "second_places": 44,
+      "third_places": 24
+    },
+    {
+      "rank": 2,
+      "prev_rank": 2,
+      "team_name": " Lidl - Trek",
+      "team_url": "team/lidl-trek-2025",
+      "nationality": "US",
+      "class": "WT",
+      "first_places": 33,
+      "second_places": 15,
+      "third_places": 20
+    },
+    {
+      "rank": 3,
+      "prev_rank": 3,
+      "team_name": " Soudal Quick-Step",
+      "team_url": "team/soudal-quick-step-2025",
+      "nationality": "BE",
+      "class": "WT",
+      "first_places": 26,
+      "second_places": 12,
+      "third_places": 14
+    },
+    {
+      "rank": 4,
+      "prev_rank": null,
+      "team_name": " XDS Astana Team",
+      "team_url": "team/xds-astana-team-2025",
+      "nationality": "KZ",
+      "class": "WT",
+      "first_places": 22,
+      "second_places": 22,
+      "third_places": 22
+    },
+    {
+      "rank": 5,
+      "prev_rank": 4,
+      "team_name": " Team Visma | Lease a Bike",
+      "team_url": "team/team-visma-lease-a-bike-2025",
+      "nationality": "NL",
+      "class": "WT",
+      "first_places": 21,
+      "second_places": 25,
+      "third_places": 12
+    },
+    {
+      "rank": 6,
+      "prev_rank": 21,
+      "team_name": " INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2025",
+      "nationality": "GB",
+      "class": "WT",
+      "first_places": 19,
+      "second_places": 15,
+      "third_places": 16
+    },
+    {
+      "rank": 7,
+      "prev_rank": 11,
+      "team_name": " Red Bull - BORA - hansgrohe",
+      "team_url": "team/red-bull-bora-hansgrohe-2025",
+      "nationality": "DE",
+      "class": "WT",
+      "first_places": 18,
+      "second_places": 11,
+      "third_places": 16
+    },
+    {
+      "rank": 8,
+      "prev_rank": 5,
+      "team_name": " Decathlon AG2R La Mondiale Team",
+      "team_url": "team/decathlon-ag2r-la-mondiale-2025",
+      "nationality": "FR",
+      "class": "WT",
+      "first_places": 16,
+      "second_places": 19,
+      "third_places": 11
+    },
+    {
+      "rank": 9,
+      "prev_rank": 6,
+      "team_name": " Israel - Premier Tech",
+      "team_url": "team/israel-premier-tech-2025",
+      "nationality": "IL",
+      "class": "PRT",
+      "first_places": 16,
+      "second_places": 18,
+      "third_places": 12
+    },
+    {
+      "rank": 10,
+      "prev_rank": 65,
+      "team_name": " Team Solution Tech - Vini Fantini",
+      "team_url": "team/team-solution-tech-vini-fantini-2025",
+      "nationality": "IT",
+      "class": "PRT",
+      "first_places": 16,
+      "second_places": 13,
+      "third_places": 9
+    },
+    {
+      "rank": 11,
+      "prev_rank": 9,
+      "team_name": " Team Jayco AlUla",
+      "team_url": "team/team-jayco-alula-2025",
+      "nationality": "AU",
+      "class": "WT",
+      "first_places": 14,
+      "second_places": 12,
+      "third_places": 6
+    },
+    {
+      "rank": 12,
+      "prev_rank": 8,
+      "team_name": " Uno-X Mobility",
+      "team_url": "team/uno-x-mobility-2025",
+      "nationality": "NO",
+      "class": "PRT",
+      "first_places": 13,
+      "second_places": 16,
+      "third_places": 14
+    },
+    {
+      "rank": 13,
+      "prev_rank": 37,
+      "team_name": " Madar Pro Cycling Team",
+      "team_url": "team/madar-pro-cycling-team-2025",
+      "nationality": "DZ",
+      "class": "CT",
+      "first_places": 13,
+      "second_places": 9,
+      "third_places": 10
+    },
+    {
+      "rank": 14,
+      "prev_rank": 40,
+      "team_name": " ATT Investments",
+      "team_url": "team/att-investments-2025",
+      "nationality": "CZ",
+      "class": "CT",
+      "first_places": 13,
+      "second_places": 8,
+      "third_places": 9
+    },
+    {
+      "rank": 15,
+      "prev_rank": 7,
+      "team_name": " Alpecin - Deceuninck",
+      "team_url": "team/alpecin-deceuninck-2025",
+      "nationality": "BE",
+      "class": "WT",
+      "first_places": 12,
+      "second_places": 12,
+      "third_places": 16
+    },
+    {
+      "rank": 16,
+      "prev_rank": 47,
+      "team_name": " UAE Team Emirates Gen Z",
+      "team_url": "team/uae-team-emirates-gen-z-2025",
+      "nationality": "AE",
+      "class": "CT",
+      "first_places": 12,
+      "second_places": 2,
+      "third_places": 7
+    },
+    {
+      "rank": 17,
+      "prev_rank": 64,
+      "team_name": " Q36.5 Pro Cycling Team",
+      "team_url": "team/q365-pro-cycing-team-2025",
+      "nationality": "CH",
+      "class": "PRT",
+      "first_places": 11,
+      "second_places": 13,
+      "third_places": 12
+    },
+    {
+      "rank": 18,
+      "prev_rank": 100,
+      "team_name": " Li Ning Star",
+      "team_url": "team/li-ning-star-cycling-team-2025",
+      "nationality": "CN",
+      "class": "CT",
+      "first_places": 11,
+      "second_places": 7,
+      "third_places": 3
+    },
+    {
+      "rank": 19,
+      "prev_rank": 26,
+      "team_name": " Tudor Pro Cycling Team",
+      "team_url": "team/tudor-pro-cycling-team-2025",
+      "nationality": "CH",
+      "class": "PRT",
+      "first_places": 10,
+      "second_places": 8,
+      "third_places": 10
+    },
+    {
+      "rank": 20,
+      "prev_rank": 33,
+      "team_name": " Roojai Insurance",
+      "team_url": "team/roojai-insurance-2025",
+      "nationality": "TH",
+      "class": "CT",
+      "first_places": 10,
+      "second_places": 7,
+      "third_places": 5
+    },
+    {
+      "rank": 21,
+      "prev_rank": 12,
+      "team_name": " EF Education - EasyPost",
+      "team_url": "team/ef-education-easypost-2025",
+      "nationality": "US",
+      "class": "WT",
+      "first_places": 10,
+      "second_places": 4,
+      "third_places": 14
+    },
+    {
+      "rank": 22,
+      "prev_rank": 23,
+      "team_name": " Terengganu Cycling Team",
+      "team_url": "team/terengganu-cycling-team-2025",
+      "nationality": "MY",
+      "class": "CT",
+      "first_places": 9,
+      "second_places": 10,
+      "third_places": 7
+    },
+    {
+      "rank": 23,
+      "prev_rank": 18,
+      "team_name": " Groupama - FDJ",
+      "team_url": "team/groupama-fdj-2025",
+      "nationality": "FR",
+      "class": "WT",
+      "first_places": 9,
+      "second_places": 5,
+      "third_places": 16
+    },
+    {
+      "rank": 24,
+      "prev_rank": 46,
+      "team_name": " Movistar Team",
+      "team_url": "team/movistar-team-2025",
+      "nationality": "ES",
+      "class": "WT",
+      "first_places": 9,
+      "second_places": 5,
+      "third_places": 13
+    },
+    {
+      "rank": 25,
+      "prev_rank": 22,
+      "team_name": " Lotto Development Team",
+      "team_url": "team/lotto-development-team-2025",
+      "nationality": "BE",
+      "class": "CT",
+      "first_places": 9,
+      "second_places": 3,
+      "third_places": 4
+    },
+    {
+      "rank": 26,
+      "prev_rank": 44,
+      "team_name": " Ark\u00e9a - B&B Hotels",
+      "team_url": "team/arkea-b-b-hotels-2025",
+      "nationality": "FR",
+      "class": "WT",
+      "first_places": 8,
+      "second_places": 12,
+      "third_places": 6
+    },
+    {
+      "rank": 27,
+      "prev_rank": 50,
+      "team_name": " Bahrain Victorious Development Team",
+      "team_url": "team/bahrain-victorious-development-team-2025",
+      "nationality": "BH",
+      "class": "CT",
+      "first_places": 8,
+      "second_places": 6,
+      "third_places": 2
+    },
+    {
+      "rank": 28,
+      "prev_rank": 27,
+      "team_name": " Burgos Burpellet BH",
+      "team_url": "team/burgos-burpellet-bh-2025",
+      "nationality": "ES",
+      "class": "PRT",
+      "first_places": 7,
+      "second_places": 7,
+      "third_places": 3
+    },
+    {
+      "rank": 29,
+      "prev_rank": 17,
+      "team_name": " JCL Team UKYO",
+      "team_url": "team/jcl-team-ukyo-2025",
+      "nationality": "JP",
+      "class": "CT",
+      "first_places": 7,
+      "second_places": 5,
+      "third_places": 9
+    },
+    {
+      "rank": 30,
+      "prev_rank": null,
+      "team_name": " EF Education - Aevolo",
+      "team_url": "team/ef-education-aevolo-2025",
+      "nationality": "US",
+      "class": "CT",
+      "first_places": 7,
+      "second_places": 4,
+      "third_places": 3
+    },
+    {
+      "rank": 31,
+      "prev_rank": null,
+      "team_name": " Team United Shipping",
+      "team_url": "team/team-united-shipping-2025",
+      "nationality": "HU",
+      "class": "CT",
+      "first_places": 7,
+      "second_places": 3,
+      "third_places": 3
+    },
+    {
+      "rank": 32,
+      "prev_rank": 24,
+      "team_name": " Bahrain - Victorious",
+      "team_url": "team/bahrain-victorious-2025",
+      "nationality": "BH",
+      "class": "WT",
+      "first_places": 6,
+      "second_places": 14,
+      "third_places": 14
+    },
+    {
+      "rank": 33,
+      "prev_rank": 28,
+      "team_name": " Team TotalEnergies",
+      "team_url": "team/team-totalenergies-2025",
+      "nationality": "FR",
+      "class": "PRT",
+      "first_places": 6,
+      "second_places": 8,
+      "third_places": 13
+    },
+    {
+      "rank": 34,
+      "prev_rank": 63,
+      "team_name": " Cofidis",
+      "team_url": "team/cofidis-2025",
+      "nationality": "FR",
+      "class": "WT",
+      "first_places": 6,
+      "second_places": 8,
+      "third_places": 5
+    },
+    {
+      "rank": 35,
+      "prev_rank": 14,
+      "team_name": " Caja Rural - Seguros RGA",
+      "team_url": "team/caja-rural-seguros-rga-2025",
+      "nationality": "ES",
+      "class": "PRT",
+      "first_places": 6,
+      "second_places": 8,
+      "third_places": 3
+    },
+    {
+      "rank": 36,
+      "prev_rank": 16,
+      "team_name": " Lidl - Trek Future Racing",
+      "team_url": "team/lidl-trek-future-racing-2025",
+      "nationality": "US",
+      "class": "CT",
+      "first_places": 6,
+      "second_places": 7,
+      "third_places": 7
+    },
+    {
+      "rank": 37,
+      "prev_rank": 20,
+      "team_name": " XDS Astana Development Team",
+      "team_url": "team/xds-astana-development-team-2025",
+      "nationality": "KZ",
+      "class": "CT",
+      "first_places": 6,
+      "second_places": 5,
+      "third_places": 3
+    },
+    {
+      "rank": 38,
+      "prev_rank": 41,
+      "team_name": " Petrolike",
+      "team_url": "team/petrolike-2025",
+      "nationality": "MX",
+      "class": "CT",
+      "first_places": 6,
+      "second_places": 4,
+      "third_places": 4
+    },
+    {
+      "rank": 39,
+      "prev_rank": 172,
+      "team_name": " Team Storck - Metropol Cycling",
+      "team_url": "team/team-storck-metropol-cycling-2025",
+      "nationality": "DE",
+      "class": "CT",
+      "first_places": 6,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 40,
+      "prev_rank": 35,
+      "team_name": " Quick Pro Team",
+      "team_url": "team/quick-pro-team-2025",
+      "nationality": "EE",
+      "class": "CT",
+      "first_places": 6,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 41,
+      "prev_rank": null,
+      "team_name": " Red Bull - BORA - hansgrohe Rookies",
+      "team_url": "team/red-bull-bora-hansgrohe-rookies-2025",
+      "nationality": "DE",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 8,
+      "third_places": 6
+    },
+    {
+      "rank": 42,
+      "prev_rank": 19,
+      "team_name": " Team Medell\u00edn - EPM",
+      "team_url": "team/team-medellin-epm-2025",
+      "nationality": "CO",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 7,
+      "third_places": 4
+    },
+    {
+      "rank": 43,
+      "prev_rank": null,
+      "team_name": " Agadir V\u00e9lo Propulsion",
+      "team_url": "team/agadir-velo-propulsion-2025",
+      "nationality": "MA",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 6,
+      "third_places": 5
+    },
+    {
+      "rank": 44,
+      "prev_rank": 109,
+      "team_name": " VolkerWessels Cycling Team",
+      "team_url": "team/volkerwessels-cyclingteam-2025",
+      "nationality": "NL",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 6,
+      "third_places": 3
+    },
+    {
+      "rank": 45,
+      "prev_rank": 36,
+      "team_name": " Decathlon AG2R La Mondiale Development Team",
+      "team_url": "team/decathlon-ag2r-la-mondiale-development-team-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 5,
+      "third_places": 3
+    },
+    {
+      "rank": 46,
+      "prev_rank": 121,
+      "team_name": " Voster ATS Team",
+      "team_url": "team/voster-ats-team-2025",
+      "nationality": "PL",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 4,
+      "third_places": 3
+    },
+    {
+      "rank": 47,
+      "prev_rank": 52,
+      "team_name": " AIRTOX - Carl Ras",
+      "team_url": "team/airtox-carl-ras-2025",
+      "nationality": "DK",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 3,
+      "third_places": 6
+    },
+    {
+      "rank": 48,
+      "prev_rank": null,
+      "team_name": " BHS - PL Beton Bornholm",
+      "team_url": "team/bhs-pl-beton-bornholm-2025",
+      "nationality": "DK",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 3,
+      "third_places": 5
+    },
+    {
+      "rank": 49,
+      "prev_rank": 55,
+      "team_name": " Israel Premier Tech Academy",
+      "team_url": "team/israel-premier-tech-academy-2025",
+      "nationality": "IL",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 3,
+      "third_places": 4
+    },
+    {
+      "rank": 50,
+      "prev_rank": 78,
+      "team_name": " MBH Bank Ballan CSB",
+      "team_url": "team/mbh-bank-ballan-csb-2025",
+      "nationality": "IT",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 3,
+      "third_places": 3
+    },
+    {
+      "rank": 51,
+      "prev_rank": 105,
+      "team_name": " Wanty - Nippo - ReUz ",
+      "team_url": "team/wanty-nippo-reuz-2025",
+      "nationality": "BE",
+      "class": "CT",
+      "first_places": 5,
+      "second_places": 2,
+      "third_places": 4
+    },
+    {
+      "rank": 52,
+      "prev_rank": 13,
+      "team_name": " Team Picnic PostNL",
+      "team_url": "team/team-picnic-postnl-2025",
+      "nationality": "NL",
+      "class": "WT",
+      "first_places": 4,
+      "second_places": 10,
+      "third_places": 11
+    },
+    {
+      "rank": 53,
+      "prev_rank": 72,
+      "team_name": " Unibet Tietema Rockets",
+      "team_url": "team/unibet-tietema-rockets-2025",
+      "nationality": "FR",
+      "class": "PRT",
+      "first_places": 4,
+      "second_places": 6,
+      "third_places": 5
+    },
+    {
+      "rank": 54,
+      "prev_rank": 34,
+      "team_name": " Team Visma | Lease a Bike Development",
+      "team_url": "team/team-visma-lease-a-bike-development-2025",
+      "nationality": "NL",
+      "class": "CT",
+      "first_places": 4,
+      "second_places": 6,
+      "third_places": 4
+    },
+    {
+      "rank": 55,
+      "prev_rank": 115,
+      "team_name": " CCACHE x BODYWRAP",
+      "team_url": "team/ccache-x-bodywrap-2025",
+      "nationality": "AU",
+      "class": "CT",
+      "first_places": 4,
+      "second_places": 5,
+      "third_places": 6
+    },
+    {
+      "rank": 56,
+      "prev_rank": 131,
+      "team_name": " Factor Racing",
+      "team_url": "team/factor-racing-2025",
+      "nationality": "SI",
+      "class": "CT",
+      "first_places": 4,
+      "second_places": 3,
+      "third_places": 3
+    },
+    {
+      "rank": 57,
+      "prev_rank": null,
+      "team_name": " Team Tshenolo Pro Cycling",
+      "team_url": "team/team-tshenolo-pro-cycling-2025",
+      "nationality": "ZA",
+      "class": "CLUB",
+      "first_places": 4,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 58,
+      "prev_rank": 39,
+      "team_name": " Nu Colombia",
+      "team_url": "team/nu-colombia-2025",
+      "nationality": "CO",
+      "class": "CT",
+      "first_places": 4,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 59,
+      "prev_rank": 89,
+      "team_name": " OU7 Cycling Team",
+      "team_url": "team/ou7-cycling-team-2025",
+      "nationality": "UZ",
+      "class": "CT",
+      "first_places": 4,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 60,
+      "prev_rank": 25,
+      "team_name": " Intermarch\u00e9 - Wanty",
+      "team_url": "team/intermarche-wanty-2025",
+      "nationality": "BE",
+      "class": "WT",
+      "first_places": 3,
+      "second_places": 9,
+      "third_places": 4
+    },
+    {
+      "rank": 61,
+      "prev_rank": 70,
+      "team_name": " BIKE AID",
+      "team_url": "team/bike-aid-2025",
+      "nationality": "DE",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 7,
+      "third_places": 6
+    },
+    {
+      "rank": 62,
+      "prev_rank": 45,
+      "team_name": " VF Group - Bardiani CSF - Faizan\u00e8",
+      "team_url": "team/vf-group-bardiani-csf-faizane-2025",
+      "nationality": "IT",
+      "class": "PRT",
+      "first_places": 3,
+      "second_places": 7,
+      "third_places": 3
+    },
+    {
+      "rank": 63,
+      "prev_rank": 129,
+      "team_name": " Euskaltel - Euskadi",
+      "team_url": "team/euskaltel-euskadi-2025",
+      "nationality": "ES",
+      "class": "PRT",
+      "first_places": 3,
+      "second_places": 5,
+      "third_places": 2
+    },
+    {
+      "rank": 64,
+      "prev_rank": 30,
+      "team_name": " Alpecin-Deceuninck Development Team",
+      "team_url": "team/alpecin-deceuninck-development-team-2025",
+      "nationality": "BE",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 5,
+      "third_places": 2
+    },
+    {
+      "rank": 65,
+      "prev_rank": 154,
+      "team_name": " Tirol KTM Cycling Team",
+      "team_url": "team/tirol-ktm-cycling-team-2025",
+      "nationality": "AT",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 4
+    },
+    {
+      "rank": 66,
+      "prev_rank": null,
+      "team_name": " Team Amani",
+      "team_url": "team/team-amani-2025",
+      "nationality": "RW",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 67,
+      "prev_rank": 75,
+      "team_name": " Hagens Berman Jayco",
+      "team_url": "team/hagens-berman-jayco-2025",
+      "nationality": "AU",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 68,
+      "prev_rank": 86,
+      "team_name": " Tudor Pro Cycling Team U23",
+      "team_url": "team/tudor-pro-cycling-team-u23-2025",
+      "nationality": "CH",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 69,
+      "prev_rank": 125,
+      "team_name": " Team Vorarlberg",
+      "team_url": "team/team-vorarlberg-2025",
+      "nationality": "AT",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 70,
+      "prev_rank": 53,
+      "team_name": " Anicolor / Tien 21",
+      "team_url": "team/anicolor-tien-21-2025",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 6
+    },
+    {
+      "rank": 71,
+      "prev_rank": 189,
+      "team_name": " Mg.K Vis Costruzioni e Ambiente",
+      "team_url": "team/mg.k-vis-costruzioni-e-ambiente-2025",
+      "nationality": "IT",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 72,
+      "prev_rank": null,
+      "team_name": " Team Trululu",
+      "team_url": "team/team-trululu-2025",
+      "nationality": "VE",
+      "class": "CLUB",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 3
+    },
+    {
+      "rank": 73,
+      "prev_rank": 133,
+      "team_name": " HKSI Pro Cycling Team",
+      "team_url": "team/hksi-pro-cycling-team-2025",
+      "nationality": "HK",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 3
+    },
+    {
+      "rank": 74,
+      "prev_rank": 123,
+      "team_name": " Team Skyline",
+      "team_url": "team/team-skyline-2025",
+      "nationality": "US",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 75,
+      "prev_rank": null,
+      "team_name": " PSKK Vassil-Levski",
+      "team_url": "team/pskk-vassil-levski-2025",
+      "nationality": "BG",
+      "class": "CLUB",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 76,
+      "prev_rank": 10,
+      "team_name": " Lotto",
+      "team_url": "team/lotto-2025",
+      "nationality": "BE",
+      "class": "PRT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 9
+    },
+    {
+      "rank": 77,
+      "prev_rank": 60,
+      "team_name": " Team Sistecredito",
+      "team_url": "team/team-sistecredito-2025",
+      "nationality": "CO",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 78,
+      "prev_rank": 61,
+      "team_name": " Novapor Theseus SportsClub",
+      "team_url": "team/novapor-theseus-sportsclub-2025",
+      "nationality": "GR",
+      "class": "CLUB",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 79,
+      "prev_rank": 223,
+      "team_name": " Swift Pro Cycling ",
+      "team_url": "team/swift-pro-cycling-2025",
+      "nationality": "BR",
+      "class": "CT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 80,
+      "prev_rank": 111,
+      "team_name": " Energus Cycling Team",
+      "team_url": "team/energus-cycling-team-2025",
+      "nationality": "LT",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 5,
+      "third_places": 4
+    },
+    {
+      "rank": 81,
+      "prev_rank": null,
+      "team_name": " Konya B\u00fcy\u00fck\u015fehir Belediye Spor",
+      "team_url": "team/konya-buyuksehir-belediye-spor-2025",
+      "nationality": "TR",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 5,
+      "third_places": 2
+    },
+    {
+      "rank": 82,
+      "prev_rank": 107,
+      "team_name": " Team ColoQuick",
+      "team_url": "team/team-coloquick-2025",
+      "nationality": "DK",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 4,
+      "third_places": 4
+    },
+    {
+      "rank": 83,
+      "prev_rank": 15,
+      "team_name": " Mazowsze Serce Polski",
+      "team_url": "team/mazowsze-serce-polski-2025",
+      "nationality": "PL",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 4,
+      "third_places": 4
+    },
+    {
+      "rank": 84,
+      "prev_rank": 226,
+      "team_name": " Team Lotto Kern-Haus PSD Bank",
+      "team_url": "team/team-lotto-kern-haus-psd-bank-2025",
+      "nationality": "DE",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 8
+    },
+    {
+      "rank": 85,
+      "prev_rank": 141,
+      "team_name": " Huansheng - Vonoa - Taishan Sport Team",
+      "team_url": "team/huansheng-vonoa-taishan-sport-team-2025",
+      "nationality": "CN",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 86,
+      "prev_rank": 43,
+      "team_name": " Equipe continentale Groupama-FDJ",
+      "team_url": "team/equipe-continentale-groupama-fdj-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 87,
+      "prev_rank": null,
+      "team_name": " ASC Monsters Indonesia",
+      "team_url": "team/asc-monsters-indonesia-2025",
+      "nationality": "ID",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 88,
+      "prev_rank": 74,
+      "team_name": " Equipo Kern Pharma",
+      "team_url": "team/equipo-kern-pharma-2025",
+      "nationality": "ES",
+      "class": "PRT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 6
+    },
+    {
+      "rank": 89,
+      "prev_rank": null,
+      "team_name": " Swatt Club",
+      "team_url": "team/swatt-club-2025",
+      "nationality": "IT",
+      "class": "CLUB",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 5
+    },
+    {
+      "rank": 90,
+      "prev_rank": 94,
+      "team_name": " VC Fukuoka",
+      "team_url": "team/vc-fukuoka-2025",
+      "nationality": "JP",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 3
+    },
+    {
+      "rank": 91,
+      "prev_rank": 38,
+      "team_name": " Soudal Quick-Step Devo Team",
+      "team_url": "team/soudal-quick-step-devo-2025",
+      "nationality": "BE",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 3
+    },
+    {
+      "rank": 92,
+      "prev_rank": 68,
+      "team_name": " Spor Toto Cycling Team",
+      "team_url": "team/spor-toto-cycling-team-2025",
+      "nationality": "TR",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 93,
+      "prev_rank": null,
+      "team_name": " P\u00edo Rico Cycling Team",
+      "team_url": "team/pio-rico-cycling-team-2025",
+      "nationality": "BO",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 94,
+      "prev_rank": 171,
+      "team_name": " Aisan Racing Team",
+      "team_url": "team/aisan-racing-team-2025",
+      "nationality": "JP",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 95,
+      "prev_rank": 51,
+      "team_name": " Team Coop - Repsol",
+      "team_url": "team/team-coop-repsol-2025",
+      "nationality": "NO",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 96,
+      "prev_rank": 195,
+      "team_name": " Universe Cycling Team",
+      "team_url": "team/universe-cycling-team-2025",
+      "nationality": "NL",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 6
+    },
+    {
+      "rank": 97,
+      "prev_rank": 96,
+      "team_name": " General Store - Essegibi - F.Lli Curia",
+      "team_url": "team/general-store-essegibi-f.lli-curia-2025",
+      "nationality": "IT",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 4
+    },
+    {
+      "rank": 98,
+      "prev_rank": null,
+      "team_name": " Olinka Specialized",
+      "team_url": "team/olinka-specialized-2025",
+      "nationality": "MX",
+      "class": "CLUB",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 99,
+      "prev_rank": null,
+      "team_name": " Lillehammer CK Continental Team",
+      "team_url": "team/lillehammer-ck-continental-team-2025",
+      "nationality": "NO",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 100,
+      "prev_rank": 104,
+      "team_name": " Biesse - Carrera - Premac",
+      "team_url": "team/biesse-carrera-premac-2025",
+      "nationality": "IT",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 101,
+      "prev_rank": 118,
+      "team_name": " Plus Performance - Solutos",
+      "team_url": "team/plus-performance-solutos-2025",
+      "nationality": "CL",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 102,
+      "prev_rank": 84,
+      "team_name": " Loter\u00eda del T\u00e1chira",
+      "team_url": "team/loteria-del-tachira-2025",
+      "nationality": "VE",
+      "class": "CLUB",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 103,
+      "prev_rank": 106,
+      "team_name": " Pogi Team Gusto Ljubljana",
+      "team_url": "team/pogi-team-gusto-ljubljana-2025",
+      "nationality": "SI",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 104,
+      "prev_rank": 117,
+      "team_name": " Miami Blazers",
+      "team_url": "team/miami-blazers-2025",
+      "nationality": "US",
+      "class": "CLUB",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 105,
+      "prev_rank": null,
+      "team_name": " Art Cycling Team",
+      "team_url": "team/art-cycling-team-2025",
+      "nationality": "KG",
+      "class": "CT",
+      "first_places": 2,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 106,
+      "prev_rank": 69,
+      "team_name": " Team Polti VisitMalta",
+      "team_url": "team/team-polti-visitmalta-2025",
+      "nationality": "IT",
+      "class": "PRT",
+      "first_places": 1,
+      "second_places": 11,
+      "third_places": 6
+    },
+    {
+      "rank": 107,
+      "prev_rank": 56,
+      "team_name": " China Anta - Mentech Cycling Team",
+      "team_url": "team/china-anta-mentech-cycling-team-2025",
+      "nationality": "CN",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 5,
+      "third_places": 4
+    },
+    {
+      "rank": 108,
+      "prev_rank": 29,
+      "team_name": " GW Erco Shimano",
+      "team_url": "team/gw-erco-shimano-2025",
+      "nationality": "CO",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 4,
+      "third_places": 1
+    },
+    {
+      "rank": 109,
+      "prev_rank": 42,
+      "team_name": " Project Echelon Racing",
+      "team_url": "team/project-echelon-racing-2025",
+      "nationality": "US",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 3,
+      "third_places": 4
+    },
+    {
+      "rank": 110,
+      "prev_rank": null,
+      "team_name": " REMBE | rad-net",
+      "team_url": "team/rembe-rad-net-2025",
+      "nationality": "DE",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 3,
+      "third_places": 4
+    },
+    {
+      "rank": 111,
+      "prev_rank": null,
+      "team_name": " BEAT Cycling Club",
+      "team_url": "team/beat-cycling-2025",
+      "nationality": "NL",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 112,
+      "prev_rank": null,
+      "team_name": " Veloce Club Rouen 76",
+      "team_url": "team/veloce-club-rouen-76-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 113,
+      "prev_rank": 102,
+      "team_name": " Diftar Continental Cyclingteam",
+      "team_url": "team/diftar-continental-cyclingteam-2025",
+      "nationality": "NL",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 114,
+      "prev_rank": 119,
+      "team_name": " Hrinkow Advarics",
+      "team_url": "team/hrinkow-advarics-2025",
+      "nationality": "AT",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 115,
+      "prev_rank": 200,
+      "team_name": " Hino-One-La red-Suzuki",
+      "team_url": "team/hino-one-la-red-suzuki-2025",
+      "nationality": "GT",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 116,
+      "prev_rank": null,
+      "team_name": " Mouloudia Club d'Alger",
+      "team_url": "team/mouloudia-club-d-alger-2025",
+      "nationality": "DZ",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 117,
+      "prev_rank": 130,
+      "team_name": " Tarteletto - Isorex",
+      "team_url": "team/tarteletto-isorex-2025",
+      "nationality": "BE",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 118,
+      "prev_rank": 62,
+      "team_name": " Parkhotel Valkenburg",
+      "team_url": "team/parkhotel-valkenburg-2025",
+      "nationality": "NL",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 119,
+      "prev_rank": 197,
+      "team_name": " Team Vino - North Qazaqstan Region",
+      "team_url": "team/team-vino-north-qazaqstan-region-2025",
+      "nationality": "KZ",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 120,
+      "prev_rank": null,
+      "team_name": " APHotels & Resorts / Tavira / SC Farense",
+      "team_url": "team/aphotels-resorts-tavira-sc-farense-2025",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 121,
+      "prev_rank": 113,
+      "team_name": " Kinan Racing Team",
+      "team_url": "team/kinan-racing-team-2025",
+      "nationality": "JP",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 122,
+      "prev_rank": 90,
+      "team_name": " Thailand Continental Cycling Team",
+      "team_url": "team/thailand-continental-cycling-team-2025",
+      "nationality": "TH",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 123,
+      "prev_rank": 93,
+      "team_name": " Pierre Baguette Cycling",
+      "team_url": "team/pierre-baguette-cycling-2025",
+      "nationality": "SK",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 124,
+      "prev_rank": 149,
+      "team_name": " 7Eleven Cliqq Roadbike Philippines",
+      "team_url": "team/7-eleven-cliqq-roadbike-philippines-2025",
+      "nationality": "PH",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 125,
+      "prev_rank": 97,
+      "team_name": " MitoQ - NZ Cycling Project",
+      "team_url": "team/mitoq-nz-cycling-project-2025",
+      "nationality": "NZ",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 126,
+      "prev_rank": 204,
+      "team_name": " Bourg-en-Bresse Ain Cyclisme",
+      "team_url": "team/bourg-en-bresse-ain-cyclisme-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 127,
+      "prev_rank": 73,
+      "team_name": " Metec - SOLARWATT p/b Mantel",
+      "team_url": "team/metec-solarwatt-p-b-mantel-2025",
+      "nationality": "NL",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 128,
+      "prev_rank": 144,
+      "team_name": " St George Continental Cycling Team",
+      "team_url": "team/st-george-continental-cycling-team-2025",
+      "nationality": "AU",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 129,
+      "prev_rank": null,
+      "team_name": " Alicanto Consulting G Kino Tachira",
+      "team_url": "team/alicanto-consulting-g-kino-tachira-2025",
+      "nationality": "VE",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 130,
+      "prev_rank": 122,
+      "team_name": " Utsunomiya Blitzen",
+      "team_url": "team/utsunomiya-blitzen-2025",
+      "nationality": "JP",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 131,
+      "prev_rank": 77,
+      "team_name": " Istanbul B\u00fcy\u00fck\u0219ehir Belediye Spor T\u00fcrkiye",
+      "team_url": "team/istanbul-buyuksehhir-belediye-spor-turkiye-2025",
+      "nationality": "TR",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 132,
+      "prev_rank": 101,
+      "team_name": " 7C - Economy",
+      "team_url": "team/7c-economy-2025",
+      "nationality": "CR",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 133,
+      "prev_rank": null,
+      "team_name": " Tow by Us",
+      "team_url": "team/tow-by-us-2025",
+      "nationality": "UM",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 134,
+      "prev_rank": 81,
+      "team_name": " Victoria Sports Pro Cycling",
+      "team_url": "team/victoria-sports-2025",
+      "nationality": "PH",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 135,
+      "prev_rank": 224,
+      "team_name": " SuezCanalDiscovery",
+      "team_url": "team/suezcanaldiscovery-2025",
+      "nationality": "EG",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 136,
+      "prev_rank": 146,
+      "team_name": " R\u00e1dio Popular - Paredes - Boavista",
+      "team_url": "team/radio-popular-paredes-boavista-2025",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 137,
+      "prev_rank": null,
+      "team_name": " Holb\u00e6k Cykelsport",
+      "team_url": "team/holbaek-cykelsport-2025",
+      "nationality": "DK",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 138,
+      "prev_rank": null,
+      "team_name": " Muc-Off-SRCT-Storck",
+      "team_url": "team/muc-off-srct-storck-2025",
+      "nationality": "GB",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 139,
+      "prev_rank": 235,
+      "team_name": " MENtoRISE Teem CCN",
+      "team_url": "team/mentorise-teem-ccn-2025",
+      "nationality": "RO",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 140,
+      "prev_rank": null,
+      "team_name": " Controlpack",
+      "team_url": "team/controlpack-2025",
+      "nationality": "ES",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 141,
+      "prev_rank": 156,
+      "team_name": " Jakarta Pro Cycling Team",
+      "team_url": "team/jakarta-pro-cycling-team-2025",
+      "nationality": "ID",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 142,
+      "prev_rank": 98,
+      "team_name": " Wagner Bazin WB",
+      "team_url": "team/wagner-bazin-wb-2025",
+      "nationality": "BE",
+      "class": "PRT",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 143,
+      "prev_rank": 48,
+      "team_name": " Elkov - Kasper",
+      "team_url": "team/elkov-kasper-2025",
+      "nationality": "CZ",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 144,
+      "prev_rank": 176,
+      "team_name": " Fundaci\u00f3n Ciclista Euskadi",
+      "team_url": "team/fundacion-ciclista-euskadi-2025",
+      "nationality": "ES",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 145,
+      "prev_rank": null,
+      "team_name": " Prestige Cycling - Puerto Rico",
+      "team_url": "team/prestige-cycling-puerto-rico-2025",
+      "nationality": "PR",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 146,
+      "prev_rank": null,
+      "team_name": " Indet Cricket BDV Gran Misi\u00f3n Vivienda",
+      "team_url": "team/indet-cricket-bdv-gran-mision-vivienda-2025",
+      "nationality": "VE",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 147,
+      "prev_rank": 169,
+      "team_name": " Municipalidad de Pocito",
+      "team_url": "team/municipalidad-de-pocito-2025",
+      "nationality": "AR",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 148,
+      "prev_rank": null,
+      "team_name": " VZW WP de Molenspurters Meulebeke",
+      "team_url": "team/vzw-wp-de-molenspurters-meulebeke-2025",
+      "nationality": "BE",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 149,
+      "prev_rank": null,
+      "team_name": " TaG Cycling",
+      "team_url": "team/tag-cycling-2025",
+      "nationality": "CA",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 150,
+      "prev_rank": 243,
+      "team_name": " CK Hymer",
+      "team_url": "team/ck-hymer-2025",
+      "nationality": "SE",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 151,
+      "prev_rank": null,
+      "team_name": " El Boro Cycling Team",
+      "team_url": "team/el-boro-cycling-team-2025",
+      "nationality": "DO",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 152,
+      "prev_rank": null,
+      "team_name": " Al-Raed Saudi Club",
+      "team_url": "team/al-raed-saudi-club-2025",
+      "nationality": "SA",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 153,
+      "prev_rank": 249,
+      "team_name": " Monogo Lubelskie Per\u0142a Polski",
+      "team_url": "team/monogo-lubelskie-perla-polski-2025",
+      "nationality": "PL",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 154,
+      "prev_rank": 79,
+      "team_name": " Baloise Glowi Lions",
+      "team_url": "team/baloise-glowi-lions-2025",
+      "nationality": "BE",
+      "class": "P-CRO",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 155,
+      "prev_rank": null,
+      "team_name": " Cannondale Echelon p/b 4iiii",
+      "team_url": "team/cannondaleechelon-2025",
+      "nationality": "CA",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 156,
+      "prev_rank": 120,
+      "team_name": " CC \u00c9tupes",
+      "team_url": "team/cc-etupes-2025",
+      "nationality": "FR",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 157,
+      "prev_rank": null,
+      "team_name": " Alpine Cycling Club",
+      "team_url": "team/alpine-cycling-club-2025",
+      "nationality": "AU",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 158,
+      "prev_rank": null,
+      "team_name": " Team Siata",
+      "team_url": "team/team-siata-2025",
+      "nationality": "ZA",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 159,
+      "prev_rank": 227,
+      "team_name": " Abu Dhabi Cycling Club",
+      "team_url": "team/abu-dhabi-cycling-club-2025",
+      "nationality": "AE",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 160,
+      "prev_rank": null,
+      "team_name": " PROefekt Across",
+      "team_url": "team/proefekt-across-2025",
+      "nationality": "SK",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 161,
+      "prev_rank": null,
+      "team_name": " Vigo - Rias Baixas",
+      "team_url": "team/vigo-rias-baixas-2025",
+      "nationality": "ES",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 162,
+      "prev_rank": null,
+      "team_name": " UN Cycling Team x Py\u00f6r\u00e4varikko",
+      "team_url": "team/un-cycling-team-x-pyoravarikko-2025",
+      "nationality": "FI",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 163,
+      "prev_rank": null,
+      "team_name": " Manzat\u00e9 La Selva Scott",
+      "team_url": "team/manzate-la-selva-scott-2025",
+      "nationality": "CR",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 164,
+      "prev_rank": null,
+      "team_name": " ARB\u00d6 K\u00e4rnten Sport Feld am See",
+      "team_url": "team/arb\u00f6-k\u00e4rnten-sport-feld-am-see-2025",
+      "nationality": "AT",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 165,
+      "prev_rank": null,
+      "team_name": " Copeba Muebles Made\u00e7a Muni Toto",
+      "team_url": "team/copeba-muebles-madeca-muni-toto-2025",
+      "nationality": "GT",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 166,
+      "prev_rank": null,
+      "team_name": " Sam - Vitalcare - Dynatek",
+      "team_url": "team/sam-vitalcare-dynatek-2025",
+      "nationality": "IT",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 167,
+      "prev_rank": 124,
+      "team_name": " Geumsan Insam Cello",
+      "team_url": "team/geumsan-insam-cello-2025",
+      "nationality": "KR",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 168,
+      "prev_rank": 222,
+      "team_name": " Seoul Cycling Team",
+      "team_url": "team/seoul-cycling-team-2025",
+      "nationality": "KR",
+      "class": "CT",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 169,
+      "prev_rank": null,
+      "team_name": " Doglocy - Imca",
+      "team_url": "team/doglocy-imca-2025",
+      "nationality": "DO",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 170,
+      "prev_rank": null,
+      "team_name": " AVR Racing",
+      "team_url": "team/avr-racing-2025",
+      "nationality": "UM",
+      "class": "CLUB",
+      "first_places": 1,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 171,
+      "prev_rank": 216,
+      "team_name": " Sidi Ali - Unlock Team",
+      "team_url": "team/sidi-ali-unlock-team-2025",
+      "nationality": "MA",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 5,
+      "third_places": 0
+    },
+    {
+      "rank": 172,
+      "prev_rank": 114,
+      "team_name": " Aviludo - Louletano - Loul\u00e9",
+      "team_url": "team/aviludo-louletano-loule-2025",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 4,
+      "third_places": 1
+    },
+    {
+      "rank": 173,
+      "prev_rank": null,
+      "team_name": " G-Flow Cycling Team",
+      "team_url": "team/g-flow-cycling-team-2025",
+      "nationality": "BZ",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 3,
+      "third_places": 3
+    },
+    {
+      "rank": 174,
+      "prev_rank": 207,
+      "team_name": " LX Cycling Team",
+      "team_url": "team/lx-cycling-team-2025",
+      "nationality": "KR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 175,
+      "prev_rank": 85,
+      "team_name": " St Michel - Preference Home - Auber93",
+      "team_url": "team/st-michel-preference-home-auber93-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 176,
+      "prev_rank": null,
+      "team_name": " Team Give Steel - 2M Cycling Elite",
+      "team_url": "team/team-give-steel-2m-cycling-elite-2025",
+      "nationality": "DK",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 177,
+      "prev_rank": null,
+      "team_name": " Atom 6 Bikes - Decca Continental Team",
+      "team_url": "team/atom-6-decca-continental-team-2025",
+      "nationality": "AU",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 178,
+      "prev_rank": 58,
+      "team_name": " Van Rysel Roubaix",
+      "team_url": "team/van-rysel-roubaix-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 179,
+      "prev_rank": 87,
+      "team_name": " Adria Mobil",
+      "team_url": "team/adria-mobil-2025",
+      "nationality": "SI",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 180,
+      "prev_rank": 147,
+      "team_name": " CIC - U - Nantes",
+      "team_url": "team/cic-u-nantes-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 181,
+      "prev_rank": 110,
+      "team_name": " Ark\u00e9a - B&B H\u00f4tels Continentale",
+      "team_url": "team/arkea-b-b-hotels-continentale-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 182,
+      "prev_rank": 212,
+      "team_name": " Elite Fondations Cycling Team",
+      "team_url": "team/elite-fondations-cycling-team-2025",
+      "nationality": "CH",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 183,
+      "prev_rank": null,
+      "team_name": " Ukraine Cycling Team",
+      "team_url": "team/ukraine-cycling-team-2025",
+      "nationality": "UA",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 184,
+      "prev_rank": 218,
+      "team_name": " Club Politachira",
+      "team_url": "team/club-politachira-2025",
+      "nationality": "VE",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 185,
+      "prev_rank": 137,
+      "team_name": " Efapel Cycling",
+      "team_url": "team/efapel-cycling-2025",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 186,
+      "prev_rank": 71,
+      "team_name": " Run & Race - Wibatech",
+      "team_url": "team/run-race-wibatech-2025",
+      "nationality": "DE",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 187,
+      "prev_rank": null,
+      "team_name": " AVC Aix Provence Dole",
+      "team_url": "team/avc-aix-provence-dole-ct-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 188,
+      "prev_rank": null,
+      "team_name": " VPM Moretti SCS",
+      "team_url": "team/vpm-moretti-scs-2025",
+      "nationality": "IT",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 189,
+      "prev_rank": 211,
+      "team_name": " Team Marni-N'side",
+      "team_url": "team/team-marni-n-side-2025",
+      "nationality": "FR",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 190,
+      "prev_rank": 173,
+      "team_name": " Team Flanders - Baloise",
+      "team_url": "team/team-flanders-baloise-2025",
+      "nationality": "BE",
+      "class": "PRT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 191,
+      "prev_rank": null,
+      "team_name": " S.C. Padovani Polo Cherry Bank",
+      "team_url": "team/sc-padovani-polo-cherry-bank-2025",
+      "nationality": "IT",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 192,
+      "prev_rank": 138,
+      "team_name": " Development Team Picnic PostNL",
+      "team_url": "team/development-team-picnic-postnl-2025",
+      "nationality": "NL",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 193,
+      "prev_rank": null,
+      "team_name": " High Level-Gsport-Grupo Tormo",
+      "team_url": "team/high-level-gsport-grupo-tormo-2025",
+      "nationality": "ES",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 194,
+      "prev_rank": null,
+      "team_name": " Asociacion de Chimaltenango",
+      "team_url": "team/asociacion-de-chimaltenango-2025",
+      "nationality": "GT",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 195,
+      "prev_rank": 179,
+      "team_name": " UCI WCC Men's Team",
+      "team_url": "team/uci-wcc-mens-team-2025",
+      "nationality": "CH",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 196,
+      "prev_rank": 92,
+      "team_name": " Canel's - Java",
+      "team_url": "team/canel-s-java-2025",
+      "nationality": "MX",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 197,
+      "prev_rank": null,
+      "team_name": " Shenzhen Kung Cycling Team",
+      "team_url": "team/shenzhen-kung-cycling-team-2025",
+      "nationality": "CN",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 198,
+      "prev_rank": null,
+      "team_name": " UAE Ministry of Defence Cycling Team",
+      "team_url": "team/uae-ministry-of-defence-cycling-team-2025",
+      "nationality": "AE",
+      "class": "REG",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 199,
+      "prev_rank": 57,
+      "team_name": " Chengdu DYC Cycling Team",
+      "team_url": "team/chengdu-dyc-cycling-team-2025",
+      "nationality": "CN",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 200,
+      "prev_rank": 165,
+      "team_name": " Team Honeycomb 226ers",
+      "team_url": "team/team-honeycomb-226ers-2025",
+      "nationality": "ZA",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 201,
+      "prev_rank": 153,
+      "team_name": " Go For Gold Philippines",
+      "team_url": "team/team-go-for-gold-2025",
+      "nationality": "PH",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 202,
+      "prev_rank": null,
+      "team_name": " Equipe Stuttgart-Vaihingen",
+      "team_url": "team/equipe-stuttgart-vaihingen-2025",
+      "nationality": "DE",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 203,
+      "prev_rank": 233,
+      "team_name": " Equipo Finisher - Kern Pharma",
+      "team_url": "team/equipo-finisher-2025",
+      "nationality": "ES",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 204,
+      "prev_rank": null,
+      "team_name": " Team PB Performance",
+      "team_url": "team/team-pb-performance-2025",
+      "nationality": "GB",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 205,
+      "prev_rank": null,
+      "team_name": " Team Novo Nordisk",
+      "team_url": "team/team-novo-nordisk-2025",
+      "nationality": "US",
+      "class": "PRT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 206,
+      "prev_rank": null,
+      "team_name": " Avimosa - Chozas",
+      "team_url": "team/avimosa-chozas-2025",
+      "nationality": "ES",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 207,
+      "prev_rank": null,
+      "team_name": " May Stars",
+      "team_url": "team/may-stars-2025",
+      "nationality": "RW",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 208,
+      "prev_rank": 250,
+      "team_name": " Motala AIF Continental",
+      "team_url": "team/motala-aif-continental-2025",
+      "nationality": "SE",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 209,
+      "prev_rank": null,
+      "team_name": " RedHook Guatemala",
+      "team_url": "team/redhook-guatemala-2025",
+      "nationality": "GT",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 210,
+      "prev_rank": null,
+      "team_name": " Muni Fraijanes",
+      "team_url": "team/muni-fraijanes-2025",
+      "nationality": "GT",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 211,
+      "prev_rank": null,
+      "team_name": " Green Riders",
+      "team_url": "team/green-riders-2025",
+      "nationality": "HU",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 212,
+      "prev_rank": 170,
+      "team_name": " Matrix Powertag",
+      "team_url": "team/matrix-powertag-2025",
+      "nationality": "JP",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 213,
+      "prev_rank": null,
+      "team_name": " Verrazano - Santiago",
+      "team_url": "team/verrazano-santiago-2025",
+      "nationality": "DO",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 214,
+      "prev_rank": 177,
+      "team_name": " Wuzhishan SCOM MVMT Cycling Team",
+      "team_url": "team/wuzhishan-scom-mvmt-cycling-team-2025",
+      "nationality": "CN",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 215,
+      "prev_rank": null,
+      "team_name": " Cornwall Cycling Club",
+      "team_url": "team/cornwall-cycling-club-2025",
+      "nationality": "TT",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 216,
+      "prev_rank": null,
+      "team_name": " BKR Cycling Team",
+      "team_url": "team/bkr-cycling-team-2025",
+      "nationality": "US",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 217,
+      "prev_rank": 103,
+      "team_name": " Monzon - Incolor - Gub",
+      "team_url": "team/monzon-incolor-gub-2025",
+      "nationality": "RO",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 4
+    },
+    {
+      "rank": 218,
+      "prev_rank": null,
+      "team_name": " V\u00e9lo Club Villefranche Beaujolais",
+      "team_url": "team/velo-club-villefranche-beaujolais-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 219,
+      "prev_rank": null,
+      "team_name": " Balkan Regional Team",
+      "team_url": "team/balkan-regional-team-2025",
+      "nationality": "XX",
+      "class": "REG",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 220,
+      "prev_rank": 199,
+      "team_name": " FNIX - SCOM - Hengxiang Cycling Team",
+      "team_url": "team/fnix-scom-hengxiang-cycling-team-2025",
+      "nationality": "CN",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 221,
+      "prev_rank": 151,
+      "team_name": " Victoire Hiroshima",
+      "team_url": "team/victoire-hiroshima-2025",
+      "nationality": "JP",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 222,
+      "prev_rank": 91,
+      "team_name": " XSpeed United Continental",
+      "team_url": "team/xspeed-united-continental-2025",
+      "nationality": "CA",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 223,
+      "prev_rank": 213,
+      "team_name": " Credibom / LA Alum\u00ednios / Marcos Car",
+      "team_url": "team/credibom-la-alum\u00ednios-marcos-car-2025",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 224,
+      "prev_rank": null,
+      "team_name": " Gapyeong Cycling Team",
+      "team_url": "team/gapyeong-cycling-team-2025",
+      "nationality": "KR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 2
+    },
+    {
+      "rank": 225,
+      "prev_rank": null,
+      "team_name": " Univ Upraiet IDT R Frontera Inv Alexander",
+      "team_url": "team/univ-upraiet-idt-r-frontera-inv-alexander-2025",
+      "nationality": "VE",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 226,
+      "prev_rank": null,
+      "team_name": " CNC Cycling Team",
+      "team_url": "team/cnc-cycling-team-2025",
+      "nationality": "TR",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 227,
+      "prev_rank": 67,
+      "team_name": " Nice M\u00e9tropole C\u00f4te d'Azur",
+      "team_url": "team/nice-metropole-cote-d-azur-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 228,
+      "prev_rank": 162,
+      "team_name": " Tavfer-Ovos Matinados-Mort\u00e1gua",
+      "team_url": "team/tavfer-ovos-matinados-mortagua-2025",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 229,
+      "prev_rank": null,
+      "team_name": " Team Atria - Montlu\u00e7on Cyclisme",
+      "team_url": "team/team-atria-montlucon-cyclisme-2025",
+      "nationality": "FR",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 230,
+      "prev_rank": null,
+      "team_name": " Gragnano Sporting Club",
+      "team_url": "team/gragnano-sporting-club-2025",
+      "nationality": "IT",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 231,
+      "prev_rank": 139,
+      "team_name": " Deschacht - Hens - FSP",
+      "team_url": "team/deschacht-hens-fsp-2025",
+      "nationality": "BE",
+      "class": "P-CRO",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 232,
+      "prev_rank": 140,
+      "team_name": " Epronex - Hungary Cycling Team",
+      "team_url": "team/epronex-hungary-cycling-team-2025",
+      "nationality": "HU",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 233,
+      "prev_rank": null,
+      "team_name": " Vend\u00e9e U Pays de la Loire",
+      "team_url": "team/vendee-u-pays-de-la-loire-2025",
+      "nationality": "FR",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 234,
+      "prev_rank": 66,
+      "team_name": " Movistar Best PC",
+      "team_url": "team/movistar-best-pc-2025",
+      "nationality": "EC",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 235,
+      "prev_rank": null,
+      "team_name": " Nu Colombia U23",
+      "team_url": "team/nu-colombia-u23-2025",
+      "nationality": "CO",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 236,
+      "prev_rank": null,
+      "team_name": " Jamison Racing Team",
+      "team_url": "team/jamison-racing-team-2025",
+      "nationality": "US",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 237,
+      "prev_rank": 128,
+      "team_name": " Malaysia Pro Cycling",
+      "team_url": "team/malaysia-pro-cycling-2025",
+      "nationality": "MY",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 238,
+      "prev_rank": null,
+      "team_name": " Elevation Cycling Club",
+      "team_url": "team/elevation-cycling-club-2025",
+      "nationality": "JM",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 239,
+      "prev_rank": 194,
+      "team_name": " TC Chrobry Scott G\u0142og\u00f3w",
+      "team_url": "team/tc-chrobry-scott-glogow-2025",
+      "nationality": "PL",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 240,
+      "prev_rank": 126,
+      "team_name": " FEIRENSE - BEECELER",
+      "team_url": "team/feirense-beeceler-2025",
+      "nationality": "PT",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 241,
+      "prev_rank": 175,
+      "team_name": " Lasal Cocinas - Craega",
+      "team_url": "team/lasal-cocinas-craega-2025",
+      "nationality": "ES",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 242,
+      "prev_rank": null,
+      "team_name": " KK Ribno Alpine Resort Bled",
+      "team_url": "team/kk-ribno-alpine-resort-bled-2025",
+      "nationality": "SI",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 243,
+      "prev_rank": null,
+      "team_name": " Club Ciclista Vigu\u00e9s",
+      "team_url": "team/club-ciclista-vigues-2025",
+      "nationality": "ES",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 244,
+      "prev_rank": null,
+      "team_name": " Team Bridgestone Cycling",
+      "team_url": "team/team-bridgestone-cycling-2025",
+      "nationality": "JP",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 245,
+      "prev_rank": null,
+      "team_name": " LRG - Cycling Team",
+      "team_url": "team/lrg-cycling-team-2025",
+      "nationality": "BE",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 246,
+      "prev_rank": null,
+      "team_name": " Camp Cycling Team",
+      "team_url": "team/camp-cycling-team-2025",
+      "nationality": "CN",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 247,
+      "prev_rank": null,
+      "team_name": " Pegasus Premier Texas",
+      "team_url": "team/pegasus-premier-texas-2025",
+      "nationality": "US",
+      "class": "CLUB",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 248,
+      "prev_rank": null,
+      "team_name": " Karcag Cycling \u00c9PKAR Team",
+      "team_url": "team/karcag-cycling-epkar-team-2025",
+      "nationality": "HU",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 249,
+      "prev_rank": 215,
+      "team_name": " Java - Inovotec Pro Team",
+      "team_url": "team/java-inovotec-pro-team-2025",
+      "nationality": "RW",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 250,
+      "prev_rank": null,
+      "team_name": " TUFO - Pardus Prost\u011bjov",
+      "team_url": "team/tufo-pardus-prostejov-2025",
+      "nationality": "CZ",
+      "class": "CT",
+      "first_places": 0,
+      "second_places": 0,
+      "third_places": 1
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html><html><head>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2MNJ20S7SJ');
+</script>
+<title>Final 5 kilometre steepness results analysis for Fabian  Cancellara</title> 
+<base href="https://www.procyclingstats.com/rider.php"> 
+<link rel="canonical" href="https://www.procyclingstats.com/rider/fabian-cancellara/results/final-5k-analysis"> 
+<script>  var r89 = r89 || {      callAds: [],   pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }    };  </script>
+  <script async="" src="https://tags.refinery89.com/procyclingstats.js"></script><meta name="robots" content="noindex">
+<meta name="description" content="In 0.0% of the 51 races started where the final 5 kilometre had a steepness of 7% or more, Fabian  Cancellara scored a top-10 result.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="v3_scripts_v32.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v70.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
+<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico">
+</head>
+<body>
+<div class="wrapper"><header>
+<div class="cont">
+<a class="logo" href="index.php"></a>
+<div class="search"><form action="search.php" class="msearch"><input type="hidden" id="term"><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-/results/final-5k-analysis" placeholder="search" autocomplete="off"></form></div> 
+<div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
+<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<li class=""><a class="menu" href="index.php">Home</a></li>
+<li class=""><a class="menu" href="races.php">Races<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
+<li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
+<li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
+</ul></li>
+<li class=""><a class="menu" href="teams.php">Teams<span class="more" href="">▼</span></a>
+<ul><li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
+</ul></li>
+<li class=""><a class="menu" href="rankings.php">Rankings</a></li>
+<li class=""><a class="menu" href="statistics.php">Statistics<span class="more" href="">▼</span></a>
+<ul><li><a href="statistics">Overview</a></li>
+<li><a href="statistics/riders">Riders</a></li>
+<li><a href="statistics/teams">Teams</a></li>
+<li><a href="statistics/grandtours">Grand tours</a></li>
+</ul></li>
+<li class=""><a class="menu" href="game.php">Game</a></li>
+<li class="tour yellow"><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france/2025/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
+<li><a href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
+<li><a href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
+<li class=""><a class="menu" href="quiz.php">Quiz</a></li>
+<li class=""><a class="menu" href="riders.php">More<span class="more" href="">▼</span></a>
+<ul><li><a href="riders">Riders</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="account"><a class="menu" href="account.php">Account<span class="more" href="">▼</span></a>
+<ul><li><a href="account/overview">My account</a></li>
+<li><a href="account/follow-riders">My riders</a></li>
+</ul></li>
+<li class="small"><a class="menu" href="">Road<span class="more" href="">▼</span></a>
+<ul><li><a href="https://cx.procyclingstats.com">Cross</a></li>
+</ul></li>
+<li class="language small"><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
+<ul></ul></ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="" href="rider/fabian-cancellara/start">Overview</a></span>
+<span><a class="" href="rider/fabian-cancellara/statistics">Statistics<span>▼</span></a><ul><li><a href="rider/fabian-cancellara/statistics/overview">Overview</a></li>
+<li><a href="rider/fabian-cancellara/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/fabian-cancellara/statistics/key-events">Key events</a></li>
+<li><a href="rider/fabian-cancellara/statistics/world-map-of-rider-races">World map of rider races</a></li>
+<li><a href="rider/fabian-cancellara/statistics/wins">Wins</a></li>
+<li><a href="rider/fabian-cancellara/statistics/most-starts-by-race">Most starts by race</a></li>
+<li><a href="rider/fabian-cancellara/statistics/grand-tour-starts">Starts and results</a></li>
+<li><a href="rider/fabian-cancellara/statistics/injury-history">Injury history</a></li>
+<li><a href="rider/fabian-cancellara/statistics/fines-and-penalties">Fines &amp; Penalties</a></li>
+</ul></span>
+<span><a class="cur" href="rider/fabian-cancellara/results">Results</a></span>
+<span><a class="" href="rider/fabian-cancellara/calendar">Program</a></span>
+<span><a class="" href="rider/fabian-cancellara/head-to-head">H2H</a></span>
+<span><a class="" href="rider/fabian-cancellara/contribute">More<span>▼</span></a><ul><li><a href="rider/fabian-cancellara/contribute/contribute-info">Contribute info</a></li>
+<li><a href="rider/fabian-cancellara/contribute/submit-program">Submit program</a></li>
+<li><a href="rider/fabian-cancellara/contribute/report">Report</a></li>
+<li><a href="rider/fabian-cancellara/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
+<li><a href="rider/fabian-cancellara/contribute/contribute-family">Family</a></li>
+<li><a href="rider/fabian-cancellara/contribute/embed-rider-results">Embed rider results</a></li>
+</ul></span>
+<span><a class="" href="rider/fabian-cancellara/specialties">Specialties<span>▼</span></a><ul><li><a href="rider/fabian-cancellara/specialties/top-gc-results">Top GC results</a></li>
+<li><a href="rider/fabian-cancellara/specialties/fastest-tt">Fastest TT</a></li>
+</ul></span>
+</div><div class="clear"></div>
+
+<div class="titleCont hasSideNav"><div class="page-title"><div class="title"><span class="flag ch w32"></span><span class="flag c24 ch "></span> <h1>Fabian  Cancellara</h1></div></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
+<div class="page-content ">
+<h2>Top results final 5k analysis</h2>
+<div class=""><div class="mt10">
+<div class="fs14">Analysis of the vertical meters in the final 5 kilometers of results for this rider. </div>
+</div>
+<div class="mt20">
+<h4>Grouped</h4><table class=" basic" style="max-width: 500px; "><thead><tr>
+<th class="w20 ">Avg. % final 5k</th>
+<th class="w20 ">Starts</th>
+<th class="w20 ">#Top-10s</th>
+<th class="w40 ">%</th>
+</tr></thead><tbody>
+<tr class=""><td>7+%</td><td>51</td><td>0</td><td><div class="valuebar"><div class="w0 bg green6 left"></div><div class="title l0">0.0</div></div></td></tr>
+<tr class=""><td>4-7%</td><td>44</td><td>0</td><td><div class="valuebar"><div class="w0 bg green6 left"></div><div class="title l0">0.0</div></div></td></tr>
+<tr class=""><td>2-4%</td><td>42</td><td>5</td><td><div class="valuebar"><div class="w36 bg green6 left"></div><div class="title l36">11.9</div></div></td></tr>
+<tr class=""><td>0-2%</td><td>1040</td><td>278</td><td><div class="valuebar"><div class="w80 bg green6 left"></div><div class="title l80">26.7</div></div></td></tr>
+</tbody></table></div>
+<div class="mt40">
+<form action="rider.php"><input type="hidden" name="id" value="140846">
+<input type="hidden" name="p" value="results">
+<input type="hidden" name="s" value="final-5k-analysis">
+<ul class="filter "><li class="" data-formtype="select" data-def="3"><div class="label">Top-N results</div>
+<div class="input">
+<span class="inputCont"><select name="topn"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3" selected="">3</option>
+<option value="5">5</option>
+<option value="10">10</option>
+<option value="20">20</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def="5"><div class="label">Final N km</div>
+<div class="input">
+<span class="inputCont"><select name="km"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5" selected="">5</option>
+</select></span></div></li>
+<input name="filter" type="submit" value="Filter"> <a class="fs10 blue clearPageFilter" href="">clear filter</a></ul></form></div>
+<div class="mt20">
+<table class=" basic"><thead><tr>
+<th class="w11 ">Date</th>
+<th class="w11 ">Result</th>
+<th class="w44 ">Race</th>
+<th class="w11 ">Class</th>
+<th class="w11 ">Vertical meters</th>
+<th class="w11 ">Avg. %</th>
+</tr></thead><tbody>
+<tr class=""><td>2016-04-03</td><td>2</td><td><span class="flag be"></span> <a href="race/ronde-van-vlaanderen/2016/result">Ronde van Vlaanderen / Tour des Flandres ME</a></td><td>1.UWT</td><td>2</td><td>0</td></tr>
+<tr class=""><td>2016-03-05</td><td>1</td><td><span class="flag it"></span> <a href="race/strade-bianche/2016/result">Strade Bianche</a></td><td>1.HC</td><td>83</td><td>1.7</td></tr>
+<tr class=""><td>2015-07-05</td><td>3</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2015/stage-2">Tour de France | Stage 2</a></td><td>2.UWT</td><td>26</td><td>0.5</td></tr>
+<tr class=""><td>2014-09-10</td><td>3</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2014/stage-17">Vuelta a España | Stage 17</a></td><td>2.UWT</td><td>28</td><td>0.6</td></tr>
+<tr class=""><td>2014-07-13</td><td>2</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2014/stage-9">Tour de France | Stage 9</a></td><td>2.UWT</td><td>4</td><td>0.1</td></tr>
+<tr class=""><td>2014-04-13</td><td>3</td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2014/result">Paris - Roubaix</a></td><td>1.UWT</td><td>21</td><td>0.4</td></tr>
+<tr class=""><td>2014-04-06</td><td>1</td><td><span class="flag be"></span> <a href="race/ronde-van-vlaanderen/2014/result">Ronde van Vlaanderen / Tour des Flandres ME</a></td><td>1.UWT</td><td>4</td><td>0.1</td></tr>
+<tr class=""><td>2014-03-23</td><td>2</td><td><span class="flag it"></span> <a href="race/milano-sanremo/2014/result">Milano-Sanremo</a></td><td>1.UWT</td><td>4</td><td>0.1</td></tr>
+<tr class=""><td>2013-08-29</td><td>3</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2013/stage-6">Vuelta a España | Stage 6</a></td><td>WT</td><td>60</td><td>1.2</td></tr>
+<tr class=""><td>2013-08-27</td><td>2</td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2013/stage-4">Vuelta a España | Stage 4</a></td><td>WT</td><td>114</td><td>2.3</td></tr>
+<tr class=""><td>2013-04-07</td><td>1</td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2013/result">Paris - Roubaix</a></td><td>WT</td><td>0</td><td>0</td></tr>
+<tr class=""><td>2013-03-31</td><td>1</td><td><span class="flag be"></span> <a href="race/ronde-van-vlaanderen/2013/result">Ronde van Vlaanderen / Tour des Flandres ME</a></td><td>WT</td><td>7</td><td>0.1</td></tr>
+<tr class=""><td>2013-03-22</td><td>1</td><td><span class="flag be"></span> <a href="race/e3-harelbeke/2013/result">E3 Prijs Vlaanderen - Harelbeke</a></td><td>WT</td><td>3</td><td>0.1</td></tr>
+<tr class=""><td>2013-03-17</td><td>3</td><td><span class="flag it"></span> <a href="race/milano-sanremo/2013/result">Milano-Sanremo</a></td><td>WT</td><td>39</td><td>0.8</td></tr>
+<tr class=""><td>2012-07-01</td><td>2</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2012/stage-1">Tour de France | Stage 1</a></td><td>WT</td><td>172</td><td>3.4</td></tr>
+<tr class=""><td>2012-03-17</td><td>2</td><td><span class="flag it"></span> <a href="race/milano-sanremo/2012/result">Milano-Sanremo</a></td><td>WT</td><td>3</td><td>0.1</td></tr>
+<tr class=""><td>2012-03-03</td><td>1</td><td><span class="flag it"></span> <a href="race/strade-bianche/2012/result">Montepaschi Strade Bianche - Eroica Toscana</a></td><td>1.1</td><td>83</td><td>1.7</td></tr>
+<tr class=""><td>2011-04-10</td><td>2</td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2011/result">Paris - Roubaix</a></td><td>WT</td><td>6</td><td>0.1</td></tr>
+<tr class=""><td>2011-04-03</td><td>3</td><td><span class="flag be"></span> <a href="race/ronde-van-vlaanderen/2011/result">Ronde van Vlaanderen / Tour des Flandres ME</a></td><td>WT</td><td>5</td><td>0.1</td></tr>
+<tr class=""><td>2011-03-19</td><td>2</td><td><span class="flag it"></span> <a href="race/milano-sanremo/2011/result">Milano-Sanremo</a></td><td>WT</td><td>3</td><td>0.1</td></tr>
+<tr class=""><td>2010-04-11</td><td>1</td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2010/result">Paris - Roubaix</a></td><td>1.HC</td><td>8</td><td>0.2</td></tr>
+<tr class=""><td>2010-04-04</td><td>1</td><td><span class="flag be"></span> <a href="race/ronde-van-vlaanderen/2010/result">Ronde van Vlaanderen / Tour des Flandres ME</a></td><td>PT</td><td>5</td><td>0.1</td></tr>
+<tr class=""><td>2008-08-09</td><td>2</td><td><span class="flag cn"></span> <a href="race/olympic-games/2008/result">Olympic Games Road Race</a></td><td>Olympics</td><td>534</td><td>10.7</td></tr>
+<tr class=""><td>2008-04-13</td><td>2</td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2008/result">Paris - Roubaix</a></td><td>1.HC</td><td>8</td><td>0.2</td></tr>
+<tr class=""><td>2008-03-08</td><td>1</td><td><span class="flag it"></span> <a href="race/strade-bianche/2008/result">Monte Paschi Eroica</a></td><td>1.1</td><td>103</td><td>2.1</td></tr>
+<tr class=""><td>2007-07-19</td><td>2</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2007/stage-11">Tour de France | Stage 11</a></td><td>2.PT</td><td>14</td><td>0.3</td></tr>
+<tr class=""><td>2007-07-10</td><td>1</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2007/stage-3">Tour de France | Stage 3</a></td><td>2.PT</td><td>15</td><td>0.3</td></tr>
+<tr class=""><td>2006-04-09</td><td>1</td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2006/result">Paris - Roubaix</a></td><td>1.PT</td><td>22</td><td>0.4</td></tr>
+<tr class=""><td>2005-07-24</td><td>3</td><td><span class="flag fr"></span> <a href="race/tour-de-france/2005/stage-21">Tour de France | Stage 21</a></td><td>2.PT</td><td>25</td><td>0.5</td></tr>
+</tbody></table></div>
+</div></div>
+<div class="side-nav  ">
+<a class="backToContent blue fs11 right showIfMobile" href="">back to content</a><div class="clear"></div>
+<ul class="sidenav"><li><div class="sidenavTitle">Results</div><ul><li class="" data-pro="0"><a href="rider/fabian-cancellara/results/all">All results</a></li>
+<li class="" data-pro="1"><a href="rider/fabian-cancellara/results/all-results-premium">All results (premium)</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/subclassification-wins">Wins in subclassifications</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/leader-jerseys">Leader jerseys</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/participations">Participations</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/results-with-special-filters">Results with special filters</a></li>
+<li class="cur" data-pro="0"><a href="rider/fabian-cancellara/results/final-5k-analysis">Top results final 5k analysis</a></li>
+<li class="" data-pro="1"><a href="rider/fabian-cancellara/results/dnfs">DNFs</a></li>
+</ul></li><li><div class="sidenavTitle">GC</div><ul><li class="" data-pro="0"><a href="rider/fabian-cancellara/results/last-gc-results">Last GC results</a></li>
+</ul></li><li><div class="sidenavTitle">TT</div><ul><li class="" data-pro="0"><a href="rider/fabian-cancellara/results/last-tt-results">Last TT results</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/time-lost-on-gc-riders">Time lost on GC riders</a></li>
+</ul></li><li><div class="sidenavTitle">Victories</div><ul><li class="" data-pro="1"><a href="rider/fabian-cancellara/results/solo-victories">Solo victories</a></li>
+<li class="" data-pro="1"><a href="rider/fabian-cancellara/results/won-how">Won how</a></li>
+</ul></li><li><div class="sidenavTitle">Rankings</div><ul><li class="" data-pro="0"><a href="rider/fabian-cancellara/results/pcs-ranking">PCS Ranking</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/pcs-wins">Wins ranking</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/pcs-season-ranking">PCS Season ranking</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/uci-world-ranking">UCI World Ranking</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/all-time-ranking">All time ranking breakdown</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/uci-one-day-races">UCI One day races</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/tt-ranking">Time trial ranking</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/sprinters-ranking">Sprinters ranking</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/one-day-races-ranking">One day races ranking</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/gc-ranking">GC Ranking</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/national-ranking">National ranking</a></li>
+</ul></li><li><div class="sidenavTitle">Breakdowns</div><ul><li class="" data-pro="0"><a href="rider/fabian-cancellara/results/career-points-sprint">Sprint </a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/career-points-climbers">Climber </a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/hills">Hills</a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/career-points-gc">GC </a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/career-points-time-trial">Time trial </a></li>
+<li class="" data-pro="0"><a href="rider/fabian-cancellara/results/career-points-one-day-races">One day races </a></li>
+</ul></li><li><div class="sidenavTitle">National results</div><ul><li class="" data-pro="0"><a href="rider/fabian-cancellara/results/last-results">Latest results</a></li>
+</ul></li></ul></div>
+<div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
+</ul>
+<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
+<li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
+<li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
+</ul></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul>
+<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
+<li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
+</ul></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul>
+<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
+</ul></li>
+<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+<li><a href="info/profile-score-explained">Profile scores</a></li>
+<li><a href="reset_password.php">Reset password</a></li>
+<li><a href="info/pcs-game">PCS game</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
+</ul>
+<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/cookie-policy">Cookie policy</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/contributions">Contributions</a></li>
+<li><span>Pageload 0.0923s</span></li>
+</ul></li>
+</ul></div></div>
+
+<script src="search_list21.js"></script><script>
+var riderid = 140846;		$(document).ready(function() { 	RVC(riderid);  	  });
+</script>
+</body></html>

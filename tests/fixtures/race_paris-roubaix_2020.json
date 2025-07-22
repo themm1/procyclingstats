@@ -7,6 +7,10 @@
   "nationality": "FR",
   "prev_editions_select": [
     {
+      "text": "2025",
+      "value": "race/paris-roubaix/2025/statistics/start"
+    },
+    {
       "text": "2024",
       "value": "race/paris-roubaix/2024/statistics/start"
     },
@@ -498,6 +502,6 @@
   "stages": [],
   "stages_winners": [],
   "startdate": "2020-10-25",
-  "uci_tour": "UCI Worldtour",
+  "uci_tour": "UCI WorldTour",
   "year": 2020
 }
