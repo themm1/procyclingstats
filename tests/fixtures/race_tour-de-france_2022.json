@@ -7,6 +7,14 @@
   "nationality": "FR",
   "prev_editions_select": [
     {
+      "text": "2026",
+      "value": "race/tour-de-france/2026/statistics/start"
+    },
+    {
+      "text": "2025",
+      "value": "race/tour-de-france/2025/statistics/start"
+    },
+    {
       "text": "2024",
       "value": "race/tour-de-france/2024/statistics/start"
     },
@@ -471,7 +479,7 @@
       "date": "07-03"
     },
     {
-      "profile_icon": "p1",
+      "profile_icon": "p2",
       "stage_name": "Stage 4 | Dunkerque - Calais",
       "stage_url": "race/tour-de-france/2022/stage-4",
       "date": "07-05"
@@ -708,6 +716,6 @@
     }
   ],
   "startdate": "2022-07-01",
-  "uci_tour": "UCI Worldtour",
+  "uci_tour": "UCI WorldTour",
   "year": 2022
 }
