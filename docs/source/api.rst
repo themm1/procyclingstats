@@ -32,6 +32,14 @@ RaceClimbs
    :undoc-members:
    :show-inheritance:
 
+RaceCombativeRiders
+------------------------------------------------------
+
+.. autoclass:: procyclingstats.race_combative_riders_scraper.RaceCombativeRiders
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Ranking
 ----------------------------------------
 

@@ -42,10 +42,10 @@ Basic Rider class usage:
     }
 
 Interface consists from scraping classes which are currently ``Race``,
-``RaceStartlist``, ``RaceClimbs``, ``Ranking``, ``Rider``, ``RiderResults``,
-``Stage`` and ``Team``. Usage of all scraping classes is almost the same and
-the only difference among them are parsing methods as is for example
-``birthdate`` in Rider class usage example.
+``RaceStartlist``, ``RaceClimbs``, ``RaceCombativeRiders``, ``Ranking``,
+``Rider``, ``RiderResults``, ``Stage`` and ``Team``. Usage of all scraping
+classes is almost the same and the only difference among them are parsing
+methods as is for example ``birthdate`` in Rider class usage example.
 
 Unexpected behaviour and parsing errors
 ---------------------------------------
