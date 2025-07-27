@@ -1,6 +1,5 @@
 import re
 from typing import Any, Dict, List
-import re
 
 from .errors import ExpectedParsingError, UnexpectedParsingError
 from .scraper import Scraper
@@ -279,65 +278,3 @@ class Race(Scraper):
             table_parser.extend_table("stage_name", stage_names)
                     
         return table_parser.table
-    
-    def combative_riders(self) -> List[Dict[str, str]]:
-        """
-        Parses combative riders from HTML.
-
-        :return: List of combative riders with keys ``stage``, ``rider_name``, ``rider_url``, ``rider_team_url``, and ``flag``.
-        """
-        # Construct the URL for combative riders
-        combative_riders_url = self.url + "/results/comative-riders" #typo in url
-        combative_riders_html = self.fetch_html(combative_riders_url)
-        
-        if not combative_riders_html:
-            raise ExpectedParsingError("Combative riders HTML fixture not found")
-        
-        # Locate the table of combative riders
-        riders_table_html = combative_riders_html.css_first("table.basic")
-        if not riders_table_html:
-            print("No table found for combative riders.")  # Debugging log
-            return []
-        
-        # Parse the table
-        combative_riders = []
-        for row in riders_table_html.css("tbody > tr"):
-            # Extract stage data
-            stage_cell = row.css_first("td:nth-child(1)")
-            stage = stage_cell.text().strip() if stage_cell else "Unknown"
-            
-            # Extract rider data
-            rider_cell = row.css_first("td:nth-child(2)")
-            rider_name = None
-            rider_url = None
-            flag = None
-            rider_team_url = None
-            
-            if rider_cell:
-                # Extract flag (country code)
-                flag_span = rider_cell.css_first("span.flag")
-                if flag_span:
-                    flag_classes = flag_span.attributes.get("class", "").split()
-                    flag = flag_classes[1] if len(flag_classes) > 1 else None
-                
-                # Extract rider name and URL
-                rider_link = rider_cell.css_first("a")
-                if rider_link:
-                    rider_name = rider_link.text().strip()
-                    rider_url = rider_link.attributes.get("href", "").strip()
-                
-                # Extract team URL (if present in a separate link)
-                team_link = rider_cell.css("a")
-                if len(team_link) > 1:  # Assuming the second link is the team URL
-                    rider_team_url = team_link[1].attributes.get("href", "").strip()
-            
-            # Append parsed data
-            combative_riders.append({
-                "stage": stage or None,
-                "rider_name": rider_name or "Unknown",
-                "rider_url": rider_url or None,
-                "rider_team_url": rider_team_url or None,
-                "flag": flag or "Unknown",
-            })
-        
-        return combative_riders

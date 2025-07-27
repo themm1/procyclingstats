@@ -1,0 +1,151 @@
+{
+  "combative_riders": [
+    {
+      "stage_name": "Stage 1 (ITT)",
+      "stage_url": "race/tour-de-france/2015/stage-1",
+      "rider_name": "",
+      "rider_url": "rider/",
+      "nationality": ""
+    },
+    {
+      "stage_name": "Stage 2",
+      "stage_url": "race/tour-de-france/2015/stage-2",
+      "rider_name": "KWIATKOWSKI Micha\u0142",
+      "rider_url": "rider/michal-kwiatkowski",
+      "nationality": "PL"
+    },
+    {
+      "stage_name": "Stage 3",
+      "stage_url": "race/tour-de-france/2015/stage-3",
+      "rider_name": "B\u00c1RTA Jan",
+      "rider_url": "rider/jan-barta",
+      "nationality": "CZ"
+    },
+    {
+      "stage_name": "Stage 4",
+      "stage_url": "race/tour-de-france/2015/stage-4",
+      "rider_name": "NIBALI Vincenzo",
+      "rider_url": "rider/vincenzo-nibali",
+      "nationality": "IT"
+    },
+    {
+      "stage_name": "Stage 5",
+      "stage_url": "race/tour-de-france/2015/stage-5",
+      "rider_name": "MATTHEWS Michael",
+      "rider_url": "rider/michael-matthews",
+      "nationality": "AU"
+    },
+    {
+      "stage_name": "Stage 6",
+      "stage_url": "race/tour-de-france/2015/stage-6",
+      "rider_name": "QU\u00c9M\u00c9NEUR Perrig",
+      "rider_url": "rider/perrig-quemeneur",
+      "nationality": "FR"
+    },
+    {
+      "stage_name": "Stage 7",
+      "stage_url": "race/tour-de-france/2015/stage-7",
+      "rider_name": "DELAPLACE Anthony",
+      "rider_url": "rider/anthony-delaplace",
+      "nationality": "FR"
+    },
+    {
+      "stage_name": "Stage 8",
+      "stage_url": "race/tour-de-france/2015/stage-8",
+      "rider_name": "HUZARSKI Bartosz",
+      "rider_url": "rider/bartosz-huzarski",
+      "nationality": "PL"
+    },
+    {
+      "stage_name": "Stage 9 (TTT)",
+      "stage_url": "race/tour-de-france/2015/stage-9",
+      "rider_name": "",
+      "rider_url": "rider/",
+      "nationality": ""
+    },
+    {
+      "stage_name": "Stage 10",
+      "stage_url": "race/tour-de-france/2015/stage-10",
+      "rider_name": "VANBILSEN Kenneth",
+      "rider_url": "rider/kenneth-van-bilsen",
+      "nationality": "BE"
+    },
+    {
+      "stage_name": "Stage 11",
+      "stage_url": "race/tour-de-france/2015/stage-11",
+      "rider_name": "MARTIN Dan",
+      "rider_url": "rider/dan-martin",
+      "nationality": "IE"
+    },
+    {
+      "stage_name": "Stage 12",
+      "stage_url": "race/tour-de-france/2015/stage-12",
+      "rider_name": "KWIATKOWSKI Micha\u0142",
+      "rider_url": "rider/michal-kwiatkowski",
+      "nationality": "PL"
+    },
+    {
+      "stage_name": "Stage 13",
+      "stage_url": "race/tour-de-france/2015/stage-13",
+      "rider_name": "DE GENDT Thomas",
+      "rider_url": "rider/thomas-de-gendt",
+      "nationality": "BE"
+    },
+    {
+      "stage_name": "Stage 14",
+      "stage_url": "race/tour-de-france/2015/stage-14",
+      "rider_name": "P\u00c9RICHON Pierre-Luc",
+      "rider_url": "rider/pierre-luc-perichon",
+      "nationality": "FR"
+    },
+    {
+      "stage_name": "Stage 15",
+      "stage_url": "race/tour-de-france/2015/stage-15",
+      "rider_name": "SAGAN Peter",
+      "rider_url": "rider/peter-sagan",
+      "nationality": "SK"
+    },
+    {
+      "stage_name": "Stage 16",
+      "stage_url": "race/tour-de-france/2015/stage-16",
+      "rider_name": "SAGAN Peter",
+      "rider_url": "rider/peter-sagan",
+      "nationality": "SK"
+    },
+    {
+      "stage_name": "Stage 17",
+      "stage_url": "race/tour-de-france/2015/stage-17",
+      "rider_name": "GESCHKE Simon",
+      "rider_url": "rider/simon-geschke",
+      "nationality": "DE"
+    },
+    {
+      "stage_name": "Stage 18",
+      "stage_url": "race/tour-de-france/2015/stage-18",
+      "rider_name": "BARDET Romain",
+      "rider_url": "rider/romain-bardet",
+      "nationality": "FR"
+    },
+    {
+      "stage_name": "Stage 19",
+      "stage_url": "race/tour-de-france/2015/stage-19",
+      "rider_name": "ROLLAND Pierre",
+      "rider_url": "rider/pierre-rolland",
+      "nationality": "FR"
+    },
+    {
+      "stage_name": "Stage 20",
+      "stage_url": "race/tour-de-france/2015/stage-20",
+      "rider_name": "GENIEZ Alexandre",
+      "rider_url": "rider/alexandre-geniez",
+      "nationality": "FR"
+    },
+    {
+      "stage_name": "Stage 21",
+      "stage_url": "race/tour-de-france/2015/stage-21",
+      "rider_name": "",
+      "rider_url": "rider/",
+      "nationality": ""
+    }
+  ]
+}
