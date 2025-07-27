@@ -1,5 +1,5 @@
 import re
-from typing import Any, Dict, List, Literal, Optional
+from typing import Any, Dict, List, Literal, Optional, Tuple
 
 from selectolax.parser import HTMLParser, Node
 
@@ -151,13 +151,19 @@ class Stage(Scraper):
         """
         return self._stage_info_by_label("Won how")
 
-    def race_startlist_quality_score(self) -> int:
+    def race_startlist_quality_score(self) -> Tuple[int, int]:
         """
         Parses race startlist quality score from HTML.
 
-        :return: Race startlist quality score.
+        :return: Tuple of race startlist quality scores. The first element is
+        race startlist quality score at the beginning of the race and
+        the second one is quality score after current stage.
         """
-        return int(self._stage_info_by_label("Startlist quality score"))
+        scores_str = self._stage_info_by_label("Startlist quality score")
+        if len(scores_str.split()) == 1:
+            return int(scores_str), int(scores_str)
+        score1, score2 = scores_str.split()
+        return int(score1), int(score2[1:-1])
 
     def profile_score(self) -> Optional[int]:
         """

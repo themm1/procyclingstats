@@ -5,7 +5,7 @@ from selectolax.parser import HTMLParser
 
 from .scraper import Scraper
 from .table_parser import TableParser
-from .utils import get_day_month, parse_table_fields_args, get_height_weight
+from .utils import get_day_month, parse_table_fields_args
 
 
 class Rider(Scraper):
@@ -66,11 +66,11 @@ class Rider(Scraper):
         raw_name = self.html.css_first(".titleCont > .page-title > .title > h1").text()
         return re.sub(r'\s+', ' ', raw_name).strip()
 
-    def _weight(self) -> Optional[float]:
+    def weight(self) -> Optional[float]:
         """
-        Helper method for parsing weight.
+        Parses rider's weight from HTML.
 
-        :return: Rider's weigth in kilograms.
+        :return: Rider's weight in kilograms.
         """
         extra = 0
         if "Passed" in self._get_rider_content_node().text():
@@ -79,17 +79,9 @@ class Rider(Scraper):
         weight_html = weight_cont.css("li .mr3")[0]
         return float(weight_html.text())
 
-    def weight(self) -> Optional[float]:
+    def height(self) -> Optional[float]:
         """
         Parses rider's height from HTML.
-
-        :return: Rider's height in meters.
-        """
-        return get_height_weight(self._height(), self._weight())[1]
-
-    def _height(self) -> Optional[float]:
-        """
-        Helper method for parsing height.
 
         :return: Rider's height in meters.
         """
@@ -100,14 +92,6 @@ class Rider(Scraper):
         height_html = height_cont.css("li > .mr3")[1]
         return float(height_html.text())
 
-    def height(self) -> Optional[float]:
-        """
-        Parses rider's height from HTML.
-
-        :return: Rider's height in meters.
-        """
-        return get_height_weight(self._height(), self._weight())[0]
-            
     def nationality(self) -> str:
         """
         Parses rider's nationality from HTML.

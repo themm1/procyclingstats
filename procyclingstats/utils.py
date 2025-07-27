@@ -1,6 +1,4 @@
 import datetime
-import math
-import re
 from typing import Any, Dict, List, Tuple, Union, Optional
 
 from selectolax.parser import HTMLParser, Node
@@ -73,6 +71,7 @@ def time_to_timedelta(time: str) -> datetime.timedelta:
     :param time: Time to convert.
     :return: Timedelta object.
     """
+    time = time.replace("*", "")
     try:
         # Split milliseconds if present
         if '.' in time:
@@ -127,7 +126,6 @@ def add_times(time1: str, time2: str) -> str:
     :param time2: Time separated with colons.
     :return: Time in `H:MM:SS` format.
     """
-    print(f"Adding times: {time1} + {time2}")
     # If either time is empty or invalid, return zero time.
     if not time1 or not time2 or time1 in ["0:*0:00"] or time2 in ["0:*0:00"]:
         return timedelta_to_time(datetime.timedelta(0))
@@ -213,37 +211,5 @@ def parse_table_fields_args(args: Tuple[str],
     if args:
         return list(args)
     return list(available_fields)
-
-def get_height_weight(h: Optional[float], w: Optional[float]) -> Tuple[
-                      Optional[float], Optional[float]]:
-    """
-    Based on expected human height and weight decides whether height and values have
-    to be swapped.
-    :param h: Height value
-    :param w: Weight value.
-    return: Tuple where first value is real height and second value is real weight.
-    """
-    weight, height = None, None
-    # Case 1: Both values exist
-    if w is not None and h is not None:
-        weight = w if w >= 10 else h if h >= 10 else None
-        height = h if h < 10 else w if w < 10 else None
-
-    # Case 2: Only weight exists
-    elif w is not None:
-        weight = w if w >= 10 else None
-        height = w if w < 10 else None
-
-    # Case 3: Only height exists
-    elif h is not None:
-        height = h if h < 10 else None
-        weight = h if h >= 10 else None
-
-    # Post-validation for realistic ranges
-    if weight and not (30 <= weight <= 120):
-        weight = None
-    if height and not (1.5 <= height <= 2.2):
-        height = None
-    return height, weight
 
 
