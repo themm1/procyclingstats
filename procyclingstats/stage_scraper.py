@@ -324,11 +324,10 @@ class Stage(Scraper):
         else:
             categories = self.html.css(self._tables_path)
             if not categories:
-                fallback = self.html.css('.general > table.results')
-            if fallback:
-                categories = [fallback[0]]
-            else:
-                raise ExpectedParsingError("Results table not in page HTML")
+                if fallback := self.html.css('.general > table.results'):
+                    categories = [fallback[0]]
+                else:
+                    raise ExpectedParsingError("Results table not in page HTML")
             results_table_html = categories[0]
             # Results table is empty
             if (not results_table_html or
@@ -343,6 +342,29 @@ class Stage(Scraper):
             table_parser.parse(fields)
             table = table_parser.table
         return table
+
+    def startlist(self) -> List[str]:
+        """
+        Parses the startlist from the HTML.
+
+        :return: List of rider names
+        """
+        import requests
+
+        riders: List[str] = []
+
+        res = requests.get(self.url + "/startlist/alphabetical").text
+        html = HTMLParser(res)
+
+        for i in range(1,300):
+            res = html.css_first(f"tr:nth-of-type({i}) td > a[href]:nth-of-type(1)")
+            if res == None: break
+            if temp := res.attrs["href"]: riders.append(temp)
+            # v if name should be formatted better
+            # if temp := res.text(): riders.append(temp)
+
+        return riders
+        
 
     def gc(self, *args: str) -> List[Dict[str, Any]]: \
         # pylint: disable=invalid-name

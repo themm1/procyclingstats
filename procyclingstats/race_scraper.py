@@ -1,5 +1,6 @@
 import re
 from typing import Any, Dict, List
+from selectolax.parser import HTMLParser
 
 from .errors import ExpectedParsingError, UnexpectedParsingError
 from .scraper import Scraper
@@ -117,6 +118,30 @@ class Race(Scraper):
         startdate_html = self.html.css_first(
             ".list > li > div:nth-child(2)")
         return startdate_html.text()
+
+
+    def startlist(self) -> List[str]:
+        """
+        Parses the startlist from the HTML.
+
+        :return: List of rider names
+        """
+        import requests
+
+        riders: List[str] = []
+
+        res = requests.get(self.url + "/startlist/alphabetical").text
+        html = HTMLParser(res)
+
+        for i in range(1,300):
+            res = html.css_first(f"tr:nth-of-type({i}) td > a[href]:nth-of-type(1)")
+            if res == None: break
+            if temp := res.attrs["href"]: riders.append(temp)
+            # v if name should be formatted better
+            # if temp := res.text(): riders.append(temp)
+
+        return riders
+
 
     def enddate(self) -> str:
         """
