@@ -225,32 +225,131 @@ class Stage(Scraper):
         """
         return self._stage_info_by_label("Race category")
       
-    def climbs(self, *args: str) -> List[Dict[str, str]]:
+    def climbs(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses listed climbs from the stage. When climbs aren't listed returns
-        empty list.
+        Parses KOM classification results table from HTML. When KOM classif. is
+        unavailable empty list is returned.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
 
             - climb_name:
-            - climb_url: URL of the location of the climb, NOT the climb itself
+            - climb_url:
+            - category: Climb category (HC, 1, 2, 3, 4)
+            - rank: List of rider results for the climb, each with:
+                - rider_name
+                - rider_url
+                - rider_number
+                - team_name
+                - team_url
+                - rank
+                - points
+                - age
+                - nationality
+                - pcs_points
+                - uci_points
 
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
         """
         available_fields = (
             "climb_name",
-            "climb_url"
+            "climb_url",
+            "category",
+            "rank"
         )
         fields = parse_table_fields_args(args, available_fields)
+
+        # 1. Get climbs (name, url)
         climbs_html = self._find_header_list("Climbs")
-        if climbs_html is None:
+        climbs = []
+        if climbs_html:
+            for li in climbs_html.css("li"):
+                climb_name = None
+                climb_url = None
+                a_tag = li.css_first("a")
+                if a_tag:
+                    climb_name = a_tag.text(strip=True)
+                    climb_url = a_tag.attributes.get("href")
+                else:
+                    climb_name = li.text(strip=True)
+                climbs.append({
+                    "climb_name": climb_name,
+                    "climb_url": climb_url
+                })
+
+        # 2. Get KOM "today hide" section
+        kom_tab = None
+        tab_nav = self.html.css("ul.tabs.tabnav.resultTabs li")
+        for tab_element in tab_nav:
+            tab_link = tab_element.css_first("a")
+            if tab_link and "KOM" in tab_link.text().upper():
+                data_id = tab_link.attributes.get("data-id")
+                kom_tab = self.html.css_first(f'div.resTab[data-id="{data_id}"]')
+                break
+
+        if not kom_tab:
             return []
 
-        table_parser = TableParser(climbs_html)
-        table_parser.parse(fields)
-        return table_parser.table
+        today_section = kom_tab.css_first(".today")
+        if not today_section:
+            return []
+
+        # 3. Parse each climb's ranking table
+        climb_results = []
+        for h4 in today_section.css("h4"):
+            header_text = h4.text(strip=True)
+            match = re.search(r"KOM Sprint \(([^)]+)\)", header_text)
+            category = match.group(1) if match else None
+
+            climb_name_match = re.search(r"\)\s*(.+?)\s*\(", header_text)
+            climb_name = climb_name_match.group(1) if climb_name_match else header_text
+
+            table = h4.next
+            while table and table.tag != "table":
+                table = table.next
+            if not table:
+                continue
+
+            table_parser = TableParser(table)
+            rider_fields = [
+                "rider_name",
+                "rider_url",
+                "rider_number",
+                "team_name",
+                "team_url",
+                "rank",
+                "points",
+                "age",
+                "nationality",
+                "pcs_points",
+                "uci_points"
+            ]
+            table_parser.parse(rider_fields)
+            rank = table_parser.table
+
+            climb_info = {
+                "climb_name": climb_name,
+                "climb_url": None,
+                "category": category,
+                "rank": rank
+            }
+            climb_results.append(climb_info)
+
+        # 4. Merge climb_url from climbs list if possible
+        for climb in climb_results:
+            for c in climbs:
+                if c["climb_name"] and climb["climb_name"] and c["climb_name"].lower() in climb["climb_name"].lower():
+                    climb["climb_url"] = c["climb_url"]
+                    break
+
+        # 5. Filter fields if needed
+        final_results = []
+        for climb in climb_results:
+            result = {field: climb[field] for field in fields if field in climb}
+            final_results.append(result)
+
+        return final_results
 
     def results(self, *args: str) -> List[Dict[str, Any]]:
         """
