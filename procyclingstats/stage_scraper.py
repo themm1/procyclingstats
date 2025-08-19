@@ -227,8 +227,8 @@ class Stage(Scraper):
       
     def climbs(self, *args: str) -> List[Dict[str, Any]]:
         """
-        Parses KOM classification results table from HTML. When KOM classif. is
-        unavailable empty list is returned.
+        Parses listed climbs from the stage. When climbs aren't listed returns
+        empty list.
 
         :param args: Fields that should be contained in returned table. When
             no args are passed, all fields are parsed.
