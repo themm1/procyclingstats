@@ -150,6 +150,26 @@ class Stage(Scraper):
         :return: Won how string e.g ``Sprint of small group``.
         """
         return self._stage_info_by_label("Won how")
+    
+    def breakaway_win(self) -> bool:
+        """
+        Parses whether the stage was won from a breakaway (more than half the stage ahead of the peloton).
+
+        :return: True if the winner came from a breakaway, False otherwise.
+        """
+        # Get the stage results table
+        results_table = self._table_html("stage")
+        if not results_table:
+            return False
+
+        # Get the first row (winner)
+        first_row = results_table.css_first("tbody > tr")
+        if not first_row:
+            return False
+
+        # Look for any element with the title indicating breakaway
+        element = first_row.css_first('[title*="kilometre in a group before the peloton"]')
+        return bool(element)
 
     def race_startlist_quality_score(self) -> Tuple[int, int]:
         """
@@ -343,28 +363,6 @@ class Stage(Scraper):
             table_parser.parse(fields)
             table = table_parser.table
         return table
-
-    def breakaway_win(self) -> int:
-        """
-        Checks whether the stage was won from a breakaway.
-
-        :return: 1 if the winner came from a breakaway, 0 otherwise.
-        """
-        # Get the stage results table
-        results_table = self._table_html("stage")
-        if not results_table:
-            return 0
-
-        # Get the first row (winner)
-        first_row = results_table.css_first("tbody > tr")
-        if not first_row:
-            return 0
-
-        # Look for any element with the title indicating breakaway
-        element = first_row.css_first('[title*="kilometre in a group before the peloton"]')
-        if element:
-            return 1
-        return 0
     
     def gc(self, *args: str) -> List[Dict[str, Any]]: \
         # pylint: disable=invalid-name
