@@ -363,7 +363,7 @@ class Stage(Scraper):
             table_parser.parse(fields)
             table = table_parser.table
         return table
-    
+
     def gc(self, *args: str) -> List[Dict[str, Any]]: \
         # pylint: disable=invalid-name
         """
