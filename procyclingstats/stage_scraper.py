@@ -337,7 +337,8 @@ class Stage(Scraper):
             # remove rows that aren't results
             for row in results_table_html.css("tbody > tr"):
                 columns = row.css("td")
-                if len(columns) <= 2 and columns[0].text() == "":
+                if len(columns) <= 2 and columns[0].text() == "" or \
+                        "relegated from" in columns[0].text():
                     row.remove()
             table_parser = TableParser(results_table_html)
             table_parser.parse(fields)

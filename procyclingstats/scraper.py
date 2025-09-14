@@ -6,7 +6,6 @@ from selectolax.parser import HTMLParser
 
 from .errors import ExpectedParsingError
 
-
 class Scraper:
     """Base class for all scraping classes."""
     BASE_URL: str = "https://www.procyclingstats.com/"

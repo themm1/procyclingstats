@@ -246,7 +246,7 @@ class TableParser:
     def time(self) -> List[Optional[str]]:
         times_elements = self.html_table.css(".time")
         times = []
-        for time_e in times_elements:
+        for i, time_e in enumerate(times_elements):
             time_e_text = time_e.text(separator="\n").strip()
             if not time_e_text or time_e_text == "-":
                 times.append(None)  # Handle empty or invalid times as None
@@ -269,7 +269,7 @@ class TableParser:
 
         :return: List of bonuses.
         """
-        bonuses_elements = self.html_table.css(".bonis")
+        bonuses_elements = self.html_table.css("tr > td.ar.cu600")
         bonuses = []
         for bonus_e in bonuses_elements:
             bonus = bonus_e.text().replace("″", "").replace(" ", "")

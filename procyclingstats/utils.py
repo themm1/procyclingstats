@@ -126,10 +126,6 @@ def add_times(time1: str, time2: str) -> str:
     :param time2: Time separated with colons.
     :return: Time in `H:MM:SS` format.
     """
-    # If either time is empty or invalid, return zero time.
-    if not time1 or not time2 or time1 in ["0:*0:00"] or time2 in ["0:*0:00"]:
-        return timedelta_to_time(datetime.timedelta(0))
-    
     tdelta1 = time_to_timedelta(format_time(time1))
     tdelta2 = time_to_timedelta(format_time(time2))
     tdelta = tdelta1 + tdelta2
