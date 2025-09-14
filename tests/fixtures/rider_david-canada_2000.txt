@@ -16,13 +16,13 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v20.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v59.css">
+<script src="v3_scripts_v38.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v98.css">
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
-<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
-<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
 <div class="wrapper"><header>
@@ -79,15 +79,15 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=""><a class="menu" href="game.php">Game</a></li>
-<li class="tour yellow"><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">▼</span></a>
-<ul><li><a href="race/tour-de-france/2025/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
-<li><a href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
-<li><a href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
+<li class="vuelta red"><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">▼</span></a>
+<ul><li><a href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
 </ul></li>
 <li class=""><a class="menu" href="quiz.php">Quiz</a></li>
 <li class=""><a class="menu" href="riders.php">More<span class="more" href="">▼</span></a>
@@ -99,6 +99,10 @@
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro"><a class="menu" href="premium.php">Pro<span class="more" href="">▼</span></a>
+<ul><li><a href="">Dashboard</a></li>
+<li><a href="">Lists</a></li>
 </ul></li>
 <li class="account"><a class="menu" href="account.php">Account<span class="more" href="">▼</span></a>
 <ul><li><a href="account/overview">My account</a></li>
@@ -147,12 +151,17 @@
 <a href="rider/david-canada/statistics"><img src="" style="width: 100%; "></a></div>
 </div><div class="borderbox left w65"><div class="">
 <ul class="list">
+<li class=""><div class="bold mr5">Name:</div><div class="mr10">David  Cañada Gracia</div></li>
+</ul>
+</div>
+<div class="">
+<ul class="list">
 <li class=""><div class="bold mr5">Date of birth:</div><div class="mr3">11th</div><div class="mr3">March</div><div class="mr3">1975</div></li>
 </ul>
 </div>
 <div class="">
 <ul class="list">
-<li class=""><div class="bold mr5">Passed away on:</div><div class="mr3">28th</div><div class="mr3">May</div><div class="mr3">2016</div><div>(</div><div>41</div><div>)</div></li>
+<li class=""><div class="bold mr3">Passed away </div><div class="bold mr5"> on:</div><div class="mr3">28th</div><div class="mr3">May</div><div class="mr3">2016</div><div>(</div><div>41</div><div>)</div></li>
 </ul>
 </div>
 <div class="">
@@ -175,11 +184,11 @@
 </div>
 <div class="">
 <ul class="pps list">
-<li class=""><div class="xbar"><div class="valuebar"><div class="w20 bg green left"></div></div></div><div class="xvalue ac">340</div><div class="xtitle"><a href="rider/david-canada/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar"><div class="valuebar"><div class="w19 bg green left"></div></div></div><div class="xvalue ac">335</div><div class="xtitle"><a href="rider/david-canada/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar"><div class="valuebar"><div class="w100 bg red left"></div></div></div><div class="xvalue ac">1728</div><div class="xtitle"><a href="rider/david-canada/results/career-points-gc">GC</a></div></li>
-<li class=""><div class="xbar"><div class="valuebar"><div class="w52 bg blue left"></div></div></div><div class="xvalue ac">895</div><div class="xtitle"><a href="rider/david-canada/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar"><div class="valuebar"><div class="w3 bg orange left"></div></div></div><div class="xvalue ac">53</div><div class="xtitle"><a href="rider/david-canada/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar"><div class="valuebar"><div class="w11 bg purple left"></div></div></div><div class="xvalue ac">192</div><div class="xtitle"><a href="rider/david-canada/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar"><div class="valuebar"><div class="w54 bg blue left"></div></div></div><div class="xvalue ac">929</div><div class="xtitle"><a href="rider/david-canada/results/career-points-time-trial">TT</a></div></li>
+<li class=""><div class="xbar"><div class="valuebar"><div class="w4 bg orange left"></div></div></div><div class="xvalue ac">75</div><div class="xtitle"><a href="rider/david-canada/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar"><div class="valuebar"><div class="w25 bg purple left"></div></div></div><div class="xvalue ac">424</div><div class="xtitle"><a href="rider/david-canada/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar"><div class="valuebar"><div class="w4 bg pink left"></div></div></div><div class="xvalue ac">67</div><div class="xtitle"><a href="rider/david-canada/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -194,12 +203,12 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal">
-<li class=""><div class="mr3"><a href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5">1460</div></li>
+<li class=""><div class="mr3"><a href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5">1468</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list">
-<li class=""><div class="bold mr5">Visits:</div><div class="mr5"><span class="delta-up">▲21</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5">Visits:</div><div class="mr5"><span class="delta-down">▼31</span></div><div>this week</div></li>
 </ul>
 </div>
 </div><div class="borderbox clear"></div></div>
@@ -255,28 +264,14 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh">
-<div style="height: 20px; "></div><input type="hidden" id="riderid" value="117660"><input type="hidden" id="seo" value="david-canada"><input type="hidden" id="season" value="2000"><input type="hidden" id="sort" value="date"><input type="hidden" id="filter" value="all"><input type="hidden" id="discipline" value="pcs"><ul class="rdrSeasonNav "><li class=""><a class="rdrFilterSeason" data-season="2008" href="">2008</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132"><input type="hidden" id="riderid" value="117660"><input type="hidden" id="seo" value="david-canada"><input type="hidden" id="season" value="2000"><input type="hidden" id="sort" value="date"><input type="hidden" id="filter" value="all"><input type="hidden" id="discipline" value="pcs"><ul class="rdrSeasonNav "><li class=""><a class="rdrFilterSeason" data-season="2008" href="">2008</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2007" href="">2007</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2006" href="">2006</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2005" href="">2005</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2004" href="">2004</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2003" href="">2003</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2002" href="">2002</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2001" href="">2001</a></li>
-<li class="cur"><a class="rdrFilterSeason" data-season="2000" href="">2000</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="1999" href="">1999</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="1998" href="">1998</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="1997" href="">1997</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="1996" href="">1996</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="1993" href="">1993</a></li>
-<li class="more"><span>more</span><ul><li><a class="rdrFilterSeason" data-season="2008" href="">2008</a></li>
-<li><a class="rdrFilterSeason" data-season="2007" href="">2007</a></li>
-<li><a class="rdrFilterSeason" data-season="2006" href="">2006</a></li>
-<li><a class="rdrFilterSeason" data-season="2005" href="">2005</a></li>
-<li><a class="rdrFilterSeason" data-season="2004" href="">2004</a></li>
-<li><a class="rdrFilterSeason" data-season="2003" href="">2003</a></li>
-<li><a class="rdrFilterSeason" data-season="2002" href="">2002</a></li>
-<li><a class="rdrFilterSeason" data-season="2001" href="">2001</a></li>
+<li class="more"><span>more</span><ul><li><a class="rdrFilterSeason" data-season="2001" href="">2001</a></li>
 <li><a class="rdrFilterSeason" data-season="2000" href="">2000</a></li>
 <li><a class="rdrFilterSeason" data-season="1999" href="">1999</a></li>
 <li><a class="rdrFilterSeason" data-season="1998" href="">1998</a></li>
@@ -350,7 +345,7 @@
 <tr class="stage"><td>30.04</td><td>8</td><td>6</td><td><span class=""></span></td><td><a href="race/vuelta-ciclista-a-la-rioja/2000/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Najera › Estacion Valdezcaray</a>  </td><td>180</td><td>1</td><td></td><td></td></tr>
 <tr class="stage"><td>29.04</td><td>7</td><td>6</td><td><span class=""></span></td><td><a href="race/vuelta-ciclista-a-la-rioja/2000/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Albelda de Iregua › Logroño</a>  </td><td>192</td><td>2</td><td></td><td></td></tr>
 <tr class="stage"><td>28.04</td><td>28</td><td>28</td><td><span class=""></span></td><td><a href="race/vuelta-ciclista-a-la-rioja/2000/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Autol › Calahorra</a>  </td><td>168</td><td></td><td></td><td></td></tr>
-<tr class="main"><td>22.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag nl"></span> <a href="race/amstel-gold-race/2000/result"><span>Amstel Gold Race</span> (CDM)</a>  </td><td>257</td><td></td><td></td><td><a class="fs10" href="rider-in-race/david-canada/amstel-gold-race">more</a></td></tr>
+<tr class="main"><td>22.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag nl"></span> <a href="race/amstel-gold-race/2000/result"><span>Amstel Gold Race</span> (CDM)</a>  </td><td>257.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/david-canada/amstel-gold-race">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">12.04 › 16.04</span><span class="showIfMobile fs12">12-16/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/vuelta-a-aragon/2000/gc"><span>Vuelta a Aragon</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/david-canada/vuelta-a-aragon">more</a></td></tr>
 <tr class="stage"><td></td><td>18</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/vuelta-a-aragon/2000/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>3</td><td></td><td></td></tr>
 <tr class="stage"><td>16.04</td><td>23</td><td></td><td><span class=""></span></td><td><a href="race/vuelta-a-aragon/2000/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Magallón › Zaragoza</a>  </td><td>121</td><td></td><td></td><td></td></tr>
@@ -435,25 +430,21 @@
 <div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
-</ul>
-<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+</ul><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
 <li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
-</ul></li>
-<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+</ul></li><li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
 <li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
-</ul>
-<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+</ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
 <li><a href="race/uec-road-european-championships">European Championships</a></li>
-</ul></li>
-<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+</ul></li><li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
@@ -465,8 +456,7 @@
 <li><a href="race/bretagne-classic">Bretagne Classic</a></li>
 <li><a href="race/gp-quebec">GP Québec</a></li>
 <li><a href="race/gp-montreal">GP Montréal</a></li>
-</ul></li>
-<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+</ul></li><li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
 <li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
@@ -478,35 +468,30 @@
 <li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
 <li><a href="rider/evita-muzic">Évita Muzic</a></li>
-</ul></li>
-<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+</ul></li><li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
 <li><a href="rankings/me/all-time">Alltime</a></li>
-</ul>
-<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
 <li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
 <li><a href="statistics/grandtours">Grand tour statistics</a></li>
 <li><a href="statistics/monuments">Monument classics</a></li>
 <li><a href="teams/transfers">Latest transfers</a></li>
 <li><a href="favorite500">Favorite 500</a></li>
-</ul></li>
-<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+</ul></li><li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
 <li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
-</ul>
-<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+</ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0340s</span></li>
-</ul></li>
-</ul></div></div>
+<li><span>Pageload 0.0637s</span></li>
+</ul></li></ul></div></div>
 
-<script src="search_list21.js"></script>	<script>
-	var riderid = 117660;		$(document).ready(function() { 	RVC(riderid);  	  });
-	</script>
-	</body></html>
+<script src="search_list22.js"></script><script>
+var riderid = 117660;		$(document).ready(function() { 	RVC(riderid);  	  });
+</script>
+</body></html>

@@ -1,89 +1,89 @@
 {
   "birthdate": "1982-12-6",
   "height": 1.76,
-  "image_url": "images/riders/bp/da/alberto-contador-2017.jpg",
+  "image_url": "images/riders/bp/da/alberto-contador-2014.png",
   "name": "Alberto Contador",
   "nationality": "ES",
   "place_of_birth": "Pinto",
   "points_per_season_history": [
     {
       "season": 2017,
-      "points": 1708.0,
+      "points": 1708,
       "rank": 9
     },
     {
       "season": 2016,
-      "points": 1595.0,
+      "points": 1595,
       "rank": 8
     },
     {
       "season": 2015,
-      "points": 1546.0,
+      "points": 1546,
       "rank": 10
     },
     {
       "season": 2014,
-      "points": 2170.0,
+      "points": 2170,
       "rank": 2
     },
     {
       "season": 2013,
-      "points": 1248.0,
+      "points": 1248,
       "rank": 17
     },
     {
       "season": 2012,
-      "points": 1170.0,
+      "points": 1170,
       "rank": 18
     },
     {
       "season": 2011,
-      "points": 100.0,
+      "points": 100,
       "rank": 561
     },
     {
       "season": 2010,
-      "points": 1076.0,
+      "points": 1076,
       "rank": 22
     },
     {
       "season": 2009,
-      "points": 1941.0,
+      "points": 1941,
       "rank": 2
     },
     {
       "season": 2008,
-      "points": 2103.0,
+      "points": 2103,
       "rank": 2
     },
     {
       "season": 2007,
-      "points": 1601.0,
+      "points": 1601,
       "rank": 6
     },
     {
       "season": 2006,
-      "points": 593.0,
+      "points": 593,
       "rank": 70
     },
     {
       "season": 2005,
-      "points": 811.0,
+      "points": 811,
       "rank": 36
     },
     {
       "season": 2004,
-      "points": 121.0,
+      "points": 121,
       "rank": 462
     },
     {
       "season": 2003,
-      "points": 103.0,
+      "points": 103,
       "rank": 497
     },
     {
       "season": 2002,
-      "points": 6.0,
+      "points": 6,
       "rank": 1446
     }
   ],
@@ -91,8 +91,8 @@
     "one_day_races": 770,
     "gc": 11393,
     "time_trial": 6093,
-    "sprint": 102,
-    "climber": 8230,
+    "sprint": 133,
+    "climber": 9996,
     "hills": 2379
   },
   "season_results": [

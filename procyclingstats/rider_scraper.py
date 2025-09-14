@@ -38,7 +38,7 @@ class Rider(Scraper):
 
         :return: birthday of the rider in ``YYYY-MM-DD`` format.
         """
-        bd_node = self._get_rider_content_node().css_first("div > ul > li")
+        bd_node = self._get_rider_content_node().css("div > ul > li")[1]
         day_str = bd_node.css(".mr3")[0].text()
         day = "".join(c for c in day_str if c.isdigit())
         month_str = bd_node.css(".mr3")[1].text()
@@ -75,7 +75,8 @@ class Rider(Scraper):
         extra = 0
         if "Passed" in self._get_rider_content_node().text():
             extra = 1
-        weight_cont = self._get_rider_content_node().css("div > ul.list")[2 + extra]
+        weight_cont = self._get_rider_content_node().css_first(
+            f"div:nth-child({4 + extra}) > ul.list")
         weight_html = weight_cont.css("li .mr3")[0]
         return float(weight_html.text())
 
@@ -88,7 +89,8 @@ class Rider(Scraper):
         extra = 0
         if "Passed" in self._get_rider_content_node().text():
             extra = 1
-        height_cont = self._get_rider_content_node().css("div > ul.list")[2 + extra]
+        height_cont = self._get_rider_content_node().css_first(
+            f"div:nth-child({4 + extra}) > ul.list")
         height_html = height_cont.css("li > .mr3")[1]
         return float(height_html.text())
 

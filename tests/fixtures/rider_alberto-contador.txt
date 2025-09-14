@@ -16,13 +16,13 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v20.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v59.css">
+<script src="v3_scripts_v38.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v98.css">
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
-<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
-<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
 <div class="wrapper"><header>
@@ -79,15 +79,15 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=""><a class="menu" href="game.php">Game</a></li>
-<li class="tour yellow"><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">▼</span></a>
-<ul><li><a href="race/tour-de-france/2025/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
-<li><a href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
-<li><a href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
+<li class="vuelta red"><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">▼</span></a>
+<ul><li><a href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
 </ul></li>
 <li class=""><a class="menu" href="quiz.php">Quiz</a></li>
 <li class=""><a class="menu" href="riders.php">More<span class="more" href="">▼</span></a>
@@ -99,6 +99,10 @@
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro"><a class="menu" href="premium.php">Pro<span class="more" href="">▼</span></a>
+<ul><li><a href="">Dashboard</a></li>
+<li><a href="">Lists</a></li>
 </ul></li>
 <li class="account"><a class="menu" href="account.php">Account<span class="more" href="">▼</span></a>
 <ul><li><a href="account/overview">My account</a></li>
@@ -144,8 +148,13 @@
 <h4>Info</h4><div class="fs14"></div>
 </div>
 </div><div class="borderbox left w30 mr5"><div class="">
-<a href="rider/alberto-contador/statistics"><img src="images/riders/bp/da/alberto-contador-2017.jpg" style="width: 100%; "></a></div>
+<a href="rider/alberto-contador/statistics"><img src="images/riders/bp/da/alberto-contador-2014.png" style="width: 100%; "></a></div>
 </div><div class="borderbox left w65"><div class="">
+<ul class="list">
+<li class=""><div class="bold mr5">Name:</div><div class="mr10">Alberto  Contador Velasco</div></li>
+</ul>
+</div>
+<div class="">
 <ul class="list">
 <li class=""><div class="bold mr5">Date of birth:</div><div class="mr3">6th</div><div class="mr3">December</div><div class="mr3">1982</div><div>(</div><div>42</div><div>)</div></li>
 </ul>
@@ -173,8 +182,8 @@
 <li class=""><div class="xbar"><div class="valuebar"><div class="w7 bg green left"></div></div></div><div class="xvalue ac">770</div><div class="xtitle"><a href="rider/alberto-contador/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar"><div class="valuebar"><div class="w100 bg red left"></div></div></div><div class="xvalue ac">11393</div><div class="xtitle"><a href="rider/alberto-contador/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar"><div class="valuebar"><div class="w53 bg blue left"></div></div></div><div class="xvalue ac">6093</div><div class="xtitle"><a href="rider/alberto-contador/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar"><div class="valuebar"><div class="w1 bg orange left"></div></div></div><div class="xvalue ac">102</div><div class="xtitle"><a href="rider/alberto-contador/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar"><div class="valuebar"><div class="w72 bg purple left"></div></div></div><div class="xvalue ac">8230</div><div class="xtitle"><a href="rider/alberto-contador/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar"><div class="valuebar"><div class="w1 bg orange left"></div></div></div><div class="xvalue ac">133</div><div class="xtitle"><a href="rider/alberto-contador/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar"><div class="valuebar"><div class="w88 bg purple left"></div></div></div><div class="xvalue ac">9996</div><div class="xtitle"><a href="rider/alberto-contador/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar"><div class="valuebar"><div class="w21 bg pink left"></div></div></div><div class="xvalue ac">2379</div><div class="xtitle"><a href="rider/alberto-contador/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -199,7 +208,7 @@
 </div>
 <div class="mt5">
 <ul class="list">
-<li class=""><div class="bold mr5">Visits:</div><div class="mr5"><span class="delta-up">▲348</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5">Visits:</div><div class="mr5"><span class="delta-down">▼416</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -223,7 +232,7 @@
 <li><div class="nrs"><b>3x</b>&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-france/2007/stage-14">Tour de France</a><span class="clr777 fs11">&nbsp; ('09, '07)</span></div></li>
 <li><div class="nrs"><b>7x</b>&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/itzulia-basque-country/2005/stage-5b">Vuelta al País Vasco</a><span class="clr777 fs11">&nbsp; ('16, '14, '09, '08, '05)</span></div></li>
 <li><div class="nrs"><b>3x</b>&nbsp;<span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/vuelta-a-castilla-y-leon/2007/gc">Vuelta a Castilla y Leon</a><span class="clr777 fs11">&nbsp; ('10, '08, '07)</span></div></li>
-<li><div class="nrs"><b>2x</b>&nbsp;<span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/volta-ao-algarve/2009/gc">Volta ao Algarve</a><span class="clr777 fs11">&nbsp; ('10, '09)</span></div></li>
+<li><div class="nrs"><b>2x</b>&nbsp;<span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/volta-ao-algarve/2009/gc">Volta ao Algarve em Bicicleta</a><span class="clr777 fs11">&nbsp; ('10, '09)</span></div></li>
 <li><div class="nrs">&nbsp; <span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/setmana-catalana/2005/gc">Setmana Catalana</a><span class="clr777 fs11">&nbsp; ('05)</span></div></li>
 </ul></div>
 </div>
@@ -263,31 +272,14 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh">
-<div style="height: 20px; "></div><input type="hidden" id="riderid" value="137456"><input type="hidden" id="seo" value="alberto-contador"><input type="hidden" id="season" value="2017"><input type="hidden" id="sort" value="date"><input type="hidden" id="filter" value="all"><input type="hidden" id="discipline" value="pcs"><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2017" href="">2017</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132"><input type="hidden" id="riderid" value="137456"><input type="hidden" id="seo" value="alberto-contador"><input type="hidden" id="season" value="2017"><input type="hidden" id="sort" value="date"><input type="hidden" id="filter" value="all"><input type="hidden" id="discipline" value="pcs"><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2017" href="">2017</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2014" href="">2014</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2013" href="">2013</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2012" href="">2012</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2011" href="">2011</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2010" href="">2010</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2009" href="">2009</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2008" href="">2008</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2007" href="">2007</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2006" href="">2006</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2005" href="">2005</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2004" href="">2004</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2003" href="">2003</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2002" href="">2002</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2001" href="">2001</a></li>
-<li class="more"><span>more</span><ul><li><a class="rdrFilterSeason" data-season="2017" href="">2017</a></li>
-<li><a class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
-<li><a class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
-<li><a class="rdrFilterSeason" data-season="2014" href="">2014</a></li>
-<li><a class="rdrFilterSeason" data-season="2013" href="">2013</a></li>
-<li><a class="rdrFilterSeason" data-season="2012" href="">2012</a></li>
-<li><a class="rdrFilterSeason" data-season="2011" href="">2011</a></li>
-<li><a class="rdrFilterSeason" data-season="2010" href="">2010</a></li>
+<li class="more"><span>more</span><ul><li><a class="rdrFilterSeason" data-season="2010" href="">2010</a></li>
 <li><a class="rdrFilterSeason" data-season="2009" href="">2009</a></li>
 <li><a class="rdrFilterSeason" data-season="2008" href="">2008</a></li>
 <li><a class="rdrFilterSeason" data-season="2007" href="">2007</a></li>
@@ -461,25 +453,21 @@
 <div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
-</ul>
-<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+</ul><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
 <li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
-</ul></li>
-<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+</ul></li><li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
 <li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
-</ul>
-<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+</ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
 <li><a href="race/uec-road-european-championships">European Championships</a></li>
-</ul></li>
-<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+</ul></li><li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
@@ -491,8 +479,7 @@
 <li><a href="race/bretagne-classic">Bretagne Classic</a></li>
 <li><a href="race/gp-quebec">GP Québec</a></li>
 <li><a href="race/gp-montreal">GP Montréal</a></li>
-</ul></li>
-<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+</ul></li><li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
 <li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
@@ -504,35 +491,30 @@
 <li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
 <li><a href="rider/evita-muzic">Évita Muzic</a></li>
-</ul></li>
-<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+</ul></li><li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
 <li><a href="rankings/me/all-time">Alltime</a></li>
-</ul>
-<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
 <li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
 <li><a href="statistics/grandtours">Grand tour statistics</a></li>
 <li><a href="statistics/monuments">Monument classics</a></li>
 <li><a href="teams/transfers">Latest transfers</a></li>
 <li><a href="favorite500">Favorite 500</a></li>
-</ul></li>
-<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+</ul></li><li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
 <li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
-</ul>
-<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+</ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0552s</span></li>
-</ul></li>
-</ul></div></div>
+<li><span>Pageload 0.0633s</span></li>
+</ul></li></ul></div></div>
 
-<script src="search_list21.js"></script>	<script>
-	var riderid = 137456;		$(document).ready(function() { 	RVC(riderid);  	  });
-	</script>
-	</body></html>
+<script src="search_list22.js"></script><script>
+var riderid = 137456;		$(document).ready(function() { 	RVC(riderid);  	  });
+</script>
+</body></html>

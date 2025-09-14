@@ -675,7 +675,7 @@ class Stage(Scraper):
                     rider_name = tr_el.css_first("a").text()
                     table[-1]["rider_name"] = rider_name
                 if "pcs_points" in fields:
-                    pcs_points = tr_el.css_first("td.w10").text()
+                    pcs_points = tr_el.css_first("td.w7").text()
                     if not pcs_points:
                         pcs_points = 0
                     table[-1]["pcs_points"] = float(pcs_points)
