@@ -229,6 +229,28 @@ class TableParser:
         """
         return self._filter_a_elements("location", False)
 
+    def breakaway_kms(self) -> List[float]:
+        """
+        Parses breakaway kilometers for each rider during the whole stage.
+
+        :return: List breakaway kilometers.
+        """
+        kms = []
+        for element in self.html_table.css(".ridername"):
+            res = 0
+            try:
+                title = element.css_first("div[title~=peloton").attrs['title']
+                for i in range(1, len(title) + 1):
+                    try:
+                        float(title[:i])
+                        res = float(title[:i])
+                    except ValueError:
+                        break
+            except AttributeError:
+              pass
+            kms.append(res)
+        return kms
+
     def age(self) -> List[Optional[int]]:
         ages_elements = self.html_table.css(".age")
         return [int(age_e.text()) if age_e.text() else None

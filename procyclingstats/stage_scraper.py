@@ -274,6 +274,8 @@ class Stage(Scraper):
             - bonus: Bonus seconds in `H:MM:SS` time format.
             - pcs_points:
             - uci_points:
+            - breakaway_kms: How many kilometers has the rider been in
+                a group before the peloton during the stage.
 
         :raises ValueError: When one of args is of invalid value.
         :return: Table with wanted fields.
@@ -291,7 +293,8 @@ class Stage(Scraper):
             "time",
             "bonus",
             "pcs_points",
-            "uci_points"
+            "uci_points",
+            "breakaway_kms"
         )
         fields = parse_table_fields_args(args, available_fields)
         # parse TTT table
@@ -309,7 +312,7 @@ class Stage(Scraper):
                 table_parser.parse(extra_fields)
                 table = join_tables(table, table_parser.table, "rider_url", True)
             elif "nationality" in fields or "age" in fields or \
-                "rider_number" in fields:
+                "rider_number" in fields or "breakaway_kms" in fields:
                 for row in table:
                     if "nationality" in fields:
                         row['nationality'] = None
@@ -317,6 +320,10 @@ class Stage(Scraper):
                         row['age'] = None
                     if "rider_number" in fields:
                         row['rider_number'] = None
+            if "breakaway_kms" in fields:
+                for row in table:
+                    if "breakaway_kms" in fields:
+                        row['breakaway_kms'] = 0
             # remove rider_url from table if isn't needed
             if "rider_url" not in fields:
                 for row in table:
