@@ -6,3 +6,19 @@ __pycache__/
 TODO.txt
 docs/build/
 .venv/
+ 
+ # Jupyter
+ .ipynb_checkpoints/
+ 
+ # Packaging
+ build/
+ dist/
+ *.egg-info/
+ .eggs/
+ 
+ # Logs
+ *.log
+ 
+ # OS files
+ .DS_Store
+ Thumbs.db
