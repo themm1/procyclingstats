@@ -1,0 +1,8 @@
+venv/
+notebook.ipynb
+.vscode/
+__pycache__/
+.pytest_cache/
+TODO.txt
+docs/build/
+.venv/

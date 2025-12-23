@@ -1,0 +1,534 @@
+<!DOCTYPE html><html><head>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2MNJ20S7SJ');
+</script>
+<title>ProCyclingStats Top Race Ranking</title> 
+<base href="https://www.procyclingstats.com/rankings.php"> 
+<link rel="canonical" href="https://www.procyclingstats.com/rankings/me/races"> 
+<script>  var r89 = r89 || {      callAds: [],   pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }    };  </script>
+  <script async="" src="https://tags.refinery89.com/procyclingstats.js"></script><meta name="description" content="Tour de France had the best riders at the start in the past 12 months with a startlist quality score of 1711 points, followed by World Championships ME - Road Race (1479 points) and Liège-Bastogne-Liège (1073 points).">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="v3_scripts_v32.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v70.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
+<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico">
+</head>
+<body>
+<div class="wrapper"><header>
+<div class="cont">
+<a class="logo" href="index.php"></a>
+<div class="search"><form action="search.php" class="msearch"><input type="hidden" id="term"><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off"></form></div> 
+<div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
+<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<li class=""><a class="menu" href="index.php">Home</a></li>
+<li class=""><a class="menu" href="races.php">Races<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
+<li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
+<li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
+</ul></li>
+<li class=""><a class="menu" href="teams.php">Teams<span class="more" href="">▼</span></a>
+<ul><li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
+</ul></li>
+<li class=""><a class="menu" href="rankings.php">Rankings</a></li>
+<li class=""><a class="menu" href="statistics.php">Statistics<span class="more" href="">▼</span></a>
+<ul><li><a href="statistics">Overview</a></li>
+<li><a href="statistics/riders">Riders</a></li>
+<li><a href="statistics/teams">Teams</a></li>
+<li><a href="statistics/grandtours">Grand tours</a></li>
+</ul></li>
+<li class=""><a class="menu" href="game.php">Game</a></li>
+<li class="tour yellow"><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france/2025/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
+<li><a href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
+<li><a href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
+<li class=""><a class="menu" href="quiz.php">Quiz</a></li>
+<li class=""><a class="menu" href="riders.php">More<span class="more" href="">▼</span></a>
+<ul><li><a href="riders">Riders</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="account"><a class="menu" href="account.php">Account<span class="more" href="">▼</span></a>
+<ul><li><a href="account/overview">My account</a></li>
+<li><a href="account/follow-riders">My riders</a></li>
+</ul></li>
+<li class="small"><a class="menu" href="">Road<span class="more" href="">▼</span></a>
+<ul><li><a href="https://cx.procyclingstats.com">Cross</a></li>
+</ul></li>
+<li class="language small"><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
+<ul></ul></ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rankings/me">Men elite<span>▼</span></a><ul><li><a href="rankings/individual">Individual</a></li>
+<li><a href="rankings/teams">Teams</a></li>
+<li><a href="rankings/nations">Nations</a></li>
+<li><a href="rankings/races">Races</a></li>
+<li><a href="rankings/u23">U23</a></li>
+</ul></span>
+<span><a class="" href="rankings/we">Women elite<span>▼</span></a><ul><li><a href="rankings/we/individual">Individual</a></li>
+<li><a href="rankings/we/teams">Teams</a></li>
+<li><a href="rankings/we/nations">Nations</a></li>
+<li><a href="rankings/we/world-ranking">Individual</a></li>
+<li><a href="rankings/we/wwt">Women's World Tour (WWT)</a></li>
+<li><a href="rankings/we/uci-teams">Teams</a></li>
+<li><a href="rankings/we/promotion-relegation">2024-2025 Promotion/relegation</a></li>
+</ul></span>
+<span><a class="" href="rankings/mj">Junior men</a></span>
+<span><a class="" href="rankings/wj">Junior women</a></span>
+<span><a class="" href="rankings/national">National</a></span>
+</div><div class="clear"></div>
+
+<div class="titleCont hasSideNav"><div class="page-title"><div class="title"><h1>PCS Ranking</h1> </div><span class="arrow">»</span><div class="subtitle"><h2>Races</h2></div></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div>
+<div class="page-content ">
+<div class=""><div class="">
+<div class="fs14">Summation of points of riders starting in the race. The points per rider are based upon the riders position in the PCS ranking at that moment. A top-10 rider counts for 50 points, a top-25 rider 35 points and so on according to this scale: top10: 50, top25: 35, top50: 20, top100: 10, top200: 5, top500: 2, top1000: 1</div>
+</div>
+<div class="mt20">
+<form action="rankings.php"><input type="hidden" name="p" value="races">
+<input type="hidden" name="s" value="">
+<ul class="filter "><li class="" data-formtype="select" data-def=""><div class="label">Date</div>
+<div class="input">
+<span class="inputCont"><select name="date"><option value="2025-07-11">2025</option>
+<option value="2024-12-31">2024</option>
+<option value="2023-12-31">2023</option>
+<option value="2022-12-31">2022</option>
+<option value="2021-12-31">2021</option>
+<option value="2020-12-31">2020</option>
+<option value="2019-12-31">2019</option>
+<option value="2018-12-31">2018</option>
+<option value="2017-12-31">2017</option>
+<option value="2016-12-31">2016</option>
+<option value="2015-12-31">2015</option>
+<option value="2014-12-31">2014</option>
+<option value="2013-12-31">2013</option>
+<option value="2012-12-31">2012</option>
+<option value="2011-12-31">2011</option>
+<option value="2010-12-31">2010</option>
+<option value="2009-12-31">2009</option>
+<option value="2008-12-31">2008</option>
+<option value="2007-12-31">2007</option>
+<option value="2006-12-31">2006</option>
+<option value="2005-12-31">2005</option>
+<option value="2004-12-31">2004</option>
+<option value="2003-12-31">2003</option>
+<option value="2002-12-31">2002</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def=""><div class="label">Nation</div>
+<div class="input">
+<span class="inputCont"><select name="nation"><option value="" selected="">-</option>
+<option value="al">Albania</option>
+<option value="dz">Algeria</option>
+<option value="ad">Andorra</option>
+<option value="ao">Angola</option>
+<option value="ar">Argentina</option>
+<option value="au">Australia</option>
+<option value="at">Austria</option>
+<option value="az">Azerbaijan</option>
+<option value="by">Belarus</option>
+<option value="be">Belgium</option>
+<option value="bz">Belize</option>
+<option value="bm">Bermuda</option>
+<option value="bw">Botswana</option>
+<option value="br">Brazil</option>
+<option value="bg">Bulgaria</option>
+<option value="bf">Burkina Faso</option>
+<option value="cm">Cameroon</option>
+<option value="ca">Canada</option>
+<option value="cl">Chile</option>
+<option value="cn">China</option>
+<option value="co">Colombia</option>
+<option value="cr">Costa Rica</option>
+<option value="hr">Croatia</option>
+<option value="cu">Cuba</option>
+<option value="cw">Curaçao</option>
+<option value="cy">Cyprus</option>
+<option value="cz">Czech Republic</option>
+<option value="dk">Denmark</option>
+<option value="do">Dominican Republic</option>
+<option value="ec">Ecuador</option>
+<option value="sv">El Salvador</option>
+<option value="er">Eritrea</option>
+<option value="ee">Estonia</option>
+<option value="et">Ethiopia</option>
+<option value="fi">Finland</option>
+<option value="fr">France</option>
+<option value="ge">Georgia</option>
+<option value="de">Germany</option>
+<option value="gb">Great Britain</option>
+<option value="gr">Greece</option>
+<option value="gt">Guatemala</option>
+<option value="hk">Hongkong</option>
+<option value="hu">Hungary</option>
+<option value="in">India</option>
+<option value="id">Indonesia</option>
+<option value="ir">Iran</option>
+<option value="ie">Ireland</option>
+<option value="il">Israel</option>
+<option value="it">Italy</option>
+<option value="ci">Ivory Coast</option>
+<option value="jp">Japan</option>
+<option value="kz">Kazakhstan</option>
+<option value="ke">Kenya</option>
+<option value="xk">Kosovo</option>
+<option value="kw">Kuwait</option>
+<option value="la">Laos</option>
+<option value="lv">Latvia</option>
+<option value="lb">Lebanon</option>
+<option value="lt">Lithuania</option>
+<option value="lu">Luxembourg</option>
+<option value="my">Malaysia</option>
+<option value="mu">Mauritius</option>
+<option value="mx">Mexico</option>
+<option value="md">Moldova</option>
+<option value="mn">Mongolia</option>
+<option value="me">Montenegro</option>
+<option value="ma">Morocco</option>
+<option value="na">Namibia</option>
+<option value="nl">Netherlands</option>
+<option value="nz">New Zealand</option>
+<option value="mk">North Macedonia</option>
+<option value="no">Norway</option>
+<option value="pk">Pakistan</option>
+<option value="pa">Panama</option>
+<option value="ph">Philippines</option>
+<option value="pl">Poland</option>
+<option value="pt">Portugal</option>
+<option value="pr">Puerto Rico</option>
+<option value="ro">Romania</option>
+<option value="ru">Russia</option>
+<option value="rw">Rwanda</option>
+<option value="rs">Serbia</option>
+<option value="sg">Singapore</option>
+<option value="sk">Slovakia</option>
+<option value="si">Slovenia</option>
+<option value="za">South Africa</option>
+<option value="kr">South Korea</option>
+<option value="es">Spain</option>
+<option value="se">Sweden</option>
+<option value="ch">Switzerland</option>
+<option value="sy">Syria</option>
+<option value="tw">Taiwan</option>
+<option value="th">Thailand</option>
+<option value="tn">Tunisia</option>
+<option value="tr">Türkiye</option>
+<option value="ug">Uganda</option>
+<option value="ua">Ukraine</option>
+<option value="ae">United Arab Emirates</option>
+<option value="us">United States</option>
+<option value="uy">Uruguay</option>
+<option value="uz">Uzbekistan</option>
+<option value="ve">Venezuela</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def="0"><div class="label">Page</div>
+<div class="input">
+<span class="inputCont"><select name="offset"><option value="0" selected="">1-100</option>
+<option value="100">101-200</option>
+<option value="200">201-300</option>
+<option value="300">301-400</option>
+<option value="400">401-424</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def=""><div class="label">Continent</div>
+<div class="input">
+<span class="inputCont"><select name="continent"><option value="" selected="">-</option>
+<option value="EU">Europe</option>
+<option value="OC">Oceania</option>
+<option value="AS">Asia</option>
+<option value="NA">North America</option>
+<option value="AF">Africa</option>
+<option value="SA">South America</option>
+<option value="AN">Antarctica</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def=""><div class="label">Classification</div>
+<div class="input">
+<span class="inputCont"><select name="class"><option value="" selected="">-</option>
+<option value="1.1">1.1</option>
+<option value="1.2">1.2</option>
+<option value="1.2U">1.2U</option>
+<option value="1.Pro">1.Pro</option>
+<option value="1.UWT">1.UWT</option>
+<option value="2.1">2.1</option>
+<option value="2.2">2.2</option>
+<option value="2.2U">2.2U</option>
+<option value="2.Ncup">2.Ncup</option>
+<option value="2.Pro">2.Pro</option>
+<option value="2.UWT">2.UWT</option>
+<option value="CC">CC</option>
+<option value="NC">NC</option>
+<option value="Olympics">Olympics</option>
+<option value="WC">WC</option>
+</select></span></div></li>
+<input name="filter" type="submit" value="Filter"> <a class="fs10 blue clearPageFilter" href="">clear filter</a></ul></form></div>
+<div class="">
+<div class="fs10 ar">Last update: 2025-07-11 12:20:05</div>
+</div>
+<div class="mt20">
+<table class=" basic"><thead><tr>
+<th class="w8 ">#</th>
+<th class="w8 cu600 fs10">Prev.</th>
+<th class="w8 fs10">Diff.</th>
+<th class="w50 ">Race</th>
+<th class="w17 cu600">Class</th>
+<th class="w8 ">Points</th>
+</tr></thead><tbody>
+<tr class=""><td>1</td><td class="cu600 fs10">1</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag fr"></span> <a href="race/tour-de-france/2025">Tour de France</a></td><td class="cu600">2.UWT</td><td>1711</td></tr>
+<tr class=""><td>2</td><td class="cu600 fs10">2</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag ch"></span> <a href="race/world-championship/2024">World Championships ME - Road Race</a></td><td class="cu600">WC</td><td>1479</td></tr>
+<tr class=""><td>3</td><td class="cu600 fs10">3</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag be"></span> <a href="race/liege-bastogne-liege/2025">Liège-Bastogne-Liège</a></td><td class="cu600">1.UWT</td><td>1073</td></tr>
+<tr class=""><td>4</td><td class="cu600 fs10">13</td><td class="fs10"><span class="delta-up">▲9</span></td><td><span class="flag be"></span> <a href="race/la-fleche-wallonne/2025">La Flèche Wallonne</a></td><td class="cu600">1.UWT</td><td>1000</td></tr>
+<tr class=""><td>5</td><td class="cu600 fs10">6</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag it"></span> <a href="race/milano-sanremo/2025">Milano-Sanremo</a></td><td class="cu600">1.UWT</td><td>972</td></tr>
+<tr class=""><td>6</td><td class="cu600 fs10">3</td><td class="fs10"><span class="delta-down">▼3</span></td><td><span class="flag fr"></span> <a href="race/olympic-games/2024">Olympic Games ME - Road Race</a></td><td class="cu600">Olympics</td><td>964</td></tr>
+<tr class=""><td>7</td><td class="cu600 fs10">10</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag nl"></span> <a href="race/amstel-gold-race/2025">Amstel Gold Race</a></td><td class="cu600">1.UWT</td><td>954</td></tr>
+<tr class=""><td>8</td><td class="cu600 fs10">25</td><td class="fs10"><span class="delta-up">▲17</span></td><td><span class="flag it"></span> <a href="race/giro-d-italia/2025">Giro d'Italia</a></td><td class="cu600">2.UWT</td><td>946</td></tr>
+<tr class=""><td>9</td><td class="cu600 fs10">7</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag it"></span> <a href="race/tirreno-adriatico/2025">Tirreno-Adriatico</a></td><td class="cu600">2.UWT</td><td>918</td></tr>
+<tr class=""><td>10</td><td class="cu600 fs10">17</td><td class="fs10"><span class="delta-up">▲7</span></td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2024">La Vuelta Ciclista a España</a></td><td class="cu600">2.UWT</td><td>916</td></tr>
+<tr class=""><td>11</td><td class="cu600 fs10">3</td><td class="fs10"><span class="delta-down">▼8</span></td><td><span class="flag it"></span> <a href="race/il-lombardia/2024">Il Lombardia</a></td><td class="cu600">1.UWT</td><td>900</td></tr>
+<tr class=""><td>12</td><td class="cu600 fs10">8</td><td class="fs10"><span class="delta-down">▼4</span></td><td><span class="flag ca"></span> <a href="race/gp-quebec/2024">Grand Prix Cycliste de Québec</a></td><td class="cu600">1.UWT</td><td>884</td></tr>
+<tr class=""><td>13</td><td class="cu600 fs10">9</td><td class="fs10"><span class="delta-down">▼4</span></td><td><span class="flag ca"></span> <a href="race/gp-montreal/2024">Grand Prix Cycliste de Montréal</a></td><td class="cu600">1.UWT</td><td>869</td></tr>
+<tr class=""><td>14</td><td class="cu600 fs10">5</td><td class="fs10"><span class="delta-down">▼9</span></td><td><span class="flag fr"></span> <a href="race/paris-nice/2025">Paris-Nice</a></td><td class="cu600">2.UWT</td><td>868</td></tr>
+<tr class=""><td>15</td><td class="cu600 fs10">16</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag fr"></span> <a href="race/dauphine/2025">Critérium du Dauphiné</a></td><td class="cu600">2.UWT</td><td>837</td></tr>
+<tr class=""><td>16</td><td class="cu600 fs10">10</td><td class="fs10"><span class="delta-down">▼6</span></td><td><span class="flag it"></span> <a href="race/tre-valli-varesine/2024">Tre Valli Varesine</a></td><td class="cu600">1.Pro</td><td>831</td></tr>
+<tr class=""><td>17</td><td class="cu600 fs10">19</td><td class="fs10"><span class="delta-up">▲2</span></td><td><span class="flag be"></span> <a href="race/ronde-van-vlaanderen/2025">Ronde van Vlaanderen - Tour des Flandres ME</a></td><td class="cu600">1.UWT</td><td>829</td></tr>
+<tr class=""><td>18</td><td class="cu600 fs10">33</td><td class="fs10"><span class="delta-up">▲15</span></td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2025">Paris-Roubaix</a></td><td class="cu600">1.UWT</td><td>823</td></tr>
+<tr class=""><td>19</td><td class="cu600 fs10">23</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag be"></span> <a href="race/dwars-door-vlaanderen/2025">Dwars door Vlaanderen - A travers la Flandre ME</a></td><td class="cu600">1.UWT</td><td>809</td></tr>
+<tr class=""><td>20</td><td class="cu600 fs10">18</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag be"></span> <a href="race/gent-wevelgem/2025">Gent-Wevelgem in Flanders Fields ME</a></td><td class="cu600">1.UWT</td><td>806</td></tr>
+<tr class=""><td>21</td><td class="cu600 fs10">31</td><td class="fs10"><span class="delta-up">▲10</span></td><td><span class="flag be"></span> <a href="race/renewi-tour/2024">Renewi Tour</a></td><td class="cu600">2.UWT</td><td>732</td></tr>
+<tr class=""><td>22</td><td class="cu600 fs10">19</td><td class="fs10"><span class="delta-down">▼3</span></td><td><span class="flag it"></span> <a href="race/giro-dell-emilia/2024">Giro dell'Emilia</a></td><td class="cu600">1.Pro</td><td>725</td></tr>
+<tr class=""><td>23</td><td class="cu600 fs10">31</td><td class="fs10"><span class="delta-up">▲8</span></td><td><span class="flag be"></span> <a href="race/omloop-het-nieuwsblad/2025">Omloop Nieuwsblad ME</a></td><td class="cu600">1.UWT</td><td>718</td></tr>
+<tr class=""><td>24</td><td class="cu600 fs10">15</td><td class="fs10"><span class="delta-down">▼9</span></td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2025">Itzulia Basque Country</a></td><td class="cu600">2.UWT</td><td>717</td></tr>
+<tr class=""><td>25</td><td class="cu600 fs10">24</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag fr"></span> <a href="race/bretagne-classic/2024">Bretagne Classic - Ouest-France</a></td><td class="cu600">1.UWT</td><td>710</td></tr>
+<tr class=""><td>26</td><td class="cu600 fs10">20</td><td class="fs10"><span class="delta-down">▼6</span></td><td><span class="flag es"></span> <a href="race/san-sebastian/2024">Donostia San Sebastian Klasikoa</a></td><td class="cu600">1.UWT</td><td>709</td></tr>
+<tr class=""><td>27</td><td class="cu600 fs10">17</td><td class="fs10"><span class="delta-down">▼10</span></td><td><span class="flag it"></span> <a href="race/strade-bianche/2025">Strade Bianche</a></td><td class="cu600">1.UWT</td><td>709</td></tr>
+<tr class=""><td>28</td><td class="cu600 fs10">38</td><td class="fs10"><span class="delta-up">▲10</span></td><td><span class="flag de"></span> <a href="race/cyclassics-hamburg/2024">Cyclassics Hamburg</a></td><td class="cu600">1.UWT</td><td>703</td></tr>
+<tr class=""><td>29</td><td class="cu600 fs10">21</td><td class="fs10"><span class="delta-down">▼8</span></td><td><span class="flag be"></span> <a href="race/e3-harelbeke/2025">E3 Saxo Classic ME</a></td><td class="cu600">1.UWT</td><td>695</td></tr>
+<tr class=""><td>30</td><td class="cu600 fs10">34</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag be"></span> <a href="race/kuurne-brussel-kuurne/2025">Kuurne - Brussel - Kuurne</a></td><td class="cu600">1.Pro</td><td>694</td></tr>
+<tr class=""><td>31</td><td class="cu600 fs10">32</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag pt"></span> <a href="race/volta-ao-algarve/2025">Volta ao Algarve em Bicicleta</a></td><td class="cu600">2.Pro</td><td>647</td></tr>
+<tr class=""><td>32</td><td class="cu600 fs10">20</td><td class="fs10"><span class="delta-down">▼12</span></td><td><span class="flag ch"></span> <a href="race/tour-de-suisse/2025">Tour de Suisse</a></td><td class="cu600">2.UWT</td><td>642</td></tr>
+<tr class=""><td>33</td><td class="cu600 fs10">28</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2025">Volta Ciclista a Catalunya</a></td><td class="cu600">2.UWT</td><td>621</td></tr>
+<tr class=""><td>34</td><td class="cu600 fs10">40</td><td class="fs10"><span class="delta-up">▲6</span></td><td><span class="flag it"></span> <a href="race/coppa-bernocchi/2024">Coppa Bernocchi - GP Banco BPM</a></td><td class="cu600">1.Pro</td><td>601</td></tr>
+<tr class=""><td>35</td><td class="cu600 fs10">39</td><td class="fs10"><span class="delta-up">▲4</span></td><td><span class="flag pl"></span> <a href="race/tour-de-pologne/2024">Tour de Pologne</a></td><td class="cu600">2.UWT</td><td>595</td></tr>
+<tr class=""><td>36</td><td class="cu600 fs10">37</td><td class="fs10"><span class="delta-up">▲1</span></td><td><span class="flag ae"></span> <a href="race/uae-tour/2025">UAE Tour</a></td><td class="cu600">2.UWT</td><td>567</td></tr>
+<tr class=""><td>37</td><td class="cu600 fs10">47</td><td class="fs10"><span class="delta-up">▲10</span></td><td><span class="flag de"></span> <a href="race/eschborn-frankfurt/2025">Eschborn-Frankfurt</a></td><td class="cu600">1.UWT</td><td>545</td></tr>
+<tr class=""><td>38</td><td class="cu600 fs10">56</td><td class="fs10"><span class="delta-up">▲18</span></td><td><span class="flag fr"></span> <a href="race/la-drome-classic/2025">Faun Drome Classic</a></td><td class="cu600">1.Pro</td><td>536</td></tr>
+<tr class=""><td>39</td><td class="cu600 fs10">48</td><td class="fs10"><span class="delta-up">▲9</span></td><td><span class="flag fr"></span> <a href="race/faun-ardeche-classic/2025">Faun-Ardèche Classic</a></td><td class="cu600">1.Pro</td><td>512</td></tr>
+<tr class=""><td>40</td><td class="cu600 fs10">52</td><td class="fs10"><span class="delta-up">▲12</span></td><td><span class="flag be"></span> <a href="race/classic-brugge-de-panne/2025">Classic Brugge-De Panne ME</a></td><td class="cu600">1.UWT</td><td>510</td></tr>
+<tr class=""><td>41</td><td class="cu600 fs10">30</td><td class="fs10"><span class="delta-down">▼11</span></td><td><span class="flag ch"></span> <a href="race/tour-de-romandie/2025">Tour de Romandie</a></td><td class="cu600">2.UWT</td><td>500</td></tr>
+<tr class=""><td>42</td><td class="cu600 fs10">59</td><td class="fs10"><span class="delta-up">▲17</span></td><td><span class="flag es"></span> <a href="race/vuelta-a-la-comunidad-valenciana/2025">Volta a la Comunitat Valenciana</a></td><td class="cu600">2.Pro</td><td>499</td></tr>
+<tr class=""><td>43</td><td class="cu600 fs10">32</td><td class="fs10"><span class="delta-down">▼11</span></td><td><span class="flag be"></span> <a href="race/uec-road-european-championships/2024">European Continental Championships ME - Road Race</a></td><td class="cu600">CC</td><td>462</td></tr>
+<tr class=""><td>44</td><td class="cu600 fs10">44</td><td class="fs10"><span class="delta-equal">-</span></td><td><span class="flag be"></span> <a href="race/gp-impanis-van-petegem/2024">SUPER 8 Classic</a></td><td class="cu600">1.Pro</td><td>449</td></tr>
+<tr class=""><td>45</td><td class="cu600 fs10">61</td><td class="fs10"><span class="delta-up">▲16</span></td><td><span class="flag be"></span> <a href="race/gp-de-wallonie/2024">Grand Prix de Wallonie</a></td><td class="cu600">1.Pro</td><td>441</td></tr>
+<tr class=""><td>46</td><td class="cu600 fs10">59</td><td class="fs10"><span class="delta-up">▲13</span></td><td><span class="flag be"></span> <a href="race/memorial-frank-vandenbroucke/2024">Binche - Chimay - Binche / Mémorial Frank Vandenbroucke</a></td><td class="cu600">1.1</td><td>434</td></tr>
+<tr class=""><td>47</td><td class="cu600 fs10">30</td><td class="fs10"><span class="delta-down">▼17</span></td><td><span class="flag it"></span> <a href="race/gran-piemonte/2024">Gran Piemonte</a></td><td class="cu600">1.Pro</td><td>432</td></tr>
+<tr class=""><td>48</td><td class="cu600 fs10">43</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag fr"></span> <a href="race/paris-tours/2024">Paris - Tours Elite</a></td><td class="cu600">1.Pro</td><td>425</td></tr>
+<tr class=""><td>49</td><td class="cu600 fs10">36</td><td class="fs10"><span class="delta-down">▼13</span></td><td><span class="flag lu"></span> <a href="race/tour-de-luxembourg/2024">Skoda Tour de Luxembourg</a></td><td class="cu600">2.Pro</td><td>418</td></tr>
+<tr class=""><td>50</td><td class="cu600 fs10">60</td><td class="fs10"><span class="delta-up">▲10</span></td><td><span class="flag be"></span> <a href="race/brabantse-pijl/2025">De Brabantse Pijl - La Flèche Brabançonne ME</a></td><td class="cu600">1.Pro</td><td>398</td></tr>
+<tr class=""><td>51</td><td class="cu600 fs10">50</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag es"></span> <a href="race/gran-premio-miguel-indurain/2025">Gran Premio Miguel Indurain</a></td><td class="cu600">1.Pro</td><td>393</td></tr>
+<tr class=""><td>52</td><td class="cu600 fs10">39</td><td class="fs10"><span class="delta-down">▼13</span></td><td><span class="flag fr"></span> <a href="race/olympic-games-itt/2024">Olympic Games ME - ITT</a></td><td class="cu600">Olympics</td><td>389</td></tr>
+<tr class=""><td>53</td><td class="cu600 fs10">38</td><td class="fs10"><span class="delta-down">▼15</span></td><td><span class="flag be"></span> <a href="race/nc-belgium/2025">National Championships Belgium ME - Road Race</a></td><td class="cu600">NC</td><td>388</td></tr>
+<tr class=""><td>54</td><td class="cu600 fs10">83</td><td class="fs10"><span class="delta-up">▲29</span></td><td><span class="flag be"></span> <a href="race/kampioenschap-van-vlaanderen1/2024">Kampioenschap van Vlaanderen</a></td><td class="cu600">1.1</td><td>380</td></tr>
+<tr class=""><td>55</td><td class="cu600 fs10">84</td><td class="fs10"><span class="delta-up">▲29</span></td><td><span class="flag es"></span> <a href="race/deia-trophy/2025">Trofeo Serra Tramuntana</a></td><td class="cu600">1.1</td><td>368</td></tr>
+<tr class=""><td>56</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag dk"></span> <a href="race/copenhagen-sprint/2025">Copenhagen Sprint</a></td><td class="cu600">1.UWT</td><td>363</td></tr>
+<tr class=""><td>57</td><td class="cu600 fs10">64</td><td class="fs10"><span class="delta-up">▲7</span></td><td><span class="flag it"></span> <a href="race/coppa-agostoni/2024">Coppa Agostoni - Giro delle Brianze</a></td><td class="cu600">1.1</td><td>360</td></tr>
+<tr class=""><td>58</td><td class="cu600 fs10">54</td><td class="fs10"><span class="delta-down">▼4</span></td><td><span class="flag au"></span> <a href="race/tour-down-under/2025">Santos Tour Down Under</a></td><td class="cu600">2.UWT</td><td>359</td></tr>
+<tr class=""><td>59</td><td class="cu600 fs10">85</td><td class="fs10"><span class="delta-up">▲26</span></td><td><span class="flag fr"></span> <a href="race/etoile-de-besseges/2025">Etoile de Bessèges - Tour du Gard</a></td><td class="cu600">2.1</td><td>358</td></tr>
+<tr class=""><td>60</td><td class="cu600 fs10">63</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag be"></span> <a href="race/brussels-cycling-classic/2025">Brussels Cycling Classic</a></td><td class="cu600">1.Pro</td><td>356</td></tr>
+<tr class=""><td>61</td><td class="cu600 fs10">57</td><td class="fs10"><span class="delta-down">▼4</span></td><td><span class="flag de"></span> <a href="race/deutschland-tour/2024">Deutschland Tour</a></td><td class="cu600">2.Pro</td><td>341</td></tr>
+<tr class=""><td>62</td><td class="cu600 fs10">52</td><td class="fs10"><span class="delta-down">▼10</span></td><td><span class="flag de"></span> <a href="race/munsterland-giro/2024">Sparkassen Münsterland Giro</a></td><td class="cu600">1.Pro</td><td>336</td></tr>
+<tr class=""><td>63</td><td class="cu600 fs10">96</td><td class="fs10"><span class="delta-up">▲33</span></td><td><span class="flag be"></span> <a href="race/gooikse-pijl/2024">Alfasun Gooikse Pijl p/b Lotto</a></td><td class="cu600">1.1</td><td>331</td></tr>
+<tr class=""><td>64</td><td class="cu600 fs10">69</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag it"></span> <a href="race/milano-torino/2025">Milano - Torino</a></td><td class="cu600">1.Pro</td><td>322</td></tr>
+<tr class=""><td>65</td><td class="cu600 fs10">78</td><td class="fs10"><span class="delta-up">▲13</span></td><td><span class="flag fr"></span> <a href="race/tro-bro-leon/2025">Tro-Bro Léon</a></td><td class="cu600">1.Pro</td><td>317</td></tr>
+<tr class=""><td>66</td><td class="cu600 fs10">64</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag ch"></span> <a href="race/gp-du-canton-d-argovie/2025">GP Gippingen</a></td><td class="cu600">1.1</td><td>314</td></tr>
+<tr class=""><td>67</td><td class="cu600 fs10">75</td><td class="fs10"><span class="delta-up">▲8</span></td><td><span class="flag pt"></span> <a href="race/figueira-champions-classic/2025">Figueira Champions Classic</a></td><td class="cu600">1.Pro</td><td>314</td></tr>
+<tr class=""><td>68</td><td class="cu600 fs10">41</td><td class="fs10"><span class="delta-down">▼27</span></td><td><span class="flag be"></span> <a href="race/tour-of-belgium/2025">Baloise Belgium Tour</a></td><td class="cu600">2.Pro</td><td>311</td></tr>
+<tr class=""><td>69</td><td class="cu600 fs10">119</td><td class="fs10"><span class="delta-up">▲50</span></td><td><span class="flag es"></span> <a href="race/gp-de-valence/2025">Clàssica Comunitat Valenciana 1969 - Gran Premi València</a></td><td class="cu600">1.1</td><td>310</td></tr>
+<tr class=""><td>70</td><td class="cu600 fs10">365</td><td class="fs10"><span class="delta-up">▲295</span></td><td><span class="flag fr"></span> <a href="race/nc-france/2025">National Championships France ME - Road Race</a></td><td class="cu600">NC</td><td>303</td></tr>
+<tr class=""><td>71</td><td class="cu600 fs10">70</td><td class="fs10"><span class="delta-down">▼1</span></td><td><span class="flag cn"></span> <a href="race/tour-of-guangxi/2024">Gree-Tour of Guangxi</a></td><td class="cu600">2.UWT</td><td>302</td></tr>
+<tr class=""><td>72</td><td class="cu600 fs10">65</td><td class="fs10"><span class="delta-down">▼7</span></td><td><span class="flag it"></span> <a href="race/giro-del-veneto/2024">Giro del Veneto</a></td><td class="cu600">1.Pro</td><td>301</td></tr>
+<tr class=""><td>73</td><td class="cu600 fs10">83</td><td class="fs10"><span class="delta-up">▲10</span></td><td><span class="flag es"></span> <a href="race/ruta-del-sol/2025">Vuelta a Andalucia Ruta Ciclista Del Sol</a></td><td class="cu600">2.Pro</td><td>300</td></tr>
+<tr class=""><td>74</td><td class="cu600 fs10">115</td><td class="fs10"><span class="delta-up">▲41</span></td><td><span class="flag be"></span> <a href="race/antwerp-port-epic/2025">Antwerp Port Epic / Sels Trophy</a></td><td class="cu600">1.1</td><td>295</td></tr>
+<tr class=""><td>75</td><td class="cu600 fs10">73</td><td class="fs10"><span class="delta-down">▼2</span></td><td><span class="flag es"></span> <a href="race/trofeo-calvia/2025">Trofeo Calvià</a></td><td class="cu600">1.1</td><td>291</td></tr>
+<tr class=""><td>76</td><td class="cu600 fs10">67</td><td class="fs10"><span class="delta-down">▼9</span></td><td><span class="flag es"></span> <a href="race/trofeo-pollenca-port-d-andratx/2025">Trofeo Andratx - Pollença</a></td><td class="cu600">1.1</td><td>291</td></tr>
+<tr class=""><td>77</td><td class="cu600 fs10"></td><td class="fs10"><span class="delta-up">▲new</span></td><td><span class="flag fr"></span> <a href="race/classique-dunkerque/2025">Classique Dunkerque / Grand prix des Hauts de France</a></td><td class="cu600">1.Pro</td><td>291</td></tr>
+<tr class=""><td>78</td><td class="cu600 fs10">73</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag it"></span> <a href="race/veneto-classic/2024">Veneto Classic</a></td><td class="cu600">1.Pro</td><td>290</td></tr>
+<tr class=""><td>79</td><td class="cu600 fs10">84</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag it"></span> <a href="race/gp-citta-di-peccioli/2024">Gran Premio città di Peccioli - Coppa Sabatini</a></td><td class="cu600">1.Pro</td><td>287</td></tr>
+<tr class=""><td>80</td><td class="cu600 fs10">94</td><td class="fs10"><span class="delta-up">▲14</span></td><td><span class="flag om"></span> <a href="race/muscat-classic/2025">Muscat Classic</a></td><td class="cu600">1.1</td><td>287</td></tr>
+<tr class=""><td>81</td><td class="cu600 fs10">50</td><td class="fs10"><span class="delta-down">▼31</span></td><td><span class="flag ch"></span> <a href="race/world-championship-itt/2024">World Championships ME - ITT</a></td><td class="cu600">WC</td><td>285</td></tr>
+<tr class=""><td>82</td><td class="cu600 fs10">95</td><td class="fs10"><span class="delta-up">▲13</span></td><td><span class="flag om"></span> <a href="race/tour-of-oman/2025">Tour of Oman</a></td><td class="cu600">2.Pro</td><td>285</td></tr>
+<tr class=""><td>83</td><td class="cu600 fs10">90</td><td class="fs10"><span class="delta-up">▲7</span></td><td><span class="flag fr"></span> <a href="race/gp-de-plumelec/2025">Grand Prix du Morbihan</a></td><td class="cu600">1.Pro</td><td>285</td></tr>
+<tr class=""><td>84</td><td class="cu600 fs10">55</td><td class="fs10"><span class="delta-down">▼29</span></td><td><span class="flag be"></span> <a href="race/scheldeprijs/2025">Scheldeprijs ME</a></td><td class="cu600">1.Pro</td><td>282</td></tr>
+<tr class=""><td>85</td><td class="cu600 fs10">123</td><td class="fs10"><span class="delta-up">▲38</span></td><td><span class="flag be"></span> <a href="race/dwars-door-het-hageland/2025">Duracell Dwars door het Hageland</a></td><td class="cu600">1.Pro</td><td>272</td></tr>
+<tr class=""><td>86</td><td class="cu600 fs10">89</td><td class="fs10"><span class="delta-up">▲3</span></td><td><span class="flag it"></span> <a href="race/memorial-marco-pantani/2024">Memorial Marco Pantani</a></td><td class="cu600">1.1</td><td>271</td></tr>
+<tr class=""><td>87</td><td class="cu600 fs10">101</td><td class="fs10"><span class="delta-up">▲14</span></td><td><span class="flag au"></span> <a href="race/race-torquay/2025">Surf Coast Classic - Men</a></td><td class="cu600">1.1</td><td>269</td></tr>
+<tr class=""><td>88</td><td class="cu600 fs10">68</td><td class="fs10"><span class="delta-down">▼20</span></td><td><span class="flag it"></span> <a href="race/trofeo-laigueglia/2025">Trofeo Laigueglia</a></td><td class="cu600">1.Pro</td><td>269</td></tr>
+<tr class=""><td>89</td><td class="cu600 fs10">103</td><td class="fs10"><span class="delta-up">▲14</span></td><td><span class="flag au"></span> <a href="race/great-ocean-road-race/2025">Cadel Evans Great Ocean Road Race - Men</a></td><td class="cu600">1.UWT</td><td>266</td></tr>
+<tr class=""><td>90</td><td class="cu600 fs10">108</td><td class="fs10"><span class="delta-up">▲18</span></td><td><span class="flag fr"></span> <a href="race/classic-var/2025">Classic Var</a></td><td class="cu600">1.1</td><td>266</td></tr>
+<tr class=""><td>91</td><td class="cu600 fs10">106</td><td class="fs10"><span class="delta-up">▲15</span></td><td><span class="flag es"></span> <a href="race/trofeo-ses-salines-felanitx/2025">Trofeo Ses Salines</a></td><td class="cu600">1.1</td><td>265</td></tr>
+<tr class=""><td>92</td><td class="cu600 fs10">54</td><td class="fs10"><span class="delta-down">▼38</span></td><td><span class="flag be"></span> <a href="race/circuit-franco-belge/2024">Circuit Franco-Belge</a></td><td class="cu600">1.Pro</td><td>264</td></tr>
+<tr class=""><td>93</td><td class="cu600 fs10">118</td><td class="fs10"><span class="delta-up">▲25</span></td><td><span class="flag fr"></span> <a href="race/tour-des-alpes-maritimes-et-du-var/2025">Tour des Alpes-Maritimes</a></td><td class="cu600">2.1</td><td>263</td></tr>
+<tr class=""><td>94</td><td class="cu600 fs10">111</td><td class="fs10"><span class="delta-up">▲17</span></td><td><span class="flag be"></span> <a href="race/gp-samyn/2025">Ename Samyn Classic</a></td><td class="cu600">1.1</td><td>257</td></tr>
+<tr class=""><td>95</td><td class="cu600 fs10">125</td><td class="fs10"><span class="delta-up">▲30</span></td><td><span class="flag es"></span> <a href="race/ruta-de-la-ceramica-gran-premio-castellon/2025">Gran Premio Castellón - Ruta de la Cerámica</a></td><td class="cu600">1.1</td><td>246</td></tr>
+<tr class=""><td>96</td><td class="cu600 fs10">72</td><td class="fs10"><span class="delta-down">▼24</span></td><td><span class="flag be"></span> <a href="race/nokere-koerse/2025">Danilith Nokere Koerse</a></td><td class="cu600">1.Pro</td><td>242</td></tr>
+<tr class=""><td>97</td><td class="cu600 fs10">102</td><td class="fs10"><span class="delta-up">▲5</span></td><td><span class="flag fr"></span> <a href="race/gp-de-denain/2025">Grand Prix de Denain - Porte du Hainaut</a></td><td class="cu600">1.Pro</td><td>242</td></tr>
+<tr class=""><td>98</td><td class="cu600 fs10">93</td><td class="fs10"><span class="delta-down">▼5</span></td><td><span class="flag be"></span> <a href="race/tour-de-wallonie/2024">Ethias-Tour de Wallonie</a></td><td class="cu600">2.Pro</td><td>241</td></tr>
+<tr class=""><td>99</td><td class="cu600 fs10">161</td><td class="fs10"><span class="delta-up">▲62</span></td><td><span class="flag it"></span> <a href="race/gp-industria-artigianato/2024">GP Industria &amp; Artigianato</a></td><td class="cu600">1.Pro</td><td>241</td></tr>
+<tr class=""><td>100</td><td class="cu600 fs10">110</td><td class="fs10"><span class="delta-up">▲10</span></td><td><span class="flag es"></span> <a href="race/trofeo-palma/2025">Trofeo Palma</a></td><td class="cu600">1.1</td><td>238</td></tr>
+</tbody></table></div>
+</div></div>
+<div class="side-nav  ">
+<a class="backToContent blue fs11 right showIfMobile" href="">back to content</a><div class="clear"></div>
+<ul class="sidenav"><li><div class="sidenavTitle">PCS Ranking</div><ul><li class="" data-pro="0"><a href="rankings/individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/nations">Nations</a></li>
+<li class="cur" data-pro="0"><a href="rankings/races">Races</a></li>
+<li class="" data-pro="0"><a href="rankings/all-time">All time</a></li>
+</ul></li><li><div class="sidenavTitle">PCS Season</div><ul><li class="" data-pro="0"><a href="rankings/season-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/season-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/season-nations">Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/distance">Distance</a></li>
+<li class="" data-pro="0"><a href="rankings/racedays">Racedays</a></li>
+<li class="" data-pro="0"><a href="rankings/u23">U23</a></li>
+<li class="" data-pro="0"><a href="rankings/u23-nations">U23 Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/team-total">Team total</a></li>
+</ul></li><li><div class="sidenavTitle">PCS Wins</div><ul><li class="" data-pro="0"><a href="rankings/wins-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-individual-pro">Professional wins</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/wins-nations">Nations</a></li>
+</ul></li><li><div class="sidenavTitle">UCI World Ranking</div><ul><li class="" data-pro="0"><a href="rankings/uci-individual">Individual</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-individual-daily">Individual (daily)</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-teams">Teams</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-nations">Nations</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-one-day-races">One day races</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-season-individual">Season individual</a></li>
+<li class="" data-pro="0"><a href="rankings/uci-nations-olympic-selection">Nations (Olympic selection)</a></li>
+<li class="" data-pro="0"><a href="rankings/ranking-2023-2025">Ranking 2023-2025</a></li>
+</ul></li><li><div class="sidenavTitle">Rider specialties</div><ul><li class="" data-pro="0"><a href="rankings/climbers">Climbers</a></li>
+<li class="" data-pro="0"><a href="rankings/hills">Hills</a></li>
+<li class="" data-pro="0"><a href="rankings/gc-ranking">GC Ranking</a></li>
+<li class="" data-pro="0"><a href="rankings/one-day-races">One day races</a></li>
+<li class="" data-pro="0"><a href="rankings/sprinters">Sprinters</a></li>
+<li class="" data-pro="0"><a href="rankings/time-trial">Time trial</a></li>
+<li class="" data-pro="0"><a href="rankings/prologues">Prologues</a></li>
+</ul></li></ul></div>
+<div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
+</ul>
+<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
+<li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
+<li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
+</ul></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul>
+<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
+<li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
+</ul></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul>
+<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
+</ul></li>
+<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+<li><a href="info/profile-score-explained">Profile scores</a></li>
+<li><a href="reset_password.php">Reset password</a></li>
+<li><a href="info/pcs-game">PCS game</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
+</ul>
+<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/cookie-policy">Cookie policy</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/contributions">Contributions</a></li>
+<li><span>Pageload 0.0678s</span></li>
+</ul></li>
+</ul></div></div>
+
+<script src="search_list21.js"></script></body></html>

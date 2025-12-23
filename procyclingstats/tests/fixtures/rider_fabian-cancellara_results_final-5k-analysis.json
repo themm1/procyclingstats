@@ -1,0 +1,301 @@
+{
+  "categories_select": null,
+  "final_n_km_results": [
+    {
+      "date": "2016-04-03",
+      "rank": 2,
+      "stage_url": "race/ronde-van-vlaanderen/2016/result",
+      "stage_name": "Ronde van Vlaanderen / Tour des Flandres ME",
+      "nationality": "BE",
+      "class": "1.UWT",
+      "vertical_meters": 2,
+      "average_percentage": 0.0
+    },
+    {
+      "date": "2016-03-05",
+      "rank": 1,
+      "stage_url": "race/strade-bianche/2016/result",
+      "stage_name": "Strade Bianche",
+      "nationality": "IT",
+      "class": "1.HC",
+      "vertical_meters": 83,
+      "average_percentage": 1.7
+    },
+    {
+      "date": "2015-07-05",
+      "rank": 3,
+      "stage_url": "race/tour-de-france/2015/stage-2",
+      "stage_name": "Tour de France | Stage 2",
+      "nationality": "FR",
+      "class": "2.UWT",
+      "vertical_meters": 26,
+      "average_percentage": 0.5
+    },
+    {
+      "date": "2014-09-10",
+      "rank": 3,
+      "stage_url": "race/vuelta-a-espana/2014/stage-17",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 17",
+      "nationality": "ES",
+      "class": "2.UWT",
+      "vertical_meters": 28,
+      "average_percentage": 0.6
+    },
+    {
+      "date": "2014-07-13",
+      "rank": 2,
+      "stage_url": "race/tour-de-france/2014/stage-9",
+      "stage_name": "Tour de France | Stage 9",
+      "nationality": "FR",
+      "class": "2.UWT",
+      "vertical_meters": 4,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2014-04-13",
+      "rank": 3,
+      "stage_url": "race/paris-roubaix/2014/result",
+      "stage_name": "Paris - Roubaix",
+      "nationality": "FR",
+      "class": "1.UWT",
+      "vertical_meters": 21,
+      "average_percentage": 0.4
+    },
+    {
+      "date": "2014-04-06",
+      "rank": 1,
+      "stage_url": "race/ronde-van-vlaanderen/2014/result",
+      "stage_name": "Ronde van Vlaanderen / Tour des Flandres ME",
+      "nationality": "BE",
+      "class": "1.UWT",
+      "vertical_meters": 4,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2014-03-23",
+      "rank": 2,
+      "stage_url": "race/milano-sanremo/2014/result",
+      "stage_name": "Milano-Sanremo",
+      "nationality": "IT",
+      "class": "1.UWT",
+      "vertical_meters": 4,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2013-08-29",
+      "rank": 3,
+      "stage_url": "race/vuelta-a-espana/2013/stage-6",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 6",
+      "nationality": "ES",
+      "class": "WT",
+      "vertical_meters": 60,
+      "average_percentage": 1.2
+    },
+    {
+      "date": "2013-08-27",
+      "rank": 2,
+      "stage_url": "race/vuelta-a-espana/2013/stage-4",
+      "stage_name": "Vuelta a Espa\u00f1a | Stage 4",
+      "nationality": "ES",
+      "class": "WT",
+      "vertical_meters": 114,
+      "average_percentage": 2.3
+    },
+    {
+      "date": "2013-04-07",
+      "rank": 1,
+      "stage_url": "race/paris-roubaix/2013/result",
+      "stage_name": "Paris - Roubaix",
+      "nationality": "FR",
+      "class": "WT",
+      "vertical_meters": 0,
+      "average_percentage": 0.0
+    },
+    {
+      "date": "2013-03-31",
+      "rank": 1,
+      "stage_url": "race/ronde-van-vlaanderen/2013/result",
+      "stage_name": "Ronde van Vlaanderen / Tour des Flandres ME",
+      "nationality": "BE",
+      "class": "WT",
+      "vertical_meters": 7,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2013-03-22",
+      "rank": 1,
+      "stage_url": "race/e3-harelbeke/2013/result",
+      "stage_name": "E3 Prijs Vlaanderen - Harelbeke",
+      "nationality": "BE",
+      "class": "WT",
+      "vertical_meters": 3,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2013-03-17",
+      "rank": 3,
+      "stage_url": "race/milano-sanremo/2013/result",
+      "stage_name": "Milano-Sanremo",
+      "nationality": "IT",
+      "class": "WT",
+      "vertical_meters": 39,
+      "average_percentage": 0.8
+    },
+    {
+      "date": "2012-07-01",
+      "rank": 2,
+      "stage_url": "race/tour-de-france/2012/stage-1",
+      "stage_name": "Tour de France | Stage 1",
+      "nationality": "FR",
+      "class": "WT",
+      "vertical_meters": 172,
+      "average_percentage": 3.4
+    },
+    {
+      "date": "2012-03-17",
+      "rank": 2,
+      "stage_url": "race/milano-sanremo/2012/result",
+      "stage_name": "Milano-Sanremo",
+      "nationality": "IT",
+      "class": "WT",
+      "vertical_meters": 3,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2012-03-03",
+      "rank": 1,
+      "stage_url": "race/strade-bianche/2012/result",
+      "stage_name": "Montepaschi Strade Bianche - Eroica Toscana",
+      "nationality": "IT",
+      "class": "1.1",
+      "vertical_meters": 83,
+      "average_percentage": 1.7
+    },
+    {
+      "date": "2011-04-10",
+      "rank": 2,
+      "stage_url": "race/paris-roubaix/2011/result",
+      "stage_name": "Paris - Roubaix",
+      "nationality": "FR",
+      "class": "WT",
+      "vertical_meters": 6,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2011-04-03",
+      "rank": 3,
+      "stage_url": "race/ronde-van-vlaanderen/2011/result",
+      "stage_name": "Ronde van Vlaanderen / Tour des Flandres ME",
+      "nationality": "BE",
+      "class": "WT",
+      "vertical_meters": 5,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2011-03-19",
+      "rank": 2,
+      "stage_url": "race/milano-sanremo/2011/result",
+      "stage_name": "Milano-Sanremo",
+      "nationality": "IT",
+      "class": "WT",
+      "vertical_meters": 3,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2010-04-11",
+      "rank": 1,
+      "stage_url": "race/paris-roubaix/2010/result",
+      "stage_name": "Paris - Roubaix",
+      "nationality": "FR",
+      "class": "1.HC",
+      "vertical_meters": 8,
+      "average_percentage": 0.2
+    },
+    {
+      "date": "2010-04-04",
+      "rank": 1,
+      "stage_url": "race/ronde-van-vlaanderen/2010/result",
+      "stage_name": "Ronde van Vlaanderen / Tour des Flandres ME",
+      "nationality": "BE",
+      "class": "PT",
+      "vertical_meters": 5,
+      "average_percentage": 0.1
+    },
+    {
+      "date": "2008-08-09",
+      "rank": 2,
+      "stage_url": "race/olympic-games/2008/result",
+      "stage_name": "Olympic Games Road Race",
+      "nationality": "CN",
+      "class": "Olympics",
+      "vertical_meters": 534,
+      "average_percentage": 10.7
+    },
+    {
+      "date": "2008-04-13",
+      "rank": 2,
+      "stage_url": "race/paris-roubaix/2008/result",
+      "stage_name": "Paris - Roubaix",
+      "nationality": "FR",
+      "class": "1.HC",
+      "vertical_meters": 8,
+      "average_percentage": 0.2
+    },
+    {
+      "date": "2008-03-08",
+      "rank": 1,
+      "stage_url": "race/strade-bianche/2008/result",
+      "stage_name": "Monte Paschi Eroica",
+      "nationality": "IT",
+      "class": "1.1",
+      "vertical_meters": 103,
+      "average_percentage": 2.1
+    },
+    {
+      "date": "2007-07-19",
+      "rank": 2,
+      "stage_url": "race/tour-de-france/2007/stage-11",
+      "stage_name": "Tour de France | Stage 11",
+      "nationality": "FR",
+      "class": "2.PT",
+      "vertical_meters": 14,
+      "average_percentage": 0.3
+    },
+    {
+      "date": "2007-07-10",
+      "rank": 1,
+      "stage_url": "race/tour-de-france/2007/stage-3",
+      "stage_name": "Tour de France | Stage 3",
+      "nationality": "FR",
+      "class": "2.PT",
+      "vertical_meters": 15,
+      "average_percentage": 0.3
+    },
+    {
+      "date": "2006-04-09",
+      "rank": 1,
+      "stage_url": "race/paris-roubaix/2006/result",
+      "stage_name": "Paris - Roubaix",
+      "nationality": "FR",
+      "class": "1.PT",
+      "vertical_meters": 22,
+      "average_percentage": 0.4
+    },
+    {
+      "date": "2005-07-24",
+      "rank": 3,
+      "stage_url": "race/tour-de-france/2005/stage-21",
+      "stage_name": "Tour de France | Stage 21",
+      "nationality": "FR",
+      "class": "2.PT",
+      "vertical_meters": 25,
+      "average_percentage": 0.5
+    }
+  ],
+  "nations_select": null,
+  "pages_select": null,
+  "races_select": null,
+  "results": null,
+  "seasons_select": null,
+  "stage_types_select": null
+}

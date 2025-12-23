@@ -3,14 +3,13 @@ from pprint import pprint
 from procyclingstats import Race, RaceClimbs, Stage
 
 # RACE_URL can be replaced with any valid stage race URL
-RACE_URL = "/race/itzulia-basque-country/2025"
+RACE_URL = "race/tour-de-france/2022"
 race = Race(f"{RACE_URL}/overview")
 race_climbs = RaceClimbs(f"{RACE_URL}/route/climbs")
 
 stages = race.stages()
 climbs_table = race_climbs.climbs()
 # make dict to access climbs by their URLs
-print("Climbs grouped by stages:"+str(climbs_table))
 climbs = {climb['climb_url']: climb for climb in climbs_table}
 
 stages_climbs = {}

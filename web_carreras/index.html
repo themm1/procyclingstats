@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycling Race Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">🚴 Cycling Race Viewer</h1>
+                <p class="subtitle">Explore race results and statistics</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="controls-card">
+                <div class="control-group">
+                    <label for="race-select" class="control-label">Select Race</label>
+                    <select id="race-select" class="race-select">
+                        <option value="">Loading races...</option>
+                    </select>
+                </div>
+                <button id="load-button" class="load-button" disabled>
+                    <span class="button-text">Load Results</span>
+                    <span class="button-icon">→</span>
+                </button>
+            </div>
+
+            <div class="results-section">
+                <div id="loading" class="loading hidden">
+                    <div class="spinner"></div>
+                    <p>Loading results...</p>
+                </div>
+
+                <div id="error" class="error-message hidden">
+                    <span class="error-icon">⚠️</span>
+                    <p id="error-text"></p>
+                </div>
+
+                <div id="results-container" class="results-container hidden">
+                    <div class="results-header">
+                        <div>
+                            <h2 id="results-title">Race Results</h2>
+                            <p id="results-subtitle" class="results-subtitle"></p>
+                        </div>
+                        <span id="results-count" class="results-count"></span>
+                    </div>
+
+                    <div class="summary-cards" id="summary-cards"></div>
+
+                    <div class="table-wrapper">
+                        <div class="table-info">
+                            <input type="text" id="search-input" class="search-input" placeholder="🔍 Search in results...">
+                            <select id="sort-select" class="sort-select">
+                                <option value="">Sort by...</option>
+                            </select>
+                        </div>
+                        <table id="results-table" class="results-table">
+                            <thead id="table-head"></thead>
+                            <tbody id="table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="empty-state" class="empty-state">
+                    <div class="empty-icon">🏁</div>
+                    <h3>No Results Yet</h3>
+                    <p>Select a race and click "Load Results" to view data</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

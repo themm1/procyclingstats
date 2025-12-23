@@ -1,0 +1,1448 @@
+{
+  "dates_select": [
+    {
+      "text": "2025",
+      "value": "2025-07-11"
+    },
+    {
+      "text": "2024",
+      "value": "2024-12-31"
+    },
+    {
+      "text": "2023",
+      "value": "2023-12-31"
+    },
+    {
+      "text": "2022",
+      "value": "2022-12-31"
+    },
+    {
+      "text": "2021",
+      "value": "2021-12-31"
+    },
+    {
+      "text": "2020",
+      "value": "2020-12-31"
+    },
+    {
+      "text": "2019",
+      "value": "2019-12-31"
+    },
+    {
+      "text": "2018",
+      "value": "2018-12-31"
+    },
+    {
+      "text": "2017",
+      "value": "2017-12-31"
+    },
+    {
+      "text": "2016",
+      "value": "2016-12-31"
+    },
+    {
+      "text": "2015",
+      "value": "2015-12-31"
+    },
+    {
+      "text": "2014",
+      "value": "2014-12-31"
+    },
+    {
+      "text": "2013",
+      "value": "2013-12-31"
+    },
+    {
+      "text": "2012",
+      "value": "2012-12-31"
+    },
+    {
+      "text": "2011",
+      "value": "2011-12-31"
+    },
+    {
+      "text": "2010",
+      "value": "2010-12-31"
+    },
+    {
+      "text": "2009",
+      "value": "2009-12-31"
+    },
+    {
+      "text": "2008",
+      "value": "2008-12-31"
+    },
+    {
+      "text": "2007",
+      "value": "2007-12-31"
+    },
+    {
+      "text": "2006",
+      "value": "2006-12-31"
+    },
+    {
+      "text": "2005",
+      "value": "2005-12-31"
+    },
+    {
+      "text": "2004",
+      "value": "2004-12-31"
+    },
+    {
+      "text": "2003",
+      "value": "2003-12-31"
+    },
+    {
+      "text": "2002",
+      "value": "2002-12-31"
+    }
+  ],
+  "distance_ranking": null,
+  "individual_ranking": null,
+  "individual_wins_ranking": null,
+  "nations_ranking": null,
+  "nations_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "Albania",
+      "value": "al"
+    },
+    {
+      "text": "Algeria",
+      "value": "dz"
+    },
+    {
+      "text": "Andorra",
+      "value": "ad"
+    },
+    {
+      "text": "Angola",
+      "value": "ao"
+    },
+    {
+      "text": "Argentina",
+      "value": "ar"
+    },
+    {
+      "text": "Australia",
+      "value": "au"
+    },
+    {
+      "text": "Austria",
+      "value": "at"
+    },
+    {
+      "text": "Azerbaijan",
+      "value": "az"
+    },
+    {
+      "text": "Belarus",
+      "value": "by"
+    },
+    {
+      "text": "Belgium",
+      "value": "be"
+    },
+    {
+      "text": "Belize",
+      "value": "bz"
+    },
+    {
+      "text": "Bermuda",
+      "value": "bm"
+    },
+    {
+      "text": "Botswana",
+      "value": "bw"
+    },
+    {
+      "text": "Brazil",
+      "value": "br"
+    },
+    {
+      "text": "Bulgaria",
+      "value": "bg"
+    },
+    {
+      "text": "Burkina Faso",
+      "value": "bf"
+    },
+    {
+      "text": "Cameroon",
+      "value": "cm"
+    },
+    {
+      "text": "Canada",
+      "value": "ca"
+    },
+    {
+      "text": "Chile",
+      "value": "cl"
+    },
+    {
+      "text": "China",
+      "value": "cn"
+    },
+    {
+      "text": "Colombia",
+      "value": "co"
+    },
+    {
+      "text": "Costa Rica",
+      "value": "cr"
+    },
+    {
+      "text": "Croatia",
+      "value": "hr"
+    },
+    {
+      "text": "Cuba",
+      "value": "cu"
+    },
+    {
+      "text": "Cura\u00e7ao",
+      "value": "cw"
+    },
+    {
+      "text": "Cyprus",
+      "value": "cy"
+    },
+    {
+      "text": "Czech Republic",
+      "value": "cz"
+    },
+    {
+      "text": "Denmark",
+      "value": "dk"
+    },
+    {
+      "text": "Dominican Republic",
+      "value": "do"
+    },
+    {
+      "text": "Ecuador",
+      "value": "ec"
+    },
+    {
+      "text": "El Salvador",
+      "value": "sv"
+    },
+    {
+      "text": "Eritrea",
+      "value": "er"
+    },
+    {
+      "text": "Estonia",
+      "value": "ee"
+    },
+    {
+      "text": "Ethiopia",
+      "value": "et"
+    },
+    {
+      "text": "Finland",
+      "value": "fi"
+    },
+    {
+      "text": "France",
+      "value": "fr"
+    },
+    {
+      "text": "Georgia",
+      "value": "ge"
+    },
+    {
+      "text": "Germany",
+      "value": "de"
+    },
+    {
+      "text": "Great Britain",
+      "value": "gb"
+    },
+    {
+      "text": "Greece",
+      "value": "gr"
+    },
+    {
+      "text": "Guatemala",
+      "value": "gt"
+    },
+    {
+      "text": "Hongkong",
+      "value": "hk"
+    },
+    {
+      "text": "Hungary",
+      "value": "hu"
+    },
+    {
+      "text": "India",
+      "value": "in"
+    },
+    {
+      "text": "Indonesia",
+      "value": "id"
+    },
+    {
+      "text": "Iran",
+      "value": "ir"
+    },
+    {
+      "text": "Ireland",
+      "value": "ie"
+    },
+    {
+      "text": "Israel",
+      "value": "il"
+    },
+    {
+      "text": "Italy",
+      "value": "it"
+    },
+    {
+      "text": "Ivory Coast",
+      "value": "ci"
+    },
+    {
+      "text": "Japan",
+      "value": "jp"
+    },
+    {
+      "text": "Kazakhstan",
+      "value": "kz"
+    },
+    {
+      "text": "Kenya",
+      "value": "ke"
+    },
+    {
+      "text": "Kosovo",
+      "value": "xk"
+    },
+    {
+      "text": "Kuwait",
+      "value": "kw"
+    },
+    {
+      "text": "Laos",
+      "value": "la"
+    },
+    {
+      "text": "Latvia",
+      "value": "lv"
+    },
+    {
+      "text": "Lebanon",
+      "value": "lb"
+    },
+    {
+      "text": "Lithuania",
+      "value": "lt"
+    },
+    {
+      "text": "Luxembourg",
+      "value": "lu"
+    },
+    {
+      "text": "Malaysia",
+      "value": "my"
+    },
+    {
+      "text": "Mauritius",
+      "value": "mu"
+    },
+    {
+      "text": "Mexico",
+      "value": "mx"
+    },
+    {
+      "text": "Moldova",
+      "value": "md"
+    },
+    {
+      "text": "Mongolia",
+      "value": "mn"
+    },
+    {
+      "text": "Montenegro",
+      "value": "me"
+    },
+    {
+      "text": "Morocco",
+      "value": "ma"
+    },
+    {
+      "text": "Namibia",
+      "value": "na"
+    },
+    {
+      "text": "Netherlands",
+      "value": "nl"
+    },
+    {
+      "text": "New Zealand",
+      "value": "nz"
+    },
+    {
+      "text": "North Macedonia",
+      "value": "mk"
+    },
+    {
+      "text": "Norway",
+      "value": "no"
+    },
+    {
+      "text": "Pakistan",
+      "value": "pk"
+    },
+    {
+      "text": "Panama",
+      "value": "pa"
+    },
+    {
+      "text": "Philippines",
+      "value": "ph"
+    },
+    {
+      "text": "Poland",
+      "value": "pl"
+    },
+    {
+      "text": "Portugal",
+      "value": "pt"
+    },
+    {
+      "text": "Puerto Rico",
+      "value": "pr"
+    },
+    {
+      "text": "Romania",
+      "value": "ro"
+    },
+    {
+      "text": "Russia",
+      "value": "ru"
+    },
+    {
+      "text": "Rwanda",
+      "value": "rw"
+    },
+    {
+      "text": "Serbia",
+      "value": "rs"
+    },
+    {
+      "text": "Singapore",
+      "value": "sg"
+    },
+    {
+      "text": "Slovakia",
+      "value": "sk"
+    },
+    {
+      "text": "Slovenia",
+      "value": "si"
+    },
+    {
+      "text": "South Africa",
+      "value": "za"
+    },
+    {
+      "text": "South Korea",
+      "value": "kr"
+    },
+    {
+      "text": "Spain",
+      "value": "es"
+    },
+    {
+      "text": "Sweden",
+      "value": "se"
+    },
+    {
+      "text": "Switzerland",
+      "value": "ch"
+    },
+    {
+      "text": "Syria",
+      "value": "sy"
+    },
+    {
+      "text": "Taiwan",
+      "value": "tw"
+    },
+    {
+      "text": "Thailand",
+      "value": "th"
+    },
+    {
+      "text": "Tunisia",
+      "value": "tn"
+    },
+    {
+      "text": "T\u00fcrkiye",
+      "value": "tr"
+    },
+    {
+      "text": "Uganda",
+      "value": "ug"
+    },
+    {
+      "text": "Ukraine",
+      "value": "ua"
+    },
+    {
+      "text": "United Arab Emirates",
+      "value": "ae"
+    },
+    {
+      "text": "United States",
+      "value": "us"
+    },
+    {
+      "text": "Uruguay",
+      "value": "uy"
+    },
+    {
+      "text": "Uzbekistan",
+      "value": "uz"
+    },
+    {
+      "text": "Venezuela",
+      "value": "ve"
+    }
+  ],
+  "nations_wins_ranking": null,
+  "pages_select": [
+    {
+      "text": "1-100",
+      "value": "0"
+    },
+    {
+      "text": "101-200",
+      "value": "100"
+    },
+    {
+      "text": "201-300",
+      "value": "200"
+    },
+    {
+      "text": "301-400",
+      "value": "300"
+    },
+    {
+      "text": "401-424",
+      "value": "400"
+    }
+  ],
+  "racedays_ranking": null,
+  "races_ranking": [
+    {
+      "rank": 1,
+      "prev_rank": 1,
+      "nationality": "FR",
+      "class": "2.UWT",
+      "points": 1711,
+      "race_name": "Tour de France",
+      "race_url": "race/tour-de-france/2025"
+    },
+    {
+      "rank": 2,
+      "prev_rank": 2,
+      "nationality": "CH",
+      "class": "WC",
+      "points": 1479,
+      "race_name": "World Championships ME - Road Race",
+      "race_url": "race/world-championship/2024"
+    },
+    {
+      "rank": 3,
+      "prev_rank": 3,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 1073,
+      "race_name": "Li\u00e8ge-Bastogne-Li\u00e8ge",
+      "race_url": "race/liege-bastogne-liege/2025"
+    },
+    {
+      "rank": 4,
+      "prev_rank": 13,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 1000,
+      "race_name": "La Fl\u00e8che Wallonne",
+      "race_url": "race/la-fleche-wallonne/2025"
+    },
+    {
+      "rank": 5,
+      "prev_rank": 6,
+      "nationality": "IT",
+      "class": "1.UWT",
+      "points": 972,
+      "race_name": "Milano-Sanremo",
+      "race_url": "race/milano-sanremo/2025"
+    },
+    {
+      "rank": 6,
+      "prev_rank": 3,
+      "nationality": "FR",
+      "class": "Olympics",
+      "points": 964,
+      "race_name": "Olympic Games ME - Road Race",
+      "race_url": "race/olympic-games/2024"
+    },
+    {
+      "rank": 7,
+      "prev_rank": 10,
+      "nationality": "NL",
+      "class": "1.UWT",
+      "points": 954,
+      "race_name": "Amstel Gold Race",
+      "race_url": "race/amstel-gold-race/2025"
+    },
+    {
+      "rank": 8,
+      "prev_rank": 25,
+      "nationality": "IT",
+      "class": "2.UWT",
+      "points": 946,
+      "race_name": "Giro d'Italia",
+      "race_url": "race/giro-d-italia/2025"
+    },
+    {
+      "rank": 9,
+      "prev_rank": 7,
+      "nationality": "IT",
+      "class": "2.UWT",
+      "points": 918,
+      "race_name": "Tirreno-Adriatico",
+      "race_url": "race/tirreno-adriatico/2025"
+    },
+    {
+      "rank": 10,
+      "prev_rank": 17,
+      "nationality": "ES",
+      "class": "2.UWT",
+      "points": 916,
+      "race_name": "La Vuelta Ciclista a Espa\u00f1a",
+      "race_url": "race/vuelta-a-espana/2024"
+    },
+    {
+      "rank": 11,
+      "prev_rank": 3,
+      "nationality": "IT",
+      "class": "1.UWT",
+      "points": 900,
+      "race_name": "Il Lombardia",
+      "race_url": "race/il-lombardia/2024"
+    },
+    {
+      "rank": 12,
+      "prev_rank": 8,
+      "nationality": "CA",
+      "class": "1.UWT",
+      "points": 884,
+      "race_name": "Grand Prix Cycliste de Qu\u00e9bec",
+      "race_url": "race/gp-quebec/2024"
+    },
+    {
+      "rank": 13,
+      "prev_rank": 9,
+      "nationality": "CA",
+      "class": "1.UWT",
+      "points": 869,
+      "race_name": "Grand Prix Cycliste de Montr\u00e9al",
+      "race_url": "race/gp-montreal/2024"
+    },
+    {
+      "rank": 14,
+      "prev_rank": 5,
+      "nationality": "FR",
+      "class": "2.UWT",
+      "points": 868,
+      "race_name": "Paris-Nice",
+      "race_url": "race/paris-nice/2025"
+    },
+    {
+      "rank": 15,
+      "prev_rank": 16,
+      "nationality": "FR",
+      "class": "2.UWT",
+      "points": 837,
+      "race_name": "Crit\u00e9rium du Dauphin\u00e9",
+      "race_url": "race/dauphine/2025"
+    },
+    {
+      "rank": 16,
+      "prev_rank": 10,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 831,
+      "race_name": "Tre Valli Varesine",
+      "race_url": "race/tre-valli-varesine/2024"
+    },
+    {
+      "rank": 17,
+      "prev_rank": 19,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 829,
+      "race_name": "Ronde van Vlaanderen - Tour des Flandres ME",
+      "race_url": "race/ronde-van-vlaanderen/2025"
+    },
+    {
+      "rank": 18,
+      "prev_rank": 33,
+      "nationality": "FR",
+      "class": "1.UWT",
+      "points": 823,
+      "race_name": "Paris-Roubaix",
+      "race_url": "race/paris-roubaix/2025"
+    },
+    {
+      "rank": 19,
+      "prev_rank": 23,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 809,
+      "race_name": "Dwars door Vlaanderen - A travers la Flandre ME",
+      "race_url": "race/dwars-door-vlaanderen/2025"
+    },
+    {
+      "rank": 20,
+      "prev_rank": 18,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 806,
+      "race_name": "Gent-Wevelgem in Flanders Fields ME",
+      "race_url": "race/gent-wevelgem/2025"
+    },
+    {
+      "rank": 21,
+      "prev_rank": 31,
+      "nationality": "BE",
+      "class": "2.UWT",
+      "points": 732,
+      "race_name": "Renewi Tour",
+      "race_url": "race/renewi-tour/2024"
+    },
+    {
+      "rank": 22,
+      "prev_rank": 19,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 725,
+      "race_name": "Giro dell'Emilia",
+      "race_url": "race/giro-dell-emilia/2024"
+    },
+    {
+      "rank": 23,
+      "prev_rank": 31,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 718,
+      "race_name": "Omloop Nieuwsblad ME",
+      "race_url": "race/omloop-het-nieuwsblad/2025"
+    },
+    {
+      "rank": 24,
+      "prev_rank": 15,
+      "nationality": "ES",
+      "class": "2.UWT",
+      "points": 717,
+      "race_name": "Itzulia Basque Country",
+      "race_url": "race/itzulia-basque-country/2025"
+    },
+    {
+      "rank": 25,
+      "prev_rank": 24,
+      "nationality": "FR",
+      "class": "1.UWT",
+      "points": 710,
+      "race_name": "Bretagne Classic - Ouest-France",
+      "race_url": "race/bretagne-classic/2024"
+    },
+    {
+      "rank": 26,
+      "prev_rank": 20,
+      "nationality": "ES",
+      "class": "1.UWT",
+      "points": 709,
+      "race_name": "Donostia San Sebastian Klasikoa",
+      "race_url": "race/san-sebastian/2024"
+    },
+    {
+      "rank": 27,
+      "prev_rank": 17,
+      "nationality": "IT",
+      "class": "1.UWT",
+      "points": 709,
+      "race_name": "Strade Bianche",
+      "race_url": "race/strade-bianche/2025"
+    },
+    {
+      "rank": 28,
+      "prev_rank": 38,
+      "nationality": "DE",
+      "class": "1.UWT",
+      "points": 703,
+      "race_name": "Cyclassics Hamburg",
+      "race_url": "race/cyclassics-hamburg/2024"
+    },
+    {
+      "rank": 29,
+      "prev_rank": 21,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 695,
+      "race_name": "E3 Saxo Classic ME",
+      "race_url": "race/e3-harelbeke/2025"
+    },
+    {
+      "rank": 30,
+      "prev_rank": 34,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 694,
+      "race_name": "Kuurne - Brussel - Kuurne",
+      "race_url": "race/kuurne-brussel-kuurne/2025"
+    },
+    {
+      "rank": 31,
+      "prev_rank": 32,
+      "nationality": "PT",
+      "class": "2.Pro",
+      "points": 647,
+      "race_name": "Volta ao Algarve em Bicicleta",
+      "race_url": "race/volta-ao-algarve/2025"
+    },
+    {
+      "rank": 32,
+      "prev_rank": 20,
+      "nationality": "CH",
+      "class": "2.UWT",
+      "points": 642,
+      "race_name": "Tour de Suisse",
+      "race_url": "race/tour-de-suisse/2025"
+    },
+    {
+      "rank": 33,
+      "prev_rank": 28,
+      "nationality": "ES",
+      "class": "2.UWT",
+      "points": 621,
+      "race_name": "Volta Ciclista a Catalunya",
+      "race_url": "race/volta-a-catalunya/2025"
+    },
+    {
+      "rank": 34,
+      "prev_rank": 40,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 601,
+      "race_name": "Coppa Bernocchi - GP Banco BPM",
+      "race_url": "race/coppa-bernocchi/2024"
+    },
+    {
+      "rank": 35,
+      "prev_rank": 39,
+      "nationality": "PL",
+      "class": "2.UWT",
+      "points": 595,
+      "race_name": "Tour de Pologne",
+      "race_url": "race/tour-de-pologne/2024"
+    },
+    {
+      "rank": 36,
+      "prev_rank": 37,
+      "nationality": "AE",
+      "class": "2.UWT",
+      "points": 567,
+      "race_name": "UAE Tour",
+      "race_url": "race/uae-tour/2025"
+    },
+    {
+      "rank": 37,
+      "prev_rank": 47,
+      "nationality": "DE",
+      "class": "1.UWT",
+      "points": 545,
+      "race_name": "Eschborn-Frankfurt",
+      "race_url": "race/eschborn-frankfurt/2025"
+    },
+    {
+      "rank": 38,
+      "prev_rank": 56,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 536,
+      "race_name": "Faun Drome Classic",
+      "race_url": "race/la-drome-classic/2025"
+    },
+    {
+      "rank": 39,
+      "prev_rank": 48,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 512,
+      "race_name": "Faun-Ard\u00e8che Classic",
+      "race_url": "race/faun-ardeche-classic/2025"
+    },
+    {
+      "rank": 40,
+      "prev_rank": 52,
+      "nationality": "BE",
+      "class": "1.UWT",
+      "points": 510,
+      "race_name": "Classic Brugge-De Panne ME",
+      "race_url": "race/classic-brugge-de-panne/2025"
+    },
+    {
+      "rank": 41,
+      "prev_rank": 30,
+      "nationality": "CH",
+      "class": "2.UWT",
+      "points": 500,
+      "race_name": "Tour de Romandie",
+      "race_url": "race/tour-de-romandie/2025"
+    },
+    {
+      "rank": 42,
+      "prev_rank": 59,
+      "nationality": "ES",
+      "class": "2.Pro",
+      "points": 499,
+      "race_name": "Volta a la Comunitat Valenciana",
+      "race_url": "race/vuelta-a-la-comunidad-valenciana/2025"
+    },
+    {
+      "rank": 43,
+      "prev_rank": 32,
+      "nationality": "BE",
+      "class": "CC",
+      "points": 462,
+      "race_name": "European Continental Championships ME - Road Race",
+      "race_url": "race/uec-road-european-championships/2024"
+    },
+    {
+      "rank": 44,
+      "prev_rank": 44,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 449,
+      "race_name": "SUPER 8 Classic",
+      "race_url": "race/gp-impanis-van-petegem/2024"
+    },
+    {
+      "rank": 45,
+      "prev_rank": 61,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 441,
+      "race_name": "Grand Prix de Wallonie",
+      "race_url": "race/gp-de-wallonie/2024"
+    },
+    {
+      "rank": 46,
+      "prev_rank": 59,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 434,
+      "race_name": "Binche - Chimay - Binche / M\u00e9morial Frank Vandenbroucke",
+      "race_url": "race/memorial-frank-vandenbroucke/2024"
+    },
+    {
+      "rank": 47,
+      "prev_rank": 30,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 432,
+      "race_name": "Gran Piemonte",
+      "race_url": "race/gran-piemonte/2024"
+    },
+    {
+      "rank": 48,
+      "prev_rank": 43,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 425,
+      "race_name": "Paris - Tours Elite",
+      "race_url": "race/paris-tours/2024"
+    },
+    {
+      "rank": 49,
+      "prev_rank": 36,
+      "nationality": "LU",
+      "class": "2.Pro",
+      "points": 418,
+      "race_name": "Skoda Tour de Luxembourg",
+      "race_url": "race/tour-de-luxembourg/2024"
+    },
+    {
+      "rank": 50,
+      "prev_rank": 60,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 398,
+      "race_name": "De Brabantse Pijl - La Fl\u00e8che Braban\u00e7onne ME",
+      "race_url": "race/brabantse-pijl/2025"
+    },
+    {
+      "rank": 51,
+      "prev_rank": 50,
+      "nationality": "ES",
+      "class": "1.Pro",
+      "points": 393,
+      "race_name": "Gran Premio Miguel Indurain",
+      "race_url": "race/gran-premio-miguel-indurain/2025"
+    },
+    {
+      "rank": 52,
+      "prev_rank": 39,
+      "nationality": "FR",
+      "class": "Olympics",
+      "points": 389,
+      "race_name": "Olympic Games ME - ITT",
+      "race_url": "race/olympic-games-itt/2024"
+    },
+    {
+      "rank": 53,
+      "prev_rank": 38,
+      "nationality": "BE",
+      "class": "NC",
+      "points": 388,
+      "race_name": "National Championships Belgium ME - Road Race",
+      "race_url": "race/nc-belgium/2025"
+    },
+    {
+      "rank": 54,
+      "prev_rank": 83,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 380,
+      "race_name": "Kampioenschap van Vlaanderen",
+      "race_url": "race/kampioenschap-van-vlaanderen1/2024"
+    },
+    {
+      "rank": 55,
+      "prev_rank": 84,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 368,
+      "race_name": "Trofeo Serra Tramuntana",
+      "race_url": "race/deia-trophy/2025"
+    },
+    {
+      "rank": 56,
+      "prev_rank": null,
+      "nationality": "DK",
+      "class": "1.UWT",
+      "points": 363,
+      "race_name": "Copenhagen Sprint",
+      "race_url": "race/copenhagen-sprint/2025"
+    },
+    {
+      "rank": 57,
+      "prev_rank": 64,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 360,
+      "race_name": "Coppa Agostoni - Giro delle Brianze",
+      "race_url": "race/coppa-agostoni/2024"
+    },
+    {
+      "rank": 58,
+      "prev_rank": 54,
+      "nationality": "AU",
+      "class": "2.UWT",
+      "points": 359,
+      "race_name": "Santos Tour Down Under",
+      "race_url": "race/tour-down-under/2025"
+    },
+    {
+      "rank": 59,
+      "prev_rank": 85,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 358,
+      "race_name": "Etoile de Bess\u00e8ges - Tour du Gard",
+      "race_url": "race/etoile-de-besseges/2025"
+    },
+    {
+      "rank": 60,
+      "prev_rank": 63,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 356,
+      "race_name": "Brussels Cycling Classic",
+      "race_url": "race/brussels-cycling-classic/2025"
+    },
+    {
+      "rank": 61,
+      "prev_rank": 57,
+      "nationality": "DE",
+      "class": "2.Pro",
+      "points": 341,
+      "race_name": "Deutschland Tour",
+      "race_url": "race/deutschland-tour/2024"
+    },
+    {
+      "rank": 62,
+      "prev_rank": 52,
+      "nationality": "DE",
+      "class": "1.Pro",
+      "points": 336,
+      "race_name": "Sparkassen M\u00fcnsterland Giro",
+      "race_url": "race/munsterland-giro/2024"
+    },
+    {
+      "rank": 63,
+      "prev_rank": 96,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 331,
+      "race_name": "Alfasun Gooikse Pijl p/b Lotto",
+      "race_url": "race/gooikse-pijl/2024"
+    },
+    {
+      "rank": 64,
+      "prev_rank": 69,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 322,
+      "race_name": "Milano - Torino",
+      "race_url": "race/milano-torino/2025"
+    },
+    {
+      "rank": 65,
+      "prev_rank": 78,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 317,
+      "race_name": "Tro-Bro L\u00e9on",
+      "race_url": "race/tro-bro-leon/2025"
+    },
+    {
+      "rank": 66,
+      "prev_rank": 64,
+      "nationality": "CH",
+      "class": "1.1",
+      "points": 314,
+      "race_name": "GP Gippingen",
+      "race_url": "race/gp-du-canton-d-argovie/2025"
+    },
+    {
+      "rank": 67,
+      "prev_rank": 75,
+      "nationality": "PT",
+      "class": "1.Pro",
+      "points": 314,
+      "race_name": "Figueira Champions Classic",
+      "race_url": "race/figueira-champions-classic/2025"
+    },
+    {
+      "rank": 68,
+      "prev_rank": 41,
+      "nationality": "BE",
+      "class": "2.Pro",
+      "points": 311,
+      "race_name": "Baloise Belgium Tour",
+      "race_url": "race/tour-of-belgium/2025"
+    },
+    {
+      "rank": 69,
+      "prev_rank": 119,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 310,
+      "race_name": "Cl\u00e0ssica Comunitat Valenciana 1969 - Gran Premi Val\u00e8ncia",
+      "race_url": "race/gp-de-valence/2025"
+    },
+    {
+      "rank": 70,
+      "prev_rank": 365,
+      "nationality": "FR",
+      "class": "NC",
+      "points": 303,
+      "race_name": "National Championships France ME - Road Race",
+      "race_url": "race/nc-france/2025"
+    },
+    {
+      "rank": 71,
+      "prev_rank": 70,
+      "nationality": "CN",
+      "class": "2.UWT",
+      "points": 302,
+      "race_name": "Gree-Tour of Guangxi",
+      "race_url": "race/tour-of-guangxi/2024"
+    },
+    {
+      "rank": 72,
+      "prev_rank": 65,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 301,
+      "race_name": "Giro del Veneto",
+      "race_url": "race/giro-del-veneto/2024"
+    },
+    {
+      "rank": 73,
+      "prev_rank": 83,
+      "nationality": "ES",
+      "class": "2.Pro",
+      "points": 300,
+      "race_name": "Vuelta a Andalucia Ruta Ciclista Del Sol",
+      "race_url": "race/ruta-del-sol/2025"
+    },
+    {
+      "rank": 74,
+      "prev_rank": 115,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 295,
+      "race_name": "Antwerp Port Epic / Sels Trophy",
+      "race_url": "race/antwerp-port-epic/2025"
+    },
+    {
+      "rank": 75,
+      "prev_rank": 73,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 291,
+      "race_name": "Trofeo Calvi\u00e0",
+      "race_url": "race/trofeo-calvia/2025"
+    },
+    {
+      "rank": 76,
+      "prev_rank": 67,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 291,
+      "race_name": "Trofeo Andratx - Pollen\u00e7a",
+      "race_url": "race/trofeo-pollenca-port-d-andratx/2025"
+    },
+    {
+      "rank": 77,
+      "prev_rank": null,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 291,
+      "race_name": "Classique Dunkerque / Grand prix des Hauts de France",
+      "race_url": "race/classique-dunkerque/2025"
+    },
+    {
+      "rank": 78,
+      "prev_rank": 73,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 290,
+      "race_name": "Veneto Classic",
+      "race_url": "race/veneto-classic/2024"
+    },
+    {
+      "rank": 79,
+      "prev_rank": 84,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 287,
+      "race_name": "Gran Premio citt\u00e0 di Peccioli - Coppa Sabatini",
+      "race_url": "race/gp-citta-di-peccioli/2024"
+    },
+    {
+      "rank": 80,
+      "prev_rank": 94,
+      "nationality": "OM",
+      "class": "1.1",
+      "points": 287,
+      "race_name": "Muscat Classic",
+      "race_url": "race/muscat-classic/2025"
+    },
+    {
+      "rank": 81,
+      "prev_rank": 50,
+      "nationality": "CH",
+      "class": "WC",
+      "points": 285,
+      "race_name": "World Championships ME - ITT",
+      "race_url": "race/world-championship-itt/2024"
+    },
+    {
+      "rank": 82,
+      "prev_rank": 95,
+      "nationality": "OM",
+      "class": "2.Pro",
+      "points": 285,
+      "race_name": "Tour of Oman",
+      "race_url": "race/tour-of-oman/2025"
+    },
+    {
+      "rank": 83,
+      "prev_rank": 90,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 285,
+      "race_name": "Grand Prix du Morbihan",
+      "race_url": "race/gp-de-plumelec/2025"
+    },
+    {
+      "rank": 84,
+      "prev_rank": 55,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 282,
+      "race_name": "Scheldeprijs ME",
+      "race_url": "race/scheldeprijs/2025"
+    },
+    {
+      "rank": 85,
+      "prev_rank": 123,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 272,
+      "race_name": "Duracell Dwars door het Hageland",
+      "race_url": "race/dwars-door-het-hageland/2025"
+    },
+    {
+      "rank": 86,
+      "prev_rank": 89,
+      "nationality": "IT",
+      "class": "1.1",
+      "points": 271,
+      "race_name": "Memorial Marco Pantani",
+      "race_url": "race/memorial-marco-pantani/2024"
+    },
+    {
+      "rank": 87,
+      "prev_rank": 101,
+      "nationality": "AU",
+      "class": "1.1",
+      "points": 269,
+      "race_name": "Surf Coast Classic - Men",
+      "race_url": "race/race-torquay/2025"
+    },
+    {
+      "rank": 88,
+      "prev_rank": 68,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 269,
+      "race_name": "Trofeo Laigueglia",
+      "race_url": "race/trofeo-laigueglia/2025"
+    },
+    {
+      "rank": 89,
+      "prev_rank": 103,
+      "nationality": "AU",
+      "class": "1.UWT",
+      "points": 266,
+      "race_name": "Cadel Evans Great Ocean Road Race - Men",
+      "race_url": "race/great-ocean-road-race/2025"
+    },
+    {
+      "rank": 90,
+      "prev_rank": 108,
+      "nationality": "FR",
+      "class": "1.1",
+      "points": 266,
+      "race_name": "Classic Var",
+      "race_url": "race/classic-var/2025"
+    },
+    {
+      "rank": 91,
+      "prev_rank": 106,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 265,
+      "race_name": "Trofeo Ses Salines",
+      "race_url": "race/trofeo-ses-salines-felanitx/2025"
+    },
+    {
+      "rank": 92,
+      "prev_rank": 54,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 264,
+      "race_name": "Circuit Franco-Belge",
+      "race_url": "race/circuit-franco-belge/2024"
+    },
+    {
+      "rank": 93,
+      "prev_rank": 118,
+      "nationality": "FR",
+      "class": "2.1",
+      "points": 263,
+      "race_name": "Tour des Alpes-Maritimes",
+      "race_url": "race/tour-des-alpes-maritimes-et-du-var/2025"
+    },
+    {
+      "rank": 94,
+      "prev_rank": 111,
+      "nationality": "BE",
+      "class": "1.1",
+      "points": 257,
+      "race_name": "Ename Samyn Classic",
+      "race_url": "race/gp-samyn/2025"
+    },
+    {
+      "rank": 95,
+      "prev_rank": 125,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 246,
+      "race_name": "Gran Premio Castell\u00f3n - Ruta de la Cer\u00e1mica",
+      "race_url": "race/ruta-de-la-ceramica-gran-premio-castellon/2025"
+    },
+    {
+      "rank": 96,
+      "prev_rank": 72,
+      "nationality": "BE",
+      "class": "1.Pro",
+      "points": 242,
+      "race_name": "Danilith Nokere Koerse",
+      "race_url": "race/nokere-koerse/2025"
+    },
+    {
+      "rank": 97,
+      "prev_rank": 102,
+      "nationality": "FR",
+      "class": "1.Pro",
+      "points": 242,
+      "race_name": "Grand Prix de Denain - Porte du Hainaut",
+      "race_url": "race/gp-de-denain/2025"
+    },
+    {
+      "rank": 98,
+      "prev_rank": 93,
+      "nationality": "BE",
+      "class": "2.Pro",
+      "points": 241,
+      "race_name": "Ethias-Tour de Wallonie",
+      "race_url": "race/tour-de-wallonie/2024"
+    },
+    {
+      "rank": 99,
+      "prev_rank": 161,
+      "nationality": "IT",
+      "class": "1.Pro",
+      "points": 241,
+      "race_name": "GP Industria & Artigianato",
+      "race_url": "race/gp-industria-artigianato/2024"
+    },
+    {
+      "rank": 100,
+      "prev_rank": 110,
+      "nationality": "ES",
+      "class": "1.1",
+      "points": 238,
+      "race_name": "Trofeo Palma",
+      "race_url": "race/trofeo-palma/2025"
+    }
+  ],
+  "team_ranking": null,
+  "teamlevels_select": null,
+  "teams_select": null,
+  "teams_wins_ranking": null
+}

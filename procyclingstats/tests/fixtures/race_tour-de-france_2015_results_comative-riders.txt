@@ -1,0 +1,410 @@
+<!DOCTYPE html><html><head>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2MNJ20S7SJ');
+</script>
+<title>Combative riders in Tour de France 2015</title> 
+<base href="https://www.procyclingstats.com/race.php"> 
+<link rel="canonical" href="https://www.procyclingstats.com/race/tour-de-france/2015/results/combative-riders"> 
+<script>  var r89 = r89 || {      callAds: [],   pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }    };  </script>
+  <script async="" src="https://tags.refinery89.com/procyclingstats.js"></script><meta name="robots" content="noindex">
+<meta name="description" content="Overview of the most combative rider per stage in Tour de France 2015.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="v3_scripts_v34.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v76.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
+<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico">
+</head>
+<body>
+<div class="wrapper"><header>
+<div class="cont">
+<a class="logo" href="index.php"></a>
+<div class="search"><form action="search.php" class="msearch"><input type="hidden" id="term"><input type="text" name="term" id="search" data-page="race" data-url="race/-id-/results/comative-riders" placeholder="search" autocomplete="off"></form></div> 
+<div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
+<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<li class=""><a class="menu" href="index.php">Home</a></li>
+<li class=""><a class="menu" href="races.php">Races<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
+<li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
+<li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
+</ul></li>
+<li class=""><a class="menu" href="teams.php">Teams<span class="more" href="">▼</span></a>
+<ul><li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&amp;B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
+</ul></li>
+<li class=""><a class="menu" href="rankings.php">Rankings</a></li>
+<li class=""><a class="menu" href="statistics.php">Statistics<span class="more" href="">▼</span></a>
+<ul><li><a href="statistics">Overview</a></li>
+<li><a href="statistics/riders">Riders</a></li>
+<li><a href="statistics/teams">Teams</a></li>
+<li><a href="statistics/grandtours">Grand tours</a></li>
+</ul></li>
+<li class=""><a class="menu" href="game.php">Game</a></li>
+<li class="tour yellow"><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">▼</span></a>
+<ul><li><a href="race/tour-de-france/2025/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
+<li><a href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
+<li><a href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
+<li class=""><a class="menu" href="quiz.php">Quiz</a></li>
+<li class=""><a class="menu" href="riders.php">More<span class="more" href="">▼</span></a>
+<ul><li><a href="riders">Riders</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="account"><a class="menu" href="account.php">Account<span class="more" href="">▼</span></a>
+<ul><li><a href="account/overview">My account</a></li>
+<li><a href="account/follow-riders">My riders</a></li>
+</ul></li>
+<li class="small"><a class="menu" href="">Road<span class="more" href="">▼</span></a>
+<ul><li><a href="https://cx.procyclingstats.com">Cross</a></li>
+</ul></li>
+<li class="language small"><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
+<ul></ul></ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav"><form style="display: block; float: left; "><select style="" onchange="window.location.href=this.value; "><option value="race/tour-de-france/2015/" selected="">- stage -</option>
+<option value="race/tour-de-france/2015/stage-1">Stage 1 (ITT) | Utrecht - Utrecht</option>
+<option value="race/tour-de-france/2015/stage-2">Stage 2 | Utrecht - Neeltje Jans</option>
+<option value="race/tour-de-france/2015/stage-3">Stage 3 | Antwerpen - Huy</option>
+<option value="race/tour-de-france/2015/stage-4">Stage 4 | Seraing - Cambrai</option>
+<option value="race/tour-de-france/2015/stage-5">Stage 5 | Arras - Amiens</option>
+<option value="race/tour-de-france/2015/stage-6">Stage 6 | Abbeville - Le Havre</option>
+<option value="race/tour-de-france/2015/stage-7">Stage 7 | Livarot - Fougères</option>
+<option value="race/tour-de-france/2015/stage-8">Stage 8 | Rennes - Mûr-de-bretagne</option>
+<option value="race/tour-de-france/2015/stage-9">Stage 9 (TTT) | Vannes - Plumelec</option>
+<option value="race/tour-de-france/2015/stage-10">Stage 10 | Tarbes - La Pierre-Saint-Martin</option>
+<option value="race/tour-de-france/2015/stage-11">Stage 11 | Pau - Cauterets</option>
+<option value="race/tour-de-france/2015/stage-12">Stage 12 | Lannemezan - Plateau de Beille</option>
+<option value="race/tour-de-france/2015/stage-13">Stage 13 | Muret - Rodez</option>
+<option value="race/tour-de-france/2015/stage-14">Stage 14 | Rodez - Mende</option>
+<option value="race/tour-de-france/2015/stage-15">Stage 15 | Mende - Valence</option>
+<option value="race/tour-de-france/2015/stage-16">Stage 16 | Bourg-de-Péage - Gap</option>
+<option value="race/tour-de-france/2015/stage-17">Stage 17 | Digne-Les-Bains - Pra-Loup</option>
+<option value="race/tour-de-france/2015/stage-18">Stage 18 | Gap - Saint-Jean-de-Maurienne</option>
+<option value="race/tour-de-france/2015/stage-19">Stage 19 | Saint-Jean-de-Maurienne - La Toussuire - Les Sybelles</option>
+<option value="race/tour-de-france/2015/stage-20">Stage 20 | Modane - l'Alpe d'Huez</option>
+<option value="race/tour-de-france/2015/stage-21">Stage 21 | Sèvres - Paris</option>
+</select></form><div class="clear"></div></div><div class="selectNav"><a class="desk" href="race/tour-de-france/2014/results/combative-riders">2014</a><form style="display: block; float: left; "><select style="" onchange="window.location.href=this.value; "><option value="race/tour-de-france/2026/results/combative-riders">2026</option>
+<option value="race/tour-de-france/2025/results/combative-riders">2025</option>
+<option value="race/tour-de-france/2024/results/combative-riders">2024</option>
+<option value="race/tour-de-france/2023/results/combative-riders">2023</option>
+<option value="race/tour-de-france/2022/results/combative-riders">2022</option>
+<option value="race/tour-de-france/2021/results/combative-riders">2021</option>
+<option value="race/tour-de-france/2020/results/combative-riders">2020</option>
+<option value="race/tour-de-france/2019/results/combative-riders">2019</option>
+<option value="race/tour-de-france/2018/results/combative-riders">2018</option>
+<option value="race/tour-de-france/2017/results/combative-riders">2017</option>
+<option value="race/tour-de-france/2016/results/combative-riders">2016</option>
+<option value="race/tour-de-france/2015/results/combative-riders" selected="">2015</option>
+<option value="race/tour-de-france/2014/results/combative-riders">2014</option>
+<option value="race/tour-de-france/2013/results/combative-riders">2013</option>
+<option value="race/tour-de-france/2012/results/combative-riders">2012</option>
+<option value="race/tour-de-france/2011/results/combative-riders">2011</option>
+<option value="race/tour-de-france/2010/results/combative-riders">2010</option>
+<option value="race/tour-de-france/2009/results/combative-riders">2009</option>
+<option value="race/tour-de-france/2008/results/combative-riders">2008</option>
+<option value="race/tour-de-france/2007/results/combative-riders">2007</option>
+<option value="race/tour-de-france/2006/results/combative-riders">2006</option>
+<option value="race/tour-de-france/2005/results/combative-riders">2005</option>
+<option value="race/tour-de-france/2004/results/combative-riders">2004</option>
+<option value="race/tour-de-france/2003/results/combative-riders">2003</option>
+<option value="race/tour-de-france/2002/results/combative-riders">2002</option>
+<option value="race/tour-de-france/2001/results/combative-riders">2001</option>
+<option value="race/tour-de-france/2000/results/combative-riders">2000</option>
+<option value="race/tour-de-france/1999/results/combative-riders">1999</option>
+<option value="race/tour-de-france/1998/results/combative-riders">1998</option>
+<option value="race/tour-de-france/1997/results/combative-riders">1997</option>
+<option value="race/tour-de-france/1996/results/combative-riders">1996</option>
+<option value="race/tour-de-france/1995/results/combative-riders">1995</option>
+<option value="race/tour-de-france/1994/results/combative-riders">1994</option>
+<option value="race/tour-de-france/1993/results/combative-riders">1993</option>
+<option value="race/tour-de-france/1992/results/combative-riders">1992</option>
+<option value="race/tour-de-france/1991/results/combative-riders">1991</option>
+<option value="race/tour-de-france/1990/results/combative-riders">1990</option>
+<option value="race/tour-de-france/1989/results/combative-riders">1989</option>
+<option value="race/tour-de-france/1988/results/combative-riders">1988</option>
+<option value="race/tour-de-france/1987/results/combative-riders">1987</option>
+<option value="race/tour-de-france/1986/results/combative-riders">1986</option>
+<option value="race/tour-de-france/1985/results/combative-riders">1985</option>
+<option value="race/tour-de-france/1984/results/combative-riders">1984</option>
+<option value="race/tour-de-france/1983/results/combative-riders">1983</option>
+<option value="race/tour-de-france/1982/results/combative-riders">1982</option>
+<option value="race/tour-de-france/1981/results/combative-riders">1981</option>
+<option value="race/tour-de-france/1980/results/combative-riders">1980</option>
+<option value="race/tour-de-france/1979/results/combative-riders">1979</option>
+<option value="race/tour-de-france/1978/results/combative-riders">1978</option>
+<option value="race/tour-de-france/1977/results/combative-riders">1977</option>
+<option value="race/tour-de-france/1976/results/combative-riders">1976</option>
+<option value="race/tour-de-france/1975/results/combative-riders">1975</option>
+<option value="race/tour-de-france/1974/results/combative-riders">1974</option>
+<option value="race/tour-de-france/1973/results/combative-riders">1973</option>
+<option value="race/tour-de-france/1972/results/combative-riders">1972</option>
+<option value="race/tour-de-france/1971/results/combative-riders">1971</option>
+<option value="race/tour-de-france/1970/results/combative-riders">1970</option>
+<option value="race/tour-de-france/1969/results/combative-riders">1969</option>
+<option value="race/tour-de-france/1968/results/combative-riders">1968</option>
+<option value="race/tour-de-france/1967/results/combative-riders">1967</option>
+<option value="race/tour-de-france/1966/results/combative-riders">1966</option>
+<option value="race/tour-de-france/1965/results/combative-riders">1965</option>
+<option value="race/tour-de-france/1964/results/combative-riders">1964</option>
+<option value="race/tour-de-france/1963/results/combative-riders">1963</option>
+<option value="race/tour-de-france/1962/results/combative-riders">1962</option>
+<option value="race/tour-de-france/1961/results/combative-riders">1961</option>
+<option value="race/tour-de-france/1960/results/combative-riders">1960</option>
+<option value="race/tour-de-france/1959/results/combative-riders">1959</option>
+<option value="race/tour-de-france/1958/results/combative-riders">1958</option>
+<option value="race/tour-de-france/1957/results/combative-riders">1957</option>
+<option value="race/tour-de-france/1956/results/combative-riders">1956</option>
+<option value="race/tour-de-france/1955/results/combative-riders">1955</option>
+<option value="race/tour-de-france/1954/results/combative-riders">1954</option>
+<option value="race/tour-de-france/1953/results/combative-riders">1953</option>
+<option value="race/tour-de-france/1952/results/combative-riders">1952</option>
+<option value="race/tour-de-france/1951/results/combative-riders">1951</option>
+<option value="race/tour-de-france/1950/results/combative-riders">1950</option>
+<option value="race/tour-de-france/1949/results/combative-riders">1949</option>
+<option value="race/tour-de-france/1948/results/combative-riders">1948</option>
+<option value="race/tour-de-france/1947/results/combative-riders">1947</option>
+<option value="race/tour-de-france/1939/results/combative-riders">1939</option>
+<option value="race/tour-de-france/1938/results/combative-riders">1938</option>
+<option value="race/tour-de-france/1937/results/combative-riders">1937</option>
+<option value="race/tour-de-france/1936/results/combative-riders">1936</option>
+<option value="race/tour-de-france/1935/results/combative-riders">1935</option>
+<option value="race/tour-de-france/1934/results/combative-riders">1934</option>
+<option value="race/tour-de-france/1933/results/combative-riders">1933</option>
+<option value="race/tour-de-france/1932/results/combative-riders">1932</option>
+<option value="race/tour-de-france/1931/results/combative-riders">1931</option>
+<option value="race/tour-de-france/1930/results/combative-riders">1930</option>
+<option value="race/tour-de-france/1929/results/combative-riders">1929</option>
+<option value="race/tour-de-france/1928/results/combative-riders">1928</option>
+<option value="race/tour-de-france/1927/results/combative-riders">1927</option>
+<option value="race/tour-de-france/1926/results/combative-riders">1926</option>
+<option value="race/tour-de-france/1925/results/combative-riders">1925</option>
+<option value="race/tour-de-france/1924/results/combative-riders">1924</option>
+<option value="race/tour-de-france/1923/results/combative-riders">1923</option>
+<option value="race/tour-de-france/1922/results/combative-riders">1922</option>
+<option value="race/tour-de-france/1921/results/combative-riders">1921</option>
+<option value="race/tour-de-france/1920/results/combative-riders">1920</option>
+<option value="race/tour-de-france/1919/results/combative-riders">1919</option>
+<option value="race/tour-de-france/1914/results/combative-riders">1914</option>
+<option value="race/tour-de-france/1913/results/combative-riders">1913</option>
+<option value="race/tour-de-france/1912/results/combative-riders">1912</option>
+<option value="race/tour-de-france/1911/results/combative-riders">1911</option>
+<option value="race/tour-de-france/1910/results/combative-riders">1910</option>
+<option value="race/tour-de-france/1909/results/combative-riders">1909</option>
+<option value="race/tour-de-france/1908/results/combative-riders">1908</option>
+<option value="race/tour-de-france/1907/results/combative-riders">1907</option>
+<option value="race/tour-de-france/1906/results/combative-riders">1906</option>
+<option value="race/tour-de-france/1905/results/combative-riders">1905</option>
+<option value="race/tour-de-france/1904/results/combative-riders">1904</option>
+<option value="race/tour-de-france/1903/results/combative-riders">1903</option>
+</select></form><a class="desk" href="race/tour-de-france/2016/results/combative-riders">2016</a><div class="clear"></div></div><div class="clear"></div></div><div class="pagenav-cont"><span><a class="" href="race/tour-de-france/2015/statistics">Statistics</a></span>
+<span><a class="" href="race/tour-de-france/2015/startlist">Startlist<span>▼</span></a><ul><li><a href="race/tour-de-france/2015/startlist/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/2015/startlist/top-competitors">Top competitors</a></li>
+<li><a href="race/tour-de-france/2015/startlist/startlist-quality">Startlist quality</a></li>
+<li><a href="race/tour-de-france/2015/startlist/debutants">Debutants</a></li>
+</ul></span>
+<span><a class="" href="race/tour-de-france/2015/miscellaneous">Miscellaneous</a></span>
+<span><a class="" href="race/tour-de-france/2015/teams">Teams<span>▼</span></a><ul><li><a href="race/tour-de-france/2015/teams/teams">Teams</a></li>
+<li><a href="race/tour-de-france/2015/teams/top-teams">Top teams</a></li>
+<li><a href="race/tour-de-france/2015/teams/dropouts">Dropouts</a></li>
+<li><a href="race/tour-de-france/2015/teams/prizemoney">Prizemoney</a></li>
+</ul></span>
+<span><a class="" href="race/tour-de-france/2015/nations">Nations</a></span>
+<span><a class="" href="race/tour-de-france/2015/route">Route<span>▼</span></a><ul><li><a href="race/tour-de-france/2015/route/stages">Stages</a></li>
+<li><a href="race/tour-de-france/2015/route/stage-profiles">All stage profiles</a></li>
+<li><a href="race/tour-de-france/2015/route/hardest-stages">Hardest stages</a></li>
+<li><a href="race/tour-de-france/2015/route/climbs">Climbs</a></li>
+</ul></span>
+<span><a class="cur" href="race/tour-de-france/2015/results">Results<span>▼</span></a><ul><li><a href="race/tour-de-france/2015/results/start">Winners and leaders</a></li>
+<li><a href="race/tour-de-france/2015/results/won-how">Won how</a></li>
+<li><a href="race/tour-de-france/2015/results/prizemoney-ranking">Prizemoney ranking</a></li>
+<li><a href="race/tour-de-france/2015/results/dropouts">Dropouts</a></li>
+<li><a href="race/tour-de-france/2015/results/fastest-stage">Fastest stages</a></li>
+</ul></span>
+</div><div class="clear"></div>
+<div class="thumbnav"><span><a class="blue" href="race/tour-de-france">Tour de France</a></span><span>&nbsp; » &nbsp;</span><span><a class="blue" href="race/tour-de-france/2015">2015</a></span><span>&nbsp; » &nbsp;</span><span><a class="blue" href="race/tour-de-france/2015/results/combative-riders">Combative riders </a></span></div>
+<div class="titleCont hasSideNav"><div class="page-title"><div class="title"><span class="flag fr w32"></span><span class="flag c24 fr "></span> <h1><span class="hideIfMobile">2015 &nbsp; » &nbsp; 102nd </span>Tour de France</h1></div><div class="subtitle hide imob block"><h2>2015</h2></div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">21 Stages</font> &nbsp; » &nbsp; <font class="red">Utrecht &nbsp;›&nbsp; Paris</font> &nbsp; <font class="red" style="font-weight: normal; ">(3360.3km)</font></div></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div>
+<div class="page-content ">
+<h2>Combative riders per stage</h2>
+<div class=""><div class="">
+<div class="fs14">Overview of the most combative riders per stage. </div>
+</div>
+<div class="mt20">
+<table class=" basic" style="max-width: 450px; "><thead><tr>
+<th class="w25 ">Stage</th>
+<th class="w75 ">Rider</th>
+</tr></thead><tbody>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-1">Stage 1 (ITT)</a></td><td><a href="rider/"></a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-2">Stage 2</a></td><td><span class="flag pl"></span> <a href="rider/michal-kwiatkowski">KWIATKOWSKI Michał</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-3">Stage 3</a></td><td><span class="flag cz"></span> <a href="rider/jan-barta">BÁRTA Jan</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-4">Stage 4</a></td><td><span class="flag it"></span> <a href="rider/vincenzo-nibali">NIBALI Vincenzo</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-5">Stage 5</a></td><td><span class="flag au"></span> <a href="rider/michael-matthews">MATTHEWS Michael</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-6">Stage 6</a></td><td><span class="flag fr"></span> <a href="rider/perrig-quemeneur">QUÉMÉNEUR Perrig</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-7">Stage 7</a></td><td><span class="flag fr"></span> <a href="rider/anthony-delaplace">DELAPLACE Anthony</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-8">Stage 8</a></td><td><span class="flag pl"></span> <a href="rider/bartosz-huzarski">HUZARSKI Bartosz</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-9">Stage 9 (TTT)</a></td><td><a href="rider/"></a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-10">Stage 10</a></td><td><span class="flag be"></span> <a href="rider/kenneth-van-bilsen">VANBILSEN Kenneth</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-11">Stage 11</a></td><td><span class="flag ie"></span> <a href="rider/dan-martin">MARTIN Dan</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-12">Stage 12</a></td><td><span class="flag pl"></span> <a href="rider/michal-kwiatkowski">KWIATKOWSKI Michał</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-13">Stage 13</a></td><td><span class="flag be"></span> <a href="rider/thomas-de-gendt">DE GENDT Thomas</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-14">Stage 14</a></td><td><span class="flag fr"></span> <a href="rider/pierre-luc-perichon">PÉRICHON Pierre-Luc</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-15">Stage 15</a></td><td><span class="flag sk"></span> <a href="rider/peter-sagan">SAGAN Peter</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-16">Stage 16</a></td><td><span class="flag sk"></span> <a href="rider/peter-sagan">SAGAN Peter</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-17">Stage 17</a></td><td><span class="flag de"></span> <a href="rider/simon-geschke">GESCHKE Simon</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-18">Stage 18</a></td><td><span class="flag fr"></span> <a href="rider/romain-bardet">BARDET Romain</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-19">Stage 19</a></td><td><span class="flag fr"></span> <a href="rider/pierre-rolland">ROLLAND Pierre</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-20">Stage 20</a></td><td><span class="flag fr"></span> <a href="rider/alexandre-geniez">GENIEZ Alexandre</a></td></tr>
+<tr class=""><td><a href="race/tour-de-france/2015/stage-21">Stage 21</a></td><td><a href="rider/"></a></td></tr>
+</tbody></table></div>
+<div class="mt50">
+<h4>Follow-up links</h4><ul class="simple-list list circle bluelink fs14">
+<li class=""><a href="race/tour-de-france/results/most-combative">Most combative in history</a></li>
+</ul><div class="clear"></div></div>
+</div></div>
+<div class="side-nav  ">
+<a class="backToContent blue fs11 right showIfMobile" href="">back to content</a><div class="clear"></div>
+<ul class="sidenav"><li><div class="sidenavTitle">Menu</div><ul><li class="" data-pro="0"><a href="race/tour-de-france/2015/results/start">Winners and leaders</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/most-constant-rider">Most constant rider</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/smallest-sum-of-results">Smallest sum of results</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/won-how">Won how</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/most-bonifications">Most bonifications</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/hottest-stages">Hottest stages</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/prizemoney-ranking">Prizemoney ranking</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/leader-jerseys">Leader jerseys</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/best-worse-result">Best worse result</a></li>
+<li class="cur" data-pro="0"><a href="race/tour-de-france/2015/results/comative-riders">Combative riders </a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/dropouts">Dropouts</a></li>
+</ul></li><li><div class="sidenavTitle">Speed</div><ul><li class="" data-pro="0"><a href="race/tour-de-france/2015/results/fastest-stage">Fastest stages</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/fastest-first-hour">Fastest first and last hour</a></li>
+<li class="" data-pro="0"><a href="race/tour-de-france/2015/results/average-speed-per-stage">Average speed per stage</a></li>
+</ul></li><li><div class="sidenavTitle">GC</div><ul><li class="" data-pro="0"><a href="race/tour-de-france/2015/results/top-10-timegaps-over-time">Timegap chart</a></li>
+<li class="" data-pro="1"><a href="race/tour-de-france/2015/results/gc-without-time-trials">GC without TTs</a></li>
+<li class="" data-pro="1"><a href="race/tour-de-france/2015/results/gc-without-1-stage">GC Without 1 stage</a></li>
+<li class="" data-pro="1"><a href="race/tour-de-france/2015/results/gc-without-time-bonuses">GC without time bonuses</a></li>
+<li class="" data-pro="1"><a href="race/tour-de-france/2015/results/stages-with-most-gc-time-changes">Most GC time changes</a></li>
+</ul></li><li><div class="sidenavTitle">Points GC</div><ul><li class="" data-pro="0"><a href="race/tour-de-france/2015/results/points-breakdown-per-stage">Points GC breakdown</a></li>
+</ul></li><li><div class="sidenavTitle">Game</div><ul><li class="" data-pro="0"><a href="race/tour-de-france/2015/results/least-predictable-stages">Least predictable</a></li>
+</ul></li></ul></div>
+<div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
+</ul>
+<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
+<li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
+<li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
+</ul></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul>
+<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
+<li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
+</ul></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul>
+<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
+</ul></li>
+<li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
+<li><a href="info/profile-score-explained">Profile scores</a></li>
+<li><a href="reset_password.php">Reset password</a></li>
+<li><a href="info/pcs-game">PCS game</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
+</ul>
+<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+<li><a href="info/contact">Contact us</a></li>
+<li><a href="info/cookie-policy">Cookie policy</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/contributions">Contributions</a></li>
+<li><span>Pageload 0.0094s</span></li>
+</ul></li>
+</ul></div></div>
+
+<script src="search_list21.js"></script></body></html>

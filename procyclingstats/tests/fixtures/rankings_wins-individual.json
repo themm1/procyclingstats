@@ -1,0 +1,2645 @@
+{
+  "dates_select": [
+    {
+      "text": "2025",
+      "value": "2025-07-11"
+    },
+    {
+      "text": "2024",
+      "value": "2024-12-31"
+    },
+    {
+      "text": "2023",
+      "value": "2023-12-31"
+    },
+    {
+      "text": "2022",
+      "value": "2022-12-31"
+    },
+    {
+      "text": "2021",
+      "value": "2021-12-31"
+    },
+    {
+      "text": "2020",
+      "value": "2020-12-31"
+    },
+    {
+      "text": "2019",
+      "value": "2019-12-31"
+    },
+    {
+      "text": "2018",
+      "value": "2018-12-31"
+    },
+    {
+      "text": "2017",
+      "value": "2017-12-31"
+    },
+    {
+      "text": "2016",
+      "value": "2016-12-31"
+    },
+    {
+      "text": "2015",
+      "value": "2015-12-31"
+    },
+    {
+      "text": "2014",
+      "value": "2014-12-31"
+    },
+    {
+      "text": "2013",
+      "value": "2013-12-31"
+    },
+    {
+      "text": "2012",
+      "value": "2012-12-31"
+    },
+    {
+      "text": "2011",
+      "value": "2011-12-31"
+    },
+    {
+      "text": "2010",
+      "value": "2010-12-31"
+    },
+    {
+      "text": "2009",
+      "value": "2009-12-31"
+    },
+    {
+      "text": "2008",
+      "value": "2008-12-31"
+    },
+    {
+      "text": "2007",
+      "value": "2007-12-31"
+    },
+    {
+      "text": "2006",
+      "value": "2006-12-31"
+    },
+    {
+      "text": "2005",
+      "value": "2005-12-31"
+    },
+    {
+      "text": "2004",
+      "value": "2004-12-31"
+    },
+    {
+      "text": "2003",
+      "value": "2003-12-31"
+    },
+    {
+      "text": "2002",
+      "value": "2002-12-31"
+    },
+    {
+      "text": "2001",
+      "value": "2001-12-31"
+    },
+    {
+      "text": "2000",
+      "value": "2000-12-31"
+    },
+    {
+      "text": "1999",
+      "value": "1999-12-31"
+    },
+    {
+      "text": "1998",
+      "value": "1998-12-31"
+    },
+    {
+      "text": "1997",
+      "value": "1997-12-31"
+    },
+    {
+      "text": "1996",
+      "value": "1996-12-31"
+    },
+    {
+      "text": "1995",
+      "value": "1995-12-31"
+    }
+  ],
+  "distance_ranking": null,
+  "individual_ranking": null,
+  "individual_wins_ranking": [
+    {
+      "rank": 1,
+      "prev_rank": 1,
+      "rider_name": "POGA\u010cAR Tadej",
+      "rider_url": "rider/tadej-pogacar",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "SI",
+      "first_places": 12,
+      "second_places": 4,
+      "third_places": 3
+    },
+    {
+      "rank": 2,
+      "prev_rank": 2,
+      "rider_name": "MERLIER Tim",
+      "rider_url": "rider/tim-merlier",
+      "team_name": "Soudal Quick-Step",
+      "team_url": "team/soudal-quick-step-2025",
+      "nationality": "BE",
+      "first_places": 11,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 3,
+      "prev_rank": 117,
+      "rider_name": "BRENNAN Matthew",
+      "rider_url": "rider/matthew-brennan",
+      "team_name": "Team Visma | Lease a Bike",
+      "team_url": "team/team-visma-lease-a-bike-2025",
+      "nationality": "GB",
+      "first_places": 10,
+      "second_places": 5,
+      "third_places": 0
+    },
+    {
+      "rank": 4,
+      "prev_rank": 201,
+      "rider_name": "RAJOVI\u0106 Du\u0161an",
+      "rider_url": "rider/dusan-rajovic",
+      "team_name": "Team Solution Tech - Vini Fantini",
+      "team_url": "team/team-solution-tech-vini-fantini-2025",
+      "nationality": "RS",
+      "first_places": 10,
+      "second_places": 4,
+      "third_places": 2
+    },
+    {
+      "rank": 5,
+      "prev_rank": 144,
+      "rider_name": "ALMEIDA Jo\u00e3o",
+      "rider_url": "rider/joao-almeida",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "PT",
+      "first_places": 9,
+      "second_places": 8,
+      "third_places": 3
+    },
+    {
+      "rank": 6,
+      "prev_rank": 17,
+      "rider_name": "HAMZA Yacine",
+      "rider_url": "rider/yacine-hamza",
+      "team_name": "Madar Pro Cycling Team",
+      "team_url": "team/madar-pro-cycling-team-2025",
+      "nationality": "DZ",
+      "first_places": 9,
+      "second_places": 6,
+      "third_places": 0
+    },
+    {
+      "rank": 7,
+      "prev_rank": 3,
+      "rider_name": "PEDERSEN Mads",
+      "rider_url": "rider/mads-pedersen",
+      "team_name": "Lidl - Trek",
+      "team_url": "team/lidl-trek-2025",
+      "nationality": "DK",
+      "first_places": 9,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 8,
+      "prev_rank": 545,
+      "rider_name": "SALBY Alexander",
+      "rider_url": "rider/alexander-salby",
+      "team_name": "Li Ning Star",
+      "team_url": "team/li-ning-star-cycling-team-2025",
+      "nationality": "DK",
+      "first_places": 7,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 9,
+      "prev_rank": 123,
+      "rider_name": "HOBBS Noah",
+      "rider_url": "rider/noah-hobbs",
+      "team_name": "EF Education - Aevolo",
+      "team_url": "team/ef-education-aevolo-2025",
+      "nationality": "GB",
+      "first_places": 7,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 10,
+      "prev_rank": 4,
+      "rider_name": "MILAN Jonathan",
+      "rider_url": "rider/jonathan-milan",
+      "team_name": "Lidl - Trek",
+      "team_url": "team/lidl-trek-2025",
+      "nationality": "IT",
+      "first_places": 6,
+      "second_places": 3,
+      "third_places": 3
+    },
+    {
+      "rank": 11,
+      "prev_rank": 52,
+      "rider_name": "AYUSO Juan",
+      "rider_url": "rider/juan-ayuso-pesquera",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "ES",
+      "first_places": 6,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 12,
+      "prev_rank": null,
+      "rider_name": "BOGUS\u0141AWSKI Marceli",
+      "rider_url": "rider/marceli-boguslawski",
+      "team_name": "ATT Investments",
+      "team_url": "team/att-investments-2025",
+      "nationality": "PL",
+      "first_places": 6,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 13,
+      "prev_rank": null,
+      "rider_name": "GILMORE Brady",
+      "rider_url": "rider/brady-gilmore",
+      "team_name": "Israel Premier Tech Academy",
+      "team_url": "team/israel-premier-tech-academy-2025",
+      "nationality": "AU",
+      "first_places": 6,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 14,
+      "prev_rank": 25,
+      "rider_name": "WIDAR Jarno",
+      "rider_url": "rider/jarno-widar",
+      "team_name": "Lotto Development Team",
+      "team_url": "team/lotto-development-team-2025",
+      "nationality": "BE",
+      "first_places": 6,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 15,
+      "prev_rank": 143,
+      "rider_name": "VAUQUELIN K\u00e9vin",
+      "rider_url": "rider/kevin-vauquelin",
+      "team_name": "Ark\u00e9a - B&B Hotels",
+      "team_url": "team/arkea-b-b-hotels-2025",
+      "nationality": "FR",
+      "first_places": 5,
+      "second_places": 5,
+      "third_places": 2
+    },
+    {
+      "rank": 16,
+      "prev_rank": 18,
+      "rider_name": "KOOIJ Olav",
+      "rider_url": "rider/olav-kooij",
+      "team_name": "Team Visma | Lease a Bike",
+      "team_url": "team/team-visma-lease-a-bike-2025",
+      "nationality": "NL",
+      "first_places": 5,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 17,
+      "prev_rank": 53,
+      "rider_name": "VAN DER POEL Mathieu",
+      "rider_url": "rider/mathieu-van-der-poel",
+      "team_name": "Alpecin - Deceuninck",
+      "team_url": "team/alpecin-deceuninck-2025",
+      "nationality": "NL",
+      "first_places": 5,
+      "second_places": 2,
+      "third_places": 4
+    },
+    {
+      "rank": 18,
+      "prev_rank": 34,
+      "rider_name": "BUDZI\u0143SKI Marcin",
+      "rider_url": "rider/marcin-budzinski",
+      "team_name": "ATT Investments",
+      "team_url": "team/att-investments-2025",
+      "nationality": "PL",
+      "first_places": 5,
+      "second_places": 2,
+      "third_places": 3
+    },
+    {
+      "rank": 19,
+      "prev_rank": 494,
+      "rider_name": "TSVETKOV Nikita",
+      "rider_url": "rider/nikita-tsvetkov",
+      "team_name": "OU7 Cycling Team",
+      "team_url": "team/ou7-cycling-team-2025",
+      "nationality": "UZ",
+      "first_places": 5,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 20,
+      "prev_rank": 9,
+      "rider_name": "EVENEPOEL Remco",
+      "rider_url": "rider/remco-evenepoel",
+      "team_name": "Soudal Quick-Step",
+      "team_url": "team/soudal-quick-step-2025",
+      "nationality": "BE",
+      "first_places": 5,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 21,
+      "prev_rank": 7,
+      "rider_name": "LAAS Martin",
+      "rider_url": "rider/martin-laas",
+      "team_name": "Quick Pro Team",
+      "team_url": "team/quick-pro-team-2025",
+      "nationality": "EE",
+      "first_places": 5,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 22,
+      "prev_rank": 102,
+      "rider_name": "ARVANITOU Nikiforos",
+      "rider_url": "rider/nikiforos-arvanitou",
+      "team_name": "Novapor Theseus SportsClub",
+      "team_url": "team/novapor-theseus-sportsclub-2025",
+      "nationality": "GR",
+      "first_places": 5,
+      "second_places": 0,
+      "third_places": 4
+    },
+    {
+      "rank": 23,
+      "prev_rank": 339,
+      "rider_name": "PIDCOCK Thomas",
+      "rider_url": "rider/thomas-pidcock",
+      "team_name": "Q36.5 Pro Cycling Team",
+      "team_url": "team/q365-pro-cycing-team-2025",
+      "nationality": "GB",
+      "first_places": 4,
+      "second_places": 3,
+      "third_places": 3
+    },
+    {
+      "rank": 24,
+      "prev_rank": 15,
+      "rider_name": "MAGNIER Paul",
+      "rider_url": "rider/paul-magnier",
+      "team_name": "Soudal Quick-Step",
+      "team_url": "team/soudal-quick-step-2025",
+      "nationality": "FR",
+      "first_places": 4,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 25,
+      "prev_rank": null,
+      "rider_name": "SCARONI Christian",
+      "rider_url": "rider/christian-scaroni",
+      "team_name": "XDS Astana Team",
+      "team_url": "team/xds-astana-team-2025",
+      "nationality": "IT",
+      "first_places": 4,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 26,
+      "prev_rank": null,
+      "rider_name": "L\u00d3PEZ Harold Mart\u00edn",
+      "rider_url": "rider/harold-martin-lopez",
+      "team_name": "XDS Astana Team",
+      "team_url": "team/xds-astana-team-2025",
+      "nationality": "EC",
+      "first_places": 4,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 28,
+      "prev_rank": 498,
+      "rider_name": "WATSON Samuel",
+      "rider_url": "rider/samuel-watson",
+      "team_name": "INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2025",
+      "nationality": "GB",
+      "first_places": 4,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 29,
+      "prev_rank": 955,
+      "rider_name": "MOSCHETTI Matteo",
+      "rider_url": "rider/matteo-moschetti",
+      "team_name": "Q36.5 Pro Cycling Team",
+      "team_url": "team/q365-pro-cycing-team-2025",
+      "nationality": "IT",
+      "first_places": 4,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 30,
+      "prev_rank": 871,
+      "rider_name": "OLIVEIRA Ivo",
+      "rider_url": "rider/ivo-emanuel-alves",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "PT",
+      "first_places": 4,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 31,
+      "prev_rank": 184,
+      "rider_name": "CARSTENSEN Lucas",
+      "rider_url": "rider/lucas-carstensen",
+      "team_name": "Team Storck - Metropol Cycling",
+      "team_url": "team/team-storck-metropol-cycling-2025",
+      "nationality": "DE",
+      "first_places": 4,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 32,
+      "prev_rank": 36,
+      "rider_name": "BENNETT Sam",
+      "rider_url": "rider/sam-bennett",
+      "team_name": "Decathlon AG2R La Mondiale Team",
+      "team_url": "team/decathlon-ag2r-la-mondiale-2025",
+      "nationality": "IE",
+      "first_places": 4,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 33,
+      "prev_rank": null,
+      "rider_name": "PRODHOMME Nicolas",
+      "rider_url": "rider/nicolas-prodhomme",
+      "team_name": "Decathlon AG2R La Mondiale Team",
+      "team_url": "team/decathlon-ag2r-la-mondiale-2025",
+      "nationality": "FR",
+      "first_places": 4,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 34,
+      "prev_rank": 204,
+      "rider_name": "TSARENKO Kyrylo",
+      "rider_url": "rider/kyrylo-tsarenko",
+      "team_name": "Team Solution Tech - Vini Fantini",
+      "team_url": "team/team-solution-tech-vini-fantini-2025",
+      "nationality": "UA",
+      "first_places": 4,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 35,
+      "prev_rank": 200,
+      "rider_name": "MAEKELE Milkias",
+      "rider_url": "rider/milkias-maekele",
+      "team_name": "BIKE AID",
+      "team_url": "team/bike-aid-2025",
+      "nationality": "ER",
+      "first_places": 3,
+      "second_places": 8,
+      "third_places": 3
+    },
+    {
+      "rank": 36,
+      "prev_rank": 105,
+      "rider_name": "DEL TORO Isaac",
+      "rider_url": "rider/isaac-del-toro",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "MX",
+      "first_places": 3,
+      "second_places": 7,
+      "third_places": 1
+    },
+    {
+      "rank": 37,
+      "prev_rank": 38,
+      "rider_name": "GROENEWEGEN Dylan",
+      "rider_url": "rider/dylan-groenewegen",
+      "team_name": "Team Jayco AlUla",
+      "team_url": "team/team-jayco-alula-2025",
+      "nationality": "NL",
+      "first_places": 3,
+      "second_places": 5,
+      "third_places": 2
+    },
+    {
+      "rank": 38,
+      "prev_rank": null,
+      "rider_name": "SPARFEL Aubin",
+      "rider_url": "rider/aubin-sparfel",
+      "team_name": "Decathlon AG2R La Mondiale Development Team",
+      "team_url": "team/decathlon-ag2r-la-mondiale-development-team-2025",
+      "nationality": "FR",
+      "first_places": 3,
+      "second_places": 4,
+      "third_places": 2
+    },
+    {
+      "rank": 39,
+      "prev_rank": 8,
+      "rider_name": "PHILIPSEN Jasper",
+      "rider_url": "rider/jasper-philipsen",
+      "team_name": "Alpecin - Deceuninck",
+      "team_url": "team/alpecin-deceuninck-2025",
+      "nationality": "BE",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 3
+    },
+    {
+      "rank": 40,
+      "prev_rank": 492,
+      "rider_name": "GEE Derek",
+      "rider_url": "rider/derek-gee",
+      "team_name": "Israel - Premier Tech",
+      "team_url": "team/israel-premier-tech-2025",
+      "nationality": "CA",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 41,
+      "prev_rank": 329,
+      "rider_name": "SILVA Guillermo Thomas",
+      "rider_url": "rider/guillermo-thomas-silva-coussan",
+      "team_name": "Caja Rural - Seguros RGA",
+      "team_url": "team/caja-rural-seguros-rga-2025",
+      "nationality": "UY",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 42,
+      "prev_rank": 347,
+      "rider_name": "BUITRAGO Santiago",
+      "rider_url": "rider/santiago-buitrago-sanchez",
+      "team_name": "Bahrain - Victorious",
+      "team_url": "team/bahrain-victorious-2025",
+      "nationality": "CO",
+      "first_places": 3,
+      "second_places": 3,
+      "third_places": 0
+    },
+    {
+      "rank": 43,
+      "prev_rank": 48,
+      "rider_name": "MARTINEZ Lenny",
+      "rider_url": "rider/lenny-martinez",
+      "team_name": "Bahrain - Victorious",
+      "team_url": "team/bahrain-victorious-2025",
+      "nationality": "FR",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 44,
+      "prev_rank": 5,
+      "rider_name": "GATE Aaron",
+      "rider_url": "rider/aaron-gate",
+      "team_name": "XDS Astana Team",
+      "team_url": "team/xds-astana-team-2025",
+      "nationality": "NZ",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 45,
+      "prev_rank": null,
+      "rider_name": "DE BOD Stefan",
+      "rider_url": "rider/stefan-de-bod",
+      "team_name": "Terengganu Cycling Team",
+      "team_url": "team/terengganu-cycling-team-2025",
+      "nationality": "ZA",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 46,
+      "prev_rank": 358,
+      "rider_name": "WALSH Liam",
+      "rider_url": "rider/liam-walsh",
+      "team_name": "CCACHE x BODYWRAP",
+      "team_url": "team/ccache-x-bodywrap-2025",
+      "nationality": "AU",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 47,
+      "prev_rank": 19,
+      "rider_name": "ROGLI\u010c Primo\u017e",
+      "rider_url": "rider/primoz-roglic",
+      "team_name": "Red Bull - BORA - hansgrohe",
+      "team_url": "team/red-bull-bora-hansgrohe-2025",
+      "nationality": "SI",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 48,
+      "prev_rank": 136,
+      "rider_name": "MEEUS Jordi",
+      "rider_url": "rider/jordi-meeus",
+      "team_name": "Red Bull - BORA - hansgrohe",
+      "team_url": "team/red-bull-bora-hansgrohe-2025",
+      "nationality": "BE",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 49,
+      "prev_rank": 806,
+      "rider_name": "VAN POPPEL Danny",
+      "rider_url": "rider/danny-van-poppel",
+      "team_name": "Red Bull - BORA - hansgrohe",
+      "team_url": "team/red-bull-bora-hansgrohe-2025",
+      "nationality": "NL",
+      "first_places": 3,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 50,
+      "prev_rank": 306,
+      "rider_name": "VINE Jay",
+      "rider_url": "rider/jay-vine",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "AU",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 51,
+      "prev_rank": 140,
+      "rider_name": "NARV\u00c1EZ Jhonatan",
+      "rider_url": "rider/jhonatan-narvaez",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "EC",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 52,
+      "prev_rank": 43,
+      "rider_name": "CORT Magnus",
+      "rider_url": "rider/magnus-cort-nielsen",
+      "team_name": "Uno-X Mobility",
+      "team_url": "team/uno-x-mobility-2025",
+      "nationality": "DK",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 53,
+      "prev_rank": 336,
+      "rider_name": "STOLI\u0106 Mihajlo",
+      "rider_url": "rider/mihajlo-stolic",
+      "team_name": "Team United Shipping",
+      "team_url": "team/team-united-shipping-2025",
+      "nationality": "RS",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 54,
+      "prev_rank": 146,
+      "rider_name": "SCHMID Mauro",
+      "rider_url": "rider/mauro-schmid",
+      "team_name": "Team Jayco AlUla",
+      "team_url": "team/team-jayco-alula-2025",
+      "nationality": "CH",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 55,
+      "prev_rank": 70,
+      "rider_name": "WELSFORD Sam",
+      "rider_url": "rider/sam-welsford",
+      "team_name": "Red Bull - BORA - hansgrohe",
+      "team_url": "team/red-bull-bora-hansgrohe-2025",
+      "nationality": "AU",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 56,
+      "prev_rank": null,
+      "rider_name": "SIMMONS Quinn",
+      "rider_url": "rider/quinn-simmons",
+      "team_name": "Lidl - Trek",
+      "team_url": "team/lidl-trek-2025",
+      "nationality": "US",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 57,
+      "prev_rank": 155,
+      "rider_name": "FRETIN Milan",
+      "rider_url": "rider/milan-fretin",
+      "team_name": "Cofidis",
+      "team_url": "team/cofidis-2025",
+      "nationality": "BE",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 58,
+      "prev_rank": 169,
+      "rider_name": "PLAPP Luke",
+      "rider_url": "rider/luke-plapp",
+      "team_name": "Team Jayco AlUla",
+      "team_url": "team/team-jayco-alula-2025",
+      "nationality": "AU",
+      "first_places": 3,
+      "second_places": 1,
+      "third_places": 0
+    },
+    {
+      "rank": 59,
+      "prev_rank": 861,
+      "rider_name": "STORER Michael",
+      "rider_url": "rider/michael-storer",
+      "team_name": "Tudor Pro Cycling Team",
+      "team_url": "team/tudor-pro-cycling-team-2025",
+      "nationality": "AU",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 60,
+      "prev_rank": 115,
+      "rider_name": "MORGADO Ant\u00f3nio",
+      "rider_url": "rider/antonio-morgado",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "PT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 61,
+      "prev_rank": 180,
+      "rider_name": "SCHWARZBACHER Matthias",
+      "rider_url": "rider/matthias-schwarzbacher",
+      "team_name": "UAE Team Emirates Gen Z",
+      "team_url": "team/uae-team-emirates-gen-z-2025",
+      "nationality": "SK",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 62,
+      "prev_rank": 766,
+      "rider_name": "SCHRETTL Marco",
+      "rider_url": "rider/marco-schrettl",
+      "team_name": "Tirol KTM Cycling Team",
+      "team_url": "team/tirol-ktm-cycling-team-2025",
+      "nationality": "AT",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 3
+    },
+    {
+      "rank": 63,
+      "prev_rank": 692,
+      "rider_name": "ROMEO Iv\u00e1n",
+      "rider_url": "rider/ivan-romeo",
+      "team_name": "Movistar Team",
+      "team_url": "team/movistar-team-2025",
+      "nationality": "ES",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 64,
+      "prev_rank": null,
+      "rider_name": "KENCH Josh",
+      "rider_url": "rider/josh-kench",
+      "team_name": "Li Ning Star",
+      "team_url": "team/li-ning-star-cycling-team-2025",
+      "nationality": "NZ",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 1
+    },
+    {
+      "rank": 65,
+      "prev_rank": null,
+      "rider_name": "ZERAY Nahom",
+      "rider_url": "rider/nahom-zeray-araya",
+      "team_name": "JCL Team UKYO",
+      "team_url": "team/jcl-team-ukyo-2025",
+      "nationality": "ER",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 66,
+      "prev_rank": 419,
+      "rider_name": "ALMUTAIWEI Mohammad",
+      "rider_url": "rider/mohammad-almutaiwei",
+      "team_name": "UAE Team Emirates Gen Z",
+      "team_url": "team/uae-team-emirates-gen-z-2025",
+      "nationality": "AE",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 67,
+      "prev_rank": 515,
+      "rider_name": "FEDOROV Yevgeniy",
+      "rider_url": "rider/yevgeniy-fedorov",
+      "team_name": "XDS Astana Team",
+      "team_url": "team/xds-astana-team-2025",
+      "nationality": "KZ",
+      "first_places": 3,
+      "second_places": 0,
+      "third_places": 0
+    },
+    {
+      "rank": 68,
+      "prev_rank": 10,
+      "rider_name": "VINGEGAARD Jonas",
+      "rider_url": "rider/jonas-vingegaard",
+      "team_name": "Team Visma | Lease a Bike",
+      "team_url": "team/team-visma-lease-a-bike-2025",
+      "nationality": "DK",
+      "first_places": 2,
+      "second_places": 7,
+      "third_places": 2
+    },
+    {
+      "rank": 69,
+      "prev_rank": 375,
+      "rider_name": "MOLANO Juan Sebasti\u00e1n",
+      "rider_url": "rider/juan-sebastian-molano",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "CO",
+      "first_places": 2,
+      "second_places": 5,
+      "third_places": 2
+    },
+    {
+      "rank": 70,
+      "prev_rank": 305,
+      "rider_name": "MULUBRHAN Henok",
+      "rider_url": "rider/henok-mulubrhan",
+      "team_name": "XDS Astana Team",
+      "team_url": "team/xds-astana-team-2025",
+      "nationality": "ER",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 6
+    },
+    {
+      "rank": 71,
+      "prev_rank": null,
+      "rider_name": "LARSEN Niklas",
+      "rider_url": "rider/niklas-larsen",
+      "team_name": "BHS - PL Beton Bornholm",
+      "team_url": "team/bhs-pl-beton-bornholm-2025",
+      "nationality": "DK",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 5
+    },
+    {
+      "rank": 72,
+      "prev_rank": 77,
+      "rider_name": "GANNA Filippo",
+      "rider_url": "rider/filippo-ganna",
+      "team_name": "INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2025",
+      "nationality": "IT",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 2
+    },
+    {
+      "rank": 73,
+      "prev_rank": 41,
+      "rider_name": "KUBI\u0160 Luk\u00e1\u0161",
+      "rider_url": "rider/lukas-kubis",
+      "team_name": "Unibet Tietema Rockets",
+      "team_url": "team/unibet-tietema-rockets-2025",
+      "nationality": "SK",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 74,
+      "prev_rank": null,
+      "rider_name": "COVI Alessandro",
+      "rider_url": "rider/alessandro-covi",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "IT",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 75,
+      "prev_rank": null,
+      "rider_name": "TURCONI Filippo",
+      "rider_url": "rider/filippo-turconi",
+      "team_name": "VF Group - Bardiani CSF - Faizan\u00e8",
+      "team_url": "team/vf-group-bardiani-csf-faizane-2025",
+      "nationality": "IT",
+      "first_places": 2,
+      "second_places": 3,
+      "third_places": 1
+    },
+    {
+      "rank": 76,
+      "prev_rank": null,
+      "rider_name": "ASSAL Mohamed Nadjib",
+      "rider_url": "rider/mohamed-nadjib-assal",
+      "team_name": "Mouloudia Club d'Alger",
+      "team_url": "team/mouloudia-club-d-alger-2025",
+      "nationality": "DZ",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 4
+    },
+    {
+      "rank": 77,
+      "prev_rank": 811,
+      "rider_name": "CAMARGO Diego Andr\u00e9s",
+      "rider_url": "rider/diego-andres-camargo",
+      "team_name": "Team Medell\u00edn - EPM",
+      "team_url": "team/team-medellin-epm-2025",
+      "nationality": "CO",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 2
+    },
+    {
+      "rank": 78,
+      "prev_rank": 6,
+      "rider_name": "MALUCELLI Matteo",
+      "rider_url": "rider/matteo-malucelli",
+      "team_name": "XDS Astana Team",
+      "team_url": "team/xds-astana-team-2025",
+      "nationality": "IT",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 79,
+      "prev_rank": 304,
+      "rider_name": "GR\u00c9GOIRE Romain",
+      "rider_url": "rider/romain-gregoire1",
+      "team_name": "Groupama - FDJ",
+      "team_url": "team/groupama-fdj-2025",
+      "nationality": "FR",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 80,
+      "prev_rank": null,
+      "rider_name": "DE JONG Timo",
+      "rider_url": "rider/timo-de-jong",
+      "team_name": "VolkerWessels Cycling Team",
+      "team_url": "team/volkerwessels-cyclingteam-2025",
+      "nationality": "NL",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 81,
+      "prev_rank": 160,
+      "rider_name": "BATSAIKHAN Tegsh-Bayar",
+      "rider_url": "rider/tegsh-bayar-batsaikhan",
+      "team_name": "Roojai Insurance",
+      "team_url": "team/roojai-insurance-2025",
+      "nationality": "MN",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 82,
+      "prev_rank": 238,
+      "rider_name": "SENTJENS Sente",
+      "rider_url": "rider/sente-sentjens",
+      "team_name": "Alpecin-Deceuninck Development Team",
+      "team_url": "team/alpecin-deceuninck-development-team-2025",
+      "nationality": "BE",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 83,
+      "prev_rank": null,
+      "rider_name": "OMRZEL Jakob",
+      "rider_url": "rider/jakob-omrzel",
+      "team_name": "Bahrain Victorious Development Team",
+      "team_url": "team/bahrain-victorious-development-team-2025",
+      "nationality": "SI",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 1
+    },
+    {
+      "rank": 84,
+      "prev_rank": 194,
+      "rider_name": "TARLING Joshua",
+      "rider_url": "rider/joshua-tarling",
+      "team_name": "INEOS Grenadiers",
+      "team_url": "team/ineos-grenadiers-2025",
+      "nationality": "GB",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 85,
+      "prev_rank": null,
+      "rider_name": "STEWART Jake",
+      "rider_url": "rider/jake-stewart",
+      "team_name": "Israel - Premier Tech",
+      "team_url": "team/israel-premier-tech-2025",
+      "nationality": "GB",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 86,
+      "prev_rank": 410,
+      "rider_name": "LEKNESSUND Andreas",
+      "rider_url": "rider/andreas-leknessund",
+      "team_name": "Uno-X Mobility",
+      "team_url": "team/uno-x-mobility-2025",
+      "nationality": "NO",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 87,
+      "prev_rank": null,
+      "rider_name": "KURITS Karl",
+      "rider_url": "rider/karl-kurits",
+      "team_name": "Israel Premier Tech Academy",
+      "team_url": "team/israel-premier-tech-academy-2025",
+      "nationality": "EE",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 88,
+      "prev_rank": null,
+      "rider_name": "RACCANI Simone",
+      "rider_url": "rider/simone-raccani",
+      "team_name": "JCL Team UKYO",
+      "team_url": "team/jcl-team-ukyo-2025",
+      "nationality": "IT",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 89,
+      "prev_rank": 199,
+      "rider_name": "MANSOURI Islam",
+      "rider_url": "rider/islam-mansouri",
+      "team_name": "Madar Pro Cycling Team",
+      "team_url": "team/madar-pro-cycling-team-2025",
+      "nationality": "DZ",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 90,
+      "prev_rank": 489,
+      "rider_name": "GRO\u00dfSCHARTNER Felix",
+      "rider_url": "rider/felix-grossschartner",
+      "team_name": "UAE Team Emirates - XRG",
+      "team_url": "team/uae-team-emirates-xrg-2025",
+      "nationality": "AT",
+      "first_places": 2,
+      "second_places": 2,
+      "third_places": 0
+    },
+    {
+      "rank": 91,
+      "prev_rank": null,
+      "rider_name": "ASKEY Lewis",
+      "rider_url": "rider/lewis-askey",
+      "team_name": "Groupama - FDJ",
+      "team_url": "team/groupama-fdj-2025",
+      "nationality": "GB",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 3
+    },
+    {
+      "rank": 92,
+      "prev_rank": null,
+      "rider_name": "WRIGHT Paul",
+      "rider_url": "rider/paul-wright",
+      "team_name": "Factor Racing",
+      "team_url": "team/factor-racing-2025",
+      "nationality": "NZ",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 3
+    },
+    {
+      "rank": 93,
+      "prev_rank": 55,
+      "rider_name": "VAN DEN BERG Marijn",
+      "rider_url": "rider/marijn-van-den-berg",
+      "team_name": "EF Education - EasyPost",
+      "team_url": "team/ef-education-easypost-2025",
+      "nationality": "NL",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 94,
+      "prev_rank": null,
+      "rider_name": "MILAN Matteo",
+      "rider_url": "rider/matteo-milan",
+      "team_name": "Lidl - Trek Future Racing",
+      "team_url": "team/lidl-trek-future-racing-2025",
+      "nationality": "IT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 95,
+      "prev_rank": null,
+      "rider_name": "THORNLEY Callum",
+      "rider_url": "rider/callum-thornley",
+      "team_name": "Red Bull - BORA - hansgrohe Rookies",
+      "team_url": "team/red-bull-bora-hansgrohe-rookies-2025",
+      "nationality": "GB",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 96,
+      "prev_rank": 427,
+      "rider_name": "CADENA Edgar David",
+      "rider_url": "rider/edgar-cadena",
+      "team_name": "Petrolike",
+      "team_url": "team/petrolike-2025",
+      "nationality": "MX",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 2
+    },
+    {
+      "rank": 97,
+      "prev_rank": 212,
+      "rider_name": "SKJELMOSE Mattias",
+      "rider_url": "rider/mattias-skjelmose-jensen",
+      "team_name": "Lidl - Trek",
+      "team_url": "team/lidl-trek-2025",
+      "nationality": "DK",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 98,
+      "prev_rank": 391,
+      "rider_name": "HAYTER Ethan",
+      "rider_url": "rider/ethan-hayter",
+      "team_name": "Soudal Quick-Step",
+      "team_url": "team/soudal-quick-step-2025",
+      "nationality": "GB",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 99,
+      "prev_rank": 147,
+      "rider_name": "CHUMIL Sergio Geovani",
+      "rider_url": "rider/sergio-geovani-chumil-gonzalez",
+      "team_name": "Burgos Burpellet BH",
+      "team_url": "team/burgos-burpellet-bh-2025",
+      "nationality": "GT",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 1
+    },
+    {
+      "rank": 100,
+      "prev_rank": null,
+      "rider_name": "TULETT Ben",
+      "rider_url": "rider/ben-tulett",
+      "team_name": "Team Visma | Lease a Bike",
+      "team_url": "team/team-visma-lease-a-bike-2025",
+      "nationality": "GB",
+      "first_places": 2,
+      "second_places": 1,
+      "third_places": 1
+    }
+  ],
+  "nations_ranking": null,
+  "nations_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "Albania",
+      "value": "al"
+    },
+    {
+      "text": "Algeria",
+      "value": "dz"
+    },
+    {
+      "text": "Andorra",
+      "value": "ad"
+    },
+    {
+      "text": "Angola",
+      "value": "ao"
+    },
+    {
+      "text": "Argentina",
+      "value": "ar"
+    },
+    {
+      "text": "Australia",
+      "value": "au"
+    },
+    {
+      "text": "Austria",
+      "value": "at"
+    },
+    {
+      "text": "Azerbaijan",
+      "value": "az"
+    },
+    {
+      "text": "Belarus",
+      "value": "by"
+    },
+    {
+      "text": "Belgium",
+      "value": "be"
+    },
+    {
+      "text": "Belize",
+      "value": "bz"
+    },
+    {
+      "text": "Bermuda",
+      "value": "bm"
+    },
+    {
+      "text": "Botswana",
+      "value": "bw"
+    },
+    {
+      "text": "Brazil",
+      "value": "br"
+    },
+    {
+      "text": "Bulgaria",
+      "value": "bg"
+    },
+    {
+      "text": "Burkina Faso",
+      "value": "bf"
+    },
+    {
+      "text": "Cameroon",
+      "value": "cm"
+    },
+    {
+      "text": "Canada",
+      "value": "ca"
+    },
+    {
+      "text": "Chile",
+      "value": "cl"
+    },
+    {
+      "text": "China",
+      "value": "cn"
+    },
+    {
+      "text": "Colombia",
+      "value": "co"
+    },
+    {
+      "text": "Costa Rica",
+      "value": "cr"
+    },
+    {
+      "text": "Croatia",
+      "value": "hr"
+    },
+    {
+      "text": "Cuba",
+      "value": "cu"
+    },
+    {
+      "text": "Cura\u00e7ao",
+      "value": "cw"
+    },
+    {
+      "text": "Cyprus",
+      "value": "cy"
+    },
+    {
+      "text": "Czech Republic",
+      "value": "cz"
+    },
+    {
+      "text": "Denmark",
+      "value": "dk"
+    },
+    {
+      "text": "Dominican Republic",
+      "value": "do"
+    },
+    {
+      "text": "Ecuador",
+      "value": "ec"
+    },
+    {
+      "text": "El Salvador",
+      "value": "sv"
+    },
+    {
+      "text": "Eritrea",
+      "value": "er"
+    },
+    {
+      "text": "Estonia",
+      "value": "ee"
+    },
+    {
+      "text": "Ethiopia",
+      "value": "et"
+    },
+    {
+      "text": "Finland",
+      "value": "fi"
+    },
+    {
+      "text": "France",
+      "value": "fr"
+    },
+    {
+      "text": "Georgia",
+      "value": "ge"
+    },
+    {
+      "text": "Germany",
+      "value": "de"
+    },
+    {
+      "text": "Great Britain",
+      "value": "gb"
+    },
+    {
+      "text": "Greece",
+      "value": "gr"
+    },
+    {
+      "text": "Guatemala",
+      "value": "gt"
+    },
+    {
+      "text": "Hongkong",
+      "value": "hk"
+    },
+    {
+      "text": "Hungary",
+      "value": "hu"
+    },
+    {
+      "text": "India",
+      "value": "in"
+    },
+    {
+      "text": "Indonesia",
+      "value": "id"
+    },
+    {
+      "text": "Iran",
+      "value": "ir"
+    },
+    {
+      "text": "Ireland",
+      "value": "ie"
+    },
+    {
+      "text": "Israel",
+      "value": "il"
+    },
+    {
+      "text": "Italy",
+      "value": "it"
+    },
+    {
+      "text": "Ivory Coast",
+      "value": "ci"
+    },
+    {
+      "text": "Japan",
+      "value": "jp"
+    },
+    {
+      "text": "Kazakhstan",
+      "value": "kz"
+    },
+    {
+      "text": "Kenya",
+      "value": "ke"
+    },
+    {
+      "text": "Kosovo",
+      "value": "xk"
+    },
+    {
+      "text": "Kuwait",
+      "value": "kw"
+    },
+    {
+      "text": "Laos",
+      "value": "la"
+    },
+    {
+      "text": "Latvia",
+      "value": "lv"
+    },
+    {
+      "text": "Lebanon",
+      "value": "lb"
+    },
+    {
+      "text": "Lithuania",
+      "value": "lt"
+    },
+    {
+      "text": "Luxembourg",
+      "value": "lu"
+    },
+    {
+      "text": "Malaysia",
+      "value": "my"
+    },
+    {
+      "text": "Mauritius",
+      "value": "mu"
+    },
+    {
+      "text": "Mexico",
+      "value": "mx"
+    },
+    {
+      "text": "Moldova",
+      "value": "md"
+    },
+    {
+      "text": "Mongolia",
+      "value": "mn"
+    },
+    {
+      "text": "Montenegro",
+      "value": "me"
+    },
+    {
+      "text": "Morocco",
+      "value": "ma"
+    },
+    {
+      "text": "Namibia",
+      "value": "na"
+    },
+    {
+      "text": "Netherlands",
+      "value": "nl"
+    },
+    {
+      "text": "New Zealand",
+      "value": "nz"
+    },
+    {
+      "text": "North Macedonia",
+      "value": "mk"
+    },
+    {
+      "text": "Norway",
+      "value": "no"
+    },
+    {
+      "text": "Pakistan",
+      "value": "pk"
+    },
+    {
+      "text": "Panama",
+      "value": "pa"
+    },
+    {
+      "text": "Philippines",
+      "value": "ph"
+    },
+    {
+      "text": "Poland",
+      "value": "pl"
+    },
+    {
+      "text": "Portugal",
+      "value": "pt"
+    },
+    {
+      "text": "Puerto Rico",
+      "value": "pr"
+    },
+    {
+      "text": "Romania",
+      "value": "ro"
+    },
+    {
+      "text": "Russia",
+      "value": "ru"
+    },
+    {
+      "text": "Rwanda",
+      "value": "rw"
+    },
+    {
+      "text": "Serbia",
+      "value": "rs"
+    },
+    {
+      "text": "Singapore",
+      "value": "sg"
+    },
+    {
+      "text": "Slovakia",
+      "value": "sk"
+    },
+    {
+      "text": "Slovenia",
+      "value": "si"
+    },
+    {
+      "text": "South Africa",
+      "value": "za"
+    },
+    {
+      "text": "South Korea",
+      "value": "kr"
+    },
+    {
+      "text": "Spain",
+      "value": "es"
+    },
+    {
+      "text": "Sweden",
+      "value": "se"
+    },
+    {
+      "text": "Switzerland",
+      "value": "ch"
+    },
+    {
+      "text": "Syria",
+      "value": "sy"
+    },
+    {
+      "text": "Taiwan",
+      "value": "tw"
+    },
+    {
+      "text": "Thailand",
+      "value": "th"
+    },
+    {
+      "text": "Tunisia",
+      "value": "tn"
+    },
+    {
+      "text": "T\u00fcrkiye",
+      "value": "tr"
+    },
+    {
+      "text": "Uganda",
+      "value": "ug"
+    },
+    {
+      "text": "Ukraine",
+      "value": "ua"
+    },
+    {
+      "text": "United Arab Emirates",
+      "value": "ae"
+    },
+    {
+      "text": "United States",
+      "value": "us"
+    },
+    {
+      "text": "Uruguay",
+      "value": "uy"
+    },
+    {
+      "text": "Uzbekistan",
+      "value": "uz"
+    },
+    {
+      "text": "Venezuela",
+      "value": "ve"
+    }
+  ],
+  "nations_wins_ranking": null,
+  "pages_select": [
+    {
+      "text": "1-100",
+      "value": "0"
+    },
+    {
+      "text": "101-200",
+      "value": "100"
+    },
+    {
+      "text": "201-300",
+      "value": "200"
+    },
+    {
+      "text": "301-400",
+      "value": "300"
+    },
+    {
+      "text": "401-500",
+      "value": "400"
+    },
+    {
+      "text": "501-600",
+      "value": "500"
+    },
+    {
+      "text": "601-700",
+      "value": "600"
+    },
+    {
+      "text": "701-800",
+      "value": "700"
+    },
+    {
+      "text": "801-900",
+      "value": "800"
+    },
+    {
+      "text": "901-1000",
+      "value": "900"
+    }
+  ],
+  "racedays_ranking": null,
+  "races_ranking": null,
+  "team_ranking": null,
+  "teamlevels_select": null,
+  "teams_select": [
+    {
+      "text": "-",
+      "value": null
+    },
+    {
+      "text": "Alpecin - Deceuninck",
+      "value": "1100"
+    },
+    {
+      "text": "Ark\u00e9a - B&B Hotels",
+      "value": "1107"
+    },
+    {
+      "text": "Bahrain - Victorious",
+      "value": "3814"
+    },
+    {
+      "text": "Cofidis",
+      "value": "1136"
+    },
+    {
+      "text": "Decathlon AG2R La Mondiale Team",
+      "value": "1060"
+    },
+    {
+      "text": "EF Education - EasyPost",
+      "value": "4000"
+    },
+    {
+      "text": "Groupama - FDJ",
+      "value": "1187"
+    },
+    {
+      "text": "INEOS Grenadiers",
+      "value": "1423"
+    },
+    {
+      "text": "Intermarch\u00e9 - Wanty",
+      "value": "1490"
+    },
+    {
+      "text": "Lidl - Trek",
+      "value": "1258"
+    },
+    {
+      "text": "Movistar Team",
+      "value": "2040"
+    },
+    {
+      "text": "Red Bull - BORA - hansgrohe",
+      "value": "1411"
+    },
+    {
+      "text": "Soudal Quick-Step",
+      "value": "1328"
+    },
+    {
+      "text": "Team Jayco AlUla",
+      "value": "1207"
+    },
+    {
+      "text": "Team Picnic PostNL",
+      "value": "1360"
+    },
+    {
+      "text": "Team Visma | Lease a Bike",
+      "value": "1330"
+    },
+    {
+      "text": "UAE Team Emirates - XRG",
+      "value": "1253"
+    },
+    {
+      "text": "XDS Astana Team",
+      "value": "1261"
+    },
+    {
+      "text": "Burgos Burpellet BH",
+      "value": "1109"
+    },
+    {
+      "text": "Caja Rural - Seguros RGA",
+      "value": "1111"
+    },
+    {
+      "text": "Equipo Kern Pharma",
+      "value": "7807"
+    },
+    {
+      "text": "Euskaltel - Euskadi",
+      "value": "4831"
+    },
+    {
+      "text": "Israel - Premier Tech",
+      "value": "2738"
+    },
+    {
+      "text": "Lotto",
+      "value": "2088"
+    },
+    {
+      "text": "Q36.5 Pro Cycling Team",
+      "value": "1293"
+    },
+    {
+      "text": "Team Flanders - Baloise",
+      "value": "1453"
+    },
+    {
+      "text": "Team Novo Nordisk",
+      "value": "1430"
+    },
+    {
+      "text": "Team Polti VisitMalta",
+      "value": "4723"
+    },
+    {
+      "text": "Team Solution Tech - Vini Fantini",
+      "value": "9468"
+    },
+    {
+      "text": "Team TotalEnergies",
+      "value": "1175"
+    },
+    {
+      "text": "Tudor Pro Cycling Team",
+      "value": "5649"
+    },
+    {
+      "text": "Unibet Tietema Rockets",
+      "value": "10407"
+    },
+    {
+      "text": "Uno-X Mobility",
+      "value": "1420"
+    },
+    {
+      "text": "VF Group - Bardiani CSF - Faizan\u00e8",
+      "value": "3345"
+    },
+    {
+      "text": "Wagner Bazin WB",
+      "value": "1482"
+    },
+    {
+      "text": "7Eleven Cliqq Roadbike Philippines",
+      "value": "1797"
+    },
+    {
+      "text": "Adria Mobil",
+      "value": "1058"
+    },
+    {
+      "text": "Agadir V\u00e9lo Propulsion",
+      "value": "57624"
+    },
+    {
+      "text": "AIRTOX - Carl Ras",
+      "value": "7967"
+    },
+    {
+      "text": "Aisan Racing Team",
+      "value": "1062"
+    },
+    {
+      "text": "Albiono Pro Cycling",
+      "value": "12222"
+    },
+    {
+      "text": "Almaty",
+      "value": "4928"
+    },
+    {
+      "text": "Alpecin-Deceuninck Development Team",
+      "value": "8393"
+    },
+    {
+      "text": "Anicolor / Tien 21",
+      "value": "1089"
+    },
+    {
+      "text": "APHotels & Resorts / Tavira / SC Farense",
+      "value": "4518"
+    },
+    {
+      "text": "ARB\u00d6 K\u00e4rnten Sport Feld am See",
+      "value": "8951"
+    },
+    {
+      "text": "Ark\u00e9a - B&B H\u00f4tels Continentale",
+      "value": "11574"
+    },
+    {
+      "text": "Art Cycling Team",
+      "value": "57764"
+    },
+    {
+      "text": "ASC Monsters Indonesia",
+      "value": "9648"
+    },
+    {
+      "text": "Atom 6 Bikes - Decca Continental Team",
+      "value": "57601"
+    },
+    {
+      "text": "ATT Investments",
+      "value": "6458"
+    },
+    {
+      "text": "AVC Aix Provence Dole",
+      "value": "57571"
+    },
+    {
+      "text": "Aviludo - Louletano - Loul\u00e9",
+      "value": "1121"
+    },
+    {
+      "text": "Bahrain Victorious Development Team",
+      "value": "6076"
+    },
+    {
+      "text": "Baloise Glowi Lions",
+      "value": "1440"
+    },
+    {
+      "text": "BEAT Cycling Club",
+      "value": "4861"
+    },
+    {
+      "text": "Beltrami TSA Tre Colli",
+      "value": "3588"
+    },
+    {
+      "text": "Benotti Berthold",
+      "value": "4051"
+    },
+    {
+      "text": "BHS - PL Beton Bornholm",
+      "value": "2708"
+    },
+    {
+      "text": "Biesse - Carrera - Premac",
+      "value": "3783"
+    },
+    {
+      "text": "BIKE AID",
+      "value": "2405"
+    },
+    {
+      "text": "Bodywrap LTwoo Cycling Team",
+      "value": "9489"
+    },
+    {
+      "text": "Bourg-en-Bresse Ain Cyclisme",
+      "value": "3500"
+    },
+    {
+      "text": "Camp Cycling Team",
+      "value": "57851"
+    },
+    {
+      "text": "Canel's - Java",
+      "value": "1718"
+    },
+    {
+      "text": "CCACHE x BODYWRAP",
+      "value": "3444"
+    },
+    {
+      "text": "Chengdu DYC Cycling Team",
+      "value": "11928"
+    },
+    {
+      "text": "China Anta - Mentech Cycling Team",
+      "value": "9469"
+    },
+    {
+      "text": "China Glory - Mentech Continental Cycling Team",
+      "value": "9469"
+    },
+    {
+      "text": "CIC - U - Nantes",
+      "value": "2121"
+    },
+    {
+      "text": "Credibom / LA Alum\u00ednios / Marcos Car",
+      "value": "1250"
+    },
+    {
+      "text": "Decathlon AG2R La Mondiale Development Team",
+      "value": "6033"
+    },
+    {
+      "text": "Deschacht - Hens - FSP",
+      "value": "9893"
+    },
+    {
+      "text": "Development Team Picnic PostNL",
+      "value": "3831"
+    },
+    {
+      "text": "Diftar Continental Cyclingteam",
+      "value": "8989"
+    },
+    {
+      "text": "Dukla Banska Bystrica",
+      "value": "1165"
+    },
+    {
+      "text": "EF Education - Aevolo",
+      "value": "3901"
+    },
+    {
+      "text": "Efapel Cycling",
+      "value": "9198"
+    },
+    {
+      "text": "Elkov - Kasper",
+      "value": "1325"
+    },
+    {
+      "text": "Energus Cycling Team",
+      "value": "12364"
+    },
+    {
+      "text": "Epronex - Hungary Cycling Team",
+      "value": "4530"
+    },
+    {
+      "text": "Equipe continentale Groupama-FDJ",
+      "value": "5638"
+    },
+    {
+      "text": "EuroCyclingTrips - CCN",
+      "value": "6187"
+    },
+    {
+      "text": "Factor Racing",
+      "value": "1352"
+    },
+    {
+      "text": "FEIRENSE - BEECELER",
+      "value": "4860"
+    },
+    {
+      "text": "FNIX - SCOM - Hengxiang Cycling Team",
+      "value": "1213"
+    },
+    {
+      "text": "Gapyeong Cycling Team",
+      "value": "3904"
+    },
+    {
+      "text": "General Store - Essegibi - F.Lli Curia",
+      "value": "6075"
+    },
+    {
+      "text": "Geumsan Insam Cello",
+      "value": "1200"
+    },
+    {
+      "text": "GI Group Holding - Simoldes - UDO",
+      "value": "2151"
+    },
+    {
+      "text": "Giant Cycling Team",
+      "value": "2427"
+    },
+    {
+      "text": "Go For Gold Philippines",
+      "value": "4359"
+    },
+    {
+      "text": "Gragnano Sporting Club",
+      "value": "2696"
+    },
+    {
+      "text": "Grant Thornton Cycling Team",
+      "value": "7839"
+    },
+    {
+      "text": "GW Erco Shimano",
+      "value": "2925"
+    },
+    {
+      "text": "Hagens Berman Jayco",
+      "value": "1458"
+    },
+    {
+      "text": "HKSI Pro Cycling Team",
+      "value": "2454"
+    },
+    {
+      "text": "Hrinkow Advarics",
+      "value": "2745"
+    },
+    {
+      "text": "Huansheng - Vonoa - Taishan Sport Team",
+      "value": "11743"
+    },
+    {
+      "text": "Hustle Pro Cycling",
+      "value": "7138"
+    },
+    {
+      "text": "Illes Balears Arabay",
+      "value": "12333"
+    },
+    {
+      "text": "Israel Premier Tech Academy",
+      "value": "6694"
+    },
+    {
+      "text": "Istanbul B\u00fcy\u00fck\u0219ehir Belediye Spor T\u00fcrkiye",
+      "value": "10477"
+    },
+    {
+      "text": "Jakarta Pro Cycling Team",
+      "value": "10619"
+    },
+    {
+      "text": "Java - Inovotec Pro Team",
+      "value": "11988"
+    },
+    {
+      "text": "JCL Team UKYO",
+      "value": "1773"
+    },
+    {
+      "text": "Karcag Cycling \u00c9PKAR Team",
+      "value": "12338"
+    },
+    {
+      "text": "Kinan Racing Team",
+      "value": "2737"
+    },
+    {
+      "text": "Konya B\u00fcy\u00fck\u015fehir Belediye Spor",
+      "value": "9521"
+    },
+    {
+      "text": "KSPO Professional",
+      "value": "1245"
+    },
+    {
+      "text": "Li Ning Star",
+      "value": "6843"
+    },
+    {
+      "text": "Lidl - Trek Future Racing",
+      "value": "11685"
+    },
+    {
+      "text": "Lillehammer CK Continental Team",
+      "value": "7775"
+    },
+    {
+      "text": "Lotto Development Team",
+      "value": "1944"
+    },
+    {
+      "text": "Lucky Sport Cycling Team",
+      "value": "57595"
+    },
+    {
+      "text": "LX Cycling Team",
+      "value": "3061"
+    },
+    {
+      "text": "Madar Pro Cycling Team",
+      "value": "10734"
+    },
+    {
+      "text": "Malaysia Pro Cycling",
+      "value": "3933"
+    },
+    {
+      "text": "Manas - Apex",
+      "value": "57766"
+    },
+    {
+      "text": "Matrix Powertag",
+      "value": "1273"
+    },
+    {
+      "text": "May Stars",
+      "value": "9670"
+    },
+    {
+      "text": "Mazowsze Serce Polski",
+      "value": "3934"
+    },
+    {
+      "text": "MBH Bank Ballan CSB",
+      "value": "2214"
+    },
+    {
+      "text": "MENtoRISE Teem CCN",
+      "value": "9490"
+    },
+    {
+      "text": "Metec - SOLARWATT p/b Mantel",
+      "value": "1268"
+    },
+    {
+      "text": "Mg.K Vis Costruzioni e Ambiente",
+      "value": "2735"
+    },
+    {
+      "text": "MitoQ - NZ Cycling Project",
+      "value": "6839"
+    },
+    {
+      "text": "Monogo Lubelskie Per\u0142a Polski",
+      "value": "11053"
+    },
+    {
+      "text": "Monzon - Incolor - Gub",
+      "value": "4912"
+    },
+    {
+      "text": "Motala AIF Continental",
+      "value": "9448"
+    },
+    {
+      "text": "Movistar Best PC",
+      "value": "7157"
+    },
+    {
+      "text": "MYVELO Pro Cycling Team",
+      "value": "12188"
+    },
+    {
+      "text": "Nice M\u00e9tropole C\u00f4te d'Azur",
+      "value": "8850"
+    },
+    {
+      "text": "Nu Colombia",
+      "value": "1463"
+    },
+    {
+      "text": "Nusantara - BYC",
+      "value": "10618"
+    },
+    {
+      "text": "OU7 Cycling Team",
+      "value": "9492"
+    },
+    {
+      "text": "Pardus Cycling Team",
+      "value": "8398"
+    },
+    {
+      "text": "Parkhotel Valkenburg",
+      "value": "2364"
+    },
+    {
+      "text": "Petrolike",
+      "value": "10003"
+    },
+    {
+      "text": "Pierre Baguette Cycling",
+      "value": "9708"
+    },
+    {
+      "text": "Pingtan International Tourism Island Cycling Team",
+      "value": "5650"
+    },
+    {
+      "text": "P\u00edo Rico Cycling Team",
+      "value": "8836"
+    },
+    {
+      "text": "Plus Performance - Solutos",
+      "value": "12268"
+    },
+    {
+      "text": "Pogi Team Gusto Ljubljana",
+      "value": "1333"
+    },
+    {
+      "text": "Project Echelon Racing",
+      "value": "4079"
+    },
+    {
+      "text": "Quick Pro Team",
+      "value": "9467"
+    },
+    {
+      "text": "R\u00e1dio Popular - Paredes - Boavista",
+      "value": "1270"
+    },
+    {
+      "text": "Red Bull - BORA - hansgrohe Rookies",
+      "value": "13429"
+    },
+    {
+      "text": "REMBE | rad-net",
+      "value": "3032"
+    },
+    {
+      "text": "Roojai Insurance",
+      "value": "6754"
+    },
+    {
+      "text": "Run & Race - Wibatech",
+      "value": "1774"
+    },
+    {
+      "text": "S.C. Padovani Polo Cherry Bank",
+      "value": "9731"
+    },
+    {
+      "text": "Sahand Pump Tabriz Crown",
+      "value": "6859"
+    },
+    {
+      "text": "Sam - Vitalcare - Dynatek",
+      "value": "6456"
+    },
+    {
+      "text": "Seoul Cycling Team",
+      "value": "1355"
+    },
+    {
+      "text": "Shenzhen Kung Cycling Team",
+      "value": "10596"
+    },
+    {
+      "text": "Shenzhen Xidesheng Cycling Team",
+      "value": "1642"
+    },
+    {
+      "text": "Shimano Racing",
+      "value": "1357"
+    },
+    {
+      "text": "Sidi Ali - Unlock Team",
+      "value": "6819"
+    },
+    {
+      "text": "Soudal Quick-Step Devo Team",
+      "value": "4980"
+    },
+    {
+      "text": "Sparkle Oita Racing Team",
+      "value": "8911"
+    },
+    {
+      "text": "Spor Toto Cycling Team",
+      "value": "6722"
+    },
+    {
+      "text": "St George Continental Cycling Team",
+      "value": "3053"
+    },
+    {
+      "text": "St Michel - Preference Home - Auber93",
+      "value": "1096"
+    },
+    {
+      "text": "Standard Insurance PHI",
+      "value": "5108"
+    },
+    {
+      "text": "SuezCanalDiscovery",
+      "value": "10592"
+    },
+    {
+      "text": "Swift Pro Cycling ",
+      "value": "9491"
+    },
+    {
+      "text": "Tarteletto - Isorex",
+      "value": "1644"
+    },
+    {
+      "text": "Tavfer-Ovos Matinados-Mort\u00e1gua",
+      "value": "4882"
+    },
+    {
+      "text": "Team Amani",
+      "value": "57582"
+    },
+    {
+      "text": "Team Bridgestone Cycling",
+      "value": "1378"
+    },
+    {
+      "text": "Team ColoQuick",
+      "value": "1383"
+    },
+    {
+      "text": "Team Coop - Repsol",
+      "value": "1363"
+    },
+    {
+      "text": "Team Give Steel - 2M Cycling Elite",
+      "value": "11098"
+    },
+    {
+      "text": "Team Lotto Kern-Haus PSD Bank",
+      "value": "2663"
+    },
+    {
+      "text": "Team Medell\u00edn - EPM",
+      "value": "3925"
+    },
+    {
+      "text": "Team Novo Nordisk Development",
+      "value": "2417"
+    },
+    {
+      "text": "Team Sistecredito",
+      "value": "9202"
+    },
+    {
+      "text": "Team Skyline",
+      "value": "5651"
+    },
+    {
+      "text": "Team Storck - Metropol Cycling",
+      "value": "9109"
+    },
+    {
+      "text": "Team Technipes #inEmiliaRomagna",
+      "value": "7753"
+    },
+    {
+      "text": "Team United Shipping",
+      "value": "57464"
+    },
+    {
+      "text": "Team Vino - North Qazaqstan Region",
+      "value": "2422"
+    },
+    {
+      "text": "Team Visma | Lease a Bike Development",
+      "value": "6016"
+    },
+    {
+      "text": "Team Vorarlberg",
+      "value": "1436"
+    },
+    {
+      "text": "Terengganu Cycling Team",
+      "value": "1443"
+    },
+    {
+      "text": "Thailand Continental Cycling Team",
+      "value": "3928"
+    },
+    {
+      "text": "The Hurricane & Thunder Cycling Team",
+      "value": "9494"
+    },
+    {
+      "text": "Tianyoude Hotel Cycling Team",
+      "value": "1653"
+    },
+    {
+      "text": "Tirol KTM Cycling Team",
+      "value": "1461"
+    },
+    {
+      "text": "Tommi's Radltankstelle Team",
+      "value": "57784"
+    },
+    {
+      "text": "Tudor Pro Cycling Team U23",
+      "value": "10356"
+    },
+    {
+      "text": "TUFO - Pardus Prost\u011bjov",
+      "value": "2170"
+    },
+    {
+      "text": "UAE Team Emirates Gen Z",
+      "value": "11634"
+    },
+    {
+      "text": "UC Trevigiani - Energiapura Marchiol",
+      "value": "8856"
+    },
+    {
+      "text": "UijeongBu Cycling Team",
+      "value": "4953"
+    },
+    {
+      "text": "Ukraine Cycling Team",
+      "value": "58180"
+    },
+    {
+      "text": "Universe Cycling Team",
+      "value": "10460"
+    },
+    {
+      "text": "Utsunomiya Blitzen",
+      "value": "1101"
+    },
+    {
+      "text": "Van Rysel Roubaix",
+      "value": "1346"
+    },
+    {
+      "text": "VC Fukuoka",
+      "value": "9253"
+    },
+    {
+      "text": "V\u00e9lo Club Villefranche Beaujolais",
+      "value": "3497"
+    },
+    {
+      "text": "Veloce Club Rouen 76",
+      "value": "3180"
+    },
+    {
+      "text": "Vend\u00e9e U Pays de la Loire",
+      "value": "1941"
+    },
+    {
+      "text": "Victoire Hiroshima",
+      "value": "6844"
+    },
+    {
+      "text": "Victoria Sports Pro Cycling",
+      "value": "10446"
+    },
+    {
+      "text": "VolkerWessels Cycling Team",
+      "value": "5693"
+    },
+    {
+      "text": "Voster ATS Team",
+      "value": "3512"
+    },
+    {
+      "text": "Vride",
+      "value": "57801"
+    },
+    {
+      "text": "Wanty - Nippo - ReUz ",
+      "value": "10055"
+    },
+    {
+      "text": "WSA KTM Graz",
+      "value": "5760"
+    },
+    {
+      "text": "Wuzhishan SCOM MVMT Cycling Team",
+      "value": "10591"
+    },
+    {
+      "text": "XDS Astana Development Team",
+      "value": "9295"
+    },
+    {
+      "text": "XSpeed United Continental",
+      "value": "5642"
+    }
+  ],
+  "teams_wins_ranking": null
+}
