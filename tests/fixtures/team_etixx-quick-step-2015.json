@@ -4,113 +4,114 @@
   "history_select": [
     {
       "text": "2028 | Soudal Quick-Step",
-      "value": "team/soudal-quick-step-2028/statistics/start-v3"
+      "value": "team/soudal-quick-step-2028/overview/start"
     },
     {
       "text": "2027 | Soudal Quick-Step",
-      "value": "team/soudal-quick-step-2027/statistics/start-v3"
+      "value": "team/soudal-quick-step-2027/overview/start"
     },
     {
       "text": "2026 | Soudal Quick-Step",
-      "value": "team/soudal-quick-step-2026/statistics/start-v3"
+      "value": "team/soudal-quick-step-2026/overview/start"
     },
     {
       "text": "2025 | Soudal Quick-Step",
-      "value": "team/soudal-quick-step-2025/statistics/start-v3"
+      "value": "team/soudal-quick-step-2025/overview/start"
     },
     {
       "text": "2024 | Soudal Quick-Step",
-      "value": "team/soudal-quick-step-2024/statistics/start-v3"
+      "value": "team/soudal-quick-step-2024/overview/start"
     },
     {
       "text": "2023 | Soudal Quick-Step",
-      "value": "team/soudal-quick-step-2023/statistics/start-v3"
+      "value": "team/soudal-quick-step-2023/overview/start"
     },
     {
       "text": "2022 | Quick-Step Alpha Vinyl Team",
-      "value": "team/quick-step-alpha-vinyl-2022/statistics/start-v3"
+      "value": "team/quick-step-alpha-vinyl-2022/overview/start"
     },
     {
       "text": "2021 | Deceuninck - Quick Step",
-      "value": "team/deceuninck-quick-step-2021/statistics/start-v3"
+      "value": "team/deceuninck-quick-step-2021/overview/start"
     },
     {
       "text": "2020 | Deceuninck - Quick Step",
-      "value": "team/deceuninck-quick-step-2020/statistics/start-v3"
+      "value": "team/deceuninck-quick-step-2020/overview/start"
     },
     {
       "text": "2019 | Deceuninck - Quick Step",
-      "value": "team/deceuninck-quick-step-2019/statistics/start-v3"
+      "value": "team/deceuninck-quick-step-2019/overview/start"
     },
     {
       "text": "2018 | Quick-Step Floors",
-      "value": "team/quick-step-floors-2018/statistics/start-v3"
+      "value": "team/quick-step-floors-2018/overview/start"
     },
     {
       "text": "2017 | Quick-Step Floors",
-      "value": "team/quick-step-floors-2017/statistics/start-v3"
+      "value": "team/quick-step-floors-2017/overview/start"
     },
     {
       "text": "2016 | Etixx - Quick Step",
-      "value": "team/etixx-quick-step-2016/statistics/start-v3"
+      "value": "team/etixx-quick-step-2016/overview/start"
     },
     {
       "text": "2015 | Etixx - Quick Step",
-      "value": "team/etixx-quick-step-2015/statistics/start-v3"
+      "value": "team/etixx-quick-step-2015/overview/start"
     },
     {
       "text": "2014 | Omega Pharma - Quick-Step",
-      "value": "team/omega-pharma-quick-step-2014/statistics/start-v3"
+      "value": "team/omega-pharma-quick-step-2014/overview/start"
     },
     {
       "text": "2013 | Omega Pharma - Quick-Step",
-      "value": "team/omega-pharma-quick-step-2013/statistics/start-v3"
+      "value": "team/omega-pharma-quick-step-2013/overview/start"
     },
     {
       "text": "2012 | Omega Pharma - Quick-Step",
-      "value": "team/omega-pharma-quick-step-2012/statistics/start-v3"
+      "value": "team/omega-pharma-quick-step-2012/overview/start"
     },
     {
       "text": "2011 | Quickstep Cycling Team",
-      "value": "team/quickstep-cycling-team-2011/statistics/start-v3"
+      "value": "team/quickstep-cycling-team-2011/overview/start"
     },
     {
       "text": "2010 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2010/statistics/start-v3"
+      "value": "team/quickstep-innergetic-2010/overview/start"
     },
     {
       "text": "2009 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2009/statistics/start-v3"
+      "value": "team/quickstep-innergetic-2009/overview/start"
     },
     {
       "text": "2008 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2008/statistics/start-v3"
+      "value": "team/quickstep-innergetic-2008/overview/start"
     },
     {
       "text": "2007 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2007/statistics/start-v3"
+      "value": "team/quickstep-innergetic-2007/overview/start"
     },
     {
       "text": "2006 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2006/statistics/start-v3"
+      "value": "team/quickstep-innergetic-2006/overview/start"
     },
     {
       "text": "2005 | Quickstep - Innergetic",
-      "value": "team/quickstep-innergetic-2005/statistics/start-v3"
+      "value": "team/quickstep-innergetic-2005/overview/start"
     },
     {
       "text": "2004 | Quickstep - Davitamon",
-      "value": "team/quickstep-davitamon-2004/statistics/start-v3"
+      "value": "team/quickstep-davitamon-2004/overview/start"
     },
     {
       "text": "2003 | Quickstep - Davitamon",
-      "value": "team/quickstep-davitamon-2003/statistics/start-v3"
+      "value": "team/quickstep-davitamon-2003/overview/start"
     }
   ],
+  "license_country": "Belgium",
   "name": "Etixx - Quick Step",
   "nationality": "BE",
-  "pcs_points": 11853,
-  "pcs_ranking_position": 3,
+  "pcs_points": 11719,
+  "pcs_ranking_position": 2,
   "riders": [
     {
       "rider_url": "rider/tom-boonen",
@@ -127,8 +128,8 @@
       "rider_url": "rider/mark-cavendish",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 457,
-      "ranking_position": 125,
+      "ranking_points": 0,
+      "ranking_position": null,
       "age": 30,
       "nationality": "GB",
       "rider_name": "CAVENDISH Mark",
@@ -138,12 +139,12 @@
       "rider_url": "rider/julian-alaphilippe",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 66,
-      "ranking_position": 747,
+      "ranking_points": 52,
+      "ranking_position": 780,
       "age": 23,
       "nationality": "FR",
       "rider_name": "ALAPHILIPPE Julian",
-      "career_points": 13170
+      "career_points": 13715
     },
     {
       "rider_url": "rider/rigoberto-uran",
@@ -160,12 +161,12 @@
       "rider_url": "rider/michal-kwiatkowski",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 330,
-      "ranking_position": 196,
+      "ranking_points": 295,
+      "ranking_position": 221,
       "age": 25,
       "nationality": "PL",
       "rider_name": "KWIATKOWSKI Micha\u0142",
-      "career_points": 11398
+      "career_points": 11508
     },
     {
       "rider_url": "rider/tony-martin",
@@ -182,12 +183,12 @@
       "rider_url": "rider/matteo-trentin",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 88,
-      "ranking_position": 602,
+      "ranking_points": 110,
+      "ranking_position": 512,
       "age": 25,
       "nationality": "IT",
       "rider_name": "TRENTIN Matteo",
-      "career_points": 9423
+      "career_points": 9769
     },
     {
       "rider_url": "rider/niki-terpstra",
@@ -204,12 +205,12 @@
       "rider_url": "rider/yves-lampaert",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 521,
-      "ranking_position": 102,
+      "ranking_points": 439,
+      "ranking_position": 134,
       "age": 24,
       "nationality": "BE",
       "rider_name": "LAMPAERT Yves",
-      "career_points": 6593
+      "career_points": 6650
     },
     {
       "rider_url": "rider/zdenek-stybar",
@@ -226,34 +227,34 @@
       "rider_url": "rider/fernando-gaviria",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 311,
-      "ranking_position": 213,
+      "ranking_points": 527,
+      "ranking_position": 104,
       "age": 20,
       "nationality": "CO",
       "rider_name": "GAVIRIA Fernando",
-      "career_points": 6046
+      "career_points": 6099
     },
     {
       "rider_url": "rider/gianluca-brambilla",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 554,
-      "ranking_position": 93,
+      "ranking_points": 577,
+      "ranking_position": 89,
       "age": 27,
       "nationality": "IT",
       "rider_name": "BRAMBILLA Gianluca",
-      "career_points": 4193
+      "career_points": 4277
     },
     {
       "rider_url": "rider/david-de-la-cruz",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 256,
-      "ranking_position": 258,
+      "ranking_points": 189,
+      "ranking_position": 338,
       "age": 26,
       "nationality": "ES",
       "rider_name": "DE LA CRUZ David",
-      "career_points": 3854
+      "career_points": 3963
     },
     {
       "rider_url": "rider/gianni-meersman",
@@ -289,26 +290,26 @@
       "career_points": 2762
     },
     {
+      "rider_url": "rider/carlos-verona",
+      "since": "01-01",
+      "until": "12-31",
+      "ranking_points": 366,
+      "ranking_position": 166,
+      "age": 22,
+      "nationality": "ES",
+      "rider_name": "VERONA Carlos",
+      "career_points": 2490
+    },
+    {
       "rider_url": "rider/pieter-serry",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 981,
-      "ranking_position": 33,
+      "ranking_points": 1097,
+      "ranking_position": 25,
       "age": 26,
       "nationality": "BE",
       "rider_name": "SERRY Pieter",
       "career_points": 2468
-    },
-    {
-      "rider_url": "rider/carlos-verona",
-      "since": "01-01",
-      "until": "12-31",
-      "ranking_points": 280,
-      "ranking_position": 237,
-      "age": 22,
-      "nationality": "ES",
-      "rider_name": "VERONA Carlos",
-      "career_points": 2441
     },
     {
       "rider_url": "rider/petr-vakoc",
@@ -358,12 +359,12 @@
       "rider_url": "rider/julien-vermote",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 804,
-      "ranking_position": 50,
+      "ranking_points": 890,
+      "ranking_position": 40,
       "age": 25,
       "nationality": "BE",
       "rider_name": "VERMOTE Julien",
-      "career_points": 1640
+      "career_points": 1650
     },
     {
       "rider_url": "rider/fabio-sabatini",
@@ -402,8 +403,8 @@
       "rider_url": "rider/lukasz-wisniowski",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 1347,
-      "ranking_position": 15,
+      "ranking_points": 0,
+      "ranking_position": null,
       "age": 23,
       "nationality": "PL",
       "rider_name": "WI\u015aNIOWSKI \u0141ukasz",
@@ -424,15 +425,15 @@
       "rider_url": "rider/rodrigo-contreras",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 544,
+      "ranking_points": 551,
       "ranking_position": 96,
       "age": 21,
       "nationality": "CO",
       "rider_name": "CONTRERAS Rodrigo",
-      "career_points": 825
+      "career_points": 860
     }
   ],
   "status": "WT",
-  "uci_ranking_position": null,
+  "uci_ranking_position": 0,
   "wins_count": 54
 }
