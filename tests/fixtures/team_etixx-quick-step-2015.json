@@ -3,6 +3,10 @@
   "bike": "Specialized",
   "history_select": [
     {
+      "text": "2029 | Soudal Quick-Step",
+      "value": "team/soudal-quick-step-2029/overview/start"
+    },
+    {
       "text": "2028 | Soudal Quick-Step",
       "value": "team/soudal-quick-step-2028/overview/start"
     },
@@ -139,12 +143,12 @@
       "rider_url": "rider/julian-alaphilippe",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 52,
-      "ranking_position": 780,
+      "ranking_points": 56,
+      "ranking_position": 746,
       "age": 23,
       "nationality": "FR",
       "rider_name": "ALAPHILIPPE Julian",
-      "career_points": 13715
+      "career_points": 13719
     },
     {
       "rider_url": "rider/rigoberto-uran",
@@ -161,12 +165,12 @@
       "rider_url": "rider/michal-kwiatkowski",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 295,
-      "ranking_position": 221,
+      "ranking_points": 427,
+      "ranking_position": 141,
       "age": 25,
       "nationality": "PL",
       "rider_name": "KWIATKOWSKI Micha\u0142",
-      "career_points": 11508
+      "career_points": 11523
     },
     {
       "rider_url": "rider/tony-martin",
@@ -183,12 +187,12 @@
       "rider_url": "rider/matteo-trentin",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 110,
-      "ranking_position": 512,
+      "ranking_points": 91,
+      "ranking_position": 578,
       "age": 25,
       "nationality": "IT",
       "rider_name": "TRENTIN Matteo",
-      "career_points": 9769
+      "career_points": 9809
     },
     {
       "rider_url": "rider/niki-terpstra",
@@ -205,12 +209,12 @@
       "rider_url": "rider/yves-lampaert",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 439,
+      "ranking_points": 445,
       "ranking_position": 134,
       "age": 24,
       "nationality": "BE",
       "rider_name": "LAMPAERT Yves",
-      "career_points": 6650
+      "career_points": 6655
     },
     {
       "rider_url": "rider/zdenek-stybar",
@@ -227,18 +231,18 @@
       "rider_url": "rider/fernando-gaviria",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 527,
-      "ranking_position": 104,
+      "ranking_points": 529,
+      "ranking_position": 103,
       "age": 20,
       "nationality": "CO",
       "rider_name": "GAVIRIA Fernando",
-      "career_points": 6099
+      "career_points": 6142
     },
     {
       "rider_url": "rider/gianluca-brambilla",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 577,
+      "ranking_points": 588,
       "ranking_position": 89,
       "age": 27,
       "nationality": "IT",
@@ -249,8 +253,8 @@
       "rider_url": "rider/david-de-la-cruz",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 189,
-      "ranking_position": 338,
+      "ranking_points": 216,
+      "ranking_position": 313,
       "age": 26,
       "nationality": "ES",
       "rider_name": "DE LA CRUZ David",
@@ -293,7 +297,7 @@
       "rider_url": "rider/carlos-verona",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 366,
+      "ranking_points": 382,
       "ranking_position": 166,
       "age": 22,
       "nationality": "ES",
@@ -304,8 +308,8 @@
       "rider_url": "rider/pieter-serry",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 1097,
-      "ranking_position": 25,
+      "ranking_points": 1369,
+      "ranking_position": 15,
       "age": 26,
       "nationality": "BE",
       "rider_name": "SERRY Pieter",
@@ -359,8 +363,8 @@
       "rider_url": "rider/julien-vermote",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 890,
-      "ranking_position": 40,
+      "ranking_points": 974,
+      "ranking_position": 35,
       "age": 25,
       "nationality": "BE",
       "rider_name": "VERMOTE Julien",
@@ -425,15 +429,15 @@
       "rider_url": "rider/rodrigo-contreras",
       "since": "01-01",
       "until": "12-31",
-      "ranking_points": 551,
-      "ranking_position": 96,
+      "ranking_points": 541,
+      "ranking_position": 100,
       "age": 21,
       "nationality": "CO",
       "rider_name": "CONTRERAS Rodrigo",
-      "career_points": 860
+      "career_points": 868
     }
   ],
   "status": "WT",
-  "uci_ranking_position": 0,
+  "uci_ranking_position": null,
   "wins_count": 54
 }

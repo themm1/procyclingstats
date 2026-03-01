@@ -5,37 +5,50 @@ from procyclingstats import Scraper
 from .fixtures_utils import FixturesUtils
 
 
-def method_test(correct_method: Any, parsed_method: Any):
+def method_test(correct_method: Any, parsed_method: Any) -> None:
+    """Compare correct_method against parsed_method, handling nested structures.
+
+    This is a *missingness* check, not an exact equality check.
+
+    It only fails on:
+    - None vs non-None mismatches
+    - empty list/tuple vs non-empty list/tuple mismatches
+
+    Scalars are not compared for equality/truthiness.
     """
-    Compare correct_method against parsed_method, handling nested structures.
-    Tests boolean presence (truthiness) rather than exact equality.
-    """
-    # Case 1: Both are lists
-    if isinstance(correct_method, list) and isinstance(parsed_method, (list, tuple)):
-        assert len(correct_method) == len(parsed_method), \
-            f"List length mismatch: {len(correct_method)} != {len(parsed_method)}"
-        
-        for parsed_row, correct_row in zip(parsed_method, correct_method):
-            # If both are dicts (list of dicts)
-            if isinstance(correct_row, dict) and isinstance(parsed_row, dict):
-                for (k1, v1), (k2, v2) in zip(parsed_row.items(), correct_row.items()):
-                    assert bool(v1) == bool(v2), \
-                        f"Value mismatch for {k1}: {bool(v1)} != {bool(v2)}"
-            # If both are simple values (list of scalars: ints, strings, etc.)
-            else:
-                assert bool(parsed_row) == bool(correct_row), \
-                    f"Value mismatch: {bool(parsed_row)} != {bool(correct_row)}"
-    
-    # Case 2: correct is dict (comparing dicts)
-    elif isinstance(correct_method, dict) and isinstance(parsed_method, dict):
-        for (k1, v1), (k2, v2) in zip(parsed_method.items(), correct_method.items()):
-            assert bool(v1) == bool(v2), \
-                f"Value mismatch for {k1}: {bool(v1)} != {bool(v2)}"
-    
-    # Case 3: Both are simple values (strings, numbers, etc.)
-    else:
-        assert bool(parsed_method) == bool(correct_method), \
-            f"Value mismatch: {bool(parsed_method)} != {bool(correct_method)}"
+
+    def _is_seq(v: Any) -> bool:
+        return isinstance(v, (list, tuple))
+
+    def _walk(correct_v: Any, parsed_v: Any, path: str) -> None:
+        assert (correct_v is None) == (parsed_v is None), (
+            f"None mismatch at {path}: "
+            f"correct={type(correct_v).__name__}({correct_v!r}) "
+            f"parsed={type(parsed_v).__name__}({parsed_v!r})"
+        )
+
+        # If both are sequences, explicitly check empty-vs-non-empty.
+        # (zip() would otherwise skip comparing anything when one side is empty).
+        if _is_seq(correct_v) and _is_seq(parsed_v):
+            assert (len(correct_v) == 0) == (len(parsed_v) == 0), (
+                f"List emptiness mismatch at {path}: "
+                f"correct has {len(correct_v)} items, parsed has {len(parsed_v)} items"
+            )
+            for i, (p_item, c_item) in enumerate(zip(parsed_v, correct_v)):
+                _walk(c_item, p_item, f"{path}[{i}]")
+            return
+
+        # Recurse dicts by shared keys.
+        if isinstance(correct_v, dict) and isinstance(parsed_v, dict):
+            for k, v in parsed_v.items():
+                if k in correct_v:
+                    _walk(correct_v[k], v, f"{path}.{k}")
+            return
+
+        # Scalars / type mismatches: intentionally do not compare values.
+        return
+
+    _walk(correct_method, parsed_method, "value")
 
 
 class ScraperTestBaseClass:

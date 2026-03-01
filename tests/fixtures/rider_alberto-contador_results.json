@@ -35,6 +35,34 @@
     {
       "text": "ME + WE",
       "value": "8"
+    },
+    {
+      "text": "MJ + WJ",
+      "value": "9"
+    },
+    {
+      "text": "MU17",
+      "value": "10"
+    },
+    {
+      "text": "WU17",
+      "value": "11"
+    },
+    {
+      "text": "MU17 - 2nd years",
+      "value": "22"
+    },
+    {
+      "text": "MU17 - 1st years",
+      "value": "21"
+    },
+    {
+      "text": "WU17 - 1st years",
+      "value": "23"
+    },
+    {
+      "text": "WU17 - 2nd years",
+      "value": "24"
     }
   ],
   "final_n_km_results": null,
@@ -50,6 +78,10 @@
     {
       "text": "Algeria",
       "value": "dz"
+    },
+    {
+      "text": "Andorra",
+      "value": "ad"
     },
     {
       "text": "Angola",
@@ -136,7 +168,7 @@
       "value": "cu"
     },
     {
-      "text": "Curacao",
+      "text": "Cura\u00e7ao",
       "value": "cw"
     },
     {
@@ -416,7 +448,7 @@
       "value": "tn"
     },
     {
-      "text": "Turkey",
+      "text": "T\u00fcrkiye",
       "value": "tr"
     },
     {
@@ -448,7 +480,56 @@
       "value": "ve"
     }
   ],
-  "pages_select": [],
+  "pages_select": [
+    {
+      "text": "1-100",
+      "value": "0"
+    },
+    {
+      "text": "101-200",
+      "value": "100"
+    },
+    {
+      "text": "201-300",
+      "value": "200"
+    },
+    {
+      "text": "301-400",
+      "value": "300"
+    },
+    {
+      "text": "401-500",
+      "value": "400"
+    },
+    {
+      "text": "501-600",
+      "value": "500"
+    },
+    {
+      "text": "601-700",
+      "value": "600"
+    },
+    {
+      "text": "701-800",
+      "value": "700"
+    },
+    {
+      "text": "801-900",
+      "value": "800"
+    },
+    {
+      "text": "901-1000",
+      "value": "900"
+    },
+    {
+      "text": "1001-1100",
+      "value": "1000"
+    },
+    {
+      "text": "1101-1177",
+      "value": "1100"
+    }
+  ],
   "races_select": [
     {
       "text": "-",
@@ -491,6 +572,10 @@
       "value": "3540"
     },
     {
+      "text": "Crit\u00e9rium du Dauphin\u00e9",
+      "value": "1034"
+    },
+    {
       "text": "Crit\u00e9rium du Dauphin\u00e9 Lib\u00e9r\u00e9",
       "value": "1034"
     },
@@ -507,11 +592,11 @@
       "value": "1054"
     },
     {
-      "text": "European Championships U23 - ITT",
+      "text": "European Continental Championships MU - ITT",
       "value": "7253"
     },
     {
-      "text": "European Championships U23 - Road Race",
+      "text": "European Continental Championships MU - Road Race",
       "value": "1786"
     },
     {
@@ -535,16 +620,12 @@
       "value": "1048"
     },
     {
-      "text": "GP Villafranca de Ordizia",
-      "value": "1678"
-    },
-    {
       "text": "Gran Premio Bruno Beghelli",
       "value": "1229"
     },
     {
       "text": "Gran Premio Miguel Indurain",
-      "value": "1073"
+      "value": "4486"
     },
     {
       "text": "Grand Prix Cycliste de Montr\u00e9al",
@@ -555,11 +636,19 @@
       "value": "1055"
     },
     {
+      "text": "Il Lombardia",
+      "value": "1026"
+    },
+    {
       "text": "Jacob's Creek Tour Down Under",
       "value": "1066"
     },
     {
       "text": "Klasika Primavera",
+      "value": "1165"
+    },
+    {
+      "text": "Klasika Primavera de Amorebieta",
       "value": "1165"
     },
     {
@@ -579,27 +668,27 @@
       "value": "1080"
     },
     {
-      "text": "National Championships Spain - ITT",
+      "text": "National Championships Spain ME - ITT",
       "value": "1488"
     },
     {
-      "text": "National Championships Spain - Road Race",
+      "text": "National Championships Spain ME - Road Race",
       "value": "1483"
     },
     {
-      "text": "National Championships Spain U23 - ITT",
+      "text": "National Championships Spain MU - ITT",
       "value": "2127"
     },
     {
-      "text": "National Championships Spain U23 - Road Race",
+      "text": "National Championships Spain MU - Road Race",
       "value": "2128"
     },
     {
-      "text": "Olympic Games - ITT",
+      "text": "Olympic Games ME - ITT",
       "value": "1068"
     },
     {
-      "text": "Olympic Games Road Race",
+      "text": "Olympic Games ME - Road Race",
       "value": "1053"
     },
     {
@@ -611,6 +700,10 @@
       "value": "1058"
     },
     {
+      "text": "Prueba Villafranca de Ordizia",
+      "value": "1678"
+    },
+    {
       "text": "Route du Sud Cycliste - La D\u00e9p\u00eache du Midi",
       "value": "1230"
     },
@@ -619,7 +712,7 @@
       "value": "1403"
     },
     {
-      "text": "Setmana-Catalana",
+      "text": "Setmana Catalana",
       "value": "1711"
     },
     {
@@ -660,11 +753,19 @@
     },
     {
       "text": "Trofeo Alcudia",
-      "value": "1719"
+      "value": "12732"
     },
     {
       "text": "Trofeo Cala: Cala Bona - Cala Rajada",
-      "value": "1509"
+      "value": "2555"
+    },
+    {
+      "text": "Trofeo Cala: Cala Millor - Son Servera",
+      "value": "2555"
+    },
+    {
+      "text": "Trofeo Calvia",
+      "value": "3319"
     },
     {
       "text": "Trofeo Luis Puig",
@@ -676,15 +777,15 @@
     },
     {
       "text": "Trofeo Manacor",
-      "value": "3320"
+      "value": "1509"
     },
     {
       "text": "Trofeo Pollen\u00e7a",
-      "value": "2555"
+      "value": "12732"
     },
     {
       "text": "Trofeo S\u00f3ller",
-      "value": "3316"
+      "value": "1130"
     },
     {
       "text": "Urkiola Igoera - Subida Urkiola",
@@ -692,6 +793,10 @@
     },
     {
       "text": "Volta ao Algarve",
+      "value": "1251"
+    },
+    {
+      "text": "Volta ao Algarve em Bicicleta",
       "value": "1251"
     },
     {
@@ -735,6 +840,10 @@
       "value": "1522"
     },
     {
+      "text": "Vuelta Ciclista al Pa\u00eds Vasco",
+      "value": "1060"
+    },
+    {
       "text": "World Championships ME - ITT",
       "value": "1062"
     },
@@ -743,7 +852,7 @@
       "value": "1021"
     },
     {
-      "text": "World Championships U23 - ITT",
+      "text": "World Championships MU - ITT",
       "value": "1698"
     }
   ],
@@ -774,7 +883,7 @@
       "date": "2017-09-10",
       "rank": 5,
       "stage_url": "race/vuelta-a-espana/2017/gc",
-      "stage_name": "Vuelta a Espa\u00f1a",
+      "stage_name": "Vuelta a Espa\u00f1a | General classification",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": null,
@@ -1038,7 +1147,7 @@
       "date": "2017-07-23",
       "rank": 9,
       "stage_url": "race/tour-de-france/2017/gc",
-      "stage_name": "Tour de France",
+      "stage_name": "Tour de France | General classification",
       "nationality": "FR",
       "class": "2.UWT",
       "distance": null,
@@ -1302,7 +1411,7 @@
       "date": "2017-06-11",
       "rank": 11,
       "stage_url": "race/dauphine/2017/gc",
-      "stage_name": "Crit\u00e9rium du Dauphin\u00e9",
+      "stage_name": "Crit\u00e9rium du Dauphin\u00e9 | General classification",
       "nationality": "FR",
       "class": "2.UWT",
       "distance": null,
@@ -1423,7 +1532,7 @@
       "date": "2017-04-08",
       "rank": 2,
       "stage_url": "race/itzulia-basque-country/2017/gc",
-      "stage_name": "Vuelta al Pa\u00eds Vasco",
+      "stage_name": "Vuelta al Pa\u00eds Vasco | General classification",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": null,
@@ -1511,7 +1620,7 @@
       "date": "2017-03-26",
       "rank": 2,
       "stage_url": "race/volta-a-catalunya/2017/gc",
-      "stage_name": "Volta Ciclista a Catalunya",
+      "stage_name": "Volta Ciclista a Catalunya | General classification",
       "nationality": "ES",
       "class": "2.UWT",
       "distance": null,
@@ -1621,7 +1730,7 @@
       "date": "2017-03-12",
       "rank": 2,
       "stage_url": "race/paris-nice/2017/gc",
-      "stage_name": "Paris - Nice",
+      "stage_name": "Paris - Nice | General classification",
       "nationality": "FR",
       "class": "2.UWT",
       "distance": null,
@@ -1720,7 +1829,7 @@
       "date": "2017-02-26",
       "rank": 15,
       "stage_url": "race/abu-dhabi-tour/2017/gc",
-      "stage_name": "Abu Dhabi Tour",
+      "stage_name": "Abu Dhabi Tour | General classification",
       "nationality": "AE",
       "class": "2.UWT",
       "distance": null,
@@ -1797,7 +1906,7 @@
       "date": "2017-02-19",
       "rank": 2,
       "stage_url": "race/ruta-del-sol/2017/gc",
-      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol",
+      "stage_name": "Vuelta a Andalucia Ruta Ciclista Del Sol | General classification",
       "nationality": "ES",
       "class": "2.HC",
       "distance": null,
