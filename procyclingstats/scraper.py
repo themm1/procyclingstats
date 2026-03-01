@@ -1,14 +1,36 @@
 import inspect
+import time
 from typing import Any, Callable, Dict, List, Optional, Tuple, Type
 
 import requests
 from selectolax.parser import HTMLParser
+
+# Try to import cloudscraper to bypass Cloudflare
+try:
+    import cloudscraper
+    HAS_CLOUDSCRAPER = True
+except ImportError:
+    HAS_CLOUDSCRAPER = False
 
 from .errors import ExpectedParsingError
 
 class Scraper:
     """Base class for all scraping classes."""
     BASE_URL: str = "https://www.procyclingstats.com/"
+    
+    # Headers to mimic a real browser and avoid being blocked by anti-scraping measures
+    DEFAULT_HEADERS = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+    }
+
+    # Shared session to maintain cookies
+    _session = None
+    _scraper = None  # cloudscraper instance
 
     _public_nonparsing_methods = (
         "update_html",
@@ -80,13 +102,68 @@ class Scraper:
         """
         return "/".join(self._url.split("/")[3:])
 
+    @classmethod
+    def _get_session(cls):
+        """
+        Obtain or create a session to make requests.
+        Use cloudscraper if available to bypass Cloudflare.
+        """
+        if HAS_CLOUDSCRAPER:
+            if cls._scraper is None:
+                cls._scraper = cloudscraper.create_scraper(
+                    browser={
+                        'browser': 'chrome',
+                        'platform': 'windows',
+                        'desktop': True
+                    }
+                )
+            return cls._scraper
+        else:
+            if cls._session is None:
+                cls._session = requests.Session()
+                cls._session.headers.update(cls.DEFAULT_HEADERS)
+            return cls._session
+
+    def _make_request(self, url: str) -> str:
+        """
+        Make a request with error handling and retry.
+
+        :param url: URL to make the request to.
+        :return: HTML as string.
+        """
+        session = self._get_session()
+        max_retries = 3
+        
+        for attempt in range(max_retries):
+            try:
+                response = session.get(url, timeout=30)
+
+                # Check if it's a Cloudflare challenge page
+                if 'Just a moment' in response.text or response.status_code == 403:
+                    if attempt < max_retries - 1:
+                        time.sleep(2 ** attempt)  # Exponential backoff
+                        continue
+                    else:
+                        raise ConnectionError(
+                            f"Cloudflare protection detected. Install 'cloudscraper': pip install cloudscraper"
+                        )
+                
+                return response.text
+                
+            except requests.RequestException as e:
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)
+                    continue
+                raise ConnectionError(f"Failed to fetch {url}: {e}")
+        
+        return ""
+
     def update_html(self) -> None:
         """
         Calls request to `self.url` and updates `self.html` to HTMLParser
         object created from returned HTML.
         """
-        html_str = requests.get(self._url).text \
-            # pylint: disable=missing-timeout
+        html_str = self._make_request(self._url)
         self._html = HTMLParser(html_str)
 
     def fetch_html(self, url: str) -> HTMLParser:
@@ -96,7 +173,7 @@ class Scraper:
         :param url: URL to fetch HTML from.
         :return: HTMLParser object created from fetched HTML.
         """
-        html_str = requests.get(url).text
+        html_str = self._make_request(url)
         return HTMLParser(html_str)
     
     def parse(self,
