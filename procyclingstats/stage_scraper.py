@@ -156,8 +156,8 @@ class Stage(Scraper):
         Parses race startlist quality score from HTML.
 
         :return: Tuple of race startlist quality scores. The first element is
-        race startlist quality score at the beginning of the race and
-        the second one is quality score after current stage.
+            race startlist quality score at the beginning of the race and
+            the second one is quality score after current stage.
         """
         scores_str = self._stage_info_by_label("Startlist quality score")
         if len(scores_str.split()) == 1:

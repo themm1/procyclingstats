@@ -82,4 +82,11 @@ Team
    :show-inheritance:
 
 
+TodayRaces
+----------------------------------
+
+.. autoclass:: procyclingstats.today_races_scraper.TodayRaces
+   :members:
+   :undoc-members:
+   :show-inheritance:
 
