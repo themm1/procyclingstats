@@ -8,7 +8,8 @@ from tabulate import tabulate
 # imports all scraping classes that are listed in `scraper_classes` tuple and
 # Scraper class
 from .__init__ import (Race, RaceClimbs, RaceStartlist, Ranking, Rider,
-                       RiderResults, Scraper, Stage, Team, RaceCombativeRiders)
+                       RiderResults, Scraper, Stage, Team, RaceCombativeRiders,
+                       TodayRaces)
 
 scraper_classes = (
     Race,
@@ -19,7 +20,8 @@ scraper_classes = (
     Team,
     RiderResults,
     RaceClimbs,
-    RaceCombativeRiders
+    RaceCombativeRiders,
+    TodayRaces
 )
 
 def configure_parser():
@@ -47,6 +49,8 @@ def get_corresponding_scraping_class(relative_url: str) -> Any:
     :return: Scraping class for the URL. None when not found.
     """
     splitted_url = relative_url.split("/")
+    if relative_url == "" or relative_url == "index.php" or relative_url == "index.php/":
+        return TodayRaces
     if "comative-riders" in splitted_url or "combative-riders" in splitted_url:
         return RaceCombativeRiders
     if (splitted_url[0] == "rider" and "results" in splitted_url) or \
