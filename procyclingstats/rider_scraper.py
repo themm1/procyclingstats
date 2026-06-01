@@ -205,6 +205,44 @@ class Rider(Scraper):
         table_parser.parse(fields)
         return table_parser.table
 
+    _SOCIAL_MEDIA_URL_PATTERNS = {
+        "x.com": "x",
+        "twitter.com": "x",
+        "strava.com": "strava",
+        "instagram.com": "instagram",
+        "facebook.com": "facebook",
+        "wikipedia.org": "wikipedia",
+    }
+
+    def social_media(self) -> Dict[str, str]:
+        """
+        Parses rider's social media links from HTML. Uses URL content and
+        link text to identify platforms, making it resilient to HTML structure
+        changes.
+
+        :return: Dict mapping social media platform names to their URLs.
+            Possible keys: x, strava, instagram, facebook, wikipedia, website.
+        """
+        try:
+            content_node = self._get_rider_content_node()
+            result: Dict[str, str] = {}
+            for a_tag in content_node.css("a[target='_blank']"):
+                url = a_tag.attributes.get('href', '').strip()
+                if not url:
+                    continue
+                url_lower = url.lower()
+                # Identify platform from URL domain patterns
+                platform = None
+                for domain, name in self._SOCIAL_MEDIA_URL_PATTERNS.items():
+                    if domain in url_lower:
+                        platform = name
+                        break
+                if platform and platform not in result:
+                    result[platform] = url
+            return result
+        except Exception:
+            return {}
+
     def points_per_speciality(self) -> Dict[str, int]:
         """
         Parses rider's points per specialty from HTML.
