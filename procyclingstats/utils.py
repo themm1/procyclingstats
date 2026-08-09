@@ -190,6 +190,9 @@ def join_tables(table1: List[Dict[str, Any]],
             table.append({**table2_dict[row[join_key]], **row})
     return table
 
+OPT_IN_FIELDS = ("removed_rank",)
+
+
 def parse_table_fields_args(args: Tuple[str],
                             available_fields: Tuple[str, ...]) -> List[str]:
     """
@@ -202,7 +205,7 @@ def parse_table_fields_args(args: Tuple[str],
     fields.
     """
     for arg in args:
-        if arg not in available_fields:
+        if arg not in available_fields and arg not in OPT_IN_FIELDS:
             raise ValueError("Invalid field argument")
     if args:
         return list(args)

@@ -73,6 +73,7 @@ class TableParser:
 
         :fields options for tables with a header:
             - rank
+            - removed_rank
             - status
             - prev_rank
             - pcs_points
@@ -357,6 +358,30 @@ class TableParser:
             try:
                 return self.parse_extra_column(column_name,
                     lambda x: int(x) if x.isnumeric() else None)
+            except ValueError:
+                pass
+        raise ValueError("Rank column wasn't found.")
+
+    def removed_rank(self) -> List[Optional[int]]:
+        """Parses rank values for results that have been removed (struck
+        through). Returns the rank as int if removed, None otherwise."""
+        possible_columns = ["Rnk", "pos", "Result", "#"]
+        for column_name in possible_columns:
+            try:
+                index = self._get_column_index_from_header(column_name)
+                elements = self.html_table.css(
+                    f"{self.table_row_tag} > {self.row_column_tag}"
+                    f":nth-child({index + 1})")
+                results = []
+                for e in elements:
+                    s_tag = e.css_first("s")
+                    if s_tag:
+                        cleaned = s_tag.text().replace('\xa0', '').strip()
+                        results.append(
+                            int(cleaned) if cleaned.isnumeric() else None)
+                    else:
+                        results.append(None)
+                return results
             except ValueError:
                 pass
         raise ValueError("Rank column wasn't found.")

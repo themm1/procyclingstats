@@ -366,6 +366,8 @@ class Stage(Scraper):
             - team_name:
             - team_url:
             - rank: Rider's result in the stage.
+            - removed_rank: Original rank of a removed/disqualified rider.
+                Opt-in field: only returned when explicitly requested.
             - status: ``DF``, ``DNF``, ``DNS``, ``OTL`` or ``DSQ``.
             - age: Rider's age.
             - nationality: Rider's nationality as 2 chars long country code.
@@ -466,6 +468,8 @@ class Stage(Scraper):
             - team_name:
             - team_url:
             - rank: Rider's GC rank after the stage.
+            - removed_rank: Original rank of a removed/disqualified rider.
+                Opt-in field: only returned when explicitly requested.
             - prev_rank: Rider's GC rank before the stage.
             - age: Rider's age.
             - nationality: Rider's nationality as 2 chars long country code.
@@ -515,6 +519,8 @@ class Stage(Scraper):
             - team_name:
             - team_url:
             - rank: Rider's points classif. rank after the stage.
+            - removed_rank: Original rank of a removed/disqualified rider.
+                Opt-in field: only returned when explicitly requested.
             - prev_rank: Rider's points classif. rank before the stage.
             - points: Rider's points classif. points after the stage.
             - age: Rider's age.
@@ -562,6 +568,8 @@ class Stage(Scraper):
             - team_name:
             - team_url:
             - rank: Rider's KOM classif. rank after the stage.
+            - removed_rank: Original rank of a removed/disqualified rider.
+                Opt-in field: only returned when explicitly requested.
             - prev_rank: Rider's KOM classif. rank before the stage.
             - points: Rider's KOM points after the stage.
             - age: Rider's age.
@@ -609,6 +617,8 @@ class Stage(Scraper):
             - team_name:
             - team_url:
             - rank: Rider's youth classif. rank after the stage.
+            - removed_rank: Original rank of a removed/disqualified rider.
+                Opt-in field: only returned when explicitly requested.
             - prev_rank: Rider's youth classif. rank before the stage.
             - time: Rider's GC time after the stage.
             - age: Rider's age.
@@ -652,6 +662,8 @@ class Stage(Scraper):
             - team_name:
             - team_url:
             - rank: Teams's classif. rank after the stage.
+            - removed_rank: Original rank of a removed/disqualified team.
+                Opt-in field: only returned when explicitly requested.
             - prev_rank: Team's classif. rank before the stage.
             - time: Team's total GC time after the stage.
             - nationality: Team's nationality as 2 chars long country code.

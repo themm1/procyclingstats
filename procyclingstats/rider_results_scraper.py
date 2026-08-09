@@ -89,6 +89,8 @@ class RiderResults(Scraper):
             - nationality: Nationality of the stage race.
             - date: Date when the stage occured in ``YYYY-MM-DD`` format.
             - rank: Rider's result in the stage.
+            - removed_rank: Original rank of a removed/disqualified rider.
+                Opt-in field: only returned when explicitly requested.
             - class: Class of the stage's race, e.g. ``2.UWT``.
             - pcs_points:
             - uci_points:
@@ -133,6 +135,8 @@ class RiderResults(Scraper):
             - nationality: Nationality of the stage race.
             - date: Date when the stage occured in ``YYYY-MM-DD`` format.
             - rank: Rider's result in the stage.
+            - removed_rank: Original rank of a removed/disqualified rider.
+                Opt-in field: only returned when explicitly requested.
             - class: Class of the stage's race, e.g. ``2.UWT``.
             - vertical_meters: Vertical meters gained in final n KMs.
             - average_percentage: Average percentage of last n KMs.
