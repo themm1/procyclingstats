@@ -18,6 +18,7 @@ setup(
         " sports-analytics",
     install_requires=[
         "requests",
-        "selectolax"
+        # selectolax 1.0 removed the Modest backend (selectolax.parser)
+        "selectolax<1.0"
     ],
 )
